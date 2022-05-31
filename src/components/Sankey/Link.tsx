@@ -7,76 +7,26 @@ import { SourceTargetIdLinksDict } from './Sankey';
 import { useState } from 'react';
 import { link } from 'fs';
 import { setOriginalNode } from 'typescript';
-
-export const LinkGrayColor: FC = () => (
-    <linearGradient id="grayLinkColor">
-        <stop offset="100%" stopColor={'hsl(10, 0%, 85%)'} />
-        <stop offset="100%" stopColor={'hsl(10, 0%, 85%)'} />
-    </linearGradient>
-);
-
-export const LinkDarkGrayColor: FC = () => (
-    <linearGradient id="grayDarkLinkColor">
-        <stop offset="100%" stopColor={'hsl(10, 0%, 50%)'} />
-        <stop offset="100%" stopColor={'hsl(10, 0%, 50%)'} />
-    </linearGradient>
-);
-
-export const LinkBlackColor: FC = () => (
-    <linearGradient id="blackLinkColor">
-        <stop offset="100%" stopColor={'hsl(10, 0%, 80%)'} />
-        <stop offset="100%" stopColor={'hsl(10, 0%, 80%)'} />
-    </linearGradient>
-);
-
-export const LinkBlueColor: FC = () => (
-    <linearGradient id="blueLinkColor">
-        <stop offset="100%" stopColor={'hsl(210, 80%, 55%)'} />
-        <stop offset="100%" stopColor={'hsl(210, 80%, 55%)'} />
-    </linearGradient>
-);
-
-export const LinkDeepBlueColor: FC = () => (
-    <linearGradient id="blueLightLinkColor">
-        <stop offset="100%" stopColor={'hsl(210, 80%, 77%)'} />
-        <stop offset="100%" stopColor={'hsl(210, 80%, 77%)'} />
-    </linearGradient>
-);
-
-export const LinkGreenColor: FC = () => (
-    <linearGradient id="greenLinkColor">
-        <stop offset="100%" stopColor={'hsl(110, 50%, 55%)'} />
-        <stop offset="100%" stopColor={'hsl(110, 50%, 55%)'} />
-    </linearGradient>
-);
-
-export const LinkLightGreenColor: FC = () => (
-    <linearGradient id="greenLightLinkColor">
-        <stop offset="100%" stopColor={'hsl(110, 50%, 60%)'} />
-        <stop offset="100%" stopColor={'hsl(110, 50%, 60%)'} />
-    </linearGradient>
-);
-
-export const LinkOrangeColor: FC = () => (
-    <linearGradient id="orangeLinkColor">
-        <stop offset="100%" stopColor={'hsl(37, 100%, 44%)'} />
-        <stop offset="100%" stopColor={'hsl(37, 100%, 44%)'} />
-    </linearGradient>
-);
-
-export const LinkRubyColor: FC = () => (
-    <linearGradient id="rubyLinkColor">
-        <stop offset="100%" stopColor={'hsl(353, 86%, 38%)'} />
-        <stop offset="100%" stopColor={'hsl(353, 86%, 38%)'} />
-    </linearGradient>
-);
-
-export const LinkRedColor: FC = () => (
-    <linearGradient id="redLinkColor">
-        <stop offset="100%" stopColor={'hsl(0, 60%, 55%)'} />
-        <stop offset="100%" stopColor={'hsl(0, 60%, 55%))'} />
-    </linearGradient>
-);
+import {
+    LinkGrayColor,
+    LinkDarkGrayColor,
+    LinkBlackColor,
+    LinkBlueColor,
+    LinkDeepBlueColor,
+    LinkGreenColor,
+    LinkLightGreenColor,
+    LinkOrangeColor,
+    LinkRubyColor,
+    LinkRedColor,
+    LinkTargetColor,
+    LinkIntOneColor,
+    LinkIntTwoColor,
+    LinkIntThreeColor,
+    LinkIntFourColor,
+    LinkIntFiveColor,
+    LinkRepVisVarColor,
+    LinkRepVisTechColor,
+} from './SankeyColor';
 
 // Props
 interface Props {
@@ -135,6 +85,36 @@ export const Link = ({ link, originData, sourceTargetIdLinksDict, setOriginData 
                                 renderingLink.valueid = 'selected';
                                 renderingLink.status = 'selected';
                             }
+                            // if ((30 < link.target && link.target < 39) || (30 < link.source && link.source < 39)) {
+                            //     renderingLink.color = 'intOneLinkColor';
+                            //     renderingLink.valueid = 'selected';
+                            //     renderingLink.status = 'selected';
+                            // } else if ((38 < link.target && link.target < 41) || (38 < link.source && link.source < 41)) {
+                            //     renderingLink.color = 'intTwoLinkColor';
+                            //     renderingLink.valueid = 'selected';
+                            //     renderingLink.status = 'selected';
+                            // } else if ((40 < link.target && link.target < 45) || (40 < link.source && link.source < 45)) {
+                            //     renderingLink.color = 'intThreeLinkColor';
+                            //     renderingLink.valueid = 'selected';
+                            //     renderingLink.status = 'selected';
+                            // } else if ((44 < link.target && link.target < 46) || (44 < link.source && link.source < 46)) {
+                            //     renderingLink.color = 'intFourLinkColor';
+                            //     renderingLink.valueid = 'selected';
+                            //     renderingLink.status = 'selected';
+                            // } else if ((45 < link.target && link.target < 50) || (45 < link.source && link.source < 50)) {
+                            //     renderingLink.color = 'intFiveLinkColor';
+                            //     renderingLink.valueid = 'selected';
+                            //     renderingLink.status = 'selected';
+                            // }
+                            // if (renderingLink.target >= 76 && renderingLink.target < 83) renderingLink.color = 'repVisVarColor';
+                            // renderingLink.valueid = 'selected';
+                            // renderingLink.status = 'selected';
+                            // if (renderingLink.target > 82 && renderingLink.target < 100) renderingLink.color = 'repVisTechColor';
+                            // renderingLink.valueid = 'selected';
+                            // renderingLink.status = 'selected';
+                            // if (renderingLink.source >= 100) renderingLink.color = 'targetLinkColor'; //색상 변경 필요하면 변경.
+                            // renderingLink.valueid = 'selected';
+                            // renderingLink.status = 'selected';
                         });
                     });
 

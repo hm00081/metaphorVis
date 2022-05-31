@@ -2,7 +2,27 @@
 import { SankeyData, SankeyNode, SankeyLink, SankeyStatus, SankeyNodeExtended, SankeyLinkExtended } from '../../types/sankey';
 import { useState, useEffect } from 'react';
 // Components
-import { Link, LinkBlueColor, LinkGrayColor, LinkGreenColor, LinkRedColor, LinkDeepBlueColor, LinkLightGreenColor, LinkRubyColor, LinkOrangeColor } from './Link';
+import {
+    LinkGrayColor,
+    LinkDarkGrayColor,
+    LinkBlackColor,
+    LinkBlueColor,
+    LinkDeepBlueColor,
+    LinkGreenColor,
+    LinkLightGreenColor,
+    LinkOrangeColor,
+    LinkRubyColor,
+    LinkRedColor,
+    LinkTargetColor,
+    LinkIntOneColor,
+    LinkIntTwoColor,
+    LinkIntThreeColor,
+    LinkIntFourColor,
+    LinkIntFiveColor,
+    LinkRepVisVarColor,
+    LinkRepVisTechColor,
+} from './SankeyColor';
+import { Link } from './Link';
 import { Node } from './Node';
 import './Sankey.css';
 // Utils
@@ -13,7 +33,7 @@ import './sandbox-styles.css';
 import styled from 'styled-components';
 import { Papers } from '../../data/AllPaperData';
 import { couldStartTrivia } from 'typescript';
-import { GridColumns } from '@visx/grid';
+// import { GridColumns } from '@visx/grid';
 
 const Links = styled.path``;
 
@@ -118,6 +138,14 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
             <LinkOrangeColor />
             <LinkRubyColor />
             <LinkRedColor />
+            <LinkTargetColor />
+            <LinkIntOneColor />
+            <LinkIntTwoColor />
+            <LinkIntThreeColor />
+            <LinkIntFourColor />
+            <LinkIntFiveColor />
+            <LinkRepVisVarColor />
+            <LinkRepVisTechColor />
             {/* {columns.map((column, i) => (
                 // <Text>{column}</Text>
                 <text x={(width / columns.length) * i + width / columns.length / 2} y={height * 0.02} textAnchor="middle">
