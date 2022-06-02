@@ -52,6 +52,8 @@ import { MLG06 } from './MLG06';
 import { FA20 } from './FA20';
 import { WHWS12 } from './WHWS12';
 import { FZC18 } from './FZC18';
+import { ASTC06 } from './ASTC06';
+import { DJM12 } from './DJM12';
 import { SankeyLink, SankeyLinkExtended } from '../types';
 
 import { link } from 'fs';
@@ -128,6 +130,8 @@ const PaperString = [
     FA20.links,
     WHWS12.links,
     FZC18.links,
+    ASTC06.links,
+    DJM12.links,
 ];
 
 const Papers = [
@@ -185,6 +189,8 @@ const Papers = [
     ZLW13,
     WHWS12,
     FZC18,
+    ASTC06,
+    DJM12,
 ];
 
 //@ts-ignore

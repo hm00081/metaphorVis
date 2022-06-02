@@ -40,6 +40,7 @@ export type SankeyLink = SankeyLinkMinimal & {
     category?: string;
     id?: string;
 };
+
 export type LinkColor =
     | 'grayLinkColor'
     | 'grayDarkLinkColor'
@@ -50,7 +51,15 @@ export type LinkColor =
     | 'redLinkColor'
     | 'orangeLinkColor'
     | 'rubyLinkColor'
-    | 'blackLinkColor';
+    | 'blackLinkColor'
+    | 'targetLinkColor'
+    | 'intOneLinkColor'
+    | 'intTwoLinkColor'
+    | 'intThreeLinkColor'
+    | 'intFourLinkColor'
+    | 'intFiveLinkColor'
+    | 'repVisVarColor'
+    | 'repVisTechColor';
 
 export type SankeyNodeExtended = SankeyNode & {
     index: number;

@@ -2,8 +2,8 @@ import { FC } from 'react';
 
 const LinkGrayColor: FC = () => (
     <linearGradient id="grayLinkColor">
-        <stop offset="100%" stopColor={'hsl(10, 0%, 85%)'} />
-        <stop offset="100%" stopColor={'hsl(10, 0%, 85%)'} />
+        <stop offset="100%" stopColor={'hsl(10, 0%, 80%)'} />
+        <stop offset="100%" stopColor={'hsl(10, 0%, 80%)'} />
     </linearGradient>
 );
 
@@ -23,8 +23,8 @@ const LinkBlackColor: FC = () => (
 
 const LinkBlueColor: FC = () => (
     <linearGradient id="blueLinkColor">
-        <stop offset="100%" stopColor={'hsl(210, 80%, 55%)'} />
-        <stop offset="100%" stopColor={'hsl(210, 80%, 55%)'} />
+        <stop offset="100%" stopColor={'hsl(210, 80%, 40%)'} />
+        <stop offset="100%" stopColor={'hsl(210, 80%, 40%)'} />
     </linearGradient>
 );
 
@@ -37,8 +37,8 @@ const LinkDeepBlueColor: FC = () => (
 
 const LinkGreenColor: FC = () => (
     <linearGradient id="greenLinkColor">
-        <stop offset="100%" stopColor={'hsl(110, 50%, 55%)'} />
-        <stop offset="100%" stopColor={'hsl(110, 50%, 55%)'} />
+        <stop offset="100%" stopColor={'hsl(110, 50%, 40%)'} />
+        <stop offset="100%" stopColor={'hsl(110, 50%, 40%)'} />
     </linearGradient>
 );
 
@@ -65,8 +65,8 @@ const LinkRubyColor: FC = () => (
 
 const LinkRedColor: FC = () => (
     <linearGradient id="redLinkColor">
-        <stop offset="100%" stopColor={'hsl(0, 60%, 55%)'} />
-        <stop offset="100%" stopColor={'hsl(0, 60%, 55%))'} />
+        <stop offset="100%" stopColor={'hsl(0, 60%, 40%)'} />
+        <stop offset="100%" stopColor={'hsl(0, 60%, 40%))'} />
     </linearGradient>
 );
 
@@ -114,15 +114,15 @@ const LinkIntFiveColor: FC = () => (
 
 const LinkRepVisVarColor: FC = () => (
     <linearGradient id="repVisVarColor">
-        <stop offset="100%" stopColor={'hsl(158, 32%, 55%)'} />
-        <stop offset="100%" stopColor={'hsl(158, 32%, 55%)'} />
+        <stop offset="100%" stopColor={'hsl(158, 32%, 40%)'} />
+        <stop offset="100%" stopColor={'hsl(158, 32%, 40%)'} />
     </linearGradient>
 );
 
 const LinkRepVisTechColor: FC = () => (
     <linearGradient id="repVisTechColor">
-        <stop offset="100%" stopColor={'hsl(22, 73%, 55%)'} />
-        <stop offset="100%" stopColor={'hsl(22, 73%, 55%))'} />
+        <stop offset="100%" stopColor={'hsl(22, 73%, 40%)'} />
+        <stop offset="100%" stopColor={'hsl(22, 73%, 40%))'} />
     </linearGradient>
 );
 
