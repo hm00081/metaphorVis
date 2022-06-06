@@ -8,13 +8,13 @@ const GGS12ST: SankeyData = {
             source: 108,
             target: 3,
             value: 1,
-            valueid: 'repea',
+            valueid: ['repea', 'targetbb'],
         }, // a[0]
         {
             source: 108,
             target: 12,
             value: 1,
-            valueid: 'repeb',
+            valueid: ['repeb', 'targetbb'],
         }, // a[1]
         {
             source: 108,
@@ -25,25 +25,25 @@ const GGS12ST: SankeyData = {
             source: 3,
             target: 45,
             value: 1,
-            valueid: 'repea',
+            valueid: ['repea', 'targetbb'],
         }, // a[0]
         {
             source: 12,
             target: 42,
             value: 1,
-            valueid: 'repeb',
+            valueid: ['repeb', 'targetbb'],
         }, // a[1]
         {
             source: 12,
             target: 45,
             value: 1,
-            valueid: 'repeb',
+            valueid: ['repeb', 'targetbb'],
         }, // a[2]
         {
             source: 12,
             target: 48,
             value: 1,
-            valueid: 'repeb',
+            valueid: ['repeb', 'targetbb'],
         }, // a[3]
         {
             source: 23,
@@ -54,19 +54,19 @@ const GGS12ST: SankeyData = {
             source: 42,
             target: 59,
             value: 1,
-            valueid: 'repeb',
+            valueid: ['repeb', 'targetbb'],
         }, // a[5]
         {
             source: 45,
             target: 59,
             value: 1,
-            valueid: 'repea',
+            valueid: ['repea', 'targetbb'],
         }, // a[6]
         {
             source: 45,
             target: 59,
             value: 1,
-            valueid: 'repeb',
+            valueid: ['repeb', 'targetbb'],
         }, // a[6]
         {
             source: 46,
@@ -77,19 +77,19 @@ const GGS12ST: SankeyData = {
             source: 48,
             target: 59,
             value: 1,
-            valueid: 'repeb',
+            valueid: ['repeb', 'targetbb'],
         }, // a[8]
         {
             source: 59,
             target: 77,
             value: 1,
-            valueid: 'repea',
+            valueid: ['repea', 'targetbb'],
         }, // a[9]
         {
             source: 59,
             target: 77,
             value: 1,
-            valueid: 'repeb',
+            valueid: ['repeb', 'targetbb'],
         }, // a[9]
         {
             source: 75,

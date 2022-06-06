@@ -48,7 +48,7 @@ const FZC18: SankeyData = {
         {
             source: 153,
             target: 23,
-            value: 1,
+            value: 2,
         },
         {
             source: 153,
@@ -153,7 +153,6 @@ const FZC18: SankeyData = {
             source: 49,
             target: 73,
             value: 1,
-            valueid: 'repf',
         },
         {
             source: 73,
@@ -178,13 +177,7 @@ const FZC18: SankeyData = {
         {
             source: 73,
             target: 98,
-            value: 1,
-            valueid: 'repf',
-        },
-        {
-            source: 73,
-            target: 98,
-            value: 1,
+            value: 2,
         },
         {
             source: 23,
@@ -193,14 +186,13 @@ const FZC18: SankeyData = {
             valueid: 'repf',
         },
         {
-            source: 49,
-            target: 60,
+            source: 23,
+            target: 49,
             value: 1,
-            valueid: 'repf',
         },
         {
-            source: 60,
-            target: 98,
+            source: 49,
+            target: 60,
             value: 1,
             valueid: 'repf',
         },

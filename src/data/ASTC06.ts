@@ -68,6 +68,16 @@ const ASTC06: SankeyData = {
             source: 14,
             target: 49,
             value: 1,
+        },
+        {
+            source: 15,
+            target: 49,
+            value: 1,
+        },
+        {
+            source: 14,
+            target: 49,
+            value: 1,
             valueid: 'repeb',
         },
         {
@@ -89,6 +99,11 @@ const ASTC06: SankeyData = {
             valueid: 'repeb',
         },
         {
+            source: 24,
+            target: 46,
+            value: 1,
+        },
+        {
             source: 43,
             target: 59,
             value: 1,
@@ -104,7 +119,6 @@ const ASTC06: SankeyData = {
             source: 49,
             target: 56,
             value: 1,
-            valueid: 'repeb',
         },
         {
             source: 49,
@@ -116,7 +130,6 @@ const ASTC06: SankeyData = {
             source: 46,
             target: 56,
             value: 1,
-            valueid: 'repeb',
         },
         {
             source: 46,
@@ -152,19 +165,16 @@ const ASTC06: SankeyData = {
             source: 56,
             target: 77,
             value: 2,
-            valueid: 'repeb',
         },
         {
             source: 56,
             target: 83,
             value: 2,
-            valueid: 'repeb',
         },
         {
             source: 56,
             target: 98,
             value: 2,
-            valueid: 'repeb',
         },
         {
             source: 70,

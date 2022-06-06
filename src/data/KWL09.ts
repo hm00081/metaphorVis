@@ -66,7 +66,7 @@ const KWL09: SankeyData = {
         },
         {
             source: 59,
-            target: 91,
+            target: 95,
             value: 1,
             valueid: 'repeb',
         },
