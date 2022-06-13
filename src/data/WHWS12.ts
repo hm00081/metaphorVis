@@ -9,421 +9,490 @@ const WHWS12: SankeyData = {
             target: 0,
             value: 1,
             valueid: ['repf', 'targetba'],
+            process: 'WHWS12_1',
         },
         {
             source: 152,
             target: 0,
             value: 1,
             valueid: ['repf', 'targetba'],
+            process: 'WHWS12_3',
         },
         {
             source: 152,
             target: 0,
             value: 1,
             valueid: 'targetba',
+            process: 'WHWS12_2',
         },
         {
             source: 152,
             target: 3,
             value: 1,
             valueid: ['repf', 'targetba'],
+            process: 'WHWS12_1',
         },
         {
             source: 152,
             target: 3,
             value: 1,
             valueid: ['repf', 'targetba'],
+            process: 'WHWS12_3',
         },
         {
             source: 152,
             target: 3,
             value: 1,
             valueid: 'targetba',
+            process: 'WHWS12_2',
         },
         {
             source: 152,
             target: 6,
             value: 1,
             valueid: ['repf', 'targetba'],
+            process: 'WHWS12_1',
         },
         {
             source: 152,
             target: 6,
             value: 1,
             valueid: ['repf', 'targetba'],
+            process: 'WHWS12_3',
         },
         {
             source: 152,
             target: 6,
             value: 1,
             valueid: 'targetba',
+            process: 'WHWS12_2',
         },
         {
             source: 152,
             target: 11,
             value: 1,
             valueid: 'targetba',
+            process: 'WHWS12_4',
         },
         {
             source: 152,
             target: 11,
             value: 1,
             valueid: ['repea', 'targetba'],
+            process: 'WHWS12_5',
         },
         {
             source: 0,
             target: 39,
             value: 1,
             valueid: ['repf', 'targetba'],
+            process: 'WHWS12_1',
         },
         {
             source: 0,
             target: 39,
             value: 1,
             valueid: 'targetba',
+            process: 'WHWS12_2',
         },
         {
             source: 3,
             target: 39,
             value: 1,
             valueid: ['repf', 'targetba'],
-        }, // a[5]
+            process: 'WHWS12_3',
+        },
         {
             source: 3,
             target: 39,
             value: 1,
             valueid: 'targetba',
+            process: 'WHWS12_2',
         },
         {
             source: 6,
             target: 39,
             value: 1,
             valueid: ['repf', 'targetba'],
+            process: 'WHWS12_1',
         },
         {
             source: 6,
             target: 39,
             value: 1,
             valueid: 'targetba',
+            process: 'WHWS12_2',
         },
         {
             source: 0,
             target: 41,
             value: 1,
             valueid: ['repf', 'targetba'],
+            process: 'WHWS12_1',
         },
         {
             source: 0,
             target: 41,
             value: 1,
             valueid: 'targetba',
+            process: 'WHWS12_2',
         },
         {
             source: 3,
             target: 41,
             value: 1,
             valueid: ['repf', 'targetba'],
+            process: 'WHWS12_3',
         },
         {
             source: 3,
             target: 41,
             value: 1,
             valueid: 'targetba',
+            process: 'WHWS12_2',
         },
         {
             source: 6,
             target: 41,
             value: 1,
             valueid: ['repf', 'targetba'],
+            process: 'WHWS12_1',
         },
         {
             source: 6,
             target: 41,
             value: 1,
             valueid: 'targetba',
+            process: 'WHWS12_2',
         },
         {
             source: 0,
             target: 42,
             value: 1,
             valueid: ['repf', 'targetba'],
+            process: 'WHWS12_1',
         },
         {
             source: 3,
             target: 42,
             value: 1,
             valueid: ['repf', 'targetba'],
+            process: 'WHWS12_1',
         },
         {
             source: 6,
             target: 42,
             value: 1,
             valueid: ['repf', 'targetba'],
+            process: 'WHWS12_1',
         },
         {
             source: 0,
             target: 42,
             value: 1,
             valueid: 'targetba',
+            process: 'WHWS12_2',
         },
         {
             source: 3,
             target: 42,
             value: 1,
             valueid: 'targetba',
-        }, // a[11]
+            process: 'WHWS12_2',
+        },
         {
             source: 6,
             target: 42,
             value: 1,
             valueid: 'targetba',
-        }, // a[12]
+            process: 'WHWS12_2',
+        },
         {
             source: 0,
             target: 49,
             value: 1,
             valueid: ['repf', 'targetba'],
-        }, // a[13]
+            process: 'WHWS12_3',
+        },
         {
             source: 3,
             target: 49,
             value: 1,
             valueid: ['repf', 'targetba'],
-        }, // a[14]
+            process: 'WHWS12_3',
+        },
         {
             source: 6,
             target: 49,
             value: 1,
             valueid: ['repf', 'targetba'],
-        }, // a[15]
+            process: 'WHWS12_3',
+        },
         {
             source: 11,
             target: 39,
             value: 1,
             valueid: 'targetba',
-        }, // a[16]
+            process: 'WHWS12_4',
+        },
         {
             source: 11,
             target: 41,
             value: 1,
             valueid: 'targetba',
-        }, // a[17]
-        {
-            source: 11,
-            target: 42,
-            value: 1,
-            valueid: 'targetba',
-        }, // a[18]
+            process: 'WHWS12_4',
+        },
         {
             source: 11,
             target: 39,
             value: 1,
             valueid: ['repea', 'targetba'],
-        }, // a[16]
+            process: 'WHWS12_5',
+        },
         {
             source: 11,
             target: 41,
             value: 1,
             valueid: ['repea', 'targetba'],
-        }, // a[17]
+            process: 'WHWS12_5',
+        },
         {
             source: 11,
             target: 42,
             value: 1,
             valueid: ['repea', 'targetba'],
-        }, // a[18]
+            process: 'WHWS12_5',
+        },
+        {
+            source: 11,
+            target: 42,
+            value: 1,
+            valueid: 'targetba',
+            process: 'WHWS12_4',
+        },
         {
             source: 11,
             target: 45,
             value: 1,
             valueid: 'targetba',
-        }, // a[19]
+            process: 'WHWS12_4',
+        },
         {
             source: 39,
             target: 60,
             value: 1,
             valueid: ['repf', 'targetba'],
-        }, // a[20]
+            process: 'WHWS12_1',
+        },
         {
             source: 41,
             target: 60,
             value: 1,
             valueid: ['repf', 'targetba'],
-        }, // a[21]
+            process: 'WHWS12_1',
+        },
         {
             source: 42,
             target: 60,
             value: 1,
             valueid: ['repf', 'targetba'],
-        }, // a[22]
+            process: 'WHWS12_1',
+        },
         {
             source: 39,
             target: 68,
             value: 1,
             valueid: 'targetba',
-        }, // a[23]
-        {
-            source: 41,
-            target: 68,
-            value: 1,
-            valueid: 'targetba',
-        }, // a[24]
-        {
-            source: 42,
-            target: 68,
-            value: 1,
-            valueid: 'targetba',
-        }, // a[25]
+            process: 'WHWS12_2',
+        },
         {
             source: 39,
             target: 68,
             value: 1,
             valueid: 'targetba',
-        }, // a[23]
+            process: 'WHWS12_4',
+        },
         {
             source: 41,
             target: 68,
             value: 1,
             valueid: 'targetba',
-        }, // a[24]
+            process: 'WHWS12_2',
+        },
+        {
+            source: 41,
+            target: 68,
+            value: 1,
+            valueid: 'targetba',
+            process: 'WHWS12_4',
+        },
         {
             source: 42,
             target: 68,
             value: 1,
             valueid: 'targetba',
-        }, // a[25]
+            process: 'WHWS12_2',
+        },
+        {
+            source: 42,
+            target: 68,
+            value: 1,
+            valueid: 'targetba',
+            process: 'WHWS12_4',
+        },
         {
             source: 45,
             target: 68,
             value: 1,
             valueid: 'targetba',
-        }, // a[31]
+            process: 'WHWS12_4',
+        },
         {
             source: 49,
             target: 60,
             value: 1,
             valueid: ['repf', 'targetba'],
-        }, // a[26]
+            process: 'WHWS12_3',
+        },
         {
             source: 49,
             target: 68,
             value: 1,
             valueid: ['repf', 'targetba'],
-        }, // a[27]
+            process: 'WHWS12_3',
+        },
         {
             source: 39,
             target: 59,
             value: 1,
             valueid: ['repea', 'targetba'],
-        }, // a[28]
+            process: 'WHWS12_5',
+        },
         {
             source: 41,
             target: 59,
             value: 1,
             valueid: ['repea', 'targetba'],
-        }, // a[29]
+            process: 'WHWS12_5',
+        },
         {
             source: 42,
             target: 59,
             value: 1,
             valueid: ['repea', 'targetba'],
-        }, // a[30]
+            process: 'WHWS12_5',
+        },
         {
             source: 60,
             target: 77,
             value: 1,
             valueid: ['repf', 'targetba'],
-        }, // a[32]
-        {
-            source: 60,
-            target: 78,
-            value: 1,
-            valueid: ['repf', 'targetba'],
-        }, // a[33]
-        {
-            source: 68,
-            target: 76,
-            value: 1,
-            valueid: 'targetba',
-        }, // a[34]
-        {
-            source: 68,
-            target: 77,
-            value: 1,
-            valueid: 'targetba',
-        }, // a[35]
-        {
-            source: 68,
-            target: 78,
-            value: 1,
-            valueid: 'targetba',
-        }, // a[36]
-        {
-            source: 60,
-            target: 76,
-            value: 1,
-            valueid: ['repf', 'targetba'],
-        }, // a[32]
-        {
-            source: 60,
-            target: 77,
-            value: 1,
-            valueid: ['repf', 'targetba'],
-        }, // a[32]
+            process: 'WHWS12_1',
+        },
         {
             source: 60,
             target: 78,
             value: 1,
             valueid: ['repf', 'targetba'],
-        }, // a[33]
-
-        {
-            source: 68,
-            target: 76,
-            value: 1,
-            valueid: ['repf', 'targetba'],
-        }, // a[34]
-        {
-            source: 68,
-            target: 77,
-            value: 1,
-            valueid: ['repf', 'targetba'],
-        }, // a[35]
-        {
-            source: 68,
-            target: 78,
-            value: 1,
-            valueid: ['repf', 'targetba'],
-        }, // a[36]
+            process: 'WHWS12_1',
+        },
         {
             source: 68,
             target: 76,
             value: 1,
             valueid: 'targetba',
-        }, // a[34]
+            process: 'WHWS12_2',
+        },
+        {
+            source: 68,
+            target: 76,
+            value: 1,
+            valueid: 'targetba',
+            process: 'WHWS12_4',
+        },
         {
             source: 68,
             target: 77,
             value: 1,
             valueid: 'targetba',
+            process: 'WHWS12_2',
+        },
+        {
+            source: 68,
+            target: 77,
+            value: 1,
+            valueid: 'targetba',
+            process: 'WHWS12_4',
         },
         {
             source: 68,
             target: 78,
             value: 1,
             valueid: 'targetba',
+            process: 'WHWS12_2',
+        },
+        {
+            source: 68,
+            target: 78,
+            value: 1,
+            valueid: 'targetba',
+            process: 'WHWS12_4',
+        },
+        {
+            source: 60,
+            target: 76,
+            value: 1,
+            valueid: ['repf', 'targetba'],
+            process: 'WHWS12_3',
+        },
+        {
+            source: 60,
+            target: 77,
+            value: 1,
+            valueid: ['repf', 'targetba'],
+            process: 'WHWS12_1',
+        },
+        {
+            source: 60,
+            target: 78,
+            value: 1,
+            valueid: ['repf', 'targetba'],
+            process: 'WHWS12_1',
+        },
+        {
+            source: 68,
+            target: 76,
+            value: 1,
+            valueid: ['repf', 'targetba'],
+            process: 'WHWS12_2',
+        },
+        {
+            source: 68,
+            target: 77,
+            value: 1,
+            valueid: ['repf', 'targetba'],
+            process: 'WHWS12_2',
+        },
+        {
+            source: 68,
+            target: 78,
+            value: 1,
+            valueid: ['repf', 'targetba'],
+            process: 'WHWS12_2',
         },
         {
             source: 59,
             target: 78,
             value: 1,
             valueid: ['repea', 'targetba'],
+            process: 'WHWS12_5',
         },
         {
             source: 59,
             target: 80,
             value: 1,
             valueid: ['repea', 'targetba'],
+            process: 'WHWS12_5',
         },
     ],
     status: [

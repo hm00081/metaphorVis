@@ -132,7 +132,12 @@ export const Link = ({ link, originData, sourceTargetIdLinksDict, setOriginData 
                     setOriginData(renderingData);
                 }}
             >
-                <title>{`${link.sourceNode.name} to ${link.targetNode.name}: ${link.value}`}</title>
+                // 색상에만 타이틀 추가
+                {link.color !== 'grayLinkColor' ? (
+                    <title>{`${link.sourceNode.name} to ${link.targetNode.name}: ${link.value}`}</title>
+                ) : (
+                    <h1>{`${link.sourceNode.name} to ${link.targetNode.name}: ${link.value}`}</h1>
+                )}
             </path>
         </>
     );
@@ -140,10 +145,13 @@ export const Link = ({ link, originData, sourceTargetIdLinksDict, setOriginData 
 
 function findFrontLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData }) {
     const { linkPart, renderingData } = arg;
+    console.log(linkPart.valueid);
     const frontLinks = renderingData.links.filter((renderingLink) => {
-        if (renderingLink.target === linkPart.source && renderingLink.paperName === linkPart.paperName) {
+        if (renderingLink.target === linkPart.source && renderingLink.paperName === linkPart.paperName && renderingLink.process === linkPart.process) {
             if ((renderingLink.color = 'blueLinkColor')) renderingLink.color = 'blueLinkColor';
-            renderingLink.valueid = 'selected';
+            renderingLink.valueid = linkPart.valueid;
+            renderingLink.process = linkPart.process;
+            // renderingLink.valueid = 'selected';
             renderingLink.status = 'selected';
             // if ((renderingLink.status = undefined)) {
             //     renderingLink.color = 'blueLightLinkColor';
@@ -154,7 +162,9 @@ function findFrontLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData }
             if (renderingLink.source >= 50) {
                 renderingLink.color = 'greenLinkColor';
                 renderingLink.status = 'selected';
-                renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
+                renderingLink.process = linkPart.process;
+                // renderingLink.valueid = 'selected';
                 // if ((renderingLink.status = undefined)) {
                 //     renderingLink.color = 'greenLightLinkColor';
                 // }
@@ -175,28 +185,38 @@ function findFrontLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData }
 function findBackLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData }) {
     const { linkPart, renderingData } = arg;
     const backLinks = renderingData.links.filter((renderingLink) => {
-        if (renderingLink.source === linkPart.target && renderingLink.paperName === linkPart.paperName) {
+        if (renderingLink.source === linkPart.target && renderingLink.paperName === linkPart.paperName && renderingLink.process === linkPart.process) {
             if (renderingLink.source < 50) renderingLink.color = 'blueLinkColor';
-            renderingLink.valueid = 'selected';
+            // renderingLink.valueid = 'selected';
+            renderingLink.valueid = linkPart.valueid;
             renderingLink.status = 'selected';
+            renderingLink.process = linkPart.process;
             // if ((renderingLink.status = undefined)) {
             //     renderingLink.color = 'blueLightLinkColor';
             // }
             if (renderingLink.target >= 76 && renderingLink.target < 83) {
                 renderingLink.color = 'orangeLinkColor';
-                renderingLink.valueid = 'selected';
+                // renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
                 renderingLink.status = 'selected';
+                renderingLink.process = linkPart.process;
             } else if (renderingLink.target > 82 && renderingLink.target < 100) {
                 renderingLink.color = 'rubyLinkColor';
-                renderingLink.valueid = 'selected';
+                // renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
                 renderingLink.status = 'selected';
+                renderingLink.process = linkPart.process;
             } else if (renderingLink.source >= 100) {
                 renderingLink.color = 'greenLinkColor';
-                renderingLink.valueid = 'selected';
+                // renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
                 renderingLink.status = 'selected';
+                renderingLink.process = linkPart.process;
             } else renderingLink.color = 'blueLinkColor';
-            renderingLink.valueid = 'selected';
+            // renderingLink.valueid = 'selected';
+            renderingLink.valueid = linkPart.valueid;
             renderingLink.status = 'selected';
+            renderingLink.process = linkPart.process;
             return true;
         } else {
             return false;

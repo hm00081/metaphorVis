@@ -20,16 +20,6 @@ const FinalSankeys = styled.div`
     margin-top: 50px;
 `;
 
-// const Button = styled.button`
-//     color: hsl(0, 0%, 8%);
-//     font-size: 1em;
-//     margin: 0.3em;
-//     padding: 0.25em 1em;
-//     background: white;
-//     border: 2px solid palevioletred;
-//     border-radius: 3px;
-// `;
-
 const Menu = styled.div`
     position: relative;
     display: block;
@@ -54,28 +44,28 @@ interface PaletteColor {
     contrastText?: string;
 }
 
-const theme = createTheme({
-    status: {
-        danger: '#e53e3e',
-    },
-    palette: {
-        primary: {
-            main: '#0971f1',
-            //@ts-ignore
-            darker: '#053e85',
-        },
-        neutral: {
-            main: '#64748B',
-            contrastText: '#fff',
-        },
-        pink: {
-            pink: '#db7093',
-        },
-    },
-    pink: {
-        pink: '#db7093',
-    },
-});
+// const theme = createTheme({
+//     status: {
+//         danger: '#e53e3e',
+//     },
+//     palette: {
+//         primary: {
+//             main: '#0971f1',
+//             //@ts-ignore
+//             darker: '#053e85',
+//         },
+//         neutral: {
+//             main: '#64748B',
+//             contrastText: '#fff',
+//         },
+//         pink: {
+//             pink: '#db7093',
+//         },
+//     },
+//     pink: {
+//         pink: '#db7093',
+//     },
+// });
 
 // Component
 export default function FinalSankey() {
@@ -96,6 +86,7 @@ export default function FinalSankey() {
     const [btn, setBtn] = useState(0);
     const [selected, setSelcted] = useState<'click' | 'unclick'>('unclick');
     const [originData, setOriginData] = useState<SankeyData>(repb);
+    const isMounted = useRef(true);
     // console.log(originData);
     const title = ['Paper', 'Target', 'Intermediation', 'Representation', 'Vis_var&tech'];
     const columns = title.map((title) => title).filter((title, pos, arr) => arr.indexOf(title) === pos);
@@ -104,7 +95,10 @@ export default function FinalSankey() {
         setTimeout(() => {
             setOriginData(basicData);
         }, 1000);
+        isMounted.current = false;
     }, []);
+
+    useEffect(() => {}, []);
 
     return (
         <>
@@ -183,7 +177,7 @@ export default function FinalSankey() {
                     <SecButtonPos>
                         <Menu>Representation Theme</Menu>
                         <ButtonGroup size="large" aria-label="outlined primary button group" color="secondary" variant="outlined" style={{ marginTop: '10px' }}>
-                            <ThemeProvider theme={theme}></ThemeProvider>
+                            {/* <ThemeProvider theme={theme}></ThemeProvider> */}
                             <Button
                                 onClick={() => {
                                     setOriginData(repa);
@@ -316,7 +310,6 @@ export default function FinalSankey() {
                     />
                 </div>
             </FinalSankeys>
-            )
         </>
     );
 }

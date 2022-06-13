@@ -15,30 +15,13 @@ import { SankeyLink, SankeyStatus, SankeyLinkExtended } from '../src/types';
 // Data
 import { PaperNode } from './data/PaperNode';
 import { Node, Papers, Status } from './data/AllPaperData';
-import {
-    AllPaperDatas,
-    TargetAAs,
-    TargetABs,
-    TargetBAs,
-    TargetBBs,
-    TargetCAs,
-    TargetCBs,
-    RepAs,
-    OriginRepBs,
-    RepBs,
-    RepCs,
-    RepDs,
-    RepEAs,
-    RepEBs,
-    RepFs,
-    RepGs,
-    RepHs,
-    Emptys,
-} from './data/AllPaperData';
+import { AllPaperDatas, TargetAAs, TargetABs, TargetBAs, TargetBBs, TargetCAs, TargetCBs, RepAs, RepBs, RepCs, RepDs, RepEAs, RepEBs, RepFs, RepGs, RepHs, Emptys } from './data/AllPaperData';
 
 //@ts-ignore
 const LinkData = [AllPaperDatas, TargetAAs, TargetABs, TargetBAs, TargetBBs, TargetCAs, RepAs, RepBs, RepCs, RepDs, RepEAs, RepEBs, RepFs, Emptys];
-const basicData: SankeyData = {
+
+//TODO 모든 색이 색칠
+const fullColor: SankeyData = {
     nodes: PaperNode.nodes.map((node) => {
         let color: string = '';
         color = `hsl(0, 0%, 30%)`;
@@ -62,6 +45,43 @@ const basicData: SankeyData = {
 
             for (let i = 0; i < linkGroup.length; i++) {
                 if (wantedLink.valueid === 'repa') {
+                    hasLink = true;
+                } else hasLink = false;
+            }
+            return hasLink;
+        }
+    }), // 나중에 수정
+
+    //@ts-ignore
+    status: Status[0],
+
+    positionStatus: 'init',
+};
+
+const basicData: SankeyData = {
+    nodes: PaperNode.nodes.map((node) => {
+        let color: string = '';
+        color = `hsl(0, 0%, 30%)`;
+
+        return { ...node, color };
+    }),
+    links: RepAs.map((link) => {
+        let color: LinkColor = 'grayLinkColor';
+        // let status: string = '';
+        //@ts-ignore
+        if (hasLinkInGroup(link, RepAs)) {
+            color = 'grayLinkColor';
+            // console.log('blue');
+        } else {
+            color = 'grayLinkColor';
+            // console.log('gray');
+        }
+        return { ...link, color };
+        function hasLinkInGroup(wantedLink: SankeyLink, linkGroup: SankeyLink[]) {
+            let hasLink: boolean = false;
+
+            for (let i = 0; i < linkGroup.length; i++) {
+                if (wantedLink.valueid === wantedLink.valueid) {
                     hasLink = true;
                 } else hasLink = false;
             }
@@ -115,11 +135,13 @@ const targetaa: SankeyData = {
             let color: string = '';
             for (let i = 0; i < linkGroup.length; i++) {
                 if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition) {
-                    if (wantedLink.valueid === 'targetaa') {
-                        hasLink = true;
-                    } else if (wantedLink.valueid && wantedLink.valueid.indexOf('targetaa') !== -1) {
-                        hasLink = true;
-                    } else hasLink = false;
+                    //TODO valueid의 타입, 개수 고려하여 분간하기. => data process 추가?
+                    if (wantedLink.process === linkGroup[i].process)
+                        if (wantedLink.valueid === 'targetaa') {
+                            hasLink = true;
+                        } else if (wantedLink.valueid && wantedLink.valueid.indexOf('targetaa') !== -1) {
+                            hasLink = true;
+                        } else hasLink = false;
                 } else hasLink = false;
             }
             return hasLink;
@@ -171,11 +193,12 @@ const targetab: SankeyData = {
             let color: string = '';
             for (let i = 0; i < linkGroup.length; i++) {
                 if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition) {
-                    if (wantedLink.valueid === 'targetab') {
-                        hasLink = true;
-                    } else if (wantedLink.valueid && wantedLink.valueid.indexOf('targetab') !== -1) {
-                        hasLink = true;
-                    } else hasLink = false;
+                    if (wantedLink.process === linkGroup[i].process)
+                        if (wantedLink.valueid === 'targetab') {
+                            hasLink = true;
+                        } else if (wantedLink.valueid && wantedLink.valueid.indexOf('targetab') !== -1) {
+                            hasLink = true;
+                        } else hasLink = false;
                 } else hasLink = false;
             }
             return hasLink;
@@ -226,11 +249,12 @@ const targetba: SankeyData = {
             let color: string = '';
             for (let i = 0; i < linkGroup.length; i++) {
                 if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition) {
-                    if (wantedLink.valueid === 'targetba') {
-                        hasLink = true;
-                    } else if (wantedLink.valueid && wantedLink.valueid.indexOf('targetba') !== -1) {
-                        hasLink = true;
-                    } else hasLink = false;
+                    if (wantedLink.process === linkGroup[i].process)
+                        if (wantedLink.valueid === 'targetba') {
+                            hasLink = true;
+                        } else if (wantedLink.valueid && wantedLink.valueid.indexOf('targetba') !== -1) {
+                            hasLink = true;
+                        } else hasLink = false;
                 } else hasLink = false;
             }
             return hasLink;
@@ -281,11 +305,12 @@ const targetbb: SankeyData = {
             let color: string = '';
             for (let i = 0; i < linkGroup.length; i++) {
                 if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition) {
-                    if (wantedLink.valueid === 'targetbb') {
-                        hasLink = true;
-                    } else if (wantedLink.valueid && wantedLink.valueid.indexOf('targetbb') !== -1) {
-                        hasLink = true;
-                    } else hasLink = false;
+                    if (wantedLink.process === linkGroup[i].process)
+                        if (wantedLink.valueid === 'targetbb') {
+                            hasLink = true;
+                        } else if (wantedLink.valueid && wantedLink.valueid.indexOf('targetbb') !== -1) {
+                            hasLink = true;
+                        } else hasLink = false;
                 } else hasLink = false;
             }
             return hasLink;
@@ -336,11 +361,12 @@ const targetca: SankeyData = {
             let color: string = '';
             for (let i = 0; i < linkGroup.length; i++) {
                 if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition) {
-                    if (wantedLink.valueid === 'targetca') {
-                        hasLink = true;
-                    } else if (wantedLink.valueid && wantedLink.valueid.indexOf('targetca') !== -1) {
-                        hasLink = true;
-                    } else hasLink = false;
+                    if (wantedLink.process === linkGroup[i].process)
+                        if (wantedLink.valueid === 'targetca') {
+                            hasLink = true;
+                        } else if (wantedLink.valueid && wantedLink.valueid.indexOf('targetca') !== -1) {
+                            hasLink = true;
+                        } else hasLink = false;
                 } else hasLink = false;
             }
             return hasLink;
@@ -391,11 +417,12 @@ const targetcb: SankeyData = {
             let color: string = '';
             for (let i = 0; i < linkGroup.length; i++) {
                 if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition) {
-                    if (wantedLink.valueid === 'targetcb') {
-                        hasLink = true;
-                    } else if (wantedLink.valueid && wantedLink.valueid.indexOf('targetcb') !== -1) {
-                        hasLink = true;
-                    } else hasLink = false;
+                    if (wantedLink.process === linkGroup[i].process)
+                        if (wantedLink.valueid === 'targetcb') {
+                            hasLink = true;
+                        } else if (wantedLink.valueid && wantedLink.valueid.indexOf('targetcb') !== -1) {
+                            hasLink = true;
+                        } else hasLink = false;
                 } else hasLink = false;
             }
             return hasLink;
@@ -455,11 +482,12 @@ const repa: SankeyData = {
                 //     hasLink = true;
                 // }
                 if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition) {
-                    if (wantedLink.valueid === 'repa') {
-                        hasLink = true;
-                    } else if (wantedLink.valueid && wantedLink.valueid.indexOf('repa') !== -1) {
-                        hasLink = true;
-                    } else hasLink = false;
+                    if (wantedLink.process === linkGroup[i].process)
+                        if (wantedLink.valueid === 'repa') {
+                            hasLink = true;
+                        } else if (wantedLink.valueid && wantedLink.valueid.indexOf('repa') !== -1) {
+                            hasLink = true;
+                        } else hasLink = false;
                 } else hasLink = false;
             }
             return hasLink;
@@ -528,11 +556,12 @@ const repb: SankeyData = {
                 //     hasLink = true;
                 // }
                 if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition) {
-                    if (wantedLink.valueid === 'repb') {
-                        hasLink = true;
-                    } else if (wantedLink.valueid && wantedLink.valueid.indexOf('repb') !== -1) {
-                        hasLink = true;
-                    } else hasLink = false;
+                    if (wantedLink.process === linkGroup[i].process)
+                        if (wantedLink.valueid === 'repb') {
+                            hasLink = true;
+                        } else if (wantedLink.valueid && wantedLink.valueid.indexOf('repb') !== -1) {
+                            hasLink = true;
+                        } else hasLink = false;
                 } else hasLink = false;
             }
             return hasLink;
@@ -594,11 +623,12 @@ const repc: SankeyData = {
                 //     hasLink = true;
                 // }
                 if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition) {
-                    if (wantedLink.valueid === 'repc') {
-                        hasLink = true;
-                    } else if (wantedLink.valueid && wantedLink.valueid.indexOf('repc') !== -1) {
-                        hasLink = true;
-                    } else hasLink = false;
+                    if (wantedLink.process === linkGroup[i].process)
+                        if (wantedLink.valueid === 'repc') {
+                            hasLink = true;
+                        } else if (wantedLink.valueid && wantedLink.valueid.indexOf('repc') !== -1) {
+                            hasLink = true;
+                        } else hasLink = false;
                 } else hasLink = false;
             }
             return hasLink;
@@ -659,11 +689,12 @@ const repd: SankeyData = {
                 //     hasLink = true;
                 // }
                 if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition) {
-                    if (wantedLink.valueid === 'repd') {
-                        hasLink = true;
-                    } else if (wantedLink.valueid && wantedLink.valueid.indexOf('repd') !== -1) {
-                        hasLink = true;
-                    } else hasLink = false;
+                    if (wantedLink.process === linkGroup[i].process)
+                        if (wantedLink.valueid === 'repd') {
+                            hasLink = true;
+                        } else if (wantedLink.valueid && wantedLink.valueid.indexOf('repd') !== -1) {
+                            hasLink = true;
+                        } else hasLink = false;
                 } else hasLink = false;
             }
             return hasLink;
@@ -724,11 +755,12 @@ const repea: SankeyData = {
                 //     hasLink = true;
                 // }
                 if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition) {
-                    if (wantedLink.valueid === 'repea') {
-                        hasLink = true;
-                    } else if (wantedLink.valueid && wantedLink.valueid.indexOf('repea') !== -1) {
-                        hasLink = true;
-                    } else hasLink = false;
+                    if (wantedLink.process === linkGroup[i].process)
+                        if (wantedLink.valueid === 'repea') {
+                            hasLink = true;
+                        } else if (wantedLink.valueid && wantedLink.valueid.indexOf('repea') !== -1) {
+                            hasLink = true;
+                        } else hasLink = false;
                 } else hasLink = false;
             }
             return hasLink;
@@ -789,11 +821,12 @@ const repeb: SankeyData = {
                 //     hasLink = true;
                 // }
                 if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition) {
-                    if (wantedLink.valueid === 'repeb') {
-                        hasLink = true;
-                    } else if (wantedLink.valueid && wantedLink.valueid.indexOf('repeb') !== -1) {
-                        hasLink = true;
-                    } else hasLink = false;
+                    if (wantedLink.process === linkGroup[i].process)
+                        if (wantedLink.valueid === 'repeb') {
+                            hasLink = true;
+                        } else if (wantedLink.valueid && wantedLink.valueid.indexOf('repeb') !== -1) {
+                            hasLink = true;
+                        } else hasLink = false;
                 } else hasLink = false;
             }
             return hasLink;
@@ -854,11 +887,12 @@ const repf: SankeyData = {
                 //     hasLink = true;
                 // }
                 if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition) {
-                    if (wantedLink.valueid === 'repf') {
-                        hasLink = true;
-                    } else if (wantedLink.valueid && wantedLink.valueid.indexOf('repf') !== -1) {
-                        hasLink = true;
-                    } else hasLink = false;
+                    if (wantedLink.process === linkGroup[i].process)
+                        if (wantedLink.valueid === 'repf') {
+                            hasLink = true;
+                        } else if (wantedLink.valueid && wantedLink.valueid.indexOf('repf') !== -1) {
+                            hasLink = true;
+                        } else hasLink = false;
                 } else hasLink = false;
             }
             return hasLink;
@@ -919,11 +953,12 @@ const repg: SankeyData = {
                 //     hasLink = true;
                 // }
                 if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition) {
-                    if (wantedLink.valueid === 'repg') {
-                        hasLink = true;
-                    } else if (wantedLink.valueid && wantedLink.valueid.indexOf('repg') !== -1) {
-                        hasLink = true;
-                    } else hasLink = false;
+                    if (wantedLink.process === linkGroup[i].process)
+                        if (wantedLink.valueid === 'repg') {
+                            hasLink = true;
+                        } else if (wantedLink.valueid && wantedLink.valueid.indexOf('repg') !== -1) {
+                            hasLink = true;
+                        } else hasLink = false;
                 } else hasLink = false;
             }
             return hasLink;
@@ -984,11 +1019,12 @@ const reph: SankeyData = {
                 //     hasLink = true;
                 // }
                 if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition) {
-                    if (wantedLink.valueid === 'reph') {
-                        hasLink = true;
-                    } else if (wantedLink.valueid && wantedLink.valueid.indexOf('reph') !== -1) {
-                        hasLink = true;
-                    } else hasLink = false;
+                    if (wantedLink.process === linkGroup[i].process)
+                        if (wantedLink.valueid === 'reph') {
+                            hasLink = true;
+                        } else if (wantedLink.valueid && wantedLink.valueid.indexOf('reph') !== -1) {
+                            hasLink = true;
+                        } else hasLink = false;
                 } else hasLink = false;
             }
             return hasLink;

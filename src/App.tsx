@@ -1,6 +1,7 @@
 import FinalSankey from './FinalSankey';
 import ParentSize from '@visx/responsive/lib/components/ParentSizeModern';
 import Word from './components/WordCloud/Word';
+import Cloud from './components/WordCloud/d3-cloud/Cloud';
 import './sandbox-styles.css';
 import withStyles from './FinalCirclePack';
 import StackedBarChart from './components/BarChart/BarChart';
@@ -16,6 +17,7 @@ function App() {
         <>
             <Header />
             <FinalSankey />
+            <Cloud />
             {/* <ParentSize>{({ width, height }) => <StackedBarChart width={width} height={height} />}</ParentSize> */}
             {/* {draw} */}
             {/* <ParentSize>{({ width, height }) => <Word width={width} height={height} />}</ParentSize> */}

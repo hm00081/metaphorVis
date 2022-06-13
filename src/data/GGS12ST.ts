@@ -9,98 +9,103 @@ const GGS12ST: SankeyData = {
             target: 3,
             value: 1,
             valueid: ['repea', 'targetbb'],
-        }, // a[0]
+            process: 'GGS12ST_1',
+        },
         {
             source: 108,
             target: 12,
             value: 1,
             valueid: ['repeb', 'targetbb'],
-        }, // a[1]
+            process: 'GGS12ST_2',
+        },
         {
             source: 108,
             target: 23,
             value: 1,
-        }, // a[2]
+            process: 'GGS12ST_3',
+        },
         {
             source: 3,
             target: 45,
             value: 1,
             valueid: ['repea', 'targetbb'],
-        }, // a[0]
+            process: 'GGS12ST_1',
+        },
         {
             source: 12,
             target: 42,
             value: 1,
             valueid: ['repeb', 'targetbb'],
-        }, // a[1]
+            process: 'GGS12ST_2',
+        },
         {
             source: 12,
             target: 45,
             value: 1,
             valueid: ['repeb', 'targetbb'],
-        }, // a[2]
+            process: 'GGS12ST_2',
+        },
         {
             source: 12,
             target: 48,
             value: 1,
             valueid: ['repeb', 'targetbb'],
-        }, // a[3]
+            process: 'GGS12ST_2',
+        },
         {
             source: 23,
             target: 46,
             value: 1,
-        }, // a[4]
+            process: 'GGS12ST_3',
+        },
         {
             source: 42,
             target: 59,
             value: 1,
             valueid: ['repeb', 'targetbb'],
-        }, // a[5]
+            process: 'GGS12ST_2',
+        },
         {
             source: 45,
             target: 59,
             value: 1,
             valueid: ['repea', 'targetbb'],
-        }, // a[6]
+            process: 'GGS12ST_1',
+        },
         {
             source: 45,
             target: 59,
             value: 1,
             valueid: ['repeb', 'targetbb'],
-        }, // a[6]
-        {
-            source: 46,
-            target: 75,
-            value: 1,
-        }, // a[7]
+            process: 'GGS12ST_2',
+        },
         {
             source: 48,
             target: 59,
             value: 1,
             valueid: ['repeb', 'targetbb'],
-        }, // a[8]
+            process: 'GGS12ST_2',
+        },
         {
             source: 59,
             target: 77,
             value: 1,
             valueid: ['repea', 'targetbb'],
-        }, // a[9]
+            process: 'GGS12ST_1',
+        },
         {
             source: 59,
             target: 77,
             value: 1,
             valueid: ['repeb', 'targetbb'],
-        }, // a[9]
+            process: 'GGS12ST_2',
+        },
         {
             source: 75,
             target: 77,
             value: 1,
-        }, // a[10]
-        {
-            source: 75,
-            target: 98,
-            value: 1,
-        }, // a[11]
+            process: 'GGS12ST_3',
+        },
     ],
     status: [
         {

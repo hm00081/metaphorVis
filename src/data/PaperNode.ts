@@ -17,7 +17,7 @@ export const PaperNode: SankeyData = {
         { name: 'appraisal', type: 'Target', subtype: '2' },
         { name: 'stance', type: 'Target', subtype: '2' },
         { name: 'attitude', type: 'Target', subtype: '2' },
-        { name: 'emotion', type: 'Target', subtype: '2' },
+        { name: 'emotion', type: 'Target', subtype: '2' }, // 15
         { name: 'writer', type: 'Target', subtype: '3' },
         { name: 'organization', type: 'Target', subtype: '3' },
         { name: 'key_player', type: 'Target', subtype: '3' }, // 18
@@ -36,7 +36,7 @@ export const PaperNode: SankeyData = {
         { name: 'subjectivity_detection', type: 'Intermediation', subtype: '0' },
         { name: 'emotion_cause_detection', type: 'Intermediation', subtype: '0' },
         { name: 'identifying_the_intent_of_sentiment_information', type: 'Intermediation', subtype: '0' },
-        { name: 'detection_of_evidence_event_that_causes_sentiment_patterns', type: 'Intermediation', subtype: '0' },
+        { name: 'detection_of_evidence_event_that_causes_sentiment_patterns', type: 'Intermediation', subtype: '0' }, // 34
         { name: 'argument_expression_detection', type: 'Intermediation', subtype: '0' },
         { name: 'aspect_based_sentiment_analysis', type: 'Intermediation', subtype: '0' },
         { name: 'detection_of_fake_or_deceptive_sentiment_information', type: 'Intermediation', subtype: '0' },
@@ -62,7 +62,7 @@ export const PaperNode: SankeyData = {
         { name: 'nonmetal', type: 'Representation', subtype: '0' },
         { name: 'cell', type: 'Representation', subtype: '0' },
         { name: 'building&structure', type: 'Representation', subtype: '1' }, // 59 (바퀴)
-        { name: 'geometry', type: 'Representation', subtype: '1' },
+        { name: 'geometry', type: 'Representation', subtype: '1' }, // 60
         { name: 'picture', type: 'Representation', subtype: '1' },
         { name: 'pattern', type: 'Representation', subtype: '1' }, // 62
         { name: 'map', type: 'Representation', subtype: '1' },

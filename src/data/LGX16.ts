@@ -9,190 +9,220 @@ const LGX16: SankeyData = {
             target: 4,
             value: 1,
             valueid: 'repf ',
+            process: 'LGX16_2',
         },
         {
             source: 115,
             target: 4,
             value: 1,
+            process: 'LGX16_1',
         },
         {
             source: 115,
             target: 5,
             value: 1,
             valueid: ['repd ', 'targetbb'],
-        }, // a[1]
+            process: 'LGX16_3',
+        },
         {
             source: 115,
             target: 11,
             value: 1,
             valueid: 'repea ',
-        }, // a[2]
+            process: 'LGX16_4',
+        },
         {
             source: 115,
             target: 12,
             value: 1,
             valueid: 'repea ',
-        }, // a[3]
+            process: 'LGX16_4',
+        },
         {
             source: 115,
             target: 17,
             value: 1,
             valueid: 'repg ',
-        }, // a[4]
+            process: 'LGX16_5',
+        },
         {
             source: 115,
             target: 19,
             value: 1,
             valueid: 'repg ',
-        }, // a[5]
+            process: 'LGX16_5',
+        },
+        {
+            source: 4,
+            target: 40,
+            value: 1,
+            process: 'LGX16_1',
+        },
         {
             source: 4,
             target: 40,
             value: 1,
             valueid: 'repf ',
-        }, // a[6]
-        {
-            source: 4,
-            target: 40,
-            value: 1,
-            valueid: 'repf ',
-        }, // a[6]
+            process: 'LGX16_2',
+        },
         {
             source: 5,
             target: 40,
             value: 1,
             valueid: ['repd ', 'targetbb'],
-        }, // a[7]
+            process: 'LGX16_3',
+        },
         {
             source: 11,
             target: 33,
             value: 1,
             valueid: 'repea ',
-        }, // a[8]
+            process: 'LGX16_4',
+        },
         {
             source: 11,
             target: 45,
             value: 1,
             valueid: 'repea ',
-        }, // a[9]
+            process: 'LGX16_4',
+        },
         {
             source: 12,
             target: 33,
             value: 1,
             valueid: 'repea ',
-        }, // a[10]
+            process: 'LGX16_4',
+        },
         {
             source: 12,
             target: 45,
             value: 1,
-            valueid: 'repea ',
-        }, // a[11]
+            valueid: 'repea',
+            process: 'LGX16_4',
+        },
         {
             source: 17,
             target: 45,
             value: 1,
-            valueid: 'repg ',
-        }, // a[12]
+            valueid: 'repg',
+            process: 'LGX16_5',
+        },
         {
             source: 19,
             target: 45,
             value: 1,
-            valueid: 'repg ',
-        }, // a[13]
+            valueid: 'repg',
+            process: 'LGX16_5',
+        },
         {
             source: 40,
             target: 70,
             value: 1,
-        }, // a[14]
+            process: 'LGX16_1',
+        },
         {
             source: 40,
             target: 60,
             value: 1,
             valueid: 'repf ',
-        }, // a[15]
+            process: 'LGX16_2',
+        },
         {
             source: 40,
             target: 55,
             value: 1,
             valueid: ['repd ', 'targetbb'],
-        }, // a[16]
+            process: 'LGX16_3',
+        },
         {
             source: 33,
             target: 59,
             value: 1,
             valueid: 'repea ',
-        }, // a[17]
+            process: 'LGX16_4',
+        },
         {
             source: 45,
             target: 59,
             value: 1,
             valueid: 'repea ',
-        }, // a[18]
+            process: 'LGX16_4',
+        },
         {
             source: 45,
             target: 68,
             value: 1,
             valueid: 'repg ',
-        }, // a[19]
+            process: 'LGX16_5',
+        },
         {
             source: 70,
             target: 80,
             value: 1,
-        }, // a[20]
+            process: 'LGX16_1',
+        },
         {
             source: 60,
             target: 77,
             value: 1,
             valueid: 'repf ',
-        }, // a[21]
+            process: 'LGX16_2',
+        },
         {
             source: 60,
             target: 78,
             value: 1,
             valueid: 'repf ',
-        }, // a[22]
+            process: 'LGX16_2',
+        },
         {
             source: 55,
             target: 77,
             value: 1,
             valueid: ['repd ', 'targetbb'],
-        }, // a[23]
+            process: 'LGX16_3',
+        },
         {
             source: 55,
             target: 78,
             value: 1,
             valueid: ['repd ', 'targetbb'],
-        }, // a[24]
+        },
         {
             source: 55,
             target: 85,
             value: 1,
             valueid: ['repd ', 'targetbb'],
-        }, // a[25]
+            process: 'LGX16_3',
+        },
         {
             source: 59,
             target: 76,
             value: 1,
             valueid: 'repea ',
-        }, // a[26]
+            process: 'LGX16_4',
+        },
         {
             source: 59,
             target: 77,
             value: 1,
             valueid: 'repea ',
-        }, // a[27]
+            process: 'LGX16_4',
+        },
         {
             source: 59,
             target: 80,
             value: 1,
             valueid: 'repea ',
-        }, // a[28]
+            process: 'LGX16_4',
+        },
         {
             source: 68,
             target: 80,
             value: 1,
             valueid: 'repg ',
-        }, // a[29]
+            process: 'LGX16_5',
+        },
     ],
     status: [
         {

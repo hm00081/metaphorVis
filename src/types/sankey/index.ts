@@ -6,6 +6,7 @@ export type SankeyLinkMinimal = {
     target?: number;
     value: number;
     valueid?: string | null | Array<string>;
+    process?: string | number | undefined;
     overlapid?: string | null;
 };
 export type SankeyStatusMinimal = {
@@ -31,6 +32,7 @@ export type SankeyLink = SankeyLinkMinimal & {
     subtype?: string;
     status?: string | null;
     valueid?: string | null | Array<string>;
+    process?: string | number | undefined;
     overlapid?: string | null;
     color?: LinkColor;
     subcolor?: LinkColor;
