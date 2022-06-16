@@ -1,0 +1,84 @@
+﻿Multi-item Data Streams
+Time Feature
+Multiple Items
+items
+same positions,time,sequence,
+data stream,collection of data records ,record ,time moment,position,sequence,data streams,data record, multiple different items (entities of any nature),temporal or sequential references , items, attributes,
+social media,target,text streams,series of tweets,users,items,meaningful keywords,texts,different sub-streams,text topic,location from which the messages, the time of the day,texts
+target,sequences of the actions,events ,ball possession, items,the players, the actions,events,goal or foul,
+local trends
+numeric dynamic features of two streams
+ multi-item features
+the tweets of Hillary Clinton,Donald Trump ,the U.S Presidential Election Campaign of 2016,
+3,416 tweets from Hillary Clinton,Donald Trump ,2016 presidential election in the USA.,
+
+
+Pair-wise Visual Connection and Comparison
+Comparison
+ provide a general solution supporting pair-wise comparison of multi-item data streams
+pair-wise visual connection and comparison of multi-item data streams
+both qualitative and quantitative comparisons
+Comparison of data stream dynamics: Compare the temporal or sequential patterns,Compare the temporal or sequential patterns
+Comparison of items,qualitative comparison,quantitative comparison,
+Comparison of comparisons,Compare overall similarity difference patterns
+Comparison of sub-stream pairs
+abstracted visual summary of dynamic similarity-difference patterns ,Summaries for different sub-stream pairs can be compared.
+supporting comparison of two streams
+presenting their similarities and differences
+Qualitative comparison of the presence of items
+detailed exploration
+observe the overall temporal pattern
+exploring different aspects of the data streams
+Comparative exploration of the tweets
+Visual Summary Level: Comparison of Comparison
+iterative exploration and Comparison of comparisons,compare multiple aspects of the two data streams
+
+
+Co-Bridges
+Co-Bridges,river and bridge metaphors, two sides of a river,bridges,connect temporally or sequentially aligned segments of streams
+bridge connects,two data streams
+bars on the bridge
+River Curve
+Bars on the bridge
+river-and-bridge metapho, river metaphor,data streams,
+Co-Bridges, two river sides,one data stream,river flow,several river instances
+bridges,connecting,parts of the river sides,
+the river and bridge visual metaphors,Co-Bridges,multiple connecting bridges,two sides of a river
+Theme River metaphor,multi-item stream
+appearance of a river,the river sides
+the metaphor of bridges,the river metaphor
+the river sides, multiple bridges
+bridge interior, blocks
+two gray curved lines linking the bridge sides,river banks
+The two sides of the trapezoid of the bridge, the shape of the riverbanks
+river sides,data streams
+
+
+Block Size/Ratio/Position
+The shapes of the river sides, stream volumes
+Two distinct colors,two data streams
+The size of an item block,frequency of the appearance of this item
+pink,blue
+two color regions
+position(order), color and size
+width of a bridge,the vertical length of a bridge,accumulated frequency of the items,
+different width ,stream volumes
+the sizes and positions of the item blocks,the heights of the curves,the height of the bars on the bridges,
+multiple ways of selecting sub-streams
+size and/or color of a node
+the node size,the overall frequency, colored segments,the frequencies in the two streams
+
+
+line charts, the evolution of a numeric characteristic,volume,
+over the respective time or sub-sequence of steps
+bar,showing value statistics of some numeric attributes for the period the bridge corresponds to
+The time or sequence length
+line plots,the evolution of a quantitative aspect of the data streams.
+item labels
+ multiple displays
+line plots (river sides),the amounts of the tweets mentioning “great”
+heights of the black bars,the counts of the followers,likes'.,
+ label,keyword, action name, entity name, event category
+textual query, item graph node selection
+graph,co-occurrence relationships,node, an item
+link,between two nodes,co-occurrence relationship,force-directed layout

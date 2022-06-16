@@ -18,7 +18,7 @@ const data = rawData.reduce((acc, word) => {
 
 const finalData = Object.entries(data).map(([key, value]) => ({
     text: key,
-    value,
+    value: value,
 }));
 
 //@ts-ignore
