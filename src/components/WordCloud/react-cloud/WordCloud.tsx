@@ -2,6 +2,15 @@ import { select } from 'd3-selection';
 import { transition } from 'd3-transition';
 import React, { useState, useEffect } from 'react';
 import ReactWordcloud, { Word, MinMaxPair } from 'react-wordcloud';
+import styled from 'styled-components';
+
+const Cloud = styled.div`
+    // display: table-cell;
+    float: left;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+`;
 
 interface Props {
     data: Array<Word>;
@@ -59,6 +68,7 @@ function getCallback(callback: string) {
 
 const callbacks = {
     getWordTooltip: (word: Word) => `The word "${word.text}" appears ${word.value} times.`,
+    getWordColor: (word: Word) => (word.value > 50 ? 'blue' : 'red'), // 여기서 color 수정
     onWordClick: getCallback('onWordClick'),
     onWordMouseOut: getCallback('onWordMouseOut'),
     onWordMouseOver: getCallback('onWordMouseOver'),
@@ -68,7 +78,8 @@ const callbacks = {
 // but does not prevent rerendering of all word clouds in the newly dropped list
 const WordCloud = React.memo(function WordCloud(props: Props) {
     const [show, setShow] = useState(false);
-
+    const defaultSize = 300;
+    const defaultGap = 15;
     if (responsive && props.fontSize !== undefined) options.fontSizes = props.fontSize;
     if (responsive && props.maxWords !== undefined) maxWords = props.maxWords;
 
@@ -92,14 +103,16 @@ const WordCloud = React.memo(function WordCloud(props: Props) {
         w-wordcloudContainer h-wordcloudContainer"
                 ref={ref1}
             >
-                <div className="w-full pl-2 font-semibold">Topic 1</div>
-                <div className="bg-gray-100 h-wordcloud w-wordcloud">
-                    {!lazyLoading || show ? (
-                        <ReactWordcloud maxWords={maxWords} minSize={size} size={size} callbacks={callbacks} words={props.data} options={options} />
-                    ) : (
-                        <div className="bg-gray-100 h-wordcloud w-wordcloud">Loading...</div>
-                    )}
-                </div>
+                <Cloud>
+                    <div className="w-full pl-2 font-semibold">Topic 1</div>
+                    <div className="bg-gray-100 h-wordcloud w-wordcloud">
+                        {!lazyLoading || show ? (
+                            <ReactWordcloud maxWords={maxWords} minSize={size} size={size} callbacks={callbacks} words={props.data} options={options} />
+                        ) : (
+                            <div className="bg-gray-100 h-wordcloud w-wordcloud">Loading...</div>
+                        )}
+                    </div>
+                </Cloud>
             </div>
         </div>
     );

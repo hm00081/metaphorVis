@@ -4,8 +4,10 @@ import styled from 'styled-components';
 import rawData from './data';
 import './styles.css';
 import { CAA20Word } from './data/river';
+import { rawListeners } from 'process';
 
-const data = rawData.reduce((acc, word) => {
+//@ts-ignore
+const data = rawListeners.reduce((acc, word) => {
     if (word in acc) {
         //@ts-ignore
         acc[word] += 1;

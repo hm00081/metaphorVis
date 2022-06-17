@@ -6,6 +6,7 @@ import './sandbox-styles.css';
 import withStyles from './FinalCirclePack';
 import StackedBarChart from './components/BarChart/BarChart';
 import Header from './components/Header/Header';
+import CloudResults from './components/WordCloud/react-cloud/CloudResults';
 
 //@ts-ignore
 const draw = <withStyles />;
@@ -17,7 +18,8 @@ function App() {
         <>
             <Header />
             <FinalSankey />
-            <Cloud />
+            <CloudResults />
+            {/* <Cloud /> */}
             {/* <ParentSize>{({ width, height }) => <StackedBarChart width={width} height={height} />}</ParentSize> */}
             {/* {draw} */}
             {/* <ParentSize>{({ width, height }) => <Word width={width} height={height} />}</ParentSize> */}
