@@ -3,6 +3,7 @@ import WordCloud from 'react-d3-cloud';
 import styled from 'styled-components';
 import rawData from './data';
 import './styles.css';
+import { CAA20Word } from './data/river';
 
 const data = rawData.reduce((acc, word) => {
     if (word in acc) {

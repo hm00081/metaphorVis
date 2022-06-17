@@ -1,6 +1,6 @@
 import { WordData } from '../types/index';
 
-export const CAA20: WordData = {
+export const CAA20Word: WordData = {
     TAR: [
         { text: 'Multi-item_Data_Streams', value: 1 },
         {
