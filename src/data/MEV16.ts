@@ -350,7 +350,7 @@ const MEV16: SankeyData = {
             status: 'TargetAA',
         },
         {
-            status: 'RepEB',
+            status: 'ReepEB',
         },
         {
             status: 'RepF',

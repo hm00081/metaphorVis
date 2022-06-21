@@ -392,7 +392,7 @@ const SCS16: SankeyData = {
     ],
     status: [
         {
-            status: 'RepA',
+            status: 'ReepA',
         },
         {
             status: 'RepF',

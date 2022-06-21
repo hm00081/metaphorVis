@@ -203,7 +203,7 @@ const RRR19: SankeyData = {
     ],
     status: [
         {
-            status: 0,
+            status: 1,
         },
     ],
 };
