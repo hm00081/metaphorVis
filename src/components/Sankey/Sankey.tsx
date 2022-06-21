@@ -188,14 +188,20 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
 
                 {nodes.map((node, i) => (
                     // @ts-ignore
-                    <Node className="node" key={`node-${i}`} node={node} width={width} height={height} originData={originData} setOriginData={setOriginData} /> // 노드도 그래프용 데이터가
+                    <Node className="node" key={`node-${i}`} node={node} width={width} height={height} originData={originData} setOriginData={setOriginData}>
+                        {() => {
+                            if ((i = 30)) {
+                                return (
+                                    <TargetClouds>
+                                        <TargetCloudResults />
+                                    </TargetClouds>
+                                );
+                            }
+                        }}
+                    </Node>
                 ))}
             </svg>
-            {/*
-            <TargetClouds>
-                <TargetCloudResults />
-
-            </TargetClouds>
+            <TargetClouds>{/* <TargetCloudResults /> */}</TargetClouds>
             <InterClouds>
                 <InterCloudResults />
             </InterClouds>
@@ -206,7 +212,6 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
                 <TechCloudResults />
             </TechClouds>
             <VarCloudResults />
-             */}
         </div>
     );
 };

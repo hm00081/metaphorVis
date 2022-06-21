@@ -12,6 +12,27 @@ const MEV16: SankeyData = {
             process: 'MEV16_1',
         },
         {
+            source: 9,
+            target: 36,
+            value: 1,
+            valueid: ['targetaa', 'repeb'],
+            process: 'MEV16_1',
+        },
+        {
+            source: 36,
+            target: 59,
+            value: 1,
+            valueid: ['targetaa', 'repeb'],
+            process: 'MEV16_1',
+        },
+        {
+            source: 59,
+            target: 78,
+            value: 1,
+            valueid: ['targetaa', 'repeb'],
+            process: 'MEV16_1',
+        },
+        {
             source: 121,
             target: 11,
             value: 1,
@@ -74,13 +95,7 @@ const MEV16: SankeyData = {
             valueid: 'targetaa',
             process: 'MEV16_6',
         },
-        {
-            source: 9,
-            target: 36,
-            value: 1,
-            valueid: ['targetaa', 'repeb'],
-            process: 'MEV16_1',
-        },
+
         {
             source: 11,
             target: 35,
@@ -256,13 +271,7 @@ const MEV16: SankeyData = {
             valueid: ['targetaa', 'repf'],
             process: 'MEV16_5',
         },
-        {
-            source: 36,
-            target: 59,
-            value: 1,
-            valueid: ['targetaa', 'repeb'],
-            process: 'MEV16_1',
-        },
+
         {
             source: 46,
             target: 70,
@@ -298,13 +307,7 @@ const MEV16: SankeyData = {
             valueid: ['targetaa', 'repf'],
             process: 'MEV16_5',
         },
-        {
-            source: 59,
-            target: 78,
-            value: 1,
-            valueid: ['targetaa', 'repeb'],
-            process: 'MEV16_1',
-        },
+
         {
             source: 60,
             target: 85,
