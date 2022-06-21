@@ -130,8 +130,8 @@ export const calcSankeyNodes = (
             if (node.type === 'Representation' && node.subtype === '2') extendedNode.y = currYPos - 30;
             if (node.type === 'Representation' && node.subtype === '3') extendedNode.y = currYPos - 10;
             if (node.type === 'Representation') extendedNode.x = columnXPos + currXPos * 1.7;
-            if (node.type === 'Vis_var&tech' && node.subtype === '0') extendedNode.y = currYPos - 80;
-            if (node.type === 'Vis_var&tech' && node.subtype === '1') extendedNode.y = currYPos - 30;
+            if (node.type === 'Vis_var&tech' && node.subtype === '0') extendedNode.y = currYPos - 180;
+            if (node.type === 'Vis_var&tech' && node.subtype === '1') extendedNode.y = currYPos + 50;
             if (node.type === 'Vis_var&tech') extendedNode.x = columnXPos * 1.22;
 
             // Filter Nodes with no output that or not end nodes

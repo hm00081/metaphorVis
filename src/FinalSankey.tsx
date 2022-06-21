@@ -14,13 +14,19 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useState, useEffect, useRef, useReducer } from 'react';
 import { basicData, targetaa, targetab, targetba, targetbb, targetca, targetcb, repa, repb, repc, repd, repea, repeb, repf, repg, reph, empty } from './Data';
 import { SankeyData, SankeyLinkExtended, SankeyNodeExtended, SankeyLink } from './types';
+import { WordData } from './components/WordCloud/react-cloud/types/index';
 import { ButtonGroup } from '@mui/material';
 import { RepHs } from './data/AllPaperData';
+import useMediaQuery from '@mui/material/useMediaQuery';
+
 const FinalSankeys = styled.div`
     margin-top: 50px;
+    margin-bottom: auto;
+    // height: 1em;
 `;
 
 const Menu = styled.div`
+    min-width: 100px;
     position: relative;
     display: block;
     font-size: 2em;
@@ -33,8 +39,12 @@ const Menu = styled.div`
 
 const SecButtonPos = styled.div`
     display: inline-block;
-    margin-left: 12em;
+    margin-left: 2em;
     margin-top: -55px;
+`;
+
+const ButtonGroupBox = styled.div`
+    max-width: 0px;
 `;
 
 interface PaletteColor {
@@ -70,23 +80,13 @@ interface PaletteColor {
 // Component
 export default function FinalSankey() {
     const [ref, { width, height }] = useMeasure<HTMLDivElement>();
-    // const [taa, setTaa] = useState(0);
-    // const [tab, setTab] = useState(0);
-    // const [tba, setTba] = useState(0);
-    // const [tbb, setTbb] = useState(0);
-    // const [tca, setTca] = useState(0);
-    // const [ra, setRa] = useState(0);
-    // const [rb, setRb] = useState(0);
-    // const [rc, setRc] = useState(0);
-    // const [rd, setRd] = useState(0);
-    // const [rea, setRea] = useState(0);
-    // const [reb, setReb] = useState(0);
-    // const [rf, setRf] = useState(0);
-    // const [full, setFull] = useState(0);
     const [btn, setBtn] = useState(0);
     const [selected, setSelcted] = useState<'click' | 'unclick'>('unclick');
     const [originData, setOriginData] = useState<SankeyData>(repb);
+    // cloud data state
+    const [originCloudData, setOriginCloudData] = useState<WordData>();
     const isMounted = useRef(true);
+    const matches = useMediaQuery('(min-width:600px)');
     // console.log(originData);
     const title = ['Paper', 'Target', 'Intermediation', 'Representation', 'Vis_var&tech'];
     const columns = title.map((title) => title).filter((title, pos, arr) => arr.indexOf(title) === pos);
@@ -106,7 +106,16 @@ export default function FinalSankey() {
             <FinalSankeys>
                 <div className="container" ref={ref}>
                     <Menu>Target Theme</Menu>
-                    <ButtonGroup size="large" aria-label="outlined primary button group" color="secondary" variant="outlined" style={{ marginTop: '10px', marginBottom: '20px' }}>
+
+                    <ButtonGroup
+                        // orientation={`${matches ? 'horizontal' : 'verticcal'}`}
+                        size="large"
+                        aria-label="outlined primary button group"
+                        color="secondary"
+                        variant="outlined"
+                        style={{ marginTop: '10px', marginBottom: '20px', minWidth: '600px', maxHeight: '60px' }}
+                        // orientation={matches ? 'horizontal' : 'vertical'}
+                    >
                         <Button
                             onClick={() => {
                                 setOriginData(targetaa);
@@ -174,9 +183,10 @@ export default function FinalSankey() {
                             Diffusion of Sentiment
                         </Button>
                     </ButtonGroup>
+
                     <SecButtonPos>
                         <Menu>Representation Theme</Menu>
-                        <ButtonGroup size="large" aria-label="outlined primary button group" color="secondary" variant="outlined" style={{ marginTop: '10px' }}>
+                        <ButtonGroup size="large" aria-label="outlined primary button group" color="secondary" variant="outlined" style={{ marginTop: '10px', minWidth: '600px', maxHeight: '60px' }}>
                             {/* <ThemeProvider theme={theme}></ThemeProvider> */}
                             <Button
                                 onClick={() => {

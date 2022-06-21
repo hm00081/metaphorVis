@@ -4,9 +4,10 @@ import React, { useState, useEffect } from 'react';
 import ReactWordcloud, { Word, MinMaxPair } from 'react-wordcloud';
 import styled from 'styled-components';
 
-const Cloud = styled.div`
+const Clouds = styled.div`
     // display: table-cell;
-    margin-left: 100px;
+    margin-top: -550px;
+    margin-left: 410px;
     float: left;
     align-items: center;
     text-align: center;
@@ -77,7 +78,7 @@ const callbacks = {
 
 // this memoization helps prevent animations of all word clouds during dragging
 // but does not prevent rerendering of all word clouds in the newly dropped list
-const WordCloud = React.memo(function WordCloud(props: Props) {
+const WordCloudVar = React.memo(function WordCloud(props: Props) {
     const [show, setShow] = useState(false);
     const defaultSize = 300;
     const defaultGap = 15;
@@ -104,7 +105,7 @@ const WordCloud = React.memo(function WordCloud(props: Props) {
         w-wordcloudContainer h-wordcloudContainer"
                 ref={ref1}
             >
-                <Cloud>
+                <Clouds>
                     <div className="bg-gray-100 h-wordcloud w-wordcloud">
                         {!lazyLoading || show ? (
                             <ReactWordcloud maxWords={maxWords} minSize={size} size={size} callbacks={callbacks} words={props.data} options={options} />
@@ -112,10 +113,10 @@ const WordCloud = React.memo(function WordCloud(props: Props) {
                             <div className="bg-gray-100 h-wordcloud w-wordcloud">Loading...</div>
                         )}
                     </div>
-                </Cloud>
+                </Clouds>
             </div>
         </div>
     );
 });
 
-export default WordCloud;
+export default WordCloudVar;

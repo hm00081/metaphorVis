@@ -4,6 +4,23 @@ import { MinMaxPair } from 'react-wordcloud';
 import { WordCloudData } from './WordCloudData';
 import styled from 'styled-components';
 
+const tarCloud = styled.div`
+    margin-left: 20px;
+`;
+const interCloud = styled.div`
+    margin-left: 20px;
+`;
+const repCloud = styled.div`
+    margin-left: 20px;
+`;
+const varCloud = styled.div`
+    margin-left: 20px;
+    margin-top: 50px;
+`;
+const techCloud = styled.div`
+    margin-left: 20px;
+`;
+
 interface wordCloudConfigInterface {
     fontSize: MinMaxPair;
     maxWords: number;
@@ -56,7 +73,7 @@ function clockPerformance(
     // });
 }
 
-function CloudResults() {
+function RepCloudResults() {
     const [{ filter, isExpanded, wordCloudConfig }, setState] = useState<{
         filter: string;
         isExpanded: boolean;
@@ -99,13 +116,45 @@ function CloudResults() {
         });
     }
 
-    function wordClouds() {
-        let wordClouds = [];
-        for (let i = 0; i < 5; i++) {
-            wordClouds.push(<WordCloud data={WordCloudData} {...wordCloudConfig} />);
+    // function targetClouds() {
+    //     let targetClouds = [];
+    //     for (let i = 0; i < 1; i++) {
+    //         targetClouds.push(<WordCloud data={WordCloudData} {...wordCloudConfig} />);
+    //     }
+    //     return targetClouds;
+    // }
+
+    // function interClouds() {
+    //     let interClouds = [];
+    //     for (let i = 0; i < 1; i++) {
+    //         interClouds.push(<WordCloud data={WordCloudData} {...wordCloudConfig} />);
+    //     }
+    //     return interClouds;
+    // }
+
+    function repClouds() {
+        let repClouds = [];
+        for (let i = 0; i < 1; i++) {
+            repClouds.push(<WordCloud data={WordCloudData} {...wordCloudConfig} />);
         }
-        return wordClouds;
+        return repClouds;
     }
+
+    // function varClouds() {
+    //     let varClouds = [];
+    //     for (let i = 0; i < 1; i++) {
+    //         varClouds.push(<WordCloud data={WordCloudData} {...wordCloudConfig} />);
+    //     }
+    //     return varClouds;
+    // }
+
+    // function techClouds() {
+    //     let techClouds = [];
+    //     for (let i = 0; i < 1; i++) {
+    //         techClouds.push(<WordCloud data={WordCloudData} {...wordCloudConfig} />);
+    //     }
+    //     return techClouds;
+    // }
 
     return (
         <Profiler id="Navigation" onRender={clockPerformance}>
@@ -113,9 +162,13 @@ function CloudResults() {
                 <div className="w-10/12 text-sm h-screen">
                     <div className="flex justify-between p-5 shadow-lg bg-gray-200 h-1/10"></div>
                     <div className="flex flex-row flex-grow h-9/10">
-                        <div className={`overflow-auto ${isExpanded ? 'w-full' : 'w-7/12'}`}>
-                            <div>{wordClouds()}</div>
-                        </div>
+                        {/* <div className={`overflow-auto ${isExpanded ? 'w-full' : 'w-7/12'}`}> */}
+                        <div className="">{repClouds()}</div>
+                        {/* <div>{interClouds()}</div>
+                        <div>{repClouds()}</div>
+                        <div>{varClouds()}</div>
+                        <div>{techClouds()}</div> */}
+                        {/* </div> */}
                         {!isExpanded && <div className="w-5/12"></div>}
                     </div>
                 </div>
@@ -124,4 +177,4 @@ function CloudResults() {
     );
 }
 
-export default CloudResults;
+export default RepCloudResults;

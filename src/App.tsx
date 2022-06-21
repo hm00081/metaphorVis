@@ -1,24 +1,31 @@
 import FinalSankey from './FinalSankey';
 import ParentSize from '@visx/responsive/lib/components/ParentSizeModern';
 import Word from './components/WordCloud/Word';
-import Cloud from './components/WordCloud/d3-cloud/Cloud';
+
 import './sandbox-styles.css';
 import withStyles from './FinalCirclePack';
 import StackedBarChart from './components/BarChart/BarChart';
 import Header from './components/Header/Header';
-import CloudResults from './components/WordCloud/react-cloud/CloudResults';
+import styled from 'styled-components';
 
 //@ts-ignore
 const draw = <withStyles />;
 //@ts-ignore
 const barChart = <StackedBarChart />;
 
+const Clouds = styled.div`
+    margin-left: 400px;
+    margin-top: -150px;
+`;
+
 function App() {
     return (
         <>
             <Header />
             <FinalSankey />
-            <CloudResults />
+            {/* <Clouds>
+                <CloudResults />
+            </Clouds> */}
             {/* <Cloud /> */}
             {/* <ParentSize>{({ width, height }) => <StackedBarChart width={width} height={height} />}</ParentSize> */}
             {/* {draw} */}

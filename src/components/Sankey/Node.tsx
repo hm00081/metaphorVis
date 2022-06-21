@@ -19,7 +19,6 @@ const NodeName = styled.text`
 `;
 
 const NodePos = styled.g`
-    position: fixed;
     margin-top: 102px;
 `;
 

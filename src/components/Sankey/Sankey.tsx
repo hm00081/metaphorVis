@@ -1,7 +1,9 @@
 // Types
 import { SankeyData, SankeyNode, SankeyLink, SankeyStatus, SankeyNodeExtended, SankeyLinkExtended } from '../../types/sankey';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 // Components
+// Libraries
+import { useMeasure } from 'react-use';
 import {
     LinkGrayColor,
     LinkDarkGrayColor,
@@ -33,9 +35,12 @@ import './sandbox-styles.css';
 import styled from 'styled-components';
 import { Papers } from '../../data/AllPaperData';
 import { couldStartTrivia } from 'typescript';
+import TargetCloudResults from '../WordCloud/react-cloud/TargetCloudResults';
+import InterCloudResults from '../WordCloud/react-cloud/TargetCloudResults';
+import RepCloudResults from '../WordCloud/react-cloud/RepCloudResults';
+import VarCloudResults from '../WordCloud/react-cloud/VarCloudResults';
+import TechCloudResults from '../WordCloud/react-cloud/TechCloudResults';
 // import { GridColumns } from '@visx/grid';
-
-const Links = styled.path``;
 
 const Text = styled.div`
     flex: 1;
@@ -43,6 +48,28 @@ const Text = styled.div`
     justify-content: space-between;
     white-space: initial;
     margin-left: 20px;
+`;
+
+const TargetClouds = styled.div`
+    margin-left: 200px;
+    margin-top: -50px;
+`;
+const InterClouds = styled.div`
+    // margin-left: 230px;
+    // margin-top: -50px;
+    padding-left: 200px;
+`;
+const RepClouds = styled.div`
+    margin-left: 230px;
+    margin-top: -50px;
+`;
+const TechClouds = styled.div`
+    margin-left: 230px;
+    margin-top: -50px;
+`;
+const VarClouds = styled.div`
+    margin-left: 830px;
+    margin-top: -500px;
 `;
 
 // Props
@@ -70,6 +97,7 @@ export interface SourceTargetIdNodesDict {
 
 // Component
 export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft = 0, nodeWidth = 20, nodeHeight = 20, nodeMargin = 5, minLinkBreadth, maxLinkBreadth, setOriginData }: Props) => {
+    // const [ref, { width, height }] = useMeasure<HTMLDivElement>();
     const [nodes, setNodes] = useState<SankeyNodeExtended[]>([]);
     const [links, setLinks] = useState<SankeyLinkExtended[]>([]);
     const [columns, setColumns] = useState<SankeyNodeExtended[]>([]);
@@ -129,38 +157,56 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
     // const columns = title.map((title) => title).filter((title, pos, arr) => arr.indexOf(title) === pos);
 
     return (
-        <svg width={width} height={height}>
-            <LinkGrayColor />
-            <LinkBlueColor />
-            <LinkDeepBlueColor />
-            <LinkGreenColor />
-            <LinkLightGreenColor />
-            <LinkOrangeColor />
-            <LinkRubyColor />
-            <LinkRedColor />
-            <LinkTargetColor />
-            <LinkIntOneColor />
-            <LinkIntTwoColor />
-            <LinkIntThreeColor />
-            <LinkIntFourColor />
-            <LinkIntFiveColor />
-            <LinkRepVisVarColor />
-            <LinkRepVisTechColor />
-            {/* {columns.map((column, i) => (
+        <div className="box">
+            <svg className="size" width={width} height={height}>
+                <LinkGrayColor />
+                <LinkBlueColor />
+                <LinkDeepBlueColor />
+                <LinkGreenColor />
+                <LinkLightGreenColor />
+                <LinkOrangeColor />
+                <LinkRubyColor />
+                <LinkRedColor />
+                <LinkTargetColor />
+                <LinkIntOneColor />
+                <LinkIntTwoColor />
+                <LinkIntThreeColor />
+                <LinkIntFourColor />
+                <LinkIntFiveColor />
+                <LinkRepVisVarColor />
+                <LinkRepVisTechColor />
+                {/* {columns.map((column, i) => (
                 // <Text>{column}</Text>
                 <text x={(width / columns.length) * i + width / columns.length / 2} y={height * 0.02} textAnchor="middle">
                     {column}
                 </text>
             ))} */}
-            <div>j</div>
-            {links.map((link, i) => (
-                <Link key={`link-${i}`} link={link} originData={originData} sourceTargetIdLinksDict={sourceTargetIdLinksDict} setOriginData={setOriginData} />
-            ))}
 
-            {nodes.map((node, i) => (
-                // @ts-ignore
-                <Node className="node" key={`node-${i}`} node={node} width={width} height={height} originData={originData} setOriginData={setOriginData} /> // 노드도 그래프용 데이터가 필요할듯하다.
-            ))}
-        </svg>
+                {links.map((link, i) => (
+                    <Link key={`link-${i}`} link={link} originData={originData} sourceTargetIdLinksDict={sourceTargetIdLinksDict} setOriginData={setOriginData} />
+                ))}
+
+                {nodes.map((node, i) => (
+                    // @ts-ignore
+                    <Node className="node" key={`node-${i}`} node={node} width={width} height={height} originData={originData} setOriginData={setOriginData} /> // 노드도 그래프용 데이터가
+                ))}
+            </svg>
+            {/*
+            <TargetClouds>
+                <TargetCloudResults />
+
+            </TargetClouds>
+            <InterClouds>
+                <InterCloudResults />
+            </InterClouds>
+            <RepClouds>
+                <RepCloudResults />
+            </RepClouds>
+            <TechClouds>
+                <TechCloudResults />
+            </TechClouds>
+            <VarCloudResults />
+             */}
+        </div>
     );
 };
