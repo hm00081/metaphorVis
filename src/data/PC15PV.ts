@@ -36,14 +36,12 @@ const PC15PV: SankeyData = {
             source: 125,
             target: 21,
             value: 1,
-            valueid: 'repd',
             process: 'PC15PV_5',
         },
         {
             source: 125,
             target: 24,
             value: 1,
-            valueid: 'repd',
             process: 'PC15PV_5',
         },
         {
@@ -78,14 +76,12 @@ const PC15PV: SankeyData = {
             source: 21,
             target: 46,
             value: 1,
-            valueid: 'repd',
             process: 'PC15PV_5',
         },
         {
             source: 24,
             target: 46,
             value: 1,
-            valueid: 'repd',
             process: 'PC15PV_5',
         },
         {
@@ -120,7 +116,6 @@ const PC15PV: SankeyData = {
             source: 46,
             target: 71,
             value: 1,
-            valueid: 'repd',
             process: 'PC15PV_5',
         },
         {
@@ -169,7 +164,6 @@ const PC15PV: SankeyData = {
             source: 71,
             target: 98,
             value: 1,
-            valueid: 'repd',
             process: 'PC15PV_5',
         },
     ],
