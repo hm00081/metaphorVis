@@ -2,6 +2,7 @@ import React, { useState, useEffect, Profiler } from 'react';
 import WordCloud from './WordCloud';
 import { MinMaxPair } from 'react-wordcloud';
 import { WordCloudData } from './WordCloudData';
+import { RiverWord } from './data/River';
 import styled from 'styled-components';
 
 const tarCloud = styled.div`
@@ -135,7 +136,7 @@ function RepCloudResults() {
     function repClouds() {
         let repClouds = [];
         for (let i = 0; i < 1; i++) {
-            repClouds.push(<WordCloud data={WordCloudData} {...wordCloudConfig} />);
+            repClouds.push(<WordCloud data={RiverWord.REP} {...wordCloudConfig} />);
         }
         return repClouds;
     }

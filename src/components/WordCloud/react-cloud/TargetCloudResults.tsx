@@ -2,24 +2,8 @@ import React, { useState, useEffect, Profiler } from 'react';
 import WordCloud from './WordCloud';
 import { MinMaxPair } from 'react-wordcloud';
 import { WordCloudData } from './WordCloudData';
+import { RiverWord } from './data/River';
 import styled from 'styled-components';
-
-const tarCloud = styled.div`
-    margin-left: 20px;
-`;
-const interCloud = styled.div`
-    margin-left: 20px;
-`;
-const repCloud = styled.div`
-    margin-left: 20px;
-`;
-const varCloud = styled.div`
-    margin-left: 20px;
-    margin-top: 50px;
-`;
-const techCloud = styled.div`
-    margin-left: 20px;
-`;
 
 interface wordCloudConfigInterface {
     fontSize: MinMaxPair;
@@ -119,41 +103,9 @@ function TargetCloudResults() {
     function targetClouds() {
         let targetClouds = [];
         for (let i = 0; i < 1; i++) {
-            targetClouds.push(<WordCloud data={WordCloudData} {...wordCloudConfig} />);
+            targetClouds.push(<WordCloud data={RiverWord.TAR} {...wordCloudConfig} />);
         }
         return targetClouds;
-    }
-
-    function interClouds() {
-        let interClouds = [];
-        for (let i = 0; i < 1; i++) {
-            interClouds.push(<WordCloud data={WordCloudData} {...wordCloudConfig} />);
-        }
-        return interClouds;
-    }
-
-    function repClouds() {
-        let repClouds = [];
-        for (let i = 0; i < 1; i++) {
-            repClouds.push(<WordCloud data={WordCloudData} {...wordCloudConfig} />);
-        }
-        return repClouds;
-    }
-
-    function varClouds() {
-        let varClouds = [];
-        for (let i = 0; i < 1; i++) {
-            varClouds.push(<WordCloud data={WordCloudData} {...wordCloudConfig} />);
-        }
-        return varClouds;
-    }
-
-    function techClouds() {
-        let techClouds = [];
-        for (let i = 0; i < 1; i++) {
-            techClouds.push(<WordCloud data={WordCloudData} {...wordCloudConfig} />);
-        }
-        return techClouds;
     }
 
     return (

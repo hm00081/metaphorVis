@@ -1,10 +1,10 @@
 import { WordData } from '../types/index';
 
-export const CAA20Word: WordData = {
+export const RiverWord: WordData = {
     TAR: [
-        { text: 'Multi-item_Data_Streams', value: 1 },
+        { text: 'Multi-item Data Streams', value: 1 },
         {
-            text: 'Time_Feature',
+            text: 'Time Feature',
             value: 1,
         },
         {

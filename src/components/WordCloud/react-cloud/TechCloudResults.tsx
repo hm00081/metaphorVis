@@ -2,6 +2,7 @@ import React, { useState, useEffect, Profiler } from 'react';
 import WordCloud from './WordCloud';
 import { MinMaxPair } from 'react-wordcloud';
 import { WordCloudData } from './WordCloudData';
+import { RiverWord } from './data/River';
 import styled from 'styled-components';
 
 interface wordCloudConfigInterface {
@@ -102,7 +103,7 @@ function TechCloudResults() {
     function techClouds() {
         let techClouds = [];
         for (let i = 0; i < 1; i++) {
-            techClouds.push(<WordCloud data={WordCloudData} {...wordCloudConfig} />);
+            techClouds.push(<WordCloud data={RiverWord.TEC} {...wordCloudConfig} />);
         }
         return techClouds;
     }

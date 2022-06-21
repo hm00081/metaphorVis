@@ -57,7 +57,7 @@ export const PaperNode: SankeyData = {
         { name: 'animal', type: 'Representation', subtype: '0' },
         { name: 'plant', type: 'Representation', subtype: '0' },
         { name: 'landscape', type: 'Representation', subtype: '0' }, // 54
-        { name: 'compound', type: 'Representation', subtype: '0' },
+        { name: 'compound', type: 'Representation', subtype: '0' }, // 55
         { name: 'metal', type: 'Representation', subtype: '0' },
         { name: 'nonmetal', type: 'Representation', subtype: '0' },
         { name: 'cell', type: 'Representation', subtype: '0' },
@@ -65,7 +65,7 @@ export const PaperNode: SankeyData = {
         { name: 'geometry', type: 'Representation', subtype: '1' }, // 60
         { name: 'picture', type: 'Representation', subtype: '1' },
         { name: 'pattern', type: 'Representation', subtype: '1' }, // 62
-        { name: 'map', type: 'Representation', subtype: '1' },
+        { name: 'map', type: 'Representation', subtype: '1' }, // 63
         { name: 'fiber', type: 'Representation', subtype: '1' },
         { name: 'food', type: 'Representation', subtype: '1' },
         { name: 'toys_instrument', type: 'Representation', subtype: '1' },

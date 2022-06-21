@@ -36,7 +36,7 @@ import styled from 'styled-components';
 import { Papers } from '../../data/AllPaperData';
 import { couldStartTrivia } from 'typescript';
 import TargetCloudResults from '../WordCloud/react-cloud/TargetCloudResults';
-import InterCloudResults from '../WordCloud/react-cloud/TargetCloudResults';
+import InterCloudResults from '../WordCloud/react-cloud/InterCloudResults';
 import RepCloudResults from '../WordCloud/react-cloud/RepCloudResults';
 import VarCloudResults from '../WordCloud/react-cloud/VarCloudResults';
 import TechCloudResults from '../WordCloud/react-cloud/TechCloudResults';
@@ -51,26 +51,26 @@ const Text = styled.div`
 `;
 
 const TargetClouds = styled.div`
-    margin-left: 200px;
+    margin-left: 300px;
     margin-top: -50px;
 `;
-const InterClouds = styled.div`
-    // margin-left: 230px;
-    // margin-top: -50px;
-    padding-left: 200px;
-`;
-const RepClouds = styled.div`
-    margin-left: 230px;
-    margin-top: -50px;
-`;
-const TechClouds = styled.div`
-    margin-left: 230px;
-    margin-top: -50px;
-`;
-const VarClouds = styled.div`
-    margin-left: 830px;
-    margin-top: -500px;
-`;
+// const InterClouds = styled.div`
+//     // margin-left: 230px;
+//     // margin-top: -50px;
+//     padding-left: 200px;
+// `;
+// const RepClouds = styled.div`
+//     margin-left: 230px;
+//     margin-top: -50px;
+// `;
+// const TechClouds = styled.div`
+//     margin-left: 230px;
+//     margin-top: -50px;
+// `;
+// const VarClouds = styled.div`
+//     margin-left: 830px;
+//     margin-top: -500px;
+// `;
 
 // Props
 interface Props {
@@ -189,7 +189,7 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
                 {nodes.map((node, i) => (
                     // @ts-ignore
                     <Node className="node" key={`node-${i}`} node={node} width={width} height={height} originData={originData} setOriginData={setOriginData}>
-                        {() => {
+                        {/* {() => {
                             if ((i = 30)) {
                                 return (
                                     <TargetClouds>
@@ -197,10 +197,17 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
                                     </TargetClouds>
                                 );
                             }
-                        }}
+                        }} */}
                     </Node>
                 ))}
             </svg>
+            <TargetClouds>
+                <TargetCloudResults />
+                <InterCloudResults />
+                <RepCloudResults />
+                <TechCloudResults />
+            </TargetClouds>
+            <VarCloudResults />
         </div>
     );
 };

@@ -5,9 +5,8 @@ import ReactWordcloud, { Word, MinMaxPair } from 'react-wordcloud';
 import styled from 'styled-components';
 
 const Clouds = styled.div`
-    // display: table-cell;
     margin-top: -550px;
-    margin-left: 410px;
+    margin-left: -500px;
     float: left;
     align-items: center;
     text-align: center;
@@ -94,7 +93,6 @@ const WordCloudVar = React.memo(function WordCloud(props: Props) {
     let observer = new IntersectionObserver(callback, observerOptions);
 
     useEffect(() => {
-        console.log('observing');
         if (ref1.current !== null) observer.observe(ref1.current);
     }, [observer, ref1]);
 

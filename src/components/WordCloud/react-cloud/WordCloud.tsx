@@ -6,7 +6,8 @@ import styled from 'styled-components';
 
 const Cloud = styled.div`
     // display: table-cell;
-    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 185px;
     float: left;
     align-items: center;
     text-align: center;
@@ -109,7 +110,7 @@ const WordCloud = React.memo(function WordCloud(props: Props) {
                         {!lazyLoading || show ? (
                             <ReactWordcloud maxWords={maxWords} minSize={size} size={size} callbacks={callbacks} words={props.data} options={options} />
                         ) : (
-                            <div className="bg-gray-100 h-wordcloud w-wordcloud">Loading...</div>
+                            <div className="bg-gray-100 h-wordcloud w-wordcloud"></div>
                         )}
                     </div>
                 </Cloud>
