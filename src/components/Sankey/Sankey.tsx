@@ -201,17 +201,6 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
                     </Node>
                 ))}
             </svg>
-            <TargetClouds>{/* <TargetCloudResults /> */}</TargetClouds>
-            <InterClouds>
-                <InterCloudResults />
-            </InterClouds>
-            <RepClouds>
-                <RepCloudResults />
-            </RepClouds>
-            <TechClouds>
-                <TechCloudResults />
-            </TechClouds>
-            <VarCloudResults />
         </div>
     );
 };
