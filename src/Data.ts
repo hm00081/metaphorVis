@@ -21,7 +21,7 @@ import { AllPaperDatas, TargetAAs, TargetABs, TargetBAs, TargetBBs, TargetCAs, T
 const LinkData = [AllPaperDatas, TargetAAs, TargetABs, TargetBAs, TargetBBs, TargetCAs, RepAs, RepBs, RepCs, RepDs, RepEAs, RepEBs, RepFs, Emptys];
 
 //TODO 모든 색이 색칠
-const fullColor: SankeyData = {
+const fullData: SankeyData = {
     nodes: PaperNode.nodes.map((node) => {
         let color: string = '';
         color = `hsl(0, 0%, 30%)`;
@@ -30,21 +30,36 @@ const fullColor: SankeyData = {
     }),
     links: RepAs.map((link) => {
         let color: LinkColor = 'grayLinkColor';
-        // let status: string = '';
         //@ts-ignore
-        if (hasLinkInGroup(link, RepAs)) {
-            color = 'grayLinkColor';
-            // console.log('blue');
+        if (hasLinkInGroup(link, TargetAAs)) {
+            if (link.source < 50) {
+                color = 'blueLinkColor';
+            } else if (link.target >= 76 && link.target < 83) {
+                color = 'orangeLinkColor';
+            } else if (link.target > 82 && link.target < 100) {
+                color = 'rubyLinkColor';
+            } else {
+                color = 'greenLinkColor';
+            }
         } else {
-            color = 'grayLinkColor';
-            // console.log('gray');
+            if (link.category === 'TargetAAs') {
+                // category는 현재 아무런 기능이 필요하지 않아보임.
+                if (link.source < 50) {
+                    color = 'blueLightLinkColor';
+                } else {
+                    color = 'greenLightLinkColor';
+                }
+            } else color = 'grayLinkColor';
         }
-        return { ...link, color };
+        return {
+            ...link,
+            color,
+        };
         function hasLinkInGroup(wantedLink: SankeyLink, linkGroup: SankeyLink[]) {
             let hasLink: boolean = false;
 
             for (let i = 0; i < linkGroup.length; i++) {
-                if (wantedLink.valueid === 'repa') {
+                if (wantedLink.valueid === wantedLink.valueid) {
                     hasLink = true;
                 } else hasLink = false;
             }
@@ -1049,7 +1064,7 @@ const empty = {
     status: Status[13],
 };
 
-export { basicData, targetaa, targetab, targetba, targetbb, targetca, targetcb, repa, repb, repc, repd, repea, repeb, repf, repg, reph, empty };
+export { basicData, targetaa, targetab, targetba, targetbb, targetca, targetcb, repa, repb, repc, repd, repea, repeb, repf, repg, reph, empty, fullData };
 
 // import './styles.css';
 

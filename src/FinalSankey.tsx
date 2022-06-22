@@ -12,7 +12,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 // Data & Hooks
 import { useState, useEffect, useRef, useReducer } from 'react';
-import { basicData, targetaa, targetab, targetba, targetbb, targetca, targetcb, repa, repb, repc, repd, repea, repeb, repf, repg, reph, empty } from './Data';
+import { basicData, targetaa, targetab, targetba, targetbb, targetca, targetcb, repa, repb, repc, repd, repea, repeb, repf, repg, reph, empty, fullData } from './Data';
 import { SankeyData, SankeyLinkExtended, SankeyNodeExtended, SankeyLink } from './types';
 import { WordData } from './components/WordCloud/react-cloud/types/index';
 import { ButtonGroup } from '@mui/material';
@@ -295,6 +295,17 @@ export default function FinalSankey() {
                                     setBtn(0);
                                 }}
                                 variant={btn === 0 ? 'contained' : 'outlined'}
+                                style={{ textTransform: 'capitalize' }}
+                            >
+                                Show Empty
+                            </Button>
+                            <Button
+                                onClick={() => {
+                                    setOriginData(fullData);
+                                    setSelcted('click');
+                                    setBtn(0);
+                                }}
+                                variant={btn === 15 ? 'contained' : 'outlined'}
                                 style={{ textTransform: 'capitalize' }}
                             >
                                 Show Full
