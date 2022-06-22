@@ -153,7 +153,7 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
         // console.log('links', links);
         setLinks(links);
     }, [originData]);
-    // const title = ['Paper', 'Target', 'Intermediation', 'Representation', 'Vis_var&tech'];
+
     // const columns = title.map((title) => title).filter((title, pos, arr) => arr.indexOf(title) === pos);
 
     return (

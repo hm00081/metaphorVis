@@ -26,25 +26,11 @@ const KWL09: SankeyData = {
             process: 'KWL09_1',
         },
         {
-            source: 12,
-            target: 43,
-            value: 1,
-            valueid: 'repeb',
-            process: 'KWL09_2',
-        },
-        {
             source: 36,
             target: 59,
             value: 1,
             valueid: 'repeb',
             process: 'KWL09_1',
-        },
-        {
-            source: 43,
-            target: 59,
-            value: 2,
-            valueid: 'repeb',
-            process: 'KWL09_2',
         },
         {
             source: 59,
@@ -62,13 +48,6 @@ const KWL09: SankeyData = {
         },
         {
             source: 59,
-            target: 77,
-            value: 1,
-            valueid: 'repeb',
-            process: 'KWL09_2',
-        },
-        {
-            source: 59,
             target: 80,
             value: 1,
             valueid: 'repeb',
@@ -80,6 +59,27 @@ const KWL09: SankeyData = {
             value: 1,
             valueid: 'repeb',
             process: 'KWL09_1',
+        },
+        {
+            source: 12,
+            target: 43,
+            value: 1,
+            valueid: 'repeb',
+            process: 'KWL09_2',
+        },
+        {
+            source: 43,
+            target: 59,
+            value: 1,
+            valueid: 'repeb',
+            process: 'KWL09_2',
+        },
+        {
+            source: 59,
+            target: 77,
+            value: 1,
+            valueid: 'repeb',
+            process: 'KWL09_2',
         },
     ],
     status: [

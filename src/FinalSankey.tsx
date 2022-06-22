@@ -88,7 +88,7 @@ export default function FinalSankey() {
     const isMounted = useRef(true);
     const matches = useMediaQuery('(min-width:600px)');
     // console.log(originData);
-    const title = ['Paper', 'Target', 'Intermediation', 'Representation', 'Vis_var&tech'];
+    const title = ['Paper', 'Target', 'Intermediation', 'Representation', 'Vis var&tech'];
     const columns = title.map((title) => title).filter((title, pos, arr) => arr.indexOf(title) === pos);
 
     useEffect(() => {

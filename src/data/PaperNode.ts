@@ -20,38 +20,38 @@ export const PaperNode: SankeyData = {
         { name: 'emotion', type: 'Target', subtype: '2' }, // 15
         { name: 'writer', type: 'Target', subtype: '3' },
         { name: 'organization', type: 'Target', subtype: '3' },
-        { name: 'key_player', type: 'Target', subtype: '3' }, // 18
+        { name: 'key player', type: 'Target', subtype: '3' }, // 18
         { name: 'public', type: 'Target', subtype: '3' },
-        { name: 'community', type: 'Target', subtype: '3' },
-        { name: 'birth_death', type: 'Target', subtype: '4' },
-        { name: 'growth_contraction', type: 'Target', subtype: '4' },
+        { name: 'community', type: 'Target', subtype: '3' }, // 20
+        { name: 'birth death', type: 'Target', subtype: '4' },
+        { name: 'growth contraction', type: 'Target', subtype: '4' },
         { name: 'continuity', type: 'Target', subtype: '4' },
         { name: 'accumulation', type: 'Target', subtype: '4' }, // 24
-        { name: 'fusion_discrete', type: 'Target', subtype: '4' }, // 25
+        { name: 'fusion discrete', type: 'Target', subtype: '4' }, // 25
         { name: 'stable', type: 'Target', subtype: '4' },
         { name: 'repeat', type: 'Target', subtype: '4' },
-        { name: 'peak_valley', type: 'Target', subtype: '4' },
+        { name: 'peak valley', type: 'Target', subtype: '4' },
         { name: 'implication', type: 'Target', subtype: '4' },
         { name: 'acceleration', type: 'Target', subtype: '4' }, // 30
-        { name: 'subjectivity_detection', type: 'Intermediation', subtype: '0' },
-        { name: 'emotion_cause_detection', type: 'Intermediation', subtype: '0' },
-        { name: 'identifying_the_intent_of_sentiment_information', type: 'Intermediation', subtype: '0' },
-        { name: 'detection_of_evidence_event_that_causes_sentiment_patterns', type: 'Intermediation', subtype: '0' }, // 34
-        { name: 'argument_expression_detection', type: 'Intermediation', subtype: '0' },
-        { name: 'aspect_based_sentiment_analysis', type: 'Intermediation', subtype: '0' },
-        { name: 'detection_of_fake_or_deceptive_sentiment_information', type: 'Intermediation', subtype: '0' },
-        { name: 'hate_speech', type: 'Intermediation', subtype: '0' },
-        { name: 'opinion_summarization', type: 'Intermediation', subtype: '1' }, // 39
-        { name: 'sentiment_information_description_a_multi_aspect', type: 'Intermediation', subtype: '1' }, // 40
-        { name: 'emotion_detection_and_classification', type: 'Intermediation', subtype: '2' },
-        { name: 'polarity_classification', type: 'Intermediation', subtype: '2' },
-        { name: 'personalized_sentiment_analysis', type: 'Intermediation', subtype: '2' },
-        { name: 'multilingual_and_cross_lingual_sentiment_analysis', type: 'Intermediation', subtype: '2' },
-        { name: 'comparsion_of_different_sentiments', type: 'Intermediation', subtype: '3' }, // 45
-        { name: 'timeline_analysis', type: 'Intermediation', subtype: '4' }, // 46
-        { name: 'analysis_of_debates_comments_and_argumentation', type: 'Intermediation', subtype: '4' }, // 47
-        { name: 'finding_significant', type: 'Intermediation', subtype: '4' }, // 48
-        { name: 'easy_exploration_of_sentiment_information', type: 'Intermediation', subtype: '4' }, // 49
+        { name: 'subjectivity detection', type: 'Intermediation', subtype: '0' },
+        { name: 'emotion cause detection', type: 'Intermediation', subtype: '0' },
+        { name: 'identifying the intent of sentiment information', type: 'Intermediation', subtype: '0' },
+        { name: 'detection of evidence event that causes sentiment patterns', type: 'Intermediation', subtype: '0' }, // 34
+        { name: 'argument expression detection', type: 'Intermediation', subtype: '0' },
+        { name: 'aspect based sentiment analysis', type: 'Intermediation', subtype: '0' },
+        { name: 'detection of fake or deceptive sentiment information', type: 'Intermediation', subtype: '0' },
+        { name: 'hate speech', type: 'Intermediation', subtype: '0' },
+        { name: 'opinion summarization', type: 'Intermediation', subtype: '1' }, // 39
+        { name: 'sentiment information description a multi aspect', type: 'Intermediation', subtype: '1' }, // 40
+        { name: 'emotion detection and classification', type: 'Intermediation', subtype: '2' },
+        { name: 'polarity classification', type: 'Intermediation', subtype: '2' },
+        { name: 'personalized sentiment analysis', type: 'Intermediation', subtype: '2' },
+        { name: 'multilingual and cross lingual sentiment analysis', type: 'Intermediation', subtype: '2' },
+        { name: 'comparsion of different sentiments', type: 'Intermediation', subtype: '3' }, // 45
+        { name: 'timeline analysis', type: 'Intermediation', subtype: '4' }, // 46
+        { name: 'analysis of debates comments and argumentation', type: 'Intermediation', subtype: '4' }, // 47
+        { name: 'finding significant', type: 'Intermediation', subtype: '4' }, // 48
+        { name: 'easy exploration of sentiment information', type: 'Intermediation', subtype: '4' }, // 49
         { name: 'celestial', type: 'Representation', subtype: '0' }, // 50
         { name: 'human', type: 'Representation', subtype: '0' },
         { name: 'animal', type: 'Representation', subtype: '0' },
@@ -60,7 +60,7 @@ export const PaperNode: SankeyData = {
         { name: 'compound', type: 'Representation', subtype: '0' }, // 55
         { name: 'metal', type: 'Representation', subtype: '0' },
         { name: 'nonmetal', type: 'Representation', subtype: '0' },
-        { name: 'cell', type: 'Representation', subtype: '0' },
+        { name: 'cell', type: 'Representation', subtype: '0' }, // 58
         { name: 'building&structure', type: 'Representation', subtype: '1' }, // 59 (바퀴)
         { name: 'geometry', type: 'Representation', subtype: '1' }, // 60
         { name: 'picture', type: 'Representation', subtype: '1' },
@@ -68,40 +68,40 @@ export const PaperNode: SankeyData = {
         { name: 'map', type: 'Representation', subtype: '1' }, // 63
         { name: 'fiber', type: 'Representation', subtype: '1' },
         { name: 'food', type: 'Representation', subtype: '1' },
-        { name: 'toys_instrument', type: 'Representation', subtype: '1' },
+        { name: 'toys instrument', type: 'Representation', subtype: '1' },
         { name: 'software', type: 'Representation', subtype: '1' },
         { name: 'machine', type: 'Representation', subtype: '1' },
         { name: 'letter', type: 'Representation', subtype: '1' },
-        { name: 'natural_phenomena', type: 'Representation', subtype: '2' }, // 70
+        { name: 'natural phenomena', type: 'Representation', subtype: '2' }, // 70
         { name: 'behavior', type: 'Representation', subtype: '2' },
         { name: 'disaster', type: 'Representation', subtype: '2' },
-        { name: 'space_time_movement', type: 'Representation', subtype: '2' },
-        { name: 'machine_software_work', type: 'Representation', subtype: '3' },
-        { name: 'creation_and_destruction', type: 'Representation', subtype: '3' }, // 75
-        { name: 'value', type: 'Vis_var&tech', subtype: '0' }, // 76
-        { name: 'color', type: 'Vis_var&tech', subtype: '0' }, // 77
-        { name: 'size', type: 'Vis_var&tech', subtype: '0' }, // 78
-        { name: 'shape', type: 'Vis_var&tech', subtype: '0' }, // 79
-        { name: 'position', type: 'Vis_var&tech', subtype: '0' },
-        { name: 'orientation', type: 'Vis_var&tech', subtype: '0' },
-        { name: 'distance', type: 'Vis_var&tech', subtype: '0' }, // 82
-        { name: '3d_visualization', type: 'Vis_var&tech', subtype: '1' }, // 83
-        { name: 'node_link_diagram', type: 'Vis_var&tech', subtype: '1' },
-        { name: 'bubble_chart', type: 'Vis_var&tech', subtype: '1' },
-        { name: 'area_chart', type: 'Vis_var&tech', subtype: '1' },
-        { name: 'line_plot', type: 'Vis_var&tech', subtype: '1' },
-        { name: 'box_plot', type: 'Vis_var&tech', subtype: '1' },
-        { name: 'pie_chart', type: 'Vis_var&tech', subtype: '1' },
-        { name: 'radar_chart', type: 'Vis_var&tech', subtype: '1' },
-        { name: 'tree_map', type: 'Vis_var&tech', subtype: '1' },
-        { name: 'tag_cloud', type: 'Vis_var&tech', subtype: '1' }, // 이름 수정
-        { name: 'heatmap', type: 'Vis_var&tech', subtype: '1' },
-        { name: 'scatter_plot', type: 'Vis_var&tech', subtype: '1' },
-        { name: 'mds_map', type: 'Vis_var&tech', subtype: '1' },
-        { name: 'parallel_coordinate', type: 'Vis_var&tech', subtype: '1' },
-        { name: 'pixel_based_plot', type: 'Vis_var&tech', subtype: '1' },
-        { name: 'time_oriented_visualization', type: 'Vis_var&tech', subtype: '1' },
-        { name: 'spatial_based_visualization', type: 'Vis_var&tech', subtype: '1' }, // 99
+        { name: 'space time movement', type: 'Representation', subtype: '2' },
+        { name: 'machine software work', type: 'Representation', subtype: '3' },
+        { name: 'creation and destruction', type: 'Representation', subtype: '3' }, // 75
+        { name: 'value', type: 'Vis var&tech', subtype: '0' }, // 76
+        { name: 'color', type: 'Vis var&tech', subtype: '0' }, // 77
+        { name: 'size', type: 'Vis var&tech', subtype: '0' }, // 78
+        { name: 'shape', type: 'Vis var&tech', subtype: '0' }, // 79
+        { name: 'position', type: 'Vis var&tech', subtype: '0' },
+        { name: 'orientation', type: 'Vis var&tech', subtype: '0' },
+        { name: 'distance', type: 'Vis var&tech', subtype: '0' }, // 82
+        { name: '3d visualization', type: 'Vis var&tech', subtype: '1' }, // 83
+        { name: 'node link diagram', type: 'Vis var&tech', subtype: '1' },
+        { name: 'bubble chart', type: 'Vis var&tech', subtype: '1' },
+        { name: 'area chart', type: 'Vis var&tech', subtype: '1' },
+        { name: 'line plot', type: 'Vis var&tech', subtype: '1' },
+        { name: 'box plot', type: 'Vis var&tech', subtype: '1' },
+        { name: 'pie chart', type: 'Vis var&tech', subtype: '1' },
+        { name: 'radar chart', type: 'Vis var&tech', subtype: '1' },
+        { name: 'tree map', type: 'Vis var&tech', subtype: '1' },
+        { name: 'tag cloud', type: 'Vis var&tech', subtype: '1' }, // 이름 수정
+        { name: 'heatmap', type: 'Vis var&tech', subtype: '1' },
+        { name: 'scatter plot', type: 'Vis var&tech', subtype: '1' },
+        { name: 'mds map', type: 'Vis var&tech', subtype: '1' },
+        { name: 'parallel coordinate', type: 'Vis var&tech', subtype: '1' },
+        { name: 'pixel based plot', type: 'Vis var&tech', subtype: '1' },
+        { name: 'time oriented visualization', type: 'Vis var&tech', subtype: '1' },
+        { name: 'spatial based visualization', type: 'Vis var&tech', subtype: '1' }, // 99
         { name: 'CAA20', type: 'Paper' }, // 100
         { name: 'CGK21', type: 'Paper' },
         { name: 'CSL12', type: 'Paper' },

@@ -1,4 +1,3 @@
-import { link } from 'fs';
 import { SankeyData, SankeyNodeExtended } from '../../types';
 
 export const calcSankeyNodes = (
@@ -91,7 +90,7 @@ export const calcSankeyNodes = (
         const startP = height / 2 - (entityHeight * columnNodes.length) / 2 + propPaddingTop;
 
         let currYPos = startP;
-        let currXPos = startP;
+        // let currXPos = startP;
 
         //node margin
         const nextPosition = propMaxLinkBreadth && propMaxLinkBreadth > propNodeHeight ? propMaxLinkBreadth + propNodeMargin + 3 : propNodeHeight + propNodeMargin + 3;
@@ -130,9 +129,9 @@ export const calcSankeyNodes = (
             if (node.type === 'Representation' && node.subtype === '2') extendedNode.y = currYPos - 30;
             if (node.type === 'Representation' && node.subtype === '3') extendedNode.y = currYPos - 10;
             if (node.type === 'Representation') extendedNode.x = 1500;
-            if (node.type === 'Vis_var&tech' && node.subtype === '0') extendedNode.y = currYPos - 180;
-            if (node.type === 'Vis_var&tech' && node.subtype === '1') extendedNode.y = currYPos + 50;
-            if (node.type === 'Vis_var&tech') extendedNode.x = 2000;
+            if (node.type === 'Vis var&tech' && node.subtype === '0') extendedNode.y = currYPos - 180;
+            if (node.type === 'Vis var&tech' && node.subtype === '1') extendedNode.y = currYPos + 50;
+            if (node.type === 'Vis var&tech') extendedNode.x = 2000;
 
             // Filter Nodes with no output that or not end nodes
 
