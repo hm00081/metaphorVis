@@ -37,7 +37,7 @@ export const Link = ({ link, originData, sourceTargetIdLinksDict, setOriginData 
 
                     renderingData.links.forEach((renderingLink) => {
                         renderingLink.color = 'grayLinkColor';
-                        renderingLink.valueid = undefined; // 초기 상태
+                        // renderingLink.valueid = undefined; // 초기 상태
                         renderingLink.status = undefined;
 
                         selectedLinkParts.forEach((linkPart) => {
@@ -127,6 +127,7 @@ function findFrontLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData }
         if (renderingLink.target === linkPart.source && renderingLink.paperName === linkPart.paperName && renderingLink.process === linkPart.process) {
             if ((renderingLink.color = 'blueLinkColor')) renderingLink.color = 'blueLinkColor';
             renderingLink.valueid = linkPart.valueid;
+            renderingLink.paperName = linkPart.paperName;
             renderingLink.process = linkPart.process;
             // renderingLink.valueid = 'selected';
             renderingLink.status = 'selected';
@@ -140,6 +141,7 @@ function findFrontLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData }
                 renderingLink.color = 'greenLinkColor';
                 renderingLink.status = 'selected';
                 renderingLink.valueid = linkPart.valueid;
+                renderingLink.paperName = linkPart.paperName;
                 renderingLink.process = linkPart.process;
                 // renderingLink.valueid = 'selected';
                 // if ((renderingLink.status = undefined)) {
@@ -167,6 +169,7 @@ function findBackLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData })
             // renderingLink.valueid = 'selected';
             renderingLink.valueid = linkPart.valueid;
             renderingLink.status = 'selected';
+            renderingLink.paperName = linkPart.paperName;
             renderingLink.process = linkPart.process;
             // if ((renderingLink.status = undefined)) {
             //     renderingLink.color = 'blueLightLinkColor';
@@ -176,23 +179,27 @@ function findBackLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData })
                 // renderingLink.valueid = 'selected';
                 renderingLink.valueid = linkPart.valueid;
                 renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
                 renderingLink.process = linkPart.process;
             } else if (renderingLink.target > 82 && renderingLink.target < 100) {
                 renderingLink.color = 'rubyLinkColor';
                 // renderingLink.valueid = 'selected';
                 renderingLink.valueid = linkPart.valueid;
                 renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
                 renderingLink.process = linkPart.process;
             } else if (renderingLink.source >= 100) {
                 renderingLink.color = 'greenLinkColor';
                 // renderingLink.valueid = 'selected';
                 renderingLink.valueid = linkPart.valueid;
                 renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
                 renderingLink.process = linkPart.process;
             } else renderingLink.color = 'blueLinkColor';
             // renderingLink.valueid = 'selected';
             renderingLink.valueid = linkPart.valueid;
             renderingLink.status = 'selected';
+            renderingLink.paperName = linkPart.paperName;
             renderingLink.process = linkPart.process;
             return true;
         } else {
