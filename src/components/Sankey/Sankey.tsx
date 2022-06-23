@@ -42,35 +42,12 @@ import VarCloudResults from '../WordCloud/react-cloud/VarCloudResults';
 import TechCloudResults from '../WordCloud/react-cloud/TechCloudResults';
 // import { GridColumns } from '@visx/grid';
 
-const Text = styled.div`
-    flex: 1;
-    display: inline;
-    justify-content: space-between;
-    white-space: initial;
-    margin-left: 20px;
-`;
-
 const TargetClouds = styled.div`
     margin-left: 300px;
     margin-top: -50px;
 `;
-// const InterClouds = styled.div`
-//     // margin-left: 230px;
-//     // margin-top: -50px;
-//     padding-left: 200px;
-// `;
-// const RepClouds = styled.div`
-//     margin-left: 230px;
-//     margin-top: -50px;
-// `;
-// const TechClouds = styled.div`
-//     margin-left: 230px;
-//     margin-top: -50px;
-// `;
-// const VarClouds = styled.div`
-//     margin-left: 830px;
-//     margin-top: -500px;
-// `;
+
+const BigBox = styled.g``;
 
 // Props
 interface Props {
@@ -100,7 +77,7 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
     // const [ref, { width, height }] = useMeasure<HTMLDivElement>();
     const [nodes, setNodes] = useState<SankeyNodeExtended[]>([]);
     const [links, setLinks] = useState<SankeyLinkExtended[]>([]);
-    const [columns, setColumns] = useState<SankeyNodeExtended[]>([]);
+    // const [columns, setColumns] = useState<SankeyNodeExtended[]>([]);
     const [renderingData, setRenderingData] = useState<SankeyData>({ ...originData });
     const [sourceTargetIdLinksDict, setSourceTargetIdLinksDict] = useState<SourceTargetIdLinksDict>({});
     const [SourceTargetIdNodesDict, setSourceTargetIdNodesDict] = useState<SourceTargetIdNodesDict>({});
@@ -148,12 +125,12 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
         setNodes(nodes);
         // const links = calcSankeyLinks(renderingData, height, nodes, nodeWidth, minLinkBreadth, maxLinkBreadth, renderingData.positionStatus === 'init'); // 이거로 하면 모든 링크 위치 분리되어 나타냄
         const links = calcSankeyLinks(renderingData, height, nodes, nodeWidth, minLinkBreadth, maxLinkBreadth);
-        const columns = nodes.map((node) => node.type).filter((type, pos, arr) => arr.indexOf(type) === pos);
+
         // console.log(columns);
         // console.log('links', links);
         setLinks(links);
     }, [originData]);
-
+    const columns = nodes.map((node) => node.type).filter((type, pos, arr) => arr.indexOf(type) === pos);
     // const columns = title.map((title) => title).filter((title, pos, arr) => arr.indexOf(title) === pos);
 
     return (
@@ -182,6 +159,15 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
                 </text>
             ))} */}
 
+                {columns.map((column, i) => (
+                    <BigBox>
+                        {/* <rect className="column" x={(width / columns.length) * i} y={0} width={1500} height={height} fill="#eae2d4" /> */}
+                        {/* <text x={(width / columns.length) * i + width / columns.length / 2} y={height * 0.02} textAnchor="middle">
+                            {column}
+                        </text> */}
+                    </BigBox>
+                ))}
+
                 {links.map((link, i) => (
                     <Link key={`link-${i}`} link={link} originData={originData} sourceTargetIdLinksDict={sourceTargetIdLinksDict} setOriginData={setOriginData} />
                 ))}
@@ -201,13 +187,13 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
                     </Node>
                 ))}
             </svg>
-            <TargetClouds>
+            {/* <TargetClouds>
                 <TargetCloudResults />
                 <InterCloudResults />
                 <RepCloudResults />
                 <TechCloudResults />
             </TargetClouds>
-            <VarCloudResults />
+            <VarCloudResults /> */}
         </div>
     );
 };

@@ -4,29 +4,6 @@ import './sandbox-styles.css';
 import { FC } from 'react';
 import { Utility } from '../../utils/sankey/basics';
 import { SourceTargetIdLinksDict } from './Sankey';
-import { useState } from 'react';
-import { link } from 'fs';
-import { setOriginalNode } from 'typescript';
-import {
-    LinkGrayColor,
-    LinkDarkGrayColor,
-    LinkBlackColor,
-    LinkBlueColor,
-    LinkDeepBlueColor,
-    LinkGreenColor,
-    LinkLightGreenColor,
-    LinkOrangeColor,
-    LinkRubyColor,
-    LinkRedColor,
-    LinkTargetColor,
-    LinkIntOneColor,
-    LinkIntTwoColor,
-    LinkIntThreeColor,
-    LinkIntFourColor,
-    LinkIntFiveColor,
-    LinkRepVisVarColor,
-    LinkRepVisTechColor,
-} from './SankeyColor';
 
 // Props
 interface Props {

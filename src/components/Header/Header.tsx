@@ -23,17 +23,6 @@ const Col = styled.div`
     align-items: center;
 `;
 
-// const Logo = styled(motion.svg)`
-//     margin-right: 50px;
-//     width: 95px;
-//     height: 25px;
-//     fill: #e51013;
-//     path {
-//         stroke-width: 6px;
-//         stroke: white;
-//     }
-// `;
-
 const HomeName = styled.span`
     font-size: 30px;
     margin-left: -50px;

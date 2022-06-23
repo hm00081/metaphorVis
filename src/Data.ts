@@ -28,19 +28,36 @@ const fullData: SankeyData = {
 
         return { ...node, color };
     }),
-    links: RepAs.map((link) => {
+    links: AllPaperDatas.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         //@ts-ignore
-        if (hasLinkInGroup(link, TargetAAs)) {
-            if (link.source < 50) {
-                color = 'blueLinkColor';
+        if (hasLinkInGroup(link, AllPaperDatas)) {
+            if (link.target <= 30) {
+                color = 'targetLinkColor';
+            } else if ((link.target >= 31 && link.target <= 38) || (link.source >= 31 && link.source <= 38)) {
+                color = 'intOneLinkColor';
+            } else if ((link.target >= 39 && link.target <= 40) || (link.source >= 39 && link.source <= 40)) {
+                color = 'intTwoLinkColor';
+            } else if ((link.target >= 41 && link.target <= 44) || (link.source >= 41 && link.source <= 44)) {
+                color = 'intThreeLinkColor';
+            } else if (link.target === 45 || link.source === 45) {
+                color = 'intFourLinkColor';
+            } else if ((link.target >= 46 && link.target <= 49) || (link.source >= 46 && link.source <= 49)) {
+                color = 'intFiveLinkColor';
             } else if (link.target >= 76 && link.target < 83) {
-                color = 'orangeLinkColor';
+                color = 'repVisVarColor';
             } else if (link.target > 82 && link.target < 100) {
-                color = 'rubyLinkColor';
-            } else {
-                color = 'greenLinkColor';
+                color = 'repVisTechColor';
             }
+            // if (link.source < 50) {
+            //     color = 'blueLinkColor';
+            // } else if (link.target >= 76 && link.target < 83) {
+            //     color = 'orangeLinkColor';
+            // } else if (link.target > 82 && link.target < 100) {
+            //     color = 'rubyLinkColor';
+            // } else {
+            //     color = 'greenLinkColor';
+            // }
         } else {
             if (link.category === 'TargetAAs') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.

@@ -5,6 +5,12 @@
     /* display: flex; */
     /* margin-right: 100px; */
 }
+.container .sankey {
+    margin-left: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 path.link {
     opacity: 0.45;

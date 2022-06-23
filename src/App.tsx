@@ -13,6 +13,10 @@ const draw = <withStyles />;
 //@ts-ignore
 const barChart = <StackedBarChart />;
 
+const BigBox = styled.g`
+    background-color: 'blue';
+`;
+
 const Clouds = styled.div`
     margin-left: 400px;
     margin-top: -150px;
@@ -23,13 +27,6 @@ function App() {
         <>
             <Header />
             <FinalSankey />
-            {/* <Clouds>
-                <CloudResults />
-            </Clouds> */}
-            {/* <Cloud /> */}
-            {/* <ParentSize>{({ width, height }) => <StackedBarChart width={width} height={height} />}</ParentSize> */}
-            {/* {draw} */}
-            {/* <ParentSize>{({ width, height }) => <Word width={width} height={height} />}</ParentSize> */}
         </>
     );
 }

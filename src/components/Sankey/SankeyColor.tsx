@@ -72,8 +72,8 @@ const LinkRedColor: FC = () => (
 
 const LinkTargetColor: FC = () => (
     <linearGradient id="targetLinkColor">
-        <stop offset="100%" stopColor={'hsl(177, 76%, 57%) '} />
-        <stop offset="100%" stopColor={'hsl(177, 76%, 57%) '} />
+        <stop offset="100%" stopColor={'hsl(177, 76%, 37%) '} />
+        <stop offset="100%" stopColor={'hsl(177, 76%, 37%) '} />
     </linearGradient>
 );
 

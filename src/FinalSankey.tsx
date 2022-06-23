@@ -16,13 +16,14 @@ import { basicData, targetaa, targetab, targetba, targetbb, targetca, targetcb, 
 import { SankeyData, SankeyLinkExtended, SankeyNodeExtended, SankeyLink } from './types';
 import { WordData } from './components/WordCloud/react-cloud/types/index';
 import { ButtonGroup } from '@mui/material';
-import { RepHs } from './data/AllPaperData';
+import { RepEBs, RepHs } from './data/AllPaperData';
 import useMediaQuery from '@mui/material/useMediaQuery';
+import { flushSync } from 'react-dom';
 
 const FinalSankeys = styled.div`
     margin-top: 50px;
     margin-bottom: auto;
-    // height: 1em;
+    // background-color: #eae2d4;
 `;
 
 const Menu = styled.div`
@@ -39,7 +40,7 @@ const Menu = styled.div`
 
 const SecButtonPos = styled.div`
     display: inline-block;
-    margin-left: 2em;
+    margin-left: 1.5em;
     margin-top: -55px;
 `;
 
@@ -80,9 +81,9 @@ interface PaletteColor {
 // Component
 export default function FinalSankey() {
     const [ref, { width, height }] = useMeasure<HTMLDivElement>();
-    const [btn, setBtn] = useState(0);
+    const [btn, setBtn] = useState(15);
     const [selected, setSelcted] = useState<'click' | 'unclick'>('unclick');
-    const [originData, setOriginData] = useState<SankeyData>(repb);
+    const [originData, setOriginData] = useState<SankeyData>(fullData);
     // cloud data state
     const [originCloudData, setOriginCloudData] = useState<WordData>();
     const isMounted = useRef(true);
@@ -93,7 +94,7 @@ export default function FinalSankey() {
 
     useEffect(() => {
         setTimeout(() => {
-            setOriginData(basicData);
+            setOriginData(fullData);
         }, 1000);
         isMounted.current = false;
     }, []);
@@ -123,7 +124,7 @@ export default function FinalSankey() {
                                 setBtn(9);
                             }}
                             variant={btn === 9 ? 'contained' : 'outlined'}
-                            style={{ textTransform: 'capitalize' }}
+                            style={{ textTransform: 'none' }}
                         >
                             Politician's Speech
                         </Button>
@@ -134,7 +135,7 @@ export default function FinalSankey() {
                                 setBtn(10);
                             }}
                             variant={btn === 10 ? 'contained' : 'outlined'}
-                            style={{ textTransform: 'capitalize' }}
+                            style={{ textTransform: 'none' }}
                         >
                             Opinion to Politicians
                         </Button>
@@ -145,7 +146,7 @@ export default function FinalSankey() {
                                 setBtn(11);
                             }}
                             variant={btn === 11 ? 'contained' : 'outlined'}
-                            style={{ textTransform: 'capitalize' }}
+                            style={{ textTransform: 'none' }}
                         >
                             Product Appraisal
                         </Button>
@@ -156,7 +157,7 @@ export default function FinalSankey() {
                                 setBtn(12);
                             }}
                             variant={btn === 12 ? 'contained' : 'outlined'}
-                            style={{ textTransform: 'capitalize' }}
+                            style={{ textTransform: 'none' }}
                         >
                             Service Appraisal
                         </Button>
@@ -167,7 +168,7 @@ export default function FinalSankey() {
                                 setBtn(13);
                             }}
                             variant={btn === 13 ? 'contained' : 'outlined'}
-                            style={{ textTransform: 'capitalize' }}
+                            style={{ textTransform: 'none' }}
                         >
                             Opinion on a Specific Event
                         </Button>
@@ -178,7 +179,7 @@ export default function FinalSankey() {
                                 setBtn(16);
                             }}
                             variant={btn === 16 ? 'contained' : 'outlined'}
-                            style={{ textTransform: 'capitalize' }}
+                            style={{ textTransform: 'none' }}
                         >
                             Diffusion of Sentiment
                         </Button>
@@ -195,7 +196,7 @@ export default function FinalSankey() {
                                     setBtn(1);
                                 }}
                                 variant={btn === 1 ? 'contained' : 'outlined'}
-                                style={{ textTransform: 'capitalize' }}
+                                style={{ textTransform: 'none' }}
                             >
                                 Map
                             </Button>
@@ -206,7 +207,7 @@ export default function FinalSankey() {
                                     setBtn(2);
                                 }}
                                 variant={btn === 2 ? 'contained' : 'outlined'}
-                                style={{ textTransform: 'capitalize' }}
+                                style={{ textTransform: 'none' }}
                             >
                                 River
                             </Button>
@@ -217,7 +218,7 @@ export default function FinalSankey() {
                                     setBtn(3);
                                 }}
                                 variant={btn === 3 ? 'contained' : 'outlined'}
-                                style={{ textTransform: 'capitalize' }}
+                                style={{ textTransform: 'none' }}
                             >
                                 Plant
                             </Button>
@@ -228,7 +229,7 @@ export default function FinalSankey() {
                                     setBtn(4);
                                 }}
                                 variant={btn === 4 ? 'contained' : 'outlined'}
-                                style={{ textTransform: 'capitalize' }}
+                                style={{ textTransform: 'none' }}
                             >
                                 Bubble
                             </Button>
@@ -239,7 +240,7 @@ export default function FinalSankey() {
                                     setBtn(5);
                                 }}
                                 variant={btn === 5 ? 'contained' : 'outlined'}
-                                style={{ textTransform: 'capitalize' }}
+                                style={{ textTransform: 'none' }}
                             >
                                 Wheel
                             </Button>
@@ -250,7 +251,7 @@ export default function FinalSankey() {
                                     setBtn(6);
                                 }}
                                 variant={btn === 6 ? 'contained' : 'outlined'}
-                                style={{ textTransform: 'capitalize' }}
+                                style={{ textTransform: 'none' }}
                             >
                                 Building & Structure
                             </Button>
@@ -261,7 +262,7 @@ export default function FinalSankey() {
                                     setBtn(7);
                                 }}
                                 variant={btn === 7 ? 'contained' : 'outlined'}
-                                style={{ textTransform: 'capitalize' }}
+                                style={{ textTransform: 'none' }}
                             >
                                 Geometry
                             </Button>
@@ -272,7 +273,7 @@ export default function FinalSankey() {
                                     setBtn(8);
                                 }}
                                 variant={btn === 8 ? 'contained' : 'outlined'}
-                                style={{ textTransform: 'capitalize' }}
+                                style={{ textTransform: 'none' }}
                             >
                                 Machine
                             </Button>
@@ -283,7 +284,7 @@ export default function FinalSankey() {
                                     setBtn(14);
                                 }}
                                 variant={btn === 14 ? 'contained' : 'outlined'}
-                                style={{ textTransform: 'capitalize' }}
+                                style={{ textTransform: 'none' }}
                             >
                                 Decorative Pattern
                             </Button>
@@ -295,7 +296,7 @@ export default function FinalSankey() {
                                     setBtn(0);
                                 }}
                                 variant={btn === 0 ? 'contained' : 'outlined'}
-                                style={{ textTransform: 'capitalize' }}
+                                style={{ textTransform: 'none' }}
                             >
                                 Show Empty
                             </Button>
@@ -303,10 +304,10 @@ export default function FinalSankey() {
                                 onClick={() => {
                                     setOriginData(fullData);
                                     setSelcted('click');
-                                    setBtn(0);
+                                    setBtn(15);
                                 }}
                                 variant={btn === 15 ? 'contained' : 'outlined'}
-                                style={{ textTransform: 'capitalize' }}
+                                style={{ textTransform: 'none' }}
                             >
                                 Show Full
                             </Button>
@@ -317,18 +318,20 @@ export default function FinalSankey() {
                             <Text>{column}</Text>
                         ))}
                     </> */}
-                    <Sankey
-                        width={width}
-                        height={height}
-                        originData={originData}
-                        paddingTop={4}
-                        nodeWidth={2}
-                        nodeHeight={1.5}
-                        nodeMargin={0.8}
-                        minLinkBreadth={0.1}
-                        maxLinkBreadth={2}
-                        setOriginData={setOriginData}
-                    />
+                    <div className="sankey">
+                        <Sankey
+                            width={width}
+                            height={height}
+                            originData={originData}
+                            paddingTop={4}
+                            nodeWidth={2}
+                            nodeHeight={1.5}
+                            nodeMargin={0.8}
+                            minLinkBreadth={0.1}
+                            maxLinkBreadth={2}
+                            setOriginData={setOriginData}
+                        />
+                    </div>
                 </div>
             </FinalSankeys>
         </>
