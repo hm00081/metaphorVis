@@ -16,11 +16,21 @@ import {
     LinkRubyColor,
     LinkRedColor,
     LinkTargetColor,
+    LinkTargetOneColor,
+    LinkTargetTwoColor,
+    LinkTargetThreeColor,
+    LinkTargetFourColor,
     LinkIntOneColor,
+    LinkIntLightOneColor,
+    LinkIntLight2OneColor,
     LinkIntTwoColor,
+    LinkIntLightTwoColor,
     LinkIntThreeColor,
+    LinkIntLightThreeColor,
     LinkIntFourColor,
     LinkIntFiveColor,
+    LinkIntLightFiveColor,
+    LinkIntLight2FiveColor,
     LinkRepVisVarColor,
     LinkRepVisTechColor,
 } from './SankeyColor';
@@ -136,7 +146,7 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
     return (
         <div className="box">
             <svg className="size" width={width} height={height}>
-                <LinkGrayColor />
+            <LinkGrayColor />
                 <LinkBlueColor />
                 <LinkDeepBlueColor />
                 <LinkGreenColor />
@@ -145,11 +155,21 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
                 <LinkRubyColor />
                 <LinkRedColor />
                 <LinkTargetColor />
+                <LinkTargetOneColor />
+                <LinkTargetTwoColor />
+                <LinkTargetThreeColor />
+                <LinkTargetFourColor />
                 <LinkIntOneColor />
+                <LinkIntLightOneColor />
+                <LinkIntLight2OneColor />
                 <LinkIntTwoColor />
+                <LinkIntLightTwoColor />
                 <LinkIntThreeColor />
+                <LinkIntLightThreeColor />
                 <LinkIntFourColor />
                 <LinkIntFiveColor />
+                <LinkIntLightFiveColor />
+                <LinkIntLight2FiveColor />
                 <LinkRepVisVarColor />
                 <LinkRepVisTechColor />
                 {/* {columns.map((column, i) => (
