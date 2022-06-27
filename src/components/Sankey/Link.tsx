@@ -42,56 +42,58 @@ export const Link = ({ link, originData, sourceTargetIdLinksDict, setOriginData 
 
                         selectedLinkParts.forEach((linkPart) => {
                             if (renderingLink.id && renderingLink.id === linkPart.id) {
-                                if ((renderingLink.color = 'blueLinkColor')) {
-                                    renderingLink.color = 'blueLinkColor';
-                                    renderingLink.valueid = 'selected';
-                                    renderingLink.status = 'selected';
-                                } else renderingLink.color = 'blueLightLinkColor';
-                                // blueFlag = true;
-                                // if ((renderingLink.color = 'redLinkColor')) renderingLink.color = 'redLinkColor';
+                                //TODO inter, rep에 속하는지 판단만 하면 되는 상황
+                                // if ((renderingLink.target >= 31 && renderingLink.target <= 34) || (renderingLink.source >= 31 && renderingLink.source <= 34)) 
+                                //     renderingLink.color = 'intOneLinkColor';
+                                //     renderingLink.valueid = 'selected';
+                                //     renderingLink.status = 'selected';                    
+                                // if (renderingLink.target >= 76 && renderingLink.target < 83) renderingLink.color = 'orangeLinkColor';
+                                // renderingLink.status = 'selected';
+                                // renderingLink.status = 'selected';
+                                // if (renderingLink.target > 82 && renderingLink.target < 100) renderingLink.color = 'rubyLinkColor';
+                                // renderingLink.status = 'selected';
+                                // renderingLink.status = 'selected';
+                                // if (renderingLink.source >= 100) renderingLink.color = 'greenLinkColor'; //색상 변경 필요하면 변경.
                                 // renderingLink.valueid = 'selected';
-                                // redFlag = true;
-                                // renderingLink.color = renderingLink.color = 'blueLinkColor' ? 'blueLinkColor' : 'redLinkColor';
-                                if (renderingLink.target >= 76 && renderingLink.target < 83) renderingLink.color = 'orangeLinkColor';
-                                renderingLink.status = 'selected';
-                                renderingLink.status = 'selected';
-                                if (renderingLink.target > 82 && renderingLink.target < 100) renderingLink.color = 'rubyLinkColor';
-                                renderingLink.status = 'selected';
-                                renderingLink.status = 'selected';
-                                if (renderingLink.source >= 100) renderingLink.color = 'greenLinkColor'; //색상 변경 필요하면 변경.
-                                renderingLink.valueid = 'selected';
-                                renderingLink.status = 'selected';
+                                // renderingLink.status = 'selected';
+                                if (renderingLink.target >= 0 && renderingLink.target <= 7) {
+                                    renderingLink.color = 'targetLinkColor';
+                                } if (renderingLink.target >= 8 && renderingLink.target <= 10) {
+                                    renderingLink.color = 'targetLinkOneColor';
+                                } if (renderingLink.target >= 11 && renderingLink.target <= 15) {
+                                    renderingLink.color = 'targetLinkTwoColor';
+                                } if (renderingLink.target >= 16 && renderingLink.target <= 20) {
+                                    renderingLink.color = 'targetLinkThreeColor';
+                                } if (renderingLink.target >= 21 && renderingLink.target <= 30) {
+                                    renderingLink.color = 'targetLinkFourColor';
+                                } if ((renderingLink.target >= 31 && renderingLink.target <= 34) || (renderingLink.source >= 31 && renderingLink.source <= 34)) {
+                                    renderingLink.color = 'intOneLinkColor';
+                                } if (renderingLink.target === 35 || renderingLink.source === 35) {
+                                    renderingLink.color = 'intOneLightLinkColor';
+                                } if ((renderingLink.target >= 36 && renderingLink.target <= 38) || (renderingLink.source >= 36 && renderingLink.source <= 38)) {
+                                    renderingLink.color = 'intOneLight2LinkColor';
+                                } if (renderingLink.target === 39 || renderingLink.source === 39) {
+                                    renderingLink.color = 'intTwoLinkColor';
+                                } if (renderingLink.target === 40 || renderingLink.source === 40) {
+                                    renderingLink.color = 'intTwoLightLinkColor';
+                                } if ((renderingLink.target >= 41 && renderingLink.target <= 42) || (renderingLink.source >= 41 && renderingLink.source <= 42)) {
+                                    renderingLink.color = 'intThreeLinkColor';
+                                } if ((renderingLink.target >= 43 && renderingLink.target <= 44) || (renderingLink.source >= 43 && renderingLink.source <= 44)) {
+                                    renderingLink.color = 'intThreeLightLinkColor';
+                                } if (renderingLink.target === 45 || renderingLink.source === 45) {
+                                    renderingLink.color = 'intFourLinkColor';
+                                } if (renderingLink.target === 46 || renderingLink.source === 46) {
+                                    renderingLink.color = 'intFiveLinkColor';
+                                } if ((renderingLink.target >= 47 && renderingLink.target <= 48) || (renderingLink.source >= 47 && renderingLink.source <= 48)) {
+                                    renderingLink.color = 'intFiveLightLinkColor';
+                                } if (renderingLink.target === 49 || renderingLink.source === 49) {
+                                    renderingLink.color = 'intFiveLight2LinkColor';
+                                } if (renderingLink.target >= 76 && renderingLink.target < 83) {
+                                    renderingLink.color = 'repVisVarColor';
+                                } if (renderingLink.target > 82 && renderingLink.target < 100) {
+                                    renderingLink.color = 'repVisTechColor';
+                                }
                             }
-                            // if ((30 < link.target && link.target < 39) || (30 < link.source && link.source < 39)) {
-                            //     renderingLink.color = 'intOneLinkColor';
-                            //     renderingLink.valueid = 'selected';
-                            //     renderingLink.status = 'selected';
-                            // } else if ((38 < link.target && link.target < 41) || (38 < link.source && link.source < 41)) {
-                            //     renderingLink.color = 'intTwoLinkColor';
-                            //     renderingLink.valueid = 'selected';
-                            //     renderingLink.status = 'selected';
-                            // } else if ((40 < link.target && link.target < 45) || (40 < link.source && link.source < 45)) {
-                            //     renderingLink.color = 'intThreeLinkColor';
-                            //     renderingLink.valueid = 'selected';
-                            //     renderingLink.status = 'selected';
-                            // } else if ((44 < link.target && link.target < 46) || (44 < link.source && link.source < 46)) {
-                            //     renderingLink.color = 'intFourLinkColor';
-                            //     renderingLink.valueid = 'selected';
-                            //     renderingLink.status = 'selected';
-                            // } else if ((45 < link.target && link.target < 50) || (45 < link.source && link.source < 50)) {
-                            //     renderingLink.color = 'intFiveLinkColor';
-                            //     renderingLink.valueid = 'selected';
-                            //     renderingLink.status = 'selected';
-                            // }
-                            // if (renderingLink.target >= 76 && renderingLink.target < 83) renderingLink.color = 'repVisVarColor';
-                            // renderingLink.valueid = 'selected';
-                            // renderingLink.status = 'selected';
-                            // if (renderingLink.target > 82 && renderingLink.target < 100) renderingLink.color = 'repVisTechColor';
-                            // renderingLink.valueid = 'selected';
-                            // renderingLink.status = 'selected';
-                            // if (renderingLink.source >= 100) renderingLink.color = 'targetLinkColor'; //색상 변경 필요하면 변경.
-                            // renderingLink.valueid = 'selected';
-                            // renderingLink.status = 'selected';
                         });
                     });
 
@@ -109,7 +111,6 @@ export const Link = ({ link, originData, sourceTargetIdLinksDict, setOriginData 
                     setOriginData(renderingData);
                 }}
             >
-                // 색상에만 타이틀 추가
                 {link.color !== 'grayLinkColor' ? (
                     <title>{`${link.sourceNode.name} to ${link.targetNode.name}: ${link.value}`}</title>
                 ) : (
@@ -129,24 +130,13 @@ function findFrontLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData }
             renderingLink.valueid = linkPart.valueid;
             renderingLink.paperName = linkPart.paperName;
             renderingLink.process = linkPart.process;
-            // renderingLink.valueid = 'selected';
             renderingLink.status = 'selected';
-            // if ((renderingLink.status = undefined)) {
-            //     renderingLink.color = 'blueLightLinkColor';
-            // }
-            // if ((renderingLink.valueid = undefined)) renderingLink.color = 'blueLightLinkColor';
-            // if ((renderingLink.color = 'redLinkColor')) renderingLink.color = 'redLinkColor';
-            // renderingLink.valueid = 'selected';
             if (renderingLink.source >= 50) {
                 renderingLink.color = 'greenLinkColor';
                 renderingLink.status = 'selected';
                 renderingLink.valueid = linkPart.valueid;
                 renderingLink.paperName = linkPart.paperName;
                 renderingLink.process = linkPart.process;
-                // renderingLink.valueid = 'selected';
-                // if ((renderingLink.status = undefined)) {
-                //     renderingLink.color = 'greenLightLinkColor';
-                // }
             } else return true;
         } else {
             return false;
@@ -165,31 +155,169 @@ function findBackLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData })
     const { linkPart, renderingData } = arg;
     const backLinks = renderingData.links.filter((renderingLink) => {
         if (renderingLink.source === linkPart.target && renderingLink.paperName === linkPart.paperName && renderingLink.process === linkPart.process) {
-            if (renderingLink.source < 50) renderingLink.color = 'blueLinkColor';
-            // renderingLink.valueid = 'selected';
-            renderingLink.valueid = linkPart.valueid;
-            renderingLink.status = 'selected';
-            renderingLink.paperName = linkPart.paperName;
-            renderingLink.process = linkPart.process;
-            // if ((renderingLink.status = undefined)) {
-            //     renderingLink.color = 'blueLightLinkColor';
-            // }
             if (renderingLink.target >= 76 && renderingLink.target < 83) {
-                renderingLink.color = 'orangeLinkColor';
+                renderingLink.color = 'repVisVarColor';
                 // renderingLink.valueid = 'selected';
                 renderingLink.valueid = linkPart.valueid;
                 renderingLink.status = 'selected';
                 renderingLink.paperName = linkPart.paperName;
                 renderingLink.process = linkPart.process;
             } else if (renderingLink.target > 82 && renderingLink.target < 100) {
-                renderingLink.color = 'rubyLinkColor';
+                renderingLink.color = 'repVisTechColor';
                 // renderingLink.valueid = 'selected';
                 renderingLink.valueid = linkPart.valueid;
                 renderingLink.status = 'selected';
                 renderingLink.paperName = linkPart.paperName;
                 renderingLink.process = linkPart.process;
-            } else if (renderingLink.source >= 100) {
-                renderingLink.color = 'greenLinkColor';
+            } else if (renderingLink.target >= 31 && renderingLink.target <= 34) {
+                renderingLink.color = 'intOneLinkColor';
+                // renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
+                renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                renderingLink.process = linkPart.process;
+            } else if (renderingLink.source >= 31 && renderingLink.source <= 34) {
+                renderingLink.color = 'intOneLinkColor';
+                // renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
+                renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                renderingLink.process = linkPart.process;
+            } else if (renderingLink.target === 35) {
+                renderingLink.color = 'intOneLightLinkColor';
+                // renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
+                renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                renderingLink.process = linkPart.process;
+            } else if (renderingLink.source === 35) {
+                renderingLink.color = 'intOneLightLinkColor';
+                // renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
+                renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                renderingLink.process = linkPart.process;
+            } else if (renderingLink.target >= 36 && renderingLink.target <= 38) {
+                renderingLink.color = 'intOneLight2LinkColor';
+                // renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
+                renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                renderingLink.process = linkPart.process;
+            } else if (renderingLink.source >= 36 && renderingLink.source <= 38) {
+                renderingLink.color = 'intOneLight2LinkColor';
+                // renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
+                renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                renderingLink.process = linkPart.process;
+            } else if (renderingLink.target === 39) {
+                renderingLink.color = 'intTwoLinkColor';
+                // renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
+                renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                renderingLink.process = linkPart.process;
+            } else if (renderingLink.source === 39) {
+                renderingLink.color = 'intTwoLinkColor';
+                // renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
+                renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                renderingLink.process = linkPart.process;
+            } else if (renderingLink.target === 40) {
+                renderingLink.color = 'intTwoLightLinkColor';
+                // renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
+                renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                renderingLink.process = linkPart.process;
+            } else if (renderingLink.source === 40) {
+                renderingLink.color = 'intTwoLightLinkColor';
+                // renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
+                renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                renderingLink.process = linkPart.process;
+            } else if (renderingLink.target >= 41 && renderingLink.target <= 42) {
+                renderingLink.color = 'intThreeLinkColor';
+                // renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
+                renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                renderingLink.process = linkPart.process;
+            } else if (renderingLink.source >= 41 && renderingLink.source <= 42) {
+                renderingLink.color = 'intThreeLinkColor';
+                // renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
+                renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                renderingLink.process = linkPart.process;
+            } else if (renderingLink.target >= 43 && renderingLink.target <= 44) {
+                renderingLink.color = 'intThreeLightLinkColor';
+                // renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
+                renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                renderingLink.process = linkPart.process;
+            } else if (renderingLink.source >= 43 && renderingLink.source <= 44) {
+                renderingLink.color = 'intThreeLightLinkColor';
+                // renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
+                renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                renderingLink.process = linkPart.process;
+            } else if (renderingLink.target === 45) {
+                renderingLink.color = 'intFourLinkColor';
+                // renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
+                renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                renderingLink.process = linkPart.process;
+            } else if (renderingLink.source === 45) {
+                renderingLink.color = 'intFourLinkColor';
+                // renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
+                renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                renderingLink.process = linkPart.process;
+            } else if (renderingLink.target === 46) {
+                renderingLink.color = 'intFiveLinkColor';
+                // renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
+                renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                renderingLink.process = linkPart.process;
+            } else if (renderingLink.source === 46) {
+                renderingLink.color = 'intFiveLinkColor';
+                // renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
+                renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                renderingLink.process = linkPart.process;
+            } else if (renderingLink.target >= 47 && renderingLink.target <= 48) {
+                renderingLink.color = 'intFiveLightLinkColor';
+                // renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
+                renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                renderingLink.process = linkPart.process;
+            } else if (renderingLink.source >= 47 && renderingLink.source <= 48) {
+                renderingLink.color = 'intFiveLightLinkColor';
+                // renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
+                renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                renderingLink.process = linkPart.process;
+            } else if (renderingLink.target === 49) {
+                renderingLink.color = 'intFiveLight2LinkColor';
+                // renderingLink.valueid = 'selected';
+                renderingLink.valueid = linkPart.valueid;
+                renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                renderingLink.process = linkPart.process;
+            } else if (renderingLink.source === 49) {
+                renderingLink.color = 'intFiveLight2LinkColor';
                 // renderingLink.valueid = 'selected';
                 renderingLink.valueid = linkPart.valueid;
                 renderingLink.status = 'selected';
