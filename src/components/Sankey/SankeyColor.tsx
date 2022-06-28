@@ -2,8 +2,8 @@ import { FC } from 'react';
 
 const LinkGrayColor: FC = () => (
     <linearGradient id="grayLinkColor">
-        <stop offset="100%" stopColor={'hsl(10, 0%, 80%)'} />
-        <stop offset="100%" stopColor={'hsl(10, 0%, 80%)'} />
+        <stop offset="100%" stopColor={'hsl(10, 0%, 77%)'} />
+        <stop offset="100%" stopColor={'hsl(10, 0%, 77%)'} />
     </linearGradient>
 );
 
@@ -121,8 +121,8 @@ const LinkIntLightOneColor: FC = () => (
 
 const LinkIntLight2OneColor: FC = () => (
     <linearGradient id="intOneLight2LinkColor">
-        <stop offset="100%" stopColor={'hsl(45, 70%, 62%)'} />
-        <stop offset="100%" stopColor={'hsl(45, 70%, 62%)'} />
+        <stop offset="100%" stopColor={'hsl(45, 70%, 58%)'} />
+        <stop offset="100%" stopColor={'hsl(45, 70%, 58%)'} />
     </linearGradient>
 ); // 36~38
 
@@ -156,29 +156,29 @@ const LinkIntLightThreeColor: FC = () => (
 
 const LinkIntFourColor: FC = () => (
     <linearGradient id="intFourLinkColor">
-        <stop offset="100%" stopColor={'hsl(130, 44%, 48%)'} />
-        <stop offset="100%" stopColor={'hsl(130, 44%, 48%)'} />
+        <stop offset="100%" stopColor={'hsl(160, 54%, 40%)'} />
+        <stop offset="100%" stopColor={'hsl(160, 54%, 40%)'} />
     </linearGradient>
 ); // 45
 
 const LinkIntFiveColor: FC = () => (
     <linearGradient id="intFiveLinkColor">
-        <stop offset="100%" stopColor={'hsl(216, 77%, 40%)'} />
-        <stop offset="100%" stopColor={'hsl(216, 77%, 40%)'} />
+        <stop offset="100%" stopColor={'hsl(206, 68%, 40%)'} />
+        <stop offset="100%" stopColor={'hsl(206, 68%, 40%)'} />
     </linearGradient>
 ); // 46
 
 const LinkIntLightFiveColor: FC = () => (
     <linearGradient id="intFiveLightLinkColor">
-        <stop offset="100%" stopColor={'hsl(216, 60%, 66%)'} />
-        <stop offset="100%" stopColor={'hsl(216, 60%, 66%)'} />
+        <stop offset="100%" stopColor={'hsl(216, 60%, 50%)'} />
+        <stop offset="100%" stopColor={'hsl(216, 60%, 50%)'} />
     </linearGradient>
 ); // 47~48
 
 const LinkIntLight2FiveColor: FC = () => (
     <linearGradient id="intFiveLight2LinkColor">
-        <stop offset="100%" stopColor={'hsl(216, 33%, 70%)'} />
-        <stop offset="100%" stopColor={'hsl(216, 33%, 70%)'} />
+        <stop offset="100%" stopColor={'hsl(216, 48%, 56%)'} />
+        <stop offset="100%" stopColor={'hsl(216, 48%, 56%)'} />
     </linearGradient>
 ); // 49
 
