@@ -1,4 +1,4 @@
-import { SankeyData, SankeyNodeExtended } from '../../types';
+import { SankeyData, SankeyNodeExtended, SankeyLinkExtended } from '../../types';
 
 export const calcSankeyNodes = (
     data: SankeyData,
@@ -10,6 +10,7 @@ export const calcSankeyNodes = (
     nodeHeight: number,
     nodeMargin: number,
     maxLinkBreadth?: number
+    // links?: SankeyLinkExtended[]
 ): SankeyNodeExtended[] => {
     // Extract to const so its in a closure
     const { nodes, links } = data;

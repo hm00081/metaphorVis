@@ -22,6 +22,8 @@ export type SankeyNode = SankeyNodeMinimal & {
     color?: string;
     subcolor?: string;
     pattern?: string;
+    link?: SankeyLink[];
+    number?: number;
 };
 
 export type SankeyLink = SankeyLinkMinimal & {
@@ -44,34 +46,34 @@ export type SankeyLink = SankeyLinkMinimal & {
 };
 
 export type LinkColor =
-| 'grayLinkColor'
-| 'grayDarkLinkColor'
-| 'blueLinkColor'
-| 'blueLightLinkColor'
-| 'greenLinkColor'
-| 'greenLightLinkColor'
-| 'redLinkColor'
-| 'orangeLinkColor'
-| 'rubyLinkColor'
-| 'blackLinkColor'
-| 'targetLinkColor'
-| 'targetLinkOneColor'
-| 'targetLinkTwoColor'
-| 'targetLinkThreeColor'
-| 'targetLinkFourColor'
-| 'intOneLinkColor'
-| 'intOneLightLinkColor'
-| 'intOneLight2LinkColor'
-| 'intTwoLinkColor'
-| 'intTwoLightLinkColor'
-| 'intThreeLinkColor'
-| 'intThreeLightLinkColor'
-| 'intFourLinkColor'
-| 'intFiveLinkColor'
-| 'intFiveLightLinkColor'
-| 'intFiveLight2LinkColor'
-| 'repVisVarColor'
-| 'repVisTechColor';
+    | 'grayLinkColor'
+    | 'grayDarkLinkColor'
+    | 'blueLinkColor'
+    | 'blueLightLinkColor'
+    | 'greenLinkColor'
+    | 'greenLightLinkColor'
+    | 'redLinkColor'
+    | 'orangeLinkColor'
+    | 'rubyLinkColor'
+    | 'blackLinkColor'
+    | 'targetLinkColor'
+    | 'targetLinkOneColor'
+    | 'targetLinkTwoColor'
+    | 'targetLinkThreeColor'
+    | 'targetLinkFourColor'
+    | 'intOneLinkColor'
+    | 'intOneLightLinkColor'
+    | 'intOneLight2LinkColor'
+    | 'intTwoLinkColor'
+    | 'intTwoLightLinkColor'
+    | 'intThreeLinkColor'
+    | 'intThreeLightLinkColor'
+    | 'intFourLinkColor'
+    | 'intFiveLinkColor'
+    | 'intFiveLightLinkColor'
+    | 'intFiveLight2LinkColor'
+    | 'repVisVarColor'
+    | 'repVisTechColor';
 
 export type SankeyNodeExtended = SankeyNode & {
     index: number;
@@ -82,8 +84,12 @@ export type SankeyNodeExtended = SankeyNode & {
     y: number;
     width: number;
     height: number;
-    links: SankeyLink | SankeyLinkExtended;
+    link: SankeyLinkExtended;
     hover?: undefined;
+    sourceLink: SankeyLinkExtended;
+    targetLink: SankeyLinkExtended;
+    hassourceLink: number;
+    hastargetLink: number;
 };
 
 export type SankeyLinkExtended = SankeyLink & {

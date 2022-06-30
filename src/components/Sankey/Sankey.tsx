@@ -75,11 +75,11 @@ interface Props {
 }
 
 export interface SourceTargetIdLinksDict {
-    [sourceTargetId: string]: SankeyLink[];
+    [sourceTargetId: string]: SankeyLink[] & SankeyNode[];
 }
 
 export interface SourceTargetIdNodesDict {
-    [sourceTargetId: string]: SankeyNode[];
+    [numberId: string]: SankeyNode[];
 }
 
 // Component
@@ -88,7 +88,7 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
     const [nodes, setNodes] = useState<SankeyNodeExtended[]>([]);
     const [links, setLinks] = useState<SankeyLinkExtended[]>([]);
     // const [columns, setColumns] = useState<SankeyNodeExtended[]>([]);
-    const [renderingData, setRenderingData] = useState<SankeyData>({ ...originData });
+
     const [sourceTargetIdLinksDict, setSourceTargetIdLinksDict] = useState<SourceTargetIdLinksDict>({});
     const [SourceTargetIdNodesDict, setSourceTargetIdNodesDict] = useState<SourceTargetIdNodesDict>({});
 
@@ -125,8 +125,11 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
             mergedLinks.push(mergedLink);
         }
 
+        originData.nodes.forEach((node) => {});
+
         const renderingData: SankeyData = { ...originData };
         renderingData.links = mergedLinks;
+        // console.log(renderingData.nodes);
         // console.log(mergedLinks);
         setSourceTargetIdLinksDict(sourceTargetIdLinksDict);
         // console.log(sourceTargetIdLinksDict);
@@ -135,9 +138,6 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
         setNodes(nodes);
         // const links = calcSankeyLinks(renderingData, height, nodes, nodeWidth, minLinkBreadth, maxLinkBreadth, renderingData.positionStatus === 'init'); // 이거로 하면 모든 링크 위치 분리되어 나타냄
         const links = calcSankeyLinks(renderingData, height, nodes, nodeWidth, minLinkBreadth, maxLinkBreadth);
-
-        // console.log(columns);
-        // console.log('links', links);
         setLinks(links);
     }, [originData]);
     const columns = nodes.map((node) => node.type).filter((type, pos, arr) => arr.indexOf(type) === pos);
@@ -146,7 +146,7 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
     return (
         <div className="box">
             <svg className="size" width={width} height={height}>
-            <LinkGrayColor />
+                <LinkGrayColor />
                 <LinkBlueColor />
                 <LinkDeepBlueColor />
                 <LinkGreenColor />
@@ -194,7 +194,16 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
 
                 {nodes.map((node, i) => (
                     // @ts-ignore
-                    <Node className="node" key={`node-${i}`} node={node} width={width} height={height} originData={originData} setOriginData={setOriginData}>
+                    <Node
+                        className="node"
+                        key={`node-${i}`}
+                        node={node}
+                        width={width}
+                        height={height}
+                        originData={originData}
+                        sourceTargetIdLinksDict={sourceTargetIdLinksDict}
+                        setOriginData={setOriginData}
+                    >
                         {/* {() => {
                             if ((i = 30)) {
                                 return (

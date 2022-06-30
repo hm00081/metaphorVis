@@ -3,7 +3,7 @@ import { linkHorizontal, line, curveCardinal } from 'd3-shape';
 import { useState, useEffect } from 'react';
 
 // Types
-import { SankeyData, SankeyLinkExtended, SankeyNodeExtended, SankeyLink } from '../../types';
+import { SankeyData, SankeyLinkExtended, SankeyNodeExtended, SankeyLink, SankeyNode } from '../../types';
 // import _, { forEach } from 'lodash';
 import { Utility } from './basics';
 
