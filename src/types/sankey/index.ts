@@ -1,6 +1,9 @@
 import { NumberLike } from '@visx/scale';
+import { SimulationLinkDatum, SimulationNodeDatum } from 'd3';
 
 export type SankeyNodeMinimal = Record<string, unknown>;
+export interface NodeDatum extends SimulationNodeDatum {}
+export interface LinkDatum extends SimulationLinkDatum<NodeDatum> {}
 export type SankeyLinkMinimal = {
     source?: number;
     target?: number;
@@ -13,37 +16,39 @@ export type SankeyStatusMinimal = {
     status: string | number | number[];
 };
 
-export type SankeyNode = SankeyNodeMinimal & {
-    name?: string;
-    type?: string | number;
-    origin?: string;
-    subtype?: string | number;
-    description?: string;
-    color?: string;
-    subcolor?: string;
-    pattern?: string;
-    link?: SankeyLink[];
-    number?: number;
-};
+export type SankeyNode = SankeyNodeMinimal &
+    NodeDatum & {
+        name?: string;
+        type?: string | number;
+        origin?: string;
+        subtype?: string | number;
+        description?: string;
+        color?: string;
+        subcolor?: string;
+        pattern?: string;
+        link?: SankeyLink[];
+        number?: number;
+    };
 
-export type SankeyLink = SankeyLinkMinimal & {
-    source: number;
-    target: number;
-    value: number;
-    type?: string;
-    subtype?: string;
-    status?: string | null;
-    valueid?: string | null | Array<string>;
-    process?: string | number | undefined;
-    overlapid?: string | null;
-    color?: LinkColor;
-    subcolor?: LinkColor;
-    path?: string;
-    sourceNodeYPosition?: number;
-    paperName?: string;
-    category?: string;
-    id?: string;
-};
+export type SankeyLink = SankeyLinkMinimal &
+    LinkDatum & {
+        source: number;
+        target: number;
+        value: number;
+        type?: string;
+        subtype?: string;
+        status?: string | null;
+        valueid?: string | null | Array<string>;
+        process?: string | number | undefined;
+        overlapid?: string | null;
+        color?: LinkColor;
+        subcolor?: LinkColor;
+        path?: string;
+        sourceNodeYPosition?: number;
+        paperName?: string;
+        category?: string;
+        id?: string;
+    };
 
 export type LinkColor =
     | 'grayLinkColor'

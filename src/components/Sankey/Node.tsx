@@ -22,7 +22,7 @@ const NodePos = styled.g`
 `;
 
 // Props
-interface Props {
+export interface Props {
     node: SankeyNodeExtended;
     link: SankeyLinkExtended;
     data: SankeyData;
@@ -47,13 +47,6 @@ interface Props {
     setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
     sourceTargetIdLinksDict: SourceTargetIdLinksDict;
 }
-
-const Test = ({ node, link }: Props) => {
-    const nodes = node.number;
-    console.log(nodes);
-    const links = link.source;
-    console.log(links);
-};
 
 // Component
 export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict, setOriginData, link }: Props) => {

@@ -34,6 +34,7 @@ import {
     LinkRepVisVarColor,
     LinkRepVisTechColor,
 } from './SankeyColor';
+import { makeDrag, makeSimulation, SvgGSelectionsMaker } from './dragFunction';
 import { Link } from './Link';
 import { Node } from './Node';
 import './Sankey.css';
@@ -75,7 +76,7 @@ interface Props {
 }
 
 export interface SourceTargetIdLinksDict {
-    [sourceTargetId: string]: SankeyLink[] & SankeyNode[];
+    [sourceTargetId: string]: SankeyLink[];
 }
 
 export interface SourceTargetIdNodesDict {
@@ -88,7 +89,6 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
     const [nodes, setNodes] = useState<SankeyNodeExtended[]>([]);
     const [links, setLinks] = useState<SankeyLinkExtended[]>([]);
     // const [columns, setColumns] = useState<SankeyNodeExtended[]>([]);
-
     const [sourceTargetIdLinksDict, setSourceTargetIdLinksDict] = useState<SourceTargetIdLinksDict>({});
     const [SourceTargetIdNodesDict, setSourceTargetIdNodesDict] = useState<SourceTargetIdNodesDict>({});
 

@@ -1,7 +1,8 @@
 // Libraries
 import { linkHorizontal, line, curveCardinal } from 'd3-shape';
 import { useState, useEffect } from 'react';
-
+import * as d3 from 'd3';
+import { makeDrag, makeSimulation, SvgGSelectionsMaker } from '../../components/Sankey/dragFunction';
 // Types
 import { SankeyData, SankeyLinkExtended, SankeyNodeExtended, SankeyLink, SankeyNode } from '../../types';
 // import _, { forEach } from 'lodash';
@@ -22,6 +23,7 @@ export const calcSankeyLinks = (
 ): SankeyLinkExtended[] => {
     // Extract to const so its in a closure
     const { links } = data;
+
     // Calc proportional size value
 
     const proportionalNodeWidth = nodeWidth * (height / 100);
@@ -42,6 +44,8 @@ export const calcSankeyLinks = (
         const maxBreadth = proportionalMaxLinkBreadth ? Math.min(breadth, proportionalMaxLinkBreadth) : breadth;
         const minBreadth = proportionalMinLinkBreadth ? Math.max(breadth, proportionalMinLinkBreadth) : breadth;
         const linkBreadth = breadth > maxBreadth ? maxBreadth : minBreadth;
+        const drag = makeDrag();
+        // const simulation = makeSimulation(nodes, links);
         const extendedLink: SankeyLinkExtended = {
             ...link,
             sourceNode,
@@ -74,6 +78,7 @@ export const calcSankeyLinks = (
             ][];
 
             // d3-line, curveCardinal
+
             const path = line().curve(curveCardinal.tension(0.2))(data);
 
             if (!path) return;
@@ -223,9 +228,11 @@ export const calcSankeyLinks = (
         let path = linkHorizontal<typeof extendedLinks[0], {}>().source(sourceCenter).target(targetCenter)(link);
 
         // if(link.source.length === n);
-        if (!path) return;
+        if (!path) return null;
 
         link.path = path;
+
+        // path.append('svg');
     });
 
     extendedLinks.sort((link) => (link.color !== 'grayLinkColor' ? 1 : -1)); // zIndex

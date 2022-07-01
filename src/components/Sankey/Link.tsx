@@ -4,7 +4,7 @@ import './sandbox-styles.css';
 import { FC } from 'react';
 import { Utility } from '../../utils/sankey/basics';
 import { SourceTargetIdLinksDict } from './Sankey';
-
+import { useRef } from 'react';
 // Props
 interface Props {
     node?: SankeyNodeExtended;
