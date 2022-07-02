@@ -4,7 +4,10 @@ import './sandbox-styles.css';
 import { FC } from 'react';
 import { Utility } from '../../utils/sankey/basics';
 import { SourceTargetIdLinksDict } from './Sankey';
-import { useRef } from 'react';
+import { useRef, Component } from 'react';
+import * as d3 from 'd3';
+import { brushY } from 'd3-brush';
+
 // Props
 interface Props {
     node?: SankeyNodeExtended;
@@ -14,10 +17,45 @@ interface Props {
     sourceTargetIdLinksDict: SourceTargetIdLinksDict;
 }
 
+// class Brush extends Component {
+//     componentDidMount() {
+//         //@ts-ignore
+//         this.brush = d3
+//             .brushX()
+//             .extent([
+//                 [100, 100],
+//                 [100, 100],
+//             ])
+//             .on('end', this.brushEnd);
+//     }
+
+//     //    componentDidUpdate() {
+//     //     this.xAxis.scale(this.state.xScale);
+//     //     d3.select(this.refs.xAxis).call(this.xAxis);
+//     //     this.yAxis.scale(this.state.yScale);
+//     //     d3.select(this.refs.yAxis).call(this.yAxis);
+//     // }
+//     brushEnd = () => {
+//         //@ts-ignore
+//         if (!d3.event.selection) {
+//             //@ts-ignore
+//             this.props.updateRange([]);
+//             return;
+//         }
+//         //@ts-ignore
+//         const [x1, x2] = d3.event.selection;
+//         const range = [100, 100];
+//         //@ts-ignore
+//         this.props.updateRange(range);
+//     };
+// }
+
+// <Brush></Brush>;
+
 // Component
 export const Link = ({ node, link, originData, sourceTargetIdLinksDict, setOriginData }: Props) => {
     // const [isHovering, setIsHovering] = useState(0);
-    // const [clickedColor, setClickedColor] = useState<SankeyData>(originData)
+    // const [clickedColor, setClickedColor] = useState<SankeyData>(originData))
     return (
         <>
             <path
