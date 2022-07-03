@@ -91,6 +91,8 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
     // const [columns, setColumns] = useState<SankeyNodeExtended[]>([]);
     const [sourceTargetIdLinksDict, setSourceTargetIdLinksDict] = useState<SourceTargetIdLinksDict>({});
     const [SourceTargetIdNodesDict, setSourceTargetIdNodesDict] = useState<SourceTargetIdNodesDict>({});
+    // const drag = makeDrag();
+    // const simulation = makeSimulation(nodes, links);
 
     useEffect(() => {
         const sourceTargetIdLinksDict: SourceTargetIdLinksDict = {};

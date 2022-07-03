@@ -22,6 +22,43 @@ rect:hover {
 .Sankey:hover {
     opacity: 0.5;
 }
+
+html,
+body {
+    margin: 0;
+    min-width: 900px;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+body {
+    font-family: Ubuntu, Tahoma, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.4em;
+    background: #f7f7f7;
+    color: #404040;
+}
+body.dark {
+    background: #131313;
+    color: #e3e3e3;
+}
+
+.brush rect.extent {
+    fill: rgba(100, 100, 100, 0.15);
+    stroke: #fff;
+}
+.dark .brush rect.extent {
+    fill: rgba(100, 100, 100, 0.15);
+    stroke: #ddd;
+}
+.brush:hover rect.extent {
+    stroke: #222;
+    stroke-dasharray: 5, 5;
+}
+.brush rect.extent:hover {
+    stroke-dasharray: none;
+}
+
 /* .Node node:hover {
     opacity: 0.5;
 } */

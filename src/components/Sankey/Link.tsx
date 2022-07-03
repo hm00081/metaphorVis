@@ -1,12 +1,16 @@
 // Types
 import { SankeyLinkExtended, SankeyNodeExtended, SankeyData, SankeyLink } from '../../types/sankey';
 import './sandbox-styles.css';
-import { FC } from 'react';
+import './Sankey.css';
+import { FC, useState, useEffect } from 'react';
 import { Utility } from '../../utils/sankey/basics';
 import { SourceTargetIdLinksDict } from './Sankey';
 import { useRef, Component } from 'react';
 import * as d3 from 'd3';
-import { brushY } from 'd3-brush';
+import { brush, brushY } from 'd3-brush';
+import Brush from './Brush';
+
+import { numberTypeAnnotation } from '@babel/types';
 
 // Props
 interface Props {
@@ -18,6 +22,8 @@ interface Props {
 }
 
 // class Brush extends Component {
+//     state = {};
+
 //     componentDidMount() {
 //         //@ts-ignore
 //         this.brush = d3
@@ -37,25 +43,63 @@ interface Props {
 //     // }
 //     brushEnd = () => {
 //         //@ts-ignore
-//         if (!d3.event.selection) {
+//         if (!e.selection) {
 //             //@ts-ignore
 //             this.props.updateRange([]);
 //             return;
 //         }
 //         //@ts-ignore
-//         const [x1, x2] = d3.event.selection;
+//         const [x1, x2] = e.selection;
 //         const range = [100, 100];
 //         //@ts-ignore
 //         this.props.updateRange(range);
 //     };
 // }
 
-// <Brush></Brush>;
-
 // Component
 export const Link = ({ node, link, originData, sourceTargetIdLinksDict, setOriginData }: Props) => {
     // const [isHovering, setIsHovering] = useState(0);
-    // const [clickedColor, setClickedColor] = useState<SankeyData>(originData))
+
+    // useEffect(() => {
+    //     var width = document.body.clientWidth;
+    //     var m = [60, 0, 10, 0],
+    //         w = width - m[1] - m[3],
+    //         // h: number = height - m[0] - m[2],
+    //         yscale = {},
+    //         legend,
+    //         xscale = d3.scaleOrdinal().range([[0, w], 1]),
+    //         dimensions: any;
+    //     var g = d3
+    //         .selectAll('.dimensions')
+    //         .data(dimensions)
+    //         .enter()
+    //         .append('svg:g')
+    //         .attr('class', 'dimension')
+    //         .attr('transform', function (d: any) {
+    //             return 'translate(' + xscale(d) + ')';
+    //         });
+
+    //     const brushBox = g
+    //         .select('body')
+    //         .append('svg:g')
+    //         .attr('class', 'brush')
+    //         .each(function (d) {
+    //             // d3.select(this).call((yscale[d].brush = d3.brush().y(yscale[d]).on('brush', brush)));
+    //         })
+    //         .selectAll('rect')
+    //         .style('visibility', null)
+    //         .attr('x', -15)
+    //         .attr('width', 30)
+    //         .append('title')
+    //         .text('Drag up or down to brush along this axis');
+
+    //     d3.selectAll('.extent').append('title').text('Drag or resize the filter');
+
+    //     //  legend = create_legend(colors, brush);
+
+    //     brush();
+    // });
+
     return (
         <>
             <path
@@ -162,6 +206,10 @@ export const Link = ({ node, link, originData, sourceTargetIdLinksDict, setOrigi
                 ) : (
                     <h1>{`${link.sourceNode.name} to ${link.targetNode.name}: ${link.value}`}</h1>
                 )}
+
+                {/* <Brush>
+                    <g ref="brush" />
+                </Brush> */}
             </path>
         </>
     );

@@ -22,7 +22,7 @@ const NodePos = styled.g`
 `;
 
 // Props
-export interface Props {
+interface Props {
     node: SankeyNodeExtended;
     link: SankeyLinkExtended;
     data: SankeyData;
@@ -52,7 +52,7 @@ export interface Props {
 export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict, setOriginData, link }: Props) => {
     const endNode = node.x + node.width > width - node.width;
     const size = width < height ? width : height;
-    console.log(sourceTargetIdLinksDict);
+    // console.log(sourceTargetIdLinksDict);
     // Calculate Text Properties
     const textX = !endNode ? node.x + node.width : node.x;
     const textAnchor = !endNode ? 'start' : 'end';
