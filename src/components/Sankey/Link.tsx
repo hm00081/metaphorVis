@@ -19,87 +19,14 @@ interface Props {
     originData: SankeyData;
     setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
     sourceTargetIdLinksDict: SourceTargetIdLinksDict;
+    width?: number;
+    height?: number;
 }
 
-// class Brush extends Component {
-//     state = {};
-
-//     componentDidMount() {
-//         //@ts-ignore
-//         this.brush = d3
-//             .brushX()
-//             .extent([
-//                 [100, 100],
-//                 [100, 100],
-//             ])
-//             .on('end', this.brushEnd);
-//     }
-
-//     //    componentDidUpdate() {
-//     //     this.xAxis.scale(this.state.xScale);
-//     //     d3.select(this.refs.xAxis).call(this.xAxis);
-//     //     this.yAxis.scale(this.state.yScale);
-//     //     d3.select(this.refs.yAxis).call(this.yAxis);
-//     // }
-//     brushEnd = () => {
-//         //@ts-ignore
-//         if (!e.selection) {
-//             //@ts-ignore
-//             this.props.updateRange([]);
-//             return;
-//         }
-//         //@ts-ignore
-//         const [x1, x2] = e.selection;
-//         const range = [100, 100];
-//         //@ts-ignore
-//         this.props.updateRange(range);
-//     };
-// }
+export const Node = {};
 
 // Component
 export const Link = ({ node, link, originData, sourceTargetIdLinksDict, setOriginData }: Props) => {
-    // const [isHovering, setIsHovering] = useState(0);
-
-    // useEffect(() => {
-    //     var width = document.body.clientWidth;
-    //     var m = [60, 0, 10, 0],
-    //         w = width - m[1] - m[3],
-    //         // h: number = height - m[0] - m[2],
-    //         yscale = {},
-    //         legend,
-    //         xscale = d3.scaleOrdinal().range([[0, w], 1]),
-    //         dimensions: any;
-    //     var g = d3
-    //         .selectAll('.dimensions')
-    //         .data(dimensions)
-    //         .enter()
-    //         .append('svg:g')
-    //         .attr('class', 'dimension')
-    //         .attr('transform', function (d: any) {
-    //             return 'translate(' + xscale(d) + ')';
-    //         });
-
-    //     const brushBox = g
-    //         .select('body')
-    //         .append('svg:g')
-    //         .attr('class', 'brush')
-    //         .each(function (d) {
-    //             // d3.select(this).call((yscale[d].brush = d3.brush().y(yscale[d]).on('brush', brush)));
-    //         })
-    //         .selectAll('rect')
-    //         .style('visibility', null)
-    //         .attr('x', -15)
-    //         .attr('width', 30)
-    //         .append('title')
-    //         .text('Drag up or down to brush along this axis');
-
-    //     d3.selectAll('.extent').append('title').text('Drag or resize the filter');
-
-    //     //  legend = create_legend(colors, brush);
-
-    //     brush();
-    // });
-
     return (
         <>
             <path

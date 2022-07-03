@@ -141,6 +141,7 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
         // const links = calcSankeyLinks(renderingData, height, nodes, nodeWidth, minLinkBreadth, maxLinkBreadth, renderingData.positionStatus === 'init'); // 이거로 하면 모든 링크 위치 분리되어 나타냄
         const links = calcSankeyLinks(renderingData, height, nodes, nodeWidth, minLinkBreadth, maxLinkBreadth);
         setLinks(links);
+        const merged = [nodes, links];
     }, [originData]);
     const columns = nodes.map((node) => node.type).filter((type, pos, arr) => arr.indexOf(type) === pos);
     // const columns = title.map((title) => title).filter((title, pos, arr) => arr.indexOf(title) === pos);
