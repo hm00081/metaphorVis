@@ -125,7 +125,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                         // renderingLink.valueid = undefined; // 초기 상태
                         renderingLink.status = undefined;
                         //@ts-ignore
-                        nodePush.forEach((linkPart) => {
+                        convertNode.forEach((linkPart) => {
                             if (renderingLink.id && renderingLink.id === linkPart.id) {
                                 //TODO inter, rep에 속하는지 판단만 하면 되는 상황
                                 if (renderingLink.target >= 0 && renderingLink.target <= 7) {
