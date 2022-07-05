@@ -2,11 +2,11 @@
 import { SankeyNodeExtended, SankeyLinkExtended, SankeyData, SankeyNode, SankeyLink } from '../../types/sankey';
 import './Sankey.css';
 import { SourceTargetIdLinksDict } from './Sankey';
-import { useContext, useState, useEffect } from 'react';
+import { Ref, useContext, useState, useEffect } from 'react';
 // styled
 import styled from 'styled-components';
 import { render } from '@testing-library/react';
-
+import { calcSankeyNodes, calcSankeyLinks } from '../../utils/';
 //@ts-ignore
 // const Rect = styled.rect`
 //     &: hover {
@@ -23,20 +23,35 @@ const NodePos = styled.g`
 
 // Props
 interface Props {
-    node: SankeyNodeExtended;
+    links: SankeyLinkExtended[];
     link: SankeyLinkExtended;
+    node: SankeyNodeExtended;
     data: SankeyData;
-    // nodes: SankeyNode;
-    // links: SankeyLink;
     width: number;
     height: number;
     originData: SankeyData;
     setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
     sourceTargetIdLinksDict: SourceTargetIdLinksDict;
+    paddingTop: number;
+    paddingLeft: number;
+    nodeWidth: number;
+    nodeHeight: number;
+    nodeMargin: number;
+    minLinkBreadth: number;
+    maxLinkBreadth: number;
 }
 
 // Component
-export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict, setOriginData, link }: Props) => {
+export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict, setOriginData, links, link }: Props) => {
+    // useEffect(() => {
+    //     console.log(links[0]);
+    // });
+    // console.log(links.length);
+    //TODO id=100인 Node를 클릭했을 때,
+    //TODO 1. Links 중에서 source-node, 혹은 target-node가 100인 Link 데이터를 모두 따로 보관한다.
+    //TODO 2. 각 링크별로 findFrontLink(), findBackLink()와 많이 유사한 로직을 호출하여 링크를 색칠한다.
+    //TODO findFrontLink(source-node) 호출해야하고, findBackLinks(target-node) 호출해야한다
+    // console.log(sourceTargetIdLinksDict);
     const endNode = node.x + node.width > width - node.width;
     const size = width < height ? width : height;
     // console.log(sourceTargetIdLinksDict);
@@ -61,7 +76,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
     if (node.value == 0) {
         node.value = 2;
     }
-
+    // console.log(sourceTargetIdLinksDict);
     return (
         //노드에 link와 같이 클릭시 노드에 있는 링크들만 보여주도록 표현.
         <NodePos>
@@ -72,21 +87,45 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                 height={node.value}
                 fill={node.color}
                 onClick={() => {
+                    console.log('clicked link', links);
                     const renderingData: SankeyData = { ...originData };
                     renderingData.positionStatus = 'clicked';
                     renderingData.links = renderingData.links.map((link) => {
                         return { ...link };
                     });
-                    console.log(renderingData.nodes);
+                    // console.log(renderingData.nodes);
                     console.log(renderingData.links);
-                    const selectedLinkParts = sourceTargetIdLinksDict[`${link.source}-${link.target}-${link.valueid}`];
-                    console.log(selectedLinkParts);
+                    // for (let i = 0; i < links.length; i++) {
+                    //     //   if ( links[i].)
+                    // }
+                    // console.log(node.number);
+                    //@ts-ignore
+                    const nodePush = [];
+                    for (let i = 0; i < links.length; i++) {
+                        if (node.number === links[i].source || node.number === links[i].target) {
+                            if (links[i].color !== 'grayLinkColor') {
+                                const selectedNodeParts = sourceTargetIdLinksDict[`${links[i].source}-${links[i].target}-${links[i].valueid}`];
+                                // console.log(selectedNodeParts);
+                                nodePush.push(selectedNodeParts);
+                            }
+                        } else console.log();
+                    }
+                    //@ts-ignores
+                    const convertNode = nodePush.reduce(function (acc, cur) {
+                        return acc.concat(cur);
+                    });
+                    console.log(convertNode);
+                    // console.log(nodePush);
+                    const selectedNodeParts = sourceTargetIdLinksDict[`${links[0].source}`]; // 노드를 클릭하였을때 발생하는 주요 이벤트 const
+                    // 아래를 고정값이 아닌 interaction으로 값이 바뀌게 만들어야한다.
+                    const selectedLinkParts = sourceTargetIdLinksDict[`${links[0].source}-${links[0].target}-${links[0].valueid}`];
+                    // console.log(selectedLinkParts);
                     renderingData.links.forEach((renderingLink) => {
                         renderingLink.color = 'grayLinkColor';
                         // renderingLink.valueid = undefined; // 초기 상태
                         renderingLink.status = undefined;
-
-                        selectedLinkParts.forEach((linkPart) => {
+                        //@ts-ignore
+                        nodePush.forEach((linkPart) => {
                             if (renderingLink.id && renderingLink.id === linkPart.id) {
                                 //TODO inter, rep에 속하는지 판단만 하면 되는 상황
                                 if (renderingLink.target >= 0 && renderingLink.target <= 7) {
@@ -147,7 +186,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                         });
                     });
 
-                    selectedLinkParts.forEach((selectedLinkPart) => {
+                    convertNode.forEach((selectedLinkPart) => {
                         findFrontLinks({
                             linkPart: selectedLinkPart,
                             renderingData,
@@ -157,7 +196,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                             renderingData,
                         });
                     });
-                    console.log('selectedLinkParts', selectedLinkParts);
+                    console.log('selectedLinkParts', nodePush);
                     setOriginData(renderingData);
                 }}
             >
@@ -174,7 +213,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
 
 function findFrontLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData }) {
     const { linkPart, renderingData } = arg;
-    console.log(linkPart.valueid);
+    console.log(linkPart);
     const frontLinks = renderingData.links.filter((renderingLink) => {
         if (renderingLink.target === linkPart.source && renderingLink.paperName === linkPart.paperName && renderingLink.process === linkPart.process) {
             if (renderingLink.target >= 0 && renderingLink.target <= 8) {

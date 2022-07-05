@@ -132,24 +132,10 @@ const MLG06: SankeyData = {
         },
         {
             source: 53,
-            target: 87,
+            target: 88,
             value: 1,
             valueid: ['targetba', 'repc'],
             process: 'MLG06_1',
-        },
-        {
-            source: 151,
-            target: 11,
-            value: 1,
-            valueid: ['repea', 'targetba', 'targetbb'],
-            process: 'FA20_1',
-        },
-        {
-            source: 151,
-            target: 12,
-            value: 1,
-            valueid: ['repea', 'targetba', 'targetbb'],
-            process: 'FA20_1',
         },
     ],
     status: [

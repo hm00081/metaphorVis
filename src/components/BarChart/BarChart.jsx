@@ -1,5 +1,7 @@
-import { Papers, AllPaperDatas, TargetAAs, TargetABs, TargetBAs, TargetBBs, TargetCAs, RepAs, RepBs, RepCs, RepDs, RepEAs, RepEBs, RepFs, Emptys } from '../../data/AllPaperDataBar';
-import React from 'react';
+// import { Papers, AllPaperDatas, TargetAAs, TargetABs, TargetBAs, TargetBBs, TargetCAs, RepAs, RepBs, RepCs, RepDs, RepEAs, RepEBs, RepFs, Emptys } from '../../data/AllPaperDataBar';
+// import React from 'react';
+// import { ResponsiveBar } from '@nivo/bar';
+// import { basicData, targetaa, targetab, targetba, targetbb, targetca, repa, repb, repc, repd, repea, repeb, repf, empty } from '../../Data';
 import { BarStack } from '@visx/shape';
 import { Group } from '@visx/group';
 import { GridRows } from '@visx/grid';
@@ -8,8 +10,6 @@ import { scaleBand, scaleLinear, scaleOrdinal } from '@visx/scale';
 import { timeFormat, timeParse } from 'd3-time-format';
 import { useTooltip, useTooltipInPortal, defaultStyles } from '@visx/tooltip';
 import { LegendOrdinal } from '@visx/legend';
-import { ResponsiveBar } from '@nivo/bar';
-import { basicData, targetaa, targetab, targetba, targetbb, targetca, repa, repb, repc, repd, repea, repeb, repf, empty } from '../../Data';
 import './index.css';
 
 // Props
@@ -43,7 +43,7 @@ import './index.css';
 //     left: number;
 // }
 
-console.log(basicData.links[0]);
+// console.log(basicData.links[0]);
 
 const darkGreen = '#017300';
 const green = '#01c88d';
@@ -56,7 +56,7 @@ const gray = '#d3d3d3';
 const darkGray = '#282828';
 const background = '#eaedff';
 const defaultMargin = { top: 60, right: 10, bottom: 60, left: 280 };
-console.log(typeof defaultMargin.top);
+// console.log(typeof defaultMargin.top);
 const tooltipStyles = {
     ...defaultStyles,
     minWidth: 160,

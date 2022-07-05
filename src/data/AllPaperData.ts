@@ -61,18 +61,18 @@ import { link } from 'fs';
 // const AllPaperDatas = { ...CAA20, ...CGK21, ...CSL12 };
 //@ts-ignore
 const Empty = [];
-const TargetAA = [MEV16.links, CAA20.links];
-const TargetAB = [XWS16.links, LLN14.links, LWW13.links, FCF09.links, SRJ13.links, RSRY12.links];
-const TargetBA = [XWL17.links, JX17.links, HYZ13.links, CGK21.links];
-const TargetBB = [YFS10.links, LGX16.links, JSM16.links, JTM11.links, RSRY12.links, GGS12TPS.links, GGS12ST.links, GGS12MT.links];
-const TargetCA = [MDD10.links, MHK16.links, MA16.links, ZLW13.links, FAKM15.links, YCC20.links, SCS17.links];
-const RepA = [SCS19.links, EYG15.links, SCS17.links, SCS16.links];
-const RepB = [CAA20.links, SCS19.links, JTM11.links, MDD10.links, LJC18.links, CGK21.links, YSK14.links, GYS14.links, MDJW07.links, MDDD16.links];
-const RepC = [GGS12MT.links, JSM16.links, XWS16.links, LWW13.links, XD99.links, CSL12.links, MHK16.links, VWH13.links, YCC20.links];
-const RepD = [LGX16.links, JX17.links, MVM17.links, ZGWZ14.links, CSL16.links, KSBK15.links, SRJ13.links, RSRY12.links];
-const RepEA = [GGS12ST.links, YFS10.links, LGX16.links, FAKM15.links, FA20.links, WHWS12.links];
-const RepEB = [CGK21.links, CAA20.links, MEV16.links, SCS19.links];
-const RepF = [YFS10.links, MEV16.links, SCS16.links, HYZ13.links, MDD10.links, SSK12.links, LJC18.links, FAKM15.links];
+// const TargetAA = [MEV16.links, CAA20.links];
+// const TargetAB = [XWS16.links, LLN14.links, LWW13.links, FCF09.links, SRJ13.links, RSRY12.links];
+// const TargetBA = [XWL17.links, JX17.links, HYZ13.links, CGK21.links];
+// const TargetBB = [YFS10.links, LGX16.links, JSM16.links, JTM11.links, RSRY12.links, GGS12TPS.links, GGS12ST.links, GGS12MT.links];
+// const TargetCA = [MDD10.links, MHK16.links, MA16.links, ZLW13.links, FAKM15.links, YCC20.links, SCS17.links];
+// const RepA = [SCS19.links, EYG15.links, SCS17.links, SCS16.links];
+// const RepB = [CAA20.links, SCS19.links, JTM11.links, MDD10.links, LJC18.links, CGK21.links, YSK14.links, GYS14.links, MDJW07.links, MDDD16.links];
+// const RepC = [GGS12MT.links, JSM16.links, XWS16.links, LWW13.links, XD99.links, CSL12.links, MHK16.links, VWH13.links, YCC20.links];
+// const RepD = [LGX16.links, JX17.links, MVM17.links, ZGWZ14.links, CSL16.links, KSBK15.links, SRJ13.links, RSRY12.links];
+// const RepEA = [GGS12ST.links, YFS10.links, LGX16.links, FAKM15.links, FA20.links, WHWS12.links];
+// const RepEB = [CGK21.links, CAA20.links, MEV16.links, SCS19.links];
+// const RepF = [YFS10.links, MEV16.links, SCS16.links, HYZ13.links, MDD10.links, SSK12.links, LJC18.links, FAKM15.links];
 // const ChangeRepEA = [YFS10COPY.links, LGX16COPY.links, FAKM15COPY.links, FA20COPY.links, WHWS12COPY.links, GGS12STCOPY.links];
 //@ts-ignore
 const PaperString = [
@@ -243,7 +243,7 @@ const PaperStatus = [
 ];
 
 //TODO 유형 추가시 계속 변수 생성하기.
-console.log(PaperString);
+// console.log(PaperString);
 //@ts-ignore
 const test = () => {
     //@ts-ignore
@@ -251,7 +251,7 @@ const test = () => {
     return paper;
 };
 const Status = test();
-console.log(PaperString[2][0].valueid);
+// console.log(PaperString[2][0].valueid);
 // console.log(Object.values(status[0][0]));
 //@ts-ignore
 // const c = [].concat.apply([], [status]);
@@ -349,7 +349,7 @@ const TargetAAs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<Sank
     return TargetAAs;
 }, []);
 
-console.log(TargetAAs);
+// console.log(TargetAAs);
 
 //@ts-ignore
 const TargetABs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<SankeyLinkExtended[]>((TargetABs, onePaper) => {

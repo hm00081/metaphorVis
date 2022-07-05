@@ -9,7 +9,8 @@ export const calcSankeyNodes = (
     nodeWidth: number,
     nodeHeight: number,
     nodeMargin: number,
-    maxLinkBreadth?: number
+    maxLinkBreadth?: number,
+    link?: SankeyLinkExtended[]
     // links?: SankeyLinkExtended[]
 ): SankeyNodeExtended[] => {
     // Extract to const so its in a closure
@@ -31,6 +32,7 @@ export const calcSankeyNodes = (
         output: 0,
         value: 0,
         links,
+        link,
         x: 0,
         y: 0,
         width: propNodeWidth,
@@ -42,6 +44,12 @@ export const calcSankeyNodes = (
 
     // Calc value for each node
     links.forEach((link) => {
+        //@ts-ignore
+        extendedNodes[link.source].output += link.value;
+        //@ts-ignore
+        extendedNodes[link.target].input += link.value;
+    });
+    link?.forEach((link) => {
         //@ts-ignore
         extendedNodes[link.source].output += link.value;
         //@ts-ignore

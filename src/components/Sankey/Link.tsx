@@ -2,31 +2,116 @@
 import { SankeyLinkExtended, SankeyNodeExtended, SankeyData, SankeyLink } from '../../types/sankey';
 import './sandbox-styles.css';
 import './Sankey.css';
-import { FC, useState, useEffect } from 'react';
+import { FC, useState, useEffect, useCallback } from 'react';
 import { Utility } from '../../utils/sankey/basics';
 import { SourceTargetIdLinksDict } from './Sankey';
 import { useRef, Component } from 'react';
 import * as d3 from 'd3';
 import { brush, brushY } from 'd3-brush';
-import Brush from './Brush';
-
+import Brushes from './Brushes';
+// import Brush from './Brush';
+import styled from 'styled-components';
 import { numberTypeAnnotation } from '@babel/types';
+// import { Types } from './AreaChartHelper';
+import useWindowDimensions from './WindowDimensions';
+import ChartHelper from './AreaChartHelper';
+import { link } from 'fs';
+import { calcSankeyNodes, calcSankeyLinks } from '../../utils/';
+import { BrushBehavior } from 'd3-brush';
+
+const NodePos = styled.g`
+    margin-top: 102px;
+`;
+
+const NodeName = styled.text`
+    margin-top: 12px;
+`;
 
 // Props
-interface Props {
-    node?: SankeyNodeExtended;
+interface LinkProps {
+    node: SankeyNodeExtended;
     link: SankeyLinkExtended;
     originData: SankeyData;
     setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
     sourceTargetIdLinksDict: SourceTargetIdLinksDict;
-    width?: number;
-    height?: number;
 }
 
-export const Node = {};
+export namespace Types {
+    export type Data = {
+        date?: string;
+        value?: number;
+    };
+    export type Dimensions = {
+        width: number;
+        height: number;
+        margin: {
+            left: number;
+            right: number;
+            top: number;
+            bottom: number;
+        };
+        boundedWidth?: number;
+        boundedHeight?: number;
+    };
+}
+
+interface IBrushProps {
+    dimensions: Types.Dimensions;
+    data: Types.Data[];
+    node?: SankeyNodeExtended;
+    link?: SankeyLinkExtended;
+    propertiesNames: string[];
+    onBrushUpdateData: (value: Date[]) => void;
+    stroke: string;
+    x: number;
+    y: number;
+}
 
 // Component
-export const Link = ({ node, link, originData, sourceTargetIdLinksDict, setOriginData }: Props) => {
+export const Link = ({ node, link, originData, sourceTargetIdLinksDict, setOriginData }: LinkProps) => {
+    const [data, setData] = useState<SankeyLinkExtended[]>([]);
+    const [brushedData, setBrushedData] = useState<SankeyLinkExtended[]>([]);
+    const [propertiesNames] = useState(['date', 'value']);
+
+    // const dimensions = useRef() as { current: Types.Dimensions };
+    // dimensions.current = ChartHelper.getDimensions(width * 0.9, height * 0.5, 50, 50, 10, 50, margin);
+    // // resize
+    // useEffect(() => {
+    //     (dimensions as unknown as { current: Types.Dimensions }).current = ChartHelper.getDimensions(width * 0.9, height * 0.5, 50, 50, 10, 50);
+    //     // console.log(dimensions.current)
+    // }, [width, height,  dimensions]);
+
+    const loadData = () => {
+        d3.dsv(',', '/data/area.csv', (d) => {
+            return d as unknown as Types.Data[];
+        }).then((d) => {
+            setData(d as unknown as SankeyLinkExtended[]);
+        });
+    };
+
+    useEffect(() => {
+        if (data.length <= 1) loadData();
+    });
+
+    const onBrushUpdateData = (values: Date[]) => {
+        // console.log(`${values[0].toDateString()  }, ${  values[1].toDateString()}`)
+        let newData;
+        // eslint-disable-next-line prefer-const
+        // newData = [];
+        // for (let i = 0; i < data.length; i++) {
+        //     // const check = data[i].date as unknown as Date
+        //     const check = d3.timeParse('%Y-%m-%d')(data[i].date as unknown as string);
+        //     // @ts-ignore
+        //     if (check >= values[0] && check <= values[1]) {
+        //         newData.push(data[i]);
+        //     }
+        // }
+        // // eslint-disable-next-line no-console
+        // if (newData.length > 1 && newData[0].date !== brushedData[0].date) {
+        //     // console.log(`newData: ${  newData.length}`)
+        //     setBrushedData(newData);
+        // }
+    };
     return (
         <>
             <path
@@ -43,9 +128,6 @@ export const Link = ({ node, link, originData, sourceTargetIdLinksDict, setOrigi
                     renderingData.links = renderingData.links.map((link) => {
                         return { ...link };
                     });
-                    console.log(renderingData.nodes);
-                    console.log(renderingData.links);
-
                     const selectedLinkParts = sourceTargetIdLinksDict[`${link.source}-${link.target}-${link.valueid}`];
                     console.log(selectedLinkParts);
                     renderingData.links.forEach((renderingLink) => {
@@ -124,7 +206,7 @@ export const Link = ({ node, link, originData, sourceTargetIdLinksDict, setOrigi
                             renderingData,
                         });
                     });
-                    console.log('selectedLinkParts', selectedLinkParts);
+                    // console.log('selectedLinkParts', selectedLinkParts);
                     setOriginData(renderingData);
                 }}
             >
@@ -133,121 +215,16 @@ export const Link = ({ node, link, originData, sourceTargetIdLinksDict, setOrigi
                 ) : (
                     <h1>{`${link.sourceNode.name} to ${link.targetNode.name}: ${link.value}`}</h1>
                 )}
-
-                {/* <Brush>
-                    <g ref="brush" />
-                </Brush> */}
             </path>
+            {/* <Brushes /> */}
+            {/* <Brush dimensions={dimensions.current} data={data} onBrushUpdateData={onBrushUpdateData} propertiesNames={propertiesNames} stroke="rgb(47, 74, 89)" /> */}
         </>
     );
 };
 
-// export function onClickedFunction({ node, link, originData, sourceTargetIdLinksDict, setOriginData }: Props) {
-//     const renderingData: SankeyData = { ...originData };
-//     renderingData.positionStatus = 'clicked';
-//     renderingData.links = renderingData.links.map((link) => {
-//         return { ...link };
-//     });
-//     // console.log(renderingData.nodes);
-//     // console.log(renderingData.links);
-
-//     const selectedLinkParts = sourceTargetIdLinksDict[`${link.source}-${link.target}-${link.valueid}`];
-//     console.log(selectedLinkParts);
-//     renderingData.links.forEach((renderingLink) => {
-//         renderingLink.color = 'grayLinkColor';
-//         // renderingLink.valueid = undefined; // 초기 상태
-//         renderingLink.status = undefined;
-
-//         selectedLinkParts.forEach((linkPart) => {
-//             if (renderingLink.id && renderingLink.id === linkPart.id) {
-//                 // if ((renderingLink.target >= 31 && renderingLink.target <= 34) || (renderingLink.source >= 31 && renderingLink.source <= 34))
-//                 //     renderingLink.color = 'intOneLinkColor';
-//                 //     renderingLink.valueid = 'selected';
-//                 //     renderingLink.status = 'selected';
-//                 // if (renderingLink.target >= 76 && renderingLink.target < 83) renderingLink.color = 'orangeLinkColor';
-//                 // renderingLink.status = 'selected';
-//                 // renderingLink.status = 'selected';
-//                 // if (renderingLink.target > 82 && renderingLink.target < 100) renderingLink.color = 'rubyLinkColor';
-//                 // renderingLink.status = 'selected';
-//                 // renderingLink.status = 'selected';
-//                 // if (renderingLink.source >= 100) renderingLink.color = 'greenLinkColor'; //색상 변경 필요하면 변경.
-//                 // renderingLink.valueid = 'selected';
-//                 // renderingLink.status = 'selected';
-//                 if (renderingLink.target >= 0 && renderingLink.target <= 7) {
-//                     renderingLink.color = 'targetLinkColor';
-//                 }
-//                 if (renderingLink.target >= 8 && renderingLink.target <= 10) {
-//                     renderingLink.color = 'targetLinkOneColor';
-//                 }
-//                 if (renderingLink.target >= 11 && renderingLink.target <= 15) {
-//                     renderingLink.color = 'targetLinkTwoColor';
-//                 }
-//                 if (renderingLink.target >= 16 && renderingLink.target <= 20) {
-//                     renderingLink.color = 'targetLinkThreeColor';
-//                 }
-//                 if (renderingLink.target >= 21 && renderingLink.target <= 30) {
-//                     renderingLink.color = 'targetLinkFourColor';
-//                 }
-//                 if ((renderingLink.target >= 31 && renderingLink.target <= 34) || (renderingLink.source >= 31 && renderingLink.source <= 34)) {
-//                     renderingLink.color = 'intOneLinkColor';
-//                 }
-//                 if (renderingLink.target === 35 || renderingLink.source === 35) {
-//                     renderingLink.color = 'intOneLightLinkColor';
-//                 }
-//                 if ((renderingLink.target >= 36 && renderingLink.target <= 38) || (renderingLink.source >= 36 && renderingLink.source <= 38)) {
-//                     renderingLink.color = 'intOneLight2LinkColor';
-//                 }
-//                 if (renderingLink.target === 39 || renderingLink.source === 39) {
-//                     renderingLink.color = 'intTwoLinkColor';
-//                 }
-//                 if (renderingLink.target === 40 || renderingLink.source === 40) {
-//                     renderingLink.color = 'intTwoLightLinkColor';
-//                 }
-//                 if ((renderingLink.target >= 41 && renderingLink.target <= 42) || (renderingLink.source >= 41 && renderingLink.source <= 42)) {
-//                     renderingLink.color = 'intThreeLinkColor';
-//                 }
-//                 if ((renderingLink.target >= 43 && renderingLink.target <= 44) || (renderingLink.source >= 43 && renderingLink.source <= 44)) {
-//                     renderingLink.color = 'intThreeLightLinkColor';
-//                 }
-//                 if (renderingLink.target === 45 || renderingLink.source === 45) {
-//                     renderingLink.color = 'intFourLinkColor';
-//                 }
-//                 if (renderingLink.target === 46 || renderingLink.source === 46) {
-//                     renderingLink.color = 'intFiveLinkColor';
-//                 }
-//                 if ((renderingLink.target >= 47 && renderingLink.target <= 48) || (renderingLink.source >= 47 && renderingLink.source <= 48)) {
-//                     renderingLink.color = 'intFiveLightLinkColor';
-//                 }
-//                 if (renderingLink.target === 49 || renderingLink.source === 49) {
-//                     renderingLink.color = 'intFiveLight2LinkColor';
-//                 }
-//                 if (renderingLink.target >= 76 && renderingLink.target < 83) {
-//                     renderingLink.color = 'repVisVarColor';
-//                 }
-//                 if (renderingLink.target > 82 && renderingLink.target < 100) {
-//                     renderingLink.color = 'repVisTechColor';
-//                 }
-//             }
-//         });
-//     });
-
-//     selectedLinkParts.forEach((selectedLinkPart) => {
-//         findFrontLinks({
-//             linkPart: selectedLinkPart,
-//             renderingData,
-//         });
-//         findBackLinks({
-//             linkPart: selectedLinkPart,
-//             renderingData,
-//         });
-//     });
-//     console.log('selectedLinkParts', selectedLinkParts);
-//     setOriginData(renderingData);
-// }
-
 function findFrontLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData }) {
     const { linkPart, renderingData } = arg;
-    console.log(linkPart.valueid);
+    // console.log(linkPart.valueid);
     const frontLinks = renderingData.links.filter((renderingLink) => {
         if (renderingLink.target === linkPart.source && renderingLink.paperName === linkPart.paperName && renderingLink.process === linkPart.process) {
             if (renderingLink.target >= 0 && renderingLink.target <= 8) {

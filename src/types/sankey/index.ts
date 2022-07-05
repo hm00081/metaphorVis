@@ -98,6 +98,7 @@ export type SankeyNodeExtended = SankeyNode & {
 };
 
 export type SankeyLinkExtended = SankeyLink & {
+    node?: SankeyNodeExtended;
     sourceNode: SankeyNodeExtended;
     targetNode: SankeyNodeExtended;
     overlapid?: string | null;
