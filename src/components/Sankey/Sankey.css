@@ -7,6 +7,14 @@
     font-size: 14px;
 }
 
+.node:active {
+    fill: hsl(10, 0%, 7%);
+}
+
+.node:focus {
+    fill: hsl(10, 0%, 57%);
+}
+
 rect {
     opacity: 1;
 }

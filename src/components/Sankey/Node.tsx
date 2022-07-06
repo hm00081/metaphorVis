@@ -61,6 +61,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
     const textMargin = !endNode ? 4 : -4;
     const textTitleSize = Math.log(10) * 4;
     const textValueSize = (size / 100) * 1;
+    const color = node.color;
     // const [links, setLinks] = useState<SankeyLinkExtended[]>([]);
     // const [clickdedLink, setClickedLink] = useState<SankeyLinkExtended>(link);
     // useEffect(()=> {
@@ -81,6 +82,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
         //노드에 link와 같이 클릭시 노드에 있는 링크들만 보여주도록 표현.
         <NodePos>
             <rect
+                className="node"
                 x={node.x}
                 y={node.y}
                 width={node.width}
@@ -100,7 +102,9 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                     // }
                     // console.log(node.number);
                     //@ts-ignore
+
                     const nodePush = [];
+
                     const trashNodePush = [];
                     for (let i = 0; i < links.length; i++) {
                         if (node.number === links[i].source || node.number === links[i].target) {
@@ -111,16 +115,13 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                             }
                         } else trashNodePush.push();
                     }
-                    //@ts-ignores
+
                     const convertNode = nodePush.reduce(function (acc, cur) {
                         return acc.concat(cur);
                     });
+
                     console.log(convertNode);
-                    // console.log(nodePush);
-                    const selectedNodeParts = sourceTargetIdLinksDict[`${links[0].source}`]; // 노드를 클릭하였을때 발생하는 주요 이벤트 const
-                    // 아래를 고정값이 아닌 interaction으로 값이 바뀌게 만들어야한다.
-                    const selectedLinkParts = sourceTargetIdLinksDict[`${links[0].source}-${links[0].target}-${links[0].valueid}`];
-                    // console.log(selectedLinkParts);
+
                     renderingData.links.forEach((renderingLink) => {
                         renderingLink.color = 'grayLinkColor';
                         // renderingLink.valueid = undefined; // 초기 상태
