@@ -101,6 +101,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                     // console.log(node.number);
                     //@ts-ignore
                     const nodePush = [];
+                    const trashNodePush = [];
                     for (let i = 0; i < links.length; i++) {
                         if (node.number === links[i].source || node.number === links[i].target) {
                             if (links[i].color !== 'grayLinkColor') {
@@ -108,7 +109,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                                 // console.log(selectedNodeParts);
                                 nodePush.push(selectedNodeParts);
                             }
-                        } else console.log();
+                        } else trashNodePush.push();
                     }
                     //@ts-ignores
                     const convertNode = nodePush.reduce(function (acc, cur) {
@@ -196,7 +197,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                             renderingData,
                         });
                     });
-                    console.log('selectedLinkParts', nodePush);
+                    // console.log('selectedLinkParts', nodePush);
                     setOriginData(renderingData);
                 }}
             >
@@ -213,7 +214,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
 
 function findFrontLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData }) {
     const { linkPart, renderingData } = arg;
-    console.log(linkPart);
+    // console.log(linkPart);
     const frontLinks = renderingData.links.filter((renderingLink) => {
         if (renderingLink.target === linkPart.source && renderingLink.paperName === linkPart.paperName && renderingLink.process === linkPart.process) {
             if (renderingLink.target >= 0 && renderingLink.target <= 8) {
