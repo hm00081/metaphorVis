@@ -210,7 +210,7 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
 
                 {links.map((link, i) => (
                     // @ts-ignore
-                    <Link key={`link-${i}`} link={link} originData={originData} sourceTargetIdLinksDict={sourceTargetIdLinksDict} setOriginData={setOriginData} />
+                    <Link key={`link-${i}`} nodes={nodes} link={link} originData={originData} sourceTargetIdLinksDict={sourceTargetIdLinksDict} setOriginData={setOriginData} />
                 ))}
             </svg>
             {/* <TargetClouds>

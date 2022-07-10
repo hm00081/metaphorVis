@@ -72,8 +72,8 @@ const LinkRedColor: FC = () => (
 
 const LinkTargetColor: FC = () => (
     <linearGradient id="targetLinkColor">
-        <stop offset="100%" stopColor={'hsl(10, 76%, 35%) '} />
-        <stop offset="100%" stopColor={'hsl(10, 76%, 35%) '} />
+        <stop offset="100%" stopColor={'hsl(30, 76%, 35%) '} />
+        <stop offset="100%" stopColor={'hsl(30, 76%, 35%) '} />
     </linearGradient>
 ); // 0~7
 
@@ -107,50 +107,50 @@ const LinkTargetFourColor: FC = () => (
 
 const LinkIntOneColor: FC = () => (
     <linearGradient id="intOneLinkColor">
-        <stop offset="100%" stopColor={'hsl(45, 87%, 38%)'} />
-        <stop offset="100%" stopColor={'hsl(45, 87%, 38%)'} />
+        <stop offset="100%" stopColor={'hsl(45, 87%, 30%)'} />
+        <stop offset="100%" stopColor={'hsl(45, 87%, 30%)'} />
     </linearGradient>
 ); // 31~34
 
 const LinkIntLightOneColor: FC = () => (
     <linearGradient id="intOneLightLinkColor">
-        <stop offset="100%" stopColor={'hsl(45, 78%, 55%)'} />
-        <stop offset="100%" stopColor={'hsl(45, 78%, 55%)'} />
+        <stop offset="100%" stopColor={'hsl(45, 78%, 50%)'} />
+        <stop offset="100%" stopColor={'hsl(45, 78%, 50%)'} />
     </linearGradient>
 ); // 35
 
 const LinkIntLight2OneColor: FC = () => (
     <linearGradient id="intOneLight2LinkColor">
-        <stop offset="100%" stopColor={'hsl(45, 70%, 58%)'} />
-        <stop offset="100%" stopColor={'hsl(45, 70%, 58%)'} />
+        <stop offset="100%" stopColor={'hsl(45, 70%, 57%)'} />
+        <stop offset="100%" stopColor={'hsl(45, 70%, 57%)'} />
     </linearGradient>
 ); // 36~38
 
 const LinkIntTwoColor: FC = () => (
     <linearGradient id="intTwoLinkColor">
-        <stop offset="100%" stopColor={'hsl(2, 87%, 38%)'} />
-        <stop offset="100%" stopColor={'hsl(2, 87%, 38%)'} />
+        <stop offset="100%" stopColor={'hsl(2, 87%, 30%)'} />
+        <stop offset="100%" stopColor={'hsl(2, 87%, 30%)'} />
     </linearGradient>
 ); // 39
 
 const LinkIntLightTwoColor: FC = () => (
     <linearGradient id="intTwoLightLinkColor">
-        <stop offset="100%" stopColor={'hsl(2, 76%, 60%)'} />
-        <stop offset="100%" stopColor={'hsl(2, 76%, 60%)'} />
+        <stop offset="100%" stopColor={'hsl(2, 76%, 50%)'} />
+        <stop offset="100%" stopColor={'hsl(2, 76%, 50%)'} />
     </linearGradient>
 ); // 40
 
 const LinkIntThreeColor: FC = () => (
     <linearGradient id="intThreeLinkColor">
-        <stop offset="100%" stopColor={'hsl(28, 91%, 41%)'} />
-        <stop offset="100%" stopColor={'hsl(28, 91%, 41%)'} />
+        <stop offset="100%" stopColor={'hsl(28, 95%, 30%)'} />
+        <stop offset="100%" stopColor={'hsl(28, 95%, 30%)'} />
     </linearGradient>
 ); // 41~42
 
 const LinkIntLightThreeColor: FC = () => (
     <linearGradient id="intThreeLightLinkColor">
-        <stop offset="100%" stopColor={'hsl(33, 88%, 62%)'} />
-        <stop offset="100%" stopColor={'hsl(33, 88%, 62%)'} />
+        <stop offset="100%" stopColor={'hsl(33, 88%, 50%)'} />
+        <stop offset="100%" stopColor={'hsl(33, 88%, 50%)'} />
     </linearGradient>
 ); // 43~44
 
@@ -163,22 +163,22 @@ const LinkIntFourColor: FC = () => (
 
 const LinkIntFiveColor: FC = () => (
     <linearGradient id="intFiveLinkColor">
-        <stop offset="100%" stopColor={'hsl(206, 68%, 40%)'} />
-        <stop offset="100%" stopColor={'hsl(206, 68%, 40%)'} />
+        <stop offset="100%" stopColor={'hsl(206, 88%, 40%)'} />
+        <stop offset="100%" stopColor={'hsl(206, 88%, 40%)'} />
     </linearGradient>
 ); // 46
 
 const LinkIntLightFiveColor: FC = () => (
     <linearGradient id="intFiveLightLinkColor">
-        <stop offset="100%" stopColor={'hsl(216, 60%, 50%)'} />
-        <stop offset="100%" stopColor={'hsl(216, 60%, 50%)'} />
+        <stop offset="100%" stopColor={'hsl(216, 80%, 53%)'} />
+        <stop offset="100%" stopColor={'hsl(216, 80%, 53%)'} />
     </linearGradient>
 ); // 47~48
 
 const LinkIntLight2FiveColor: FC = () => (
     <linearGradient id="intFiveLight2LinkColor">
-        <stop offset="100%" stopColor={'hsl(216, 48%, 56%)'} />
-        <stop offset="100%" stopColor={'hsl(216, 48%, 56%)'} />
+        <stop offset="100%" stopColor={'hsl(225, 48%, 58%)'} />
+        <stop offset="100%" stopColor={'hsl(225, 48%, 58%)'} />
     </linearGradient>
 ); // 49
 

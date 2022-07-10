@@ -317,8 +317,9 @@ const AllPaperDatas = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<
     const allOnePaper = AllPaperDatas.find(
         (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
     );
-    //@ts-ignore
-    if (!allOnePaper) AllPaperDatas.push({ source: onePaper.source, target: onePaper.target, value: onePaper.value });
+    if (!allOnePaper)
+        //@ts-ignore
+        AllPaperDatas.push({ source: onePaper.source, target: onePaper.target, value: onePaper.value, valueid: onePaper.valueid, paperName: onePaper.paperName, process: onePaper.process });
     //@ts-ignore
     else allOnePaper.value += 1;
     return AllPaperDatas;

@@ -89,14 +89,14 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                 height={node.value}
                 fill={node.color}
                 onClick={() => {
-                    console.log('clicked link', links);
+                    // console.log('clicked link', links);
                     const renderingData: SankeyData = { ...originData };
                     renderingData.positionStatus = 'clicked';
                     renderingData.links = renderingData.links.map((link) => {
                         return { ...link };
                     });
                     // console.log(renderingData.nodes);
-                    console.log(renderingData.links);
+                    // console.log(renderingData.links);
                     // for (let i = 0; i < links.length; i++) {
                     //     //   if ( links[i].)
                     // }
@@ -106,11 +106,12 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                     const nodePush = [];
 
                     const trashNodePush = [];
+                    // console.log(links.length);
                     for (let i = 0; i < links.length; i++) {
                         if (node.number === links[i].source || node.number === links[i].target) {
                             if (links[i].color !== 'grayLinkColor') {
                                 const selectedNodeParts = sourceTargetIdLinksDict[`${links[i].source}-${links[i].target}-${links[i].valueid}`];
-                                // console.log(selectedNodeParts);
+                                console.log(selectedNodeParts);
                                 nodePush.push(selectedNodeParts);
                             }
                         } else trashNodePush.push();
@@ -119,7 +120,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                     const convertNode = nodePush.reduce(function (acc, cur) {
                         return acc.concat(cur);
                     });
-
+                    console.log(nodePush);
                     console.log(convertNode);
 
                     renderingData.links.forEach((renderingLink) => {
@@ -215,7 +216,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
 
 function findFrontLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData }) {
     const { linkPart, renderingData } = arg;
-    // console.log(linkPart);
+    // console.log(renderingData.links);
     const frontLinks = renderingData.links.filter((renderingLink) => {
         if (renderingLink.target === linkPart.source && renderingLink.paperName === linkPart.paperName && renderingLink.process === linkPart.process) {
             if (renderingLink.target >= 0 && renderingLink.target <= 8) {
