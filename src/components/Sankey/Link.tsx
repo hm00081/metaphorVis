@@ -82,17 +82,17 @@ export const Link = ({ nodes, node, link, originData, sourceTargetIdLinksDict, s
     //     // console.log(dimensions.current)
     // }, [width, height,  dimensions]);
 
-    const loadData = () => {
-        d3.dsv(',', '/data/area.csv', (d) => {
-            return d as unknown as Types.Data[];
-        }).then((d) => {
-            setData(d as unknown as SankeyLinkExtended[]);
-        });
-    };
+    // const loadData = () => {
+    //     d3.dsv(',', '/data/area.csv', (d) => {
+    //         return d as unknown as Types.Data[];
+    //     }).then((d) => {
+    //         setData(d as unknown as SankeyLinkExtended[]);
+    //     });
+    // };
 
-    useEffect(() => {
-        if (data.length <= 1) loadData();
-    });
+    // useEffect(() => {
+    //     if (data.length <= 1) loadData();
+    // });
 
     const onBrushUpdateData = (values: Date[]) => {
         // console.log(`${values[0].toDateString()  }, ${  values[1].toDateString()}`)
