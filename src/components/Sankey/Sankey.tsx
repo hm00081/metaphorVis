@@ -21,10 +21,13 @@ import {
     LinkIntOneColor,
     LinkIntLightOneColor,
     LinkIntLight2OneColor,
+    LinkIntLight3OneColor,
     LinkIntTwoColor,
     LinkIntLightTwoColor,
     LinkIntThreeColor,
     LinkIntLightThreeColor,
+    LinkIntLight1ThreeColor,
+    LinkIntLight2ThreeColor,
     LinkIntFourColor,
     LinkIntFiveColor,
     LinkIntLightFiveColor,
@@ -167,10 +170,13 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
                 <LinkIntOneColor />
                 <LinkIntLightOneColor />
                 <LinkIntLight2OneColor />
+                <LinkIntLight3OneColor />
                 <LinkIntTwoColor />
                 <LinkIntLightTwoColor />
                 <LinkIntThreeColor />
                 <LinkIntLightThreeColor />
+                <LinkIntLight1ThreeColor />
+                <LinkIntLight2ThreeColor />
                 <LinkIntFourColor />
                 <LinkIntFiveColor />
                 <LinkIntLightFiveColor />

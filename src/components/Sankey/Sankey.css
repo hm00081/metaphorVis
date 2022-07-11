@@ -15,6 +15,10 @@
     fill: hsl(10, 0%, 57%);
 }
 
+.info {
+    white-space: pre-wrap;
+}
+
 rect {
     opacity: 1;
 }

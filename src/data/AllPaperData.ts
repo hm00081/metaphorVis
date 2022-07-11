@@ -319,7 +319,15 @@ const AllPaperDatas = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<
     );
     if (!allOnePaper)
         //@ts-ignore
-        AllPaperDatas.push({ source: onePaper.source, target: onePaper.target, value: onePaper.value, valueid: onePaper.valueid, paperName: onePaper.paperName, process: onePaper.process });
+        AllPaperDatas.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            id: onePaper.id,
+        });
     //@ts-ignore
     else allOnePaper.value += 1;
     return AllPaperDatas;

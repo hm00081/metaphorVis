@@ -2,8 +2,8 @@ import { FC } from 'react';
 
 const LinkGrayColor: FC = () => (
     <linearGradient id="grayLinkColor">
-        <stop offset="100%" stopColor={'hsl(10, 0%, 77%)'} />
-        <stop offset="100%" stopColor={'hsl(10, 0%, 77%)'} />
+        <stop offset="100%" stopColor={'hsl(10, 0%, 75%)'} />
+        <stop offset="100%" stopColor={'hsl(10, 0%, 75%)'} />
     </linearGradient>
 );
 
@@ -107,52 +107,73 @@ const LinkTargetFourColor: FC = () => (
 
 const LinkIntOneColor: FC = () => (
     <linearGradient id="intOneLinkColor">
-        <stop offset="100%" stopColor={'hsl(45, 95%, 29%)'} />
-        <stop offset="100%" stopColor={'hsl(45, 95%, 29%)'} />
+        <stop offset="100%" stopColor={'hsl(45, 93%, 10%)'} />
+        <stop offset="100%" stopColor={'hsl(45, 93%, 10%)'} />
     </linearGradient>
-); // 31~34
+); // 31~33
 
 const LinkIntLightOneColor: FC = () => (
     <linearGradient id="intOneLightLinkColor">
-        <stop offset="100%" stopColor={'hsl(45, 78%, 50%)'} />
-        <stop offset="100%" stopColor={'hsl(45, 78%, 50%)'} />
+        <stop offset="100%" stopColor={'hsl(45, 88%, 32%)'} />
+        <stop offset="100%" stopColor={'hsl(45, 88%, 32%)'} />
     </linearGradient>
-); // 35
+); // 34
 
 const LinkIntLight2OneColor: FC = () => (
     <linearGradient id="intOneLight2LinkColor">
-        <stop offset="100%" stopColor={'hsl(45, 70%, 57%)'} />
-        <stop offset="100%" stopColor={'hsl(45, 70%, 57%)'} />
+        <stop offset="100%" stopColor={'hsl(45, 86%, 48%)'} />
+        <stop offset="100%" stopColor={'hsl(45, 86%, 48%)'} />
+    </linearGradient>
+); // 35
+
+const LinkIntLight3OneColor: FC = () => (
+    <linearGradient id="intOneLight3LinkColor">
+        <stop offset="100%" stopColor={'hsl(45, 95%, 64%)'} />
+        <stop offset="100%" stopColor={'hsl(45, 95%, 64%)'} />
     </linearGradient>
 ); // 36~38
 
 const LinkIntTwoColor: FC = () => (
     <linearGradient id="intTwoLinkColor">
-        <stop offset="100%" stopColor={'hsl(2, 87%, 30%)'} />
-        <stop offset="100%" stopColor={'hsl(2, 87%, 30%)'} />
+        <stop offset="100%" stopColor={'hsl(2, 83%, 27%)'} />
+        <stop offset="100%" stopColor={'hsl(2, 83%, 27%)'} />
     </linearGradient>
 ); // 39
 
 const LinkIntLightTwoColor: FC = () => (
     <linearGradient id="intTwoLightLinkColor">
-        <stop offset="100%" stopColor={'hsl(2, 76%, 50%)'} />
-        <stop offset="100%" stopColor={'hsl(2, 76%, 50%)'} />
+        <stop offset="100%" stopColor={'hsl(2, 70%, 60%)'} />
+        <stop offset="100%" stopColor={'hsl(2, 70%, 60%)'} />
     </linearGradient>
 ); // 40
 
 const LinkIntThreeColor: FC = () => (
     <linearGradient id="intThreeLinkColor">
-        <stop offset="100%" stopColor={'hsl(28, 95%, 30%)'} />
-        <stop offset="100%" stopColor={'hsl(28, 95%, 30%)'} />
+        <stop offset="100%" stopColor={'hsl(28, 90%, 20%)'} />
+        <stop offset="100%" stopColor={'hsl(28, 90%, 20%)'} />
     </linearGradient>
-); // 41~42
+); // 41
 
 const LinkIntLightThreeColor: FC = () => (
     <linearGradient id="intThreeLightLinkColor">
-        <stop offset="100%" stopColor={'hsl(33, 88%, 50%)'} />
-        <stop offset="100%" stopColor={'hsl(33, 88%, 50%)'} />
+        <stop offset="100%" stopColor={'hsl(28, 85%, 41%)'} />
+        <stop offset="100%" stopColor={'hsl(28, 85%, 41%)'} />
     </linearGradient>
-); // 43~44
+); // 42
+
+const LinkIntLight1ThreeColor: FC = () => (
+    <linearGradient id="intThreeLight1LinkColor">
+        <stop offset="100%" stopColor={'hsl(33, 75%, 50%)'} />
+        <stop offset="100%" stopColor={'hsl(33, 75%, 50%)'} />
+    </linearGradient>
+); // 43
+
+const LinkIntLight2ThreeColor: FC = () => (
+    <linearGradient id="intThreeLight2LinkColor">
+        <stop offset="100%" stopColor={'hsl(33, 70%, 65%)'} />
+        <stop offset="100%" stopColor={'hsl(33, 70%, 65%)'} />
+    </linearGradient>
+); // 44
 
 const LinkIntFourColor: FC = () => (
     <linearGradient id="intFourLinkColor">
@@ -217,10 +238,13 @@ export {
     LinkIntOneColor,
     LinkIntLightOneColor,
     LinkIntLight2OneColor,
+    LinkIntLight3OneColor,
     LinkIntTwoColor,
     LinkIntLightTwoColor,
     LinkIntThreeColor,
     LinkIntLightThreeColor,
+    LinkIntLight1ThreeColor,
+    LinkIntLight2ThreeColor,
     LinkIntFourColor,
     LinkIntFiveColor,
     LinkIntLightFiveColor,
