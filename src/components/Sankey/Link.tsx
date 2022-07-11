@@ -357,8 +357,8 @@ export const Link = ({ nodes, node, link, originData, sourceTargetIdLinksDict, s
                     setOriginData(renderingData);
                 }}
             >
-                {link.color !== 'grayLinkColor' ? (
-                    <title className="info">{`${link.paperName}: ${link.sourceNode.name} to ${link.targetNode.name}: ${link.value}`}</title>
+                {link.color !== 'grayLinkColor' && link.process ? (
+                    <title className="info">{`${link.sourceNode.name} to ${link.targetNode.name}: ${link.value}`}</title>
                 ) : (
                     <h1>{`${link.sourceNode.name} to ${link.targetNode.name}: ${link.value}`}</h1>
                 )}
