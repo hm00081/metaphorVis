@@ -110,7 +110,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                     for (let i = 0; i < links.length; i++) {
                         if (node.number === links[i].source || node.number === links[i].target) {
                             if (links[i].color !== 'grayLinkColor') {
-                                const selectedNodeParts = sourceTargetIdLinksDict[`${links[i].source}-${links[i].target}-${links[i].valueid}`];
+                                const selectedNodeParts = sourceTargetIdLinksDict[`${links[i].source}-${links[i].target}-${links[i].valueid}-${links[i].paperName}`];
                                 console.log(selectedNodeParts);
                                 nodePush.push(selectedNodeParts);
                             }
@@ -120,7 +120,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                     const convertNode = nodePush.reduce(function (acc, cur) {
                         return acc.concat(cur);
                     });
-                    console.log(nodePush);
+                    // console.log(nodePush);
                     console.log(convertNode);
 
                     renderingData.links.forEach((renderingLink) => {
@@ -203,7 +203,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                     setOriginData(renderingData);
                 }}
             >
-                <title>{`${node.name}: ${node.value}`}</title>
+                <title>{`${node.name}: ${node.value}, node number: ${node.number}`}</title>
             </rect>
             <g transform={`translate(${textXPosition} ${textYPosition})`}>
                 <NodeName style={{ fontSize: node.value > 8 ? textTitleSize : textTitleSize, fontWeight: 550 }} textAnchor={textAnchor}>

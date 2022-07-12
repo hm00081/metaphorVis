@@ -315,7 +315,13 @@ const Emptys = [].concat.apply([], Empty).reduce((result, value) => {
 const AllPaperDatas = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<SankeyLinkExtended[]>((AllPaperDatas, onePaper) => {
     //@ts-ignore
     const allOnePaper = AllPaperDatas.find(
-        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+        (r) =>
+            r.source === onePaper.source &&
+            r.target === onePaper.target &&
+            r.value === onePaper.value &&
+            r.valueid === onePaper.valueid &&
+            r.process === onePaper.process &&
+            r.paperName === onePaper.paperName
     );
     if (!allOnePaper)
         //@ts-ignore
@@ -329,7 +335,7 @@ const AllPaperDatas = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<
             id: onePaper.id,
         });
     //@ts-ignore
-    else allOnePaper.value += 1;
+    else allOnePaper.value += 0;
     return AllPaperDatas;
 }, []);
 

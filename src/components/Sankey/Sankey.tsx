@@ -46,6 +46,7 @@ import './sandbox-styles.css';
 // Styles
 // styled
 import styled from 'styled-components';
+import { link } from 'fs';
 // Cloud
 // import { Papers } from '../../data/AllPaperData';
 // import { couldStartTrivia } from 'typescript';
@@ -113,8 +114,8 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
 
         originData.links.forEach((link1) => {
             originData.links.forEach((link2) => {
-                if (link1.source === link2.source && link1.target === link2.target && link1.valueid === link2.valueid) {
-                    const sourceTargetId = `${link2.source}-${link2.target}-${link2.valueid}`;
+                if (link1.source === link2.source && link1.target === link2.target && link1.valueid === link2.valueid && link1.paperName === link2.paperName) {
+                    const sourceTargetId = `${link2.source}-${link2.target}-${link2.valueid}-${link2.paperName}`;
 
                     if (sourceTargetId in sourceTargetIdLinksDict) {
                         const alreadySameLink = sourceTargetIdLinksDict[sourceTargetId].find((alreadyLink) => alreadyLink === link2);
@@ -133,6 +134,7 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
             const mergedLink = sameSourceTargetLinks.reduce<SankeyLink>(
                 (mergedLink, partLink) => {
                     mergedLink.value += partLink.value;
+                    // mergedLink.valueid = partLink.valueid;
                     return mergedLink;
                 },
                 { ...sameSourceTargetLinks[0], value: 0 }

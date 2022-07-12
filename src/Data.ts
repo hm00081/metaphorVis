@@ -102,8 +102,12 @@ const fullData: SankeyData = {
             let hasLink: boolean = false;
 
             for (let i = 0; i < linkGroup.length; i++) {
-                if (wantedLink.valueid === wantedLink.valueid) {
-                    hasLink = true;
+                if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition) {
+                    if (wantedLink.paperName && wantedLink.valueid === linkGroup[i].valueid) {
+                        hasLink = true;
+                    } else if (wantedLink.paperName === linkGroup[i].paperName) {
+                        hasLink = true;
+                    }
                 } else hasLink = false;
             }
             return hasLink;
