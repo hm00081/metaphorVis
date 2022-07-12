@@ -61,7 +61,16 @@ const TargetClouds = styled.div`
     margin-top: -50px;
 `;
 
-const BigBox = styled.g``;
+const BigBox = styled.g`
+    // background-color: #eee;
+    // margin-right: 500px;
+    // font-size: 15px;
+`;
+
+let style = {
+    fontSize: '15px',
+    fontWeight: 'bold',
+};
 
 // Props
 interface Props {
@@ -149,6 +158,7 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
     }, [originData]);
     // console.log(originData);
     const columns = nodes.map((node) => node.type).filter((type, pos, arr) => arr.indexOf(type) === pos);
+    const columnss = ['Paper', 'Paper', 'Target', 'Intermediation', 'Representation', 'Vis Var&Tech'];
     // const columns = title.map((title) => title).filter((title, pos, arr) => arr.indexOf(title) === pos);
 
     return (
@@ -183,12 +193,17 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
                 <LinkIntLight2FiveColor />
                 <LinkRepVisVarColor />
                 <LinkRepVisTechColor />
-                {/* {columns.map((column, i) => (
-                // <Text>{column}</Text>
-                <text x={(width / columns.length) * i + width / columns.length / 2} y={height * 0.02} textAnchor="middle">
-                    {column}
-                </text>
-            ))} */}
+                {columnss.map((column, i) => (
+                    // <Text>{column}</Text>
+
+                    <BigBox>
+                        {/* <rect className="column" x={width / columns.length} y={0} width={width / columns.length} height={height} fill="#eee" /> */}
+                        {/* <text x={(width / columns.length) * i + width / columns.length / 10} y={height * 0.02} textAnchor="middle"> */}
+                        <text style={style} className="coltext" x={500 * i - 480} y={height * 0.02} textAnchor="middle">
+                            {`${column}`}
+                        </text>
+                    </BigBox>
+                ))}
                 {nodes.map((node, i) => (
                     //@ts-ignore
                     <Node
