@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/sentimentTaxonomy/static/css/main.7a6c6368.css",
-    "main.js": "/sentimentTaxonomy/static/js/main.3ef332b7.js",
+    "main.js": "/sentimentTaxonomy/static/js/main.1b7d9ed6.js",
     "index.html": "/sentimentTaxonomy/index.html",
     "main.7a6c6368.css.map": "/sentimentTaxonomy/static/css/main.7a6c6368.css.map",
-    "main.3ef332b7.js.map": "/sentimentTaxonomy/static/js/main.3ef332b7.js.map"
+    "main.1b7d9ed6.js.map": "/sentimentTaxonomy/static/js/main.1b7d9ed6.js.map"
   },
   "entrypoints": [
     "static/css/main.7a6c6368.css",
-    "static/js/main.3ef332b7.js"
+    "static/js/main.1b7d9ed6.js"
   ]
 }
