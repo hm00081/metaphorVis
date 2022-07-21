@@ -47,6 +47,7 @@ import './sandbox-styles.css';
 // styled
 import styled from 'styled-components';
 import { link } from 'fs';
+import { convertCompilerOptionsFromJson } from 'typescript';
 // Cloud
 // import { Papers } from '../../data/AllPaperData';
 // import { couldStartTrivia } from 'typescript';
@@ -89,7 +90,7 @@ interface Props {
 }
 
 export interface SourceTargetIdLinksDict {
-    [sourceTargetId: string]: SankeyLink[];
+    [sourceTargetId: string]: SankeyLinkExtended[];
 }
 
 export type SourceTargetIdNodesDict = SourceTargetIdLinksDict & {
@@ -120,15 +121,18 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
                     if (sourceTargetId in sourceTargetIdLinksDict) {
                         const alreadySameLink = sourceTargetIdLinksDict[sourceTargetId].find((alreadyLink) => alreadyLink === link2);
                         if (!alreadySameLink) {
+                            //@ts-ignore
                             sourceTargetIdLinksDict[sourceTargetId].push(link2);
                         }
                     } else {
+                        //@ts-ignore
                         sourceTargetIdLinksDict[sourceTargetId] = [link2];
                     }
                 }
             });
         });
 
+        //TODO mergedLinks는 폐기해도 될듯.
         const mergedLinks = [] as SankeyLink[];
         for (const [sourceTargetId, sameSourceTargetLinks] of Object.entries(sourceTargetIdLinksDict)) {
             const mergedLink = sameSourceTargetLinks.reduce<SankeyLink>(
@@ -144,8 +148,15 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
 
         originData.nodes.forEach((node) => {});
 
-        const renderingData: SankeyData = { ...originData };
-        renderingData.links = mergedLinks;
+        const renderingData: SankeyData = { ...originData }; // 확인
+
+        // renderingData.links = mergedLinks;
+
+        console.log('mergedLinks');
+        console.log(mergedLinks);
+        console.log('rl');
+        console.log(renderingData.links);
+
         // console.log(renderingData.nodes);
         // console.log(mergedLinks);
         setSourceTargetIdLinksDict(sourceTargetIdLinksDict);
@@ -156,9 +167,9 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
         setNodes(nodes);
         // const links = calcSankeyLinks(renderingData, height, nodes, nodeWidth, minLinkBreadth, maxLinkBreadth, renderingData.positionStatus === 'init'); // 이거로 하면 모든 링크 위치 분리되어 나타냄
         const links = calcSankeyLinks(renderingData, height, nodes, nodeWidth, minLinkBreadth, maxLinkBreadth);
+        console.log(links);
         setLinks(links);
     }, [originData]);
-    // console.log(originData);
     const columns = nodes.map((node) => node.type).filter((type, pos, arr) => arr.indexOf(type) === pos);
     const columnss = ['Paper', 'Paper', 'Target', 'Intermediation', 'Representation', 'Vis Var&Tech'];
     // const columns = title.map((title) => title).filter((title, pos, arr) => arr.indexOf(title) === pos);

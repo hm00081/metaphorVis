@@ -134,6 +134,8 @@ const PaperString = [
     DJM12.links,
 ];
 
+console.log(PaperString.length);
+
 const Papers = [
     BN11B,
     CAA20,
@@ -251,6 +253,14 @@ const test = () => {
     return paper;
 };
 const Status = test();
+
+const check = () => {
+    const a = PaperString;
+    console.log(a.reduce((acc, curr) => (acc += curr.length), 0));
+    return a;
+};
+
+check();
 // console.log(PaperString[2][0].valueid);
 // console.log(Object.values(status[0][0]));
 //@ts-ignore

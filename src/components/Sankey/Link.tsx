@@ -1,6 +1,5 @@
 // Types
 import { SankeyLinkExtended, SankeyNodeExtended, SankeyData, SankeyLink } from '../../types/sankey';
-import './sandbox-styles.css';
 import './Sankey.css';
 import { FC, useState, useEffect, useCallback } from 'react';
 import { Utility } from '../../utils/sankey/basics';
@@ -18,6 +17,7 @@ import ChartHelper from './AreaChartHelper';
 import { link, linkSync } from 'fs';
 import { calcSankeyNodes, calcSankeyLinks } from '../../utils/';
 import { BrushBehavior } from 'd3-brush';
+import { render } from '@testing-library/react';
 
 const NodePos = styled.g`
     margin-top: 102px;
@@ -73,24 +73,150 @@ export const Link = ({ nodes, node, link, originData, sourceTargetIdLinksDict, s
     const linkst = {
         linkStatus: false,
     };
-    const [clicked, setClicked] = useState(linkst.linkStatus);
-    const likeLink = (status: string) => {
-        console.log(status);
-    };
-    const linkClick = (click: boolean) => {
-        setClicked(click);
-        let status = click ? 'CLICK' : 'UNCLICK';
-    };
-    const renderTitle = () => {
-        if (link.color !== 'grayLinkColor') {
-            if (link.target <= 30) {
-                {
-                    return `${link.paperName}: ${link.sourceNode.name} => ${link.targetNode.name}: ${link.value}`;
+    // console.log(originData);
+    const renderingData: SankeyData = { ...originData }; // 확인 (데이터 내용)
+    const onClickFunction = () => {
+        const renderingData: SankeyData = { ...originData };
+        renderingData.positionStatus = 'clicked';
+        renderingData.links = renderingData.links.map((link) => {
+            return { ...link };
+        });
+
+        const selectedLinkParts = sourceTargetIdLinksDict[`${link.source}-${link.target}-${link.valueid}-${link.paperName}`];
+        console.log(selectedLinkParts);
+        renderingData.links.forEach((renderingLink) => {
+            renderingLink.color = 'grayLinkColor';
+            // renderingLink.valueid = undefined; // 초기 상태
+            renderingLink.status = undefined;
+            console.log(renderingData.links.length);
+            selectedLinkParts.forEach((linkPart) => {
+                // if (link.color === 'grayLinkColor') {
+                //     return false;
+                // }
+                if (renderingLink.id && renderingLink.id === linkPart.id) {
+                    //TODO inter, rep에 속하는지 판단만 하면 되는 상황
+                    if (renderingLink.target >= 0 && renderingLink.target <= 7) {
+                        renderingLink.color = 'targetLinkColor';
+                        // renderingLink.valueid = 'selected';
+                        //renderingLink.status = 'selected';
+                    }
+                    if (renderingLink.target >= 8 && renderingLink.target <= 10) {
+                        renderingLink.color = 'targetLinkOneColor';
+                        // renderingLink.valueid = 'selected';
+                        //renderingLink.status = 'selected';
+                    }
+                    if (renderingLink.target >= 11 && renderingLink.target <= 15) {
+                        renderingLink.color = 'targetLinkTwoColor';
+                        // renderingLink.valueid = 'selected';
+                        //renderingLink.status = 'selected';
+                    }
+                    if (renderingLink.target >= 16 && renderingLink.target <= 20) {
+                        renderingLink.color = 'targetLinkThreeColor';
+                        // renderingLink.valueid = 'selected';
+                        //renderingLink.status = 'selected';
+                    }
+                    if (renderingLink.target >= 21 && renderingLink.target <= 30) {
+                        renderingLink.color = 'targetLinkFourColor';
+                        // renderingLink.valueid = 'selected';
+                        //renderingLink.status = 'selected';
+                    }
+                    if ((renderingLink.target >= 31 && renderingLink.target <= 33) || (renderingLink.source >= 31 && renderingLink.source <= 33)) {
+                        renderingLink.color = 'intOneLinkColor';
+                        // renderingLink.valueid = 'selected';
+                        //renderingLink.status = 'selected';
+                    }
+                    if (renderingLink.target === 34 || renderingLink.source === 34) {
+                        renderingLink.color = 'intOneLightLinkColor';
+                        // renderingLink.valueid = 'selected';
+                        //renderingLink.status = 'selected';
+                    }
+                    if (renderingLink.target === 35 || renderingLink.source === 35) {
+                        renderingLink.color = 'intOneLight2LinkColor';
+                        // renderingLink.valueid = 'selected';
+                        //renderingLink.status = 'selected';
+                    }
+                    if ((renderingLink.target >= 36 && renderingLink.target <= 38) || (renderingLink.source >= 36 && renderingLink.source <= 38)) {
+                        renderingLink.color = 'intOneLight3LinkColor';
+                        // renderingLink.valueid = 'selected';
+                        //renderingLink.status = 'selected';
+                    }
+                    if (renderingLink.target === 39 || renderingLink.source === 39) {
+                        renderingLink.color = 'intTwoLinkColor';
+                        // renderingLink.valueid = 'selected';
+                        //renderingLink.status = 'selected';
+                    }
+                    if (renderingLink.target === 40 || renderingLink.source === 40) {
+                        renderingLink.color = 'intTwoLightLinkColor';
+                        // renderingLink.valueid = 'selected';
+                        //renderingLink.status = 'selected';
+                    }
+                    if (renderingLink.target === 41 || renderingLink.source === 41) {
+                        renderingLink.color = 'intThreeLinkColor';
+                        // renderingLink.valueid = 'selected';
+                        //renderingLink.status = 'selected';
+                    }
+                    if (renderingLink.target === 42 || renderingLink.source === 42) {
+                        renderingLink.color = 'intThreeLightLinkColor';
+                        // renderingLink.valueid = 'selected';
+                        //renderingLink.status = 'selected';
+                    }
+                    if (renderingLink.target === 43 || renderingLink.source === 43) {
+                        renderingLink.color = 'intThreeLight1LinkColor';
+                        // renderingLink.valueid = 'selected';
+                        //renderingLink.status = 'selected';
+                    }
+                    if (renderingLink.target === 44 || renderingLink.source === 44) {
+                        renderingLink.color = 'intThreeLight2LinkColor';
+                        // renderingLink.valueid = 'selected';
+                        //renderingLink.status = 'selected';
+                    }
+                    if (renderingLink.target === 45 || renderingLink.source === 45) {
+                        renderingLink.color = 'intFourLinkColor';
+                        // renderingLink.valueid = 'selected';
+                        //renderingLink.status = 'selected';
+                    }
+                    if (renderingLink.target === 46 || renderingLink.source === 46) {
+                        renderingLink.color = 'intFiveLinkColor';
+                        // renderingLink.valueid = 'selected';
+                        //renderingLink.status = 'selected';
+                    }
+                    if ((renderingLink.target >= 47 && renderingLink.target <= 48) || (renderingLink.source >= 47 && renderingLink.source <= 48)) {
+                        renderingLink.color = 'intFiveLightLinkColor';
+                        // renderingLink.valueid = 'selected';
+                        //renderingLink.status = 'selected';
+                    }
+                    if (renderingLink.target === 49 || renderingLink.source === 49) {
+                        renderingLink.color = 'intFiveLight2LinkColor';
+                        // renderingLink.valueid = 'selected';
+                        //renderingLink.status = 'selected';
+                    }
+                    if (renderingLink.target >= 76 && renderingLink.target < 83) {
+                        renderingLink.color = 'repVisVarColor';
+                        // renderingLink.valueid = 'selected';
+                        //renderingLink.status = 'selected';
+                    }
+                    if (renderingLink.target > 82 && renderingLink.target < 100) {
+                        renderingLink.color = 'repVisTechColor';
+                        // renderingLink.valueid = 'selected';
+                        //renderingLink.status = 'selected';
+                    }
                 }
-            } else if (link.target <= 49) {
-                return `${link.paperName}: ${link.sourceNode.name} => ${link.targetNode.name}: ${link.value}`;
-            }
-        }
+            });
+        });
+
+        selectedLinkParts.forEach((selectedLinkPart) => {
+            findFrontLinks({
+                linkPart: selectedLinkPart,
+                renderingData,
+            });
+            findBackLinks({
+                linkPart: selectedLinkPart,
+                renderingData,
+            });
+        });
+        if (link.color === 'grayLinkColor') {
+            setOriginData(originData);
+        } else setOriginData(renderingData);
     };
 
     return (
@@ -101,314 +227,13 @@ export const Link = ({ nodes, node, link, originData, sourceTargetIdLinksDict, s
                 stroke={`url(#${link.color})`}
                 strokeWidth={link.value}
                 fill="none"
-                // onMouseEnter={() => {
-                //     const renderingData: SankeyData = { ...originData };
-                //     renderingData.positionStatus = 'clicked';
-                //     renderingData.links = renderingData.links.map((link) => {
-                //         return { ...link };
-                //     });
-                //     const selectedLinkParts = sourceTargetIdLinksDict[`${link.source}-${link.target}-${link.valueid}`];
-                //     renderingData.links.forEach((renderingLink) => {
-                //         renderingLink.color = 'grayLinkColor';
-                //         // renderingLink.valueid = undefined; // 초기 상태
-                //         renderingLink.status = undefined;
-                //         selectedLinkParts.forEach((linkPart) => {
-                //             if (renderingLink.id && renderingLink.id === linkPart.id) {
-                //                 //TODO inter, rep에 속하는지 판단만 하면 되는 상황
-                //                 if (renderingLink.target >= 0 && renderingLink.target <= 7) {
-                //                     renderingLink.color = 'targetLinkColor';
-                //                 }
-                //                 if (renderingLink.target >= 8 && renderingLink.target <= 10) {
-                //                     renderingLink.color = 'targetLinkOneColor';
-                //                 }
-                //                 if (renderingLink.target >= 11 && renderingLink.target <= 15) {
-                //                     renderingLink.color = 'targetLinkTwoColor';
-                //                 }
-                //                 if (renderingLink.target >= 16 && renderingLink.target <= 20) {
-                //                     renderingLink.color = 'targetLinkThreeColor';
-                //                 }
-                //                 if (renderingLink.target >= 21 && renderingLink.target <= 30) {
-                //                     renderingLink.color = 'targetLinkFourColor';
-                //                 }
-                //                 if ((renderingLink.target >= 31 && renderingLink.target <= 34) || (renderingLink.source >= 31 && renderingLink.source <= 34)) {
-                //                     renderingLink.color = 'intOneLinkColor';
-                //                 }
-                //                 if (renderingLink.target === 35 || renderingLink.source === 35) {
-                //                     renderingLink.color = 'intOneLightLinkColor';
-                //                 }
-                //                 if ((renderingLink.target >= 36 && renderingLink.target <= 38) || (renderingLink.source >= 36 && renderingLink.source <= 38)) {
-                //                     renderingLink.color = 'intOneLight2LinkColor';
-                //                 }
-                //                 if (renderingLink.target === 39 || renderingLink.source === 39) {
-                //                     renderingLink.color = 'intTwoLinkColor';
-                //                 }
-                //                 if (renderingLink.target === 40 || renderingLink.source === 40) {
-                //                     renderingLink.color = 'intTwoLightLinkColor';
-                //                 }
-                //                 if ((renderingLink.target >= 41 && renderingLink.target <= 42) || (renderingLink.source >= 41 && renderingLink.source <= 42)) {
-                //                     renderingLink.color = 'intThreeLinkColor';
-                //                 }
-                //                 if ((renderingLink.target >= 43 && renderingLink.target <= 44) || (renderingLink.source >= 43 && renderingLink.source <= 44)) {
-                //                     renderingLink.color = 'intThreeLightLinkColor';
-                //                 }
-                //                 if (renderingLink.target === 45 || renderingLink.source === 45) {
-                //                     renderingLink.color = 'intFourLinkColor';
-                //                 }
-                //                 if (renderingLink.target === 46 || renderingLink.source === 46) {
-                //                     renderingLink.color = 'intFiveLinkColor';
-                //                 }
-                //                 if ((renderingLink.target >= 47 && renderingLink.target <= 48) || (renderingLink.source >= 47 && renderingLink.source <= 48)) {
-                //                     renderingLink.color = 'intFiveLightLinkColor';
-                //                 }
-                //                 if (renderingLink.target === 49 || renderingLink.source === 49) {
-                //                     renderingLink.color = 'intFiveLight2LinkColor';
-                //                 }
-                //                 if (renderingLink.target >= 76 && renderingLink.target < 83) {
-                //                     renderingLink.color = 'repVisVarColor';
-                //                 }
-                //                 if (renderingLink.target > 82 && renderingLink.target < 100) {
-                //                     renderingLink.color = 'repVisTechColor';
-                //                 }
-                //             }
-                //         });
-                //     });
-                //     selectedLinkParts.forEach((selectedLinkPart) => {
-                //         findFrontLinks({
-                //             linkPart: selectedLinkPart,
-                //             renderingData,
-                //         });
-                //         findBackLinks({
-                //             linkPart: selectedLinkPart,
-                //             renderingData,
-                //         });
-                //     });
-
-                //     setOriginData(renderingData);
-                // }}
-                // onMouseLeave={() => {
-                //     const renderingData: SankeyData = { ...originData };
-                //     renderingData.positionStatus = 'clicked';
-                //     renderingData.links = renderingData.links.map((link) => {
-                //         return { ...link };
-                //     });
-                //     const selectedLinkParts = sourceTargetIdLinksDict[`${link.source}-${link.target}-${link.valueid}`];
-                //     renderingData.links.forEach((renderingLink) => {
-                //         renderingLink.color = 'grayLinkColor';
-                //         // renderingLink.valueid = undefined; // 초기 상태
-                //         renderingLink.status = undefined;
-
-                //         selectedLinkParts.forEach((linkPart) => {
-                //             if (renderingLink.id && renderingLink.id === linkPart.id) {
-                //                 //TODO inter, rep에 속하는지 판단만 하면 되는 상황
-                //                 if (renderingLink.target >= 0 && renderingLink.target <= 7) {
-                //                     renderingLink.color = 'targetLinkColor';
-                //                 }
-                //                 if (renderingLink.target >= 8 && renderingLink.target <= 10) {
-                //                     renderingLink.color = 'targetLinkOneColor';
-                //                 }
-                //                 if (renderingLink.target >= 11 && renderingLink.target <= 15) {
-                //                     renderingLink.color = 'targetLinkTwoColor';
-                //                 }
-                //                 if (renderingLink.target >= 16 && renderingLink.target <= 20) {
-                //                     renderingLink.color = 'targetLinkThreeColor';
-                //                 }
-                //                 if (renderingLink.target >= 21 && renderingLink.target <= 30) {
-                //                     renderingLink.color = 'targetLinkFourColor';
-                //                 }
-                //                 if ((renderingLink.target >= 31 && renderingLink.target <= 34) || (renderingLink.source >= 31 && renderingLink.source <= 34)) {
-                //                     renderingLink.color = 'intOneLinkColor';
-                //                 }
-                //                 if (renderingLink.target === 35 || renderingLink.source === 35) {
-                //                     renderingLink.color = 'intOneLightLinkColor';
-                //                 }
-                //                 if ((renderingLink.target >= 36 && renderingLink.target <= 38) || (renderingLink.source >= 36 && renderingLink.source <= 38)) {
-                //                     renderingLink.color = 'intOneLight2LinkColor';
-                //                 }
-                //                 if (renderingLink.target === 39 || renderingLink.source === 39) {
-                //                     renderingLink.color = 'intTwoLinkColor';
-                //                 }
-                //                 if (renderingLink.target === 40 || renderingLink.source === 40) {
-                //                     renderingLink.color = 'intTwoLightLinkColor';
-                //                 }
-                //                 if ((renderingLink.target >= 41 && renderingLink.target <= 42) || (renderingLink.source >= 41 && renderingLink.source <= 42)) {
-                //                     renderingLink.color = 'intThreeLinkColor';
-                //                 }
-                //                 if ((renderingLink.target >= 43 && renderingLink.target <= 44) || (renderingLink.source >= 43 && renderingLink.source <= 44)) {
-                //                     renderingLink.color = 'intThreeLightLinkColor';
-                //                 }
-                //                 if (renderingLink.target === 45 || renderingLink.source === 45) {
-                //                     renderingLink.color = 'intFourLinkColor';
-                //                 }
-                //                 if (renderingLink.target === 46 || renderingLink.source === 46) {
-                //                     renderingLink.color = 'intFiveLinkColor';
-                //                 }
-                //                 if ((renderingLink.target >= 47 && renderingLink.target <= 48) || (renderingLink.source >= 47 && renderingLink.source <= 48)) {
-                //                     renderingLink.color = 'intFiveLightLinkColor';
-                //                 }
-                //                 if (renderingLink.target === 49 || renderingLink.source === 49) {
-                //                     renderingLink.color = 'intFiveLight2LinkColor';
-                //                 }
-                //                 if (renderingLink.target >= 76 && renderingLink.target < 83) {
-                //                     renderingLink.color = 'repVisVarColor';
-                //                 }
-                //                 if (renderingLink.target > 82 && renderingLink.target < 100) {
-                //                     renderingLink.color = 'repVisTechColor';
-                //                 }
-                //             }
-                //         });
-                //     });
-                //     selectedLinkParts.forEach((selectedLinkPart) => {
-                //         findFrontLinks({
-                //             linkPart: selectedLinkPart,
-                //             renderingData,
-                //         });
-                //         findBackLinks({
-                //             linkPart: selectedLinkPart,
-                //             renderingData,
-                //         });
-                //     });
-
-                //     setOriginData(renderingData);
-                // }}
-                onClick={() => {
-                    console.log('clicked link', link);
-                    const renderingData: SankeyData = { ...originData };
-                    renderingData.positionStatus = 'clicked';
-                    renderingData.links = renderingData.links.map((link) => {
-                        return { ...link };
-                    });
-                    const selectedLinkParts = sourceTargetIdLinksDict[`${link.source}-${link.target}-${link.valueid}-${link.paperName}`];
-
-                    renderingData.links.forEach((renderingLink) => {
-                        renderingLink.color = 'grayLinkColor';
-                        // renderingLink.valueid = undefined; // 초기 상태
-                        renderingLink.status = undefined;
-
-                        selectedLinkParts.forEach((linkPart) => {
-                            if (renderingLink.id && renderingLink.id === linkPart.id) {
-                                //TODO inter, rep에 속하는지 판단만 하면 되는 상황
-                                if (renderingLink.target >= 0 && renderingLink.target <= 7) {
-                                    renderingLink.color = 'targetLinkColor';
-                                    // renderingLink.valueid = 'selected';
-                                    //renderingLink.status = 'selected';
-                                }
-                                if (renderingLink.target >= 8 && renderingLink.target <= 10) {
-                                    renderingLink.color = 'targetLinkOneColor';
-                                    // renderingLink.valueid = 'selected';
-                                    //renderingLink.status = 'selected';
-                                }
-                                if (renderingLink.target >= 11 && renderingLink.target <= 15) {
-                                    renderingLink.color = 'targetLinkTwoColor';
-                                    // renderingLink.valueid = 'selected';
-                                    //renderingLink.status = 'selected';
-                                }
-                                if (renderingLink.target >= 16 && renderingLink.target <= 20) {
-                                    renderingLink.color = 'targetLinkThreeColor';
-                                    // renderingLink.valueid = 'selected';
-                                    //renderingLink.status = 'selected';
-                                }
-                                if (renderingLink.target >= 21 && renderingLink.target <= 30) {
-                                    renderingLink.color = 'targetLinkFourColor';
-                                    // renderingLink.valueid = 'selected';
-                                    //renderingLink.status = 'selected';
-                                }
-                                if ((renderingLink.target >= 31 && renderingLink.target <= 33) || (renderingLink.source >= 31 && renderingLink.source <= 33)) {
-                                    renderingLink.color = 'intOneLinkColor';
-                                    // renderingLink.valueid = 'selected';
-                                    //renderingLink.status = 'selected';
-                                }
-                                if (renderingLink.target === 34 || renderingLink.source === 34) {
-                                    renderingLink.color = 'intOneLightLinkColor';
-                                    // renderingLink.valueid = 'selected';
-                                    //renderingLink.status = 'selected';
-                                }
-                                if (renderingLink.target === 35 || renderingLink.source === 35) {
-                                    renderingLink.color = 'intOneLight2LinkColor';
-                                    // renderingLink.valueid = 'selected';
-                                    //renderingLink.status = 'selected';
-                                }
-                                if ((renderingLink.target >= 36 && renderingLink.target <= 38) || (renderingLink.source >= 36 && renderingLink.source <= 38)) {
-                                    renderingLink.color = 'intOneLight3LinkColor';
-                                    // renderingLink.valueid = 'selected';
-                                    //renderingLink.status = 'selected';
-                                }
-                                if (renderingLink.target === 39 || renderingLink.source === 39) {
-                                    renderingLink.color = 'intTwoLinkColor';
-                                    // renderingLink.valueid = 'selected';
-                                    //renderingLink.status = 'selected';
-                                }
-                                if (renderingLink.target === 40 || renderingLink.source === 40) {
-                                    renderingLink.color = 'intTwoLightLinkColor';
-                                    // renderingLink.valueid = 'selected';
-                                    //renderingLink.status = 'selected';
-                                }
-                                if (renderingLink.target === 41 || renderingLink.source === 41) {
-                                    renderingLink.color = 'intThreeLinkColor';
-                                    // renderingLink.valueid = 'selected';
-                                    //renderingLink.status = 'selected';
-                                }
-                                if (renderingLink.target === 42 || renderingLink.source === 42) {
-                                    renderingLink.color = 'intThreeLightLinkColor';
-                                    // renderingLink.valueid = 'selected';
-                                    //renderingLink.status = 'selected';
-                                }
-                                if (renderingLink.target === 43 || renderingLink.source === 43) {
-                                    renderingLink.color = 'intThreeLight1LinkColor';
-                                    // renderingLink.valueid = 'selected';
-                                    //renderingLink.status = 'selected';
-                                }
-                                if (renderingLink.target === 44 || renderingLink.source === 44) {
-                                    renderingLink.color = 'intThreeLight2LinkColor';
-                                    // renderingLink.valueid = 'selected';
-                                    //renderingLink.status = 'selected';
-                                }
-                                if (renderingLink.target === 45 || renderingLink.source === 45) {
-                                    renderingLink.color = 'intFourLinkColor';
-                                    // renderingLink.valueid = 'selected';
-                                    //renderingLink.status = 'selected';
-                                }
-                                if (renderingLink.target === 46 || renderingLink.source === 46) {
-                                    renderingLink.color = 'intFiveLinkColor';
-                                    // renderingLink.valueid = 'selected';
-                                    //renderingLink.status = 'selected';
-                                }
-                                if ((renderingLink.target >= 47 && renderingLink.target <= 48) || (renderingLink.source >= 47 && renderingLink.source <= 48)) {
-                                    renderingLink.color = 'intFiveLightLinkColor';
-                                    // renderingLink.valueid = 'selected';
-                                    //renderingLink.status = 'selected';
-                                }
-                                if (renderingLink.target === 49 || renderingLink.source === 49) {
-                                    renderingLink.color = 'intFiveLight2LinkColor';
-                                    // renderingLink.valueid = 'selected';
-                                    //renderingLink.status = 'selected';
-                                }
-                                if (renderingLink.target >= 76 && renderingLink.target < 83) {
-                                    renderingLink.color = 'repVisVarColor';
-                                    // renderingLink.valueid = 'selected';
-                                    //renderingLink.status = 'selected';
-                                }
-                                if (renderingLink.target > 82 && renderingLink.target < 100) {
-                                    renderingLink.color = 'repVisTechColor';
-                                    // renderingLink.valueid = 'selected';
-                                    //renderingLink.status = 'selected';
-                                }
-                            }
-                        });
-                    });
-
-                    selectedLinkParts.forEach((selectedLinkPart) => {
-                        findFrontLinks({
-                            linkPart: selectedLinkPart,
-                            renderingData,
-                        });
-                        findBackLinks({
-                            linkPart: selectedLinkPart,
-                            renderingData,
-                        });
-                    });
-
+                onMouseEnter={() => {
                     setOriginData(renderingData);
                 }}
+                onMouseLeave={() => {
+                    setOriginData(originData);
+                }}
+                onClick={onClickFunction}
             >
                 {link.color !== 'grayLinkColor' && link.process ? (
                     <title className="info">{`${link.paperName}: ${link.sourceNode.name} → ${link.targetNode.name}: ${link.value}`}</title>

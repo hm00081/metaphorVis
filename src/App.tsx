@@ -1,8 +1,6 @@
 import FinalSankey from './FinalSankey';
 import ParentSize from '@visx/responsive/lib/components/ParentSizeModern';
 import Word from './components/WordCloud/Word';
-
-import './sandbox-styles.css';
 import withStyles from './FinalCirclePack';
 import StackedBarChart from './components/BarChart/BarChart';
 import Header from './components/Header/Header';
