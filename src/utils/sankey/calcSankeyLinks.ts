@@ -23,8 +23,8 @@ export const calcSankeyLinks = (
 ): SankeyLinkExtended[] => {
     // Extract to const so its in a closure
     const { links } = data;
-    console.log('data');
-    console.log(data);
+    // console.log('data');
+    // console.log(data);
     // Calc proportional size value
 
     const proportionalNodeWidth = nodeWidth * (height / 100);

@@ -49,14 +49,14 @@ import styled from 'styled-components';
 import { link } from 'fs';
 import { convertCompilerOptionsFromJson } from 'typescript';
 // Cloud
-// import { Papers } from '../../data/AllPaperData';
-// import { couldStartTrivia } from 'typescript';
-// import TargetCloudResults from '../WordCloud/react-cloud/TargetCloudResults';
-// import InterCloudResults from '../WordCloud/react-cloud/InterCloudResults';
-// import RepCloudResults from '../WordCloud/react-cloud/RepCloudResults';
-// import VarCloudResults from '../WordCloud/react-cloud/VarCloudResults';
-// import TechCloudResults from '../WordCloud/react-cloud/TechCloudResults';
-// import { GridColumns } from '@visx/grid';
+import { Papers } from '../../data/AllPaperData';
+import { couldStartTrivia } from 'typescript';
+import TargetCloudResults from '../WordCloud/react-cloud/TargetCloudResults';
+import InterCloudResults from '../WordCloud/react-cloud/InterCloudResults';
+import RepCloudResults from '../WordCloud/react-cloud/RepCloudResults';
+import VarCloudResults from '../WordCloud/react-cloud/VarCloudResults';
+import TechCloudResults from '../WordCloud/react-cloud/TechCloudResults';
+import { GridColumns } from '@visx/grid';
 
 const TargetClouds = styled.div`
     margin-left: 300px;
@@ -152,10 +152,10 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
 
         // renderingData.links = mergedLinks;
 
-        console.log('mergedLinks');
-        console.log(mergedLinks);
-        console.log('rl');
-        console.log(renderingData.links);
+        // console.log('mergedLinks');
+        // console.log(mergedLinks);
+        // console.log('rl');
+        // console.log(renderingData.links);
 
         // console.log(renderingData.nodes);
         // console.log(mergedLinks);
@@ -167,7 +167,7 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
         setNodes(nodes);
         // const links = calcSankeyLinks(renderingData, height, nodes, nodeWidth, minLinkBreadth, maxLinkBreadth, renderingData.positionStatus === 'init'); // 이거로 하면 모든 링크 위치 분리되어 나타냄
         const links = calcSankeyLinks(renderingData, height, nodes, nodeWidth, minLinkBreadth, maxLinkBreadth);
-        console.log(links);
+        // console.log(links);
         setLinks(links);
     }, [originData]);
     const columns = nodes.map((node) => node.type).filter((type, pos, arr) => arr.indexOf(type) === pos);
