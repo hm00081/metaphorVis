@@ -96,39 +96,33 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                     renderingData.links = renderingData.links.map((link) => {
                         return { ...link };
                     });
-                    // console.log(renderingData.nodes);
-                    // console.log(renderingData.links);
-                    // for (let i = 0; i < links.length; i++) {
-                    //     //   if ( links[i].)
-                    // }
-                    // console.log(node.number);
-                    //@ts-ignore
-                    console.log(links);
+
                     const nodePush = [];
                     const trashNodePush = [];
-                    console.log(node);
-                    for (let i = 0; i < links.length; i++) {
-                        if ((node.number === links[i].source || node.number === links[i].target) && links[i].valueid) {
-                            if (links[i].color !== 'grayLinkColor') {
-                                const selectedNodeParts = sourceTargetIdLinksDict[`${links[i].source}-${links[i].target}-${links[i].valueid}-${links[i].paperName}`];
-                                console.log(selectedNodeParts);
-                                nodePush.push(selectedNodeParts);
-                            }
-                        } else trashNodePush.push();
-                    }
 
-                    const convertNode = nodePush.reduce(function (acc, cur) {
-                        return acc.concat(cur);
+                    let arrLink = links.filter((recursiveLink, i) => {
+                        if ((node.number === recursiveLink.source || node.number === recursiveLink.target) && recursiveLink.valueid) {
+                            if (links[i].color !== 'grayLinkColor') {
+                                const selectedNodePart = sourceTargetIdLinksDict[`${links[i].source}-${links[i].target}-${links[i].valueid}-${links[i].paperName}`];
+                                // console.log(selectedNodeParts);
+                                return nodePush.push(selectedNodePart);
+                            }
+                        } else return trashNodePush.push();
                     });
+                    console.log(arrLink);
+
+                    // const convertNode = nodePush.reduce(function (acc, cur) {
+                    //     return acc.concat(cur);
+                    // });
                     // console.log(nodePush);
-                    console.log(convertNode);
+                    // console.log(convertNode);
 
                     renderingData.links.forEach((renderingLink) => {
                         renderingLink.color = 'grayLinkColor';
                         // renderingLink.valueid = undefined; // 초기 상태
                         renderingLink.status = undefined;
                         //@ts-ignore
-                        convertNode.forEach((linkPart) => {
+                        arrLink.forEach((linkPart) => {
                             if (renderingLink.id && renderingLink.id === linkPart.id) {
                                 //TODO inter, rep에 속하는지 판단만 하면 되는 상황
                                 if (renderingLink.target >= 0 && renderingLink.target <= 7) {
@@ -240,7 +234,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                         });
                     });
 
-                    convertNode.forEach((selectedLinkPart) => {
+                    arrLink.forEach((selectedLinkPart) => {
                         findFrontLinks({
                             linkPart: selectedLinkPart,
                             renderingData,
@@ -481,7 +475,7 @@ function findFrontLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData }
         }
     });
 
-    console.log(frontLinks);
+    // console.log(frontLinks);
 
     frontLinks.forEach((linkPart) => {
         findFrontLinks({
@@ -738,7 +732,7 @@ function findBackLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData })
             return false;
         }
     });
-    console.log(backLinks);
+    // console.log(backLinks);
 
     backLinks.forEach((linkPart) => {
         findBackLinks({

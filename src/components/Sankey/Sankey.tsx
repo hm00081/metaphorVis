@@ -14,6 +14,7 @@ import {
     LinkRubyColor,
     LinkRedColor,
     LinkTargetColor,
+    LinkHighlightTargetColor,
     LinkTargetOneColor,
     LinkTargetTwoColor,
     LinkTargetThreeColor,
@@ -186,6 +187,7 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
                 <LinkRubyColor />
                 <LinkRedColor />
                 <LinkTargetColor />
+                <LinkHighlightTargetColor />
                 <LinkTargetOneColor />
                 <LinkTargetTwoColor />
                 <LinkTargetThreeColor />

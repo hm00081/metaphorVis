@@ -62,6 +62,7 @@ export type LinkColor =
     | 'rubyLinkColor'
     | 'blackLinkColor'
     | 'targetLinkColor'
+    | 'targetHighlightLinkColor'
     | 'targetLinkOneColor'
     | 'targetLinkTwoColor'
     | 'targetLinkThreeColor'

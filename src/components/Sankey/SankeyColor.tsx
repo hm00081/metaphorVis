@@ -77,6 +77,13 @@ const LinkTargetColor: FC = () => (
     </linearGradient>
 ); // 0~7
 
+const LinkHighlightTargetColor: FC = () => (
+    <linearGradient id="targetHighlightLinkColor">
+        <stop offset="100%" stopColor={'hsl(216, 80%, 50%)'} />
+        <stop offset="100%" stopColor={'hsl(216, 80%, 50%)'} />
+    </linearGradient>
+); // 0~7
+
 const LinkTargetOneColor: FC = () => (
     <linearGradient id="targetLinkOneColor">
         <stop offset="100%" stopColor={'hsl(50, 66%, 40%) '} />
@@ -231,6 +238,7 @@ export {
     LinkRubyColor,
     LinkRedColor,
     LinkTargetColor,
+    LinkHighlightTargetColor,
     LinkTargetOneColor,
     LinkTargetTwoColor,
     LinkTargetThreeColor,
