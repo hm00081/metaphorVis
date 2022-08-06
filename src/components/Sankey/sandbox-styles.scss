@@ -6,12 +6,18 @@ body,
     line-height: 2em;
 }
 
-.box {
-    /* width: 50%; */
-}
-
 .size {
-    /* width: 100%; */
     min-height: 1050px;
     max-height: 1050px;
+    max-width: 2200px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    // overflow: scroll;
+    // width: 1200px;
+    position: relative;
+}
+
+.size:not(:root) {
+    overflow: hidden;
 }

@@ -9,7 +9,7 @@ const Nav = styled(motion.nav)`
     justify-content: space-between;
     align-items: center;
     // position: fixed;
-    //width: 100%;
+    width: 100%;
     height: 8px;
     // top: 10px;
     background-color: #9c27b0;
@@ -46,21 +46,9 @@ const navVariants = {
 };
 
 function Header() {
-    const [searchOpen, setSearchOpen] = useState<boolean>(false);
-
-    const inputAnimation = useAnimation();
     const navAnimation = useAnimation();
     const { scrollY } = useViewportScroll();
-    const toggleSearch = () => {
-        if (searchOpen) {
-            inputAnimation.start({
-                scaleX: 0,
-            });
-        } else {
-            inputAnimation.start({ scaleX: 1 });
-        }
-        setSearchOpen((prev) => !prev);
-    };
+
     useEffect(() => {
         scrollY.onChange(() => {
             if (scrollY.get() > 80) {

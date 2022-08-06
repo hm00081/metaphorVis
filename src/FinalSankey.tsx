@@ -5,7 +5,7 @@ import { useMeasure } from 'react-use';
 import { Sankey } from './components/Sankey';
 
 // Global Styles
-import './styles.css';
+import './styles.scss';
 import styled from 'styled-components';
 import Button from '@mui/material/Button';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
@@ -39,21 +39,10 @@ const Menu = styled.div`
 `;
 
 const SecButtonPos = styled.div`
-    display: inline-block;
-    margin-left: 1.5em;
-    margin-top: -55px;
+    // display: inline-block;
+    // margin-left: 1.5em;
+    // margin-top: -55px;
 `;
-
-const ButtonGroupBox = styled.div`
-    max-width: 0px;
-`;
-
-interface PaletteColor {
-    light?: string;
-    main: string;
-    dark?: string;
-    contrastText?: string;
-}
 
 // Component
 export default function FinalSankey() {
@@ -64,7 +53,6 @@ export default function FinalSankey() {
     // cloud data state
     const [originCloudData, setOriginCloudData] = useState<WordData>();
     const isMounted = useRef(true);
-    const matches = useMediaQuery('(min-width:600px)');
     // console.log(originData);
     const title = ['Paper', 'Target', 'Intermediation', 'Representation', 'Vis var&tech'];
     const columns = title.map((title) => title).filter((title, pos, arr) => arr.indexOf(title) === pos);
@@ -90,218 +78,224 @@ export default function FinalSankey() {
         isMounted.current = false;
     }, []);
 
-    useEffect(() => {}, []);
-
     return (
         <>
             <div className="mainSankey">
                 <div className="container" ref={ref}>
-                    <Menu>Target Theme</Menu>
-                    <ButtonGroup
-                        // orientation={`${matches ? 'horizontal' : 'verticcal'}`}
-                        size="large"
-                        aria-label="outlined primary button group"
-                        color="secondary"
-                        variant="outlined"
-                        style={{ marginTop: '10px', marginBottom: '20px', minWidth: '600px', maxHeight: '60px' }}
-                        // orientation={matches ? 'horizontal' : 'vertical'}
-                    >
-                        <Button
-                            onClick={() => {
-                                setOriginData(targetaa);
-                                setSelcted('click');
-                                setBtn(9);
-                            }}
-                            variant={btn === 9 ? 'contained' : 'outlined'}
-                            style={{ textTransform: 'none' }}
+                    <div className="double-menu-grid">
+                        <Menu>Target Theme</Menu>
+                        <ButtonGroup
+                            // orientation={`${matches ? 'horizontal' : 'verticcal'}`}
+                            size="large"
+                            aria-label="outlined primary button group"
+                            color="secondary"
+                            variant="outlined"
+                            style={{ marginTop: '10px', marginBottom: '20px', minWidth: '600px', maxHeight: '60px' }}
+                            // orientation={matches ? 'horizontal' : 'vertical'}
                         >
-                            Politician's Speech
-                        </Button>
-                        <Button
-                            onClick={() => {
-                                setOriginData(targetab);
-                                setSelcted('click');
-                                setBtn(10);
-                            }}
-                            variant={btn === 10 ? 'contained' : 'outlined'}
-                            style={{ textTransform: 'none' }}
-                        >
-                            Opinion to Politicians
-                        </Button>
-                        <Button
-                            onClick={() => {
-                                setOriginData(targetba);
-                                setSelcted('click');
-                                setBtn(11);
-                            }}
-                            variant={btn === 11 ? 'contained' : 'outlined'}
-                            style={{ textTransform: 'none' }}
-                        >
-                            Product Appraisal
-                        </Button>
-                        <Button
-                            onClick={() => {
-                                setOriginData(targetbb);
-                                setSelcted('click');
-                                setBtn(12);
-                            }}
-                            variant={btn === 12 ? 'contained' : 'outlined'}
-                            style={{ textTransform: 'none' }}
-                        >
-                            Service Appraisal
-                        </Button>
-                        <Button
-                            onClick={() => {
-                                setOriginData(targetca);
-                                setSelcted('click');
-                                setBtn(13);
-                            }}
-                            variant={btn === 13 ? 'contained' : 'outlined'}
-                            style={{ textTransform: 'none' }}
-                        >
-                            Opinion on a Specific Event
-                        </Button>
-                        <Button
-                            onClick={() => {
-                                setOriginData(targetcb);
-                                setSelcted('click');
-                                setBtn(16);
-                            }}
-                            variant={btn === 16 ? 'contained' : 'outlined'}
-                            style={{ textTransform: 'none' }}
-                        >
-                            Diffusion of Sentiment
-                        </Button>
-                    </ButtonGroup>
-
-                    <SecButtonPos>
-                        <Menu>Representation Theme</Menu>
-                        <ButtonGroup size="large" aria-label="outlined primary button group" color="secondary" variant="outlined" style={{ marginTop: '10px', minWidth: '600px', maxHeight: '60px' }}>
-                            {/* <ThemeProvider theme={theme}></ThemeProvider> */}
                             <Button
                                 onClick={() => {
-                                    setOriginData(repa);
+                                    setOriginData(targetaa);
                                     setSelcted('click');
-                                    setBtn(1);
+                                    setBtn(9);
                                 }}
-                                variant={btn === 1 ? 'contained' : 'outlined'}
+                                variant={btn === 9 ? 'contained' : 'outlined'}
                                 style={{ textTransform: 'none' }}
                             >
-                                Map
+                                Politician's Speech
                             </Button>
                             <Button
                                 onClick={() => {
-                                    setOriginData(repb);
+                                    setOriginData(targetab);
                                     setSelcted('click');
-                                    setBtn(2);
+                                    setBtn(10);
                                 }}
-                                variant={btn === 2 ? 'contained' : 'outlined'}
+                                variant={btn === 10 ? 'contained' : 'outlined'}
                                 style={{ textTransform: 'none' }}
                             >
-                                River
+                                Opinion to Politicians
                             </Button>
                             <Button
                                 onClick={() => {
-                                    setOriginData(repc);
+                                    setOriginData(targetba);
                                     setSelcted('click');
-                                    setBtn(3);
+                                    setBtn(11);
                                 }}
-                                variant={btn === 3 ? 'contained' : 'outlined'}
+                                variant={btn === 11 ? 'contained' : 'outlined'}
                                 style={{ textTransform: 'none' }}
                             >
-                                Plant
+                                Product Appraisal
                             </Button>
                             <Button
                                 onClick={() => {
-                                    setOriginData(repd);
+                                    setOriginData(targetbb);
                                     setSelcted('click');
-                                    setBtn(4);
+                                    setBtn(12);
                                 }}
-                                variant={btn === 4 ? 'contained' : 'outlined'}
+                                variant={btn === 12 ? 'contained' : 'outlined'}
                                 style={{ textTransform: 'none' }}
                             >
-                                Bubble
+                                Service Appraisal
                             </Button>
                             <Button
                                 onClick={() => {
-                                    setOriginData(repea);
+                                    setOriginData(targetca);
                                     setSelcted('click');
-                                    setBtn(5);
+                                    setBtn(13);
                                 }}
-                                variant={btn === 5 ? 'contained' : 'outlined'}
+                                variant={btn === 13 ? 'contained' : 'outlined'}
                                 style={{ textTransform: 'none' }}
                             >
-                                Wheel
+                                Opinion on a Specific Event
                             </Button>
                             <Button
                                 onClick={() => {
-                                    setOriginData(repeb);
+                                    setOriginData(targetcb);
                                     setSelcted('click');
-                                    setBtn(6);
+                                    setBtn(16);
                                 }}
-                                variant={btn === 6 ? 'contained' : 'outlined'}
+                                variant={btn === 16 ? 'contained' : 'outlined'}
                                 style={{ textTransform: 'none' }}
                             >
-                                Building & Structure
-                            </Button>
-                            <Button
-                                onClick={() => {
-                                    setOriginData(repf);
-                                    setSelcted('click');
-                                    setBtn(7);
-                                }}
-                                variant={btn === 7 ? 'contained' : 'outlined'}
-                                style={{ textTransform: 'none' }}
-                            >
-                                Geometry
-                            </Button>
-                            <Button
-                                onClick={() => {
-                                    setOriginData(repg);
-                                    setSelcted('click');
-                                    setBtn(8);
-                                }}
-                                variant={btn === 8 ? 'contained' : 'outlined'}
-                                style={{ textTransform: 'none' }}
-                            >
-                                Machine
-                            </Button>
-                            <Button
-                                onClick={() => {
-                                    setOriginData(reph);
-                                    setSelcted('click');
-                                    setBtn(14);
-                                }}
-                                variant={btn === 14 ? 'contained' : 'outlined'}
-                                style={{ textTransform: 'none' }}
-                            >
-                                Decorative Pattern
-                            </Button>
-
-                            <Button
-                                onClick={() => {
-                                    setOriginData(basicData);
-                                    setSelcted('click');
-                                    setBtn(0);
-                                }}
-                                variant={btn === 0 ? 'contained' : 'outlined'}
-                                style={{ textTransform: 'none' }}
-                            >
-                                Show Empty
-                            </Button>
-                            <Button
-                                onClick={() => {
-                                    setOriginData(fullData);
-                                    setSelcted('click');
-                                    setBtn(15);
-                                }}
-                                variant={btn === 15 ? 'contained' : 'outlined'}
-                                style={{ textTransform: 'none' }}
-                            >
-                                Show Full
+                                Diffusion of Sentiment
                             </Button>
                         </ButtonGroup>
-                    </SecButtonPos>
+
+                        <SecButtonPos>
+                            <Menu>Representation Theme</Menu>
+                            <ButtonGroup
+                                size="large"
+                                aria-label="outlined primary button group"
+                                color="secondary"
+                                variant="outlined"
+                                style={{ marginTop: '10px', minWidth: '600px', maxHeight: '60px' }}
+                            >
+                                {/* <ThemeProvider theme={theme}></ThemeProvider> */}
+                                <Button
+                                    onClick={() => {
+                                        setOriginData(repa);
+                                        setSelcted('click');
+                                        setBtn(1);
+                                    }}
+                                    variant={btn === 1 ? 'contained' : 'outlined'}
+                                    style={{ textTransform: 'none' }}
+                                >
+                                    Map
+                                </Button>
+                                <Button
+                                    onClick={() => {
+                                        setOriginData(repb);
+                                        setSelcted('click');
+                                        setBtn(2);
+                                    }}
+                                    variant={btn === 2 ? 'contained' : 'outlined'}
+                                    style={{ textTransform: 'none' }}
+                                >
+                                    River
+                                </Button>
+                                <Button
+                                    onClick={() => {
+                                        setOriginData(repc);
+                                        setSelcted('click');
+                                        setBtn(3);
+                                    }}
+                                    variant={btn === 3 ? 'contained' : 'outlined'}
+                                    style={{ textTransform: 'none' }}
+                                >
+                                    Plant
+                                </Button>
+                                <Button
+                                    onClick={() => {
+                                        setOriginData(repd);
+                                        setSelcted('click');
+                                        setBtn(4);
+                                    }}
+                                    variant={btn === 4 ? 'contained' : 'outlined'}
+                                    style={{ textTransform: 'none' }}
+                                >
+                                    Bubble
+                                </Button>
+                                <Button
+                                    onClick={() => {
+                                        setOriginData(repea);
+                                        setSelcted('click');
+                                        setBtn(5);
+                                    }}
+                                    variant={btn === 5 ? 'contained' : 'outlined'}
+                                    style={{ textTransform: 'none' }}
+                                >
+                                    Wheel
+                                </Button>
+                                <Button
+                                    onClick={() => {
+                                        setOriginData(repeb);
+                                        setSelcted('click');
+                                        setBtn(6);
+                                    }}
+                                    variant={btn === 6 ? 'contained' : 'outlined'}
+                                    style={{ textTransform: 'none' }}
+                                >
+                                    Building & Structure
+                                </Button>
+                                <Button
+                                    onClick={() => {
+                                        setOriginData(repf);
+                                        setSelcted('click');
+                                        setBtn(7);
+                                    }}
+                                    variant={btn === 7 ? 'contained' : 'outlined'}
+                                    style={{ textTransform: 'none' }}
+                                >
+                                    Geometry
+                                </Button>
+                                <Button
+                                    onClick={() => {
+                                        setOriginData(repg);
+                                        setSelcted('click');
+                                        setBtn(8);
+                                    }}
+                                    variant={btn === 8 ? 'contained' : 'outlined'}
+                                    style={{ textTransform: 'none' }}
+                                >
+                                    Machine
+                                </Button>
+                                <Button
+                                    onClick={() => {
+                                        setOriginData(reph);
+                                        setSelcted('click');
+                                        setBtn(14);
+                                    }}
+                                    variant={btn === 14 ? 'contained' : 'outlined'}
+                                    style={{ textTransform: 'none' }}
+                                >
+                                    Decorative Pattern
+                                </Button>
+
+                                <Button
+                                    onClick={() => {
+                                        setOriginData(basicData);
+                                        setSelcted('click');
+                                        setBtn(0);
+                                    }}
+                                    variant={btn === 0 ? 'contained' : 'outlined'}
+                                    style={{ textTransform: 'none' }}
+                                >
+                                    Show Empty
+                                </Button>
+                                <Button
+                                    onClick={() => {
+                                        setOriginData(fullData);
+                                        setSelcted('click');
+                                        setBtn(15);
+                                    }}
+                                    variant={btn === 15 ? 'contained' : 'outlined'}
+                                    style={{ textTransform: 'none' }}
+                                >
+                                    Show Full
+                                </Button>
+                            </ButtonGroup>
+                        </SecButtonPos>
+                    </div>
                     <FinalSankeys>
                         <div className="sankey">
                             <Sankey

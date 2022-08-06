@@ -262,7 +262,6 @@ export const Link = ({ nodes, node, link, links, originData, sourceTargetIdLinks
         <>
             <path className="link" d={link.path} stroke={`url(#${link.color})`} strokeWidth={link.value} fill="none" onClick={onClickFunction} onMouseEnter={onMouseEnterFunction}>
                 {link.color !== 'grayLinkColor' && link.process ? (
-                    // <title className="info">{`${link.process}, ${link.paperName}: ${link.sourceNode.name} → ${link.targetNode.name}: ${link.value}`}</title>
                     //TODO 팝업메세지 나열
                     <title>
                         {(() => {
@@ -527,7 +526,7 @@ function findFrontSameProcessLink(arg: { link: SankeyLinkExtended; links: Sankey
             links,
         });
 
-        leftTitleLabel = `${lefterTitleLabel}->${leftTitleLabel}`;
+        leftTitleLabel = `${lefterTitleLabel}>${leftTitleLabel}`;
     }
 
     // titleLabel의 일부분
@@ -794,46 +793,21 @@ function findLinkTitle(arg: { link: SankeyLinkExtended; links: SankeyLinkExtende
         link,
         links,
     });
-    tempTitleLabel = `${titleLabelLeftPart}->${tempTitleLabel}`;
+    tempTitleLabel = `${titleLabelLeftPart}>${tempTitleLabel}`;
     setTitleLabel(tempTitleLabel);
 }
 
 function makeTitleLabel(args: { currentLink: SankeyLinkExtended; leftLinkLabel?: string; rightLinkLabel?: string }): string {
     const { currentLink, leftLinkLabel, rightLinkLabel } = args;
-    const currentTitleLabel = `${currentLink.sourceNode.name}→${currentLink.targetNode.name}`;
+    const currentTitleLabel = `${currentLink.sourceNode.name}>${currentLink.targetNode.name}`;
     let titleLabel: string = currentTitleLabel;
 
     if (leftLinkLabel) {
-        titleLabel = `${leftLinkLabel}→${titleLabel}`;
+        titleLabel = `${leftLinkLabel}>${titleLabel}`;
     }
     if (rightLinkLabel) {
-        titleLabel = `${titleLabel}→${rightLinkLabel}`;
+        titleLabel = `${titleLabel}>${rightLinkLabel}`;
     }
 
     return titleLabel;
-
-    // if (link.color != 'grayLinkColor') {
-    //     //@ts-ignore
-    //     if (link.target <= 30) {
-    //         // return `${link.paperName}: ${link.sourceNode.name} → ${link.targetNode.name}: ${link.value}`;
-    //         //@ts-ignore
-    //         titleLabel = `${obj1[1]}->${obj1[3]}`;
-    //         // titleLabel = `${arrLink.sourceNode.name}→${arrLink.targetNode.name}, ${arrLink.process}`;
-    //     } else if (31 <= link.target && link.target <= 49) {
-    //         //prevLink.sourceNode.name, prevLink = findFrontLink에서의 동일한 sourceNode.name을 가지는 링크
-    //         //@ts-ignore
-    //         titleLabel = `${obj1[1]}→${link.sourceNode.name}→${link.targetNode.name}`;
-    //     } else if (link.target >= 50 && link.target <= 75) {
-    //         //@ts-ignore
-    //         titleLabel = `${a}→${link.sourceNode.name}→${link.targetNode.name}`;
-    //     } else if (link.target >= 76 && link.target <= 82) {
-    //         //@ts-ignore
-    //         titleLabel = `${a}→${link.sourceNode.name}→${link.targetNode.name}`;
-    //     } else if (link.target >= 83 && link.target <= 99) {
-    //         //@ts-ignore
-    //         titleLabel = `${a}→${link.sourceNode.name}→${link.targetNode.name}`;
-    //     } else {
-    //         titleLabel = 'error';
-    //     }
-    // }
 }

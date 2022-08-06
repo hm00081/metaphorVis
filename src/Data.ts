@@ -7,7 +7,7 @@ import { Sankey } from './components/Sankey';
 
 // Global Styles
 // import 'normalize.css';
-import './styles.css';
+import './styles.scss';
 
 import { LinkColor, SankeyData } from './types/sankey';
 import { SankeyLink, SankeyStatus, SankeyLinkExtended } from '../src/types';
