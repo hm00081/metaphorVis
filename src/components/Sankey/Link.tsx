@@ -33,6 +33,7 @@ interface LinkProps {
     node: SankeyNodeExtended;
     nodes: SankeyNodeExtended[];
     link: SankeyLinkExtended;
+    links: SankeyLinkExtended[];
     originData: SankeyData;
     setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
     sourceTargetIdLinksDict: SourceTargetIdLinksDict;
@@ -70,69 +71,10 @@ interface IBrushProps {
 }
 
 // Component
-export const Link = ({ nodes, node, link, originData, sourceTargetIdLinksDict, setOriginData }: LinkProps) => {
-    const colorLink = [];
-    const nonColorLink = [];
-    // highlight = hover
-    //linksDict의 색상을 나눠야하는 상황
-    //arrLink = 색상을 가지고 있는 링크들의 집합.
+export const Link = ({ nodes, node, link, links, originData, sourceTargetIdLinksDict, setOriginData }: LinkProps) => {
+    const [titleLabel, setTitleLabel] = useState<string>('default link label');
 
-    //앞에서 구한 같은 process의 link도 가져와여함
-    //target의 target 기준 link
-    // 고려사항 1) same color 2) same process
-    // 앞 뒤 비교를 위한 link의 정보가 있어야함.
-
-    // console.log(originData);
-    const renderingData: SankeyData = { ...originData }; // 확인 (데이터 내용)
-    // do {
-    // } while ()
-    // 76 ~ 99를  target으로 가지면 더 이상 x
-    // 100 ~ 155롤 source로 가지면 더 이상 x
-
-    // lodash _.filter(collection: 요소 반복, predicate: 술어에 대해 모든 요소가 참을 반환하는 새로운 배열)
-    // 술어는 값, 인덱스|key, collection 3가지 인수 호출
-    // const heads = _.filter(renderingData.links, (d) => d.paperName === link.paperName && link.source === d.target && d.color !== 'grayLinkColor');
-    // const tails = _.filter(renderingData.links, (d) => d.paperName === link.paperName && link.target === d.source && d.color !== 'grayLinkColor');
-    const a = [];
-    // console.log(sourceTargetIdLinksDict);
-    // const findFirstColoredLink = renderingData.links.filter((colored) => {
-    //     if (colored.color !== 'grayLinkColor') {
-    //         if (colored.target <= 30) {
-    //             return true;
-    //         } else return false;
-    //     }
-    // }); // for Target
-    // const findSecondColoredLink = renderingData.links.filter((colored) => {
-    //     if (colored.color !== 'grayLinkColor') {
-    //         if (colored.target <= 49) {
-    //             return true;
-    //         } else return false;
-    //     }
-    // }); // for Intermediation
-    // const findThirdColoredLink = renderingData.links.filter((colored) => {
-    //     if (colored.color !== 'grayLinkColor') {
-    //         if (colored.target <= 75) {
-    //             return true;
-    //         } else return false;
-    //     }
-    // }); // for Representation
-    // const findFourthColoredLink = renderingData.links.filter((colored) => {
-    //     if (colored.color !== 'grayLinkColor') {
-    //         if (colored.target <= 82) {
-    //             return true;
-    //         } else return false;
-    //     }
-    // }); // for Vis_var
-    const findFifthColoredLink = renderingData.links.filter((colored) => {
-        if (colored.color !== 'grayLinkColor') {
-            if (colored.target <= 99) {
-                return true;
-            } else return false;
-        }
-    }); // for Vis_tech
-    // console.log(findFifthColoredLink);
-    // hover, click 기준 노드의 위치에 의해 title을 설정.
-
+    // click & hover시 label을 나타냄
     const onClickFunction = () => {
         const renderingData: SankeyData = { ...originData };
         renderingData.positionStatus = 'clicked';
@@ -142,17 +84,13 @@ export const Link = ({ nodes, node, link, originData, sourceTargetIdLinksDict, s
 
         const selectedLinkPart = sourceTargetIdLinksDict[`${link.source}-${link.target}-${link.valueid}-${link.paperName}`];
 
-        let results = [];
+        // sourceTargetIdLinksDict[`${link.source}-${link.target}-${link.valueid}-${link.process}`];
 
+        // link 클릭시 해당 링크 색상 부여함.
         renderingData.links.forEach((renderingLink) => {
             renderingLink.color = 'grayLinkColor';
-            // renderingLink.valueid = undefined; // 초기 상태
             renderingLink.status = undefined;
-            // console.log(renderingData.links.length);
             selectedLinkPart.forEach((linkPart) => {
-                // if (link.color === 'grayLinkColor') {
-                //     return false;
-                // }
                 if (renderingLink.id && renderingLink.id === linkPart.id) {
                     //TODO inter, rep에 속하는지 판단만 하면 되는 상황
                     if (renderingLink.target >= 0 && renderingLink.target <= 7) {
@@ -263,346 +201,299 @@ export const Link = ({ nodes, node, link, originData, sourceTargetIdLinksDict, s
                 }
             });
         });
+
+        // link 클릭시 앞/뒤 링크들 찾아서 색상 부여함.
         selectedLinkPart.forEach((selectedLinkPart) => {
             findFrontLinks({
-                // 앞 link 탐색
                 linkPart: selectedLinkPart,
                 renderingData,
             });
             findBackLinks({
-                // 뒷 link 탐색
                 linkPart: selectedLinkPart,
                 renderingData,
             });
+
+            if (link.process === selectedLinkPart.process) {
+                console.log('같은 경우 있음? ', link.process);
+            }
         });
+
+        // link 클릭시 해당 링크 라벨 부여함.
+        // let tempTitleLabel = makeTitleLabel({ currentLink: link });
+        // const titleLabelLeftPart = findFrontSameProcessLink({
+        //     link,
+        //     links,
+        // });
+        // tempTitleLabel = `${titleLabelLeftPart}->${tempTitleLabel}`;
+        // setTitleLabel(tempTitleLabel);
+        // findLinkTitle({
+        //     link,
+        //     links,
+        //     setTitleLabel,
+        // });
+
         if (link.color === 'grayLinkColor') {
             setOriginData(originData);
-        } else setOriginData(renderingData);
+        } else {
+            setOriginData(renderingData);
+        }
+    };
+
+    const onMouseEnterFunction = () => {
+        // link 클릭시 해당 링크 라벨 부여함.
+        // let tempTitleLabel = makeTitleLabel({ currentLink: link });
+        // const titleLabelLeftPart = findFrontSameProcessLink({
+        //     link,
+        //     links,
+        // });
+        // tempTitleLabel = `${titleLabelLeftPart}->${tempTitleLabel}`;
+
+        // console.log('링크 호버함', titleLabelLeftPart);
+        // setTitleLabel(tempTitleLabel);
+
+        findLinkTitle({
+            link,
+            links,
+            setTitleLabel,
+        });
     };
 
     return (
         <>
-            <path
-                className="link"
-                d={link.path}
-                stroke={`url(#${link.color})`}
-                strokeWidth={link.value}
-                fill="none"
-                //TODO link mouseenter, mouseout
-                // onMouseEnter={() => {
-                //     const renderingData: SankeyData = { ...originData };
-                //     renderingData.positionStatus = 'clicked';
-                //     renderingData.links = renderingData.links.map((link) => {
-                //         return { ...link };
-                //     });
-
-                //     const selectedLinkPart = sourceTargetIdLinksDict[`${link.source}-${link.target}-${link.valueid}-${link.paperName}`];
-                //     selectedLinkPart.forEach((selectedLinkPart) => {
-                //         findFrontLinks({
-                //             // 앞 link 탐색
-                //             linkPart: selectedLinkPart,
-                //             renderingData,
-                //             interactionType: 'hover',
-                //         });
-                //         console.log('asdads');
-                //         findBackLinks({
-                //             // 뒷 link 탐색
-                //             linkPart: selectedLinkPart,
-                //             renderingData,
-                //         });
-                //         if (link.color === 'grayLinkColor') {
-                //             setOriginData(originData);
-                //         } else setOriginData(renderingData);
-                //     });
-                // }}
-                // onMouseLeave={() => {
-                //     const renderingData: SankeyData = { ...originData };
-                //     renderingData.positionStatus = 'clicked';
-                //     renderingData.links = renderingData.links.map((link) => {
-                //         return { ...link };
-                //     });
-
-                //     const selectedLinkPart = sourceTargetIdLinksDict[`${link.source}-${link.target}-${link.valueid}-${link.paperName}`];
-                //     selectedLinkPart.forEach((selectedLinkPart) => {
-                //         findFrontLinks({
-                //             // 앞 link 탐색
-                //             linkPart: selectedLinkPart,
-                //             renderingData,
-                //             interactionType: 'click',
-                //         });
-                //         console.log('asdads');
-                //         findBackLinks({
-                //             // 뒷 link 탐색
-                //             linkPart: selectedLinkPart,
-                //             renderingData,
-                //         });
-                //         if (link.color === 'grayLinkColor') {
-                //             setOriginData(originData);
-                //         } else setOriginData(renderingData);
-                //     });
-                // }}
-                onClick={onClickFunction}
-            >
-                {/*
-                링크 process보여주기 위해 사용될 변수: link.source | link.target
-                같이 이어주는걸 보여주기위해 사용될 변수: process
-                 */}
-
+            <path className="link" d={link.path} stroke={`url(#${link.color})`} strokeWidth={link.value} fill="none" onClick={onClickFunction} onMouseEnter={onMouseEnterFunction}>
                 {link.color !== 'grayLinkColor' && link.process ? (
-                    <title className="info">{`${link.process}, ${link.paperName}: ${link.sourceNode.name} → ${link.targetNode.name}: ${link.value}`}</title>
-                ) : (
+                    // <title className="info">{`${link.process}, ${link.paperName}: ${link.sourceNode.name} → ${link.targetNode.name}: ${link.value}`}</title>
                     //TODO 팝업메세지 나열
-                    // <title>
-                    //     {/* {(() => {
-                    //         const 원하는대답 = findFrontLinks;
+                    <title>
+                        {(() => {
+                            //TODO 1번째 구간 링크 정보를 담는 데이터
+                            //TODO 각각의 정보들을 갖고 있는 배열에 대해서 같은 조건일 때 이어줘야하는 함수를 새로 또 만들어야 할 것 같아보인다.
 
-                    //         let returns = () => {
-                    //             if()
-                    //         };
-
-                    //         return `왼쪽 LINK 가 같은 process애들을 여기 함수에서 찾도록 한다.`;
-                    //     })()} */}
-                    // </title>
-                    // <>
-                    //     <title className="info">{`${link.process}, ${link.paperName}: ${link.sourceNode.name} → ${link.targetNode.name}: ${link.value}`}</title>
-                    //     <title>
-                    //         {(() => {
-                    //             return '왼쪽 LINK 가 같은 process애들을 여기 함수에서 찾도록 한다.';
-                    //         })()}
-                    //     </title>
-                    // </>
-                    <h1>{`${link.sourceNode.name} to ${link.targetNode.name}: ${link.value}`}</h1>
+                            //TODO 1번째 단위 기능 : <title/>에 문자열을 넣는 단위 기능 (e.g. 함수..) -> 완료
+                            //TODO 2번째 단위 기능 : 링크 정보들을 찾는 단위 기능 (e.g. 함수..) -> 완료
+                            //TODO 3번째 단위 기능 : 찾은 링크 정보들을 담는 데이터 구조 (e.g. 배열 등..)
+                            //TODO 4번째 단위 기능 : 찾은 링크 정보들을 담은 데이터를 "1번째 단위 기능"에 전달하기 (e.g. 함수 등..
+                            return titleLabel;
+                        })()}
+                    </title>
+                ) : (
+                    <title className="info"></title>
                 )}
             </path>
-            {/* <Brushes /> */}
-            {/* <Brush dimensions={dimensions.current} data={data} onBrushUpdateData={onBrushUpdateData} propertiesNames={propertiesNames} stroke="rgb(47, 74, 89)" /> */}
         </>
     );
 };
 
 function findFrontLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData; interactionType?: 'hover' | 'click' }) {
     const { linkPart, renderingData, interactionType = 'click' } = arg;
-    console.log('asdf');
-    // console.log(arg);
-    // console.log(linkPart.valueid);
     const frontLinks = renderingData.links.filter((renderingLink) => {
-        // if (renderingLink.target === linkPart.source && renderingLink.id === linkPart.id) {
         if (renderingLink.target === linkPart.source && renderingLink.paperName === linkPart.paperName) {
-            // 하이라이팅 해야할 놈...
-
-            if (interactionType === 'hover') {
-                renderingLink.color = 'targetHighlightLinkColor';
-                console.log('hello');
-            } else if (interactionType === 'click') {
+            // 길다란 if else문은 색칠하는 기능임.
+            if (renderingLink.target >= 0 && renderingLink.target <= 8) {
                 renderingLink.color = 'targetLinkColor';
-                console.log('nohello');
+                //  renderingLink.valueid = 'selected';
+                // renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+                renderingLink.status = 'selected';
+            } else if (renderingLink.target >= 8 && renderingLink.target <= 10) {
+                renderingLink.color = 'targetLinkOneColor';
+                //  renderingLink.valueid = 'selected';
+                // renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+                renderingLink.status = 'selected';
+            } else if (renderingLink.target >= 11 && renderingLink.target <= 15) {
+                renderingLink.color = 'targetLinkTwoColor';
+                //  renderingLink.valueid = 'selected';
+                // renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+                renderingLink.status = 'selected';
+            } else if (renderingLink.target >= 16 && renderingLink.target <= 20) {
+                renderingLink.color = 'targetLinkThreeColor';
+                //  renderingLink.valueid = 'selected';
+                // renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+                renderingLink.status = 'selected';
+            } else if (renderingLink.target >= 21 && renderingLink.target <= 30) {
+                renderingLink.color = 'targetLinkFourColor';
+                //  renderingLink.valueid = 'selected';
+                // renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+                renderingLink.status = 'selected';
             }
-
-            // if (renderingLink.target >= 0 && renderingLink.target <= 8) {
-            //     renderingLink.color = 'targetLinkColor';
-            //     //  renderingLink.valueid = 'selected';
-            //     // renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            //     renderingLink.status = 'selected';
-            // } else if (renderingLink.target >= 8 && renderingLink.target <= 10) {
-            //     renderingLink.color = 'targetLinkOneColor';
-            //     //  renderingLink.valueid = 'selected';
-            //     // renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            //     renderingLink.status = 'selected';
-            // } else if (renderingLink.target >= 11 && renderingLink.target <= 15) {
-            //     renderingLink.color = 'targetLinkTwoColor';
-            //     //  renderingLink.valueid = 'selected';
-            //     // renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            //     renderingLink.status = 'selected';
-            // } else if (renderingLink.target >= 16 && renderingLink.target <= 20) {
-            //     renderingLink.color = 'targetLinkThreeColor';
-            //     //  renderingLink.valueid = 'selected';
-            //     // renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            //     renderingLink.status = 'selected';
-            // } else if (renderingLink.target >= 21 && renderingLink.target <= 30) {
-            //     renderingLink.color = 'targetLinkFourColor';
-            //     //  renderingLink.valueid = 'selected';
-            //     // renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            //     renderingLink.status = 'selected';
-            // }
-            // if (renderingLink.target >= 31 && renderingLink.target <= 33) {
-            //     renderingLink.color = 'intOneLinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.target === 34) {
-            //     renderingLink.color = 'intOneLightLinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.source === 34) {
-            //     renderingLink.color = 'intOneLightLinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.target === 35) {
-            //     renderingLink.color = 'intOneLight2LinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.source === 35) {
-            //     renderingLink.color = 'intOneLight2LinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.target >= 36 && renderingLink.target <= 38) {
-            //     renderingLink.color = 'intOneLight3LinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.source >= 36 && renderingLink.source <= 38) {
-            //     renderingLink.color = 'intOneLight3LinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.target === 39) {
-            //     renderingLink.color = 'intTwoLinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.source === 39) {
-            //     renderingLink.color = 'intTwoLinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.target === 40) {
-            //     renderingLink.color = 'intTwoLightLinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.source === 40) {
-            //     renderingLink.color = 'intTwoLightLinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.target === 41) {
-            //     renderingLink.color = 'intThreeLinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.source === 41) {
-            //     renderingLink.color = 'intThreeLinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.target === 42) {
-            //     renderingLink.color = 'intThreeLightLinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.source === 42) {
-            //     renderingLink.color = 'intThreeLightLinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.target === 43) {
-            //     renderingLink.color = 'intThreeLight1LinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.source === 43) {
-            //     renderingLink.color = 'intThreeLight1LinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.target === 44) {
-            //     renderingLink.color = 'intThreeLight2LinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.source === 44) {
-            //     renderingLink.color = 'intThreeLight2LinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.target === 45) {
-            //     renderingLink.color = 'intFourLinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.source === 45) {
-            //     renderingLink.color = 'intFourLinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.target === 46) {
-            //     renderingLink.color = 'intFiveLinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.source === 46) {
-            //     renderingLink.color = 'intFiveLinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.target >= 47 && renderingLink.target <= 48) {
-            //     renderingLink.color = 'intFiveLightLinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.source >= 47 && renderingLink.source <= 48) {
-            //     renderingLink.color = 'intFiveLightLinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.target === 49) {
-            //     renderingLink.color = 'intFiveLight2LinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.source === 49) {
-            //     renderingLink.color = 'intFiveLight2LinkColor';
-            //     renderingLink.valueid = linkPart.valueid;
-            //     //renderingLink.status = 'selected';
-            //     renderingLink.paperName = linkPart.paperName;
-            //     // renderingLink.process = linkPart.process;
-            // } else if (renderingLink.source >= 50 && renderingLink.source <= 75) {
-            //     renderingLink.color = linkPart.color;
-            // } else if (renderingLink.target >= 50 && renderingLink.target <= 75) {
-            //     renderingLink.color = linkPart.color;
-            // }
+            if (renderingLink.target >= 31 && renderingLink.target <= 33) {
+                renderingLink.color = 'intOneLinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.target === 34) {
+                renderingLink.color = 'intOneLightLinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.source === 34) {
+                renderingLink.color = 'intOneLightLinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.target === 35) {
+                renderingLink.color = 'intOneLight2LinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.source === 35) {
+                renderingLink.color = 'intOneLight2LinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.target >= 36 && renderingLink.target <= 38) {
+                renderingLink.color = 'intOneLight3LinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.source >= 36 && renderingLink.source <= 38) {
+                renderingLink.color = 'intOneLight3LinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.target === 39) {
+                renderingLink.color = 'intTwoLinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.source === 39) {
+                renderingLink.color = 'intTwoLinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.target === 40) {
+                renderingLink.color = 'intTwoLightLinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.source === 40) {
+                renderingLink.color = 'intTwoLightLinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.target === 41) {
+                renderingLink.color = 'intThreeLinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.source === 41) {
+                renderingLink.color = 'intThreeLinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.target === 42) {
+                renderingLink.color = 'intThreeLightLinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.source === 42) {
+                renderingLink.color = 'intThreeLightLinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.target === 43) {
+                renderingLink.color = 'intThreeLight1LinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.source === 43) {
+                renderingLink.color = 'intThreeLight1LinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.target === 44) {
+                renderingLink.color = 'intThreeLight2LinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.source === 44) {
+                renderingLink.color = 'intThreeLight2LinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.target === 45) {
+                renderingLink.color = 'intFourLinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.source === 45) {
+                renderingLink.color = 'intFourLinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.target === 46) {
+                renderingLink.color = 'intFiveLinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.source === 46) {
+                renderingLink.color = 'intFiveLinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.target >= 47 && renderingLink.target <= 48) {
+                renderingLink.color = 'intFiveLightLinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.source >= 47 && renderingLink.source <= 48) {
+                renderingLink.color = 'intFiveLightLinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.target === 49) {
+                renderingLink.color = 'intFiveLight2LinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.source === 49) {
+                renderingLink.color = 'intFiveLight2LinkColor';
+                renderingLink.valueid = linkPart.valueid;
+                //renderingLink.status = 'selected';
+                renderingLink.paperName = linkPart.paperName;
+                // renderingLink.process = linkPart.process;
+            } else if (renderingLink.source >= 50 && renderingLink.source <= 75) {
+                renderingLink.color = linkPart.color;
+            } else if (renderingLink.target >= 50 && renderingLink.target <= 75) {
+                renderingLink.color = linkPart.color;
+            }
             return true;
         } else {
             return false;
         }
     });
 
-    console.log(frontLinks);
+    // console.log(frontLinks);
 
     frontLinks.forEach((linkPart) => {
         findFrontLinks({
@@ -614,6 +505,33 @@ function findFrontLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData; 
     // result.push (itself, othhers)
 
     // result.,foreahc
+}
+
+function findFrontSameProcessLink(arg: { link: SankeyLinkExtended; links: SankeyLinkExtended[] }): string {
+    const { link: currentLink, links } = arg;
+
+    // process가 같은 앞 링크를 찾는다.\
+    // TODO findBack 함수일때는 filter() 함수 써야할 수 있음.
+    const frontLink = links.find((candidateLink) => {
+        if (candidateLink.target === currentLink.source && candidateLink.process === currentLink.process) {
+            return true;
+        } else {
+            return false;
+        }
+    });
+    let leftTitleLabel: string = frontLink ? frontLink.sourceNode.name! : '';
+
+    if (frontLink) {
+        const lefterTitleLabel = findFrontSameProcessLink({
+            link: frontLink,
+            links,
+        });
+
+        leftTitleLabel = `${lefterTitleLabel}->${leftTitleLabel}`;
+    }
+
+    // titleLabel의 일부분
+    return leftTitleLabel;
 }
 
 function findBackLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData }) {
@@ -858,7 +776,7 @@ function findBackLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData })
             return false;
         }
     });
-    console.log(backLinks);
+    // console.log(backLinks);
 
     backLinks.forEach((linkPart) => {
         findBackLinks({
@@ -866,4 +784,56 @@ function findBackLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData })
             renderingData,
         }); //recursive backward calculate  function
     });
+}
+
+function findLinkTitle(arg: { link: SankeyLinkExtended; links: SankeyLinkExtended[]; setTitleLabel: React.Dispatch<React.SetStateAction<string>> }) {
+    const { link, links, setTitleLabel } = arg;
+
+    let tempTitleLabel = makeTitleLabel({ currentLink: link });
+    const titleLabelLeftPart = findFrontSameProcessLink({
+        link,
+        links,
+    });
+    tempTitleLabel = `${titleLabelLeftPart}->${tempTitleLabel}`;
+    setTitleLabel(tempTitleLabel);
+}
+
+function makeTitleLabel(args: { currentLink: SankeyLinkExtended; leftLinkLabel?: string; rightLinkLabel?: string }): string {
+    const { currentLink, leftLinkLabel, rightLinkLabel } = args;
+    const currentTitleLabel = `${currentLink.sourceNode.name}→${currentLink.targetNode.name}`;
+    let titleLabel: string = currentTitleLabel;
+
+    if (leftLinkLabel) {
+        titleLabel = `${leftLinkLabel}→${titleLabel}`;
+    }
+    if (rightLinkLabel) {
+        titleLabel = `${titleLabel}→${rightLinkLabel}`;
+    }
+
+    return titleLabel;
+
+    // if (link.color != 'grayLinkColor') {
+    //     //@ts-ignore
+    //     if (link.target <= 30) {
+    //         // return `${link.paperName}: ${link.sourceNode.name} → ${link.targetNode.name}: ${link.value}`;
+    //         //@ts-ignore
+    //         titleLabel = `${obj1[1]}->${obj1[3]}`;
+    //         // titleLabel = `${arrLink.sourceNode.name}→${arrLink.targetNode.name}, ${arrLink.process}`;
+    //     } else if (31 <= link.target && link.target <= 49) {
+    //         //prevLink.sourceNode.name, prevLink = findFrontLink에서의 동일한 sourceNode.name을 가지는 링크
+    //         //@ts-ignore
+    //         titleLabel = `${obj1[1]}→${link.sourceNode.name}→${link.targetNode.name}`;
+    //     } else if (link.target >= 50 && link.target <= 75) {
+    //         //@ts-ignore
+    //         titleLabel = `${a}→${link.sourceNode.name}→${link.targetNode.name}`;
+    //     } else if (link.target >= 76 && link.target <= 82) {
+    //         //@ts-ignore
+    //         titleLabel = `${a}→${link.sourceNode.name}→${link.targetNode.name}`;
+    //     } else if (link.target >= 83 && link.target <= 99) {
+    //         //@ts-ignore
+    //         titleLabel = `${a}→${link.sourceNode.name}→${link.targetNode.name}`;
+    //     } else {
+    //         titleLabel = 'error';
+    //     }
+    // }
 }

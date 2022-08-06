@@ -1,6 +1,6 @@
 import { SankeyData } from '../types/sankey';
 
-const ASTC06: SankeyData = {
+const ATSC06: SankeyData = {
     nodes: [
         { name: 'person', type: 'Target', subtype: '0', number: 0 },
         { name: 'behavior', type: 'Target', subtype: '0', number: 1 },
@@ -467,9 +467,9 @@ const ASTC06: SankeyData = {
     status: [],
 };
 
-ASTC06.links.forEach((link, index) => {
+ATSC06.links.forEach((link, index) => {
     link.paperName = 'ATSC06';
     link.id = `ASTC06-${index}`;
 });
 
-export { ASTC06 };
+export { ATSC06 };

@@ -7,6 +7,7 @@ import { Ref, useContext, useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { render } from '@testing-library/react';
 import { calcSankeyNodes, calcSankeyLinks } from '../../utils/';
+
 //@ts-ignore
 // const Rect = styled.rect`
 //     &: hover {
@@ -96,7 +97,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                     renderingData.links = renderingData.links.map((link) => {
                         return { ...link };
                     });
-
+                    //@ts-ignore
                     const nodePush = [];
                     const trashNodePush = [];
 
@@ -109,7 +110,6 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                             }
                         } else return trashNodePush.push();
                     });
-                    console.log(arrLink);
 
                     // const convertNode = nodePush.reduce(function (acc, cur) {
                     //     return acc.concat(cur);

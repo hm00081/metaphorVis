@@ -47,7 +47,7 @@ export const PaperNode: SankeyData = {
         { name: 'polarity classification', type: 'Intermediation', subtype: '2', number: 42 },
         { name: 'personalized sentiment analysis', type: 'Intermediation', subtype: '2', number: 43 },
         { name: 'multilingual and cross lingual sentiment analysis', type: 'Intermediation', subtype: '2', number: 44 },
-        { name: 'comparsion of different sentiments', type: 'Intermediation', subtype: '3', number: 45 },
+        { name: 'comparison of different sentiments', type: 'Intermediation', subtype: '3', number: 45 },
         { name: 'timeline analysis', type: 'Intermediation', subtype: '4', number: 46 },
         { name: 'analysis of debates comments and argumentation', type: 'Intermediation', subtype: '4', number: 47 },
         { name: 'finding significant', type: 'Intermediation', subtype: '4', number: 48 },

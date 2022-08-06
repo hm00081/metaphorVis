@@ -47,8 +47,7 @@ import './sandbox-styles.css';
 // Styles
 // styled
 import styled from 'styled-components';
-import { link } from 'fs';
-import { convertCompilerOptionsFromJson } from 'typescript';
+
 // Cloud
 import { Papers } from '../../data/AllPaperData';
 import { couldStartTrivia } from 'typescript';
@@ -177,7 +176,7 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
 
     return (
         <div className="box">
-            <svg className="size" width={width} height={height}>
+            <svg className="size" width="100%" height="100%">
                 <LinkGrayColor />
                 <LinkBlueColor />
                 <LinkDeepBlueColor />
@@ -246,7 +245,7 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
 
                 {links.map((link, i) => (
                     // @ts-ignore
-                    <Link key={`link-${i}`} nodes={nodes} link={link} originData={originData} sourceTargetIdLinksDict={sourceTargetIdLinksDict} setOriginData={setOriginData} />
+                    <Link key={`link-${i}`} nodes={nodes} link={link} links={links} originData={originData} sourceTargetIdLinksDict={sourceTargetIdLinksDict} setOriginData={setOriginData} />
                 ))}
             </svg>
             {/* <TargetClouds>

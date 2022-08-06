@@ -2,8 +2,8 @@ import { FC } from 'react';
 
 const LinkGrayColor: FC = () => (
     <linearGradient id="grayLinkColor">
-        <stop offset="100%" stopColor={'hsl(10, 0%, 75%)'} />
-        <stop offset="100%" stopColor={'hsl(10, 0%, 75%)'} />
+        <stop offset="100%" stopColor={'hsl(10, 0%, 87%)'} />
+        <stop offset="100%" stopColor={'hsl(10, 0%, 87%)'} />
     </linearGradient>
 );
 

@@ -4,7 +4,9 @@ import Word from './components/WordCloud/Word';
 import withStyles from './FinalCirclePack';
 import StackedBarChart from './components/BarChart/BarChart';
 import Header from './components/Header/Header';
+import Navigator from './components/Navigator/Navigator';
 import styled from 'styled-components';
+import ThemeProvider from 'styled-components';
 
 //@ts-ignore
 const draw = <withStyles />;
@@ -24,6 +26,7 @@ function App() {
     return (
         <>
             <Header />
+            <Navigator />
             <FinalSankey />
         </>
     );

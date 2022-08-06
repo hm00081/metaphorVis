@@ -16,13 +16,13 @@ import { basicData, targetaa, targetab, targetba, targetbb, targetca, targetcb, 
 import { SankeyData, SankeyLinkExtended, SankeyNodeExtended, SankeyLink } from './types';
 import { WordData } from './components/WordCloud/react-cloud/types/index';
 import { ButtonGroup } from '@mui/material';
-import { RepEBs, RepHs } from './data/AllPaperData';
 import useMediaQuery from '@mui/material/useMediaQuery';
-import { flushSync } from 'react-dom';
+import { D3ZoomEvent } from 'd3';
 
 const FinalSankeys = styled.div`
     margin-top: 50px;
     margin-bottom: auto;
+    // margin-left: 120px;
     // background-color: #eae2d4;
 `;
 
@@ -55,29 +55,6 @@ interface PaletteColor {
     contrastText?: string;
 }
 
-// const theme = createTheme({
-//     status: {
-//         danger: '#e53e3e',
-//     },
-//     palette: {
-//         primary: {
-//             main: '#0971f1',
-//             //@ts-ignore
-//             darker: '#053e85',
-//         },
-//         neutral: {
-//             main: '#64748B',
-//             contrastText: '#fff',
-//         },
-//         pink: {
-//             pink: '#db7093',
-//         },
-//     },
-//     pink: {
-//         pink: '#db7093',
-//     },
-// });
-
 // Component
 export default function FinalSankey() {
     const [ref, { width, height }] = useMeasure<HTMLDivElement>();
@@ -92,6 +69,20 @@ export default function FinalSankey() {
     const title = ['Paper', 'Target', 'Intermediation', 'Representation', 'Vis var&tech'];
     const columns = title.map((title) => title).filter((title, pos, arr) => arr.indexOf(title) === pos);
 
+    // var svg = d3
+    // .select('mainSankey')
+    // .append('div')
+    // .attr('width', 1000)
+    // .attr('height', 1000)
+    // .call(s
+    //     //@ts-ignore
+    //     d3.zoom().on('zoom', (event) => {
+    //         svg.attr('transform', () => event.transform);
+    //     })
+    // )
+    // .append('g')
+    // .attr('transform', ''); //zoomevent
+
     useEffect(() => {
         setTimeout(() => {
             setOriginData(fullData);
@@ -103,11 +94,9 @@ export default function FinalSankey() {
 
     return (
         <>
-            {/* <div className={'flex'}></div> */}
-            <FinalSankeys>
+            <div className="mainSankey">
                 <div className="container" ref={ref}>
                     <Menu>Target Theme</Menu>
-
                     <ButtonGroup
                         // orientation={`${matches ? 'horizontal' : 'verticcal'}`}
                         size="large"
@@ -313,27 +302,24 @@ export default function FinalSankey() {
                             </Button>
                         </ButtonGroup>
                     </SecButtonPos>
-                    {/* <>
-                        {columns.map((column, i) => (
-                            <Text>{column}</Text>
-                        ))}
-                    </> */}
-                    <div className="sankey">
-                        <Sankey
-                            width={width}
-                            height={height}
-                            originData={originData}
-                            paddingTop={4}
-                            nodeWidth={2}
-                            nodeHeight={1.5}
-                            nodeMargin={0.8}
-                            minLinkBreadth={0.1}
-                            maxLinkBreadth={2}
-                            setOriginData={setOriginData}
-                        />
-                    </div>
+                    <FinalSankeys>
+                        <div className="sankey">
+                            <Sankey
+                                width={width}
+                                height={height}
+                                originData={originData}
+                                paddingTop={4}
+                                nodeWidth={2}
+                                nodeHeight={1.5}
+                                nodeMargin={0.8}
+                                minLinkBreadth={0.1}
+                                maxLinkBreadth={2}
+                                setOriginData={setOriginData}
+                            />
+                        </div>
+                    </FinalSankeys>
                 </div>
-            </FinalSankeys>
+            </div>
         </>
     );
 }

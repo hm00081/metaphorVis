@@ -52,7 +52,7 @@ import { MLG06 } from './MLG06';
 import { FA20 } from './FA20';
 import { WHWS12 } from './WHWS12';
 import { FZC18 } from './FZC18';
-import { ASTC06 } from './ASTC06';
+import { ATSC06 } from './ATSC06';
 import { DJM12 } from './DJM12';
 import { SankeyLink, SankeyLinkExtended } from '../types';
 
@@ -130,7 +130,7 @@ const PaperString = [
     FA20.links,
     WHWS12.links,
     FZC18.links,
-    ASTC06.links,
+    ATSC06.links,
     DJM12.links,
 ];
 
@@ -191,7 +191,7 @@ const Papers = [
     ZLW13,
     WHWS12,
     FZC18,
-    ASTC06,
+    ATSC06,
     DJM12,
 ];
 
@@ -348,6 +348,8 @@ const AllPaperDatas = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<
     else allOnePaper.value += 0;
     return AllPaperDatas;
 }, []);
+// console.log(AllPaperDatas);
+// console.log('AllPaperDatas');
 
 //@ts-ignore
 const TargetAAs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<SankeyLinkExtended[]>((TargetAAs, onePaper) => {

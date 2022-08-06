@@ -119,14 +119,13 @@ export const calcSankeyNodes = (
             extendedNode.y = currYPos;
 
             // Temp for nicer view
-            if (node.type === 'Paper') extendedNode.y = currYPos + y0Pos * 7;
-            if (node.type === 'Paper') extendedNode.x = 0;
+
             if (node.type === 'Target' && node.subtype === '0') extendedNode.y = currYPos - 25;
             if (node.type === 'Target' && node.subtype === '1') extendedNode.y = currYPos - 10;
             if (node.type === 'Target' && node.subtype === '2') extendedNode.y = currYPos + 5;
             if (node.type === 'Target' && node.subtype === '3') extendedNode.y = currYPos + 20;
             if (node.type === 'Target' && node.subtype === '4') extendedNode.y = currYPos + 35;
-            if (node.type === 'Target') extendedNode.x = 500;
+            if (node.type === 'Target') extendedNode.x = columnXPos + 500;
             if (node.type === 'Intermediation' && node.subtype === '0') extendedNode.y = currYPos - 200;
             if (node.type === 'Intermediation' && node.subtype === '1') extendedNode.y = currYPos - 170;
             if (node.type === 'Intermediation' && node.subtype === '2') extendedNode.y = currYPos - 140;
@@ -141,6 +140,8 @@ export const calcSankeyNodes = (
             if (node.type === 'Vis var&tech' && node.subtype === '0') extendedNode.y = currYPos - 180;
             if (node.type === 'Vis var&tech' && node.subtype === '1') extendedNode.y = currYPos + 50;
             if (node.type === 'Vis var&tech') extendedNode.x = 2000;
+            if (node.type === 'Paper') extendedNode.y = currYPos + y0Pos * 7;
+            if (node.type === 'Paper') extendedNode.x = 0;
 
             // Filter Nodes with no output that or not end nodes
 

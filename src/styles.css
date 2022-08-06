@@ -1,15 +1,19 @@
+.mainSankey {
+    margin-left: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+}
+
 .container {
-    min-width: 80vw;
-    max-height: 105vh;
-    margin-left: 100px;
     /* display: flex; */
     /* margin-right: 100px; */
 }
 .container .sankey {
-    margin-left: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* margin-left: 2em; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 path.link {
