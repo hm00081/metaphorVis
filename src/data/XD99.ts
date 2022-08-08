@@ -182,7 +182,7 @@ const XD99: SankeyData = {
     ],
     status: [
         {
-            imgUrl: 'CaBMwKE.jpg',
+            imgUrl: '',
         },
     ],
 };

@@ -124,7 +124,7 @@ const MWSO08: SankeyData = {
 
     status: [
         {
-            imgUrl: 'ZplNAXx.jpg',
+            imgUrl: '',
         },
     ],
 };

@@ -176,7 +176,7 @@ const MA16: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '69BWuDV.png',
+            imgUrl: '',
         },
     ],
 };

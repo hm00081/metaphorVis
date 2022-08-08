@@ -392,7 +392,7 @@ const CAA20: SankeyData = {
 
     status: [
         {
-            imgUrl: 'DFBi3Mo.jpg',
+            imgUrl: '',
         },
     ],
 };

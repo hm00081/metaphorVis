@@ -217,7 +217,7 @@ const YCC20: SankeyData = {
     ],
     status: [
         {
-            imgUrl: 'RYq4EGR.jpg',
+            imgUrl: '',
         },
     ],
 };

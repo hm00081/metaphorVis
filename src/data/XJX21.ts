@@ -310,7 +310,7 @@ const XJX21: SankeyData = {
 
     status: [
         {
-            imgUrl: 'fv9Lvcx.jpg',
+            imgUrl: '',
         },
     ],
 };

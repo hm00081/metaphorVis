@@ -701,7 +701,7 @@ const KSBK15: SankeyData = {
     ],
     status: [
         {
-            imgUrl: 'AY0EaHs.png',
+            imgUrl: '',
         },
     ],
 };

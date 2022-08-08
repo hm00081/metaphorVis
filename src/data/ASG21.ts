@@ -169,7 +169,7 @@ const ASG21: SankeyData = {
 
     status: [
         {
-            imgUrl: 'JY2gfvN.jpg',
+            imgUrl: '',
         },
     ],
 };

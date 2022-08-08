@@ -273,7 +273,7 @@ const MDDD16: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '4teJby0.jpg',
+            imgUrl: '',
         },
     ],
 };

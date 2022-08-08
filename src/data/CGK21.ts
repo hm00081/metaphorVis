@@ -233,7 +233,7 @@ const CGK21: SankeyData = {
     ],
     status: [
         {
-            imgUrl: 'Q201xEJ.jpg',
+            imgUrl: '',
         },
     ],
 };

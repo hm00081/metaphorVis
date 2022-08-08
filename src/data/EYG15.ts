@@ -231,7 +231,7 @@ const EYG15: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '9p9Vu7Y.jpg',
+            imgUrl: '',
         },
     ],
 };

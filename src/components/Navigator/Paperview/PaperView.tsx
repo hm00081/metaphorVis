@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { SankeyData } from '../../../types/sankey';
 import { makeImagePath } from './api';
 import { useEffect } from 'react';
+import { fullData } from '../../../Data';
 
 const Slider = styled.div`
     position: relative;
@@ -31,16 +32,16 @@ const PaperBox = styled(motion.div)<{ bgPhoto: string }>`
     font-size: 66px;
     margin: 10px;
     cursor: pointer;
-    &:first-child {
-        transform-origin: center left;
-    }
-    &:last-child {
-        transform-origin: center right;
-    }
+    // &:first-child {
+    //     transform-origin: center left;
+    // }
+    // &:last-child {
+    //     transform-origin: center right;
+    // }
     // position: relative;
 `;
 
-export interface PaperProps {
+interface PaperProps {
     originData: SankeyData;
     setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
 }
@@ -57,29 +58,15 @@ const rowVariants = {
     },
 };
 
-const paperVariants = {
-    normal: {
-        scale: 1,
-    },
-    hover: {
-        scale: 1.3,
-        y: -80,
-        transition: {
-            delay: 0.5,
-            duaration: 0.1,
-            type: 'tween',
-        },
-    },
-};
+const offset = 60;
 
-const offset = 100;
-
-export const PaperView = ({ originData, setOriginData }: PaperProps) => {
+export const PaperView = () => {
+    const [originData, setOriginData] = useState<SankeyData>(fullData);
     const [index, setIndex] = useState(0);
     const renderingData: SankeyData = { ...originData };
-    console.log(renderingData);
+
     useEffect(() => {
-        console.log(originData);
+        console.log(renderingData);
     }, [setOriginData]);
 
     renderingData.links = renderingData.links.map((links) => {
@@ -92,12 +79,11 @@ export const PaperView = ({ originData, setOriginData }: PaperProps) => {
                     .slice(0)
                     .slice(offset * index, offset * index + offset)
                     .map((paper) => (
-                        <PaperBox layoutId={paper.imgUrl + ''} key={paper.imgUrl} initial="normal" transition={{ type: 'tween' }} bgPhoto={(makeImagePath(), 'w60')}>
-                            {paper.imgUrl ? <img width="111" height="111" src={`https://i.imgur.com/${paper.imgUrl}`} /> : null}
+                        <PaperBox layoutId={paper.imgUrl + ''} key={paper.imgUrl} initial="normal" transition={{ type: 'tween' }} bgPhoto={'w60'}>
+                            {paper.imgUrl ? <img width="111" height="111" src={`https://i.imgur.com/${paper.imgUrl}`}></img> : null}
                         </PaperBox>
                     ))}
             </Row>
-            <div>test: hello</div>
         </>
     );
 };

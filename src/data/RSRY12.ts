@@ -127,7 +127,7 @@ const RSRY12: SankeyData = {
 
     status: [
         {
-            imgUrl: 'ivVW2HN.png',
+            imgUrl: '',
         },
     ],
 };

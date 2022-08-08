@@ -119,6 +119,7 @@ const fullData: SankeyData = {
 
     positionStatus: 'init',
 };
+// console.log(fullData);
 
 const basicData: SankeyData = {
     nodes: PaperNode.nodes.map((node) => {

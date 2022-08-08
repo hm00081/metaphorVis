@@ -102,7 +102,7 @@ const SRJ13: SankeyData = {
 
     status: [
         {
-            imgUrl: 'kgWl7nV.png',
+            imgUrl: '',
         },
     ],
 };

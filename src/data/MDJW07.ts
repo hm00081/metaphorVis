@@ -308,7 +308,7 @@ const MDJW07: SankeyData = {
     ],
     status: [
         {
-            imgUrl: 'E21AFdm.jpg',
+            imgUrl: '',
         },
     ],
 };

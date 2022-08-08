@@ -91,7 +91,7 @@ const DMC09: SankeyData = {
     ],
     status: [
         {
-            imgUrl: 'KTkfwLw.png',
+            imgUrl: '',
         },
     ],
 };

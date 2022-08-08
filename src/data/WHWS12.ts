@@ -539,7 +539,7 @@ const WHWS12: SankeyData = {
     ],
     status: [
         {
-            imgUrl: 'sp1TtaX.jpg',
+            imgUrl: '',
         },
     ],
 };

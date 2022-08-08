@@ -120,7 +120,7 @@ const BN11B: SankeyData = {
 
     status: [
         {
-            imgUrl: 'PfZa19T.jpg',
+            imgUrl: '',
         },
     ],
 };

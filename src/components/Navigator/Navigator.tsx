@@ -16,17 +16,12 @@ const BigNav = styled.div`
     overflow-y: auto;
 `;
 
-interface PaperProps {
-    originData: SankeyData;
-    setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
-}
-
 function Navigator() {
     return (
         <>
             <BigNav>
                 <Network />
-                {/* <PaperView /> */}
+                <PaperView />
             </BigNav>
         </>
     );

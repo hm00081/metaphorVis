@@ -266,7 +266,7 @@ const SCS16: SankeyData = {
     ],
     status: [
         {
-            imgUrl: 'ELyzRJL.jpg',
+            imgUrl: '',
         },
     ],
 };

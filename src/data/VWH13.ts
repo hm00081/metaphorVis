@@ -344,7 +344,7 @@ const VWH13: SankeyData = {
     ],
     status: [
         {
-            imgUrl: 'TO07ZUT.jpg',
+            imgUrl: '',
         },
     ],
 };

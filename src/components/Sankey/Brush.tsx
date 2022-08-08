@@ -155,44 +155,12 @@ const Brush = (props: IBrushProps) => {
             .call(xAxis, scales.xScale, 50);
     }, [props]);
 
-    // const memoizedUpdateCallback = useCallback(() => {
-    //     d3.selectAll('#x-axis-brush').selectAll('*').remove();
-    //     d3.selectAll('#brush-path').selectAll('*').remove();
-    // }, []);
-
-    // useEffect(() => {
-    //     if (!loaded) {
-    //         setLoaded(true);
-    //         memoizedDrawCallback();
-    //     }
-    // }, [loaded, memoizedDrawCallback]);
-
-    // useEffect(() => {
-    //     const isNewHeight = prevHeight !== props.dimensions.height;
-    //     const isNewWidth = prevWidth !== props.dimensions.width;
-    //     if (isNewHeight || isNewWidth) {
-    //         setPrevWidth(props.dimensions.height);
-    //         setPrevHeight(props.dimensions.width);
-    //         memoizedUpdateCallback();
-    //         memoizedDrawCallback();
-    //     }
-    // }, [memoizedDrawCallback, memoizedUpdateCallback, prevHeight, prevWidth, props.dimensions.height, props.dimensions.width]);
-
     return (
         <svg>
             <g>
                 <g ref="brush" />
             </g>
         </svg>
-        // <div id="div">
-        //     <svg id="brush-wrapper" width={props.dimensions.width} height={props.dimensions.height} style={{ display: 'block' }}>
-        //         <g id="brush-bounds" style={{ transform: `translate(${props.dimensions.margin.left}px, ${props.dimensions.margin.top}px)` }}>
-        //             {/* <path id="brush-path" /> */}
-        //             {/* <g id="x-axis-brush" /> */}
-        //             <g id="group-brush" />
-        //         </g>
-        //     </svg>
-        // </div>
     );
 };
 

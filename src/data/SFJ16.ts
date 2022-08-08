@@ -210,7 +210,7 @@ const SFJ16: SankeyData = {
     ],
     status: [
         {
-            imgUrl: 'e3PRKTM.jpg',
+            imgUrl: '',
         },
     ],
 };

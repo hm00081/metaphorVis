@@ -147,7 +147,7 @@ const HYZ13: SankeyData = {
     ],
     status: [
         {
-            imgUrl: 'TIajUJa.jpg',
+            imgUrl: '',
         },
     ],
 };

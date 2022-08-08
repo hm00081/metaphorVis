@@ -309,7 +309,7 @@ const ATSC06: SankeyData = {
 
     status: [
         {
-            imgUrl: '1mwkKcH.jpg',
+            imgUrl: '',
         },
     ],
 };

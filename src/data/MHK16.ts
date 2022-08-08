@@ -119,7 +119,7 @@ const MHK16: SankeyData = {
     ],
     status: [
         {
-            imgUrl: 'Ak8KSur.jpg',
+            imgUrl: '',
         },
     ],
 };

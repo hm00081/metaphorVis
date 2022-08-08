@@ -238,7 +238,7 @@ const MVM17: SankeyData = {
     ],
     status: [
         {
-            imgUrl: 'U35x588.png',
+            imgUrl: '',
         },
     ],
 };

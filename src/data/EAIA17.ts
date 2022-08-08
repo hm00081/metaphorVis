@@ -189,7 +189,7 @@ const EAIA17: SankeyData = {
     ],
     status: [
         {
-            imgUrl: 'TFuj7MS.jpg',
+            imgUrl: '',
         },
     ],
 };

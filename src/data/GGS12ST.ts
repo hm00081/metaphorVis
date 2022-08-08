@@ -109,7 +109,7 @@ const GGS12ST: SankeyData = {
     ],
     status: [
         {
-            imgUrl: 'HV2lNkC.png',
+            imgUrl: '',
         },
     ],
 };

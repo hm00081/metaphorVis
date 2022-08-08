@@ -140,7 +140,7 @@ const XWL17: SankeyData = {
     ],
     status: [
         {
-            imgUrl: 'VqSzaXU.jpg',
+            imgUrl: '',
         },
     ],
 };

@@ -169,7 +169,7 @@ const PC15PV: SankeyData = {
     ],
     status: [
         {
-            imgUrl: 'AEd0LAv.jpg',
+            imgUrl: '',
         },
     ],
 };

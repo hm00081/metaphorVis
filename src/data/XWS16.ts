@@ -267,7 +267,7 @@ const XWS16: SankeyData = {
 
     status: [
         {
-            imgUrl: 'xn5MqwV.jpg',
+            imgUrl: '',
         },
     ],
 };

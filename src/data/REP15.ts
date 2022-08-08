@@ -119,7 +119,7 @@ const REP15: SankeyData = {
     ],
     status: [
         {
-            imgUrl: 'y8mGv81.jpg',
+            imgUrl: '',
         },
     ],
 };

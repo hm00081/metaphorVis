@@ -100,8 +100,7 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
     // const [ref, { width, height }] = useMeasure<HTMLDivElement>();
     const [nodes, setNodes] = useState<SankeyNodeExtended[]>([]);
     const [links, setLinks] = useState<SankeyLinkExtended[]>([]);
-    // const [link, setLink] = useState<SankeyLinkExtended>([]);
-    // const [columns, setColumns] = useState<SankeyNodeExtended[]>([]);
+
     const [sourceTargetIdLinksDict, setSourceTargetIdLinksDict] = useState<SourceTargetIdLinksDict>({});
     const [transform, setTransform] = useState<d3.ZoomTransform | null>(null);
 

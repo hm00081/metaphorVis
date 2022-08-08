@@ -308,7 +308,7 @@ const CSL12: SankeyData = {
     ],
     status: [
         {
-            imgUrl: 'a3kehFc.jpg',
+            imgUrl: '',
         },
     ],
 };

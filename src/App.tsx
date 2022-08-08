@@ -8,8 +8,9 @@ import Navigator from './components/Navigator/Navigator';
 import styled from 'styled-components';
 import ThemeProvider from 'styled-components';
 import './styles.scss';
-import { SankeyData } from './types';
 // import { useQuery} from 'react-query';
+import { SankeyData } from './types';
+import { PaperView } from '../src/components/Navigator/Paperview/PaperView';
 
 // //@ts-ignore
 // const draw = <withStyles />;
@@ -25,10 +26,13 @@ import { SankeyData } from './types';
 //     margin-top: -150px;
 // `;
 
+interface PaperProps {
+    originData: SankeyData;
+    setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
+}
+
 // viewProt 수정 필요
 function App() {
-    //@ts-ignore
-
     return (
         <div className="App">
             <Header />

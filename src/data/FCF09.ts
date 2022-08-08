@@ -228,14 +228,14 @@ const FCF09: SankeyData = {
 
     status: [
         {
-            imgUrl: 'FfzA9S4.png',
+            imgUrl: '',
         },
     ],
 };
 
 FCF09.links.forEach((link, index) => {
     link.paperName = 'FCF09';
-    link.imgUrl = 'FfzA9S4.jpg';
+    link.imgUrl = 'FfzA9S4.png';
     link.id = `FCF09-${index}`;
 });
 
