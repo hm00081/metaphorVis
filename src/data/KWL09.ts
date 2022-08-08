@@ -84,7 +84,8 @@ const KWL09: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'KWL09',
+            imgUrl: 'ukgueox.jpg',
         },
     ],
 };

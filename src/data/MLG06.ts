@@ -140,7 +140,8 @@ const MLG06: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'MLG06',
+            imgUrl: 'qXOBST8.jpg',
         },
     ],
 };

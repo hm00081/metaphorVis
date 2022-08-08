@@ -147,7 +147,8 @@ const GGS12MT: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'GGS12MT',
+            imgUrl: 'wVHfoIB.png',
         },
     ],
 };

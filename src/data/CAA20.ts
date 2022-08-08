@@ -233,13 +233,15 @@ const CAA20: SankeyData = {
 
     status: [
         {
-            imgUrl: '',
+            paperName: 'CAA20',
+            imgUrl: 'DFBi3Mo.jpg',
         },
     ],
 };
 
 CAA20.links.forEach((link, index) => {
     link.paperName = 'CAA20';
+    link.category = 'RepB';
     link.imgUrl = 'DFBi3Mo.jpg';
     link.id = `CAA20-${index}`;
 });

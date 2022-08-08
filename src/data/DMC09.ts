@@ -91,7 +91,8 @@ const DMC09: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'DMC09',
+            imgUrl: 'KTkfwLw.png',
         },
     ],
 };

@@ -231,7 +231,8 @@ const YSK14: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'YSK14',
+            imgUrl: 'sBwMjs9.png',
         },
     ],
 };

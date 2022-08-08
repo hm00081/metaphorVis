@@ -231,6 +231,7 @@ const JTM11: SankeyData = {
     ],
     status: [
         {
+            paperName: 'JTM11',
             imgUrl: 'AqAwugG.png',
         },
     ],

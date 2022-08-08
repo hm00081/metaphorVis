@@ -238,7 +238,8 @@ const MVM17: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'MVM17',
+            imgUrl: 'U35x588.png',
         },
     ],
 };

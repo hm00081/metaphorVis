@@ -308,7 +308,8 @@ const MDJW07: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'MDJW07',
+            imgUrl: 'E21AFdm.jpg',
         },
     ],
 };

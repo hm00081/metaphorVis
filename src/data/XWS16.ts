@@ -267,7 +267,8 @@ const XWS16: SankeyData = {
 
     status: [
         {
-            imgUrl: '',
+            paperName: 'XWS16',
+            imgUrl: 'xn5MqwV.jpg',
         },
     ],
 };

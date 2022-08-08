@@ -102,7 +102,8 @@ const SRJ13: SankeyData = {
 
     status: [
         {
-            imgUrl: '',
+            paperName: 'SRJ13',
+            imgUrl: 'kgWl7nV.png',
         },
     ],
 };

@@ -238,7 +238,8 @@ const CSL16: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'CSL16',
+            imgUrl: 'mt871Nx.png',
         },
     ],
 };

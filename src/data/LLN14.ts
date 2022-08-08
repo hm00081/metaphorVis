@@ -204,7 +204,8 @@ const LLN14: SankeyData = {
 
     status: [
         {
-            imgUrl: '',
+            paperName: 'LLN14',
+            imgUrl: 'xWQU5gc.jpg',
         },
     ],
 };

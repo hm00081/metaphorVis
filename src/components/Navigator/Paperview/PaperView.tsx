@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { SankeyData } from '../../../types/sankey';
 import { makeImagePath } from './api';
 import { useEffect } from 'react';
+import { statusImgSet } from '../../../data/AllPaperData';
 import { fullData } from '../../../Data';
 
 const Slider = styled.div`
@@ -58,7 +59,7 @@ const rowVariants = {
     },
 };
 
-const offset = 100;
+const offset = 60;
 
 export const PaperView = () => {
     const [originData, setOriginData] = useState<SankeyData>(fullData);
@@ -74,17 +75,25 @@ export const PaperView = () => {
     });
     return (
         <>
-            {/* <Row variants={rowVariants} initial="initial" animate="visible" exit="exit" transition={{ type: 'tween', duration: 1 }} key={index}>
-                {renderingData.links
-                    .slice(2)
+            <Row variants={rowVariants} initial="initial" animate="visible" exit="exit" transition={{ type: 'tween', duration: 1 }} key={index}>
+                {renderingData.status
+                    .slice(0)
                     .slice(offset * index, offset * index + offset)
                     .map((paper) => (
                         <PaperBox layoutId={paper.imgUrl + 'layout'} key={paper.imgUrl} initial="normal" transition={{ type: 'tween' }} bgPhoto={'w60'}>
                             {paper.imgUrl ? <img width="111" height="111" src={`https://i.imgur.com/${paper.imgUrl}`}></img> : null}
                         </PaperBox>
                     ))}
+                {/* {statusImgSet
+                    .slice(0)
+                    .slice(offset * index, offset * index + offset)
+                    .map((paper) => (
+                        <PaperBox layoutId={paper.imgUrl + 'layout'} key={paper.imgUrl} initial="normal" transition={{ type: 'tween' }} bgPhoto={'w60'}>
+                            {paper.imgUrl ? <img width="111" height="111" src={`https://i.imgur.com/${paper.imgUrl}`}></img> : null}
+                        </PaperBox>
+                    ))} */}
             </Row>
-             */}
+
             <div>hi</div>
         </>
     );

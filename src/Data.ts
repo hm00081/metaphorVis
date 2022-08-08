@@ -15,7 +15,26 @@ import { SankeyLink, SankeyStatus, SankeyLinkExtended } from '../src/types';
 // Data
 import { PaperNode } from './data/PaperNode';
 import { Node, Papers, Status } from './data/AllPaperData';
-import { AllPaperDatas, TargetAAs, TargetABs, TargetBAs, TargetBBs, TargetCAs, TargetCBs, RepAs, RepBs, RepCs, RepDs, RepEAs, RepEBs, RepFs, RepGs, RepHs, Emptys } from './data/AllPaperData';
+import {
+    statusImgSet,
+    AllPaperDatas,
+    TargetAAs,
+    TargetABs,
+    TargetBAs,
+    TargetBBs,
+    TargetCAs,
+    TargetCBs,
+    RepAs,
+    RepBs,
+    RepCs,
+    RepDs,
+    RepEAs,
+    RepEBs,
+    RepFs,
+    RepGs,
+    RepHs,
+    Emptys,
+} from './data/AllPaperData';
 
 //@ts-ignore
 const LinkData = [AllPaperDatas, TargetAAs, TargetABs, TargetBAs, TargetBBs, TargetCAs, RepAs, RepBs, RepCs, RepDs, RepEAs, RepEBs, RepFs, Emptys];
@@ -115,7 +134,7 @@ const fullData: SankeyData = {
     }), // 나중에 수정
 
     //@ts-ignore
-    status: Status[0],
+    status: statusImgSet,
 
     positionStatus: 'init',
 };
@@ -153,7 +172,7 @@ const basicData: SankeyData = {
     }), // 나중에 수정
 
     //@ts-ignore
-    status: Status[0],
+    status: statusImgSet,
 
     positionStatus: 'init',
 };
@@ -254,7 +273,7 @@ const targetaa: SankeyData = {
         }
     }),
     //@ts-ignore
-    status: Status[1],
+    status: statusImgSet,
 
     positionStatus: 'init',
 };
@@ -354,7 +373,7 @@ const targetab: SankeyData = {
         }
     }),
     //@ts-ignore
-    status: Status[2],
+    status: statusImgSet,
     positionStatus: 'init',
 };
 
@@ -453,7 +472,7 @@ const targetba: SankeyData = {
         }
     }),
     //@ts-ignore
-    status: Status[3],
+    status: statusImgSet,
     positionStatus: 'init',
 };
 
@@ -552,7 +571,7 @@ const targetbb: SankeyData = {
         }
     }),
     //@ts-ignore
-    status: Status[4],
+    status: statusImgSet,
     positionStatus: 'init',
 };
 
@@ -651,7 +670,7 @@ const targetca: SankeyData = {
         }
     }),
     //@ts-ignore
-    status: Status[5],
+    status: statusImgSet,
     positionStatus: 'init',
 };
 
@@ -750,7 +769,7 @@ const targetcb: SankeyData = {
         }
     }),
     //@ts-ignore
-    status: Status[5],
+    status: statusImgSet,
     positionStatus: 'init',
 };
 
@@ -858,7 +877,7 @@ const repa: SankeyData = {
         }
     }),
     //@ts-ignore
-    status: Status[6],
+    status: statusImgSet,
 
     positionStatus: 'init',
 };
@@ -976,7 +995,7 @@ const repb: SankeyData = {
     }),
 
     //@ts-ignore
-    status: Status[7],
+    status: statusImgSet,
 
     positionStatus: 'init',
 };
@@ -1085,7 +1104,7 @@ const repc: SankeyData = {
         }
     }),
     //@ts-ignore
-    status: Status[6],
+    status: statusImgSet,
 
     positionStatus: 'init',
 };
@@ -1194,7 +1213,7 @@ const repd: SankeyData = {
         }
     }),
     //@ts-ignore
-    status: Status[6],
+    status: statusImgSet,
 
     positionStatus: 'init',
 };
@@ -1303,7 +1322,7 @@ const repea: SankeyData = {
         }
     }),
     //@ts-ignore
-    status: Status[6],
+    status: statusImgSet,
 
     positionStatus: 'init',
 };
@@ -1412,7 +1431,7 @@ const repeb: SankeyData = {
         }
     }),
     //@ts-ignore
-    status: Status[6],
+    status: statusImgSet,
 
     positionStatus: 'init',
 };
@@ -1512,7 +1531,7 @@ const repf: SankeyData = {
         }
     }),
     //@ts-ignore
-    status: Status[6],
+    status: statusImgSet,
 
     positionStatus: 'init',
 };
@@ -1621,7 +1640,7 @@ const repg: SankeyData = {
         }
     }),
     //@ts-ignore
-    status: Status[6],
+    status: statusImgSet,
 
     positionStatus: 'init',
 };
@@ -1730,7 +1749,7 @@ const reph: SankeyData = {
         }
     }),
     //@ts-ignore
-    status: Status[6],
+    status: statusImgSet,
 
     positionStatus: 'init',
 };
@@ -1745,7 +1764,7 @@ const empty = {
     }),
     links: LinkData[13],
     //@ts-ignore
-    status: Status[13],
+    status: statusImgSet,
 };
 
 export { basicData, targetaa, targetab, targetba, targetbb, targetca, targetcb, repa, repb, repc, repd, repea, repeb, repf, repg, reph, empty, fullData };

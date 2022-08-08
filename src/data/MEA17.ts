@@ -261,7 +261,8 @@ const MEA17: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'MEA17',
+            imgUrl: 'ce97Hw7.jpg',
         },
     ],
 };

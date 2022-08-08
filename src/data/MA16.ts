@@ -176,7 +176,8 @@ const MA16: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'MA16',
+            imgUrl: '69BWuDV.png',
         },
     ],
 };

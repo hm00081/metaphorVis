@@ -74,7 +74,8 @@ const ZLW13: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'ZLW13',
+            imgUrl: 'KvCmzam.png',
         },
     ],
 };

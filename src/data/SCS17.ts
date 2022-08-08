@@ -266,7 +266,8 @@ const SCS17: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'SCS17',
+            imgUrl: 'h29usSh.jpg',
         },
     ],
 };

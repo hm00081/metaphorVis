@@ -309,7 +309,8 @@ const ATSC06: SankeyData = {
 
     status: [
         {
-            imgUrl: '',
+            paperName: 'ATSC06',
+            imgUrl: '1mwkKcH.jpg',
         },
     ],
 };

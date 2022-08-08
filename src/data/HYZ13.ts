@@ -147,7 +147,8 @@ const HYZ13: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'HYZ13',
+            imgUrl: 'TIajUJa.jpg',
         },
     ],
 };

@@ -189,7 +189,8 @@ const EAIA17: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'EAIA17',
+            imgUrl: 'TFuj7MS.jpg',
         },
     ],
 };

@@ -178,7 +178,8 @@ const ZGWZ14: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'ZGWZ14',
+            imgUrl: 'R9fi5QW.png',
         },
     ],
 };

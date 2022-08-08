@@ -225,7 +225,8 @@ const JSM16: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'JSM16',
+            imgUrl: 'n4jwcKO.jpg',
         },
     ],
 };

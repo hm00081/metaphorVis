@@ -273,7 +273,8 @@ const MDD10: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'MDD10',
+            imgUrl: 'AA3ZOvl.png',
         },
     ],
 };

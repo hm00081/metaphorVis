@@ -270,7 +270,8 @@ const JX17: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'JX17',
+            imgUrl: 'dbYhmdg.jpg',
         },
     ],
 };

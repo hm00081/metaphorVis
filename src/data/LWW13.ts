@@ -225,7 +225,8 @@ const LWW13: SankeyData = {
 
     status: [
         {
-            imgUrl: '',
+            paperName: 'LWW13',
+            imgUrl: 'iaVFFGl.jpg',
         },
     ],
 };

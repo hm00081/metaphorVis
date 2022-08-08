@@ -228,7 +228,8 @@ const FCF09: SankeyData = {
 
     status: [
         {
-            imgUrl: '',
+            paperName: 'FCF09',
+            imgUrl: 'FfzA9S4.png',
         },
     ],
 };

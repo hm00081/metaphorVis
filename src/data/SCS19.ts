@@ -357,7 +357,8 @@ const SCS19: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'SCS19',
+            imgUrl: 'kl0Dozw.jpg',
         },
     ],
 };

@@ -274,7 +274,8 @@ const MEV16: SankeyData = {
 
     status: [
         {
-            imgUrl: '',
+            paperName: 'MEV16',
+            imgUrl: 'FpTZ8Nt.jpg',
         },
     ],
 };

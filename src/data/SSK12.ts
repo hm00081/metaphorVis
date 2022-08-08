@@ -154,7 +154,8 @@ const SSK12: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'SSK12',
+            imgUrl: 'chAdr4B.png',
         },
     ],
 };

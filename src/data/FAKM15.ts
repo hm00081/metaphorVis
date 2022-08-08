@@ -147,7 +147,8 @@ const FAKM15: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'FAKM15',
+            imgUrl: 'u2sWSNe.jpg',
         },
     ],
 };

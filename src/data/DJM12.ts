@@ -281,7 +281,8 @@ const DJM12: SankeyData = {
 
     status: [
         {
-            imgUrl: '',
+            paperName: 'DJM12',
+            imgUrl: 'nNNbNas.jpg',
         },
     ],
 };

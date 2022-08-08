@@ -217,7 +217,8 @@ const YFS10: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'YFS10',
+            imgUrl: 'A14dGOk.png',
         },
     ],
 };

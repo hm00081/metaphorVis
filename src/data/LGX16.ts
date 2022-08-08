@@ -226,7 +226,8 @@ const LGX16: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'LGX16',
+            imgUrl: 'WcypLMa.png',
         },
     ],
 };

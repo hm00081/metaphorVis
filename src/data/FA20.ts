@@ -162,7 +162,8 @@ const FA20: SankeyData = {
 
     status: [
         {
-            imgUrl: '',
+            paperName: 'FA20',
+            imgUrl: '2VPQbry.jpg',
         },
     ],
 };

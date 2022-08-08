@@ -140,7 +140,8 @@ const XWL17: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'XWL17',
+            imgUrl: 'VqSzaXU.jpg',
         },
     ],
 };

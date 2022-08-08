@@ -266,7 +266,8 @@ const RRR19: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'RRR19',
+            imgUrl: 'yya8s2u.png',
         },
     ],
 };

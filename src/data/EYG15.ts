@@ -231,7 +231,8 @@ const EYG15: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'EYG15',
+            imgUrl: '9p9Vu7Y.jpg',
         },
     ],
 };

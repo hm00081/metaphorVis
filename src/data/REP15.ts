@@ -119,7 +119,8 @@ const REP15: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'REP15',
+            imgUrl: 'y8mGv81.jpg',
         },
     ],
 };

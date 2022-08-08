@@ -336,7 +336,8 @@ const GYS14: SankeyData = {
     ],
     status: [
         {
-            imgUrl: '',
+            paperName: 'GYS14',
+            imgUrl: 'r9tEkOr.jpg',
         },
     ],
 };

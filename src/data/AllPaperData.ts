@@ -779,7 +779,42 @@ const RepHs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<SankeyLi
 }, []);
 
 //@ts-ignore
+// const statusImgSet = ([].concat.apply([], PaperStatus) as SankeyStatus[]).reduce<SankeyStatus[]>((statusImgSet, Paper) => {
+//     //@ts-ignore
+//     const statusImg = statusImgSet.find(
+//         (r) => r;
+//     )
+// })
+
+const statusImgSet = PaperStatus.reduce(function (acc, cur) {
+    return acc.concat(cur);
+});
+
+//@ts-ignore
 const Node = CAA20.nodes;
 // const LinkData = [AllPaperDatas, TargetAAs, TargetABs, TargetBAs, TargetBBs, TargetCAs, RepAs, RepBs, RepCs, RepDs, RepEAs, RepEBs, RepFs, Emptys];
 
-export { Status, Node, Papers, AllPaperDatas, TargetAAs, TargetABs, TargetBAs, TargetBBs, TargetCAs, TargetCBs, RepAs, RepBs, RepCs, RepDs, RepEAs, RepEBs, RepFs, RepGs, RepHs, Emptys };
+export {
+    Status,
+    Node,
+    Papers,
+    PaperStatus,
+    statusImgSet,
+    AllPaperDatas,
+    TargetAAs,
+    TargetABs,
+    TargetBAs,
+    TargetBBs,
+    TargetCAs,
+    TargetCBs,
+    RepAs,
+    RepBs,
+    RepCs,
+    RepDs,
+    RepEAs,
+    RepEBs,
+    RepFs,
+    RepGs,
+    RepHs,
+    Emptys,
+};

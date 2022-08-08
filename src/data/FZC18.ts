@@ -255,7 +255,8 @@ const FZC18: SankeyData = {
 
     status: [
         {
-            imgUrl: '',
+            paperName: 'FZC18',
+            imgUrl: 'zz8t6eU.jpg',
         },
     ],
 };

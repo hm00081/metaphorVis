@@ -127,7 +127,8 @@ const RSRY12: SankeyData = {
 
     status: [
         {
-            imgUrl: '',
+            paperName: 'RSRY12',
+            imgUrl: 'ivVW2HN.png',
         },
     ],
 };
