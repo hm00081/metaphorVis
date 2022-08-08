@@ -217,19 +217,14 @@ const YFS10: SankeyData = {
     ],
     status: [
         {
-            status: 'TargetBB',
-        },
-        {
-            status: 'RepEA',
-        },
-        {
-            status: 'RepF',
+            imgUrl: 'A14dGOk.png',
         },
     ],
 };
 
 YFS10.links.forEach((link, index) => {
     link.paperName = 'YFS10';
+    link.imgUrl = 'A14dGOk.png';
     link.id = `YFS10-${index}`;
 });
 

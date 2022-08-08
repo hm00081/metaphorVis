@@ -217,13 +217,14 @@ const YCC20: SankeyData = {
     ],
     status: [
         {
-            status: 0,
+            imgUrl: 'RYq4EGR.jpg',
         },
     ],
 };
 
 YCC20.links.forEach((link, index) => {
     link.paperName = 'YCC20';
+    link.imgUrl = 'RYq4EGR.jpg';
     link.id = `YCC20-${index}`;
 });
 

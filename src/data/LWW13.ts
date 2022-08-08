@@ -225,16 +225,14 @@ const LWW13: SankeyData = {
 
     status: [
         {
-            status: 'TargetAB',
-        },
-        {
-            status: 'RepC',
+            imgUrl: 'iaVFFGl.jpg',
         },
     ],
 };
 
 LWW13.links.forEach((link, index) => {
     link.paperName = 'LWW13';
+    link.imgUrl = 'iaVFFGl.jpg';
     link.id = `LWW13-${index}`;
 });
 

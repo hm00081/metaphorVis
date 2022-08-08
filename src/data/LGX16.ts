@@ -226,19 +226,14 @@ const LGX16: SankeyData = {
     ],
     status: [
         {
-            status: 'TargetBB',
-        },
-        {
-            status: 'RepD',
-        },
-        {
-            status: 'RepEA',
+            imgUrl: 'WcypLMa.png',
         },
     ],
 };
 
 LGX16.links.forEach((link, index) => {
     link.paperName = 'LGX16';
+    link.imgUrl = 'WcypLMa.png';
     link.id = `LGX16-${index}`;
 });
 

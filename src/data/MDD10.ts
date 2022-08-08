@@ -273,13 +273,7 @@ const MDD10: SankeyData = {
     ],
     status: [
         {
-            status: 'TargetCA',
-        },
-        {
-            status: 'RepB',
-        },
-        {
-            status: 'RepF',
+            imgUrl: 'AA3ZOvl.png',
         },
     ],
 };
@@ -287,6 +281,7 @@ const MDD10: SankeyData = {
 MDD10.links.map((link, index) => {
     link.paperName = 'MDD10';
     link.category = 'RepB';
+    link.imgUrl = 'AA3ZOvl.png';
     link.id = `MDD10-${index}`;
 });
 

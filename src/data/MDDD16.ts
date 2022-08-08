@@ -273,7 +273,7 @@ const MDDD16: SankeyData = {
     ],
     status: [
         {
-            status: 'none',
+            imgUrl: '4teJby0.jpg',
         },
     ],
 };
@@ -281,6 +281,7 @@ const MDDD16: SankeyData = {
 MDDD16.links.map((link, index) => {
     link.paperName = 'MDDD16';
     link.category = 'RepB';
+    link.imgUrl = '4teJby0.jpg';
     link.id = `MDDD16-${index}`;
 });
 

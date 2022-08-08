@@ -255,13 +255,14 @@ const FZC18: SankeyData = {
 
     status: [
         {
-            status: 'none',
+            imgUrl: 'zz8t6eU.jpg',
         },
     ],
 };
 
 FZC18.links.forEach((link, index) => {
     link.paperName = 'FZC18';
+    link.imgUrl = 'zz8t6eU.jpg';
     link.id = `FZC18-${index}`;
 });
 

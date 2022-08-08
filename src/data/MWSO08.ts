@@ -124,13 +124,14 @@ const MWSO08: SankeyData = {
 
     status: [
         {
-            status: 0,
+            imgUrl: 'ZplNAXx.jpg',
         },
     ],
 };
 
 MWSO08.links.forEach((link, index) => {
     link.paperName = 'MWSO08';
+    link.imgUrl = 'ZplNAXx.jpg';
     link.id = `MWSO08-${index}`;
 });
 

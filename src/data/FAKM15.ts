@@ -147,16 +147,14 @@ const FAKM15: SankeyData = {
     ],
     status: [
         {
-            status: 'TargetCA',
-        },
-        {
-            status: 'RepF',
+            imgUrl: 'u2sWSNe.jpg',
         },
     ],
 };
 
 FAKM15.links.forEach((link, index) => {
     link.paperName = 'FAKM15';
+    link.imgUrl = 'u2sWSNe.jpg';
     link.id = `FAKM15-${index}`;
 });
 

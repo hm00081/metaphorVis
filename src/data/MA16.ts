@@ -176,13 +176,14 @@ const MA16: SankeyData = {
     ],
     status: [
         {
-            status: 'TargetCA',
+            imgUrl: '69BWuDV.png',
         },
     ],
 };
 
 MA16.links.forEach((link, index) => {
     link.paperName = 'MA16';
+    link.imgUrl = '69BWuDV.png';
     link.id = `MA16-${index}`;
 });
 

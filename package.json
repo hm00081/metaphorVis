@@ -92,10 +92,13 @@
         ]
     },
     "devDependencies": {
+        "@svgr/webpack": "^6.3.1",
         "@types/d3": "^7.4.0",
         "@types/react-query": "^1.2.9",
         "@types/rebass": "^4.0.10",
         "@types/styled-components": "^5.1.21",
+        "@types/webpack-env": "^1.17.0",
+        "file-loader": "^6.2.0",
         "gh-pages": "^4.0.0",
         "react-scripts": "^5.0.1",
         "sass": "^1.49.11",

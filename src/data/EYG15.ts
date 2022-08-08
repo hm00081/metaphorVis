@@ -231,13 +231,14 @@ const EYG15: SankeyData = {
     ],
     status: [
         {
-            status: 'RepA',
+            imgUrl: '9p9Vu7Y.jpg',
         },
     ],
 };
 
 EYG15.links.forEach((link, index) => {
     link.paperName = 'EYG15';
+    link.imgUrl = '9p9Vu7Y.jpg';
     link.id = `EYG15-${index}`;
 });
 

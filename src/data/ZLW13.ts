@@ -74,13 +74,14 @@ const ZLW13: SankeyData = {
     ],
     status: [
         {
-            status: 'TargetCA',
+            imgUrl: 'KvCmzam.png',
         },
     ],
 };
 
 ZLW13.links.forEach((link, index) => {
     link.paperName = 'ZLW13';
+    link.imgUrl = 'KvCmzam.png';
     link.id = `ZLW13-${index}`;
 });
 

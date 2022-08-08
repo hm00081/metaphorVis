@@ -120,13 +120,7 @@ const BN11B: SankeyData = {
 
     status: [
         {
-            status: 'TargetAA',
-        },
-        {
-            status: 'RepB',
-        },
-        {
-            status: 'RepEB',
+            imgUrl: 'PfZa19T.jpg',
         },
     ],
 };
@@ -134,6 +128,7 @@ const BN11B: SankeyData = {
 BN11B.links.forEach((link, index) => {
     link.paperName = 'BN11B';
     link.id = `BN11B-${index}`;
+    link.imgUrl = 'PfZa19T.jpg';
 });
 
 export { BN11B };

@@ -336,7 +336,7 @@ const GYS14: SankeyData = {
     ],
     status: [
         {
-            status: 'repb',
+            imgUrl: 'r9tEkOr.jpg',
         },
     ],
 };
@@ -344,6 +344,7 @@ const GYS14: SankeyData = {
 GYS14.links.map((link, index) => {
     link.paperName = 'GYS14';
     link.category = 'RepB';
+    link.imgUrl = 'r9tEkOr.jpg';
     link.id = `GYS14-${index}`;
 });
 

@@ -701,13 +701,14 @@ const KSBK15: SankeyData = {
     ],
     status: [
         {
-            status: 'RepD',
+            imgUrl: 'AY0EaHs.png',
         },
     ],
 };
 
 KSBK15.links.forEach((link, index) => {
     link.paperName = 'KSBK15';
+    link.imgUrl = 'AY0EaHs.png';
     link.id = `KSBK15-${index}`;
 });
 

@@ -266,13 +266,14 @@ const RRR19: SankeyData = {
     ],
     status: [
         {
-            status: 1,
+            imgUrl: 'yya8s2u.png',
         },
     ],
 };
 
 RRR19.links.forEach((link, index) => {
     link.paperName = 'RRR19';
+    link.imgUrl = 'yya8s2u.png';
     link.id = `RRR19-${index}`;
 });
 

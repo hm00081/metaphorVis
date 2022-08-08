@@ -84,13 +84,14 @@ const KWL09: SankeyData = {
     ],
     status: [
         {
-            status: 'none',
+            imgUrl: 'ukgueox.jpg',
         },
     ],
 };
 
 KWL09.links.forEach((link, index) => {
     link.paperName = 'KWL09';
+    link.imgUrl = 'ukgueox.jpg';
     link.id = `KWL09-${index}`;
 });
 

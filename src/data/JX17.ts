@@ -270,16 +270,14 @@ const JX17: SankeyData = {
     ],
     status: [
         {
-            status: 'TargetBA',
-        },
-        {
-            status: 'RepD',
+            imgUrl: 'dbYhmdg.jpg',
         },
     ],
 };
 
 JX17.links.forEach((link, index) => {
     link.paperName = 'JX17';
+    link.imgUrl = 'dbYhmdg.jpg';
     link.id = `JX17-${index}`;
 });
 

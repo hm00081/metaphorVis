@@ -127,19 +127,14 @@ const RSRY12: SankeyData = {
 
     status: [
         {
-            status: 'TargetAB',
-        },
-        {
-            status: 'TargetBB',
-        },
-        {
-            status: 'RepD',
+            imgUrl: 'ivVW2HN.png',
         },
     ],
 };
 
 RSRY12.links.forEach((link, index) => {
     link.paperName = 'RSRY12';
+    link.imgUrl = 'ivVW2HN.png';
     link.id = `RSRY12-${index}`;
 });
 

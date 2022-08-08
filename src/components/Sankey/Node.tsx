@@ -1,6 +1,6 @@
 // Types
 import { SankeyNodeExtended, SankeyLinkExtended, SankeyData, SankeyNode, SankeyLink } from '../../types/sankey';
-import './Sankey.css';
+import './Sankey.scss';
 import { SourceTargetIdLinksDict } from './Sankey';
 import { Ref, useContext, useState, useEffect } from 'react';
 // styled

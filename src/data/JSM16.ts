@@ -225,16 +225,14 @@ const JSM16: SankeyData = {
     ],
     status: [
         {
-            status: 'TargetBB',
-        },
-        {
-            status: 'RepC',
+            imgUrl: 'n4jwcKO.jpg',
         },
     ],
 };
 
 JSM16.links.forEach((link, index) => {
     link.paperName = 'JSM16';
+    link.imgUrl = 'n4jwcKO.jpg';
     link.id = `JSM16-${index}`;
 });
 

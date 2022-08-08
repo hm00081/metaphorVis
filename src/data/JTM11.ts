@@ -231,10 +231,7 @@ const JTM11: SankeyData = {
     ],
     status: [
         {
-            status: 'TargetBB',
-        },
-        {
-            status: 'RepB',
+            imgUrl: 'AqAwugG.png',
         },
     ],
 };
@@ -242,6 +239,7 @@ const JTM11: SankeyData = {
 JTM11.links.map((link, index) => {
     link.paperName = 'JTM11';
     link.category = 'RepB';
+    link.imgUrl = 'AqAwugG.jpg';
     link.id = `index-${index}`;
 });
 

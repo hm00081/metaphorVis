@@ -178,13 +178,14 @@ const ZGWZ14: SankeyData = {
     ],
     status: [
         {
-            status: 'RepD',
+            imgUrl: 'R9fi5QW.png',
         },
     ],
 };
 
 ZGWZ14.links.forEach((link, index) => {
     link.paperName = 'ZGWZ14';
+    link.imgUrl = 'R9fi5QW.png';
     link.id = `ZGWZ14-${index}`;
 });
 

@@ -204,13 +204,14 @@ const LLN14: SankeyData = {
 
     status: [
         {
-            status: 'TargetAB',
+            imgUrl: 'xWQU5gc.jpg',
         },
     ],
 };
 
 LLN14.links.forEach((link, index) => {
     link.paperName = 'LLN14';
+    link.imgUrl = 'xWQU5gc.jpg';
     link.id = `LLN14-${index}`;
 });
 

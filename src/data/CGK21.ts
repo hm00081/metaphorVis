@@ -233,13 +233,7 @@ const CGK21: SankeyData = {
     ],
     status: [
         {
-            status: 'TargetBA',
-        },
-        {
-            status: 'RepB',
-        },
-        {
-            status: 'RepEB',
+            imgUrl: 'Q201xEJ.jpg',
         },
     ],
 };
@@ -247,6 +241,7 @@ const CGK21: SankeyData = {
 CGK21.links.map((link, index) => {
     link.paperName = 'CGK21';
     link.category = 'RepB';
+    link.imgUrl = 'Q201xEJ.jpg';
     link.id = `CGK21-${index}`;
 });
 

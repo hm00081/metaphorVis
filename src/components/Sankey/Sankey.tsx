@@ -40,11 +40,12 @@ import {
 import { makeDrag, makeSimulation, SvgGSelectionsMaker } from './dragFunction';
 import { Link } from './Link';
 // import { Node } from './Link';
+import { PaperView } from '../Navigator/Paperview/PaperView';
 import { Node } from './Node';
-import './Sankey.css';
+import './Sankey.scss';
 // Utils
 import { calcSankeyNodes, calcSankeyLinks } from '../../utils/';
-import './sandbox-styles.scss';
+
 // Styles
 // styled
 import styled from 'styled-components';
@@ -64,11 +65,7 @@ const TargetClouds = styled.div`
     margin-top: -50px;
 `;
 
-const BigBox = styled.g`
-    // background-color: #eee;
-    // margin-right: 500px;
-    // font-size: 15px;
-`;
+const BigBox = styled.g``;
 
 let style = {
     fontSize: '15px',
@@ -106,7 +103,6 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
     // const [link, setLink] = useState<SankeyLinkExtended>([]);
     // const [columns, setColumns] = useState<SankeyNodeExtended[]>([]);
     const [sourceTargetIdLinksDict, setSourceTargetIdLinksDict] = useState<SourceTargetIdLinksDict>({});
-    const [SourceTargetIdNodesDict, setSourceTargetIdNodesDict] = useState<SourceTargetIdNodesDict>({});
     const [transform, setTransform] = useState<d3.ZoomTransform | null>(null);
 
     useEffect(() => {

@@ -147,16 +147,14 @@ const HYZ13: SankeyData = {
     ],
     status: [
         {
-            status: 'TargetBA',
-        },
-        {
-            status: 'RepF',
+            imgUrl: 'TIajUJa.jpg',
         },
     ],
 };
 
 HYZ13.links.forEach((link, index) => {
     link.paperName = 'HYZ13';
+    link.imgUrl = 'TIajUJa.jpg';
     link.id = `HYZ13-${index}`;
 });
 

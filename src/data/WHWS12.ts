@@ -539,13 +539,14 @@ const WHWS12: SankeyData = {
     ],
     status: [
         {
-            status: 'none',
+            imgUrl: 'sp1TtaX.jpg',
         },
     ],
 };
 
 WHWS12.links.forEach((link, index) => {
     link.paperName = 'WHWS12';
+    link.imgUrl = 'sp1TtaX.jpg';
     link.id = `WHWS12-${index}`;
 });
 

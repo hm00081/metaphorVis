@@ -266,16 +266,14 @@ const SCS16: SankeyData = {
     ],
     status: [
         {
-            status: 'ReepA',
-        },
-        {
-            status: 'RepF',
+            imgUrl: 'ELyzRJL.jpg',
         },
     ],
 };
 
 SCS16.links.forEach((link, index) => {
     link.paperName = 'SCS16';
+    link.imgUrl = 'ELyzRJL.jpg';
     link.id = `SCS16-${index}`;
 });
 

@@ -266,20 +266,14 @@ const SCS17: SankeyData = {
     ],
     status: [
         {
-            status: 'TargetCA',
-        },
-
-        {
-            status: 'RepA',
-        },
-        {
-            status: 'RepB',
+            imgUrl: 'h29usSh.jpg',
         },
     ],
 };
 
 SCS17.links.forEach((link, index) => {
     link.paperName = 'SCS17';
+    link.imgUrl = 'h29usSh.jpg';
     link.id = `SCS17-${index}`;
 });
 

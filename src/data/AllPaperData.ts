@@ -54,6 +54,10 @@ import { WHWS12 } from './WHWS12';
 import { FZC18 } from './FZC18';
 import { ATSC06 } from './ATSC06';
 import { DJM12 } from './DJM12';
+import { MEA17 } from './MEA17';
+import { SFJ16 } from './SFJ16';
+import { XJX21 } from './XJX21';
+import { ASG21 } from './ASG21';
 import { SankeyLink, SankeyLinkExtended } from '../types';
 
 import { link } from 'fs';
@@ -132,6 +136,10 @@ const PaperString = [
     FZC18.links,
     ATSC06.links,
     DJM12.links,
+    MEA17.links,
+    SFJ16.links,
+    XJX21.links,
+    ASG21.links,
 ];
 
 console.log(PaperString.length);
@@ -193,6 +201,10 @@ const Papers = [
     FZC18,
     ATSC06,
     DJM12,
+    MEA17,
+    SFJ16,
+    XJX21,
+    ASG21,
 ];
 
 //@ts-ignore
@@ -242,6 +254,21 @@ const PaperStatus = [
     CSL16.status,
     RRR19.status,
     YCC20.status,
+    MDDD16.status,
+    GYS14.status,
+    MDJW07.status,
+    KWL09.status,
+    BN11B.status,
+    MLG06.status,
+    FA20.status,
+    WHWS12.status,
+    FZC18.status,
+    ATSC06.status,
+    DJM12.status,
+    MEA17.status,
+    SFJ16.status,
+    XJX21.status,
+    ASG21.status,
 ];
 
 //TODO 유형 추가시 계속 변수 생성하기.
@@ -343,6 +370,7 @@ const AllPaperDatas = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<
             paperName: onePaper.paperName,
             process: onePaper.process,
             id: onePaper.id,
+            imgUrl: onePaper.imgUrl,
         });
     //@ts-ignore
     else allOnePaper.value += 0;
@@ -367,6 +395,7 @@ const TargetAAs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<Sank
             valueid: onePaper.valueid,
             paperName: onePaper.paperName,
             process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
 
             id: onePaper.id, //TODO 추출시 필요한 변수만 넣기
         });
@@ -394,7 +423,7 @@ const TargetABs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<Sank
             valueid: onePaper.valueid,
             paperName: onePaper.paperName,
             process: onePaper.process,
-
+            imgUrl: onePaper.imgUrl,
             id: onePaper.id,
         });
     } else {
@@ -419,7 +448,7 @@ const TargetBAs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<Sank
             valueid: onePaper.valueid,
             paperName: onePaper.paperName,
             process: onePaper.process,
-
+            imgUrl: onePaper.imgUrl,
             id: onePaper.id,
         });
     } else {
@@ -444,6 +473,7 @@ const TargetBBs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<Sank
             valueid: onePaper.valueid,
             paperName: onePaper.paperName,
             process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
             id: onePaper.id,
         });
     } else {
@@ -468,7 +498,7 @@ const TargetCAs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<Sank
             valueid: onePaper.valueid,
             paperName: onePaper.paperName,
             process: onePaper.process,
-
+            imgUrl: onePaper.imgUrl,
             id: onePaper.id,
         });
     } else {
@@ -493,6 +523,7 @@ const TargetCBs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<Sank
             valueid: onePaper.valueid,
             paperName: onePaper.paperName,
             process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
             id: onePaper.id,
         });
     } else {
@@ -517,6 +548,7 @@ const RepAs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<SankeyLi
             valueid: onePaper.valueid,
             paperName: onePaper.paperName,
             process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
             id: onePaper.id,
         });
     } else {
@@ -546,6 +578,7 @@ const RepBs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<SankeyLi
             valueid: onePaper.valueid,
             paperName: onePaper.paperName,
             process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
             id: onePaper.id,
         });
     } else {
@@ -586,6 +619,7 @@ const RepCs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<SankeyLi
             valueid: onePaper.valueid,
             paperName: onePaper.paperName,
             process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
             id: onePaper.id,
         });
     } else {
@@ -610,6 +644,7 @@ const RepDs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<SankeyLi
             valueid: onePaper.valueid,
             paperName: onePaper.paperName,
             process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
             id: onePaper.id,
         });
     } else {
@@ -634,6 +669,7 @@ const RepEAs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<SankeyL
             valueid: onePaper.valueid,
             paperName: onePaper.paperName,
             process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
             id: onePaper.id,
         });
     } else {
@@ -658,6 +694,7 @@ const RepEBs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<SankeyL
             valueid: onePaper.valueid,
             paperName: onePaper.paperName,
             process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
             id: onePaper.id,
         });
     } else {
@@ -682,6 +719,7 @@ const RepFs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<SankeyLi
             valueid: onePaper.valueid,
             paperName: onePaper.paperName,
             process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
             id: onePaper.id,
         });
     } else {
@@ -706,6 +744,7 @@ const RepGs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<SankeyLi
             valueid: onePaper.valueid,
             paperName: onePaper.paperName,
             process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
             id: onePaper.id,
         });
     } else {
@@ -730,6 +769,7 @@ const RepHs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<SankeyLi
             valueid: onePaper.valueid,
             paperName: onePaper.paperName,
             process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
             id: onePaper.id,
         });
     } else {
@@ -743,26 +783,3 @@ const Node = CAA20.nodes;
 // const LinkData = [AllPaperDatas, TargetAAs, TargetABs, TargetBAs, TargetBBs, TargetCAs, RepAs, RepBs, RepCs, RepDs, RepEAs, RepEBs, RepFs, Emptys];
 
 export { Status, Node, Papers, AllPaperDatas, TargetAAs, TargetABs, TargetBAs, TargetBBs, TargetCAs, TargetCBs, RepAs, RepBs, RepCs, RepDs, RepEAs, RepEBs, RepFs, RepGs, RepHs, Emptys };
-
-// links: AllPaperDatas.map((link) => {
-//     let color: string = '';
-//     if (hasLinkInGroup(link, RepBs)) {
-//       color = `hsl(210, 80%, 50%)`;
-//     } else {
-//       color = `hsl(0, 0%, 30%)`;
-//     }
-//     return { ...link, color };
-//   });
-
-//   function hasLinkInGroup(wantedLink, linkGroup) {
-//     let hasLink: boolean = false;
-
-//     for (let i = 0; i < linkGroup.length; i++) {
-//       if (link == linkGroup[i]) {
-//         hasLink = true;
-//         break;
-//       }
-//     }
-
-//     return hasLink;
-//   }

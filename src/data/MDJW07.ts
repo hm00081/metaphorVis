@@ -308,7 +308,7 @@ const MDJW07: SankeyData = {
     ],
     status: [
         {
-            status: 'none',
+            imgUrl: 'E21AFdm.jpg',
         },
     ],
 };
@@ -316,6 +316,7 @@ const MDJW07: SankeyData = {
 MDJW07.links.map((link, index) => {
     link.paperName = 'MDJW07';
     link.category = 'RepB';
+    link.imgUrl = 'E21AFdm.jpg';
     link.id = `MDJW07-${index}`;
 });
 

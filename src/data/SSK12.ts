@@ -154,13 +154,14 @@ const SSK12: SankeyData = {
     ],
     status: [
         {
-            status: 'RepF',
+            imgUrl: 'chAdr4B.png',
         },
     ],
 };
 
 SSK12.links.forEach((link, index) => {
     link.paperName = 'SSK12';
+    link.imgUrl = 'chAdr4B.png';
     link.id = `SSK12-${index}`;
 });
 

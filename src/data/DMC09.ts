@@ -91,13 +91,14 @@ const DMC09: SankeyData = {
     ],
     status: [
         {
-            status: 0,
+            imgUrl: 'KTkfwLw.png',
         },
     ],
 };
 
 DMC09.links.forEach((link, index) => {
     link.paperName = 'DMC09';
+    link.imgUrl = 'KTkfwLw.png';
     link.id = `DMC09-${index}`;
 });
 

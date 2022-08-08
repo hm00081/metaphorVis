@@ -238,13 +238,14 @@ const CSL16: SankeyData = {
     ],
     status: [
         {
-            status: 'RepD',
+            imgUrl: 'mt871Nx.png',
         },
     ],
 };
 
 CSL16.links.forEach((link, index) => {
     link.paperName = 'CSL16';
+    link.imgUrl = 'mt871Nx.jpg';
     link.id = `CSL16-${index}`;
 });
 

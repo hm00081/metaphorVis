@@ -231,7 +231,7 @@ const YSK14: SankeyData = {
     ],
     status: [
         {
-            status: 'RepB',
+            imgUrl: 'sBwMjs9.png',
         },
     ],
 };
@@ -239,6 +239,7 @@ const YSK14: SankeyData = {
 YSK14.links.map((link, index) => {
     link.paperName = 'YSK14';
     link.category = 'RepB';
+    link.imgUrl = 'sBwMjs9.png';
     link.id = `YSK14-${index}`;
 });
 

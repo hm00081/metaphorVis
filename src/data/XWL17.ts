@@ -140,13 +140,14 @@ const XWL17: SankeyData = {
     ],
     status: [
         {
-            status: 'TargetBA',
+            imgUrl: 'VqSzaXU.jpg',
         },
     ],
 };
 
 XWL17.links.forEach((link, index) => {
     link.paperName = 'XWL17';
+    link.imgUrl = 'VqSzaXU.jpg';
     link.id = `XWL17-${index}`;
 });
 

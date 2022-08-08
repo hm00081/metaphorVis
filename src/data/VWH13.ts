@@ -1,3 +1,4 @@
+import { LinkGrayColor } from '../components/Sankey/SankeyColor';
 import { SankeyData } from '../types/sankey';
 
 const VWH13: SankeyData = {
@@ -343,13 +344,14 @@ const VWH13: SankeyData = {
     ],
     status: [
         {
-            status: 'RepC',
+            imgUrl: 'TO07ZUT.jpg',
         },
     ],
 };
 
 VWH13.links.forEach((link, index) => {
     link.paperName = 'VWH13';
+    link.imgUrl = 'TO07ZUT.jpg';
     link.id = `VWH13-${index}`;
 });
 

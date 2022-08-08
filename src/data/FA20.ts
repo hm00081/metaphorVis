@@ -162,13 +162,14 @@ const FA20: SankeyData = {
 
     status: [
         {
-            status: 'none',
+            imgUrl: '2VPQbry.jpg',
         },
     ],
 };
 
 FA20.links.forEach((link, index) => {
     link.paperName = 'FA20';
+    link.imgUrl = '2VPQbry.jpg';
     link.id = `FA20-${index}`;
 });
 

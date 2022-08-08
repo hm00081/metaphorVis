@@ -169,13 +169,14 @@ const PC15PV: SankeyData = {
     ],
     status: [
         {
-            status: 0,
+            imgUrl: 'AEd0LAv.jpg',
         },
     ],
 };
 
 PC15PV.links.forEach((link, index) => {
     link.paperName = 'PC15PV';
+    link.imgUrl = 'AEd0LAv.jpg';
     link.id = `PC15PV-${index}`;
 });
 

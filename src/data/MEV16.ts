@@ -274,19 +274,14 @@ const MEV16: SankeyData = {
 
     status: [
         {
-            status: 'TargetAA',
-        },
-        {
-            status: 'ReepEB',
-        },
-        {
-            status: 'RepF',
+            imgUrl: 'FpTZ8Nt.jpg',
         },
     ],
 };
 
 MEV16.links.forEach((link, index) => {
     link.paperName = 'MEV16';
+    link.imgUrl = 'FpTZ8Nt.jpg';
     link.id = `MEV16-${index}`;
 });
 

@@ -1,6 +1,6 @@
 // Types
 import { SankeyLinkExtended, SankeyNodeExtended, SankeyData, SankeyLink } from '../../types/sankey';
-import './Sankey.css';
+import './Sankey.scss';
 import { FC, useState, useEffect, useCallback } from 'react';
 import { Utility } from '../../utils/sankey/basics';
 import { SourceTargetIdLinksDict } from './Sankey';
@@ -73,10 +73,10 @@ interface IBrushProps {
 // Component
 export const Link = ({ nodes, node, link, links, originData, sourceTargetIdLinksDict, setOriginData }: LinkProps) => {
     const [titleLabel, setTitleLabel] = useState<string>('default link label');
-
     // click & hover시 label을 나타냄
     const onClickFunction = () => {
         const renderingData: SankeyData = { ...originData };
+        console.log(renderingData);
         renderingData.positionStatus = 'clicked';
         renderingData.links = renderingData.links.map((link) => {
             return { ...link };
@@ -215,6 +215,7 @@ export const Link = ({ nodes, node, link, links, originData, sourceTargetIdLinks
 
             if (link.process === selectedLinkPart.process) {
                 console.log('같은 경우 있음? ', link.process);
+                console.log(selectedLinkPart);
             }
         });
 

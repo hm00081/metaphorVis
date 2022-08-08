@@ -308,7 +308,7 @@ const CSL12: SankeyData = {
     ],
     status: [
         {
-            status: 'RepC',
+            imgUrl: 'a3kehFc.jpg',
         },
     ],
 };
@@ -316,6 +316,7 @@ const CSL12: SankeyData = {
 CSL12.links.forEach((link, index) => {
     link.paperName = 'CSL12';
     link.id = `CSL12-${index}`;
+    link.imgUrl = 'a3kehFc.jpg';
 });
 
 export { CSL12 };

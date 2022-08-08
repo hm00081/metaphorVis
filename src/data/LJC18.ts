@@ -329,10 +329,7 @@ const LJC18: SankeyData = {
     ],
     status: [
         {
-            status: 'RepB',
-        },
-        {
-            status: 'RepF',
+            imgUrl: 'bYdgkcY.jpg',
         },
     ],
 };
@@ -340,6 +337,7 @@ const LJC18: SankeyData = {
 LJC18.links.map((link, index) => {
     link.paperName = 'LJC18';
     link.category = 'RepB';
+    link.imgUrl = 'bYdgkcY.jpg';
     link.id = `LJC18-${index}`;
 });
 

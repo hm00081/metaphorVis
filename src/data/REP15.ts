@@ -119,13 +119,14 @@ const REP15: SankeyData = {
     ],
     status: [
         {
-            status: 0,
+            imgUrl: 'y8mGv81.jpg',
         },
     ],
 };
 
 REP15.links.forEach((link, index) => {
     link.paperName = 'REP15';
+    link.imgUrl = 'y8mGv81.jpg';
     link.id = `REP15-${index}`;
 });
 

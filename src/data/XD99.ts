@@ -182,13 +182,14 @@ const XD99: SankeyData = {
     ],
     status: [
         {
-            status: 'RepC',
+            imgUrl: 'CaBMwKE.jpg',
         },
     ],
 };
 
 XD99.links.forEach((link, index) => {
     link.paperName = 'XD99';
+    link.imgUrl = 'CaBMwKE.jpg';
     link.id = `XD99-${index}`;
 });
 

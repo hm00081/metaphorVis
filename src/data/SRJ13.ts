@@ -102,16 +102,14 @@ const SRJ13: SankeyData = {
 
     status: [
         {
-            status: 'TargetAB',
-        },
-        {
-            status: 'RepD',
+            imgUrl: 'kgWl7nV.png',
         },
     ],
 };
 
 SRJ13.links.forEach((link, index) => {
     link.paperName = 'SRJ13';
+    link.imgUrl = 'kgWl7nV.png';
     link.id = `SRJ13-${index}`;
 });
 

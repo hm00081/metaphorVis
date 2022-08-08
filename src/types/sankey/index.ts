@@ -48,6 +48,7 @@ export type SankeyLink = SankeyLinkMinimal &
         paperName?: string;
         category?: string;
         id?: string;
+        imgUrl?: string;
     };
 
 export type LinkColor =
@@ -93,7 +94,7 @@ export type SankeyNodeExtended = SankeyNode & {
     y: number;
     width: number;
     height: number;
-    link: SankeyLinkExtended;
+    link?: SankeyLinkExtended;
     hover?: undefined;
     sourceLink: SankeyLinkExtended;
     targetLink: SankeyLinkExtended;
@@ -116,7 +117,7 @@ export type SankeyLinkExtended = SankeyLink & {
 };
 
 export type SankeyStatus = {
-    status: string | number | boolean;
+    imgUrl: string;
     // status: string | number | number[];
 };
 

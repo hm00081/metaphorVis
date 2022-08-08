@@ -238,13 +238,14 @@ const MVM17: SankeyData = {
     ],
     status: [
         {
-            status: 'RepD',
+            imgUrl: 'U35x588.png',
         },
     ],
 };
 
 MVM17.links.forEach((link, index) => {
     link.paperName = 'MVM17';
+    link.imgUrl = 'U35x588.png';
     link.id = `MVM17-${index}`;
 });
 

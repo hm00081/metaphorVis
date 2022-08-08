@@ -279,11 +279,16 @@ const DJM12: SankeyData = {
         },
     ],
 
-    status: [],
+    status: [
+        {
+            imgUrl: 'nNNbNas.jpg',
+        },
+    ],
 };
 
 DJM12.links.forEach((link, index) => {
     link.paperName = 'DJM12';
+    link.imgUrl = 'nNNbNas.jpg';
     link.id = `DJM12-${index}`;
 });
 

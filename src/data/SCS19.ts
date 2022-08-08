@@ -357,13 +357,7 @@ const SCS19: SankeyData = {
     ],
     status: [
         {
-            status: 'RepA',
-        },
-        {
-            status: 'RepB',
-        },
-        {
-            status: 'RepEB',
+            imgUrl: 'kl0Dozw.jpg',
         },
     ],
 };
@@ -371,6 +365,7 @@ const SCS19: SankeyData = {
 SCS19.links.map((link, index) => {
     link.paperName = 'SCS19';
     link.category = 'RepB';
+    link.imgUrl = 'kl0Dozw.jpg';
     link.id = `SCS19-${index}`;
 });
 

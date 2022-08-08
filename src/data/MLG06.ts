@@ -140,13 +140,14 @@ const MLG06: SankeyData = {
     ],
     status: [
         {
-            status: 'none',
+            imgUrl: 'qXOBST8.jpg',
         },
     ],
 };
 
 MLG06.links.forEach((link, index) => {
     link.paperName = 'MLG06';
+    link.imgUrl = 'qXOBST8.jpg';
     link.id = `MLG06-${index}`;
 });
 

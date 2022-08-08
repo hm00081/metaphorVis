@@ -189,13 +189,14 @@ const EAIA17: SankeyData = {
     ],
     status: [
         {
-            status: 0,
+            imgUrl: 'TFuj7MS.jpg',
         },
     ],
 };
 
 EAIA17.links.forEach((link, index) => {
     link.paperName = 'EAIA17';
+    link.imgUrl = 'TFuj7MS.jpg';
     link.id = `EAIA17-${index}`;
 });
 

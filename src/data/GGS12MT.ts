@@ -147,16 +147,14 @@ const GGS12MT: SankeyData = {
     ],
     status: [
         {
-            status: 'TargetBB',
-        },
-        {
-            status: 'RepC',
+            imgUrl: 'wVHfoIB.png',
         },
     ],
 };
 
 GGS12MT.links.forEach((link, index) => {
     link.paperName = 'GGS12MT';
+    link.imgUrl = 'wVHfoIB.jpg';
     link.id = `GGS12MT-${index}`;
 });
 
