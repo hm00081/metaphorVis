@@ -58,7 +58,7 @@ const rowVariants = {
     },
 };
 
-const offset = 60;
+const offset = 100;
 
 export const PaperView = () => {
     const [originData, setOriginData] = useState<SankeyData>(fullData);
@@ -74,16 +74,18 @@ export const PaperView = () => {
     });
     return (
         <>
-            <Row variants={rowVariants} initial="initial" animate="visible" exit="exit" transition={{ type: 'tween', duration: 1 }} key={index}>
+            {/* <Row variants={rowVariants} initial="initial" animate="visible" exit="exit" transition={{ type: 'tween', duration: 1 }} key={index}>
                 {renderingData.links
-                    .slice(0)
+                    .slice(2)
                     .slice(offset * index, offset * index + offset)
                     .map((paper) => (
-                        <PaperBox layoutId={paper.imgUrl + ''} key={paper.imgUrl} initial="normal" transition={{ type: 'tween' }} bgPhoto={'w60'}>
+                        <PaperBox layoutId={paper.imgUrl + 'layout'} key={paper.imgUrl} initial="normal" transition={{ type: 'tween' }} bgPhoto={'w60'}>
                             {paper.imgUrl ? <img width="111" height="111" src={`https://i.imgur.com/${paper.imgUrl}`}></img> : null}
                         </PaperBox>
                     ))}
             </Row>
+             */}
+            <div>hi</div>
         </>
     );
 };
