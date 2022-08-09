@@ -6,14 +6,14 @@ export const Network = () => {
         <div>
             <div style={{ marginLeft: '10px', marginTop: '10px', fontSize: '20px', fontWeight: '650' }}>Intermediation Representation Network</div>
             <div style={{ marginTop: '30px', marginLeft: '30px', display: 'flex' }}>
-                <svg width="25" height="25" style={{ marginLeft: 7 }}>
-                    <rect width="25" height="25" style={{ fill: '#ff00ff', paddingRight: '10em' }}></rect>
+                <svg width="15" height="15" style={{ marginLeft: 7 }}>
+                    <rect width="15" height="15" style={{ fill: '#ff00ff', paddingRight: '10em' }}></rect>
                 </svg>
-                <div style={{ fontSize: '14px', fontWeight: '630', marginLeft: '10px' }}>Intermediation</div>
-                <svg width="25" height="25" style={{ marginLeft: 7 }}>
-                    <rect width="25" height="25" style={{ fill: '#0280ff', paddingRight: '10em' }}></rect>
+                <div style={{ fontSize: '14px', fontWeight: '630', marginLeft: '10px', marginTop: '-4.5px' }}>Intermediation</div>
+                <svg width="15" height="15" style={{ marginLeft: 7 }}>
+                    <rect width="15" height="15" style={{ fill: '#0280ff', paddingRight: '10em' }}></rect>
                 </svg>
-                <div style={{ fontSize: '14px', fontWeight: '630', marginLeft: '10px' }}>Representation</div>
+                <div style={{ fontSize: '14px', fontWeight: '630', marginLeft: '10px', marginTop: '-4.5px' }}>Representation</div>
             </div>
             <svg
                 version="1.1"

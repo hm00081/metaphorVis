@@ -28,8 +28,8 @@ const PaperBox = styled(motion.div)<{ bgPhoto: string }>`
     background-color: white;
     background-size: cover;
     background-position: center center;
-    height: 111px;
-    min-width: 111px;
+    height: 77px;
+    min-width: 77px;
     font-size: 66px;
     margin: 10px;
     cursor: pointer;
@@ -91,14 +91,14 @@ export const PaperView = ({ originData, setOriginData }: PaperProps) => {
 
     return (
         <>
-            <div style={{ marginLeft: '10px', marginTop: '10px', fontSize: '20px', fontWeight: '650' }}>PaperView</div>
+            <div style={{ marginLeft: '10px', marginTop: '10px', fontSize: '20px', fontWeight: '650', marginBottom: '20px' }}>PaperView</div>
             <Row variants={rowVariants} initial="initial" animate="visible" exit="exit" transition={{ type: 'tween', duration: 1 }} key={index}>
                 {renderingData.status
                     .slice(0)
                     .slice(offset * index, offset * index + offset)
                     .map((paper) => (
                         <PaperBox layoutId={paper.imgUrl + 'layout'} key={paper.imgUrl} initial="normal" transition={{ type: 'tween' }} bgPhoto={'w60'}>
-                            {paper.imgUrl ? <img width="111" height="111" src={`https://i.imgur.com/${paper.imgUrl}`}></img> : null}
+                            {paper.imgUrl ? <img width="77" height="77" src={`https://i.imgur.com/${paper.imgUrl}`}></img> : null}
                             {paper.imgUrl ? <div style={{ fontSize: '12px', fontWeight: 'bold', textAlign: 'center' }}>{paper.paperName}</div> : null}
                         </PaperBox>
                     ))}
