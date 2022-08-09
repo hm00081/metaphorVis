@@ -37,6 +37,8 @@
         "@visx/text": "latest",
         "@visx/tooltip": "^2.8.0",
         "@visx/wordcloud": "latest",
+        "babel-loader": "^8.2.5",
+        "create-react-class": "^15.7.0",
         "d3": "^7.3.0",
         "d3-axis": "^3.0.0",
         "d3-brush": "^3.0.0",
