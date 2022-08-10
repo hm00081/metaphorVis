@@ -56,6 +56,7 @@ body {
     font-family: Ubuntu, Tahoma, Helvetica, sans-serif;
     font-size: 12px;
     line-height: 1.4em;
+    // background: #f7f7f7;
     background: #f7f7f7;
     color: #404040;
 }
@@ -81,15 +82,13 @@ body.dark {
 }
 
 .size {
-    margin-top: 40px;
     min-height: 1270px;
     max-height: 1270px;
-    max-width: 2200px;
+    min-width: 2190px;
+    max-width: 2190px;
     flex: 1;
     display: flex;
     justify-content: center;
-    // overflow: scroll;
-    // width: 1200px;
     position: relative;
 }
 

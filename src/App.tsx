@@ -1,45 +1,35 @@
 import FinalSankey from './FinalSankey';
-import ParentSize from '@visx/responsive/lib/components/ParentSizeModern';
-import Word from './components/WordCloud/Word';
-import withStyles from './FinalCirclePack';
-import StackedBarChart from './components/BarChart/BarChart';
 import Header from './components/Header/Header';
-import Navigator from './components/Navigator/Navigator';
-import styled from 'styled-components';
-import ThemeProvider from 'styled-components';
 import './styles.scss';
-// import { useQuery} from 'react-query';
+import style from './rootStyle.module.scss';
+import { SideNavi } from './components/SideNavi';
+// import { SankeyGraph } from './components/SankeyGraph';
+import { fullData } from './Data';
+import { useState, useEffect } from 'react';
 import { SankeyData } from './types';
-import { PaperView } from '../src/components/Navigator/Paperview/PaperView';
 
-// //@ts-ignore
-// const draw = <withStyles />;
-// //@ts-ignore
-// const barChart = <StackedBarChart />;
-
-// const BigBox = styled.g`
-//     background-color: 'blue';
-// `;
-
-// const Clouds = styled.div`
-//     margin-left: 400px;
-//     margin-top: -150px;
-// `;
-
-interface PaperProps {
+interface Props {
     originData: SankeyData;
     setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
 }
 
 // viewProt 수정 필요
-function App() {
+export default function App() {
+    const [originData, setOriginData] = useState(fullData);
+    //const [filteredData, setFilteredData] = useState<SankeyData>();
+
+    // useEffect(() => {
+    //     setOriginData(fullData);
+    // }, [fullData]);
+
     return (
-        <div className="App">
+        <div className={style.root}>
             <Header />
-            <Navigator />;
-            <FinalSankey />
+            <div className={style.mainContainer}>
+                <SideNavi />
+                {/* <SankeyGraph /> */}
+                <FinalSankey />
+            </div>
         </div>
     );
 }
-
-export default App;

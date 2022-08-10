@@ -2,18 +2,8 @@
 import { SankeyNodeExtended, SankeyLinkExtended, SankeyData, SankeyNode, SankeyLink } from '../../types/sankey';
 import './Sankey.scss';
 import { SourceTargetIdLinksDict } from './Sankey';
-import { Ref, useContext, useState, useEffect } from 'react';
-// styled
 import styled from 'styled-components';
-import { render } from '@testing-library/react';
-import { calcSankeyNodes, calcSankeyLinks } from '../../utils/';
 
-//@ts-ignore
-// const Rect = styled.rect`
-//     &: hover {
-//         opacity: 1;
-//     }
-// `;
 const NodeName = styled.text`
     margin-top: 12px;
 `;
@@ -44,33 +34,16 @@ interface Props {
 
 // Component
 export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict, setOriginData, links, link }: Props) => {
-    // useEffect(() => {
-    //     console.log(links[0]);
-    // });
-    // console.log(links.length);
-    // console.log(link);
     //TODO id=100인 Node를 클릭했을 때,
     //TODO 1. Links 중에서 source-node, 혹은 target-node가 100인 Link 데이터를 모두 따로 보관한다.
     //TODO 2. 각 링크별로 findFrontLink(), findBackLink()와 많이 유사한 로직을 호출하여 링크를 색칠한다.
     //TODO findFrontLink(source-node) 호출해야하고, findBackLinks(target-node) 호출해야한다
-    // console.log(sourceTargetIdLinksDict);
     const endNode = node.x + node.width > width - node.width;
     const size = width < height ? width : height;
-    // console.log(sourceTargetIdLinksDict);
-    // Calculate Text Properties
     const textX = !endNode ? node.x + node.width : node.x;
     const textAnchor = !endNode ? 'start' : 'end';
     const textMargin = !endNode ? 4 : -4;
-    const textTitleSize = Math.log(10) * 4;
-    const textValueSize = (size / 100) * 1;
-    const color = node.color;
-    // const [links, setLinks] = useState<SankeyLinkExtended[]>([]);
-    // const [clickdedLink, setClickedLink] = useState<SankeyLinkExtended>(link);
-    // useEffect(()=> {
-    //     const linkOption = link
-
-    //     if(linkOption != 'undefined' && linkOption != null)
-    // }
+    const textTitleSize = Math.log(10) * 5.5;
     let textXPosition = textX + textMargin + node.width * 0.3;
     let textYPosition = node.y + node.value / 2 + textMargin * 1;
     if (node.type === 'Vis_var&tech') {
@@ -79,9 +52,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
     if (node.value == 0) {
         node.value = 2;
     }
-    // console.log(sourceTargetIdLinksDict);
     return (
-        //노드에 link와 같이 클릭시 노드에 있는 링크들만 보여주도록 표현.
         <NodePos>
             <rect
                 className="node"
@@ -110,12 +81,6 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                             }
                         } else return trashNodePush.push();
                     });
-
-                    // const convertNode = nodePush.reduce(function (acc, cur) {
-                    //     return acc.concat(cur);
-                    // });
-                    // console.log(nodePush);
-                    // console.log(convertNode);
 
                     renderingData.links.forEach((renderingLink) => {
                         renderingLink.color = 'grayLinkColor';

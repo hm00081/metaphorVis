@@ -51,6 +51,7 @@
         "framer-motion": "^6.2.8",
         "lodash": "^4.17.21",
         "node-sass": "^7.0.1",
+        "prettier": "^2.7.1",
         "react": "^17.0.2",
         "react-d3-cloud": "^1.0.5",
         "react-dom": "^17.0.2",
@@ -103,7 +104,7 @@
         "file-loader": "^6.2.0",
         "gh-pages": "^4.0.0",
         "react-scripts": "^5.0.1",
-        "sass": "^1.49.11",
+        "sass": "^1.54.4",
         "ts-node": "^10.7.0"
     },
     "compilerOptions": {

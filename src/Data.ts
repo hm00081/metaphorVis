@@ -1,10 +1,3 @@
-// Libraries
-import { useMeasure } from 'react-use';
-import { useState } from 'react';
-
-// Custom Components
-import { Sankey } from './components/Sankey';
-
 // Global Styles
 // import 'normalize.css';
 import './styles.scss';
@@ -14,7 +7,6 @@ import { SankeyLink, SankeyStatus, SankeyLinkExtended } from '../src/types';
 
 // Data
 import { PaperNode } from './data/PaperNode';
-import { Node, Papers, Status } from './data/AllPaperData';
 import {
     statusImgSet,
     AllPaperDatas,

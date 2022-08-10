@@ -1,10 +1,8 @@
 // Types
 import { SankeyData, SankeyNode, SankeyLink, SankeyNodeExtended, SankeyLinkExtended } from '../../types/sankey';
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 // Components
 // Libraries
-import { useMeasure } from 'react-use';
-import { D3Drawer } from './D3Drawer';
 import {
     LinkGrayColor,
     LinkBlueColor,
@@ -37,28 +35,25 @@ import {
     LinkRepVisVarColor,
     LinkRepVisTechColor,
 } from './SankeyColor';
-import { makeDrag, makeSimulation, SvgGSelectionsMaker } from './dragFunction';
 import { Link } from './Link';
 // import { Node } from './Link';
-import { PaperView } from '../Navigator/Paperview/PaperView';
 import { Node } from './Node';
 import './Sankey.scss';
 // Utils
 import { calcSankeyNodes, calcSankeyLinks } from '../../utils/';
 
-// Styles
 // styled
 import styled from 'styled-components';
 
 // Cloud
-import { Papers } from '../../data/AllPaperData';
-import { couldStartTrivia } from 'typescript';
-import TargetCloudResults from '../WordCloud/react-cloud/TargetCloudResults';
-import InterCloudResults from '../WordCloud/react-cloud/InterCloudResults';
-import RepCloudResults from '../WordCloud/react-cloud/RepCloudResults';
-import VarCloudResults from '../WordCloud/react-cloud/VarCloudResults';
-import TechCloudResults from '../WordCloud/react-cloud/TechCloudResults';
-import { GridColumns } from '@visx/grid';
+// import { Papers } from '../../data/AllPaperData';
+// import { couldStartTrivia } from 'typescript';
+// import TargetCloudResults from '../WordCloud/react-cloud/TargetCloudResults';
+// import InterCloudResults from '../WordCloud/react-cloud/InterCloudResults';
+// import RepCloudResults from '../WordCloud/react-cloud/RepCloudResults';
+// import VarCloudResults from '../WordCloud/react-cloud/VarCloudResults';
+// import TechCloudResults from '../WordCloud/react-cloud/TechCloudResults';
+// import { GridColumns } from '@visx/grid';
 
 const TargetClouds = styled.div`
     margin-left: 300px;
@@ -97,7 +92,6 @@ export type SourceTargetIdNodesDict = SourceTargetIdLinksDict & {
 
 // Component
 export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft = 0, nodeWidth = 20, nodeHeight = 20, nodeMargin = 5, minLinkBreadth, maxLinkBreadth, setOriginData }: Props) => {
-    // const [ref, { width, height }] = useMeasure<HTMLDivElement>();
     const [nodes, setNodes] = useState<SankeyNodeExtended[]>([]);
     const [links, setLinks] = useState<SankeyLinkExtended[]>([]);
 
@@ -106,7 +100,6 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
 
     useEffect(() => {
         const sourceTargetIdLinksDict: SourceTargetIdLinksDict = {};
-        // const SourceTargetIdNodesDict: SourceTargetIdNodesDict = {};
 
         originData.links.forEach((link1) => {
             originData.links.forEach((link2) => {
@@ -127,11 +120,6 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
             });
         });
 
-        // useEffect(() => {
-        //     //@ts-ignore
-        //     const d3Drawer = new D3Drawer();
-        // });
-
         //TODO mergedLinks는 폐기해도 될듯.
         const mergedLinks = [] as SankeyLink[];
         for (const [sourceTargetId, sameSourceTargetLinks] of Object.entries(sourceTargetIdLinksDict)) {
@@ -150,32 +138,19 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
 
         const renderingData: SankeyData = { ...originData }; // 확인
 
-        // renderingData.links = mergedLinks;
-
-        // console.log('mergedLinks');
-        // console.log(mergedLinks);
-        // console.log('rl');
-        // console.log(renderingData.links);
-
-        // console.log(renderingData.nodes);
-        // console.log(mergedLinks);
         setSourceTargetIdLinksDict(sourceTargetIdLinksDict);
-        // console.log(sourceTargetIdLinksDict);
 
         const nodes = calcSankeyNodes(renderingData, width, height, paddingTop, paddingLeft, nodeWidth, nodeHeight, nodeMargin, maxLinkBreadth);
-        // console.log('nodes', nodes);
+
         setNodes(nodes);
-        // const links = calcSankeyLinks(renderingData, height, nodes, nodeWidth, minLinkBreadth, maxLinkBreadth, renderingData.positionStatus === 'init'); // 이거로 하면 모든 링크 위치 분리되어 나타냄
+
         const links = calcSankeyLinks(renderingData, height, nodes, nodeWidth, minLinkBreadth, maxLinkBreadth);
-        // console.log(links);
+
         setLinks(links);
     }, [originData]);
-    const columns = nodes.map((node) => node.type).filter((type, pos, arr) => arr.indexOf(type) === pos);
     const columnss = ['Paper', 'Paper', 'Target', 'Intermediation', 'Representation', 'Vis Var&Tech'];
-    // const columns = title.map((title) => title).filter((title, pos, arr) => arr.indexOf(title) === pos);
 
     return (
-        // <svg className="size" width="100%" height="100%">
         <svg className="size" width={width} height={height}>
             <LinkGrayColor />
             <LinkBlueColor />
@@ -213,7 +188,7 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
                 <BigBox>
                     {/* <rect className="column" x={width / columns.length} y={0} width={width / columns.length} height={height} fill="#eee" /> */}
                     {/* <text x={(width / columns.length) * i + width / columns.length / 10} y={height * 0.02} textAnchor="middle"> */}
-                    <text style={style} className="coltext" x={500 * i - 480} y={height * 0.02} textAnchor="middle">
+                    <text style={style} className="coltext" x={480 * i - 460} y={(height as number) * 0.02} textAnchor="middle">
                         {`${column}`}
                     </text>
                 </BigBox>
