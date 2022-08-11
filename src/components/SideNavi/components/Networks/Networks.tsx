@@ -1,5 +1,6 @@
 import style from './index.module.scss';
-import { SankeyData } from '../../../../types/sankey';
+import { SankeyData } from '../../../../types';
+import { basicData, targetaa, targetab, targetba, targetbb, targetca, targetcb, repa, repb, repc, repd, repea, repeb, repf, repg, reph, empty, fullData } from '../../../../Data';
 
 interface Props {
     originData: SankeyData;
@@ -8,10 +9,14 @@ interface Props {
 
 export const Networks = ({ originData, setOriginData }: Props) => {
     const renderingData: SankeyData = { ...originData };
-    console.log(renderingData);
+    // const [originData, setOriginData] = useState<SankeyData>(fullData);
+    //TODO C1: originData.nodes[36].number, originData.nodes[40].number
+    //TODO C2: originData.nodes[41].number, originData.nodes[43].number
+    //TODO C3: originData.nodes[35].number, originData.nodes[47].number
+    //TODO C4: originData.nodes[46].number, originData.nodes[49].number
     return (
         <div className={style.networksContainer}>
-            <div className={style.title}>Network</div>
+            <div className={style.title}>Network View</div>
             <div className={style.categoryWrapper}>
                 <svg width="25" height="25" style={{ marginLeft: '7px' }}>
                     <rect width="15" height="15" style={{ fill: '#ff00ff', paddingRight: '10em' }}></rect>
@@ -350,11 +355,47 @@ export const Networks = ({ originData, setOriginData }: Props) => {
                         <text transform="matrix(1 0 0 1 507.4823 706.4688)" className={style.nodeText}>
                             letter
                         </text>
-
-                        <ellipse onClick={() => {}} className={style.area17} cx="656.1" cy="130.6" rx="238.3" ry="131" />
-                        <ellipse className={style.area18} cx="1093.3" cy="332.7" rx="158.5" ry="101.1" />
-                        <ellipse className={style.area19} cx="909.1" cy="745.1" rx="378.2" ry="101.1" />
-                        <ellipse className={style.area20} cx="310.2" cy="452.9" rx="300.4" ry="261.2" />
+                        {/* 시계방향 */}
+                        <ellipse
+                            onClick={() => {
+                                console.log('C1');
+                            }}
+                            className={style.area17}
+                            cx="656.1"
+                            cy="130.6"
+                            rx="238.3"
+                            ry="131"
+                        />
+                        <ellipse
+                            onClick={() => {
+                                console.log('C2');
+                            }}
+                            className={style.area18}
+                            cx="1093.3"
+                            cy="332.7"
+                            rx="158.5"
+                            ry="101.1"
+                        />
+                        <ellipse
+                            onClick={() => {
+                                console.log('C3');
+                            }}
+                            className={style.area19}
+                            cx="909.1"
+                            cy="745.1"
+                            rx="378.2"
+                            ry="101.1"
+                        />
+                        <ellipse
+                            onClick={() => {
+                                console.log('C4');
+                            }}
+                            className={style.area20}
+                            cx="310.2"
+                            cy="452.9"
+                            rx="300.4"
+                            ry="261.2"
+                        />
 
                         <rect x="963.2" y="339.4" className={style.repreentationNode} width="21.7" height="21.7" />
                         <rect x="1042.7" y="288.3" className={style.repreentationNode} width="21.7" height="21.7" />

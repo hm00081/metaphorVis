@@ -12,6 +12,8 @@ interface Props {
 
 export function SideNavi() {
     const [originData, setOriginData] = useState(fullData);
+    const renderingData: SankeyData = { ...originData };
+    console.log(originData); // 잘 호출 됨
     return (
         <div className={style.sideNavi}>
             <Networks originData={originData} setOriginData={setOriginData} />

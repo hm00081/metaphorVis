@@ -88,7 +88,7 @@ export const PaperView = ({ originData, setOriginData }: Props) => {
     return (
         <>
             <div className={style.paperView}>
-                <div className={style.title}>PaperView</div>
+                <div className={style.title}>Paper View</div>
                 <Row variants={rowVariants} initial="initial" animate="visible" exit="exit" transition={{ type: 'tween', duration: 1 }} key={index}>
                     {renderingData.status
                         .slice(0)

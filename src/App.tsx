@@ -2,7 +2,7 @@ import FinalSankey from './FinalSankey';
 import Header from './components/Header/Header';
 import './styles.scss';
 import style from './rootStyle.module.scss';
-import { SideNavi } from './components/SideNavi';
+import { SideNavi } from './components/SideNavi/SideNavi';
 // import { SankeyGraph } from './components/SankeyGraph';
 import { fullData } from './Data';
 import { useState, useEffect } from 'react';

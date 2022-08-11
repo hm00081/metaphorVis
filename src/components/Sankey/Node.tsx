@@ -3,6 +3,7 @@ import { SankeyNodeExtended, SankeyLinkExtended, SankeyData, SankeyNode, SankeyL
 import './Sankey.scss';
 import { SourceTargetIdLinksDict } from './Sankey';
 import styled from 'styled-components';
+import { onClick } from './store';
 
 const NodeName = styled.text`
     margin-top: 12px;
@@ -235,7 +236,7 @@ function findFrontLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData }
     // console.log(linkPart.valueid);
     const frontLinks = renderingData.links.filter((renderingLink) => {
         // if (renderingLink.target === linkPart.source && renderingLink.id === linkPart.id) {
-        if (renderingLink.target === linkPart.source && renderingLink.paperName === linkPart.paperName) {
+        if (renderingLink.target === linkPart.source && renderingLink.process === linkPart.process) {
             if (renderingLink.target >= 0 && renderingLink.target <= 8) {
                 renderingLink.color = 'targetLinkColor';
                 //  renderingLink.valueid = 'selected';
@@ -481,7 +482,7 @@ function findBackLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData })
         //     }
         //     return true;
         // }
-        if (renderingLink.source === linkPart.target && renderingLink.paperName === linkPart.paperName) {
+        if (renderingLink.source === linkPart.target && renderingLink.process === linkPart.process) {
             if (renderingLink.target >= 31 && renderingLink.target <= 33) {
                 renderingLink.color = 'intOneLinkColor';
                 renderingLink.valueid = linkPart.valueid;
