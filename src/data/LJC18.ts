@@ -329,7 +329,7 @@ const LJC18: SankeyData = {
     ],
     status: [
         {
-            paperName: 'LJC18_10',
+            paperName: 'LJC18',
             imgUrl: 'bYdgkcY.jpg',
         },
     ],
