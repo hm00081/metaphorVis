@@ -20,7 +20,9 @@ const Row = styled(motion.div)`
 
 interface Props {
     originData: SankeyData;
+    clickedNode: SankeyLinkExtended[] | undefined;
     clickedLink: SankeyLinkExtended | undefined;
+    clickedButton: SankeyLink[] | undefined;
     setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
 }
 
@@ -36,9 +38,8 @@ const rowVariants = {
     },
 };
 
-export const PaperView = ({ originData, setOriginData, clickedLink }: Props) => {
+export const PaperView = ({ originData, setOriginData, clickedLink, clickedNode, clickedButton }: Props) => {
     const [index, setIndex] = useState(0);
-    console.log(originData);
     // const [links, setLInks] = useState<SankeyLinkExtended>();
     const renderingData: SankeyData = { ...originData }; // 정적인 데이터같아보임
     const [hide, setHide] = useState<'want' | 'hide'>('want');
@@ -61,6 +62,17 @@ export const PaperView = ({ originData, setOriginData, clickedLink }: Props) => 
                         .slice(0)
                         .slice(offset * index, offset * index + offset)
                         .filter((paper) => {
+                            //case1: node
+                            if (clickedNode) {
+                                clickedNode.find((link) => {
+                                    if (paper.paperName === link.paperName && link.imgUrl === paper.paperName) {
+                                        return true;
+                                    } else {
+                                        return false;
+                                    }
+                                });
+                            }
+                            //case2: link
                             if (clickedLink) {
                                 if (paper.paperName === clickedLink.paperName) {
                                     return true;
@@ -68,21 +80,21 @@ export const PaperView = ({ originData, setOriginData, clickedLink }: Props) => 
                                     return false;
                                 }
                             }
+                            //case3: button
+                            if (clickedButton) {
+                                clickedButton.find((link) => {
+                                    if (link.color !== 'grayLinkColor' && paper.paperName === link.paperName) {
+                                        return true;
+                                    } else {
+                                        return false;
+                                    }
+                                });
+                            }
                             return true;
                         })
                         .map((paper, i) => (
                             <div className={style.display}>
-                                {paper.imgUrl ? (
-                                    <img
-                                        onClick={() => {
-                                            console.log(paper);
-                                        }}
-                                        style={{ marginBottom: '5px' }}
-                                        width="65"
-                                        height="65"
-                                        src={`https://i.imgur.com/${paper.imgUrl}`}
-                                    ></img>
-                                ) : null}
+                                {paper.imgUrl ? <img style={{ marginBottom: '5px' }} width="65" height="65" src={`https://i.imgur.com/${paper.imgUrl}`}></img> : null}
                                 {paper.imgUrl ? <div style={{ fontSize: '12px', fontWeight: 'bold', textAlign: 'center' }}>{paper.paperName}</div> : null}
                             </div>
                         ))}

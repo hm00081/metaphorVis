@@ -96,8 +96,8 @@ export type SankeyNodeExtended = SankeyNode & {
     height: number;
     link?: SankeyLinkExtended;
     hover?: undefined;
-    sourceLink: SankeyLinkExtended;
-    targetLink: SankeyLinkExtended;
+    sourceLink: string | number;
+    targetLink: string | number;
     hassourceLink: number;
     hastargetLink: number;
 };

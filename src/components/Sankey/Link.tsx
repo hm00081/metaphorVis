@@ -59,18 +59,6 @@ export namespace Types {
     };
 }
 
-// interface IBrushProps {
-//     dimensions: Types.Dimensions;
-//     data: Types.Data[];
-//     node?: SankeyNodeExtended;
-//     link?: SankeyLinkExtended;
-//     propertiesNames: string[];
-//     onBrushUpdateData: (value: Date[]) => void;
-//     stroke: string;
-//     x: number;
-//     y: number;
-// }
-
 // Component
 export const Link = ({ nodes, node, link, links, originData, sourceTargetIdLinksDict, setOriginData, setClickedLink }: LinkProps) => {
     const [titleLabel, setTitleLabel] = useState<string>('default link label');
@@ -82,7 +70,7 @@ export const Link = ({ nodes, node, link, links, originData, sourceTargetIdLinks
     const onClickFunction = (link: SankeyLinkExtended) => {
         // link 정보를 부모컴포넌트 전달해줘야 한다.
         setClickedLink(link);
-
+        console.log(setClickedLink);
         const renderingData: SankeyData = { ...originData };
         // console.log(renderingData);
         renderingData.positionStatus = 'clicked';
@@ -285,13 +273,6 @@ export const Link = ({ nodes, node, link, links, originData, sourceTargetIdLinks
                     //TODO 팝업메세지 나열
                     <title>
                         {(() => {
-                            //TODO 1번째 구간 링크 정보를 담는 데이터
-                            //TODO 각각의 정보들을 갖고 있는 배열에 대해서 같은 조건일 때 이어줘야하는 함수를 새로 또 만들어야 할 것 같아보인다.
-
-                            //TODO 1번째 단위 기능 : <title/>에 문자열을 넣는 단위 기능 (e.g. 함수..) -> 완료
-                            //TODO 2번째 단위 기능 : 링크 정보들을 찾는 단위 기능 (e.g. 함수..) -> 완료
-                            //TODO 3번째 단위 기능 : 찾은 링크 정보들을 담는 데이터 구조 (e.g. 배열 등..)
-                            //TODO 4번째 단위 기능 : 찾은 링크 정보들을 담은 데이터를 "1번째 단위 기능"에 전달하기 (e.g. 함수 등..
                             return titleLabel;
                         })()}
                     </title>

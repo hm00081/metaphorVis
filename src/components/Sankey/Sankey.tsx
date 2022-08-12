@@ -80,6 +80,7 @@ interface Props {
     minLinkBreadth?: number;
     maxLinkBreadth?: number;
     setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
+    setClickedNode: React.Dispatch<React.SetStateAction<SankeyLinkExtended[] | undefined>>;
     setClickedLink: React.Dispatch<React.SetStateAction<SankeyLinkExtended | undefined>>;
 }
 
@@ -104,11 +105,11 @@ export const Sankey = ({
     minLinkBreadth,
     maxLinkBreadth,
     setOriginData,
+    setClickedNode,
     setClickedLink,
 }: Props) => {
     const [nodes, setNodes] = useState<SankeyNodeExtended[]>([]);
     const [links, setLinks] = useState<SankeyLinkExtended[]>([]);
-
     const [sourceTargetIdLinksDict, setSourceTargetIdLinksDict] = useState<SourceTargetIdLinksDict>({});
     const [transform, setTransform] = useState<d3.ZoomTransform | null>(null);
 
@@ -168,6 +169,7 @@ export const Sankey = ({
         <svg
             onClick={(event) => {
                 setClickedLink(undefined);
+                setClickedNode(undefined);
             }}
             className="size"
             width={width}
@@ -226,6 +228,7 @@ export const Sankey = ({
                     originData={originData}
                     sourceTargetIdLinksDict={sourceTargetIdLinksDict}
                     setOriginData={setOriginData}
+                    setClickedNode={setClickedNode}
                 >
                     {/* {() => {
                             if ((i = 30)) {

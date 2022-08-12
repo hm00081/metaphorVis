@@ -6,7 +6,7 @@ import { SideNavi } from './components/SideNavi/SideNavi';
 // import { SankeyGraph } from './components/SankeyGraph';
 import { fullData } from './Data';
 import { useState, useEffect } from 'react';
-import { SankeyData, SankeyLinkExtended } from './types';
+import { SankeyData, SankeyLink, SankeyLinkExtended } from './types';
 
 interface Props {
     originData: SankeyData;
@@ -17,6 +17,8 @@ interface Props {
 export default function App() {
     const [originData, setOriginData] = useState(fullData);
     const [clickedLink, setClickedLink] = useState<SankeyLinkExtended>();
+    const [clickedNode, setClickedNode] = useState<SankeyLinkExtended[]>();
+    const [clickedButton, setClickedButton] = useState<SankeyLink[]>();
     //const [filteredData, setFilteredData] = useState<SankeyData>();
 
     // useEffect(() => {
@@ -27,9 +29,8 @@ export default function App() {
         <div className={style.root}>
             <Header />
             <div className={style.mainContainer}>
-                <SideNavi clickedLink={clickedLink} />
-                {/* <SankeyGraph /> */}
-                <FinalSankey setClickedLink={setClickedLink} />
+                <SideNavi clickedNode={clickedNode} clickedLink={clickedLink} clickedButton={clickedButton} />
+                <FinalSankey setClickedNode={setClickedNode} setClickedLink={setClickedLink} setClickedButton={setClickedButton} />
             </div>
         </div>
     );
