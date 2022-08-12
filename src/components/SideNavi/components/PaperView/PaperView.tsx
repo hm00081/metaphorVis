@@ -106,14 +106,6 @@ function findSameImg(arg: { link: SankeyLink; data: SankeyData; setPaperImg: Rea
     const findImg = data.links.find((candidateImg) => {
         if (candidateImg.color !== 'grayLinkColor') {
             if (candidateImg.paperName === currentlink.paperName) {
-                //peperName자체에 논문정보가 존재하므로 재귀는 따로 신경 안써도 될 듯하다.
-                // {
-                //     paper.imgUrl ? <img style={{ marginBottom: '5px' }} width="65" height="65" src={`https://i.imgur.com/${paper.imgUrl}`}></img> : null;
-                // }
-                // {
-                //     paper.imgUrl ? <div style={{ fontSize: '12px', fontWeight: 'bold', textAlign: 'center' }}>{paper.paperName}</div> : null;
-                // }
-
                 return true;
             } else {
                 return false;

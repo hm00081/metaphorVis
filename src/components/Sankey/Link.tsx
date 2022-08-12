@@ -527,6 +527,7 @@ function findFrontSameProcessLink(arg: { link: SankeyLinkExtended; links: Sankey
 
     if (frontLink) {
         const lefterTitleLabel = findFrontSameProcessLink({
+            //
             link: frontLink,
             links,
         });
