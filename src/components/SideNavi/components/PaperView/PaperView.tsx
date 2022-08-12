@@ -5,6 +5,7 @@ import { SankeyData, SankeyNode, SankeyLink, SankeyNodeExtended, SankeyLinkExten
 import { useEffect } from 'react';
 import { calcSankeyNodes, calcSankeyLinks } from '../../../../utils';
 import style from './index.module.scss';
+import { link } from 'fs';
 
 const Row = styled(motion.div)`
     display: flex;
@@ -28,6 +29,8 @@ interface Props {
     minLinkBreadth?: number;
     maxLinkBreadth?: number;
     setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
+    filteredList: SankeyLink[];
+    setFilteredList: React.Dispatch<React.SetStateAction<SankeyLink[]>>;
 }
 
 const rowVariants = {
@@ -42,48 +45,40 @@ const rowVariants = {
     },
 };
 
-function filterImg(originData: SankeyData) {
-    const filteredImg = originData.links.find((paper, i) => {
-        if (paper.color !== 'grayLinkColor' && originData.status[i].paperName === paper.paperName) {
-            console.log(1);
-            return true;
-        } else {
-            console.log(0);
-            return false;
-        }
-    });
-    let findImgPaperName: string = filteredImg ? filteredImg.paperName! : '';
-
-    return findImgPaperName;
-}
-
-export const PaperView = ({ originData, setOriginData }: Props) => {
+export const PaperView = ({ originData, setOriginData, filteredList, setFilteredList }: Props) => {
     const [index, setIndex] = useState(0);
+    const [links, setLInks] = useState<SankeyLinkExtended>();
     const renderingData: SankeyData = { ...originData };
-    const [nodes, setNodes] = useState<SankeyNodeExtended[]>([]);
-    const [links, setLinks] = useState<SankeyLinkExtended[]>([]);
+    const [hide, setHide] = useState<'want' | 'hide'>('want');
+    const [paperimg, setPaperImg] = useState<SankeyLink>();
     const offset = 60;
-    useEffect(() => {
-        // const filteredList = renderingData.links.filter((data, i) => {
-        //     let flag: boolean = false;
-        //     if (data.paperName) {
-        //         for (const [key, property] of Object.entries(data.paperName)) {
-        //             if (renderingData.status[i].paperName === data.paperName) {
-        //                 flag = true;
-        //             } else {
-        //                 flag = false;
-        //             }
-        //         }
-        //     }
-        // });
-    }, [originData]);
-
-    const linkStatus = renderingData.links.filter((links) => {
-        if (links.source >= 100 && links.color !== 'grayDarkLinkColor') {
+    const linkStatus = renderingData.links.filter((data, i) => {
+        if (data.source >= 100 && data.color !== 'grayDarkLinkColor') {
             return { ...links };
         } else return null;
     });
-    console.log(linkStatus);
+    // console.log(linkStatus);
+
+    useEffect(() => {
+        const filteredList = linkStatus.filter((paper) => {
+            let imgFlag: boolean = false;
+            let colorFlag: boolean = false;
+            // console.log(paper);
+            if (paper.paperName && paper.source >= 100) {
+                for (const [key, property] of Object.entries(paper)) {
+                    if (key === 'color') {
+                        if (property !== 'grayLinkColor') {
+                            colorFlag = true;
+                        } else colorFlag = false;
+                    } else colorFlag = false;
+                }
+            } else return false;
+
+            return colorFlag;
+        });
+        // console.log(filteredList);
+        setFilteredList(filteredList);
+    }, [filteredList]);
 
     return (
         <>
@@ -93,7 +88,7 @@ export const PaperView = ({ originData, setOriginData }: Props) => {
                     {renderingData.status
                         .slice(0)
                         .slice(offset * index, offset * index + offset)
-                        .map((paper) => (
+                        .map((paper, i) => (
                             <div className={style.display}>
                                 {paper.imgUrl ? <img style={{ marginBottom: '5px' }} width="65" height="65" src={`https://i.imgur.com/${paper.imgUrl}`}></img> : null}
                                 {paper.imgUrl ? <div style={{ fontSize: '12px', fontWeight: 'bold', textAlign: 'center' }}>{paper.paperName}</div> : null}
@@ -105,3 +100,26 @@ export const PaperView = ({ originData, setOriginData }: Props) => {
     );
 };
 // 부모 컴포넌트에서 동일한 데이터를 쏴줘야 할 것 같아보임.
+
+function findSameImg(arg: { link: SankeyLink; data: SankeyData; setPaperImg: React.Dispatch<React.SetStateAction<SankeyLink>> }) {
+    const { link: currentlink, data, setPaperImg } = arg;
+    const findImg = data.links.find((candidateImg) => {
+        if (candidateImg.color !== 'grayLinkColor') {
+            if (candidateImg.paperName === currentlink.paperName) {
+                //peperName자체에 논문정보가 존재하므로 재귀는 따로 신경 안써도 될 듯하다.
+                // {
+                //     paper.imgUrl ? <img style={{ marginBottom: '5px' }} width="65" height="65" src={`https://i.imgur.com/${paper.imgUrl}`}></img> : null;
+                // }
+                // {
+                //     paper.imgUrl ? <div style={{ fontSize: '12px', fontWeight: 'bold', textAlign: 'center' }}>{paper.paperName}</div> : null;
+                // }
+
+                return true;
+            } else {
+                return false;
+            }
+        } else return false;
+    });
+    //@ts-ignore
+    setPaperImg(findImg);
+}

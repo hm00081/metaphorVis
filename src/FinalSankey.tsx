@@ -11,7 +11,7 @@ import Button from '@mui/material/Button';
 // Data & Hooks
 import { useState, useEffect, useRef } from 'react';
 import { basicData, targetaa, targetab, targetba, targetbb, targetca, targetcb, repa, repb, repc, repd, repea, repeb, repf, repg, reph, empty, fullData } from './Data';
-import { SankeyData } from './types';
+import { SankeyData, SankeyLink } from './types';
 import { WordData } from './components/WordCloud/react-cloud/types/index';
 import { ButtonGroup } from '@mui/material';
 import style from './button.module.scss';
@@ -22,6 +22,7 @@ export default function FinalSankey() {
     const [btn, setBtn] = useState(15);
     const [selected, setSelcted] = useState<'click' | 'unclick'>('unclick');
     const [originData, setOriginData] = useState<SankeyData>(fullData);
+    const [filteredList, setFilteredList] = useState<SankeyLink[]>([]);
     // cloud data state
     const [originCloudData, setOriginCloudData] = useState<WordData>();
     const isMounted = useRef(true);
@@ -31,6 +32,7 @@ export default function FinalSankey() {
     useEffect(() => {
         setTimeout(() => {
             setOriginData(fullData);
+            setFilteredList(filteredList);
         }, 1000);
         isMounted.current = false;
     }, []);
@@ -42,6 +44,7 @@ export default function FinalSankey() {
                 <div className={style.btnWrapper}>
                     <div className={style.btn}>
                         <div className={style.btnTitle}>Target Theme</div>
+                        {/* 버튼높이 헤더부분에 맞추고, 버튼그룹 폭을 생키와 동일하게. */}
                         <ButtonGroup
                             // orientation={`${matches ? 'horizontal' : 'verticcal'}`}
                             size="large"

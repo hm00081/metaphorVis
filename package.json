@@ -1,6 +1,6 @@
 {
     "homepage": "https://hm00081.github.io/metaphorViz",
-    "name": "metaphorViz",
+    "name": "sentiviz",
     "version": "0.1.0",
     "private": true,
     "dependencies": {

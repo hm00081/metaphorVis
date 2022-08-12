@@ -218,8 +218,8 @@ export const Link = ({ nodes, node, link, links, originData, sourceTargetIdLinks
             });
 
             if (link.process === selectedLinkPart.process) {
-                // console.log('같은 경우 있음? ', link.process);
-                // console.log(selectedLinkPart);
+                console.log('같은 경우 있음? ', link.process);
+                console.log(selectedLinkPart);
             }
         });
 
