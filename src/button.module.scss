@@ -1,5 +1,7 @@
 .sankey {
     padding: 10px 30px;
+    // width: 100vw- 500px;
+    // overflow: hidden;
 }
 
 .mainTitle {
@@ -9,7 +11,7 @@
 
 .btnWrapper {
     display: flex;
-    gap: 50px;
+    gap: 9.2em;
 }
 .btn {
     display: flex;
@@ -25,7 +27,7 @@
 .btnGroup {
     // min-width: 600px;
     // max-width: 700px;
-    max-height: 60px;
+    max-height: 40px;
     margin-top: 8px;
     height: 50px;
     margin-bottom: 20px;

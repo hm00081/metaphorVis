@@ -37,6 +37,7 @@ interface LinkProps {
     originData: SankeyData;
     setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
     sourceTargetIdLinksDict: SourceTargetIdLinksDict;
+    setClickedLink: React.Dispatch<React.SetStateAction<SankeyLinkExtended | undefined>>;
 }
 
 export namespace Types {
@@ -58,27 +59,30 @@ export namespace Types {
     };
 }
 
-interface IBrushProps {
-    dimensions: Types.Dimensions;
-    data: Types.Data[];
-    node?: SankeyNodeExtended;
-    link?: SankeyLinkExtended;
-    propertiesNames: string[];
-    onBrushUpdateData: (value: Date[]) => void;
-    stroke: string;
-    x: number;
-    y: number;
-}
+// interface IBrushProps {
+//     dimensions: Types.Dimensions;
+//     data: Types.Data[];
+//     node?: SankeyNodeExtended;
+//     link?: SankeyLinkExtended;
+//     propertiesNames: string[];
+//     onBrushUpdateData: (value: Date[]) => void;
+//     stroke: string;
+//     x: number;
+//     y: number;
+// }
 
 // Component
-export const Link = ({ nodes, node, link, links, originData, sourceTargetIdLinksDict, setOriginData }: LinkProps) => {
+export const Link = ({ nodes, node, link, links, originData, sourceTargetIdLinksDict, setOriginData, setClickedLink }: LinkProps) => {
     const [titleLabel, setTitleLabel] = useState<string>('default link label');
     const [refresh, setRefresh] = useState(originData);
     // useEffect(() => {
     //     console.log('refresh');
     //     setOriginData(originData);
     // }, [refresh]);
-    const onClickFunction = () => {
+    const onClickFunction = (link: SankeyLinkExtended) => {
+        // link 정보를 부모컴포넌트 전달해줘야 한다.
+        setClickedLink(link);
+
         const renderingData: SankeyData = { ...originData };
         // console.log(renderingData);
         renderingData.positionStatus = 'clicked';
@@ -218,8 +222,8 @@ export const Link = ({ nodes, node, link, links, originData, sourceTargetIdLinks
             });
 
             if (link.process === selectedLinkPart.process) {
-                console.log('같은 경우 있음? ', link.process);
-                console.log(selectedLinkPart);
+                // console.log('같은 경우 있음? ', link.process);
+                // console.log(selectedLinkPart);
             }
         });
 
@@ -265,7 +269,18 @@ export const Link = ({ nodes, node, link, links, originData, sourceTargetIdLinks
 
     return (
         <>
-            <path className="link" d={link.path} stroke={`url(#${link.color})`} strokeWidth={link.value} fill="none" onClick={onClickFunction} onMouseEnter={onMouseEnterFunction}>
+            <path
+                className="link"
+                d={link.path}
+                stroke={`url(#${link.color})`}
+                strokeWidth={link.value}
+                fill="none"
+                onClick={(event) => {
+                    onClickFunction(link);
+                    event.stopPropagation();
+                }}
+                onMouseEnter={onMouseEnterFunction}
+            >
                 {link.color !== 'grayLinkColor' && link.process ? (
                     //TODO 팝업메세지 나열
                     <title>

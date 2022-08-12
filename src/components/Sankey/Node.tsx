@@ -63,7 +63,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                 height={node.value}
                 fill={node.color}
                 onClick={() => {
-                    // console.log('clicked link', links);
+                    console.log(node);
                     const renderingData: SankeyData = { ...originData };
                     renderingData.positionStatus = 'clicked';
                     renderingData.links = renderingData.links.map((link) => {

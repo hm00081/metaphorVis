@@ -6,18 +6,21 @@ import { Sankey } from './components/Sankey';
 
 // Global Styles
 import './styles.scss';
-import styled from 'styled-components';
 import Button from '@mui/material/Button';
 // Data & Hooks
 import { useState, useEffect, useRef } from 'react';
 import { basicData, targetaa, targetab, targetba, targetbb, targetca, targetcb, repa, repb, repc, repd, repea, repeb, repf, repg, reph, empty, fullData } from './Data';
-import { SankeyData, SankeyLink } from './types';
+import { SankeyData, SankeyLink, SankeyLinkExtended } from './types';
 import { WordData } from './components/WordCloud/react-cloud/types/index';
 import { ButtonGroup } from '@mui/material';
 import style from './button.module.scss';
 
+interface Props {
+    setClickedLink: React.Dispatch<React.SetStateAction<SankeyLinkExtended | undefined>>;
+}
+
 // Component
-export default function FinalSankey() {
+export default function FinalSankey({ setClickedLink }: Props) {
     const [ref, { width, height }] = useMeasure<HTMLDivElement>();
     const [btn, setBtn] = useState(15);
     const [selected, setSelcted] = useState<'click' | 'unclick'>('unclick');
@@ -26,12 +29,11 @@ export default function FinalSankey() {
     // cloud data state
     const [originCloudData, setOriginCloudData] = useState<WordData>();
     const isMounted = useRef(true);
-    // console.log(originData);
-    const title = ['Paper', 'Target', 'Intermediation', 'Representation', 'Vis var&tech'];
 
     useEffect(() => {
         setTimeout(() => {
             setOriginData(fullData);
+            setBtn(15);
             setFilteredList(filteredList);
         }, 1000);
         isMounted.current = false;
@@ -62,7 +64,7 @@ export default function FinalSankey() {
                                     setBtn(9);
                                 }}
                                 variant={btn === 9 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630' }}
+                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630', width: 'auto', padding: '8px' }}
                             >
                                 Politician's Speech
                             </Button>
@@ -73,7 +75,7 @@ export default function FinalSankey() {
                                     setBtn(10);
                                 }}
                                 variant={btn === 10 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630' }}
+                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630', width: 'auto', padding: '8px' }}
                             >
                                 Opinion to Politicians
                             </Button>
@@ -84,7 +86,7 @@ export default function FinalSankey() {
                                     setBtn(11);
                                 }}
                                 variant={btn === 11 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630' }}
+                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630', width: 'auto', padding: '8px' }}
                             >
                                 Product Appraisal
                             </Button>
@@ -95,7 +97,7 @@ export default function FinalSankey() {
                                     setBtn(12);
                                 }}
                                 variant={btn === 12 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630' }}
+                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630', width: 'auto', padding: '8px' }}
                             >
                                 Service Appraisal
                             </Button>
@@ -106,7 +108,7 @@ export default function FinalSankey() {
                                     setBtn(13);
                                 }}
                                 variant={btn === 13 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630' }}
+                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630', width: 'auto', padding: '8px' }}
                             >
                                 Opinion on a Specific Event
                             </Button>
@@ -117,7 +119,7 @@ export default function FinalSankey() {
                                     setBtn(16);
                                 }}
                                 variant={btn === 16 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630' }}
+                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630', width: 'auto', padding: '8px' }}
                             >
                                 Diffusion of Sentiment
                             </Button>
@@ -142,7 +144,7 @@ export default function FinalSankey() {
                                     setBtn(1);
                                 }}
                                 variant={btn === 1 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630' }}
+                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630', width: 'auto', padding: '8px' }}
                             >
                                 Map
                             </Button>
@@ -153,7 +155,7 @@ export default function FinalSankey() {
                                     setBtn(2);
                                 }}
                                 variant={btn === 2 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630' }}
+                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630', width: 'auto', padding: '8px' }}
                             >
                                 River
                             </Button>
@@ -164,7 +166,7 @@ export default function FinalSankey() {
                                     setBtn(3);
                                 }}
                                 variant={btn === 3 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630' }}
+                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630', width: 'auto', padding: '8px' }}
                             >
                                 Plant
                             </Button>
@@ -175,7 +177,7 @@ export default function FinalSankey() {
                                     setBtn(4);
                                 }}
                                 variant={btn === 4 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630' }}
+                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630', width: 'auto', padding: '8px' }}
                             >
                                 Bubble
                             </Button>
@@ -186,7 +188,7 @@ export default function FinalSankey() {
                                     setBtn(5);
                                 }}
                                 variant={btn === 5 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630' }}
+                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630', width: 'auto', padding: '8px' }}
                             >
                                 Wheel
                             </Button>
@@ -197,7 +199,7 @@ export default function FinalSankey() {
                                     setBtn(6);
                                 }}
                                 variant={btn === 6 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630' }}
+                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630', width: 'auto', padding: '8px' }}
                             >
                                 Building & Structure
                             </Button>
@@ -208,7 +210,7 @@ export default function FinalSankey() {
                                     setBtn(7);
                                 }}
                                 variant={btn === 7 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630' }}
+                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630', width: 'auto', padding: '8px' }}
                             >
                                 Geometry
                             </Button>
@@ -219,7 +221,7 @@ export default function FinalSankey() {
                                     setBtn(8);
                                 }}
                                 variant={btn === 8 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630' }}
+                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630', width: 'auto', padding: '8px' }}
                             >
                                 Machine
                             </Button>
@@ -230,7 +232,7 @@ export default function FinalSankey() {
                                     setBtn(14);
                                 }}
                                 variant={btn === 14 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630' }}
+                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630', width: 'auto', padding: '8px' }}
                             >
                                 Decorative Pattern
                             </Button>
@@ -253,7 +255,7 @@ export default function FinalSankey() {
                                     setBtn(0);
                                 }}
                                 variant={btn === 0 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630' }}
+                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630', width: 'auto', padding: '8px' }}
                             >
                                 Show Empty
                             </Button>
@@ -264,7 +266,7 @@ export default function FinalSankey() {
                                     setBtn(15);
                                 }}
                                 variant={btn === 15 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630' }}
+                                style={{ fontSize: '12px', textTransform: 'none', fontWeight: '630', width: 'auto', padding: '8px' }}
                             >
                                 Show Full
                             </Button>
@@ -283,6 +285,7 @@ export default function FinalSankey() {
                         minLinkBreadth={0.1}
                         maxLinkBreadth={2}
                         setOriginData={setOriginData}
+                        setClickedLink={setClickedLink}
                     />
                 </div>
             </div>

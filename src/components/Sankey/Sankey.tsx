@@ -80,6 +80,7 @@ interface Props {
     minLinkBreadth?: number;
     maxLinkBreadth?: number;
     setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
+    setClickedLink: React.Dispatch<React.SetStateAction<SankeyLinkExtended | undefined>>;
 }
 
 export interface SourceTargetIdLinksDict {
@@ -91,7 +92,20 @@ export type SourceTargetIdNodesDict = SourceTargetIdLinksDict & {
 };
 
 // Component
-export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft = 0, nodeWidth = 20, nodeHeight = 20, nodeMargin = 5, minLinkBreadth, maxLinkBreadth, setOriginData }: Props) => {
+export const Sankey = ({
+    width,
+    height,
+    originData,
+    paddingTop = 0,
+    paddingLeft = 0,
+    nodeWidth = 20,
+    nodeHeight = 20,
+    nodeMargin = 5,
+    minLinkBreadth,
+    maxLinkBreadth,
+    setOriginData,
+    setClickedLink,
+}: Props) => {
     const [nodes, setNodes] = useState<SankeyNodeExtended[]>([]);
     const [links, setLinks] = useState<SankeyLinkExtended[]>([]);
 
@@ -151,7 +165,14 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
     const columnss = ['Paper', 'Paper', 'Target', 'Intermediation', 'Representation', 'Vis Var&Tech'];
 
     return (
-        <svg className="size" width={width} height={height}>
+        <svg
+            onClick={(event) => {
+                setClickedLink(undefined);
+            }}
+            className="size"
+            width={width}
+            height={height}
+        >
             <LinkGrayColor />
             <LinkBlueColor />
             <LinkDeepBlueColor />
@@ -188,7 +209,7 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
                 <BigBox>
                     {/* <rect className="column" x={width / columns.length} y={0} width={width / columns.length} height={height} fill="#eee" /> */}
                     {/* <text x={(width / columns.length) * i + width / columns.length / 10} y={height * 0.02} textAnchor="middle"> */}
-                    <text style={style} className="coltext" x={480 * i - 460} y={(height as number) * 0.02} textAnchor="middle">
+                    <text style={style} className="coltext" x={450 * i - 430} y={(height as number) * 0.02} textAnchor="middle">
                         {`${column}`}
                     </text>
                 </BigBox>
@@ -220,7 +241,16 @@ export const Sankey = ({ width, height, originData, paddingTop = 0, paddingLeft 
 
             {links.map((link, i) => (
                 // @ts-ignore
-                <Link key={`link-${i}`} nodes={nodes} link={link} links={links} originData={originData} sourceTargetIdLinksDict={sourceTargetIdLinksDict} setOriginData={setOriginData} />
+                <Link
+                    key={`link-${i}`}
+                    nodes={nodes}
+                    link={link}
+                    links={links}
+                    originData={originData}
+                    sourceTargetIdLinksDict={sourceTargetIdLinksDict}
+                    setOriginData={setOriginData}
+                    setClickedLink={setClickedLink}
+                />
             ))}
         </svg>
     );

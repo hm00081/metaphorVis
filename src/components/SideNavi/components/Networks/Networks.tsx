@@ -232,7 +232,7 @@ export const Networks = ({ originData, setOriginData }: Props) => {
                         </g>
                         <g>
                             <text transform="matrix(1 0 0 1 196.1244 917.04)" className={style.nodeText}>
-                                toy&amp;instrument
+                                toy&instrument
                             </text>
                         </g>
                         <g>
@@ -262,7 +262,7 @@ export const Networks = ({ originData, setOriginData }: Props) => {
                         </g>
                         <g>
                             <text transform="matrix(1 0 0 1 94.5946 382.6704)" className={style.nodeText}>
-                                non metal
+                                nonmetal
                             </text>
                         </g>
                         <g>
@@ -327,7 +327,7 @@ export const Networks = ({ originData, setOriginData }: Props) => {
                         </g>
                         <g>
                             <text transform="matrix(1 0 0 1 214.8138 283.6343)" className={style.nodeText}>
-                                machine&amp;software work
+                                machine&software work
                             </text>
                         </g>
                         <g>
@@ -337,7 +337,7 @@ export const Networks = ({ originData, setOriginData }: Props) => {
                         </g>
                         <g>
                             <text transform="matrix(1 0 0 1 739.538 699.3584)" className={style.nodeText}>
-                                building&amp;structure
+                                building&structure
                             </text>
                         </g>
                         <text transform="matrix(1 0 0 1 208.3363 777.6445)" className={style.nodeText}>
@@ -358,85 +358,173 @@ export const Networks = ({ originData, setOriginData }: Props) => {
                         {/* 시계방향 */}
                         <ellipse
                             onClick={() => {
-                                console.log('C1');
+                                console.log('Cluster 1');
                             }}
                             className={style.area17}
                             cx="656.1"
                             cy="130.6"
                             rx="238.3"
                             ry="131"
-                        />
+                        >
+                            <title>Cluster 1</title>
+                        </ellipse>
                         <ellipse
                             onClick={() => {
-                                console.log('C2');
+                                console.log('Cluster 2');
                             }}
                             className={style.area18}
                             cx="1093.3"
                             cy="332.7"
                             rx="158.5"
                             ry="101.1"
-                        />
+                        >
+                            <title>Cluster 2</title>
+                        </ellipse>
                         <ellipse
                             onClick={() => {
-                                console.log('C3');
+                                console.log('Cluster 3');
                             }}
                             className={style.area19}
                             cx="909.1"
                             cy="745.1"
                             rx="378.2"
                             ry="101.1"
-                        />
+                        >
+                            <title>Cluster 3</title>
+                        </ellipse>
                         <ellipse
                             onClick={() => {
-                                console.log('C4');
+                                console.log('Cluster 4');
                             }}
                             className={style.area20}
                             cx="310.2"
                             cy="452.9"
                             rx="300.4"
                             ry="261.2"
-                        />
+                        >
+                            <title>Cluster 4</title>
+                        </ellipse>
 
-                        <rect x="963.2" y="339.4" className={style.repreentationNode} width="21.7" height="21.7" />
-                        <rect x="1042.7" y="288.3" className={style.repreentationNode} width="21.7" height="21.7" />
-                        <rect x="1146.3" y="274.6" className={style.repreentationNode} width="21.7" height="21.7" />
-                        <rect x="780.1" y="65.7" className={style.repreentationNode} width="21.7" height="21.7" />
-                        <rect x="648.7" y="14.6" className={style.repreentationNode} width="21.7" height="21.7" />
-                        <rect x="483.6" y="43.4" className={style.repreentationNode} width="21.7" height="21.7" />
-                        <rect x="307.8" y="220.8" className={style.repreentationNode} width="21.7" height="21.7" />
-                        <rect x="185.9" y={267} className={style.repreentationNode} width="21.7" height="21.7" />
-                        <rect x="136.5" y="322.7" className={style.repreentationNode} width="21.7" height="21.7" />
-                        <rect x="67.3" y="371.3" className={style.repreentationNode} width="21.7" height="21.7" />
-                        <rect x="44.9" y="429.7" className={style.repreentationNode} width="21.7" height="21.7" />
-                        <rect x="112.5" y="468.4" className={style.repreentationNode} width="21.7" height="21.7" />
-                        <rect x="146.7" y="535.1" className={style.repreentationNode} width="21.7" height="21.7" />
-                        <rect x="202.1" y="563.5" className={style.repreentationNode} width="21.7" height="21.7" />
-                        <rect x="351.7" y="551.5" className={style.repreentationNode} width="21.7" height="21.7" />
-                        <rect x="358.7" y={676} className={style.repreentationNode} width="21.7" height="21.7" />
-                        <rect x="480.9" y="689.6" className={style.repreentationNode} width="21.7" height="21.7" />
-                        <rect x="166.3" y="898.7" className={style.repreentationNode} width="21.7" height="21.7" />
-                        <rect x="456.7" y="1054.8" className={style.repreentationNode} width="21.7" height="21.7" />
-                        <rect x="351.3" y="1000.6" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="412.6" y="896.9" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="677.4" y={774} className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="758.3" y="731.6" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="656.2" y="572.2" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="599.2" y="534.7" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="687.7" y="316.8" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="539.7" y="199.5" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="620.1" y="112.2" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="1046.9" y="384.4" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="1116.2" y="334.7" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="417.3" y="617.5" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="327.1" y="455.1" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="224.9" y={401} className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="179.8" y="764.5" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="8.4" y="617.3" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="572.4" y="722.8" className={style.repreentationNode} width="21.7" height="21.7" />
-                        <rect x="712.1" y="688.1" className={style.repreentationNode} width="21.7" height="21.7" />
-                        <rect x={479} y="506.2" className={style.repreentationNode} width="21.7" height="21.7" />
-                        <rect x="447.7" y="385.9" className={style.repreentationNode} width="21.7" height="21.7" />
-                        <rect x={351} y="340.9" className={style.repreentationNode} width="21.7" height="21.7" />
+                        <rect x="963.2" y="339.4" className={style.repreentationNode} width="21.7" height="21.7">
+                            <title>animal</title>
+                        </rect>
+                        <rect x="1042.7" y="288.3" className={style.repreentationNode} width="21.7" height="21.7">
+                            <title>picture</title>
+                        </rect>
+                        <rect x="1146.3" y="274.6" className={style.repreentationNode} width="21.7" height="21.7">
+                            <title>fiber</title>
+                        </rect>
+                        <rect x="780.1" y="65.7" className={style.repreentationNode} width="21.7" height="21.7">
+                            <title>cell</title>
+                        </rect>
+                        <rect x="648.7" y="14.6" className={style.repreentationNode} width="21.7" height="21.7">
+                            <title>food</title>
+                        </rect>
+                        <rect x="483.6" y="43.4" className={style.repreentationNode} width="21.7" height="21.7">
+                            <title>celestial</title>
+                        </rect>
+                        <rect x="307.8" y="220.8" className={style.repreentationNode} width="21.7" height="21.7">
+                            <title>behavior</title>
+                        </rect>
+                        <rect x="185.9" y="267" className={style.repreentationNode} width="21.7" height="21.7">
+                            <title>machine&software work</title>
+                        </rect>
+                        <rect x="136.5" y="322.7" className={style.repreentationNode} width="21.7" height="21.7">
+                            <title>creation and destruction</title>
+                        </rect>
+                        <rect x="67.3" y="371.3" className={style.repreentationNode} width="21.7" height="21.7">
+                            <title>nonmetal</title>
+                        </rect>
+                        <rect x="44.9" y="429.7" className={style.repreentationNode} width="21.7" height="21.7">
+                            <title>space time movement</title>
+                        </rect>
+                        <rect x="112.5" y="468.4" className={style.repreentationNode} width="21.7" height="21.7">
+                            <title>natural phenomena</title>
+                        </rect>
+                        <rect x="146.7" y="535.1" className={style.repreentationNode} width="21.7" height="21.7">
+                            <title>plant</title>
+                        </rect>
+                        <rect x="202.1" y="563.5" className={style.repreentationNode} width="21.7" height="21.7">
+                            <title>landscape</title>
+                        </rect>
+                        <rect x="351.7" y="551.5" className={style.repreentationNode} width="21.7" height="21.7">
+                            <title>geometry</title>
+                        </rect>
+                        <rect x="358.7" y="676" className={style.repreentationNode} width="21.7" height="21.7">
+                            <title>map</title>
+                        </rect>
+                        <rect x="480.9" y="689.6" className={style.repreentationNode} width="21.7" height="21.7">
+                            <title>letter</title>
+                        </rect>
+                        <rect x="166.3" y="898.7" className={style.repreentationNode} width="21.7" height="21.7">
+                            <title>toy&instrument</title>
+                        </rect>
+                        <rect x="456.7" y="1054.8" className={style.repreentationNode} width="21.7" height="21.7">
+                            <title>software</title>
+                        </rect>
+                        <rect x="351.3" y="1000.6" className={style.intermediationNode} width="21.7" height="21.7">
+                            <title>finding significant person/opinions/fact/stance/attitude</title>
+                        </rect>
+                        <rect x="412.6" y="896.9" className={style.intermediationNode} width="21.7" height="21.7">
+                            <title>opinion summarization</title>
+                        </rect>
+                        <rect x="677.4" y="774" className={style.intermediationNode} width="21.7" height="21.7">
+                            <title>analysis of debates comments and argumentation</title>
+                        </rect>
+                        <rect x="758.3" y="731.6" className={style.intermediationNode} width="21.7" height="21.7">
+                            <title>argument expression detection</title>
+                        </rect>
+                        <rect x="656.2" y="572.2" className={style.intermediationNode} width="21.7" height="21.7">
+                            <title>identifying the intent of sentiment information</title>
+                        </rect>
+                        <rect x="599.2" y="534.7" className={style.intermediationNode} width="21.7" height="21.7">
+                            <title>detection of evidence event that causes sentiment patterns</title>
+                        </rect>
+                        <rect x="687.7" y="316.8" className={style.intermediationNode} width="21.7" height="21.7">
+                            <title>polarity classification</title>
+                        </rect>
+                        <rect x="539.7" y="199.5" className={style.intermediationNode} width="21.7" height="21.7">
+                            <title>sentiment information description a multi-aspect</title>
+                        </rect>
+                        <rect x="620.1" y="112.2" className={style.intermediationNode} width="21.7" height="21.7">
+                            <title>aspect based sentiment analysis</title>
+                        </rect>
+                        <rect x="1046.9" y="384.4" className={style.intermediationNode} width="21.7" height="21.7">
+                            <title>emotion detection and classification</title>
+                        </rect>
+                        <rect x="1116.2" y="334.7" className={style.intermediationNode} width="21.7" height="21.7">
+                            <title>personalized sentiment analysis</title>
+                        </rect>
+                        <rect x="417.3" y="617.5" className={style.intermediationNode} width="21.7" height="21.7">
+                            <title>comparison of different sentiments</title>
+                        </rect>
+                        <rect x="327.1" y="455.1" className={style.intermediationNode} width="21.7" height="21.7">
+                            <title>easy exploration of sentiment information</title>
+                        </rect>
+                        <rect x="224.9" y="401" className={style.intermediationNode} width="21.7" height="21.7">
+                            <title>timeline analysis</title>
+                        </rect>
+                        <rect x="179.8" y="764.5" className={style.intermediationNode} width="21.7" height="21.7">
+                            <title>multilingual/crosslingual sentiment analysis</title>
+                        </rect>
+                        <rect x="8.4" y="617.3" className={style.intermediationNode} width="21.7" height="21.7">
+                            <title>emotion cause detection</title>
+                        </rect>
+                        <rect x="572.4" y="722.8" className={style.repreentationNode} width="21.7" height="21.7">
+                            <title>compound</title>
+                        </rect>
+                        <rect x="712.1" y="688.1" className={style.repreentationNode} width="21.7" height="21.7">
+                            <title>building&structure</title>
+                        </rect>
+                        <rect x="479" y="506.2" className={style.repreentationNode} width="21.7" height="21.7">
+                            <title>pattern</title>
+                        </rect>
+                        <rect x="447.7" y="385.9" className={style.repreentationNode} width="21.7" height="21.7">
+                            <title>machine</title>
+                        </rect>
+                        <rect x="351" y="340.9" className={style.repreentationNode} width="21.7" height="21.7">
+                            <title>metal</title>
+                        </rect>
                     </g>
                 </switch>
             </svg>
