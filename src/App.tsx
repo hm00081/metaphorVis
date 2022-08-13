@@ -19,6 +19,7 @@ export default function App() {
     const [clickedLink, setClickedLink] = useState<SankeyLinkExtended>();
     const [clickedNode, setClickedNode] = useState<SankeyLinkExtended[]>();
     const [clickedButton, setClickedButton] = useState<SankeyLink[]>();
+    const [clickedCluster, setClickedCluster] = useState<SankeyLinkExtended[]>();
     //const [filteredData, setFilteredData] = useState<SankeyData>();
 
     // useEffect(() => {
@@ -29,7 +30,7 @@ export default function App() {
         <div className={style.root}>
             <Header />
             <div className={style.mainContainer}>
-                <SideNavi clickedNode={clickedNode} clickedLink={clickedLink} clickedButton={clickedButton} />
+                <SideNavi clickedNode={clickedNode} clickedLink={clickedLink} clickedButton={clickedButton} setClickedCluster={setClickedCluster} />
                 <FinalSankey setClickedNode={setClickedNode} setClickedLink={setClickedLink} setClickedButton={setClickedButton} />
             </div>
         </div>

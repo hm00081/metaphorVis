@@ -1,14 +1,16 @@
 import style from './index.module.scss';
-import { SankeyData } from '../../../../types';
-import { basicData, targetaa, targetab, targetba, targetbb, targetca, targetcb, repa, repb, repc, repd, repea, repeb, repf, repg, reph, empty, fullData } from '../../../../Data';
+import { SankeyData, SankeyLinkExtended } from '../../../../types';
+import { ClusterOnes, ClusterTwos, ClusterThrees, ClusterFours } from '../../../../data/AllPaperData';
 
 interface Props {
     originData: SankeyData;
     setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
+    setClickedCluster: React.Dispatch<React.SetStateAction<SankeyLinkExtended[] | undefined>>;
 }
 
-export const Networks = ({ originData, setOriginData }: Props) => {
+export const Networks = ({ originData, setOriginData, setClickedCluster }: Props) => {
     const renderingData: SankeyData = { ...originData };
+
     // const [originData, setOriginData] = useState<SankeyData>(fullData);
     //TODO C1: originData.nodes[36].number, originData.nodes[40].number
     //TODO C2: originData.nodes[41].number, originData.nodes[43].number
@@ -359,6 +361,8 @@ export const Networks = ({ originData, setOriginData }: Props) => {
                         <ellipse
                             onClick={() => {
                                 console.log('Cluster 1');
+                                // 군집에 속한 노드들의 link 데이터 집어넣기
+                                setClickedCluster(ClusterOnes);
                             }}
                             className={style.area17}
                             cx="656.1"
@@ -371,6 +375,8 @@ export const Networks = ({ originData, setOriginData }: Props) => {
                         <ellipse
                             onClick={() => {
                                 console.log('Cluster 2');
+                                // 군집에 속한 노드들의 link 데이터 집어넣기
+                                setClickedCluster(ClusterTwos);
                             }}
                             className={style.area18}
                             cx="1093.3"
@@ -383,6 +389,8 @@ export const Networks = ({ originData, setOriginData }: Props) => {
                         <ellipse
                             onClick={() => {
                                 console.log('Cluster 3');
+                                // 군집에 속한 노드들의 link 데이터 집어넣기
+                                setClickedCluster(ClusterThrees);
                             }}
                             className={style.area19}
                             cx="909.1"
@@ -395,6 +403,8 @@ export const Networks = ({ originData, setOriginData }: Props) => {
                         <ellipse
                             onClick={() => {
                                 console.log('Cluster 4');
+                                // 군집에 속한 노드들의 link 데이터 집어넣기
+                                setClickedCluster(ClusterFours);
                             }}
                             className={style.area20}
                             cx="310.2"

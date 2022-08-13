@@ -26,6 +26,10 @@ import {
     RepGs,
     RepHs,
     Emptys,
+    ClusterOnes,
+    ClusterTwos,
+    ClusterThrees,
+    ClusterFours,
 } from './data/AllPaperData';
 
 //@ts-ignore
@@ -139,11 +143,11 @@ const basicData: SankeyData = {
 
         return { ...node, color };
     }),
-    links: RepAs.map((link) => {
+    links: AllPaperDatas.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         // let status: string = '';
         //@ts-ignore
-        if (hasLinkInGroup(link, RepAs)) {
+        if (hasLinkInGroup(link, AllPaperDatas)) {
             color = 'grayLinkColor';
             // console.log('blue');
         } else {
@@ -1540,15 +1544,6 @@ const repg: SankeyData = {
         // let status: string = '';
         //@ts-ignore
         if (hasLinkInGroup(link, RepGs)) {
-            // if (link.source < 50) {
-            //     color = 'blueLinkColor';
-            // } else if (link.target >= 76 && link.target < 83) {
-            //     color = 'orangeLinkColor';
-            // } else if (link.target > 82 && link.target < 100) {
-            //     color = 'rubyLinkColor';
-            // } else {
-            //     color = 'greenLinkColor';
-            // }
             if (link.target >= 0 && link.target <= 7) {
                 color = 'targetLinkColor';
             } else if (link.target >= 8 && link.target <= 10) {
@@ -1646,18 +1641,7 @@ const reph: SankeyData = {
     }),
     links: RepHs.map((link) => {
         let color: LinkColor = 'grayLinkColor';
-        // let status: string = '';
-        //@ts-ignore
         if (hasLinkInGroup(link, RepHs)) {
-            // if (link.source < 50) {
-            //     color = 'blueLinkColor';
-            // } else if (link.target >= 76 && link.target < 83) {
-            //     color = 'orangeLinkColor';
-            // } else if (link.target > 82 && link.target < 100) {
-            //     color = 'rubyLinkColor';
-            // } else {
-            //     color = 'greenLinkColor';
-            // }
             if (link.target >= 0 && link.target <= 7) {
                 color = 'targetLinkColor';
             } else if (link.target >= 8 && link.target <= 10) {
@@ -1717,17 +1701,9 @@ const reph: SankeyData = {
             //, paperIndex:
         };
         function hasLinkInGroup(wantedLink: SankeyLinkExtended, linkGroup: SankeyLinkExtended[]) {
-            // const [state, setState] = useState();
             let hasLink: boolean = false;
             let color: string = '';
             for (let i = 0; i < linkGroup.length; i++) {
-                // if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition && wantedLink.valueid === 'repb') {
-                // 현재 전체 페이퍼에서 작동하는 중.
-                // if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition && wantedLink.valueid === 'repb') {
-                //     hasLink = true;
-                // } else if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition && wantedLink.valueid === ['targetca', 'repb']) {
-                //     hasLink = true;
-                // }
                 if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition) {
                     if (wantedLink.process === linkGroup[i].process)
                         if (wantedLink.valueid === 'reph') {
@@ -1742,21 +1718,95 @@ const reph: SankeyData = {
     }),
     //@ts-ignore
     status: statusImgSet,
-
     positionStatus: 'init',
 };
 
-const empty = {
+const clusterone: SankeyData = {
     nodes: PaperNode.nodes.map((node) => {
         let color: string = '';
-
         color = `hsl(0, 0%, 30%)`;
 
         return { ...node, color };
     }),
-    links: LinkData[13],
+    links: ClusterOnes.map((link) => {
+        let color: LinkColor = 'grayLinkColor';
+        if (hasLinkInGroup(link, ClusterOnes)) {
+            if (link.target >= 0 && link.target <= 7) {
+                color = 'targetLinkColor';
+            } else if (link.target >= 8 && link.target <= 10) {
+                color = 'targetLinkOneColor';
+            } else if (link.target >= 11 && link.target <= 15) {
+                color = 'targetLinkTwoColor';
+            } else if (link.target >= 16 && link.target <= 20) {
+                color = 'targetLinkThreeColor';
+            } else if (link.target >= 21 && link.target <= 30) {
+                color = 'targetLinkFourColor';
+            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
+                color = 'intOneLinkColor';
+            } else if (link.target === 34 || link.source === 34) {
+                color = 'intOneLightLinkColor';
+            } else if (link.target === 35 || link.source === 35) {
+                color = 'intOneLight2LinkColor';
+            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
+                color = 'intOneLight3LinkColor';
+            } else if (link.target === 39 || link.source === 39) {
+                color = 'intTwoLinkColor';
+            } else if (link.target === 40 || link.source === 40) {
+                color = 'intTwoLightLinkColor';
+            } else if (link.target === 41 || link.source === 41) {
+                color = 'intThreeLinkColor';
+            } else if (link.target === 42 || link.source === 42) {
+                color = 'intThreeLightLinkColor';
+            } else if (link.target === 43 || link.source === 43) {
+                color = 'intThreeLight1LinkColor';
+            } else if (link.target === 44 || link.source === 44) {
+                color = 'intThreeLight2LinkColor';
+            } else if (link.target === 45 || link.source === 45) {
+                color = 'intFourLinkColor';
+            } else if (link.target === 46 || link.source === 46) {
+                color = 'intFiveLinkColor';
+            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
+                color = 'intFiveLightLinkColor';
+            } else if (link.target === 49 || link.source === 49) {
+                color = 'intFiveLight2LinkColor';
+            } else if (link.target >= 76 && link.target < 83) {
+                color = 'repVisVarColor';
+            } else if (link.target > 82 && link.target < 100) {
+                color = 'repVisTechColor';
+            }
+        } else {
+        }
+        return {
+            ...link,
+            color,
+        };
+        function hasLinkInGroup(wantedLink: SankeyLinkExtended, linkGroup: SankeyLinkExtended[]) {
+            let hasLink: boolean = false;
+            let color: string = '';
+            for (let i = 0; i < linkGroup.length; i++) {
+                if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition) {
+                    if (wantedLink.process === linkGroup[i].process) hasLink = true;
+                } else hasLink = false;
+            }
+            return hasLink;
+        }
+    }),
     //@ts-ignore
     status: statusImgSet,
+    positionStatus: 'init',
 };
 
-export { basicData, targetaa, targetab, targetba, targetbb, targetca, targetcb, repa, repb, repc, repd, repea, repeb, repf, repg, reph, empty, fullData };
+// clusterone.links.forEach((one) => {
+//     //@ts-ignore
+//     const itemIndex = basicData.links.findIndex((obj) => one.source === obj.source && one.target === obj.target && one.valueid === obj.valueid && one.process === obj.process);
+//     if (itemIndex > -1) {
+//         basicData.links[itemIndex] = one;
+//     } else {
+//         //@ts-ignore
+//         basicData.links = basicData.links.push(one);
+//     }
+// });
+
+console.log(basicData.links);
+
+export { basicData, targetaa, targetab, targetba, targetbb, targetca, targetcb, repa, repb, repc, repd, repea, repeb, repf, repg, reph, fullData, clusterone };

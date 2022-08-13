@@ -9,7 +9,7 @@ import './styles.scss';
 import Button from '@mui/material/Button';
 // Data & Hooks
 import { useState, useEffect, useRef } from 'react';
-import { basicData, targetaa, targetab, targetba, targetbb, targetca, targetcb, repa, repb, repc, repd, repea, repeb, repf, repg, reph, empty, fullData } from './Data';
+import { basicData, targetaa, targetab, targetba, targetbb, targetca, targetcb, repa, repb, repc, repd, repea, repeb, repf, repg, reph, fullData } from './Data';
 import { SankeyData, SankeyLink, SankeyLinkExtended, SankeyNodeExtended } from './types';
 import { WordData } from './components/WordCloud/react-cloud/types/index';
 import { ButtonGroup } from '@mui/material';

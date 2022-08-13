@@ -59,25 +59,20 @@ import { SFJ16 } from './SFJ16';
 import { XJX21 } from './XJX21';
 import { ASG21 } from './ASG21';
 import { SankeyLink, SankeyLinkExtended } from '../types';
+import { ClusterOne } from './ClusterOne';
+import { ClusterTwo } from './ClusterTwo';
+import { ClusterThree } from './ClusterThree';
+import { ClusterFour } from './ClusterFour';
 
-import { link } from 'fs';
+const ClusteroneLinkData = [ClusterOne];
+const ClustertwoLinkData = [ClusterTwo];
+const ClusterthreeLinkData = [ClusterThree];
+const ClusterfourLinkData = [ClusterFour];
 
-// const AllPaperDatas = { ...CAA20, ...CGK21, ...CSL12 };
+console.log(ClusterFour);
+
 //@ts-ignore
 const Empty = [];
-// const TargetAA = [MEV16.links, CAA20.links];
-// const TargetAB = [XWS16.links, LLN14.links, LWW13.links, FCF09.links, SRJ13.links, RSRY12.links];
-// const TargetBA = [XWL17.links, JX17.links, HYZ13.links, CGK21.links];
-// const TargetBB = [YFS10.links, LGX16.links, JSM16.links, JTM11.links, RSRY12.links, GGS12TPS.links, GGS12ST.links, GGS12MT.links];
-// const TargetCA = [MDD10.links, MHK16.links, MA16.links, ZLW13.links, FAKM15.links, YCC20.links, SCS17.links];
-// const RepA = [SCS19.links, EYG15.links, SCS17.links, SCS16.links];
-// const RepB = [CAA20.links, SCS19.links, JTM11.links, MDD10.links, LJC18.links, CGK21.links, YSK14.links, GYS14.links, MDJW07.links, MDDD16.links];
-// const RepC = [GGS12MT.links, JSM16.links, XWS16.links, LWW13.links, XD99.links, CSL12.links, MHK16.links, VWH13.links, YCC20.links];
-// const RepD = [LGX16.links, JX17.links, MVM17.links, ZGWZ14.links, CSL16.links, KSBK15.links, SRJ13.links, RSRY12.links];
-// const RepEA = [GGS12ST.links, YFS10.links, LGX16.links, FAKM15.links, FA20.links, WHWS12.links];
-// const RepEB = [CGK21.links, CAA20.links, MEV16.links, SCS19.links];
-// const RepF = [YFS10.links, MEV16.links, SCS16.links, HYZ13.links, MDD10.links, SSK12.links, LJC18.links, FAKM15.links];
-// const ChangeRepEA = [YFS10COPY.links, LGX16COPY.links, FAKM15COPY.links, FA20COPY.links, WHWS12COPY.links, GGS12STCOPY.links];
 //@ts-ignore
 const PaperString = [
     CAA20.links,
@@ -779,12 +774,106 @@ const RepHs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<SankeyLi
 }, []);
 
 //@ts-ignore
-// const statusImgSet = ([].concat.apply([], PaperStatus) as SankeyStatus[]).reduce<SankeyStatus[]>((statusImgSet, Paper) => {
-//     //@ts-ignore
-//     const statusImg = statusImgSet.find(
-//         (r) => r;
-//     )
-// })
+const ClusterOnes = ([].concat.apply([], ClusteroneLinkData) as SankeyLink[]).reduce<SankeyLinkExtended[]>((ClusterOnes, onePaper) => {
+    //@ts-ignore
+    const clusterOnePaper = ClusterOnes.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterOnePaper) {
+        //@ts-ignore
+        ClusterOnes.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+        });
+    } else {
+        clusterOnePaper.value += 1;
+    }
+    return ClusterOnes;
+}, []);
+
+//@ts-ignore
+const ClusterTwos = ([].concat.apply([], ClustertwoLinkData) as SankeyLink[]).reduce<SankeyLinkExtended[]>((ClusterTwos, onePaper) => {
+    //@ts-ignore
+    const clustertwoPaper = ClusterTwos.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clustertwoPaper) {
+        //@ts-ignore
+        ClusterTwos.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+        });
+    } else {
+        clustertwoPaper.value += 1;
+    }
+    return ClusterTwos;
+}, []);
+
+//@ts-ignore
+const ClusterThrees = ([].concat.apply([], ClusterthreeLinkData) as SankeyLink[]).reduce<SankeyLinkExtended[]>((ClusterThrees, onePaper) => {
+    //@ts-ignore
+    const clusterThreePaper = ClusterThrees.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterThreePaper) {
+        //@ts-ignore
+        ClusterThrees.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+        });
+    } else {
+        clusterThreePaper.value += 1;
+    }
+    return ClusterThrees;
+}, []);
+
+//@ts-ignore
+const ClusterFours = ([].concat.apply([], ClusterfourLinkData) as SankeyLink[]).reduce<SankeyLinkExtended[]>((ClusterFours, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = ClusterFours.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        ClusterFours.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return ClusterFours;
+}, []);
+
+// console.log(ClusterFours);
 
 const statusImgSet = PaperStatus.reduce(function (acc, cur) {
     return acc.concat(cur);
@@ -817,4 +906,8 @@ export {
     RepGs,
     RepHs,
     Emptys,
+    ClusterOnes,
+    ClusterTwos,
+    ClusterThrees,
+    ClusterFours,
 };

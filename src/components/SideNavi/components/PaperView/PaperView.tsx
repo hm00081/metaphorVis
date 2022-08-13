@@ -57,6 +57,7 @@ export const PaperView = ({ originData, setOriginData, clickedLink, clickedNode,
                 {/* <div className={style.paperTitle}> */}
                 <div className={style.title}>Paper View</div>
                 {/* </div> */}
+                {/*페이퍼뷰에서 이미지들 필터링하여 불러주는 곳*/}
                 <Row variants={rowVariants} initial="initial" animate="visible" exit="exit" transition={{ type: 'tween', duration: 1 }} key={index}>
                     {renderingData.status
                         .slice(0)
@@ -64,8 +65,12 @@ export const PaperView = ({ originData, setOriginData, clickedLink, clickedNode,
                         .filter((paper) => {
                             //case1: node
                             if (clickedNode) {
+                                // 노드 클릭시에만 반응하는 데이터
+                                // console.log(clickedNode);
                                 clickedNode.find((link) => {
-                                    if (paper.paperName === link.paperName && link.imgUrl === paper.paperName) {
+                                    // 색상되는 링크들의 배열을 나타내는 함수.
+                                    if (paper.paperName === link.paperName) {
+                                        console.log(link.paperName); // 논문들 잘 찾아냈음
                                         return true;
                                     } else {
                                         return false;
@@ -74,7 +79,9 @@ export const PaperView = ({ originData, setOriginData, clickedLink, clickedNode,
                             }
                             //case2: link
                             if (clickedLink) {
+                                // 링크 클릭시에만 반응하는 데이터
                                 if (paper.paperName === clickedLink.paperName) {
+                                    // console.log(clickedLink.paperName);
                                     return true;
                                 } else {
                                     return false;
@@ -82,8 +89,10 @@ export const PaperView = ({ originData, setOriginData, clickedLink, clickedNode,
                             }
                             //case3: button
                             if (clickedButton) {
+                                // 버튼 클릭시에만 반응하는 데이터
                                 clickedButton.find((link) => {
                                     if (link.color !== 'grayLinkColor' && paper.paperName === link.paperName) {
+                                        // console.log(link.paperName);
                                         return true;
                                     } else {
                                         return false;

@@ -73,7 +73,8 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                 }
             } else return trashNodePush.push();
         });
-
+        //@ts-ignore
+        // console.log(nodePush);
         setClickedNode(arrLink);
 
         renderingData.links.forEach((renderingLink) => {
@@ -203,12 +204,12 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                 renderingData,
             });
         });
-        // console.log('selectedLinkParts', nodePush);
         for (let i = 0; i < links.length; i++) {
             if (links[i].color === 'grayLinkColor') {
                 setOriginData(originData);
             } else setOriginData(renderingData);
         }
+        console.log('selectedLinkParts', originData);
     };
     return (
         <NodePos>
