@@ -70,7 +70,7 @@ export const Link = ({ nodes, node, link, links, originData, sourceTargetIdLinks
     const onClickFunction = (link: SankeyLinkExtended) => {
         // link 정보를 부모컴포넌트 전달해줘야 한다.
         setClickedLink(link);
-        console.log(setClickedLink);
+        // console.log(setClickedLink);
         const renderingData: SankeyData = { ...originData };
         // console.log(renderingData);
         renderingData.positionStatus = 'clicked';

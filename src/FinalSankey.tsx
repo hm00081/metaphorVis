@@ -19,14 +19,17 @@ interface Props {
     setClickedNode: React.Dispatch<React.SetStateAction<SankeyLinkExtended[] | undefined>>;
     setClickedLink: React.Dispatch<React.SetStateAction<SankeyLinkExtended | undefined>>;
     setClickedButton: React.Dispatch<React.SetStateAction<SankeyLink[] | undefined>>;
+    clickedCluster: SankeyData | undefined;
+    originData: SankeyData;
+    setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
 }
 
 // Component
-export default function FinalSankey({ setClickedNode, setClickedLink, setClickedButton }: Props) {
+export default function FinalSankey({ originData, setOriginData, setClickedNode, setClickedLink, setClickedButton, clickedCluster }: Props) {
     const [ref, { width, height }] = useMeasure<HTMLDivElement>();
     const [btn, setBtn] = useState(15);
     const [selected, setSelcted] = useState<'click' | 'unclick'>('unclick');
-    const [originData, setOriginData] = useState<SankeyData>(fullData);
+    // const [originData, setOriginData] = useState<SankeyData>(fullData);
     const [filteredList, setFilteredList] = useState<SankeyLink[]>([]);
     // cloud data state
     const [originCloudData, setOriginCloudData] = useState<WordData>();
@@ -306,6 +309,7 @@ export default function FinalSankey({ setClickedNode, setClickedLink, setClicked
                         setOriginData={setOriginData}
                         setClickedNode={setClickedNode}
                         setClickedLink={setClickedLink}
+                        clickedCluster={clickedCluster}
                     />
                 </div>
             </div>

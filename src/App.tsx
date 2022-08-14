@@ -8,10 +8,10 @@ import { fullData } from './Data';
 import { useState, useEffect } from 'react';
 import { SankeyData, SankeyLink, SankeyLinkExtended } from './types';
 
-interface Props {
-    originData: SankeyData;
-    setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
-}
+// interface Props {
+//     originData: SankeyData;
+//     setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
+// }
 
 // viewProt 수정 필요
 export default function App() {
@@ -19,7 +19,7 @@ export default function App() {
     const [clickedLink, setClickedLink] = useState<SankeyLinkExtended>();
     const [clickedNode, setClickedNode] = useState<SankeyLinkExtended[]>();
     const [clickedButton, setClickedButton] = useState<SankeyLink[]>();
-    const [clickedCluster, setClickedCluster] = useState<SankeyLinkExtended[]>();
+    const [clickedCluster, setClickedCluster] = useState<SankeyData>();
     //const [filteredData, setFilteredData] = useState<SankeyData>();
 
     // useEffect(() => {
@@ -30,8 +30,24 @@ export default function App() {
         <div className={style.root}>
             <Header />
             <div className={style.mainContainer}>
-                <SideNavi clickedNode={clickedNode} clickedLink={clickedLink} clickedButton={clickedButton} setClickedCluster={setClickedCluster} />
-                <FinalSankey setClickedNode={setClickedNode} setClickedLink={setClickedLink} setClickedButton={setClickedButton} />
+                <SideNavi
+                    clickedNode={clickedNode}
+                    clickedLink={clickedLink}
+                    clickedButton={clickedButton}
+                    clickedCluster={clickedCluster}
+                    setClickedCluster={setClickedCluster}
+                    // @ts-ignore
+                    originData={originData}
+                    setOriginData={setOriginData}
+                />
+                <FinalSankey
+                    originData={originData}
+                    setOriginData={setOriginData}
+                    setClickedNode={setClickedNode}
+                    setClickedLink={setClickedLink}
+                    setClickedButton={setClickedButton}
+                    clickedCluster={clickedCluster}
+                />
             </div>
         </div>
     );

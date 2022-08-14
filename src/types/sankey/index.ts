@@ -49,6 +49,7 @@ export type SankeyLink = SankeyLinkMinimal &
         category?: string;
         id?: string;
         imgUrl?: string;
+        cluster?: string;
     };
 
 export type LinkColor =

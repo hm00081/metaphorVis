@@ -63,13 +63,22 @@ import { ClusterOne } from './ClusterOne';
 import { ClusterTwo } from './ClusterTwo';
 import { ClusterThree } from './ClusterThree';
 import { ClusterFour } from './ClusterFour';
+import { ClusterFourr } from './ClusterFours';
 
 const ClusteroneLinkData = [ClusterOne];
 const ClustertwoLinkData = [ClusterTwo];
 const ClusterthreeLinkData = [ClusterThree];
-const ClusterfourLinkData = [ClusterFour];
+const ClusterfourLinkData = [ClusterFour, ClusterFourr];
 
-console.log(ClusterFour);
+//@ts-ignore
+const a = [];
+ClusterTwo.filter((want) => {
+    if (want.target) {
+        a.push(want.id);
+    }
+});
+//@ts-ignore
+console.log(a);
 
 //@ts-ignore
 const Empty = [];
@@ -368,7 +377,7 @@ const AllPaperDatas = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<
             imgUrl: onePaper.imgUrl,
         });
     //@ts-ignore
-    else allOnePaper.value += 0;
+    else allOnePaper.value += 1;
     return AllPaperDatas;
 }, []);
 // console.log(AllPaperDatas);
@@ -791,6 +800,7 @@ const ClusterOnes = ([].concat.apply([], ClusteroneLinkData) as SankeyLink[]).re
             process: onePaper.process,
             imgUrl: onePaper.imgUrl,
             id: onePaper.id,
+            cluster: onePaper.cluster,
         });
     } else {
         clusterOnePaper.value += 1;
@@ -816,6 +826,7 @@ const ClusterTwos = ([].concat.apply([], ClustertwoLinkData) as SankeyLink[]).re
             process: onePaper.process,
             imgUrl: onePaper.imgUrl,
             id: onePaper.id,
+            cluster: onePaper.cluster,
         });
     } else {
         clustertwoPaper.value += 1;
@@ -841,6 +852,7 @@ const ClusterThrees = ([].concat.apply([], ClusterthreeLinkData) as SankeyLink[]
             process: onePaper.process,
             imgUrl: onePaper.imgUrl,
             id: onePaper.id,
+            cluster: onePaper.cluster,
         });
     } else {
         clusterThreePaper.value += 1;
@@ -866,6 +878,7 @@ const ClusterFours = ([].concat.apply([], ClusterfourLinkData) as SankeyLink[]).
             process: onePaper.process,
             imgUrl: onePaper.imgUrl,
             id: onePaper.id,
+            cluster: onePaper.cluster,
         });
     } else {
         clusterFourPaper.value += 1;

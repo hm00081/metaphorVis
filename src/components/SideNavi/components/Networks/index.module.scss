@@ -21,6 +21,9 @@ $lineOpacity: 0.5;
     padding: 15px;
 }
 
+.ellipse {
+}
+
 @mixin line {
     fill: none;
     stroke: $lineColor;
@@ -105,17 +108,36 @@ $lineOpacity: 0.5;
     opacity: 0.2;
     fill: #64c5eb;
 }
+
+.area17:hover {
+    opacity: 0.5;
+}
+
 .area18 {
     opacity: 0.2;
     fill: #e84d8a;
 }
+
+.area18:hover {
+    opacity: 0.5;
+}
+
 .area19 {
     opacity: 0.2;
     fill: #feb326;
 }
+
+.area19:hover {
+    opacity: 0.5;
+}
+
 .area20 {
     fill: #7f58af;
     opacity: 0.2;
+}
+
+.area20:hover {
+    opacity: 0.5;
 }
 
 .repreentationNode {

@@ -82,6 +82,7 @@ interface Props {
     setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
     setClickedNode: React.Dispatch<React.SetStateAction<SankeyLinkExtended[] | undefined>>;
     setClickedLink: React.Dispatch<React.SetStateAction<SankeyLinkExtended | undefined>>;
+    clickedCluster: SankeyData | undefined;
 }
 
 export interface SourceTargetIdLinksDict {
@@ -107,12 +108,13 @@ export const Sankey = ({
     setOriginData,
     setClickedNode,
     setClickedLink,
+    clickedCluster,
 }: Props) => {
     const [nodes, setNodes] = useState<SankeyNodeExtended[]>([]);
     const [links, setLinks] = useState<SankeyLinkExtended[]>([]);
     const [sourceTargetIdLinksDict, setSourceTargetIdLinksDict] = useState<SourceTargetIdLinksDict>({});
     const [transform, setTransform] = useState<d3.ZoomTransform | null>(null);
-
+    // console.log(clickedCluster); //  정보는 잘 들어왔다.
     useEffect(() => {
         const sourceTargetIdLinksDict: SourceTargetIdLinksDict = {};
 
@@ -255,6 +257,13 @@ export const Sankey = ({
                     setClickedLink={setClickedLink}
                 />
             ))}
+
+            {() => {
+                if (clickedCluster) {
+                    // console.log(clickedCluster); // 각 군집에 해당하는 데이터들 잘 호출된다.
+                    return true;
+                }
+            }}
         </svg>
     );
 };

@@ -9,16 +9,17 @@ interface Props {
     clickedNode: SankeyLinkExtended[] | undefined;
     clickedLink: SankeyLinkExtended | undefined;
     clickedButton: SankeyLink[] | undefined;
-    setClickedCluster: React.Dispatch<React.SetStateAction<SankeyLinkExtended[] | undefined>>;
+    clickedCluster: SankeyData | undefined;
+    setClickedCluster: React.Dispatch<React.SetStateAction<SankeyData | undefined>>;
+    originData: SankeyData;
+    setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
 }
 
-export function SideNavi({ clickedNode, clickedLink, clickedButton, setClickedCluster }: Props) {
-    const [originData, setOriginData] = useState(fullData);
-    const renderingData: SankeyData = { ...originData };
+export function SideNavi({ clickedNode, clickedLink, clickedButton, clickedCluster, setClickedCluster, originData, setOriginData }: Props) {
     return (
         <div className={style.sideNavi}>
             <Networks originData={originData} setOriginData={setOriginData} setClickedCluster={setClickedCluster} />
-            <PaperView originData={originData} setOriginData={setOriginData} clickedNode={clickedNode} clickedLink={clickedLink} clickedButton={clickedButton} />
+            <PaperView originData={originData} setOriginData={setOriginData} clickedNode={clickedNode} clickedLink={clickedLink} clickedButton={clickedButton} clickedCluster={clickedCluster} />
         </div>
     );
 }
