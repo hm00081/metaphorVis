@@ -1,96 +1,101 @@
 .hello {
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .font {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .node:not(hover) {
-    opacity: 1;
+  opacity: 1;
 }
 
 .node:hover {
-    fill: hsl(10, 0%, 7%);
+  fill: hsl(10, 0%, 7%);
 }
 
 .node:active {
-    fill: hsl(10, 0%, 7%);
+  fill: hsl(10, 0%, 7%);
 }
 
 .node:focus {
-    fill: hsl(10, 0%, 57%);
+  fill: hsl(10, 0%, 57%);
 }
 
 .info {
-    white-space: pre-wrap;
-    font-size: 32px;
+  white-space: pre-wrap;
+  font-size: 32px;
 }
 
 rect {
-    opacity: 1;
+  opacity: 1;
 }
 
 rect:not(:hover) {
-    opacity: 1;
+  opacity: 1;
 }
 
 rect:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .Sankey:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 body {
-    font-family: Ubuntu, Tahoma, Helvetica, sans-serif;
-    font-size: 12px;
-    line-height: 1.4em;
-    // background: #f7f7f7;
-    background: #f7f7f7;
-    color: #404040;
+  font-family: Ubuntu, Tahoma, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 1.4em;
+  // background: #f7f7f7;
+  background: #f7f7f7;
+  color: #404040;
 }
 body.dark {
-    background: #131313;
-    color: #e3e3e3;
+  background: #131313;
+  color: #e3e3e3;
 }
 
 .brush rect.extent {
-    fill: rgba(100, 100, 100, 0.15);
-    stroke: #fff;
+  fill: rgba(100, 100, 100, 0.15);
+  stroke: #fff;
 }
 .dark .brush rect.extent {
-    fill: rgba(100, 100, 100, 0.15);
-    stroke: #ddd;
+  fill: rgba(100, 100, 100, 0.15);
+  stroke: #ddd;
 }
 .brush:hover rect.extent {
-    stroke: #222;
-    stroke-dasharray: 5, 5;
+  stroke: #222;
+  stroke-dasharray: 5, 5;
 }
 .brush rect.extent:hover {
-    stroke-dasharray: none;
+  stroke-dasharray: none;
 }
 
 .size {
-    // max-width: 550px;
-    // max-height: 1000px;
-    min-width: 550px;
-    min-height: 1000px;
+  // max-width: 550px;
+  // max-height: 1000px;
+  min-width: 550px;
+  min-height: 1000px;
 
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
-
+@media screen and (max-width: 1600px) {
+  .size {
+    margin-top: -12%;
+  }
+}
 .size:not(:root) {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 html,
 body,
 #root {
-    height: 100%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    line-height: 2em;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 2em;
 }
