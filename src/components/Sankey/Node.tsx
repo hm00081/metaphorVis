@@ -41,11 +41,11 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
     //TODO 1. Links 중에서 source-node, 혹은 target-node가 100인 Link 데이터를 모두 따로 보관한다.
     //TODO 2. 각 링크별로 findFrontLink(), findBackLink()와 많이 유사한 로직을 호출하여 링크를 색칠한다.
     //TODO findFrontLink(source-node) 호출해야하고, findBackLinks(target-node) 호출해야한다
-    const endNode = node.x + node.width > width - node.width;
+    // const endNode = node.x + node.width > width - node.width;
     const size = width < height ? width : height;
-    const textX = !endNode ? node.x + node.width : node.x;
-    const textAnchor = !endNode ? 'start' : 'end';
-    const textMargin = !endNode ? 4 : -4;
+    const textX = node.x + node.width;
+    const textAnchor = 'start';
+    const textMargin = 4;
     const textTitleSize = Math.log(10) * 5.5;
     let textXPosition = textX + textMargin + node.width * 0.3;
     let textYPosition = node.y + node.value / 2 + textMargin * 1;
@@ -79,6 +79,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
         // 논문
         setClickedLink(undefined);
         setClickedNodeLinks(arrLink);
+
         // console.log(arrLink);
         renderingData.links.forEach((renderingLink) => {
             renderingLink.color = 'grayLinkColor';

@@ -15,7 +15,7 @@ import { SankeyData, SankeyLink, SankeyLinkExtended } from './types';
 
 // viewProt 수정 필요
 export default function App() {
-    const [originData, setOriginData] = useState(fullData);
+    const [originData, setOriginData] = useState<SankeyData>(fullData);
     const [clickedLink, setClickedLink] = useState<SankeyLinkExtended>();
     const [clickedNodeLinks, setClickedNodeLinks] = useState<SankeyLinkExtended[]>();
     const [clickedButton, setClickedButton] = useState<SankeyLink[]>();

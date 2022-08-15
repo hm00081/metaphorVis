@@ -90,7 +90,7 @@ export const PaperView = ({ originData, setOriginData, clickedLink, clickedNodeL
                             .slice(offset * index, offset * index + offset)
                             .filter((paper) => {
                                 //case1: node
-                                console.log('clickedNodeLinks', clickedNodeLinks);
+                                // console.log('clickedNodeLinks', clickedNodeLinks);
                                 if (clickedNodeLinks) {
                                     // console.log('clickedNode zone');
                                     // 노드 클릭시에만 반응하는 데이터
@@ -103,11 +103,10 @@ export const PaperView = ({ originData, setOriginData, clickedLink, clickedNodeL
                                             return false;
                                         }
                                     });
-
                                     return sameLink ? true : false;
                                 }
 
-                                console.log('clickedLink', clickedLink);
+                                // console.log('clickedLink', clickedLink);
                                 //case2: link
                                 if (clickedLink) {
                                     // console.log('clickedLink zone');
@@ -119,28 +118,37 @@ export const PaperView = ({ originData, setOriginData, clickedLink, clickedNodeL
                                         return false;
                                     }
                                 }
-                                console.log('end');
-                                //case3: button
-                                //데이터로 수정 필요.
-                                if (clickedButton) {
-                                    // console.log('clickedButton zone');
-                                    // 버튼 클릭시에만 반응하는 데이터
-                                    const buttonSameLink = clickedButton.find((link) => {
+                                //Button, Network Cluster
+                                if (originData) {
+                                    // console.log('network cluster zone');
+                                    const buttonSameLink = originData.links.find((link) => {
                                         if (link.color !== 'grayLinkColor' && paper.paperName === link.paperName) {
-                                            console.log(link.paperName);
+                                            console.log(link.paperName); // 논문들 잘 찾아냈음
                                             return true;
                                         } else {
                                             return false;
                                         }
                                     });
-                                }
-                                //네트워크 클러스터
-                                if (originData) {
-                                    // console.log('network cluster zone');
-                                    originData.links.find((link) => {});
+                                    return buttonSameLink ? true : false;
                                 }
                                 // console.log('last!!!');
                                 return true;
+                                // console.log('end');
+                                // case3: button
+                                //데이터로 수정 필요.
+                                // if (clickedButton) {
+                                //     // console.log('clickedButton zone');
+                                //     // 버튼 클릭시에만 반응하는 데이터
+                                //     const buttonSameLink = clickedButton.find((link) => {
+                                //         if (link.color !== 'grayLinkColor' && paper.paperName === link.paperName) {
+                                //             // console.log(link.paperName);
+                                //             return true;
+                                //         } else {
+                                //             return false;
+                                //         }
+                                //     });
+                                //     return buttonSameLink ? true : false;
+                                // }
                             })
                             .map((paper, i) => (
                                 <PaperBox layoutId={paper.paperName + 'ID'} key={paper.imgUrl} initial="normal" variants={paperVariants} transition={{ type: 'tween' }}>

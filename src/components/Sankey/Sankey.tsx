@@ -162,6 +162,8 @@ export const Sankey = ({
             onClick={(event) => {
                 setClickedLink(undefined);
                 setClickedNodeLinks(undefined);
+                //@ts-ignore
+                // setOriginData(undefined);
             }}
             className="size"
             viewBox="0 0 1880 2050"
@@ -202,7 +204,7 @@ export const Sankey = ({
                 <BigBox>
                     {/* <rect className="column" x={width / columns.length} y={0} width={width / columns.length} height={height} fill="#eee" /> */}
                     {/* <text x={(width / columns.length) * i + width / columns.length / 10} y={height * 0.02} textAnchor="middle"> */}
-                    <text style={style} className="coltext" x={450 * i - 430} y={(height as number) * 0.02} textAnchor="middle">
+                    <text style={{ fontSize: '16px', fontWeight: '650' }} className="coltext" x={450 * i - 430} y={(height as number) * 0.02} textAnchor="middle">
                         {`${column}`}
                     </text>
                 </BigBox>
