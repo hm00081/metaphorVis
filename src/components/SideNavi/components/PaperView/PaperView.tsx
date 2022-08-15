@@ -131,24 +131,8 @@ export const PaperView = ({ originData, setOriginData, clickedLink, clickedNodeL
                                     });
                                     return buttonSameLink ? true : false;
                                 }
-                                // console.log('last!!!');
+
                                 return true;
-                                // console.log('end');
-                                // case3: button
-                                //데이터로 수정 필요.
-                                // if (clickedButton) {
-                                //     // console.log('clickedButton zone');
-                                //     // 버튼 클릭시에만 반응하는 데이터
-                                //     const buttonSameLink = clickedButton.find((link) => {
-                                //         if (link.color !== 'grayLinkColor' && paper.paperName === link.paperName) {
-                                //             // console.log(link.paperName);
-                                //             return true;
-                                //         } else {
-                                //             return false;
-                                //         }
-                                //     });
-                                //     return buttonSameLink ? true : false;
-                                // }
                             })
                             .map((paper, i) => (
                                 <PaperBox layoutId={paper.paperName + 'ID'} key={paper.imgUrl} initial="normal" variants={paperVariants} transition={{ type: 'tween' }}>
