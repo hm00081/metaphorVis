@@ -31,11 +31,12 @@ interface Props {
     nodeMargin: number;
     minLinkBreadth: number;
     maxLinkBreadth: number;
-    setClickedNode: React.Dispatch<React.SetStateAction<SankeyLinkExtended[] | undefined>>;
+    setClickedNodeLinks: React.Dispatch<React.SetStateAction<SankeyLinkExtended[] | undefined>>;
+    setClickedLink: React.Dispatch<React.SetStateAction<SankeyLinkExtended | undefined>>;
 }
 
 // Component
-export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict, setOriginData, links, link, setClickedNode }: Props) => {
+export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict, setOriginData, links, link, setClickedNodeLinks, setClickedLink }: Props) => {
     //TODO id=100인 Node를 클릭했을 때,
     //TODO 1. Links 중에서 source-node, 혹은 target-node가 100인 Link 데이터를 모두 따로 보관한다.
     //TODO 2. 각 링크별로 findFrontLink(), findBackLink()와 많이 유사한 로직을 호출하여 링크를 색칠한다.
@@ -75,8 +76,10 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
         });
         //@ts-ignore
         // console.log(nodePush);
-        setClickedNode(arrLink);
-
+        // 논문
+        setClickedLink(undefined);
+        setClickedNodeLinks(arrLink);
+        // console.log(arrLink);
         renderingData.links.forEach((renderingLink) => {
             renderingLink.color = 'grayLinkColor';
             // renderingLink.valueid = undefined; // 초기 상태
@@ -221,6 +224,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                 height={node.value}
                 fill={node.color}
                 onClick={(event) => {
+                    console.log('node clicked');
                     onClickFunction(links);
                     event.stopPropagation();
                 }}

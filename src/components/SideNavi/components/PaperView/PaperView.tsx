@@ -29,7 +29,7 @@ const PaperBox = styled(motion.div)`
 
 interface Props {
     originData: SankeyData;
-    clickedNode: SankeyLinkExtended[] | undefined;
+    clickedNodeLinks: SankeyLinkExtended[] | undefined;
     clickedLink: SankeyLinkExtended | undefined;
     clickedButton: SankeyLink[] | undefined;
     clickedCluster: SankeyData | undefined;
@@ -63,7 +63,7 @@ const paperVariants = {
     },
 };
 
-export const PaperView = ({ originData, setOriginData, clickedLink, clickedNode, clickedButton, clickedCluster }: Props) => {
+export const PaperView = ({ originData, setOriginData, clickedLink, clickedNodeLinks, clickedButton, clickedCluster }: Props) => {
     const [index, setIndex] = useState(0);
     // const [links, setLInks] = useState<SankeyLinkExtended>();
     const renderingData: SankeyData = { ...originData }; // 정적인 데이터같아보임
@@ -90,21 +90,27 @@ export const PaperView = ({ originData, setOriginData, clickedLink, clickedNode,
                             .slice(offset * index, offset * index + offset)
                             .filter((paper) => {
                                 //case1: node
-                                if (clickedNode) {
+                                console.log('clickedNodeLinks', clickedNodeLinks);
+                                if (clickedNodeLinks) {
+                                    // console.log('clickedNode zone');
                                     // 노드 클릭시에만 반응하는 데이터
-                                    // console.log(clickedNode);
-                                    clickedNode.find((link) => {
+                                    const sameLink = clickedNodeLinks.find((link) => {
                                         // 색상되는 링크들의 배열을 나타내는 함수.
                                         if (link.color !== 'grayLinkColor' && paper.paperName === link.paperName) {
-                                            console.log(link.paperName); // 논문들 잘 찾아냈음
+                                            // console.log(link.paperName); // 논문들 잘 찾아냈음
                                             return true;
                                         } else {
                                             return false;
                                         }
                                     });
+
+                                    return sameLink ? true : false;
                                 }
+
+                                console.log('clickedLink', clickedLink);
                                 //case2: link
                                 if (clickedLink) {
+                                    // console.log('clickedLink zone');
                                     // 링크 클릭시에만 반응하는 데이터
                                     if (paper.paperName === clickedLink.paperName) {
                                         // console.log(clickedLink.paperName);
@@ -113,12 +119,15 @@ export const PaperView = ({ originData, setOriginData, clickedLink, clickedNode,
                                         return false;
                                     }
                                 }
+                                console.log('end');
                                 //case3: button
+                                //데이터로 수정 필요.
                                 if (clickedButton) {
+                                    // console.log('clickedButton zone');
                                     // 버튼 클릭시에만 반응하는 데이터
-                                    clickedButton.find((link) => {
+                                    const buttonSameLink = clickedButton.find((link) => {
                                         if (link.color !== 'grayLinkColor' && paper.paperName === link.paperName) {
-                                            // console.log(link.paperName);
+                                            console.log(link.paperName);
                                             return true;
                                         } else {
                                             return false;
@@ -126,8 +135,11 @@ export const PaperView = ({ originData, setOriginData, clickedLink, clickedNode,
                                     });
                                 }
                                 //네트워크 클러스터
-                                if (clickedCluster) {
+                                if (originData) {
+                                    // console.log('network cluster zone');
+                                    originData.links.find((link) => {});
                                 }
+                                // console.log('last!!!');
                                 return true;
                             })
                             .map((paper, i) => (

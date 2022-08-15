@@ -6,7 +6,7 @@ import { basicData, targetaa, targetab, targetba, targetbb, targetca, targetcb, 
 import { useState } from 'react';
 
 interface Props {
-    clickedNode: SankeyLinkExtended[] | undefined;
+    clickedNodeLinks: SankeyLinkExtended[] | undefined;
     clickedLink: SankeyLinkExtended | undefined;
     clickedButton: SankeyLink[] | undefined;
     clickedCluster: SankeyData | undefined;
@@ -15,11 +15,18 @@ interface Props {
     setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
 }
 
-export function SideNavi({ clickedNode, clickedLink, clickedButton, clickedCluster, setClickedCluster, originData, setOriginData }: Props) {
+export function SideNavi({ clickedNodeLinks, clickedLink, clickedButton, clickedCluster, setClickedCluster, originData, setOriginData }: Props) {
     return (
         <div className={style.sideNavi}>
             <Networks originData={originData} setOriginData={setOriginData} setClickedCluster={setClickedCluster} />
-            <PaperView originData={originData} setOriginData={setOriginData} clickedNode={clickedNode} clickedLink={clickedLink} clickedButton={clickedButton} clickedCluster={clickedCluster} />
+            <PaperView
+                originData={originData}
+                setOriginData={setOriginData}
+                clickedNodeLinks={clickedNodeLinks}
+                clickedLink={clickedLink}
+                clickedButton={clickedButton}
+                clickedCluster={clickedCluster}
+            />
         </div>
     );
 }

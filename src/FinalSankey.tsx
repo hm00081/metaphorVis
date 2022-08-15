@@ -17,7 +17,7 @@ import { ButtonGroup } from '@mui/material';
 import style from './button.module.scss';
 
 interface Props {
-    setClickedNode: React.Dispatch<React.SetStateAction<SankeyLinkExtended[] | undefined>>;
+    setClickedNodeLinks: React.Dispatch<React.SetStateAction<SankeyLinkExtended[] | undefined>>;
     setClickedLink: React.Dispatch<React.SetStateAction<SankeyLinkExtended | undefined>>;
     setClickedButton: React.Dispatch<React.SetStateAction<SankeyLink[] | undefined>>;
     clickedCluster: SankeyData | undefined;
@@ -26,7 +26,7 @@ interface Props {
 }
 
 // Component
-export default function FinalSankey({ originData, setOriginData, setClickedNode, setClickedLink, setClickedButton, clickedCluster }: Props) {
+export default function FinalSankey({ originData, setOriginData, setClickedNodeLinks: setClickedNodeLinks, setClickedLink, setClickedButton, clickedCluster }: Props) {
     const [ref, { width, height }] = useMeasure<HTMLDivElement>();
     const [btn, setBtn] = useState(15);
     const [selected, setSelcted] = useState<'click' | 'unclick'>('unclick');
@@ -301,7 +301,7 @@ export default function FinalSankey({ originData, setOriginData, setClickedNode,
                         minLinkBreadth={0.1}
                         maxLinkBreadth={2}
                         setOriginData={setOriginData}
-                        setClickedNode={setClickedNode}
+                        setClickedNodeLinks={setClickedNodeLinks}
                         setClickedLink={setClickedLink}
                         clickedCluster={clickedCluster}
                     />

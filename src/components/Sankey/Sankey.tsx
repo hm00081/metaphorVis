@@ -70,7 +70,7 @@ interface Props {
     minLinkBreadth?: number;
     maxLinkBreadth?: number;
     setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
-    setClickedNode: React.Dispatch<React.SetStateAction<SankeyLinkExtended[] | undefined>>;
+    setClickedNodeLinks: React.Dispatch<React.SetStateAction<SankeyLinkExtended[] | undefined>>;
     setClickedLink: React.Dispatch<React.SetStateAction<SankeyLinkExtended | undefined>>;
     clickedCluster: SankeyData | undefined;
 }
@@ -96,7 +96,7 @@ export const Sankey = ({
     minLinkBreadth,
     maxLinkBreadth,
     setOriginData,
-    setClickedNode,
+    setClickedNodeLinks: setClickedNodeLinks,
     setClickedLink,
     clickedCluster,
 }: Props) => {
@@ -161,7 +161,7 @@ export const Sankey = ({
         <svg
             onClick={(event) => {
                 setClickedLink(undefined);
-                setClickedNode(undefined);
+                setClickedNodeLinks(undefined);
             }}
             className="size"
             viewBox="0 0 1880 2050"
@@ -219,7 +219,8 @@ export const Sankey = ({
                     originData={originData}
                     sourceTargetIdLinksDict={sourceTargetIdLinksDict}
                     setOriginData={setOriginData}
-                    setClickedNode={setClickedNode}
+                    setClickedNodeLinks={setClickedNodeLinks}
+                    setClickedLink={setClickedLink}
                 >
                     {/* {() => {
                             if ((i = 30)) {
@@ -244,6 +245,7 @@ export const Sankey = ({
                     sourceTargetIdLinksDict={sourceTargetIdLinksDict}
                     setOriginData={setOriginData}
                     setClickedLink={setClickedLink}
+                    setClickedNodeLinks={setClickedNodeLinks}
                 />
             ))}
 
