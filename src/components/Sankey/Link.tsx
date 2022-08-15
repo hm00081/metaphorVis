@@ -38,6 +38,7 @@ interface LinkProps {
     setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
     sourceTargetIdLinksDict: SourceTargetIdLinksDict;
     setClickedLink: React.Dispatch<React.SetStateAction<SankeyLinkExtended | undefined>>;
+    setClickedNodeLinks: React.Dispatch<React.SetStateAction<SankeyLinkExtended[] | undefined>>;
 }
 
 export namespace Types {
@@ -60,7 +61,7 @@ export namespace Types {
 }
 
 // Component
-export const Link = ({ nodes, node, link, links, originData, sourceTargetIdLinksDict, setOriginData, setClickedLink }: LinkProps) => {
+export const Link = ({ nodes, node, link, links, originData, sourceTargetIdLinksDict, setOriginData, setClickedLink, setClickedNodeLinks }: LinkProps) => {
     const [titleLabel, setTitleLabel] = useState<string>('default link label');
     const [refresh, setRefresh] = useState(originData);
     // useEffect(() => {
@@ -70,6 +71,7 @@ export const Link = ({ nodes, node, link, links, originData, sourceTargetIdLinks
     const onClickFunction = (link: SankeyLinkExtended) => {
         // link 정보를 부모컴포넌트 전달해줘야 한다.
         setClickedLink(link);
+        setClickedNodeLinks(undefined);
         // console.log(setClickedLink);
         const renderingData: SankeyData = { ...originData };
         // console.log(renderingData);

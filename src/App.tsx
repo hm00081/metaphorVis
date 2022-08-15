@@ -15,9 +15,9 @@ import { SankeyData, SankeyLink, SankeyLinkExtended } from './types';
 
 // viewProt 수정 필요
 export default function App() {
-    const [originData, setOriginData] = useState(fullData);
+    const [originData, setOriginData] = useState<SankeyData>(fullData);
     const [clickedLink, setClickedLink] = useState<SankeyLinkExtended>();
-    const [clickedNode, setClickedNode] = useState<SankeyLinkExtended[]>();
+    const [clickedNodeLinks, setClickedNodeLinks] = useState<SankeyLinkExtended[]>();
     const [clickedButton, setClickedButton] = useState<SankeyLink[]>();
     const [clickedCluster, setClickedCluster] = useState<SankeyData>();
     //const [filteredData, setFilteredData] = useState<SankeyData>();
@@ -31,7 +31,7 @@ export default function App() {
             <Header />
             <div className={style.mainContainer}>
                 <SideNavi
-                    clickedNode={clickedNode}
+                    clickedNodeLinks={clickedNodeLinks}
                     clickedLink={clickedLink}
                     clickedButton={clickedButton}
                     clickedCluster={clickedCluster}
@@ -43,7 +43,7 @@ export default function App() {
                 <FinalSankey
                     originData={originData}
                     setOriginData={setOriginData}
-                    setClickedNode={setClickedNode}
+                    setClickedNodeLinks={setClickedNodeLinks}
                     setClickedLink={setClickedLink}
                     setClickedButton={setClickedButton}
                     clickedCluster={clickedCluster}

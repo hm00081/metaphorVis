@@ -40,7 +40,7 @@ import { ButtonGroup } from '@mui/material';
 import style from './button.module.scss';
 
 interface Props {
-  setClickedNode: React.Dispatch<
+  setClickedNodeLinks: React.Dispatch<
     React.SetStateAction<SankeyLinkExtended[] | undefined>
   >;
   setClickedLink: React.Dispatch<
@@ -58,7 +58,7 @@ interface Props {
 export default function FinalSankey({
   originData,
   setOriginData,
-  setClickedNode,
+  setClickedNodeLinks: setClickedNodeLinks,
   setClickedLink,
   setClickedButton,
   clickedCluster,
@@ -66,16 +66,12 @@ export default function FinalSankey({
   const [ref, { width, height }] = useMeasure<HTMLDivElement>();
   const [btn, setBtn] = useState(15);
   const [selected, setSelcted] = useState<'click' | 'unclick'>('unclick');
-  // const [originData, setOriginData] = useState<SankeyData>(fullData);
-  const [filteredList, setFilteredList] = useState<SankeyLink[]>([]);
-  // cloud data state
   const isMounted = useRef(true);
   // console.log(fullData.links);
   useEffect(() => {
     setTimeout(() => {
       setOriginData(fullData);
       setBtn(15);
-      setFilteredList(filteredList);
     }, 1000);
     isMounted.current = false;
   }, []);
@@ -99,7 +95,6 @@ export default function FinalSankey({
                   setOriginData(basicData);
                   setSelcted('click');
                   setBtn(0);
-                  setClickedButton(basicData.links);
                 }}
                 variant={btn === 0 ? 'contained' : 'outlined'}
                 style={{
@@ -117,7 +112,6 @@ export default function FinalSankey({
                   setOriginData(fullData);
                   setSelcted('click');
                   setBtn(15);
-                  setClickedButton(fullData.links);
                 }}
                 variant={btn === 15 ? 'contained' : 'outlined'}
                 style={{
@@ -152,7 +146,6 @@ export default function FinalSankey({
                   setOriginData(targetaa);
                   setSelcted('click');
                   setBtn(9);
-                  setClickedButton(targetaa.links);
                 }}
                 variant={btn === 9 ? 'contained' : 'outlined'}
                 style={{
@@ -170,7 +163,6 @@ export default function FinalSankey({
                   setOriginData(targetab);
                   setSelcted('click');
                   setBtn(10);
-                  setClickedButton(targetab.links);
                 }}
                 variant={btn === 10 ? 'contained' : 'outlined'}
                 style={{
@@ -188,7 +180,6 @@ export default function FinalSankey({
                   setOriginData(targetba);
                   setSelcted('click');
                   setBtn(11);
-                  setClickedButton(targetba.links);
                 }}
                 variant={btn === 11 ? 'contained' : 'outlined'}
                 style={{
@@ -206,7 +197,6 @@ export default function FinalSankey({
                   setOriginData(targetbb);
                   setSelcted('click');
                   setBtn(12);
-                  setClickedButton(targetbb.links);
                 }}
                 variant={btn === 12 ? 'contained' : 'outlined'}
                 style={{
@@ -224,7 +214,6 @@ export default function FinalSankey({
                   setOriginData(targetca);
                   setSelcted('click');
                   setBtn(13);
-                  setClickedButton(targetca.links);
                 }}
                 variant={btn === 13 ? 'contained' : 'outlined'}
                 style={{
@@ -242,7 +231,6 @@ export default function FinalSankey({
                   setOriginData(targetcb);
                   setSelcted('click');
                   setBtn(16);
-                  setClickedButton(targetcb.links);
                 }}
                 variant={btn === 16 ? 'contained' : 'outlined'}
                 style={{
@@ -274,7 +262,6 @@ export default function FinalSankey({
                   setOriginData(repa);
                   setSelcted('click');
                   setBtn(1);
-                  setClickedButton(repa.links);
                 }}
                 variant={btn === 1 ? 'contained' : 'outlined'}
                 style={{
@@ -292,7 +279,6 @@ export default function FinalSankey({
                   setOriginData(repb);
                   setSelcted('click');
                   setBtn(2);
-                  setClickedButton(repb.links);
                 }}
                 variant={btn === 2 ? 'contained' : 'outlined'}
                 style={{
@@ -310,7 +296,6 @@ export default function FinalSankey({
                   setOriginData(repc);
                   setSelcted('click');
                   setBtn(3);
-                  setClickedButton(repc.links);
                 }}
                 variant={btn === 3 ? 'contained' : 'outlined'}
                 style={{
@@ -328,7 +313,6 @@ export default function FinalSankey({
                   setOriginData(repd);
                   setSelcted('click');
                   setBtn(4);
-                  setClickedButton(repd.links);
                 }}
                 variant={btn === 4 ? 'contained' : 'outlined'}
                 style={{
@@ -346,7 +330,6 @@ export default function FinalSankey({
                   setOriginData(repea);
                   setSelcted('click');
                   setBtn(5);
-                  setClickedButton(repea.links);
                 }}
                 variant={btn === 5 ? 'contained' : 'outlined'}
                 style={{
@@ -364,7 +347,6 @@ export default function FinalSankey({
                   setOriginData(repeb);
                   setSelcted('click');
                   setBtn(6);
-                  setClickedButton(repeb.links);
                 }}
                 variant={btn === 6 ? 'contained' : 'outlined'}
                 style={{
@@ -382,7 +364,6 @@ export default function FinalSankey({
                   setOriginData(repf);
                   setSelcted('click');
                   setBtn(7);
-                  setClickedButton(repf.links);
                 }}
                 variant={btn === 7 ? 'contained' : 'outlined'}
                 style={{
@@ -400,7 +381,6 @@ export default function FinalSankey({
                   setOriginData(repg);
                   setSelcted('click');
                   setBtn(8);
-                  setClickedButton(repg.links);
                 }}
                 variant={btn === 8 ? 'contained' : 'outlined'}
                 style={{
@@ -418,7 +398,6 @@ export default function FinalSankey({
                   setOriginData(reph);
                   setSelcted('click');
                   setBtn(14);
-                  setClickedButton(reph.links);
                 }}
                 variant={btn === 14 ? 'contained' : 'outlined'}
                 style={{
@@ -446,7 +425,7 @@ export default function FinalSankey({
             minLinkBreadth={0.1}
             maxLinkBreadth={2}
             setOriginData={setOriginData}
-            setClickedNode={setClickedNode}
+            setClickedNodeLinks={setClickedNodeLinks}
             setClickedLink={setClickedLink}
             clickedCluster={clickedCluster}
           />
