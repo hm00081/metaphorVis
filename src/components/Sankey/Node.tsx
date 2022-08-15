@@ -228,7 +228,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                 <title>{`${node.name}: ${node.value}, node number: ${node.number}`}</title>
             </rect>
             <g transform={`translate(${textXPosition} ${textYPosition})`}>
-                <NodeName style={{ fontSize: node.value > 8 ? textTitleSize : textTitleSize, fontWeight: 550 }} textAnchor={textAnchor}>
+                <NodeName style={{ fontWeight: 550 }} textAnchor={textAnchor}>
                     {node.name}
                 </NodeName>
             </g>

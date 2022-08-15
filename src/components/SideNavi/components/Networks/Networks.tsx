@@ -360,7 +360,6 @@ export const Networks = ({ originData, setOriginData, setClickedCluster }: Props
                         {/* Clockwise */}
                         <ellipse
                             onClick={() => {
-                                console.log('Cluster 1');
                                 // 군집에 속한 노드들의 link 데이터 집어넣기
                                 setOriginData(clusterone);
                                 // setClickedCluster(targetaa);
@@ -371,11 +370,10 @@ export const Networks = ({ originData, setOriginData, setClickedCluster }: Props
                             rx="238.3"
                             ry="131"
                         >
-                            <title>Cluster 1</title>
+                            <title>Cluster 2</title>
                         </ellipse>
                         <ellipse
                             onClick={() => {
-                                console.log('Cluster 2');
                                 // 군집에 속한 노드들의 link 데이터 집어넣기
                                 setOriginData(clustertwo);
                                 // setClickedCluster(targetab);
@@ -386,11 +384,10 @@ export const Networks = ({ originData, setOriginData, setClickedCluster }: Props
                             rx="158.5"
                             ry="101.1"
                         >
-                            <title>Cluster 2</title>
+                            <title>Cluster 3</title>
                         </ellipse>
                         <ellipse
                             onClick={() => {
-                                console.log('Cluster 3');
                                 // 군집에 속한 노드들의 link 데이터 집어넣기
                                 setOriginData(clusterthree);
                                 // setClickedCluster(targetba);
@@ -401,11 +398,10 @@ export const Networks = ({ originData, setOriginData, setClickedCluster }: Props
                             rx="378.2"
                             ry="101.1"
                         >
-                            <title>Cluster 3</title>
+                            <title>Cluster 4</title>
                         </ellipse>
                         <ellipse
                             onClick={() => {
-                                console.log('Cluster 4');
                                 // 군집에 속한 노드들의 link 데이터 집어넣기
                                 setOriginData(clusterfour);
                                 // setClickedCluster(targetbb);
@@ -416,7 +412,7 @@ export const Networks = ({ originData, setOriginData, setClickedCluster }: Props
                             rx="300.4"
                             ry="261.2"
                         >
-                            <title>Cluster 4</title>
+                            <title>Cluster 1</title>
                         </ellipse>
 
                         <rect x="963.2" y="339.4" className={style.repreentationNode} width="21.7" height="21.7">

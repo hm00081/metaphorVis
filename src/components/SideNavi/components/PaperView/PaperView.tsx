@@ -10,7 +10,7 @@ import { link } from 'fs';
 const Row = styled(motion.div)`
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 9px;
     margin: 5px 1px 1px 5px;
     // padding-top: 50px;
     padding-left: 14px;
@@ -132,7 +132,7 @@ export const PaperView = ({ originData, setOriginData, clickedLink, clickedNode,
                             })
                             .map((paper, i) => (
                                 <PaperBox layoutId={paper.paperName + 'ID'} key={paper.imgUrl} initial="normal" variants={paperVariants} transition={{ type: 'tween' }}>
-                                    {paper.imgUrl ? <img style={{ marginBottom: '5px' }} width="65" height="65" src={`https://i.imgur.com/${paper.imgUrl}`}></img> : null}
+                                    {paper.imgUrl ? <img style={{ marginBottom: '5px' }} width="60" height="60" src={`https://i.imgur.com/${paper.imgUrl}`}></img> : null}
                                     {paper.imgUrl ? <div style={{ fontSize: '12px', fontWeight: 'bold', textAlign: 'center' }}>{paper.paperName}</div> : null}
                                 </PaperBox>
                             ))}

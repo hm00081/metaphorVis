@@ -45,16 +45,6 @@ import { calcSankeyNodes, calcSankeyLinks } from '../../utils/';
 // styled
 import styled from 'styled-components';
 
-// Cloud
-// import { Papers } from '../../data/AllPaperData';
-// import { couldStartTrivia } from 'typescript';
-// import TargetCloudResults from '../WordCloud/react-cloud/TargetCloudResults';
-// import InterCloudResults from '../WordCloud/react-cloud/InterCloudResults';
-// import RepCloudResults from '../WordCloud/react-cloud/RepCloudResults';
-// import VarCloudResults from '../WordCloud/react-cloud/VarCloudResults';
-// import TechCloudResults from '../WordCloud/react-cloud/TechCloudResults';
-// import { GridColumns } from '@visx/grid';
-
 const TargetClouds = styled.div`
     margin-left: 300px;
     margin-top: -50px;
@@ -165,7 +155,7 @@ export const Sankey = ({
 
         setLinks(links);
     }, [originData]);
-    const columnss = ['Paper', 'Paper', 'Target', 'Intermediation', 'Representation', 'Vis Var&Tech'];
+    const columnss = ['', 'Paper', 'Target', 'Intermediation', 'Representation', 'Vis Var&Tech'];
 
     return (
         <svg
@@ -174,8 +164,7 @@ export const Sankey = ({
                 setClickedNode(undefined);
             }}
             className="size"
-            width={width}
-            height={height}
+            viewBox="0 0 1880 2050"
         >
             <LinkGrayColor />
             <LinkBlueColor />
