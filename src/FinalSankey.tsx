@@ -10,7 +10,7 @@ import Button from '@mui/material/Button';
 // Data & Hooks
 import { useState, useEffect, useRef } from 'react';
 import { basicData, targetaa, targetab, targetba, targetbb, targetca, targetcb, repa, repb, repc, repd, repea, repeb, repf, repg, reph, fullData } from './Data';
-import { SankeyData, SankeyLink, SankeyLinkExtended, SankeyNodeExtended } from './types';
+import { SankeyData, SankeyLink, SankeyLinkExtended } from './types';
 import { WordData } from './components/WordCloud/react-cloud/types/index';
 import { ButtonGroup } from '@mui/material';
 import style from './button.module.scss';
@@ -19,17 +19,15 @@ interface Props {
     setClickedNode: React.Dispatch<React.SetStateAction<SankeyLinkExtended[] | undefined>>;
     setClickedLink: React.Dispatch<React.SetStateAction<SankeyLinkExtended | undefined>>;
     setClickedButton: React.Dispatch<React.SetStateAction<SankeyLink[] | undefined>>;
-    clickedCluster: SankeyData | undefined;
-    originData: SankeyData;
-    setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
+    clickedCluster : SankeyLinkExtended[];
 }
 
 // Component
-export default function FinalSankey({ originData, setOriginData, setClickedNode, setClickedLink, setClickedButton, clickedCluster }: Props) {
+export default function FinalSankey({ setClickedNode, setClickedLink, setClickedButton, clickedCluster }: Props) {
     const [ref, { width, height }] = useMeasure<HTMLDivElement>();
     const [btn, setBtn] = useState(15);
     const [selected, setSelcted] = useState<'click' | 'unclick'>('unclick');
-    // const [originData, setOriginData] = useState<SankeyData>(fullData);
+    const [originData, setOriginData] = useState<SankeyData>(fullData);
     const [filteredList, setFilteredList] = useState<SankeyLink[]>([]);
     // cloud data state
     const [originCloudData, setOriginCloudData] = useState<WordData>();
@@ -45,8 +43,7 @@ export default function FinalSankey({ originData, setOriginData, setClickedNode,
     }, []);
 
     return (
-        <>
-            <div className={style.sankey}>
+        <div className={style.sankey}>
                 <div className={style.mainTitle}>Sankey Diagram View</div>
                 <div className={style.btnWrapper}>
                     <div className={style.btn}>
@@ -266,7 +263,6 @@ export default function FinalSankey({ originData, setOriginData, setClickedNode,
                             color="secondary"
                             variant="outlined"
                             className={style.btnGroup}
-                            // style={{ marginTop: '10px', minWidth: '600px', maxHeight: '60px' }}
                         >
                             <Button
                                 onClick={() => {
@@ -309,10 +305,9 @@ export default function FinalSankey({ originData, setOriginData, setClickedNode,
                         setOriginData={setOriginData}
                         setClickedNode={setClickedNode}
                         setClickedLink={setClickedLink}
-                        clickedCluster={clickedCluster}
+                        clickedCluster = {clickedCluster}
                     />
                 </div>
             </div>
-        </>
     );
 }

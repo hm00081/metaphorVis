@@ -132,7 +132,7 @@ export const PaperView = ({ originData, setOriginData, clickedLink, clickedNode,
                             })
                             .map((paper, i) => (
                                 <PaperBox layoutId={paper.paperName + 'ID'} key={paper.imgUrl} initial="normal" variants={paperVariants} transition={{ type: 'tween' }}>
-                                    {paper.imgUrl ? <img style={{ marginBottom: '5px' }} width="65" height="65" src={`https://i.imgur.com/${paper.imgUrl}`}></img> : null}
+                                    {paper.imgUrl ? <img width="65" height="65" src={`https://i.imgur.com/${paper.imgUrl}`}></img> : null}
                                     {paper.imgUrl ? <div style={{ fontSize: '12px', fontWeight: 'bold', textAlign: 'center' }}>{paper.paperName}</div> : null}
                                 </PaperBox>
                             ))}

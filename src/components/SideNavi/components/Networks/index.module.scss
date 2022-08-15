@@ -21,9 +21,6 @@ $lineOpacity: 0.5;
     padding: 15px;
 }
 
-.ellipse {
-}
-
 @mixin line {
     fill: none;
     stroke: $lineColor;

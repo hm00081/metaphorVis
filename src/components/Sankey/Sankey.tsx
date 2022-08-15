@@ -174,8 +174,12 @@ export const Sankey = ({
                 setClickedNode(undefined);
             }}
             className="size"
-            width={width}
-            height={height}
+            // width={width}
+            // height={height}
+            // width="100%"
+            // height="100%"
+            //min-x | min-y | width | height
+            viewBox="0 0 1880 1400"
         >
             <LinkGrayColor />
             <LinkBlueColor />
