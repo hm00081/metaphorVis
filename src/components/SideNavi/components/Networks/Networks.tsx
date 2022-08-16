@@ -42,7 +42,7 @@ export const Networks = ({ originData, setOriginData, setClickedCluster }: Props
                 x="0px"
                 y="0px"
                 width="100%"
-                viewBox="0 0 1500 1150"
+                viewBox="0 0 1525 1150"
                 xmlSpace="preserve"
             >
                 <switch>
