@@ -42,41 +42,6 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
             <div className={style.sankey}>
                 <div className={style.topWrapper}>
                     <div className={style.mainTitle}>Sankey Diagram View</div>
-                    <div className={style.themeBtn}>
-                        <ButtonGroup
-                            size="medium"
-                            aria-label="outlined primary button group"
-                            color="secondary"
-                            variant="outlined"
-                            className={style.themebtnGroup}
-                            style={{ maxHeight: '25px', maxWidth: '450px' }}
-                        >
-                            <Button
-                                onClick={(event) => {
-                                    event.stopPropagation();
-                                    setOriginData(basicData);
-                                    setSelcted('click');
-                                    setBtn(0);
-                                }}
-                                variant={btn === 0 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '6px', textTransform: 'none', fontWeight: '600', width: 'auto', padding: '3px' }}
-                            >
-                                Show Empty
-                            </Button>
-                            <Button
-                                onClick={(event) => {
-                                    event.stopPropagation();
-                                    setOriginData(fullData);
-                                    setSelcted('click');
-                                    setBtn(15);
-                                }}
-                                variant={btn === 15 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '6px', textTransform: 'none', fontWeight: '600', width: 'auto', padding: '3px' }}
-                            >
-                                Show Full
-                            </Button>
-                        </ButtonGroup>
-                    </div>
                 </div>
                 <div className={style.btnWrapper}>
                     <div className={style.btn}>
@@ -280,6 +245,49 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                 Decorative Pattern
                             </Button>
                         </ButtonGroup>
+                    </div>
+
+                    <div className={style.btn}>
+                        <div className={style.btnTitle} style={{ paddingLeft: '7px' }}>
+                            <ButtonGroup size="medium" aria-label="outlined primary button group" color="secondary" variant="outlined" className={style.themebtnGroup}>
+                                <Button
+                                    onClick={() => {
+                                        setOriginData(basicData);
+                                        setSelcted('click');
+                                        setBtn(0);
+                                    }}
+                                    variant={btn === 0 ? 'contained' : 'outlined'}
+                                    style={{
+                                        fontSize: '7.5px',
+                                        textTransform: 'none',
+                                        fontWeight: '600',
+                                        width: 'auto',
+                                        padding: '1.5px',
+                                        maxWidth: '23px',
+                                    }}
+                                >
+                                    Show Empty
+                                </Button>
+                                <Button
+                                    onClick={() => {
+                                        setOriginData(fullData);
+                                        setSelcted('click');
+                                        setBtn(15);
+                                    }}
+                                    variant={btn === 15 ? 'contained' : 'outlined'}
+                                    style={{
+                                        fontSize: '7.5px',
+                                        textTransform: 'none',
+                                        fontWeight: '600',
+                                        width: 'auto',
+                                        padding: '1.5px',
+                                        maxWidth: '23px',
+                                    }}
+                                >
+                                    Show Full
+                                </Button>
+                            </ButtonGroup>
+                        </div>
                     </div>
                 </div>
                 <div ref={ref}>
