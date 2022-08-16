@@ -2,7 +2,7 @@ import style from './index.module.scss';
 
 export default function Header() {
     return (
-        <a className={style.mainLink} href="/">
+        <a className={style.mainLink} href="/metaphorViz">
             <div className={style.navi}>MetaphorViz</div>
         </a>
     );
