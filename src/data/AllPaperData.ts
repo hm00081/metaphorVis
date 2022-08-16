@@ -78,7 +78,7 @@ ClusterTwo.filter((want) => {
     }
 });
 //@ts-ignore
-console.log(a);
+// console.log(a);
 
 //@ts-ignore
 const Empty = [];
@@ -146,7 +146,7 @@ const PaperString = [
     ASG21.links,
 ];
 
-console.log(PaperString.length);
+// console.log(PaperString.length);
 
 const Papers = [
     BN11B,
@@ -287,47 +287,11 @@ const Status = test();
 
 const check = () => {
     const a = PaperString;
-    console.log(a.reduce((acc, curr) => (acc += curr.length), 0));
+    // console.log(a.reduce((acc, curr) => (acc += curr.length), 0));
     return a;
 };
 
 check();
-// console.log(PaperString[2][0].valueid);
-// console.log(Object.values(status[0][0]));
-//@ts-ignore
-// const c = [].concat.apply([], [status]);
-// //@ts-ignore
-// console.log(Object.keys(status[0]));
-
-// const testjs = () => {
-//     for (let i = 0; i < Object.keys(status).length; i++) {
-//         //@ts-ignore
-//         for (let j = 0; j < Object.keys(status[i]).length; j++) {
-//             //@ts-ignore
-//             if (Object.values(status[i][j] === 'TargetAB')) {
-//                 return 1;
-//             } else return 0;
-//             //@ts-ignore
-//             console.log([Object.values(status[i][j])]);
-//             // //@ts-ignore
-//             // return Object.values(status[i][j]);
-//         }
-//     }
-// };
-// const testtst = testjs();
-// console.log(testtst);
-
-// //@ts-ignore
-// const result = c.reduce((result, value) => {
-//     // @ts-ignore
-//     const target = result.find((r) => r.status === value.status);
-//     // @ts-ignore
-//     if (!target) result.push({ status: false });
-//     // @ts-ignore
-//     else status = 'hello';
-//     return result;
-// }, []);
-// console.log(result);
 
 //@ts-ignore
 const Emptys = [].concat.apply([], Empty).reduce((result, value) => {
@@ -339,18 +303,6 @@ const Emptys = [].concat.apply([], Empty).reduce((result, value) => {
     else target.value += 1;
     return result;
 }, []);
-// //@ts-ignore
-// const Status = [].concat.apply([], Papers.status).reduce((result, value) => {
-//     console.log(result);
-//     //@ts-ignore
-//     const target = result.find((r) => r.source === value.source && r.target === value.target);
-//     //@ts-ignore
-//     if (!target) result.push({ source: value.source, target: value.target, value: 1 });
-//     //@ts-ignore
-//     else target.value += 1;
-//     return result;
-// }, []);
-// console.log(Status);
 
 //@ts-ignore
 const AllPaperDatas = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<SankeyLinkExtended[]>((AllPaperDatas, onePaper) => {
@@ -380,8 +332,6 @@ const AllPaperDatas = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<
     else allOnePaper.value += 1;
     return AllPaperDatas;
 }, []);
-// console.log(AllPaperDatas);
-// console.log('AllPaperDatas');
 
 //@ts-ignore
 const TargetAAs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<SankeyLinkExtended[]>((TargetAAs, onePaper) => {
@@ -591,21 +541,6 @@ const RepBs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<SankeyLi
     return RepBs;
 }, []);
 // console.log('RepBs', RepBs); // 이거 지금 100~149 노드에서 나오는 모든 링크 차례대로 정리되고 있는 상태이다.
-
-//@ts-ignore
-// //쓰레기값
-// const OriginRepBs: SankeyLinkExtended[] = [].concat.apply([], PaperString).reduce((RepBs, onePaper) => {
-//     // @ts-ignore
-//     const repbOnePaper = RepBs.find((r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && (r.valueid === onePaper.valueid) === 'repb');
-//     // const repb = result.find((r) => r.source === value.source && r.target === value.target && r.valueid === 'repb'); //흐름 보이는데 이건 절대아님.
-//     //@ts-ignore
-//     // if (repb) result.push({ source: value.source, target: value.target, value: value.value, valueid: value.valueid });
-//     //@ts-ignore
-//     if (!repbOnePaper) RepBs.push({ source: onePaper.source, target: onePaper.target, value: onePaper.value, valueid: onePaper.valueid, sourceNodeLink: onePaper.sourceNodeLink });
-//     //@ts-ignore
-//     else repbOnePaper.value += 1;
-//     return RepBs;
-// }, []);
 
 //@ts-ignore
 const RepCs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<SankeyLinkExtended[]>((RepCs, onePaper) => {
@@ -894,7 +829,6 @@ const statusImgSet = PaperStatus.reduce(function (acc, cur) {
 
 //@ts-ignore
 const Node = CAA20.nodes;
-// const LinkData = [AllPaperDatas, TargetAAs, TargetABs, TargetBAs, TargetBBs, TargetCAs, RepAs, RepBs, RepCs, RepDs, RepEAs, RepEBs, RepFs, Emptys];
 
 export {
     Status,

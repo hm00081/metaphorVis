@@ -28,6 +28,9 @@
 .btnWrapper {
     display: flex;
     gap: 9.2em;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 1%;
 }
 .btn {
     display: flex;
@@ -42,20 +45,19 @@
 }
 .btnGroup {
     max-height: 40px;
-
-    margin-top: 8px;
     height: 50px;
-    margin-bottom: 20px;
+    margin-top: 3px;
+    margin-bottom: 11px;
 }
 
-@media screen and (max-width: 1600px) {
-    .btnWrapper {
-        // flex-wrap: wrap;
-        justify-content: flex-start;
-        gap: 3.3%;
-    }
-    .btnGroup {
-        margin-top: 3px;
-        margin-bottom: 11px;
-    }
-}
+// @media screen and (max-width: 1600px) {
+//     .btnWrapper {
+//         // flex-wrap: wrap;
+//         justify-content: flex-start;
+//         gap: 3.3%;
+//     }
+//     .btnGroup {
+//         margin-top: 3px;
+//         margin-bottom: 11px;
+//     }
+// }

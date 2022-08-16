@@ -1,12 +1,7 @@
 // Libraries
 import { linkHorizontal, line, curveCardinal } from 'd3-shape';
-import { useState, useEffect } from 'react';
-import * as d3 from 'd3';
-import { makeDrag, makeSimulation, SvgGSelectionsMaker } from '../../components/Sankey/dragFunction';
 // Types
-import { SankeyData, SankeyLinkExtended, SankeyNodeExtended, SankeyLink, SankeyNode } from '../../types';
-// import _, { forEach } from 'lodash';
-import { Utility } from './basics';
+import { SankeyData, SankeyLinkExtended, SankeyNodeExtended } from '../../types';
 
 export interface SourceTargetNodesDict {
     [sourceTargetId: string]: SankeyLinkExtended[];
@@ -23,14 +18,9 @@ export const calcSankeyLinks = (
 ): SankeyLinkExtended[] => {
     // Extract to const so its in a closure
     const { links } = data;
-    // console.log('data');
-    // console.log(data);
-    // Calc proportional size value
-
     const proportionalNodeWidth = nodeWidth * (height / 100);
     const proportionalMaxLinkBreadth = maxLinkBreadth && maxLinkBreadth * (height / 100);
     const proportionalMinLinkBreadth = minLinkBreadth && minLinkBreadth * (height / 100);
-    // const [sourceNodeLinksDict, setSourceNodeLinksDict] = useState<SourceTargetNodesDict>({});
     const totalValue = nodes.map((node) => node.value).reduce((acc, cur) => (acc += cur), 0);
 
     // Extend Links to add additional data
@@ -45,8 +35,6 @@ export const calcSankeyLinks = (
         const maxBreadth = proportionalMaxLinkBreadth ? Math.min(breadth, proportionalMaxLinkBreadth) : breadth;
         const minBreadth = proportionalMinLinkBreadth ? Math.max(breadth, proportionalMinLinkBreadth) : breadth;
         const linkBreadth = breadth > maxBreadth ? maxBreadth : minBreadth;
-        const drag = makeDrag();
-        // const simulation = makeSimulation(nodes, links);
         const extendedLink: SankeyLinkExtended = {
             ...link,
             sourceNode,
@@ -60,13 +48,8 @@ export const calcSankeyLinks = (
             color,
             subcolor,
         };
-        // sourceNode.sourceNodeType += link.value;
-        // targetNode.targetNodeType += link.value;
-
         return extendedLink;
     });
-
-    // Calculate the path based on the positions of source and target node
 
     extendedLinks.forEach((link) => {
         if (link.sourceNode.x === link.targetNode.x) {

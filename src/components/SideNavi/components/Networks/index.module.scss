@@ -1,13 +1,13 @@
 $intermediationNodeColor: #ff00ff;
 $repreentationNodeColor: #0280ff;
 $lineColor: #c0c0c0;
-$lineOpacity: 0.3;
+$lineOpacity: 0.5;
 
 .networksContainer {
     border-bottom: 1px solid black;
 }
 .title {
-    margin-left: 20px;
+    margin-left: 15px;
     margin-top: 10px;
     font-size: 18px;
     font-weight: 600;
@@ -18,11 +18,8 @@ $lineOpacity: 0.3;
     padding-left: 13px;
 }
 .networkArea {
-    padding: 10px 20px -1px 20px;
+    padding: 10px 20px 0 20px;
     // margin-left: 15px;
-}
-
-.ellipse {
 }
 
 @mixin line {
@@ -95,9 +92,7 @@ $lineOpacity: 0.3;
     font-weight: 650;
     font-size: 26px;
     display: block;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: wrap;
 }
 .st15 {
     fill: #808080;
@@ -114,31 +109,25 @@ $lineOpacity: 0.3;
     fill: #64c5eb;
     cursor: pointer;
 }
-
 .area17:hover {
     opacity: 0.5;
 }
-
 .area18 {
     opacity: 0.2;
     fill: #e84d8a;
     cursor: pointer;
 }
-
 .area18:hover {
     opacity: 0.5;
 }
-
 .area19 {
     opacity: 0.2;
     fill: #feb326;
     cursor: pointer;
 }
-
 .area19:hover {
     opacity: 0.5;
 }
-
 .area20 {
     fill: #7f58af;
     opacity: 0.2;

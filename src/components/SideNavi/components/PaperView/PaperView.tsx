@@ -1,30 +1,19 @@
 import styled from 'styled-components';
-import { motion, AnimatePresence, useViewportScroll } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
-import { SankeyData, SankeyNode, SankeyLink, SankeyNodeExtended, SankeyLinkExtended } from '../../../../types';
-import { useEffect } from 'react';
-import { calcSankeyNodes, calcSankeyLinks } from '../../../../utils';
+import { SankeyData, SankeyLink, SankeyLinkExtended } from '../../../../types';
 import style from './index.module.scss';
-import { link } from 'fs';
 
 const Row = styled(motion.div)`
-    display: flex;
-    flex-wrap: wrap;
-    gap: 9px;
-    margin: 5px 1px 1px 5px;
-    // padding-top: 50px;
-    padding-left: 14px;
-    max-height: 150px;
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
 `;
 
 const PaperBox = styled(motion.div)`
     background-color: #f7f7f7;
-    background-size: cover;
-    background-position: center center;
-    font-size: 65px;
-    padding-bottom: 3px;
-    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `;
 
 interface Props {
@@ -56,7 +45,7 @@ const paperVariants = {
         scale: 1.3,
         y: -80,
         transition: {
-            delay: 0.5,
+            delay: 0.4,
             duaration: 0.1,
             type: 'tween',
         },
@@ -65,17 +54,9 @@ const paperVariants = {
 
 export const PaperView = ({ originData, setOriginData, clickedLink, clickedNodeLinks, clickedButton, clickedCluster }: Props) => {
     const [index, setIndex] = useState(0);
-    // const [links, setLInks] = useState<SankeyLinkExtended>();
     const renderingData: SankeyData = { ...originData }; // 정적인 데이터같아보임
-    const [hide, setHide] = useState<'want' | 'hide'>('want');
-    const [paperimg, setPaperImg] = useState<SankeyLink>();
     const [leaving, setLeaving] = useState(false);
     const offset = 60;
-    // const linkStatus = renderingData.links.filter((data, i) => {
-    //     if (data.source >= 100 && data.color !== 'grayDarkLinkColor') {
-    //         return { ...links };
-    //     } else return null;
-    // });
     const toggleLeaving = () => setLeaving((prev) => !prev);
     return (
         <>
@@ -105,25 +86,27 @@ export const PaperView = ({ originData, setOriginData, clickedLink, clickedNodeL
                                     });
                                     return sameLink ? true : false;
                                 }
-
                                 // console.log('clickedLink', clickedLink);
                                 //case2: link
                                 if (clickedLink) {
                                     // console.log('clickedLink zone');
                                     // 링크 클릭시에만 반응하는 데이터
+
                                     if (paper.paperName === clickedLink.paperName) {
                                         // console.log(clickedLink.paperName);
                                         return true;
                                     } else {
                                         return false;
                                     }
+
+                                    // return sameLink ? true : false;
                                 }
                                 //Button, Network Cluster
                                 if (originData) {
                                     // console.log('network cluster zone');
                                     const buttonSameLink = originData.links.find((link) => {
                                         if (link.color !== 'grayLinkColor' && paper.paperName === link.paperName) {
-                                            console.log(link.paperName); // 논문들 잘 찾아냈음
+                                            // console.log(link.paperName); // 논문들 잘 찾아냈음
                                             return true;
                                         } else {
                                             return false;
@@ -131,13 +114,22 @@ export const PaperView = ({ originData, setOriginData, clickedLink, clickedNodeL
                                     });
                                     return buttonSameLink ? true : false;
                                 }
-
                                 return true;
                             })
                             .map((paper, i) => (
                                 <PaperBox layoutId={paper.paperName + 'ID'} key={paper.imgUrl} initial="normal" variants={paperVariants} transition={{ type: 'tween' }}>
-                                    {paper.imgUrl ? <img style={{ marginBottom: '5px' }} width="60" height="60" src={`https://i.imgur.com/${paper.imgUrl}`}></img> : null}
-                                    {paper.imgUrl ? <div style={{ fontSize: '12px', fontWeight: 'bold', textAlign: 'center' }}>{paper.paperName}</div> : null}
+                                    {paper.imgUrl ? <img style={{ marginBottom: '5px' }} width="45" height="45" src={`https://i.imgur.com/${paper.imgUrl}`} alt={paper.paperName}></img> : null}
+                                    {paper.imgUrl ? (
+                                        <div
+                                            style={{
+                                                fontSize: '10px',
+                                                fontWeight: '700',
+                                                textAlign: 'center',
+                                            }}
+                                        >
+                                            {paper.paperName}
+                                        </div>
+                                    ) : null}
                                 </PaperBox>
                             ))}
                     </Row>

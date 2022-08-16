@@ -1,9 +1,7 @@
-// Global Styles
-// import 'normalize.css';
 import './styles.scss';
 
 import { LinkColor, SankeyData } from './types/sankey';
-import { SankeyLink, SankeyStatus, SankeyLinkExtended } from '../src/types';
+import { SankeyLink, SankeyLinkExtended } from '../src/types';
 
 // Data
 import { PaperNode } from './data/PaperNode';
@@ -33,7 +31,6 @@ import {
 } from './data/AllPaperData';
 
 //@ts-ignore
-const LinkData = [AllPaperDatas, TargetAAs, TargetABs, TargetBAs, TargetBBs, TargetCAs, RepAs, RepBs, RepCs, RepDs, RepEAs, RepEBs, RepFs, Emptys];
 
 //TODO 모든 색이 색칠
 const fullData: SankeyData = {

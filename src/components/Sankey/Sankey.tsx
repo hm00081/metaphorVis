@@ -36,7 +36,6 @@ import {
     LinkRepVisTechColor,
 } from './SankeyColor';
 import { Link } from './Link';
-// import { Node } from './Link';
 import { Node } from './Node';
 import './Sankey.scss';
 // Utils
@@ -45,17 +44,7 @@ import { calcSankeyNodes, calcSankeyLinks } from '../../utils/';
 // styled
 import styled from 'styled-components';
 
-const TargetClouds = styled.div`
-    margin-left: 300px;
-    margin-top: -50px;
-`;
-
 const BigBox = styled.g``;
-
-let style = {
-    fontSize: '15px',
-    fontWeight: 'bold',
-};
 
 // Props
 interface Props {
@@ -79,10 +68,6 @@ export interface SourceTargetIdLinksDict {
     [sourceTargetId: string]: SankeyLinkExtended[];
 }
 
-export type SourceTargetIdNodesDict = SourceTargetIdLinksDict & {
-    [numberId: string]: SankeyNode[];
-};
-
 // Component
 export const Sankey = ({
     width,
@@ -103,8 +88,7 @@ export const Sankey = ({
     const [nodes, setNodes] = useState<SankeyNodeExtended[]>([]);
     const [links, setLinks] = useState<SankeyLinkExtended[]>([]);
     const [sourceTargetIdLinksDict, setSourceTargetIdLinksDict] = useState<SourceTargetIdLinksDict>({});
-    const [transform, setTransform] = useState<d3.ZoomTransform | null>(null);
-    // console.log(clickedCluster); //  정보는 잘 들어왔다.
+
     useEffect(() => {
         const sourceTargetIdLinksDict: SourceTargetIdLinksDict = {};
 
@@ -162,11 +146,9 @@ export const Sankey = ({
             onClick={(event) => {
                 setClickedLink(undefined);
                 setClickedNodeLinks(undefined);
-                //@ts-ignore
-                // setOriginData(undefined);
             }}
             className="size"
-            viewBox="0 0 1880 2050"
+            viewBox="0 0 2000 1850"
         >
             <LinkGrayColor />
             <LinkBlueColor />
@@ -202,9 +184,7 @@ export const Sankey = ({
                 // <Text>{column}</Text>
 
                 <BigBox>
-                    {/* <rect className="column" x={width / columns.length} y={0} width={width / columns.length} height={height} fill="#eee" /> */}
-                    {/* <text x={(width / columns.length) * i + width / columns.length / 10} y={height * 0.02} textAnchor="middle"> */}
-                    <text style={{ fontSize: '16px', fontWeight: '650' }} className="coltext" x={450 * i - 430} y={(height as number) * 0.02} textAnchor="middle">
+                    <text key={`column-${i}`} style={{ fontSize: '16px', fontWeight: '650' }} className="coltext" x={450 * i - 430} y={(height as number) * 0.02} textAnchor="middle">
                         {`${column}`}
                     </text>
                 </BigBox>
@@ -212,6 +192,7 @@ export const Sankey = ({
             {nodes.map((node, i) => (
                 //@ts-ignore
                 <Node
+                    //@ts-ignore
                     className="node"
                     key={`node-${i}`}
                     node={node}
@@ -223,17 +204,7 @@ export const Sankey = ({
                     setOriginData={setOriginData}
                     setClickedNodeLinks={setClickedNodeLinks}
                     setClickedLink={setClickedLink}
-                >
-                    {/* {() => {
-                            if ((i = 30)) {
-                                return (
-                                    <TargetClouds>
-                                        <TargetCloudResults />
-                                    </TargetClouds>
-                                );
-                            }
-                        }} */}
-                </Node>
+                ></Node>
             ))}
 
             {links.map((link, i) => (
@@ -250,13 +221,6 @@ export const Sankey = ({
                     setClickedNodeLinks={setClickedNodeLinks}
                 />
             ))}
-
-            {() => {
-                if (clickedCluster) {
-                    // console.log(clickedCluster); // 각 군집에 해당하는 데이터들 잘 호출된다.
-                    return true;
-                }
-            }}
         </svg>
     );
 };

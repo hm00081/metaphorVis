@@ -1,9 +1,7 @@
 import { Networks } from './components/Networks/Networks';
 import { PaperView } from './components/PaperView/PaperView';
 import style from './index.module.scss';
-import { SankeyData, SankeyLink, SankeyLinkExtended, SankeyNodeExtended } from '../../types/sankey';
-import { basicData, targetaa, targetab, targetba, targetbb, targetca, targetcb, repa, repb, repc, repd, repea, repeb, repf, repg, reph, fullData } from '../../Data';
-import { useState } from 'react';
+import { SankeyData, SankeyLink, SankeyLinkExtended } from '../../types/sankey';
 
 interface Props {
     clickedNodeLinks: SankeyLinkExtended[] | undefined;

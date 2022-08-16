@@ -3,15 +3,9 @@ import Header from './components/Header/Header';
 import './styles.scss';
 import style from './rootStyle.module.scss';
 import { SideNavi } from './components/SideNavi/SideNavi';
-// import { SankeyGraph } from './components/SankeyGraph';
 import { fullData } from './Data';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { SankeyData, SankeyLink, SankeyLinkExtended } from './types';
-
-// interface Props {
-//     originData: SankeyData;
-//     setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
-// }
 
 // viewProt 수정 필요
 export default function App() {
@@ -20,11 +14,6 @@ export default function App() {
     const [clickedNodeLinks, setClickedNodeLinks] = useState<SankeyLinkExtended[]>();
     const [clickedButton, setClickedButton] = useState<SankeyLink[]>();
     const [clickedCluster, setClickedCluster] = useState<SankeyData>();
-    //const [filteredData, setFilteredData] = useState<SankeyData>();
-
-    // useEffect(() => {
-    //     setOriginData(fullData);
-    // }, [fullData]);
 
     return (
         <div className={style.root}>

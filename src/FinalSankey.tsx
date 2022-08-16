@@ -6,13 +6,10 @@ import { Sankey } from './components/Sankey';
 // Global Styles
 import './styles.scss';
 import Button from '@mui/material/Button';
-import { alpha, styled } from '@mui/material/styles';
-import { pink } from '@mui/material/colors';
-import Switch from '@mui/material/Switch';
 // Data & Hooks
 import { useState, useEffect, useRef } from 'react';
 import { basicData, targetaa, targetab, targetba, targetbb, targetca, targetcb, repa, repb, repc, repd, repea, repeb, repf, repg, reph, fullData } from './Data';
-import { SankeyData, SankeyLink, SankeyLinkExtended, SankeyNodeExtended } from './types';
+import { SankeyData, SankeyLink, SankeyLinkExtended } from './types';
 import { ButtonGroup } from '@mui/material';
 import style from './button.module.scss';
 
@@ -55,7 +52,8 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                             style={{ maxHeight: '25px', maxWidth: '450px' }}
                         >
                             <Button
-                                onClick={() => {
+                                onClick={(event) => {
+                                    event.stopPropagation();
                                     setOriginData(basicData);
                                     setSelcted('click');
                                     setBtn(0);
@@ -66,7 +64,8 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                 Show Empty
                             </Button>
                             <Button
-                                onClick={() => {
+                                onClick={(event) => {
+                                    event.stopPropagation();
                                     setOriginData(fullData);
                                     setSelcted('click');
                                     setBtn(15);
@@ -94,7 +93,8 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                             // orientation={matches ? 'horizontal' : 'vertical'}
                         >
                             <Button
-                                onClick={() => {
+                                onClick={(event) => {
+                                    event.stopPropagation();
                                     setOriginData(targetaa);
                                     setSelcted('click');
                                     setBtn(9);
@@ -105,7 +105,8 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                 Politician's Speech
                             </Button>
                             <Button
-                                onClick={() => {
+                                onClick={(event) => {
+                                    event.stopPropagation();
                                     setOriginData(targetab);
                                     setSelcted('click');
                                     setBtn(10);
@@ -116,7 +117,8 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                 Opinion to Politicians
                             </Button>
                             <Button
-                                onClick={() => {
+                                onClick={(event) => {
+                                    event.stopPropagation();
                                     setOriginData(targetba);
                                     setSelcted('click');
                                     setBtn(11);
@@ -127,7 +129,8 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                 Product Appraisal
                             </Button>
                             <Button
-                                onClick={() => {
+                                onClick={(event) => {
+                                    event.stopPropagation();
                                     setOriginData(targetbb);
                                     setSelcted('click');
                                     setBtn(12);
@@ -138,7 +141,8 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                 Service Appraisal
                             </Button>
                             <Button
-                                onClick={() => {
+                                onClick={(event) => {
+                                    event.stopPropagation();
                                     setOriginData(targetca);
                                     setSelcted('click');
                                     setBtn(13);
@@ -149,7 +153,8 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                 Opinion on a Specific Event
                             </Button>
                             <Button
-                                onClick={() => {
+                                onClick={(event) => {
+                                    event.stopPropagation();
                                     setOriginData(targetcb);
                                     setSelcted('click');
                                     setBtn(16);
@@ -167,7 +172,8 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                         <ButtonGroup size="medium" aria-label="outlined primary button group" color="secondary" variant="outlined" className={style.btnGroup} style={{ maxWidth: '450px' }}>
                             {/* <ThemeProvider theme={theme}></ThemeProvider> */}
                             <Button
-                                onClick={() => {
+                                onClick={(event) => {
+                                    event.stopPropagation();
                                     setOriginData(repa);
                                     setSelcted('click');
                                     setBtn(1);
@@ -178,7 +184,8 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                 Map
                             </Button>
                             <Button
-                                onClick={() => {
+                                onClick={(event) => {
+                                    event.stopPropagation();
                                     setOriginData(repb);
                                     setSelcted('click');
                                     setBtn(2);
@@ -189,7 +196,8 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                 River
                             </Button>
                             <Button
-                                onClick={() => {
+                                onClick={(event) => {
+                                    event.stopPropagation();
                                     setOriginData(repc);
                                     setSelcted('click');
                                     setBtn(3);
@@ -200,7 +208,8 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                 Plant
                             </Button>
                             <Button
-                                onClick={() => {
+                                onClick={(event) => {
+                                    event.stopPropagation();
                                     setOriginData(repd);
                                     setSelcted('click');
                                     setBtn(4);
@@ -211,7 +220,8 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                 Bubble
                             </Button>
                             <Button
-                                onClick={() => {
+                                onClick={(event) => {
+                                    event.stopPropagation();
                                     setOriginData(repea);
                                     setSelcted('click');
                                     setBtn(5);
@@ -222,7 +232,8 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                 Wheel
                             </Button>
                             <Button
-                                onClick={() => {
+                                onClick={(event) => {
+                                    event.stopPropagation();
                                     setOriginData(repeb);
                                     setSelcted('click');
                                     setBtn(6);
@@ -233,7 +244,8 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                 Building & Structure
                             </Button>
                             <Button
-                                onClick={() => {
+                                onClick={(event) => {
+                                    event.stopPropagation();
                                     setOriginData(repf);
                                     setSelcted('click');
                                     setBtn(7);
@@ -244,7 +256,8 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                 Geometry
                             </Button>
                             <Button
-                                onClick={() => {
+                                onClick={(event) => {
+                                    event.stopPropagation();
                                     setOriginData(repg);
                                     setSelcted('click');
                                     setBtn(8);
@@ -255,7 +268,8 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                 Machine
                             </Button>
                             <Button
-                                onClick={() => {
+                                onClick={(event) => {
+                                    event.stopPropagation();
                                     setOriginData(reph);
                                     setSelcted('click');
                                     setBtn(14);

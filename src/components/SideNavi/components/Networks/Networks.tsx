@@ -1,5 +1,5 @@
 import style from './index.module.scss';
-import { SankeyData, SankeyLinkExtended } from '../../../../types';
+import { SankeyData } from '../../../../types';
 import { clusterone, clustertwo, clusterthree, clusterfour } from '../../../../Data';
 
 interface Props {
@@ -9,25 +9,29 @@ interface Props {
 }
 
 export const Networks = ({ originData, setOriginData, setClickedCluster }: Props) => {
-    const renderingData: SankeyData = { ...originData };
-
-    // const [originData, setOriginData] = useState<SankeyData>(fullData);
-    //TODO C1: originData.nodes[36].number, originData.nodes[40].number
-    //TODO C2: originData.nodes[41].number, originData.nodes[43].number
-    //TODO C3: originData.nodes[35].number, originData.nodes[47].number
-    //TODO C4: originData.nodes[46].number, originData.nodes[49].number
     return (
         <div className={style.networksContainer}>
             <div className={style.title}>Network View</div>
             <div className={style.categoryWrapper}>
-                <svg width="25" height="25" style={{ marginLeft: '7px' }}>
-                    <rect width="15" height="15" style={{ fill: '#ff00ff', paddingRight: '10em' }}></rect>
+                <svg width="25" height="25" style={{ marginLeft: '3px' }}>
+                    <rect width="13" height="13" style={{ fill: '#ff00ff', paddingRight: '2px' }}></rect>
                 </svg>
-                <div style={{ fontSize: '13px', fontWeight: '630', marginRight: '20px', marginBottom: '5px', marginTop: '-5px' }}>Intermediation</div>
-                <svg width="25" height="25" style={{ marginLeft: '7px' }}>
-                    <rect width="15" height="15" style={{ fill: '#0280ff', paddingRight: '20px' }}></rect>
+                <div
+                    style={{
+                        fontSize: '11px',
+                        fontWeight: '630',
+                        marginRight: '20px',
+                        marginBottom: '5px',
+                        marginTop: '-5px',
+                    }}
+                >
+                    Intermediation
+                </div>
+
+                <svg width="25" height="25" style={{ marginLeft: '10px' }}>
+                    <rect width="13" height="13" style={{ fill: '#0280ff', paddingRight: '20px' }}></rect>
                 </svg>
-                <div style={{ fontSize: '13px', fontWeight: '630', marginTop: '-5px' }}>Representation</div>
+                <div style={{ fontSize: '11px', fontWeight: '630', marginTop: '-5px' }}>Representation</div>
             </div>
             <svg
                 className={style.networkArea}

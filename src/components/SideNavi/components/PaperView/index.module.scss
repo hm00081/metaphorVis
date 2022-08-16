@@ -3,6 +3,9 @@
     height: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
 
     .paperTitle {
         position: fixed;
@@ -13,8 +16,7 @@
     }
 }
 .title {
-    margin-left: 20px;
-    margin-top: 10px;
+    margin-left: 5px;
     margin-bottom: 15px;
     font-size: 18px;
     font-weight: 600;
@@ -36,4 +38,9 @@
     font-size: 65px;
     padding-bottom: 3px;
     cursor: pointer;
+}
+.paperBox {
+    padding: 0 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
 }

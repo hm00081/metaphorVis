@@ -1,32 +1,8 @@
 // Types
 import { SankeyLinkExtended, SankeyNodeExtended, SankeyData, SankeyLink } from '../../types/sankey';
 import './Sankey.scss';
-import { FC, useState, useEffect, useCallback } from 'react';
-import { Utility } from '../../utils/sankey/basics';
+import { useState } from 'react';
 import { SourceTargetIdLinksDict } from './Sankey';
-import { useRef, Component } from 'react';
-import * as d3 from 'd3';
-import { brush, brushY } from 'd3-brush';
-import Brushes from './Brushes';
-// import Brush from './Brush';
-import styled from 'styled-components';
-import { numberTypeAnnotation } from '@babel/types';
-// import { Types } from './AreaChartHelper';
-import useWindowDimensions from './WindowDimensions';
-import ChartHelper from './AreaChartHelper';
-import { link, linkSync } from 'fs';
-import { calcSankeyNodes, calcSankeyLinks } from '../../utils/';
-import { BrushBehavior } from 'd3-brush';
-import { render } from '@testing-library/react';
-import * as _ from 'lodash';
-
-const NodePos = styled.g`
-    margin-top: 102px;
-`;
-
-const NodeName = styled.text`
-    margin-top: 12px;
-`;
 
 // Props
 interface LinkProps {
@@ -63,26 +39,16 @@ export namespace Types {
 // Component
 export const Link = ({ nodes, node, link, links, originData, sourceTargetIdLinksDict, setOriginData, setClickedLink, setClickedNodeLinks }: LinkProps) => {
     const [titleLabel, setTitleLabel] = useState<string>('default link label');
-    const [refresh, setRefresh] = useState(originData);
-    // useEffect(() => {
-    //     console.log('refresh');
-    //     setOriginData(originData);
-    // }, [refresh]);
     const onClickFunction = (link: SankeyLinkExtended) => {
-        // link 정보를 부모컴포넌트 전달해줘야 한다.
-        setClickedLink(link);
         setClickedNodeLinks(undefined);
-        // console.log(setClickedLink);
+        setClickedLink(link);
+
         const renderingData: SankeyData = { ...originData };
-        // console.log(renderingData);
         renderingData.positionStatus = 'clicked';
         renderingData.links = renderingData.links.map((link) => {
             return { ...link };
         });
-
         const selectedLinkPart = sourceTargetIdLinksDict[`${link.source}-${link.target}-${link.valueid}-${link.paperName}`];
-
-        // sourceTargetIdLinksDict[`${link.source}-${link.target}-${link.valueid}-${link.process}`];
 
         // link 클릭시 해당 링크 색상 부여함.
         renderingData.links.forEach((renderingLink) => {
@@ -540,30 +506,6 @@ function findFrontSameProcessLink(arg: { link: SankeyLinkExtended; links: Sankey
 function findBackLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData }) {
     const { linkPart, renderingData } = arg;
     const backLinks = renderingData.links.filter((renderingLink) => {
-        // if (renderingLink.source === linkPart.target && renderingLink.id === linkPart.id) {
-        // if (renderingLink.source === linkPart.target && renderingLink.paperName === linkPart.paperName) {
-        //     if (renderingLink.source >= 50 && renderingLink.source <= 75) {
-        //         renderingLink.color = linkPart.color;
-        //     }
-        //     if (renderingLink.target >= 50 && renderingLink.target <= 75) {
-        //         renderingLink.color = linkPart.color;
-        //     }
-        //     if (renderingLink.target >= 76 && renderingLink.target < 83) {
-        //         renderingLink.color = 'repVisVarColor';
-        //         renderingLink.valueid = linkPart.valueid;
-        //         //renderingLink.status = 'selected';
-        //         renderingLink.paperName = linkPart.paperName;
-        //         // renderingLink.process = linkPart.process;
-        //     }
-        //     if (renderingLink.target > 82 && renderingLink.target < 100) {
-        //         renderingLink.color = 'repVisTechColor';
-        //         renderingLink.valueid = linkPart.valueid;
-        //         //renderingLink.status = 'selected';
-        //         renderingLink.paperName = linkPart.paperName;
-        //         // renderingLink.process = linkPart.process;
-        //     }
-        //     return true;
-        // }
         if (renderingLink.source === linkPart.target && renderingLink.process === linkPart.process) {
             if (renderingLink.target >= 31 && renderingLink.target <= 33) {
                 renderingLink.color = 'intOneLinkColor';
