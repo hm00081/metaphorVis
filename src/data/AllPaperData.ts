@@ -333,6 +333,18 @@ const AllPaperDatas = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<
     return AllPaperDatas;
 }, []);
 
+// console.log(AllPaperDatas);
+//@ts-ignore
+const wantLink = [];
+const trashLink = [];
+AllPaperDatas.filter((want) => {
+    if (want.source >= 50 && want.source <= 75 && want.target >= 83) {
+        wantLink.push(want);
+    } else trashLink.push(want);
+});
+//@ts-ignore
+console.log(wantLink);
+
 //@ts-ignore
 const TargetAAs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<SankeyLinkExtended[]>((TargetAAs, onePaper) => {
     //@ts-ignore

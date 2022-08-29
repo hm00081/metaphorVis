@@ -184,7 +184,7 @@ export const Sankey = ({
                 // <Text>{column}</Text>
 
                 <BigBox>
-                    <text key={`column-${i}`} style={{ fontSize: '16px', fontWeight: '650' }} className="coltext" x={450 * i - 430} y={(height as number) * 0.02} textAnchor="middle">
+                    <text key={`column-${i}`} style={{ fontSize: '16px', fontWeight: '650' }} className="coltext" x={450 * i - 428.5} y={(height as number) * 0.02} textAnchor="middle">
                         {`${column}`}
                     </text>
                 </BigBox>
