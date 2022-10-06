@@ -1,7 +1,7 @@
 import style from './index.module.scss';
 import { SankeyData } from '../../../../types';
 import { clusterone, clustertwo, clusterthree, clusterfour } from '../../../../Data';
-//TODO 1. 노드데이터 불러오기,
+//TODO 1. 노드데이터 불러오기, Network Prop에 link useState 사용해서 정보 타고타고 넘어가서 넣기.
 
 interface Props {
     originData: SankeyData;
@@ -10,6 +10,7 @@ interface Props {
 }
 
 export const Networks = ({ originData, setOriginData, setClickedCluster }: Props) => {
+    console.log(originData.links);
     return (
         <div className={style.networksContainer}>
             <div className={style.title}>Network View</div>
@@ -419,7 +420,16 @@ export const Networks = ({ originData, setOriginData, setClickedCluster }: Props
                             <title>Cluster 1</title>
                         </ellipse>
 
-                        <rect x="963.2" y="339.4" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            x="963.2"
+                            y="339.4"
+                            className={style.repreentationNode}
+                            onClick={() => {
+                                // setOriginData(originData.links);
+                            }}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>animal</title>
                         </rect>
                         <rect x="1042.7" y="288.3" className={style.repreentationNode} width="21.7" height="21.7">
