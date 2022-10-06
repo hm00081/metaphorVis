@@ -1,6 +1,7 @@
 import style from './index.module.scss';
 import { SankeyData } from '../../../../types';
 import { clusterone, clustertwo, clusterthree, clusterfour } from '../../../../Data';
+//TODO 1. 노드데이터 불러오기,
 
 interface Props {
     originData: SankeyData;
@@ -49,7 +50,6 @@ export const Networks = ({ originData, setOriginData, setClickedCluster }: Props
                     <foreignObject requiredExtensions="&ns_ai;" x={0} y={0} width={1} height={1}>
                         {/* <iPgfref xlinkHref="#adobe_illustrator_pgf"></iPgfref> */}
                     </foreignObject>
-
                     <g>
                         <line className={style.st0} x1="613.2" y1="545.6" x2="494.7" y2="698.8" />
                         <line className={style.st0} x1="335" y1="466.7" x2="494.7" y2="704.4" />
