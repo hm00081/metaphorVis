@@ -160,6 +160,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
             } else setOriginData(renderingData);
         }
         // console.log('selectedLinkParts', originData);
+        console.log(renderingData.links);
     };
     return (
         <NodePos>
