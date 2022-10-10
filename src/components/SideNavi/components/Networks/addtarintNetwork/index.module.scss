@@ -31,61 +31,81 @@ $lineOpacity: 0.5;
 @mixin node {
     stroke: none;
 }
-.st0 {
-    @include line;
-    stroke-width: 7.6405;
-}
+// .st0 {
+//     @include line;
+//     stroke-width: 7.6405;
+// }
 .st1 {
     @include line;
-    stroke-width: 15.281;
+    stroke-width: 4;
 }
-.st2 {
-    @include line;
-    stroke-width: 1.9101;
-}
-.st3 {
-    @include line;
-    stroke-width: 4.2023;
-}
-.st4 {
-    @include line;
-    stroke-width: 4.9663;
-}
-.st5 {
-    @include line;
-    stroke-width: 11.4607;
-}
-.st6 {
-    @include line;
-    stroke-width: 3.8202;
-}
+// .st2 {
+//     @include line;
+//     stroke-width: 1.9101;
+// }
+// .st3 {
+//     @include line;
+//     stroke-width: 4.2023;
+// }
+// .st4 {
+//     @include line;
+//     stroke-width: 4.9663;
+// }
+// .st5 {
+//     @include line;
+//     stroke-width: 11.4607;
+// }
+// .st6 {
+//     @include line;
+//     stroke-width: 3.8202;
+// }
 .st7 {
     @include line;
-    stroke-width: 2.2921;
+    // stroke-width: 2.2921;
 }
 .st8 {
     @include line;
-    stroke-width: 3.0562;
+    stroke-width: 2;
 }
 .st9 {
     @include line;
-    stroke-width: 4.5843;
+    stroke-width: 13;
 }
 .st10 {
     @include line;
-    stroke-width: 3.4382;
+    stroke-width: 9;
 }
 .st11 {
     @include line;
-    stroke-width: 2.6742;
+    stroke-width: 6;
 }
 .st12 {
     @include line;
-    stroke-width: 1.1461;
+    stroke-width: 5;
 }
 .st13 {
     @include line;
-    stroke-width: 0.764;
+    stroke-width: 10;
+}
+.st14 {
+    @include line;
+    stroke-width: 3;
+}
+.st15 {
+    @include line;
+    stroke-width: 8;
+}
+.st16 {
+    @include line;
+    stroke-width: 7;
+}
+.st17 {
+    @include line;
+    stroke-width: 14;
+}
+.st18 {
+    @include line;
+    stroke-width: 11;
 }
 
 .nodeText {
@@ -94,51 +114,66 @@ $lineOpacity: 0.5;
     display: block;
     white-space: wrap;
 }
-.st15 {
-    fill: #808080;
-    font-size: 14px;
-}
+// .st15 {
+//     fill: #808080;
+//     font-size: 14px;
+// }
 
-.st16 {
-    font-family: 'Helvetica75-Bold';
-}
+// .st16 {
+//     font-family: 'Helvetica75-Bold';
+// }
 //ellipse
 
-.area17 {
-    opacity: 0.2;
-    fill: #64c5eb;
+.area1 {
+    opacity: 0.15;
+    fill: #00d12c;
     cursor: pointer;
 }
-.area17:hover {
+.area1:hover {
     opacity: 0.5;
 }
-.area18 {
+.area2 {
     opacity: 0.2;
-    fill: #e84d8a;
+    fill: #f1b749;
     cursor: pointer;
 }
-.area18:hover {
+.area2:hover {
     opacity: 0.5;
 }
-.area19 {
+.area3 {
     opacity: 0.2;
-    fill: #feb326;
+    fill: #d75789;
     cursor: pointer;
 }
-.area19:hover {
+.area3:hover {
     opacity: 0.5;
 }
-.area20 {
-    fill: #7f58af;
-    opacity: 0.2;
+.area4 {
+    fill: #eae41f;
+    opacity: 0.22;
     cursor: pointer;
 }
 
-.area20:hover {
+.area4:hover {
     opacity: 0.5;
 }
-
-.repreentationNode {
+.area5 {
+    opacity: 0.33;
+    fill: #56bae2;
+    cursor: pointer;
+}
+.area5:hover {
+    opacity: 0.5;
+}
+.area6 {
+    fill: #795baa;
+    opacity: 0.2;
+    cursor: pointer;
+}
+.area6:hover {
+    opacity: 0.5;
+}
+.targetNode {
     fill: $repreentationNodeColor;
     @include node;
 }
