@@ -7221,6 +7221,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDD10_1',
         id: 'MDD10-0',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'tec',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -7233,6 +7234,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDD10_2',
         id: 'MDD10-1',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'tec',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -7256,6 +7258,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDD10_4',
         id: 'MDD10-3',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'tec',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -7301,6 +7304,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDD10_1',
         id: 'MDD10-7',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'tec',
         color: 'intTwoLinkColor',
     },
     {
@@ -7323,6 +7327,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDD10_1',
         id: 'MDD10-9',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'tec',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -7334,6 +7339,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDD10_2',
         id: 'MDD10-10',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'tec',
         color: 'intTwoLinkColor',
     },
     {
@@ -7345,6 +7351,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDD10_2',
         id: 'MDD10-11',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'tec',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -7356,6 +7363,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDD10_4',
         id: 'MDD10-12',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'tec',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -7367,6 +7375,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDD10_1',
         id: 'MDD10-13',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'tec',
         color: 'intTwoLinkColor',
     },
     {
@@ -7378,6 +7387,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDD10_2',
         id: 'MDD10-14',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'tec',
         color: 'intTwoLinkColor',
     },
     {
@@ -7389,6 +7399,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDD10_2',
         id: 'MDD10-15',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'tec',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -7400,6 +7411,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDD10_4',
         id: 'MDD10-16',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'tec',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -7466,6 +7478,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDD10_1',
         id: 'MDD10-22',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'tec',
         color: 'repVisTechColor',
     },
     {
@@ -7477,6 +7490,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDD10_2',
         id: 'MDD10-23',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'tec',
         color: 'repVisTechColor',
     },
     {
@@ -7488,6 +7502,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDD10_4',
         id: 'MDD10-24',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'tec',
         color: 'repVisTechColor',
     },
     {
@@ -7587,6 +7602,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDD10_1',
         id: 'MDD10-33',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'tec',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -12411,6 +12427,7 @@ export const Tec4: SankeyLink[] = [
         process: 'YFS10_3',
         id: 'YFS10-16',
         imgUrl: 'A14dGOk.png',
+        netnode: 'tec',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -12423,6 +12440,7 @@ export const Tec4: SankeyLink[] = [
         process: 'YFS10_3',
         id: 'YFS10-17',
         imgUrl: 'A14dGOk.png',
+        netnode: 'tec',
         color: 'intFourLinkColor',
     },
     {
@@ -12434,6 +12452,7 @@ export const Tec4: SankeyLink[] = [
         process: 'YFS10_3',
         id: 'YFS10-18',
         imgUrl: 'A14dGOk.png',
+        netnode: 'tec',
         color: 'intFourLinkColor',
     },
     {
@@ -12456,6 +12475,7 @@ export const Tec4: SankeyLink[] = [
         process: 'YFS10_3',
         id: 'YFS10-20',
         imgUrl: 'A14dGOk.png',
+        netnode: 'tec',
         color: 'repVisTechColor',
     },
     {
@@ -13102,6 +13122,7 @@ export const Tec4: SankeyLink[] = [
         process: 'RSRY12_1',
         id: 'RSRY12-0',
         imgUrl: 'ivVW2HN.png',
+        netnode: 'tec',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -13147,6 +13168,7 @@ export const Tec4: SankeyLink[] = [
         process: 'RSRY12_1',
         id: 'RSRY12-4',
         imgUrl: 'ivVW2HN.png',
+        netnode: 'tec',
         color: 'intFourLinkColor',
     },
     {
@@ -13191,6 +13213,7 @@ export const Tec4: SankeyLink[] = [
         process: 'RSRY12_1',
         id: 'RSRY12-8',
         imgUrl: 'ivVW2HN.png',
+        netnode: 'tec',
         color: 'intFourLinkColor',
     },
     {
@@ -13268,6 +13291,7 @@ export const Tec4: SankeyLink[] = [
         process: 'RSRY12_1',
         id: 'RSRY12-15',
         imgUrl: 'ivVW2HN.png',
+        netnode: 'tec',
         color: 'repVisTechColor',
     },
     {
@@ -13532,6 +13556,7 @@ export const Tec4: SankeyLink[] = [
         process: 'YSK14_3',
         id: 'YSK14-2',
         imgUrl: 'sBwMjs9.png',
+        netnode: 'tec',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -13610,6 +13635,7 @@ export const Tec4: SankeyLink[] = [
         process: 'YSK14_3',
         id: 'YSK14-9',
         imgUrl: 'sBwMjs9.png',
+        netnode: 'tec',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -13720,6 +13746,7 @@ export const Tec4: SankeyLink[] = [
         process: 'YSK14_3',
         id: 'YSK14-19',
         imgUrl: 'sBwMjs9.png',
+        netnode: 'tec',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -13819,6 +13846,7 @@ export const Tec4: SankeyLink[] = [
         process: 'YSK14_3',
         id: 'YSK14-28',
         imgUrl: 'sBwMjs9.png',
+        netnode: 'tec',
         color: 'repVisTechColor',
     },
     {
@@ -14226,6 +14254,7 @@ export const Tec4: SankeyLink[] = [
         process: 'RRR19_1',
         id: 'RRR19-0',
         imgUrl: 'yya8s2u.png',
+        netnode: 'tec',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -14238,6 +14267,7 @@ export const Tec4: SankeyLink[] = [
         process: 'RRR19_1',
         id: 'RRR19-1',
         imgUrl: 'yya8s2u.png',
+        netnode: 'tec',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -14250,6 +14280,7 @@ export const Tec4: SankeyLink[] = [
         process: 'RRR19_1',
         id: 'RRR19-2',
         imgUrl: 'yya8s2u.png',
+        netnode: 'tec',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -14350,6 +14381,7 @@ export const Tec4: SankeyLink[] = [
         process: 'RRR19_1',
         id: 'RRR19-11',
         imgUrl: 'yya8s2u.png',
+        netnode: 'tec',
         color: 'intThreeLinkColor',
     },
     {
@@ -14361,6 +14393,7 @@ export const Tec4: SankeyLink[] = [
         process: 'RRR19_1',
         id: 'RRR19-12',
         imgUrl: 'yya8s2u.png',
+        netnode: 'tec',
         color: 'intThreeLinkColor',
     },
     {
@@ -14372,6 +14405,7 @@ export const Tec4: SankeyLink[] = [
         process: 'RRR19_1',
         id: 'RRR19-13',
         imgUrl: 'yya8s2u.png',
+        netnode: 'tec',
         color: 'intThreeLinkColor',
     },
     {
@@ -14383,6 +14417,7 @@ export const Tec4: SankeyLink[] = [
         process: 'RRR19_1',
         id: 'RRR19-14',
         imgUrl: 'yya8s2u.png',
+        netnode: 'tec',
         color: 'intThreeLinkColor',
     },
     {
@@ -14405,6 +14440,7 @@ export const Tec4: SankeyLink[] = [
         process: 'RRR19_1',
         id: 'RRR19-16',
         imgUrl: 'yya8s2u.png',
+        netnode: 'tec',
         color: 'repVisTechColor',
     },
     {
@@ -15758,6 +15794,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDJW07_1',
         id: 'MDJW07-0',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'tec',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -15792,6 +15829,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDJW07_4',
         id: 'MDJW07-3',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'tec',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -15837,6 +15875,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDJW07_7',
         id: 'MDJW07-7',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'tec',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -15882,6 +15921,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDJW07_1',
         id: 'MDJW07-11',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'tec',
         color: 'intOneLightLinkColor',
     },
     {
@@ -15915,6 +15955,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDJW07_4',
         id: 'MDJW07-14',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'tec',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -15959,6 +16000,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDJW07_7',
         id: 'MDJW07-18',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'tec',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -16003,6 +16045,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDJW07_1',
         id: 'MDJW07-22',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'tec',
         color: 'intOneLightLinkColor',
     },
     {
@@ -16036,6 +16079,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDJW07_4',
         id: 'MDJW07-25',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'tec',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -16047,6 +16091,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDJW07_7',
         id: 'MDJW07-26',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'tec',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -16168,6 +16213,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDJW07_1',
         id: 'MDJW07-37',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'tec',
         color: 'repVisTechColor',
     },
     {
@@ -16179,6 +16225,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDJW07_4',
         id: 'MDJW07-38',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'tec',
         color: 'repVisTechColor',
     },
     {
@@ -16190,6 +16237,7 @@ export const Tec4: SankeyLink[] = [
         process: 'MDJW07_7',
         id: 'MDJW07-39',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'tec',
         color: 'repVisTechColor',
     },
     {

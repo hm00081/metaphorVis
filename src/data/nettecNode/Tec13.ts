@@ -406,6 +406,7 @@ export const Tec13: SankeyLink[] = [
         process: 'CGK21_3',
         id: 'CGK21-4',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'tec',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -451,6 +452,7 @@ export const Tec13: SankeyLink[] = [
         process: 'CGK21_7',
         id: 'CGK21-8',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'tec',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -518,6 +520,7 @@ export const Tec13: SankeyLink[] = [
         process: 'CGK21_3',
         id: 'CGK21-14',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'tec',
         color: 'intOneLinkColor',
     },
     {
@@ -562,6 +565,7 @@ export const Tec13: SankeyLink[] = [
         process: 'CGK21_7',
         id: 'CGK21-18',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'tec',
         color: 'intThreeLinkColor',
     },
     {
@@ -606,6 +610,7 @@ export const Tec13: SankeyLink[] = [
         process: 'CGK21_3',
         id: 'CGK21-22',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'tec',
         color: 'repVisTechColor',
     },
     {
@@ -639,6 +644,7 @@ export const Tec13: SankeyLink[] = [
         process: 'CGK21_7',
         id: 'CGK21-25',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'tec',
         color: 'intThreeLinkColor',
     },
     {
@@ -870,6 +876,7 @@ export const Tec13: SankeyLink[] = [
         process: 'CGK21_3',
         id: 'CGK21-46',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'tec',
         color: 'repVisTechColor',
     },
     {
@@ -881,6 +888,7 @@ export const Tec13: SankeyLink[] = [
         process: 'CGK21_7',
         id: 'CGK21-47',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'tec',
         color: 'repVisTechColor',
     },
     {
@@ -16224,6 +16232,7 @@ export const Tec13: SankeyLink[] = [
         process: 'KWL09_1',
         id: 'KWL09-0',
         imgUrl: 'ukgueox.jpg',
+        netnode: 'tec',
         color: 'targetLinkOneColor',
         status: 'selected',
     },
@@ -16247,6 +16256,7 @@ export const Tec13: SankeyLink[] = [
         process: 'KWL09_1',
         id: 'KWL09-2',
         imgUrl: 'ukgueox.jpg',
+        netnode: 'tec',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -16258,6 +16268,7 @@ export const Tec13: SankeyLink[] = [
         process: 'KWL09_1',
         id: 'KWL09-3',
         imgUrl: 'ukgueox.jpg',
+        netnode: 'tec',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -16302,6 +16313,7 @@ export const Tec13: SankeyLink[] = [
         process: 'KWL09_1',
         id: 'KWL09-7',
         imgUrl: 'ukgueox.jpg',
+        netnode: 'tec',
         color: 'repVisTechColor',
     },
     {

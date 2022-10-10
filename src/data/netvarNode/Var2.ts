@@ -21,6 +21,7 @@ export const Var2: SankeyLink[] = [
         process: 'CAA20_2',
         id: 'CAA20-1',
         imgUrl: 'DFBi3Mo.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -33,6 +34,7 @@ export const Var2: SankeyLink[] = [
         process: 'CAA20_3',
         id: 'CAA20-2',
         imgUrl: 'DFBi3Mo.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -45,6 +47,7 @@ export const Var2: SankeyLink[] = [
         process: 'CAA20_4',
         id: 'CAA20-3',
         imgUrl: 'DFBi3Mo.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -101,6 +104,7 @@ export const Var2: SankeyLink[] = [
         process: 'CAA20_2',
         id: 'CAA20-8',
         imgUrl: 'DFBi3Mo.jpg',
+        netnode: 'var',
         color: 'intOneLight2LinkColor',
     },
     {
@@ -112,6 +116,7 @@ export const Var2: SankeyLink[] = [
         process: 'CAA20_3',
         id: 'CAA20-9',
         imgUrl: 'DFBi3Mo.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -123,6 +128,7 @@ export const Var2: SankeyLink[] = [
         process: 'CAA20_4',
         id: 'CAA20-10',
         imgUrl: 'DFBi3Mo.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -167,6 +173,7 @@ export const Var2: SankeyLink[] = [
         process: 'CAA20_2',
         id: 'CAA20-14',
         imgUrl: 'DFBi3Mo.jpg',
+        netnode: 'var',
         color: 'intOneLight2LinkColor',
     },
     {
@@ -189,6 +196,7 @@ export const Var2: SankeyLink[] = [
         process: 'CAA20_3',
         id: 'CAA20-16',
         imgUrl: 'DFBi3Mo.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -200,6 +208,7 @@ export const Var2: SankeyLink[] = [
         process: 'CAA20_4',
         id: 'CAA20-17',
         imgUrl: 'DFBi3Mo.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -244,6 +253,7 @@ export const Var2: SankeyLink[] = [
         process: 'CAA20_2',
         id: 'CAA20-21',
         imgUrl: 'DFBi3Mo.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -255,6 +265,7 @@ export const Var2: SankeyLink[] = [
         process: 'CAA20_3',
         id: 'CAA20-22',
         imgUrl: 'DFBi3Mo.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -277,6 +288,7 @@ export const Var2: SankeyLink[] = [
         process: 'CAA20_4',
         id: 'CAA20-24',
         imgUrl: 'DFBi3Mo.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -365,6 +377,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_1',
         id: 'CGK21-0',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -377,6 +390,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_1',
         id: 'CGK21-1',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -389,6 +403,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_2',
         id: 'CGK21-2',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -401,6 +416,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_2',
         id: 'CGK21-3',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -413,6 +429,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_3',
         id: 'CGK21-4',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -425,6 +442,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_4',
         id: 'CGK21-5',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -448,6 +466,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_6',
         id: 'CGK21-7',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -471,6 +490,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_8',
         id: 'CGK21-9',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'targetLinkFourColor',
         status: 'selected',
     },
@@ -483,6 +503,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_1',
         id: 'CGK21-10',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'intOneLinkColor',
     },
     {
@@ -494,6 +515,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_2',
         id: 'CGK21-11',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'intOneLinkColor',
     },
     {
@@ -505,6 +527,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_1',
         id: 'CGK21-12',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'intOneLinkColor',
     },
     {
@@ -516,6 +539,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_2',
         id: 'CGK21-13',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'intOneLinkColor',
     },
     {
@@ -527,6 +551,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_3',
         id: 'CGK21-14',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'intOneLinkColor',
     },
     {
@@ -538,6 +563,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_4',
         id: 'CGK21-15',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -560,6 +586,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_6',
         id: 'CGK21-17',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -582,6 +609,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_8',
         id: 'CGK21-19',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -593,6 +621,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_1',
         id: 'CGK21-20',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -604,6 +633,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_2',
         id: 'CGK21-21',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -615,6 +645,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_3',
         id: 'CGK21-22',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -626,6 +657,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_4',
         id: 'CGK21-23',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -637,6 +669,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_6',
         id: 'CGK21-24',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -670,6 +703,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_8',
         id: 'CGK21-27',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -681,6 +715,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_1',
         id: 'CGK21-28',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -692,6 +727,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_4',
         id: 'CGK21-29',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -703,6 +739,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_6',
         id: 'CGK21-30',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -714,6 +751,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_8',
         id: 'CGK21-31',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -725,6 +763,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_2',
         id: 'CGK21-32',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -736,6 +775,7 @@ export const Var2: SankeyLink[] = [
         process: 'CGK21_3',
         id: 'CGK21-33',
         imgUrl: 'Q201xEJ.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -923,6 +963,7 @@ export const Var2: SankeyLink[] = [
         process: 'CSL12_1',
         id: 'CSL12-0',
         imgUrl: 'a3kehFc.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -935,6 +976,7 @@ export const Var2: SankeyLink[] = [
         process: 'CSL12_2',
         id: 'CSL12-1',
         imgUrl: 'a3kehFc.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -947,6 +989,7 @@ export const Var2: SankeyLink[] = [
         process: 'CSL12_1',
         id: 'CSL12-2',
         imgUrl: 'a3kehFc.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -959,6 +1002,7 @@ export const Var2: SankeyLink[] = [
         process: 'CSL12_2',
         id: 'CSL12-3',
         imgUrl: 'a3kehFc.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -1070,6 +1114,7 @@ export const Var2: SankeyLink[] = [
         process: 'CSL12_1',
         id: 'CSL12-13',
         imgUrl: 'a3kehFc.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -1081,6 +1126,7 @@ export const Var2: SankeyLink[] = [
         process: 'CSL12_1',
         id: 'CSL12-14',
         imgUrl: 'a3kehFc.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -1092,6 +1138,7 @@ export const Var2: SankeyLink[] = [
         process: 'CSL12_2',
         id: 'CSL12-15',
         imgUrl: 'a3kehFc.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -1103,6 +1150,7 @@ export const Var2: SankeyLink[] = [
         process: 'CSL12_2',
         id: 'CSL12-16',
         imgUrl: 'a3kehFc.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -1213,6 +1261,7 @@ export const Var2: SankeyLink[] = [
         process: 'CSL12_1',
         id: 'CSL12-26',
         imgUrl: 'a3kehFc.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -1257,6 +1306,7 @@ export const Var2: SankeyLink[] = [
         process: 'CSL12_2',
         id: 'CSL12-30',
         imgUrl: 'a3kehFc.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -1290,6 +1340,7 @@ export const Var2: SankeyLink[] = [
         process: 'CSL12_1',
         id: 'CSL12-33',
         imgUrl: 'a3kehFc.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -1301,6 +1352,7 @@ export const Var2: SankeyLink[] = [
         process: 'CSL12_2',
         id: 'CSL12-34',
         imgUrl: 'a3kehFc.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -1400,6 +1452,7 @@ export const Var2: SankeyLink[] = [
         process: 'DMC09_1',
         id: 'DMC09-0',
         imgUrl: 'KTkfwLw.png',
+        netnode: 'var',
         color: 'targetLinkOneColor',
         status: 'selected',
     },
@@ -1412,6 +1465,7 @@ export const Var2: SankeyLink[] = [
         process: 'DMC09_2',
         id: 'DMC09-1',
         imgUrl: 'KTkfwLw.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -1424,6 +1478,7 @@ export const Var2: SankeyLink[] = [
         process: 'DMC09_1',
         id: 'DMC09-2',
         imgUrl: 'KTkfwLw.png',
+        netnode: 'var',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -1435,6 +1490,7 @@ export const Var2: SankeyLink[] = [
         process: 'DMC09_2',
         id: 'DMC09-3',
         imgUrl: 'KTkfwLw.png',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -1446,6 +1502,7 @@ export const Var2: SankeyLink[] = [
         process: 'DMC09_1',
         id: 'DMC09-4',
         imgUrl: 'KTkfwLw.png',
+        netnode: 'var',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -1457,6 +1514,7 @@ export const Var2: SankeyLink[] = [
         process: 'DMC09_2',
         id: 'DMC09-5',
         imgUrl: 'KTkfwLw.png',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -1490,6 +1548,7 @@ export const Var2: SankeyLink[] = [
         process: 'DMC09_1',
         id: 'DMC09-8',
         imgUrl: 'KTkfwLw.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -1501,6 +1560,7 @@ export const Var2: SankeyLink[] = [
         process: 'DMC09_2',
         id: 'DMC09-9',
         imgUrl: 'KTkfwLw.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -1534,6 +1594,7 @@ export const Var2: SankeyLink[] = [
         process: 'EAIA17_1',
         id: 'EAIA17-0',
         imgUrl: 'TFuj7MS.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -1579,6 +1640,7 @@ export const Var2: SankeyLink[] = [
         process: 'EAIA17_1',
         id: 'EAIA17-4',
         imgUrl: 'TFuj7MS.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -1590,6 +1652,7 @@ export const Var2: SankeyLink[] = [
         process: 'EAIA17_1',
         id: 'EAIA17-5',
         imgUrl: 'TFuj7MS.jpg',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -1601,6 +1664,7 @@ export const Var2: SankeyLink[] = [
         process: 'EAIA17_1',
         id: 'EAIA17-6',
         imgUrl: 'TFuj7MS.jpg',
+        netnode: 'var',
         color: 'intThreeLight1LinkColor',
     },
     {
@@ -1667,6 +1731,7 @@ export const Var2: SankeyLink[] = [
         process: 'EAIA17_1',
         id: 'EAIA17-12',
         imgUrl: 'TFuj7MS.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -1689,6 +1754,7 @@ export const Var2: SankeyLink[] = [
         process: 'EAIA17_1',
         id: 'EAIA17-14',
         imgUrl: 'TFuj7MS.jpg',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -1711,6 +1777,7 @@ export const Var2: SankeyLink[] = [
         process: 'EAIA17_1',
         id: 'EAIA17-16',
         imgUrl: 'TFuj7MS.jpg',
+        netnode: 'var',
         color: 'intThreeLight1LinkColor',
     },
     {
@@ -1755,6 +1822,7 @@ export const Var2: SankeyLink[] = [
         process: 'EAIA17_1',
         id: 'EAIA17-20',
         imgUrl: 'TFuj7MS.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -1821,6 +1889,7 @@ export const Var2: SankeyLink[] = [
         process: 'EYG15_1',
         id: 'EYG15-0',
         imgUrl: '9p9Vu7Y.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -1844,6 +1913,7 @@ export const Var2: SankeyLink[] = [
         process: 'EYG15_3',
         id: 'EYG15-2',
         imgUrl: '9p9Vu7Y.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -1856,6 +1926,7 @@ export const Var2: SankeyLink[] = [
         process: 'EYG15_4',
         id: 'EYG15-3',
         imgUrl: '9p9Vu7Y.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -1901,6 +1972,7 @@ export const Var2: SankeyLink[] = [
         process: 'EYG15_1',
         id: 'EYG15-7',
         imgUrl: '9p9Vu7Y.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -1923,6 +1995,7 @@ export const Var2: SankeyLink[] = [
         process: 'EYG15_1',
         id: 'EYG15-9',
         imgUrl: '9p9Vu7Y.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -1934,6 +2007,7 @@ export const Var2: SankeyLink[] = [
         process: 'EYG15_3',
         id: 'EYG15-10',
         imgUrl: '9p9Vu7Y.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -1956,6 +2030,7 @@ export const Var2: SankeyLink[] = [
         process: 'EYG15_3',
         id: 'EYG15-12',
         imgUrl: '9p9Vu7Y.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -1967,6 +2042,7 @@ export const Var2: SankeyLink[] = [
         process: 'EYG15_4',
         id: 'EYG15-13',
         imgUrl: '9p9Vu7Y.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -1978,6 +2054,7 @@ export const Var2: SankeyLink[] = [
         process: 'EYG15_1',
         id: 'EYG15-14',
         imgUrl: '9p9Vu7Y.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -2011,6 +2088,7 @@ export const Var2: SankeyLink[] = [
         process: 'EYG15_4',
         id: 'EYG15-17',
         imgUrl: '9p9Vu7Y.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -2022,6 +2100,7 @@ export const Var2: SankeyLink[] = [
         process: 'EYG15_3',
         id: 'EYG15-18',
         imgUrl: '9p9Vu7Y.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -2033,6 +2112,7 @@ export const Var2: SankeyLink[] = [
         process: 'EYG15_4',
         id: 'EYG15-19',
         imgUrl: '9p9Vu7Y.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -2176,6 +2256,7 @@ export const Var2: SankeyLink[] = [
         process: 'FCF09_1',
         id: 'FCF09-0',
         imgUrl: 'FfzA9S4.png',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -2188,6 +2269,7 @@ export const Var2: SankeyLink[] = [
         process: 'FCF09_1',
         id: 'FCF09-1',
         imgUrl: 'FfzA9S4.png',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -2200,6 +2282,7 @@ export const Var2: SankeyLink[] = [
         process: 'FCF09_1',
         id: 'FCF09-2',
         imgUrl: 'FfzA9S4.png',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -2212,6 +2295,7 @@ export const Var2: SankeyLink[] = [
         process: 'FCF09_2',
         id: 'FCF09-3',
         imgUrl: 'FfzA9S4.png',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -2224,6 +2308,7 @@ export const Var2: SankeyLink[] = [
         process: 'FCF09_2',
         id: 'FCF09-4',
         imgUrl: 'FfzA9S4.png',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -2236,6 +2321,7 @@ export const Var2: SankeyLink[] = [
         process: 'FCF09_2',
         id: 'FCF09-5',
         imgUrl: 'FfzA9S4.png',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -2248,6 +2334,7 @@ export const Var2: SankeyLink[] = [
         process: 'FCF09_3',
         id: 'FCF09-6',
         imgUrl: 'FfzA9S4.png',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -2260,6 +2347,7 @@ export const Var2: SankeyLink[] = [
         process: 'FCF09_3',
         id: 'FCF09-7',
         imgUrl: 'FfzA9S4.png',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -2272,6 +2360,7 @@ export const Var2: SankeyLink[] = [
         process: 'FCF09_3',
         id: 'FCF09-8',
         imgUrl: 'FfzA9S4.png',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -2294,6 +2383,7 @@ export const Var2: SankeyLink[] = [
         process: 'FCF09_1',
         id: 'FCF09-10',
         imgUrl: 'FfzA9S4.png',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -2305,6 +2395,7 @@ export const Var2: SankeyLink[] = [
         process: 'FCF09_2',
         id: 'FCF09-11',
         imgUrl: 'FfzA9S4.png',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -2316,6 +2407,7 @@ export const Var2: SankeyLink[] = [
         process: 'FCF09_3',
         id: 'FCF09-12',
         imgUrl: 'FfzA9S4.png',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -2327,6 +2419,7 @@ export const Var2: SankeyLink[] = [
         process: 'FCF09_1',
         id: 'FCF09-13',
         imgUrl: 'FfzA9S4.png',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -2338,6 +2431,7 @@ export const Var2: SankeyLink[] = [
         process: 'FCF09_2',
         id: 'FCF09-14',
         imgUrl: 'FfzA9S4.png',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -2349,6 +2443,7 @@ export const Var2: SankeyLink[] = [
         process: 'FCF09_3',
         id: 'FCF09-15',
         imgUrl: 'FfzA9S4.png',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -2360,6 +2455,7 @@ export const Var2: SankeyLink[] = [
         process: 'FCF09_1',
         id: 'FCF09-16',
         imgUrl: 'FfzA9S4.png',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -2371,6 +2467,7 @@ export const Var2: SankeyLink[] = [
         process: 'FCF09_2',
         id: 'FCF09-17',
         imgUrl: 'FfzA9S4.png',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -2382,6 +2479,7 @@ export const Var2: SankeyLink[] = [
         process: 'FCF09_3',
         id: 'FCF09-18',
         imgUrl: 'FfzA9S4.png',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -2403,6 +2501,7 @@ export const Var2: SankeyLink[] = [
         process: 'FCF09_1',
         id: 'FCF09-20',
         imgUrl: 'FfzA9S4.png',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -2414,6 +2513,7 @@ export const Var2: SankeyLink[] = [
         process: 'FCF09_2',
         id: 'FCF09-21',
         imgUrl: 'FfzA9S4.png',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -2425,6 +2525,7 @@ export const Var2: SankeyLink[] = [
         process: 'FCF09_3',
         id: 'FCF09-22',
         imgUrl: 'FfzA9S4.png',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -2446,6 +2547,7 @@ export const Var2: SankeyLink[] = [
         process: 'FCF09_1',
         id: 'FCF09-24',
         imgUrl: 'FfzA9S4.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -2457,6 +2559,7 @@ export const Var2: SankeyLink[] = [
         process: 'FCF09_2',
         id: 'FCF09-25',
         imgUrl: 'FfzA9S4.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -2468,6 +2571,7 @@ export const Var2: SankeyLink[] = [
         process: 'FCF09_3',
         id: 'FCF09-26',
         imgUrl: 'FfzA9S4.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -2533,6 +2637,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12MT_1',
         id: 'GGS12MT-0',
         imgUrl: 'wVHfoIB.png',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -2545,6 +2650,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12MT_1',
         id: 'GGS12MT-1',
         imgUrl: 'wVHfoIB.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -2557,6 +2663,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12MT_2',
         id: 'GGS12MT-2',
         imgUrl: 'wVHfoIB.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -2569,6 +2676,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12MT_3',
         id: 'GGS12MT-3',
         imgUrl: 'wVHfoIB.png',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -2603,6 +2711,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12MT_1',
         id: 'GGS12MT-6',
         imgUrl: 'wVHfoIB.png',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -2614,6 +2723,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12MT_2',
         id: 'GGS12MT-7',
         imgUrl: 'wVHfoIB.png',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -2625,6 +2735,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12MT_1',
         id: 'GGS12MT-8',
         imgUrl: 'wVHfoIB.png',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -2636,6 +2747,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12MT_3',
         id: 'GGS12MT-9',
         imgUrl: 'wVHfoIB.png',
+        netnode: 'var',
         color: 'intThreeLight1LinkColor',
     },
     {
@@ -2669,6 +2781,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12MT_2',
         id: 'GGS12MT-12',
         imgUrl: 'wVHfoIB.png',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -2680,6 +2793,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12MT_3',
         id: 'GGS12MT-13',
         imgUrl: 'wVHfoIB.png',
+        netnode: 'var',
         color: 'intThreeLight1LinkColor',
     },
     {
@@ -2691,6 +2805,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12MT_1',
         id: 'GGS12MT-14',
         imgUrl: 'wVHfoIB.png',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -2713,6 +2828,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12MT_1',
         id: 'GGS12MT-16',
         imgUrl: 'wVHfoIB.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -2724,6 +2840,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12MT_2',
         id: 'GGS12MT-17',
         imgUrl: 'wVHfoIB.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -2735,6 +2852,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12MT_3',
         id: 'GGS12MT-18',
         imgUrl: 'wVHfoIB.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -2757,6 +2875,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12ST_1',
         id: 'GGS12ST-0',
         imgUrl: 'HV2lNkC.png',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -2769,6 +2888,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12ST_2',
         id: 'GGS12ST-1',
         imgUrl: 'HV2lNkC.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -2791,6 +2911,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12ST_1',
         id: 'GGS12ST-3',
         imgUrl: 'HV2lNkC.png',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -2802,6 +2923,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12ST_2',
         id: 'GGS12ST-4',
         imgUrl: 'HV2lNkC.png',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -2813,6 +2935,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12ST_2',
         id: 'GGS12ST-5',
         imgUrl: 'HV2lNkC.png',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -2824,6 +2947,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12ST_2',
         id: 'GGS12ST-6',
         imgUrl: 'HV2lNkC.png',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -2845,6 +2969,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12ST_2',
         id: 'GGS12ST-8',
         imgUrl: 'HV2lNkC.png',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -2856,6 +2981,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12ST_1',
         id: 'GGS12ST-9',
         imgUrl: 'HV2lNkC.png',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -2867,6 +2993,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12ST_2',
         id: 'GGS12ST-10',
         imgUrl: 'HV2lNkC.png',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -2878,6 +3005,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12ST_2',
         id: 'GGS12ST-11',
         imgUrl: 'HV2lNkC.png',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -2889,6 +3017,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12ST_1',
         id: 'GGS12ST-12',
         imgUrl: 'HV2lNkC.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -2900,6 +3029,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12ST_2',
         id: 'GGS12ST-13',
         imgUrl: 'HV2lNkC.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -2921,6 +3051,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12TPS_1',
         id: 'GGS12TPS-0',
         imgUrl: 'au5KByH.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -2954,6 +3085,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12TPS_1',
         id: 'GGS12TPS-3',
         imgUrl: 'au5KByH.png',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -2986,6 +3118,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12TPS_1',
         id: 'GGS12TPS-6',
         imgUrl: 'au5KByH.png',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -3018,6 +3151,7 @@ export const Var2: SankeyLink[] = [
         process: 'GGS12TPS_1',
         id: 'GGS12TPS-9',
         imgUrl: 'au5KByH.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -3061,6 +3195,7 @@ export const Var2: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-0',
         imgUrl: 'TIajUJa.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -3073,6 +3208,7 @@ export const Var2: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-1',
         imgUrl: 'TIajUJa.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -3085,6 +3221,7 @@ export const Var2: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-2',
         imgUrl: 'TIajUJa.jpg',
+        netnode: 'var',
         color: 'intOneLightLinkColor',
     },
     {
@@ -3096,6 +3233,7 @@ export const Var2: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-3',
         imgUrl: 'TIajUJa.jpg',
+        netnode: 'var',
         color: 'intOneLightLinkColor',
     },
     {
@@ -3107,6 +3245,7 @@ export const Var2: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-4',
         imgUrl: 'TIajUJa.jpg',
+        netnode: 'var',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -3118,6 +3257,7 @@ export const Var2: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-5',
         imgUrl: 'TIajUJa.jpg',
+        netnode: 'var',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -3129,6 +3269,7 @@ export const Var2: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-6',
         imgUrl: 'TIajUJa.jpg',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -3140,6 +3281,7 @@ export const Var2: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-7',
         imgUrl: 'TIajUJa.jpg',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -3151,6 +3293,7 @@ export const Var2: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-8',
         imgUrl: 'TIajUJa.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -3162,6 +3305,7 @@ export const Var2: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-9',
         imgUrl: 'TIajUJa.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -3173,6 +3317,7 @@ export const Var2: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-10',
         imgUrl: 'TIajUJa.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -3184,6 +3329,7 @@ export const Var2: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-11',
         imgUrl: 'TIajUJa.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -3195,6 +3341,7 @@ export const Var2: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-12',
         imgUrl: 'TIajUJa.jpg',
+        netnode: 'var',
         color: 'intOneLightLinkColor',
     },
     {
@@ -3206,6 +3353,7 @@ export const Var2: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-13',
         imgUrl: 'TIajUJa.jpg',
+        netnode: 'var',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -3217,6 +3365,7 @@ export const Var2: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-14',
         imgUrl: 'TIajUJa.jpg',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -3228,6 +3377,7 @@ export const Var2: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-15',
         imgUrl: 'TIajUJa.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -3239,6 +3389,7 @@ export const Var2: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-16',
         imgUrl: 'TIajUJa.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -3261,6 +3412,7 @@ export const Var2: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-18',
         imgUrl: 'TIajUJa.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -3316,6 +3468,7 @@ export const Var2: SankeyLink[] = [
         process: 'JTM11_4',
         id: 'index-3',
         imgUrl: 'AqAwugG.png',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -3328,6 +3481,7 @@ export const Var2: SankeyLink[] = [
         process: 'JTM11_4',
         id: 'index-4',
         imgUrl: 'AqAwugG.png',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -3340,6 +3494,7 @@ export const Var2: SankeyLink[] = [
         process: 'JTM11_4',
         id: 'index-5',
         imgUrl: 'AqAwugG.png',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -3407,6 +3562,7 @@ export const Var2: SankeyLink[] = [
         process: 'JTM11_4',
         id: 'index-11',
         imgUrl: 'AqAwugG.png',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -3418,6 +3574,7 @@ export const Var2: SankeyLink[] = [
         process: 'JTM11_4',
         id: 'index-12',
         imgUrl: 'AqAwugG.png',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -3429,6 +3586,7 @@ export const Var2: SankeyLink[] = [
         process: 'JTM11_4',
         id: 'index-13',
         imgUrl: 'AqAwugG.png',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -3550,6 +3708,7 @@ export const Var2: SankeyLink[] = [
         process: 'JTM11_4',
         id: 'index-24',
         imgUrl: 'AqAwugG.png',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -3561,6 +3720,7 @@ export const Var2: SankeyLink[] = [
         process: 'JTM11_4',
         id: 'index-25',
         imgUrl: 'AqAwugG.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -3660,6 +3820,7 @@ export const Var2: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-2',
         imgUrl: 'n4jwcKO.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -3672,6 +3833,7 @@ export const Var2: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-3',
         imgUrl: 'n4jwcKO.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -3737,6 +3899,7 @@ export const Var2: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-9',
         imgUrl: 'n4jwcKO.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -3748,6 +3911,7 @@ export const Var2: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-10',
         imgUrl: 'n4jwcKO.jpg',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -3759,6 +3923,7 @@ export const Var2: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-11',
         imgUrl: 'n4jwcKO.jpg',
+        netnode: 'var',
         color: 'intThreeLight2LinkColor',
     },
     {
@@ -3770,6 +3935,7 @@ export const Var2: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-12',
         imgUrl: 'n4jwcKO.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -3781,6 +3947,7 @@ export const Var2: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-13',
         imgUrl: 'n4jwcKO.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -3792,6 +3959,7 @@ export const Var2: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-14',
         imgUrl: 'n4jwcKO.jpg',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -3803,6 +3971,7 @@ export const Var2: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-15',
         imgUrl: 'n4jwcKO.jpg',
+        netnode: 'var',
         color: 'intThreeLight2LinkColor',
     },
     {
@@ -3814,6 +3983,7 @@ export const Var2: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-16',
         imgUrl: 'n4jwcKO.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -3846,6 +4016,7 @@ export const Var2: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-19',
         imgUrl: 'n4jwcKO.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -3857,6 +4028,7 @@ export const Var2: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-20',
         imgUrl: 'n4jwcKO.jpg',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -3868,6 +4040,7 @@ export const Var2: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-21',
         imgUrl: 'n4jwcKO.jpg',
+        netnode: 'var',
         color: 'intThreeLight2LinkColor',
     },
     {
@@ -3900,6 +4073,7 @@ export const Var2: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-24',
         imgUrl: 'n4jwcKO.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -3911,6 +4085,7 @@ export const Var2: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-25',
         imgUrl: 'n4jwcKO.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -3986,6 +4161,7 @@ export const Var2: SankeyLink[] = [
         process: 'JX17_1',
         id: 'JX17-0',
         imgUrl: 'dbYhmdg.jpg',
+        netnode: 'var',
         color: 'targetLinkOneColor',
         status: 'selected',
     },
@@ -4019,6 +4195,7 @@ export const Var2: SankeyLink[] = [
         process: 'JX17_1',
         id: 'JX17-3',
         imgUrl: 'dbYhmdg.jpg',
+        netnode: 'var',
         color: 'targetLinkOneColor',
         status: 'selected',
     },
@@ -4052,6 +4229,7 @@ export const Var2: SankeyLink[] = [
         process: 'JX17_4',
         id: 'JX17-6',
         imgUrl: 'dbYhmdg.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -4064,6 +4242,7 @@ export const Var2: SankeyLink[] = [
         process: 'JX17_5',
         id: 'JX17-7',
         imgUrl: 'dbYhmdg.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -4076,6 +4255,7 @@ export const Var2: SankeyLink[] = [
         process: 'JX17_6',
         id: 'JX17-8',
         imgUrl: 'dbYhmdg.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -4098,6 +4278,7 @@ export const Var2: SankeyLink[] = [
         process: 'JX17_1',
         id: 'JX17-10',
         imgUrl: 'dbYhmdg.jpg',
+        netnode: 'var',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -4130,6 +4311,7 @@ export const Var2: SankeyLink[] = [
         process: 'JX17_1',
         id: 'JX17-13',
         imgUrl: 'dbYhmdg.jpg',
+        netnode: 'var',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -4162,6 +4344,7 @@ export const Var2: SankeyLink[] = [
         process: 'JX17_4',
         id: 'JX17-16',
         imgUrl: 'dbYhmdg.jpg',
+        netnode: 'var',
         color: 'intOneLight2LinkColor',
     },
     {
@@ -4173,6 +4356,7 @@ export const Var2: SankeyLink[] = [
         process: 'JX17_5',
         id: 'JX17-17',
         imgUrl: 'dbYhmdg.jpg',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -4184,6 +4368,7 @@ export const Var2: SankeyLink[] = [
         process: 'JX17_6',
         id: 'JX17-18',
         imgUrl: 'dbYhmdg.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -4205,6 +4390,7 @@ export const Var2: SankeyLink[] = [
         process: 'JX17_4',
         id: 'JX17-20',
         imgUrl: 'dbYhmdg.jpg',
+        netnode: 'var',
         color: 'intOneLight2LinkColor',
     },
     {
@@ -4216,6 +4402,7 @@ export const Var2: SankeyLink[] = [
         process: 'JX17_1',
         id: 'JX17-21',
         imgUrl: 'dbYhmdg.jpg',
+        netnode: 'var',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -4248,6 +4435,7 @@ export const Var2: SankeyLink[] = [
         process: 'JX17_5',
         id: 'JX17-24',
         imgUrl: 'dbYhmdg.jpg',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -4259,6 +4447,7 @@ export const Var2: SankeyLink[] = [
         process: 'JX17_6',
         id: 'JX17-25',
         imgUrl: 'dbYhmdg.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -4291,6 +4480,7 @@ export const Var2: SankeyLink[] = [
         process: 'JX17_1',
         id: 'JX17-28',
         imgUrl: 'dbYhmdg.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -4356,6 +4546,7 @@ export const Var2: SankeyLink[] = [
         process: 'JX17_4',
         id: 'JX17-34',
         imgUrl: 'dbYhmdg.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -4367,6 +4558,7 @@ export const Var2: SankeyLink[] = [
         process: 'JX17_5',
         id: 'JX17-35',
         imgUrl: 'dbYhmdg.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -4378,6 +4570,7 @@ export const Var2: SankeyLink[] = [
         process: 'JX17_6',
         id: 'JX17-36',
         imgUrl: 'dbYhmdg.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -4410,6 +4603,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-0',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -4444,6 +4638,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-3',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -4478,6 +4673,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-6',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -4512,6 +4708,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-9',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -4546,6 +4743,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-12',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -4580,6 +4778,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-15',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -4614,6 +4813,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-18',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -4714,6 +4914,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_6',
         id: 'KSBK15-27',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -4726,6 +4927,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_6',
         id: 'KSBK15-28',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -4738,6 +4940,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_6',
         id: 'KSBK15-29',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -4761,6 +4964,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-31',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -4772,6 +4976,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-32',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -4783,6 +4988,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-33',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -4794,6 +5000,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-34',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -4805,6 +5012,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-35',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -4816,6 +5024,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-36',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -4827,6 +5036,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-37',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -4838,6 +5048,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-38',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -4849,6 +5060,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-39',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -4860,6 +5072,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-40',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -4871,6 +5084,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-41',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -4882,6 +5096,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-42',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -4893,6 +5108,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-43',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -4904,6 +5120,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-44',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -5135,6 +5352,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_6',
         id: 'KSBK15-65',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -5146,6 +5364,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_6',
         id: 'KSBK15-66',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -5157,6 +5376,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_6',
         id: 'KSBK15-67',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -5201,6 +5421,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_6',
         id: 'KSBK15-71',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -5212,6 +5433,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_6',
         id: 'KSBK15-72',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -5223,6 +5445,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_6',
         id: 'KSBK15-73',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -5289,6 +5512,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-79',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -5300,6 +5524,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-80',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -5311,6 +5536,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_6',
         id: 'KSBK15-81',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -5399,6 +5625,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_6',
         id: 'KSBK15-89',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -5410,6 +5637,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-90',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -5421,6 +5649,7 @@ export const Var2: SankeyLink[] = [
         process: 'KSBK15_6',
         id: 'KSBK15-91',
         imgUrl: 'AY0EaHs.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -5509,6 +5738,7 @@ export const Var2: SankeyLink[] = [
         process: 'LGX16_2',
         id: 'LGX16-0',
         imgUrl: 'WcypLMa.png',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -5531,6 +5761,7 @@ export const Var2: SankeyLink[] = [
         process: 'LGX16_3',
         id: 'LGX16-2',
         imgUrl: 'WcypLMa.png',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -5543,6 +5774,7 @@ export const Var2: SankeyLink[] = [
         process: 'LGX16_4',
         id: 'LGX16-3',
         imgUrl: 'WcypLMa.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -5555,6 +5787,7 @@ export const Var2: SankeyLink[] = [
         process: 'LGX16_4',
         id: 'LGX16-4',
         imgUrl: 'WcypLMa.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -5599,6 +5832,7 @@ export const Var2: SankeyLink[] = [
         process: 'LGX16_2',
         id: 'LGX16-8',
         imgUrl: 'WcypLMa.png',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -5610,6 +5844,7 @@ export const Var2: SankeyLink[] = [
         process: 'LGX16_3',
         id: 'LGX16-9',
         imgUrl: 'WcypLMa.png',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -5621,6 +5856,7 @@ export const Var2: SankeyLink[] = [
         process: 'LGX16_4',
         id: 'LGX16-10',
         imgUrl: 'WcypLMa.png',
+        netnode: 'var',
         color: 'intOneLinkColor',
     },
     {
@@ -5632,6 +5868,7 @@ export const Var2: SankeyLink[] = [
         process: 'LGX16_4',
         id: 'LGX16-11',
         imgUrl: 'WcypLMa.png',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -5643,6 +5880,7 @@ export const Var2: SankeyLink[] = [
         process: 'LGX16_4',
         id: 'LGX16-12',
         imgUrl: 'WcypLMa.png',
+        netnode: 'var',
         color: 'intOneLinkColor',
     },
     {
@@ -5654,6 +5892,7 @@ export const Var2: SankeyLink[] = [
         process: 'LGX16_4',
         id: 'LGX16-13',
         imgUrl: 'WcypLMa.png',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -5697,6 +5936,7 @@ export const Var2: SankeyLink[] = [
         process: 'LGX16_2',
         id: 'LGX16-17',
         imgUrl: 'WcypLMa.png',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -5708,6 +5948,7 @@ export const Var2: SankeyLink[] = [
         process: 'LGX16_3',
         id: 'LGX16-18',
         imgUrl: 'WcypLMa.png',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -5719,6 +5960,7 @@ export const Var2: SankeyLink[] = [
         process: 'LGX16_4',
         id: 'LGX16-19',
         imgUrl: 'WcypLMa.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -5730,6 +5972,7 @@ export const Var2: SankeyLink[] = [
         process: 'LGX16_4',
         id: 'LGX16-20',
         imgUrl: 'WcypLMa.png',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -5762,6 +6005,7 @@ export const Var2: SankeyLink[] = [
         process: 'LGX16_2',
         id: 'LGX16-23',
         imgUrl: 'WcypLMa.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -5784,6 +6028,7 @@ export const Var2: SankeyLink[] = [
         process: 'LGX16_3',
         id: 'LGX16-25',
         imgUrl: 'WcypLMa.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -5827,6 +6072,7 @@ export const Var2: SankeyLink[] = [
         process: 'LGX16_4',
         id: 'LGX16-29',
         imgUrl: 'WcypLMa.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -5882,6 +6128,7 @@ export const Var2: SankeyLink[] = [
         process: 'LJC18_2',
         id: 'LJC18-2',
         imgUrl: 'bYdgkcY.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -5905,6 +6152,7 @@ export const Var2: SankeyLink[] = [
         process: 'LJC18_5',
         id: 'LJC18-4',
         imgUrl: 'bYdgkcY.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -5917,6 +6165,7 @@ export const Var2: SankeyLink[] = [
         process: 'LJC18_6',
         id: 'LJC18-5',
         imgUrl: 'bYdgkcY.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -5973,6 +6222,7 @@ export const Var2: SankeyLink[] = [
         process: 'LJC18_2',
         id: 'LJC18-10',
         imgUrl: 'bYdgkcY.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -5984,6 +6234,7 @@ export const Var2: SankeyLink[] = [
         process: 'LJC18_5',
         id: 'LJC18-11',
         imgUrl: 'bYdgkcY.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -5995,6 +6246,7 @@ export const Var2: SankeyLink[] = [
         process: 'LJC18_6',
         id: 'LJC18-12',
         imgUrl: 'bYdgkcY.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -6083,6 +6335,7 @@ export const Var2: SankeyLink[] = [
         process: 'LJC18_5',
         id: 'LJC18-20',
         imgUrl: 'bYdgkcY.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -6094,6 +6347,7 @@ export const Var2: SankeyLink[] = [
         process: 'LJC18_2',
         id: 'LJC18-21',
         imgUrl: 'bYdgkcY.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -6105,6 +6359,7 @@ export const Var2: SankeyLink[] = [
         process: 'LJC18_6',
         id: 'LJC18-22',
         imgUrl: 'bYdgkcY.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -6182,6 +6437,7 @@ export const Var2: SankeyLink[] = [
         process: 'LJC18_2',
         id: 'LJC18-29',
         imgUrl: 'bYdgkcY.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -6193,6 +6449,7 @@ export const Var2: SankeyLink[] = [
         process: 'LJC18_5',
         id: 'LJC18-30',
         imgUrl: 'bYdgkcY.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -6204,6 +6461,7 @@ export const Var2: SankeyLink[] = [
         process: 'LJC18_6',
         id: 'LJC18-31',
         imgUrl: 'bYdgkcY.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -6369,6 +6627,7 @@ export const Var2: SankeyLink[] = [
         process: 'LLN14_1',
         id: 'LLN14-0',
         imgUrl: 'xWQU5gc.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -6381,6 +6640,7 @@ export const Var2: SankeyLink[] = [
         process: 'LLN14_2',
         id: 'LLN14-1',
         imgUrl: 'xWQU5gc.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -6393,6 +6653,7 @@ export const Var2: SankeyLink[] = [
         process: 'LLN14_2',
         id: 'LLN14-2',
         imgUrl: 'xWQU5gc.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -6438,6 +6699,7 @@ export const Var2: SankeyLink[] = [
         process: 'LLN14_1',
         id: 'LLN14-6',
         imgUrl: 'xWQU5gc.jpg',
+        netnode: 'var',
         color: 'intOneLightLinkColor',
     },
     {
@@ -6449,6 +6711,7 @@ export const Var2: SankeyLink[] = [
         process: 'LLN14_1',
         id: 'LLN14-7',
         imgUrl: 'xWQU5gc.jpg',
+        netnode: 'var',
         color: 'intOneLightLinkColor',
     },
     {
@@ -6460,6 +6723,7 @@ export const Var2: SankeyLink[] = [
         process: 'LLN14_1',
         id: 'LLN14-8',
         imgUrl: 'xWQU5gc.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -6493,6 +6757,7 @@ export const Var2: SankeyLink[] = [
         process: 'LLN14_2',
         id: 'LLN14-11',
         imgUrl: 'xWQU5gc.jpg',
+        netnode: 'var',
         color: 'intOneLightLinkColor',
     },
     {
@@ -6504,6 +6769,7 @@ export const Var2: SankeyLink[] = [
         process: 'LLN14_2',
         id: 'LLN14-12',
         imgUrl: 'xWQU5gc.jpg',
+        netnode: 'var',
         color: 'intOneLightLinkColor',
     },
     {
@@ -6515,6 +6781,7 @@ export const Var2: SankeyLink[] = [
         process: 'LLN14_2',
         id: 'LLN14-13',
         imgUrl: 'xWQU5gc.jpg',
+        netnode: 'var',
         color: 'intOneLightLinkColor',
     },
     {
@@ -6526,6 +6793,7 @@ export const Var2: SankeyLink[] = [
         process: 'LLN14_2',
         id: 'LLN14-14',
         imgUrl: 'xWQU5gc.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -6691,6 +6959,7 @@ export const Var2: SankeyLink[] = [
         process: 'LWW13_2',
         id: 'LWW13-1',
         imgUrl: 'iaVFFGl.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -6714,6 +6983,7 @@ export const Var2: SankeyLink[] = [
         process: 'LWW13_2',
         id: 'LWW13-3',
         imgUrl: 'iaVFFGl.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -6726,6 +6996,7 @@ export const Var2: SankeyLink[] = [
         process: 'LWW13_4',
         id: 'LWW13-4',
         imgUrl: 'iaVFFGl.jpg',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -6738,6 +7009,7 @@ export const Var2: SankeyLink[] = [
         process: 'LWW13_4',
         id: 'LWW13-5',
         imgUrl: 'iaVFFGl.jpg',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -6750,6 +7022,7 @@ export const Var2: SankeyLink[] = [
         process: 'LWW13_4',
         id: 'LWW13-6',
         imgUrl: 'iaVFFGl.jpg',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -6806,6 +7079,7 @@ export const Var2: SankeyLink[] = [
         process: 'LWW13_2',
         id: 'LWW13-11',
         imgUrl: 'iaVFFGl.jpg',
+        netnode: 'var',
         color: 'intOneLight2LinkColor',
     },
     {
@@ -6817,6 +7091,7 @@ export const Var2: SankeyLink[] = [
         process: 'LWW13_2',
         id: 'LWW13-12',
         imgUrl: 'iaVFFGl.jpg',
+        netnode: 'var',
         color: 'intOneLight2LinkColor',
     },
     {
@@ -6839,6 +7114,7 @@ export const Var2: SankeyLink[] = [
         process: 'LWW13_4',
         id: 'LWW13-14',
         imgUrl: 'iaVFFGl.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -6850,6 +7126,7 @@ export const Var2: SankeyLink[] = [
         process: 'LWW13_4',
         id: 'LWW13-15',
         imgUrl: 'iaVFFGl.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -6861,6 +7138,7 @@ export const Var2: SankeyLink[] = [
         process: 'LWW13_4',
         id: 'LWW13-16',
         imgUrl: 'iaVFFGl.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -6872,6 +7150,7 @@ export const Var2: SankeyLink[] = [
         process: 'LWW13_2',
         id: 'LWW13-17',
         imgUrl: 'iaVFFGl.jpg',
+        netnode: 'var',
         color: 'intOneLight2LinkColor',
     },
     {
@@ -6905,6 +7184,7 @@ export const Var2: SankeyLink[] = [
         process: 'LWW13_4',
         id: 'LWW13-20',
         imgUrl: 'iaVFFGl.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -6927,6 +7207,7 @@ export const Var2: SankeyLink[] = [
         process: 'LWW13_2',
         id: 'LWW13-22',
         imgUrl: 'iaVFFGl.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -6938,6 +7219,7 @@ export const Var2: SankeyLink[] = [
         process: 'LWW13_4',
         id: 'LWW13-23',
         imgUrl: 'iaVFFGl.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -7037,6 +7319,7 @@ export const Var2: SankeyLink[] = [
         process: 'MA16_2',
         id: 'MA16-1',
         imgUrl: '69BWuDV.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -7103,6 +7386,7 @@ export const Var2: SankeyLink[] = [
         process: 'MA16_2',
         id: 'MA16-7',
         imgUrl: '69BWuDV.png',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -7168,6 +7452,7 @@ export const Var2: SankeyLink[] = [
         process: 'MA16_2',
         id: 'MA16-13',
         imgUrl: '69BWuDV.png',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -7221,6 +7506,7 @@ export const Var2: SankeyLink[] = [
         process: 'MA16_2',
         id: 'MA16-18',
         imgUrl: '69BWuDV.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -7296,6 +7582,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDD10_1',
         id: 'MDD10-0',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -7308,6 +7595,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDD10_2',
         id: 'MDD10-1',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -7375,6 +7663,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDD10_1',
         id: 'MDD10-7',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -7397,6 +7686,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDD10_1',
         id: 'MDD10-9',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -7408,6 +7698,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDD10_2',
         id: 'MDD10-10',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -7419,6 +7710,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDD10_2',
         id: 'MDD10-11',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -7441,6 +7733,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDD10_1',
         id: 'MDD10-13',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -7452,6 +7745,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDD10_2',
         id: 'MDD10-14',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -7463,6 +7757,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDD10_2',
         id: 'MDD10-15',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -7485,6 +7780,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDD10_1',
         id: 'MDD10-17',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -7496,6 +7792,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDD10_2',
         id: 'MDD10-18',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -7661,6 +7958,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDD10_1',
         id: 'MDD10-33',
         imgUrl: 'AA3ZOvl.png',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -7771,6 +8069,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEV16_4',
         id: 'MEV16-5',
         imgUrl: 'FpTZ8Nt.jpg',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -7783,6 +8082,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEV16_4',
         id: 'MEV16-6',
         imgUrl: 'FpTZ8Nt.jpg',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -7795,6 +8095,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEV16_5',
         id: 'MEV16-7',
         imgUrl: 'FpTZ8Nt.jpg',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -7807,6 +8108,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEV16_5',
         id: 'MEV16-8',
         imgUrl: 'FpTZ8Nt.jpg',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -8017,6 +8319,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEV16_4',
         id: 'MEV16-27',
         imgUrl: 'FpTZ8Nt.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -8028,6 +8331,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEV16_4',
         id: 'MEV16-28',
         imgUrl: 'FpTZ8Nt.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -8039,6 +8343,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEV16_4',
         id: 'MEV16-29',
         imgUrl: 'FpTZ8Nt.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -8050,6 +8355,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEV16_4',
         id: 'MEV16-30',
         imgUrl: 'FpTZ8Nt.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -8061,6 +8367,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEV16_5',
         id: 'MEV16-31',
         imgUrl: 'FpTZ8Nt.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -8072,6 +8379,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEV16_5',
         id: 'MEV16-32',
         imgUrl: 'FpTZ8Nt.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -8083,6 +8391,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEV16_5',
         id: 'MEV16-33',
         imgUrl: 'FpTZ8Nt.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -8094,6 +8403,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEV16_5',
         id: 'MEV16-34',
         imgUrl: 'FpTZ8Nt.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -8138,6 +8448,7 @@ export const Var2: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-0',
         imgUrl: 'Ak8KSur.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -8150,6 +8461,7 @@ export const Var2: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-1',
         imgUrl: 'Ak8KSur.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -8162,6 +8474,7 @@ export const Var2: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-2',
         imgUrl: 'Ak8KSur.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -8173,6 +8486,7 @@ export const Var2: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-3',
         imgUrl: 'Ak8KSur.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -8184,6 +8498,7 @@ export const Var2: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-4',
         imgUrl: 'Ak8KSur.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -8195,6 +8510,7 @@ export const Var2: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-5',
         imgUrl: 'Ak8KSur.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -8206,6 +8522,7 @@ export const Var2: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-6',
         imgUrl: 'Ak8KSur.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -8217,6 +8534,7 @@ export const Var2: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-7',
         imgUrl: 'Ak8KSur.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -8228,6 +8546,7 @@ export const Var2: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-8',
         imgUrl: 'Ak8KSur.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -8239,6 +8558,7 @@ export const Var2: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-9',
         imgUrl: 'Ak8KSur.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -8250,6 +8570,7 @@ export const Var2: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-10',
         imgUrl: 'Ak8KSur.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -8272,6 +8593,7 @@ export const Var2: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-12',
         imgUrl: 'Ak8KSur.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -8371,6 +8693,7 @@ export const Var2: SankeyLink[] = [
         process: 'MVM17_3',
         id: 'MVM17-5',
         imgUrl: 'U35x588.png',
+        netnode: 'var',
         color: 'targetLinkFourColor',
         status: 'selected',
     },
@@ -8383,6 +8706,7 @@ export const Var2: SankeyLink[] = [
         process: 'MVM17_3',
         id: 'MVM17-6',
         imgUrl: 'U35x588.png',
+        netnode: 'var',
         color: 'targetLinkFourColor',
         status: 'selected',
     },
@@ -8395,6 +8719,7 @@ export const Var2: SankeyLink[] = [
         process: 'MVM17_3',
         id: 'MVM17-7',
         imgUrl: 'U35x588.png',
+        netnode: 'var',
         color: 'targetLinkFourColor',
         status: 'selected',
     },
@@ -8517,6 +8842,7 @@ export const Var2: SankeyLink[] = [
         process: 'MVM17_3',
         id: 'MVM17-18',
         imgUrl: 'U35x588.png',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -8528,6 +8854,7 @@ export const Var2: SankeyLink[] = [
         process: 'MVM17_3',
         id: 'MVM17-19',
         imgUrl: 'U35x588.png',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -8539,6 +8866,7 @@ export const Var2: SankeyLink[] = [
         process: 'MVM17_3',
         id: 'MVM17-20',
         imgUrl: 'U35x588.png',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -8561,6 +8889,7 @@ export const Var2: SankeyLink[] = [
         process: 'MVM17_3',
         id: 'MVM17-22',
         imgUrl: 'U35x588.png',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -8605,6 +8934,7 @@ export const Var2: SankeyLink[] = [
         process: 'MVM17_3',
         id: 'MVM17-26',
         imgUrl: 'U35x588.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -8692,6 +9022,7 @@ export const Var2: SankeyLink[] = [
         process: 'MWSO08_2',
         id: 'MWSO08-1',
         imgUrl: 'ZplNAXx.jpg',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -8704,6 +9035,7 @@ export const Var2: SankeyLink[] = [
         process: 'MWSO08_3',
         id: 'MWSO08-2',
         imgUrl: 'ZplNAXx.jpg',
+        netnode: 'var',
         color: 'targetLinkFourColor',
         status: 'selected',
     },
@@ -8746,6 +9078,7 @@ export const Var2: SankeyLink[] = [
         process: 'MWSO08_2',
         id: 'MWSO08-6',
         imgUrl: 'ZplNAXx.jpg',
+        netnode: 'var',
         color: 'intThreeLight1LinkColor',
     },
     {
@@ -8767,6 +9100,7 @@ export const Var2: SankeyLink[] = [
         process: 'MWSO08_3',
         id: 'MWSO08-8',
         imgUrl: 'ZplNAXx.jpg',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -8808,6 +9142,7 @@ export const Var2: SankeyLink[] = [
         process: 'MWSO08_3',
         id: 'MWSO08-12',
         imgUrl: 'ZplNAXx.jpg',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -8819,6 +9154,7 @@ export const Var2: SankeyLink[] = [
         process: 'MWSO08_2',
         id: 'MWSO08-13',
         imgUrl: 'ZplNAXx.jpg',
+        netnode: 'var',
         color: 'intThreeLight1LinkColor',
     },
     {
@@ -8830,6 +9166,7 @@ export const Var2: SankeyLink[] = [
         process: 'MWSO08_2',
         id: 'MWSO08-14',
         imgUrl: 'ZplNAXx.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -8841,6 +9178,7 @@ export const Var2: SankeyLink[] = [
         process: 'MWSO08_3',
         id: 'MWSO08-15',
         imgUrl: 'ZplNAXx.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -8872,6 +9210,7 @@ export const Var2: SankeyLink[] = [
         process: 'PC15PV_1',
         id: 'PC15PV-0',
         imgUrl: 'C2IpSkW.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -8906,6 +9245,7 @@ export const Var2: SankeyLink[] = [
         process: 'PC15PV_4',
         id: 'PC15PV-3',
         imgUrl: 'C2IpSkW.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -8938,6 +9278,7 @@ export const Var2: SankeyLink[] = [
         process: 'PC15PV_1',
         id: 'PC15PV-6',
         imgUrl: 'C2IpSkW.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -8971,6 +9312,7 @@ export const Var2: SankeyLink[] = [
         process: 'PC15PV_4',
         id: 'PC15PV-9',
         imgUrl: 'C2IpSkW.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -9002,6 +9344,7 @@ export const Var2: SankeyLink[] = [
         process: 'PC15PV_1',
         id: 'PC15PV-12',
         imgUrl: 'C2IpSkW.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -9013,6 +9356,7 @@ export const Var2: SankeyLink[] = [
         process: 'PC15PV_4',
         id: 'PC15PV-13',
         imgUrl: 'C2IpSkW.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -9056,6 +9400,7 @@ export const Var2: SankeyLink[] = [
         process: 'PC15PV_1',
         id: 'PC15PV-17',
         imgUrl: 'C2IpSkW.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -9067,6 +9412,7 @@ export const Var2: SankeyLink[] = [
         process: 'PC15PV_4',
         id: 'PC15PV-18',
         imgUrl: 'C2IpSkW.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -9319,6 +9665,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS16_2',
         id: 'SCS16-1',
         imgUrl: 'ELyzRJL.jpg',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -9331,6 +9678,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS16_3',
         id: 'SCS16-2',
         imgUrl: 'ELyzRJL.jpg',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -9464,6 +9812,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS16_2',
         id: 'SCS16-14',
         imgUrl: 'ELyzRJL.jpg',
+        netnode: 'var',
         color: 'intThreeLight2LinkColor',
     },
     {
@@ -9475,6 +9824,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS16_2',
         id: 'SCS16-15',
         imgUrl: 'ELyzRJL.jpg',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -9486,6 +9836,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS16_2',
         id: 'SCS16-16',
         imgUrl: 'ELyzRJL.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -9497,6 +9848,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS16_2',
         id: 'SCS16-17',
         imgUrl: 'ELyzRJL.jpg',
+        netnode: 'var',
         color: 'intThreeLight2LinkColor',
     },
     {
@@ -9508,6 +9860,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS16_2',
         id: 'SCS16-18',
         imgUrl: 'ELyzRJL.jpg',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -9519,6 +9872,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS16_2',
         id: 'SCS16-19',
         imgUrl: 'ELyzRJL.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -9530,6 +9884,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS16_2',
         id: 'SCS16-20',
         imgUrl: 'ELyzRJL.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -9563,6 +9918,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS16_3',
         id: 'SCS16-23',
         imgUrl: 'ELyzRJL.jpg',
+        netnode: 'var',
         color: 'intThreeLight2LinkColor',
     },
     {
@@ -9574,6 +9930,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS16_3',
         id: 'SCS16-24',
         imgUrl: 'ELyzRJL.jpg',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -9585,6 +9942,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS16_3',
         id: 'SCS16-25',
         imgUrl: 'ELyzRJL.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -9596,6 +9954,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS16_3',
         id: 'SCS16-26',
         imgUrl: 'ELyzRJL.jpg',
+        netnode: 'var',
         color: 'intThreeLight2LinkColor',
     },
     {
@@ -9607,6 +9966,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS16_3',
         id: 'SCS16-27',
         imgUrl: 'ELyzRJL.jpg',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -9618,6 +9978,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS16_3',
         id: 'SCS16-28',
         imgUrl: 'ELyzRJL.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -9629,6 +9990,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS16_3',
         id: 'SCS16-29',
         imgUrl: 'ELyzRJL.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -9750,6 +10112,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS17_4',
         id: 'SCS17-3',
         imgUrl: 'h29usSh.jpg',
+        netnode: 'var',
         color: 'targetLinkFourColor',
         status: 'selected',
     },
@@ -9762,6 +10125,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS17_4',
         id: 'SCS17-4',
         imgUrl: 'h29usSh.jpg',
+        netnode: 'var',
         color: 'targetLinkFourColor',
         status: 'selected',
     },
@@ -9774,6 +10138,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS17_4',
         id: 'SCS17-5',
         imgUrl: 'h29usSh.jpg',
+        netnode: 'var',
         color: 'targetLinkFourColor',
         status: 'selected',
     },
@@ -9786,6 +10151,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS17_5',
         id: 'SCS17-6',
         imgUrl: 'h29usSh.jpg',
+        netnode: 'var',
         color: 'targetLinkFourColor',
         status: 'selected',
     },
@@ -10029,6 +10395,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS17_4',
         id: 'SCS17-28',
         imgUrl: 'h29usSh.jpg',
+        netnode: 'var',
         color: 'intOneLightLinkColor',
     },
     {
@@ -10040,6 +10407,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS17_4',
         id: 'SCS17-29',
         imgUrl: 'h29usSh.jpg',
+        netnode: 'var',
         color: 'intOneLightLinkColor',
     },
     {
@@ -10051,6 +10419,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS17_4',
         id: 'SCS17-30',
         imgUrl: 'h29usSh.jpg',
+        netnode: 'var',
         color: 'intOneLightLinkColor',
     },
     {
@@ -10062,6 +10431,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS17_4',
         id: 'SCS17-31',
         imgUrl: 'h29usSh.jpg',
+        netnode: 'var',
         color: 'intOneLightLinkColor',
     },
     {
@@ -10073,6 +10443,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS17_4',
         id: 'SCS17-32',
         imgUrl: 'h29usSh.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -10095,6 +10466,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS17_5',
         id: 'SCS17-34',
         imgUrl: 'h29usSh.jpg',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -10106,6 +10478,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS17_5',
         id: 'SCS17-35',
         imgUrl: 'h29usSh.jpg',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -10117,6 +10490,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS17_5',
         id: 'SCS17-36',
         imgUrl: 'h29usSh.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -10150,6 +10524,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS19_2',
         id: 'SCS19-2',
         imgUrl: 'kl0Dozw.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -10327,6 +10702,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS19_2',
         id: 'SCS19-18',
         imgUrl: 'kl0Dozw.jpg',
+        netnode: 'var',
         color: 'intThreeLight2LinkColor',
     },
     {
@@ -10338,6 +10714,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS19_2',
         id: 'SCS19-19',
         imgUrl: 'kl0Dozw.jpg',
+        netnode: 'var',
         color: 'intThreeLight2LinkColor',
     },
     {
@@ -10349,6 +10726,7 @@ export const Var2: SankeyLink[] = [
         process: 'SCS19_2',
         id: 'SCS19-20',
         imgUrl: 'kl0Dozw.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -10723,6 +11101,7 @@ export const Var2: SankeyLink[] = [
         process: 'SSK12_2',
         id: 'SSK12-4',
         imgUrl: 'chAdr4B.png',
+        netnode: 'var',
         color: 'targetLinkFourColor',
         status: 'selected',
     },
@@ -10823,6 +11202,7 @@ export const Var2: SankeyLink[] = [
         process: 'SSK12_2',
         id: 'SSK12-13',
         imgUrl: 'chAdr4B.png',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -10834,6 +11214,7 @@ export const Var2: SankeyLink[] = [
         process: 'SSK12_2',
         id: 'SSK12-14',
         imgUrl: 'chAdr4B.png',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -10845,6 +11226,7 @@ export const Var2: SankeyLink[] = [
         process: 'SSK12_2',
         id: 'SSK12-15',
         imgUrl: 'chAdr4B.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -10911,6 +11293,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-0',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -10923,6 +11306,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-1',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -10935,6 +11319,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-2',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -10947,6 +11332,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-3',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -10959,6 +11345,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_2',
         id: 'VWH13-4',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -10971,6 +11358,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-5',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'targetLinkFourColor',
         status: 'selected',
     },
@@ -10983,6 +11371,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-6',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'targetLinkFourColor',
         status: 'selected',
     },
@@ -11017,6 +11406,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-9',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'intThreeLight2LinkColor',
     },
     {
@@ -11028,6 +11418,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-10',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'intThreeLight2LinkColor',
     },
     {
@@ -11039,6 +11430,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-11',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'intThreeLight2LinkColor',
     },
     {
@@ -11050,6 +11442,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-12',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'intThreeLight2LinkColor',
     },
     {
@@ -11061,6 +11454,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-13',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -11072,6 +11466,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-14',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -11083,6 +11478,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-15',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -11094,6 +11490,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-16',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -11105,6 +11502,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-17',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'intThreeLight2LinkColor',
     },
     {
@@ -11116,6 +11514,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-18',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -11127,6 +11526,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-19',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -11138,6 +11538,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_2',
         id: 'VWH13-20',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -11149,6 +11550,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_2',
         id: 'VWH13-21',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -11160,6 +11562,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_2',
         id: 'VWH13-22',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -11193,6 +11596,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-25',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -11204,6 +11608,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-26',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -11215,6 +11620,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-27',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -11226,6 +11632,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-28',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -11237,6 +11644,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-29',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -11248,6 +11656,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-30',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -11259,6 +11668,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-31',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -11270,6 +11680,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-32',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -11281,6 +11692,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-33',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -11292,6 +11704,7 @@ export const Var2: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-34',
         imgUrl: 'TO07ZUT.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -11446,6 +11859,7 @@ export const Var2: SankeyLink[] = [
         process: ' XD99_1',
         id: 'XD99-0',
         imgUrl: 'CaBMwKE.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -11458,6 +11872,7 @@ export const Var2: SankeyLink[] = [
         process: ' XD99_2',
         id: 'XD99-1',
         imgUrl: 'CaBMwKE.jpg',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -11514,6 +11929,7 @@ export const Var2: SankeyLink[] = [
         process: ' XD99_1',
         id: 'XD99-6',
         imgUrl: 'CaBMwKE.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -11525,6 +11941,7 @@ export const Var2: SankeyLink[] = [
         process: ' XD99_2',
         id: 'XD99-7',
         imgUrl: 'CaBMwKE.jpg',
+        netnode: 'var',
         color: 'intThreeLight1LinkColor',
     },
     {
@@ -11580,6 +11997,7 @@ export const Var2: SankeyLink[] = [
         process: ' XD99_1',
         id: 'XD99-12',
         imgUrl: 'CaBMwKE.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -11591,6 +12009,7 @@ export const Var2: SankeyLink[] = [
         process: ' XD99_2',
         id: 'XD99-13',
         imgUrl: 'CaBMwKE.jpg',
+        netnode: 'var',
         color: 'intThreeLight1LinkColor',
     },
     {
@@ -11602,6 +12021,7 @@ export const Var2: SankeyLink[] = [
         process: ' XD99_2',
         id: 'XD99-14',
         imgUrl: 'CaBMwKE.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -11668,6 +12088,7 @@ export const Var2: SankeyLink[] = [
         process: ' XD99_1',
         id: 'XD99-20',
         imgUrl: 'CaBMwKE.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -11723,6 +12144,7 @@ export const Var2: SankeyLink[] = [
         process: 'XWL17_1',
         id: 'XWL17-0',
         imgUrl: 'VqSzaXU.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -11746,6 +12168,7 @@ export const Var2: SankeyLink[] = [
         process: 'XWL17_2',
         id: 'XWL17-2',
         imgUrl: 'VqSzaXU.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -11758,6 +12181,7 @@ export const Var2: SankeyLink[] = [
         process: 'XWL17_3',
         id: 'XWL17-3',
         imgUrl: 'VqSzaXU.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -11781,6 +12205,7 @@ export const Var2: SankeyLink[] = [
         process: 'XWL17_1',
         id: 'XWL17-5',
         imgUrl: 'VqSzaXU.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -11803,6 +12228,7 @@ export const Var2: SankeyLink[] = [
         process: 'XWL17_3',
         id: 'XWL17-7',
         imgUrl: 'VqSzaXU.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -11825,6 +12251,7 @@ export const Var2: SankeyLink[] = [
         process: 'XWL17_2',
         id: 'XWL17-9',
         imgUrl: 'VqSzaXU.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -11836,6 +12263,7 @@ export const Var2: SankeyLink[] = [
         process: 'XWL17_3',
         id: 'XWL17-10',
         imgUrl: 'VqSzaXU.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -11847,6 +12275,7 @@ export const Var2: SankeyLink[] = [
         process: 'XWL17_1',
         id: 'XWL17-11',
         imgUrl: 'VqSzaXU.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -11858,6 +12287,7 @@ export const Var2: SankeyLink[] = [
         process: 'XWL17_2',
         id: 'XWL17-12',
         imgUrl: 'VqSzaXU.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -11869,6 +12299,7 @@ export const Var2: SankeyLink[] = [
         process: 'XWL17_1',
         id: 'XWL17-13',
         imgUrl: 'VqSzaXU.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -11880,6 +12311,7 @@ export const Var2: SankeyLink[] = [
         process: 'XWL17_2',
         id: 'XWL17-14',
         imgUrl: 'VqSzaXU.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -11902,6 +12334,7 @@ export const Var2: SankeyLink[] = [
         process: 'XWL17_3',
         id: 'XWL17-16',
         imgUrl: 'VqSzaXU.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -11935,6 +12368,7 @@ export const Var2: SankeyLink[] = [
         process: 'XWS16_3',
         id: 'XWS16-0',
         imgUrl: 'xn5MqwV.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -11947,6 +12381,7 @@ export const Var2: SankeyLink[] = [
         process: 'XWS16_4',
         id: 'XWS16-1',
         imgUrl: 'xn5MqwV.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -11970,6 +12405,7 @@ export const Var2: SankeyLink[] = [
         process: 'XWS16_2',
         id: 'XWS16-3',
         imgUrl: 'xn5MqwV.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -12037,6 +12473,7 @@ export const Var2: SankeyLink[] = [
         process: 'XWS16_3',
         id: 'XWS16-9',
         imgUrl: 'xn5MqwV.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -12048,6 +12485,7 @@ export const Var2: SankeyLink[] = [
         process: 'XWS16_2',
         id: 'XWS16-10',
         imgUrl: 'xn5MqwV.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -12059,6 +12497,7 @@ export const Var2: SankeyLink[] = [
         process: 'XWS16_4',
         id: 'XWS16-11',
         imgUrl: 'xn5MqwV.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -12125,6 +12564,7 @@ export const Var2: SankeyLink[] = [
         process: 'XWS16_3',
         id: 'XWS16-17',
         imgUrl: 'xn5MqwV.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -12147,6 +12587,7 @@ export const Var2: SankeyLink[] = [
         process: 'XWS16_4',
         id: 'XWS16-19',
         imgUrl: 'xn5MqwV.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -12158,6 +12599,7 @@ export const Var2: SankeyLink[] = [
         process: 'XWS16_2',
         id: 'XWS16-20',
         imgUrl: 'xn5MqwV.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -12191,6 +12633,7 @@ export const Var2: SankeyLink[] = [
         process: 'XWS16_3',
         id: 'XWS16-23',
         imgUrl: 'xn5MqwV.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -12202,6 +12645,7 @@ export const Var2: SankeyLink[] = [
         process: 'XWS16_4',
         id: 'XWS16-24',
         imgUrl: 'xn5MqwV.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -12213,6 +12657,7 @@ export const Var2: SankeyLink[] = [
         process: 'XWS16_2',
         id: 'XWS16-25',
         imgUrl: 'xn5MqwV.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -12521,6 +12966,7 @@ export const Var2: SankeyLink[] = [
         process: 'YFS10_3',
         id: 'YFS10-16',
         imgUrl: 'A14dGOk.png',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -12533,6 +12979,7 @@ export const Var2: SankeyLink[] = [
         process: 'YFS10_3',
         id: 'YFS10-17',
         imgUrl: 'A14dGOk.png',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -12544,6 +12991,7 @@ export const Var2: SankeyLink[] = [
         process: 'YFS10_3',
         id: 'YFS10-18',
         imgUrl: 'A14dGOk.png',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -12555,6 +13003,7 @@ export const Var2: SankeyLink[] = [
         process: 'YFS10_3',
         id: 'YFS10-19',
         imgUrl: 'A14dGOk.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -12588,6 +13037,7 @@ export const Var2: SankeyLink[] = [
         process: 'YFS10_4',
         id: 'YFS10-22',
         imgUrl: 'A14dGOk.png',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -12600,6 +13050,7 @@ export const Var2: SankeyLink[] = [
         process: 'YFS10_4',
         id: 'YFS10-23',
         imgUrl: 'A14dGOk.png',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -12611,6 +13062,7 @@ export const Var2: SankeyLink[] = [
         process: 'YFS10_4',
         id: 'YFS10-24',
         imgUrl: 'A14dGOk.png',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -12622,6 +13074,7 @@ export const Var2: SankeyLink[] = [
         process: 'YFS10_4',
         id: 'YFS10-25',
         imgUrl: 'A14dGOk.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -12687,6 +13140,7 @@ export const Var2: SankeyLink[] = [
         process: 'ZGWZ14_2',
         id: 'ZGWZ14-1',
         imgUrl: 'R9fi5QW.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -12719,6 +13173,7 @@ export const Var2: SankeyLink[] = [
         process: 'ZGWZ14_2',
         id: 'ZGWZ14-4',
         imgUrl: 'R9fi5QW.png',
+        netnode: 'var',
         color: 'intOneLightLinkColor',
     },
     {
@@ -12750,6 +13205,7 @@ export const Var2: SankeyLink[] = [
         process: 'ZGWZ14_2',
         id: 'ZGWZ14-7',
         imgUrl: 'R9fi5QW.png',
+        netnode: 'var',
         color: 'intThreeLight1LinkColor',
     },
     {
@@ -12771,6 +13227,7 @@ export const Var2: SankeyLink[] = [
         process: 'ZGWZ14_2',
         id: 'ZGWZ14-9',
         imgUrl: 'R9fi5QW.png',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -12852,6 +13309,7 @@ export const Var2: SankeyLink[] = [
         process: 'ZGWZ14_2',
         id: 'ZGWZ14-17',
         imgUrl: 'R9fi5QW.png',
+        netnode: 'var',
         color: 'intOneLightLinkColor',
     },
     {
@@ -12863,6 +13321,7 @@ export const Var2: SankeyLink[] = [
         process: 'ZGWZ14_2',
         id: 'ZGWZ14-18',
         imgUrl: 'R9fi5QW.png',
+        netnode: 'var',
         color: 'intThreeLight1LinkColor',
     },
     {
@@ -12874,6 +13333,7 @@ export const Var2: SankeyLink[] = [
         process: 'ZGWZ14_2',
         id: 'ZGWZ14-19',
         imgUrl: 'R9fi5QW.png',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -12935,6 +13395,7 @@ export const Var2: SankeyLink[] = [
         process: 'ZGWZ14_2',
         id: 'ZGWZ14-25',
         imgUrl: 'R9fi5QW.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -12957,6 +13418,7 @@ export const Var2: SankeyLink[] = [
         process: 'ZLW13_1',
         id: 'ZLW13-0',
         imgUrl: 'KvCmzam.png',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -12969,6 +13431,7 @@ export const Var2: SankeyLink[] = [
         process: 'ZLW13_1',
         id: 'ZLW13-1',
         imgUrl: 'KvCmzam.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -12991,6 +13454,7 @@ export const Var2: SankeyLink[] = [
         process: 'ZLW13_1',
         id: 'ZLW13-3',
         imgUrl: 'KvCmzam.png',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -13002,6 +13466,7 @@ export const Var2: SankeyLink[] = [
         process: 'ZLW13_1',
         id: 'ZLW13-4',
         imgUrl: 'KvCmzam.png',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -13013,6 +13478,7 @@ export const Var2: SankeyLink[] = [
         process: 'ZLW13_1',
         id: 'ZLW13-5',
         imgUrl: 'KvCmzam.png',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -13034,6 +13500,7 @@ export const Var2: SankeyLink[] = [
         process: 'ZLW13_1',
         id: 'ZLW13-7',
         imgUrl: 'KvCmzam.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -13216,6 +13683,7 @@ export const Var2: SankeyLink[] = [
         process: 'RSRY12_1',
         id: 'RSRY12-0',
         imgUrl: 'ivVW2HN.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -13261,6 +13729,7 @@ export const Var2: SankeyLink[] = [
         process: 'RSRY12_1',
         id: 'RSRY12-4',
         imgUrl: 'ivVW2HN.png',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -13305,6 +13774,7 @@ export const Var2: SankeyLink[] = [
         process: 'RSRY12_1',
         id: 'RSRY12-8',
         imgUrl: 'ivVW2HN.png',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -13338,6 +13808,7 @@ export const Var2: SankeyLink[] = [
         process: 'RSRY12_1',
         id: 'RSRY12-11',
         imgUrl: 'ivVW2HN.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -13404,6 +13875,7 @@ export const Var2: SankeyLink[] = [
         process: 'FAKM15_1',
         id: 'FAKM15-0',
         imgUrl: 'u2sWSNe.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -13416,6 +13888,7 @@ export const Var2: SankeyLink[] = [
         process: 'FAKM15_1',
         id: 'FAKM15-1',
         imgUrl: 'u2sWSNe.jpg',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -13427,6 +13900,7 @@ export const Var2: SankeyLink[] = [
         process: 'FAKM15_1',
         id: 'FAKM15-2',
         imgUrl: 'u2sWSNe.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -13438,6 +13912,7 @@ export const Var2: SankeyLink[] = [
         process: 'FAKM15_1',
         id: 'FAKM15-3',
         imgUrl: 'u2sWSNe.jpg',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -13449,6 +13924,7 @@ export const Var2: SankeyLink[] = [
         process: 'FAKM15_1',
         id: 'FAKM15-4',
         imgUrl: 'u2sWSNe.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -13471,6 +13947,7 @@ export const Var2: SankeyLink[] = [
         process: 'FAKM15_1',
         id: 'FAKM15-6',
         imgUrl: 'u2sWSNe.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -13625,6 +14102,7 @@ export const Var2: SankeyLink[] = [
         process: 'YSK14_2',
         id: 'YSK14-0',
         imgUrl: 'sBwMjs9.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -13659,6 +14137,7 @@ export const Var2: SankeyLink[] = [
         process: 'YSK14_4',
         id: 'YSK14-3',
         imgUrl: 'sBwMjs9.png',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -13704,6 +14183,7 @@ export const Var2: SankeyLink[] = [
         process: 'YSK14_2',
         id: 'YSK14-7',
         imgUrl: 'sBwMjs9.png',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -13737,6 +14217,7 @@ export const Var2: SankeyLink[] = [
         process: 'YSK14_4',
         id: 'YSK14-10',
         imgUrl: 'sBwMjs9.png',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -13792,6 +14273,7 @@ export const Var2: SankeyLink[] = [
         process: 'YSK14_2',
         id: 'YSK14-15',
         imgUrl: 'sBwMjs9.png',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -13847,6 +14329,7 @@ export const Var2: SankeyLink[] = [
         process: 'YSK14_4',
         id: 'YSK14-20',
         imgUrl: 'sBwMjs9.png',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -13902,6 +14385,7 @@ export const Var2: SankeyLink[] = [
         process: 'YSK14_4',
         id: 'YSK14-25',
         imgUrl: 'sBwMjs9.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -13913,6 +14397,7 @@ export const Var2: SankeyLink[] = [
         process: 'YSK14_2',
         id: 'YSK14-26',
         imgUrl: 'sBwMjs9.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -13979,6 +14464,7 @@ export const Var2: SankeyLink[] = [
         process: 'CSL16_1',
         id: 'CSL16-0',
         imgUrl: 'mt871Nx.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -14002,6 +14488,7 @@ export const Var2: SankeyLink[] = [
         process: 'CSL16_3',
         id: 'CSL16-2',
         imgUrl: 'mt871Nx.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -14014,6 +14501,7 @@ export const Var2: SankeyLink[] = [
         process: 'CSL16_3',
         id: 'CSL16-3',
         imgUrl: 'mt871Nx.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -14081,6 +14569,7 @@ export const Var2: SankeyLink[] = [
         process: 'CSL16_1',
         id: 'CSL16-9',
         imgUrl: 'mt871Nx.png',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -14092,6 +14581,7 @@ export const Var2: SankeyLink[] = [
         process: 'CSL16_1',
         id: 'CSL16-10',
         imgUrl: 'mt871Nx.png',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -14103,6 +14593,7 @@ export const Var2: SankeyLink[] = [
         process: 'CSL16_1',
         id: 'CSL16-11',
         imgUrl: 'mt871Nx.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -14169,6 +14660,7 @@ export const Var2: SankeyLink[] = [
         process: 'CSL16_3',
         id: 'CSL16-17',
         imgUrl: 'mt871Nx.png',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -14180,6 +14672,7 @@ export const Var2: SankeyLink[] = [
         process: 'CSL16_3',
         id: 'CSL16-18',
         imgUrl: 'mt871Nx.png',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -14191,6 +14684,7 @@ export const Var2: SankeyLink[] = [
         process: 'CSL16_3',
         id: 'CSL16-19',
         imgUrl: 'mt871Nx.png',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -14202,6 +14696,7 @@ export const Var2: SankeyLink[] = [
         process: 'CSL16_3',
         id: 'CSL16-20',
         imgUrl: 'mt871Nx.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -14378,6 +14873,7 @@ export const Var2: SankeyLink[] = [
         process: 'RRR19_2',
         id: 'RRR19-3',
         imgUrl: 'yya8s2u.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -14390,6 +14886,7 @@ export const Var2: SankeyLink[] = [
         process: 'RRR19_2',
         id: 'RRR19-4',
         imgUrl: 'yya8s2u.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -14402,6 +14899,7 @@ export const Var2: SankeyLink[] = [
         process: 'RRR19_2',
         id: 'RRR19-5',
         imgUrl: 'yya8s2u.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -14414,6 +14912,7 @@ export const Var2: SankeyLink[] = [
         process: 'RRR19_3',
         id: 'RRR19-6',
         imgUrl: 'yya8s2u.png',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -14426,6 +14925,7 @@ export const Var2: SankeyLink[] = [
         process: 'RRR19_4',
         id: 'RRR19-7',
         imgUrl: 'yya8s2u.png',
+        netnode: 'var',
         color: 'targetLinkFourColor',
         status: 'selected',
     },
@@ -14438,6 +14938,7 @@ export const Var2: SankeyLink[] = [
         process: 'RRR19_5',
         id: 'RRR19-8',
         imgUrl: 'yya8s2u.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -14450,6 +14951,7 @@ export const Var2: SankeyLink[] = [
         process: 'RRR19_5',
         id: 'RRR19-9',
         imgUrl: 'yya8s2u.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -14462,6 +14964,7 @@ export const Var2: SankeyLink[] = [
         process: 'RRR19_5',
         id: 'RRR19-10',
         imgUrl: 'yya8s2u.png',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -14551,6 +15054,7 @@ export const Var2: SankeyLink[] = [
         process: 'RRR19_2',
         id: 'RRR19-18',
         imgUrl: 'yya8s2u.png',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -14562,6 +15066,7 @@ export const Var2: SankeyLink[] = [
         process: 'RRR19_2',
         id: 'RRR19-19',
         imgUrl: 'yya8s2u.png',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -14573,6 +15078,7 @@ export const Var2: SankeyLink[] = [
         process: 'RRR19_2',
         id: 'RRR19-20',
         imgUrl: 'yya8s2u.png',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -14584,6 +15090,7 @@ export const Var2: SankeyLink[] = [
         process: 'RRR19_2',
         id: 'RRR19-21',
         imgUrl: 'yya8s2u.png',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -14595,6 +15102,7 @@ export const Var2: SankeyLink[] = [
         process: 'RRR19_2',
         id: 'RRR19-22',
         imgUrl: 'yya8s2u.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -14606,6 +15114,7 @@ export const Var2: SankeyLink[] = [
         process: 'RRR19_3',
         id: 'RRR19-23',
         imgUrl: 'yya8s2u.png',
+        netnode: 'var',
         color: 'intThreeLight1LinkColor',
     },
     {
@@ -14617,6 +15126,7 @@ export const Var2: SankeyLink[] = [
         process: 'RRR19_3',
         id: 'RRR19-24',
         imgUrl: 'yya8s2u.png',
+        netnode: 'var',
         color: 'intThreeLight1LinkColor',
     },
     {
@@ -14628,6 +15138,7 @@ export const Var2: SankeyLink[] = [
         process: 'RRR19_3',
         id: 'RRR19-25',
         imgUrl: 'yya8s2u.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -14650,6 +15161,7 @@ export const Var2: SankeyLink[] = [
         process: 'RRR19_4',
         id: 'RRR19-27',
         imgUrl: 'yya8s2u.png',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -14661,6 +15173,7 @@ export const Var2: SankeyLink[] = [
         process: 'RRR19_4',
         id: 'RRR19-28',
         imgUrl: 'yya8s2u.png',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -14672,6 +15185,7 @@ export const Var2: SankeyLink[] = [
         process: 'RRR19_4',
         id: 'RRR19-29',
         imgUrl: 'yya8s2u.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -14694,6 +15208,7 @@ export const Var2: SankeyLink[] = [
         process: 'RRR19_5',
         id: 'RRR19-31',
         imgUrl: 'yya8s2u.png',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -14705,6 +15220,7 @@ export const Var2: SankeyLink[] = [
         process: 'RRR19_5',
         id: 'RRR19-32',
         imgUrl: 'yya8s2u.png',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -14716,6 +15232,7 @@ export const Var2: SankeyLink[] = [
         process: 'RRR19_5',
         id: 'RRR19-33',
         imgUrl: 'yya8s2u.png',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -14727,6 +15244,7 @@ export const Var2: SankeyLink[] = [
         process: 'RRR19_5',
         id: 'RRR19-34',
         imgUrl: 'yya8s2u.png',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -14738,6 +15256,7 @@ export const Var2: SankeyLink[] = [
         process: 'RRR19_5',
         id: 'RRR19-35',
         imgUrl: 'yya8s2u.png',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -14793,6 +15312,7 @@ export const Var2: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-3',
         imgUrl: 'RYq4EGR.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -14860,6 +15380,7 @@ export const Var2: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-9',
         imgUrl: 'RYq4EGR.jpg',
+        netnode: 'var',
         color: 'intOneLinkColor',
     },
     {
@@ -14882,6 +15403,7 @@ export const Var2: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-11',
         imgUrl: 'RYq4EGR.jpg',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -14893,6 +15415,7 @@ export const Var2: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-12',
         imgUrl: 'RYq4EGR.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -14904,6 +15427,7 @@ export const Var2: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-13',
         imgUrl: 'RYq4EGR.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -14948,6 +15472,7 @@ export const Var2: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-17',
         imgUrl: 'RYq4EGR.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -14970,6 +15495,7 @@ export const Var2: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-19',
         imgUrl: 'RYq4EGR.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -14981,6 +15507,7 @@ export const Var2: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-20',
         imgUrl: 'RYq4EGR.jpg',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -14992,6 +15519,7 @@ export const Var2: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-21',
         imgUrl: 'RYq4EGR.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -15003,6 +15531,7 @@ export const Var2: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-22',
         imgUrl: 'RYq4EGR.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -15014,6 +15543,7 @@ export const Var2: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-23',
         imgUrl: 'RYq4EGR.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -15091,6 +15621,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDDD16_1',
         id: 'MDDD16-0',
         imgUrl: '4teJby0.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -15114,6 +15645,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDDD16_1',
         id: 'MDDD16-2',
         imgUrl: '4teJby0.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -15137,6 +15669,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDDD16_3',
         id: 'MDDD16-4',
         imgUrl: '4teJby0.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -15171,6 +15704,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDDD16_1',
         id: 'MDDD16-7',
         imgUrl: '4teJby0.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -15193,6 +15727,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDDD16_3',
         id: 'MDDD16-9',
         imgUrl: '4teJby0.jpg',
+        netnode: 'var',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -15215,6 +15750,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDDD16_1',
         id: 'MDDD16-11',
         imgUrl: '4teJby0.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -15248,6 +15784,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDDD16_3',
         id: 'MDDD16-14',
         imgUrl: '4teJby0.jpg',
+        netnode: 'var',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -15270,6 +15807,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDDD16_1',
         id: 'MDDD16-16',
         imgUrl: '4teJby0.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -15292,6 +15830,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDDD16_1',
         id: 'MDDD16-18',
         imgUrl: '4teJby0.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -15303,6 +15842,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDDD16_3',
         id: 'MDDD16-19',
         imgUrl: '4teJby0.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -15391,6 +15931,7 @@ export const Var2: SankeyLink[] = [
         process: 'GYS14_2',
         id: 'GYS14-2',
         imgUrl: 'r9tEkOr.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -15414,6 +15955,7 @@ export const Var2: SankeyLink[] = [
         process: 'GYS14_4',
         id: 'GYS14-4',
         imgUrl: 'r9tEkOr.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -15426,6 +15968,7 @@ export const Var2: SankeyLink[] = [
         process: 'GYS14_6',
         id: 'GYS14-5',
         imgUrl: 'r9tEkOr.jpg',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -15449,6 +15992,7 @@ export const Var2: SankeyLink[] = [
         process: 'GYS14_5',
         id: 'GYS14-7',
         imgUrl: 'r9tEkOr.jpg',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -15494,6 +16038,7 @@ export const Var2: SankeyLink[] = [
         process: 'GYS14_4',
         id: 'GYS14-11',
         imgUrl: 'r9tEkOr.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -15505,6 +16050,7 @@ export const Var2: SankeyLink[] = [
         process: 'GYS14_2',
         id: 'GYS14-12',
         imgUrl: 'r9tEkOr.jpg',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -15527,6 +16073,7 @@ export const Var2: SankeyLink[] = [
         process: 'GYS14_5',
         id: 'GYS14-14',
         imgUrl: 'r9tEkOr.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -15538,6 +16085,7 @@ export const Var2: SankeyLink[] = [
         process: 'GYS14_6',
         id: 'GYS14-15',
         imgUrl: 'r9tEkOr.jpg',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -15571,6 +16119,7 @@ export const Var2: SankeyLink[] = [
         process: 'GYS14_4',
         id: 'GYS14-18',
         imgUrl: 'r9tEkOr.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -15582,6 +16131,7 @@ export const Var2: SankeyLink[] = [
         process: 'GYS14_5',
         id: 'GYS14-19',
         imgUrl: 'r9tEkOr.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -15604,6 +16154,7 @@ export const Var2: SankeyLink[] = [
         process: 'GYS14_2',
         id: 'GYS14-21',
         imgUrl: 'r9tEkOr.jpg',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -15615,6 +16166,7 @@ export const Var2: SankeyLink[] = [
         process: 'GYS14_6',
         id: 'GYS14-22',
         imgUrl: 'r9tEkOr.jpg',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -15692,6 +16244,7 @@ export const Var2: SankeyLink[] = [
         process: 'GYS14_2',
         id: 'GYS14-29',
         imgUrl: 'r9tEkOr.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -15703,6 +16256,7 @@ export const Var2: SankeyLink[] = [
         process: 'GYS14_4',
         id: 'GYS14-30',
         imgUrl: 'r9tEkOr.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -15714,6 +16268,7 @@ export const Var2: SankeyLink[] = [
         process: 'GYS14_6',
         id: 'GYS14-31',
         imgUrl: 'r9tEkOr.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -15725,6 +16280,7 @@ export const Var2: SankeyLink[] = [
         process: 'GYS14_5',
         id: 'GYS14-32',
         imgUrl: 'r9tEkOr.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -15912,6 +16468,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDJW07_3',
         id: 'MDJW07-2',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -15924,6 +16481,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDJW07_4',
         id: 'MDJW07-3',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -15936,6 +16494,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDJW07_5',
         id: 'MDJW07-4',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -15959,6 +16518,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDJW07_3',
         id: 'MDJW07-6',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -15971,6 +16531,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDJW07_7',
         id: 'MDJW07-7',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -16038,6 +16599,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDJW07_3',
         id: 'MDJW07-13',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'var',
         color: 'intOneLightLinkColor',
     },
     {
@@ -16049,6 +16611,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDJW07_4',
         id: 'MDJW07-14',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -16060,6 +16623,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDJW07_5',
         id: 'MDJW07-15',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -16082,6 +16646,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDJW07_3',
         id: 'MDJW07-17',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'var',
         color: 'intOneLightLinkColor',
     },
     {
@@ -16093,6 +16658,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDJW07_7',
         id: 'MDJW07-18',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -16148,6 +16714,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDJW07_3',
         id: 'MDJW07-23',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'var',
         color: 'intOneLightLinkColor',
     },
     {
@@ -16170,6 +16737,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDJW07_4',
         id: 'MDJW07-25',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -16181,6 +16749,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDJW07_7',
         id: 'MDJW07-26',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -16192,6 +16761,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDJW07_5',
         id: 'MDJW07-27',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -16214,6 +16784,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDJW07_3',
         id: 'MDJW07-29',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -16225,6 +16796,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDJW07_4',
         id: 'MDJW07-30',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -16236,6 +16808,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDJW07_7',
         id: 'MDJW07-31',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -16269,6 +16842,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDJW07_5',
         id: 'MDJW07-34',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -16280,6 +16854,7 @@ export const Var2: SankeyLink[] = [
         process: 'MDJW07_8',
         id: 'MDJW07-35',
         imgUrl: 'E21AFdm.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -16368,6 +16943,7 @@ export const Var2: SankeyLink[] = [
         process: 'KWL09_1',
         id: 'KWL09-0',
         imgUrl: 'ukgueox.jpg',
+        netnode: 'var',
         color: 'targetLinkOneColor',
         status: 'selected',
     },
@@ -16380,6 +16956,7 @@ export const Var2: SankeyLink[] = [
         process: 'KWL09_2',
         id: 'KWL09-1',
         imgUrl: 'ukgueox.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -16392,6 +16969,7 @@ export const Var2: SankeyLink[] = [
         process: 'KWL09_1',
         id: 'KWL09-2',
         imgUrl: 'ukgueox.jpg',
+        netnode: 'var',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -16403,6 +16981,7 @@ export const Var2: SankeyLink[] = [
         process: 'KWL09_1',
         id: 'KWL09-3',
         imgUrl: 'ukgueox.jpg',
+        netnode: 'var',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -16425,6 +17004,7 @@ export const Var2: SankeyLink[] = [
         process: 'KWL09_1',
         id: 'KWL09-5',
         imgUrl: 'ukgueox.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -16458,6 +17038,7 @@ export const Var2: SankeyLink[] = [
         process: 'KWL09_2',
         id: 'KWL09-8',
         imgUrl: 'ukgueox.jpg',
+        netnode: 'var',
         color: 'intThreeLight1LinkColor',
     },
     {
@@ -16469,6 +17050,7 @@ export const Var2: SankeyLink[] = [
         process: 'KWL09_2',
         id: 'KWL09-9',
         imgUrl: 'ukgueox.jpg',
+        netnode: 'var',
         color: 'intThreeLight1LinkColor',
     },
     {
@@ -16480,6 +17062,7 @@ export const Var2: SankeyLink[] = [
         process: 'KWL09_2',
         id: 'KWL09-10',
         imgUrl: 'ukgueox.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -16524,6 +17107,7 @@ export const Var2: SankeyLink[] = [
         process: 'BN11B_3',
         id: 'BN11B-3',
         imgUrl: 'PfZa19T.jpg',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -16613,6 +17197,7 @@ export const Var2: SankeyLink[] = [
         process: 'BN11B_3',
         id: 'BN11B-11',
         imgUrl: 'PfZa19T.jpg',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -16624,6 +17209,7 @@ export const Var2: SankeyLink[] = [
         process: 'BN11B_3',
         id: 'BN11B-12',
         imgUrl: 'PfZa19T.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -16635,6 +17221,7 @@ export const Var2: SankeyLink[] = [
         process: 'BN11B_3',
         id: 'BN11B-13',
         imgUrl: 'PfZa19T.jpg',
+        netnode: 'var',
         color: 'intTwoLightLinkColor',
     },
     {
@@ -16646,6 +17233,7 @@ export const Var2: SankeyLink[] = [
         process: 'BN11B_3',
         id: 'BN11B-14',
         imgUrl: 'PfZa19T.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -16657,6 +17245,7 @@ export const Var2: SankeyLink[] = [
         process: 'BN11B_3',
         id: 'BN11B-15',
         imgUrl: 'PfZa19T.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -16668,6 +17257,7 @@ export const Var2: SankeyLink[] = [
         process: 'MLG06_1',
         id: 'MLG06-0',
         imgUrl: 'qXOBST8.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -16680,6 +17270,7 @@ export const Var2: SankeyLink[] = [
         process: 'MLG06_2',
         id: 'MLG06-1',
         imgUrl: 'qXOBST8.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -16692,6 +17283,7 @@ export const Var2: SankeyLink[] = [
         process: 'MLG06_1',
         id: 'MLG06-2',
         imgUrl: 'qXOBST8.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -16703,6 +17295,7 @@ export const Var2: SankeyLink[] = [
         process: 'MLG06_2',
         id: 'MLG06-3',
         imgUrl: 'qXOBST8.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -16725,6 +17318,7 @@ export const Var2: SankeyLink[] = [
         process: 'MLG06_2',
         id: 'MLG06-5',
         imgUrl: 'qXOBST8.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -16736,6 +17330,7 @@ export const Var2: SankeyLink[] = [
         process: 'MLG06_1',
         id: 'MLG06-6',
         imgUrl: 'qXOBST8.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -16747,6 +17342,7 @@ export const Var2: SankeyLink[] = [
         process: 'MLG06_2',
         id: 'MLG06-7',
         imgUrl: 'qXOBST8.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -16758,6 +17354,7 @@ export const Var2: SankeyLink[] = [
         process: 'MLG06_1',
         id: 'MLG06-8',
         imgUrl: 'qXOBST8.jpg',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -16769,6 +17366,7 @@ export const Var2: SankeyLink[] = [
         process: 'MLG06_2',
         id: 'MLG06-9',
         imgUrl: 'qXOBST8.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -16802,6 +17400,7 @@ export const Var2: SankeyLink[] = [
         process: 'MLG06_1',
         id: 'MLG06-12',
         imgUrl: 'qXOBST8.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -16813,6 +17412,7 @@ export const Var2: SankeyLink[] = [
         process: 'MLG06_2',
         id: 'MLG06-13',
         imgUrl: 'qXOBST8.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -16879,6 +17479,7 @@ export const Var2: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-0',
         imgUrl: '2VPQbry.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -16891,6 +17492,7 @@ export const Var2: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-1',
         imgUrl: '2VPQbry.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -16903,6 +17505,7 @@ export const Var2: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-2',
         imgUrl: '2VPQbry.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -16915,6 +17518,7 @@ export const Var2: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-3',
         imgUrl: '2VPQbry.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -16927,6 +17531,7 @@ export const Var2: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-4',
         imgUrl: '2VPQbry.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -16939,6 +17544,7 @@ export const Var2: SankeyLink[] = [
         process: 'FA20_2',
         id: 'FA20-5',
         imgUrl: '2VPQbry.jpg',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -16951,6 +17557,7 @@ export const Var2: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-6',
         imgUrl: '2VPQbry.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -16962,6 +17569,7 @@ export const Var2: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-7',
         imgUrl: '2VPQbry.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -16973,6 +17581,7 @@ export const Var2: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-8',
         imgUrl: '2VPQbry.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -16984,6 +17593,7 @@ export const Var2: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-9',
         imgUrl: '2VPQbry.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -16995,6 +17605,7 @@ export const Var2: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-10',
         imgUrl: '2VPQbry.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -17006,6 +17617,7 @@ export const Var2: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-11',
         imgUrl: '2VPQbry.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -17017,6 +17629,7 @@ export const Var2: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-12',
         imgUrl: '2VPQbry.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -17028,6 +17641,7 @@ export const Var2: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-13',
         imgUrl: '2VPQbry.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -17039,6 +17653,7 @@ export const Var2: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-14',
         imgUrl: '2VPQbry.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -17050,6 +17665,7 @@ export const Var2: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-15',
         imgUrl: '2VPQbry.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -17061,6 +17677,7 @@ export const Var2: SankeyLink[] = [
         process: 'FA20_2',
         id: 'FA20-16',
         imgUrl: '2VPQbry.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -17072,6 +17689,7 @@ export const Var2: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-17',
         imgUrl: '2VPQbry.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -17083,6 +17701,7 @@ export const Var2: SankeyLink[] = [
         process: 'FA20_2',
         id: 'FA20-18',
         imgUrl: '2VPQbry.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -17094,6 +17713,7 @@ export const Var2: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-19',
         imgUrl: '2VPQbry.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -17105,6 +17725,7 @@ export const Var2: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-20',
         imgUrl: '2VPQbry.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -17116,6 +17737,7 @@ export const Var2: SankeyLink[] = [
         process: 'FA20_2',
         id: 'FA20-21',
         imgUrl: '2VPQbry.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -17127,6 +17749,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-0',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -17139,6 +17762,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-1',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -17151,6 +17775,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-2',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -17163,6 +17788,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-3',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -17175,6 +17801,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-4',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -17187,6 +17814,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-5',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -17199,6 +17827,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_3',
         id: 'WHWS12-6',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -17211,6 +17840,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_3',
         id: 'WHWS12-7',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -17223,6 +17853,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_3',
         id: 'WHWS12-8',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -17235,6 +17866,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_4',
         id: 'WHWS12-9',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -17247,6 +17879,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_4',
         id: 'WHWS12-10',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -17259,6 +17892,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_4',
         id: 'WHWS12-11',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -17271,6 +17905,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_5',
         id: 'WHWS12-12',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -17294,6 +17929,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-14',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -17305,6 +17941,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-15',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -17316,6 +17953,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-16',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -17327,6 +17965,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-17',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -17338,6 +17977,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-18',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -17349,6 +17989,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-19',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -17360,6 +18001,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-20',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -17371,6 +18013,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-21',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -17382,6 +18025,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-22',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -17393,6 +18037,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-23',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -17404,6 +18049,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-24',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -17415,6 +18061,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-25',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -17426,6 +18073,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-26',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -17448,6 +18096,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-28',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -17459,6 +18108,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-29',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -17470,6 +18120,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-30',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -17481,6 +18132,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-31',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -17492,6 +18144,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-32',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -17503,6 +18156,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-33',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -17514,6 +18168,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-34',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -17525,6 +18180,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-35',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -17536,6 +18192,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-36',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -17547,6 +18204,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-37',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -17558,6 +18216,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-38',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -17569,6 +18228,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-39',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -17591,6 +18251,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-41',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -17613,6 +18274,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_3',
         id: 'WHWS12-43',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -17624,6 +18286,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_3',
         id: 'WHWS12-44',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -17635,6 +18298,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_3',
         id: 'WHWS12-45',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -17646,6 +18310,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_3',
         id: 'WHWS12-46',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -17668,6 +18333,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_3',
         id: 'WHWS12-48',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -17690,6 +18356,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_4',
         id: 'WHWS12-50',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -17701,6 +18368,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_4',
         id: 'WHWS12-51',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -17712,6 +18380,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_4',
         id: 'WHWS12-52',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -17723,6 +18392,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_4',
         id: 'WHWS12-53',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intFiveLight2LinkColor',
     },
     {
@@ -17745,6 +18415,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_4',
         id: 'WHWS12-55',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -17767,6 +18438,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_5',
         id: 'WHWS12-57',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -17778,6 +18450,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_5',
         id: 'WHWS12-58',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -17789,6 +18462,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_5',
         id: 'WHWS12-59',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -17800,6 +18474,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_5',
         id: 'WHWS12-60',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -17811,6 +18486,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_5',
         id: 'WHWS12-61',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -17822,6 +18498,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_5',
         id: 'WHWS12-62',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -17833,6 +18510,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_5',
         id: 'WHWS12-63',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intThreeLightLinkColor',
     },
     {
@@ -17844,6 +18522,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_5',
         id: 'WHWS12-64',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -17866,6 +18545,7 @@ export const Var2: SankeyLink[] = [
         process: 'WHWS12_5',
         id: 'WHWS12-66',
         imgUrl: 'sp1TtaX.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -18371,6 +19051,7 @@ export const Var2: SankeyLink[] = [
         process: 'ATSC06_2',
         id: 'ASTC06-0',
         imgUrl: '1mwkKcH.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -18383,6 +19064,7 @@ export const Var2: SankeyLink[] = [
         process: 'ATSC06_1',
         id: 'ASTC06-1',
         imgUrl: '1mwkKcH.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -18415,6 +19097,7 @@ export const Var2: SankeyLink[] = [
         process: 'ATSC06_2',
         id: 'ASTC06-4',
         imgUrl: '1mwkKcH.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -18427,6 +19110,7 @@ export const Var2: SankeyLink[] = [
         process: 'ATSC06_1',
         id: 'ASTC06-5',
         imgUrl: '1mwkKcH.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -18459,6 +19143,7 @@ export const Var2: SankeyLink[] = [
         process: 'ATSC06_5',
         id: 'ASTC06-8',
         imgUrl: '1mwkKcH.jpg',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -18491,6 +19176,7 @@ export const Var2: SankeyLink[] = [
         process: 'ATSC06_1',
         id: 'ASTC06-11',
         imgUrl: '1mwkKcH.jpg',
+        netnode: 'var',
         color: 'intThreeLight1LinkColor',
     },
     {
@@ -18502,6 +19188,7 @@ export const Var2: SankeyLink[] = [
         process: 'ATSC06_1',
         id: 'ASTC06-12',
         imgUrl: '1mwkKcH.jpg',
+        netnode: 'var',
         color: 'intThreeLight1LinkColor',
     },
     {
@@ -18513,6 +19200,7 @@ export const Var2: SankeyLink[] = [
         process: 'ATSC06_1',
         id: 'ASTC06-13',
         imgUrl: '1mwkKcH.jpg',
+        netnode: 'var',
         color: 'intThreeLight1LinkColor',
     },
     {
@@ -18524,6 +19212,7 @@ export const Var2: SankeyLink[] = [
         process: 'ATSC06_1',
         id: 'ASTC06-14',
         imgUrl: '1mwkKcH.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -18546,6 +19235,7 @@ export const Var2: SankeyLink[] = [
         process: 'ATSC06_2',
         id: 'ASTC06-16',
         imgUrl: '1mwkKcH.jpg',
+        netnode: 'var',
         color: 'intThreeLight1LinkColor',
     },
     {
@@ -18557,6 +19247,7 @@ export const Var2: SankeyLink[] = [
         process: 'ATSC06_2',
         id: 'ASTC06-17',
         imgUrl: '1mwkKcH.jpg',
+        netnode: 'var',
         color: 'intThreeLight1LinkColor',
     },
     {
@@ -18568,6 +19259,7 @@ export const Var2: SankeyLink[] = [
         process: 'ATSC06_2',
         id: 'ASTC06-18',
         imgUrl: '1mwkKcH.jpg',
+        netnode: 'var',
         color: 'intThreeLight1LinkColor',
     },
     {
@@ -18590,6 +19282,7 @@ export const Var2: SankeyLink[] = [
         process: 'ATSC06_2',
         id: 'ASTC06-20',
         imgUrl: '1mwkKcH.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -18721,6 +19414,7 @@ export const Var2: SankeyLink[] = [
         process: 'ATSC06_5',
         id: 'ASTC06-33',
         imgUrl: '1mwkKcH.jpg',
+        netnode: 'var',
         color: 'intThreeLight1LinkColor',
     },
     {
@@ -18732,6 +19426,7 @@ export const Var2: SankeyLink[] = [
         process: 'ATSC06_5',
         id: 'ASTC06-34',
         imgUrl: '1mwkKcH.jpg',
+        netnode: 'var',
         color: 'intThreeLight1LinkColor',
     },
     {
@@ -18754,6 +19449,7 @@ export const Var2: SankeyLink[] = [
         process: 'ATSC06_5',
         id: 'ASTC06-36',
         imgUrl: '1mwkKcH.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -18887,6 +19583,7 @@ export const Var2: SankeyLink[] = [
         process: 'DJM12_3',
         id: 'DJM12-2',
         imgUrl: 'nNNbNas.jpg',
+        netnode: 'var',
         color: 'targetLinkOneColor',
         status: 'selected',
     },
@@ -18932,6 +19629,7 @@ export const Var2: SankeyLink[] = [
         process: 'DJM12_7',
         id: 'DJM12-6',
         imgUrl: 'nNNbNas.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -18944,6 +19642,7 @@ export const Var2: SankeyLink[] = [
         process: 'DJM12_8',
         id: 'DJM12-7',
         imgUrl: 'nNNbNas.jpg',
+        netnode: 'var',
         color: 'targetLinkFourColor',
         status: 'selected',
     },
@@ -18989,6 +19688,7 @@ export const Var2: SankeyLink[] = [
         process: 'DJM12_3',
         id: 'DJM12-11',
         imgUrl: 'nNNbNas.jpg',
+        netnode: 'var',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -19033,6 +19733,7 @@ export const Var2: SankeyLink[] = [
         process: 'DJM12_7',
         id: 'DJM12-15',
         imgUrl: 'nNNbNas.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -19044,6 +19745,7 @@ export const Var2: SankeyLink[] = [
         process: 'DJM12_8',
         id: 'DJM12-16',
         imgUrl: 'nNNbNas.jpg',
+        netnode: 'var',
         color: 'intOneLightLinkColor',
     },
     {
@@ -19099,6 +19801,7 @@ export const Var2: SankeyLink[] = [
         process: 'DJM12_3',
         id: 'DJM12-21',
         imgUrl: 'nNNbNas.jpg',
+        netnode: 'var',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -19143,6 +19846,7 @@ export const Var2: SankeyLink[] = [
         process: 'DJM12_7',
         id: 'DJM12-25',
         imgUrl: 'nNNbNas.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -19154,6 +19858,7 @@ export const Var2: SankeyLink[] = [
         process: 'DJM12_8',
         id: 'DJM12-26',
         imgUrl: 'nNNbNas.jpg',
+        netnode: 'var',
         color: 'intOneLightLinkColor',
     },
     {
@@ -19220,6 +19925,7 @@ export const Var2: SankeyLink[] = [
         process: 'DJM12_3',
         id: 'DJM12-32',
         imgUrl: 'nNNbNas.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -19242,6 +19948,7 @@ export const Var2: SankeyLink[] = [
         process: 'DJM12_7',
         id: 'DJM12-34',
         imgUrl: 'nNNbNas.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -19264,6 +19971,7 @@ export const Var2: SankeyLink[] = [
         process: 'DJM12_8',
         id: 'DJM12-36',
         imgUrl: 'nNNbNas.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -19308,6 +20016,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEA17_2',
         id: 'MEA17-1',
         imgUrl: 'ce97Hw7.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -19320,6 +20029,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEA17_2',
         id: 'MEA17-2',
         imgUrl: 'ce97Hw7.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -19332,6 +20042,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEA17_2',
         id: 'MEA17-3',
         imgUrl: 'ce97Hw7.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -19354,6 +20065,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEA17_4',
         id: 'MEA17-5',
         imgUrl: 'ce97Hw7.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -19366,6 +20078,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEA17_4',
         id: 'MEA17-6',
         imgUrl: 'ce97Hw7.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -19378,6 +20091,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEA17_4',
         id: 'MEA17-7',
         imgUrl: 'ce97Hw7.jpg',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -19390,6 +20104,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEA17_5',
         id: 'MEA17-8',
         imgUrl: 'ce97Hw7.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -19402,6 +20117,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEA17_5',
         id: 'MEA17-9',
         imgUrl: 'ce97Hw7.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -19414,6 +20130,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEA17_5',
         id: 'MEA17-10',
         imgUrl: 'ce97Hw7.jpg',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -19459,6 +20176,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEA17_2',
         id: 'MEA17-14',
         imgUrl: 'ce97Hw7.jpg',
+        netnode: 'var',
         color: 'intOneLight2LinkColor',
     },
     {
@@ -19470,6 +20188,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEA17_2',
         id: 'MEA17-15',
         imgUrl: 'ce97Hw7.jpg',
+        netnode: 'var',
         color: 'intOneLight2LinkColor',
     },
     {
@@ -19481,6 +20200,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEA17_2',
         id: 'MEA17-16',
         imgUrl: 'ce97Hw7.jpg',
+        netnode: 'var',
         color: 'intOneLight2LinkColor',
     },
     {
@@ -19492,6 +20212,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEA17_2',
         id: 'MEA17-17',
         imgUrl: 'ce97Hw7.jpg',
+        netnode: 'var',
         color: 'intOneLight2LinkColor',
     },
     {
@@ -19503,6 +20224,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEA17_2',
         id: 'MEA17-18',
         imgUrl: 'ce97Hw7.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -19565,6 +20287,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEA17_4',
         id: 'MEA17-24',
         imgUrl: 'ce97Hw7.jpg',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -19576,6 +20299,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEA17_4',
         id: 'MEA17-25',
         imgUrl: 'ce97Hw7.jpg',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -19587,6 +20311,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEA17_4',
         id: 'MEA17-26',
         imgUrl: 'ce97Hw7.jpg',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -19598,6 +20323,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEA17_4',
         id: 'MEA17-27',
         imgUrl: 'ce97Hw7.jpg',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -19609,6 +20335,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEA17_4',
         id: 'MEA17-28',
         imgUrl: 'ce97Hw7.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -19631,6 +20358,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEA17_5',
         id: 'MEA17-30',
         imgUrl: 'ce97Hw7.jpg',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -19642,6 +20370,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEA17_5',
         id: 'MEA17-31',
         imgUrl: 'ce97Hw7.jpg',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -19653,6 +20382,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEA17_5',
         id: 'MEA17-32',
         imgUrl: 'ce97Hw7.jpg',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -19664,6 +20394,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEA17_5',
         id: 'MEA17-33',
         imgUrl: 'ce97Hw7.jpg',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -19675,6 +20406,7 @@ export const Var2: SankeyLink[] = [
         process: 'MEA17_5',
         id: 'MEA17-34',
         imgUrl: 'ce97Hw7.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -19752,6 +20484,7 @@ export const Var2: SankeyLink[] = [
         process: 'SFJ16_2',
         id: 'SFJ16-4',
         imgUrl: 'e3PRKTM.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -19764,6 +20497,7 @@ export const Var2: SankeyLink[] = [
         process: 'SFJ16_2',
         id: 'SFJ16-5',
         imgUrl: 'e3PRKTM.jpg',
+        netnode: 'var',
         color: 'targetLinkFourColor',
         status: 'selected',
     },
@@ -19886,6 +20620,7 @@ export const Var2: SankeyLink[] = [
         process: 'SFJ16_2',
         id: 'SFJ16-16',
         imgUrl: 'e3PRKTM.jpg',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -19897,6 +20632,7 @@ export const Var2: SankeyLink[] = [
         process: 'SFJ16_2',
         id: 'SFJ16-17',
         imgUrl: 'e3PRKTM.jpg',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -19908,6 +20644,7 @@ export const Var2: SankeyLink[] = [
         process: 'SFJ16_2',
         id: 'SFJ16-18',
         imgUrl: 'e3PRKTM.jpg',
+        netnode: 'var',
         color: 'intFiveLinkColor',
     },
     {
@@ -19930,6 +20667,7 @@ export const Var2: SankeyLink[] = [
         process: 'SFJ16_2',
         id: 'SFJ16-20',
         imgUrl: 'e3PRKTM.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -20079,6 +20817,7 @@ export const Var2: SankeyLink[] = [
         process: 'XJX21_3',
         id: 'XJX21-5',
         imgUrl: 'fv9Lvcx.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -20091,6 +20830,7 @@ export const Var2: SankeyLink[] = [
         process: 'XJX21_3',
         id: 'XJX21-6',
         imgUrl: 'fv9Lvcx.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -20393,6 +21133,7 @@ export const Var2: SankeyLink[] = [
         process: 'XJX21_3',
         id: 'XJX21-36',
         imgUrl: 'fv9Lvcx.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -20415,6 +21156,7 @@ export const Var2: SankeyLink[] = [
         process: 'XJX21_3',
         id: 'XJX21-38',
         imgUrl: 'fv9Lvcx.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -20437,6 +21179,7 @@ export const Var2: SankeyLink[] = [
         process: 'XJX21_3',
         id: 'XJX21-40',
         imgUrl: 'fv9Lvcx.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -20448,6 +21191,7 @@ export const Var2: SankeyLink[] = [
         process: 'XJX21_3',
         id: 'XJX21-41',
         imgUrl: 'fv9Lvcx.jpg',
+        netnode: 'var',
         color: 'intTwoLinkColor',
     },
     {
@@ -20459,6 +21203,7 @@ export const Var2: SankeyLink[] = [
         process: 'XJX21_3',
         id: 'XJX21-42',
         imgUrl: 'fv9Lvcx.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -20492,6 +21237,7 @@ export const Var2: SankeyLink[] = [
         process: 'XJX21_3',
         id: 'XJX21-45',
         imgUrl: 'fv9Lvcx.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -20525,6 +21271,7 @@ export const Var2: SankeyLink[] = [
         process: 'ASG21_1',
         id: 'ASG21-0',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -20537,6 +21284,7 @@ export const Var2: SankeyLink[] = [
         process: 'ASG21_2',
         id: 'ASG21-1',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'var',
         color: 'targetLinkColor',
         status: 'selected',
     },
@@ -20549,6 +21297,7 @@ export const Var2: SankeyLink[] = [
         process: 'ASG21_2',
         id: 'ASG21-2',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -20561,6 +21310,7 @@ export const Var2: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-3',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'var',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -20573,6 +21323,7 @@ export const Var2: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-4',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'var',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -20585,6 +21336,7 @@ export const Var2: SankeyLink[] = [
         process: 'ASG21_1',
         id: 'ASG21-5',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -20596,6 +21348,7 @@ export const Var2: SankeyLink[] = [
         process: 'ASG21_1',
         id: 'ASG21-6',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'var',
         color: 'intThreeLinkColor',
     },
     {
@@ -20607,6 +21360,7 @@ export const Var2: SankeyLink[] = [
         process: 'ASG21_1',
         id: 'ASG21-7',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -20629,6 +21383,7 @@ export const Var2: SankeyLink[] = [
         process: 'ASG21_2',
         id: 'ASG21-9',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -20640,6 +21395,7 @@ export const Var2: SankeyLink[] = [
         process: 'ASG21_2',
         id: 'ASG21-10',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -20651,6 +21407,7 @@ export const Var2: SankeyLink[] = [
         process: 'ASG21_2',
         id: 'ASG21-11',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -20662,6 +21419,7 @@ export const Var2: SankeyLink[] = [
         process: 'ASG21_2',
         id: 'ASG21-12',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {
@@ -20684,6 +21442,7 @@ export const Var2: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-14',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -20695,6 +21454,7 @@ export const Var2: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-15',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -20706,6 +21466,7 @@ export const Var2: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-16',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -20717,6 +21478,7 @@ export const Var2: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-17',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -20728,6 +21490,7 @@ export const Var2: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-18',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'var',
         color: 'intFourLinkColor',
     },
     {
@@ -20739,6 +21502,7 @@ export const Var2: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-19',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'var',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -20750,6 +21514,7 @@ export const Var2: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-20',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'var',
         color: 'repVisVarColor',
     },
     {

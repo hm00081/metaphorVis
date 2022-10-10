@@ -1,6 +1,6 @@
 import { SankeyLink } from '../../types/sankey';
 
-export const Var5: SankeyLink[] = [
+export const Tar27: SankeyLink[] = [
     {
         source: 100,
         target: 9,
@@ -10,9 +10,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_1',
         id: 'CAA20-0',
         imgUrl: 'DFBi3Mo.jpg',
-        netnode: 'var',
-        color: 'targetLinkOneColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 100,
@@ -23,7 +21,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_2',
         id: 'CAA20-1',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 100,
@@ -34,7 +32,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_3',
         id: 'CAA20-2',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 100,
@@ -45,7 +43,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_4',
         id: 'CAA20-3',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 100,
@@ -56,7 +54,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_5',
         id: 'CAA20-4',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 100,
@@ -67,7 +65,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_6',
         id: 'CAA20-5',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 100,
@@ -78,7 +76,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_7',
         id: 'CAA20-6',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 9,
@@ -89,8 +87,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_1',
         id: 'CAA20-7',
         imgUrl: 'DFBi3Mo.jpg',
-        netnode: 'var',
-        color: 'intOneLight3LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -101,7 +98,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_2',
         id: 'CAA20-8',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -112,7 +109,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_3',
         id: 'CAA20-9',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -123,7 +120,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_4',
         id: 'CAA20-10',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -134,7 +131,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_5',
         id: 'CAA20-11',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 24,
@@ -145,7 +142,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_6',
         id: 'CAA20-12',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 24,
@@ -156,7 +153,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_7',
         id: 'CAA20-13',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 35,
@@ -167,7 +164,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_2',
         id: 'CAA20-14',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 36,
@@ -178,8 +175,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_1',
         id: 'CAA20-15',
         imgUrl: 'DFBi3Mo.jpg',
-        netnode: 'var',
-        color: 'intOneLight3LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -190,7 +186,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_3',
         id: 'CAA20-16',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -201,7 +197,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_4',
         id: 'CAA20-17',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -212,7 +208,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_5',
         id: 'CAA20-18',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -223,7 +219,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_6',
         id: 'CAA20-19',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -234,7 +230,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_7',
         id: 'CAA20-20',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -245,7 +241,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_2',
         id: 'CAA20-21',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -256,7 +252,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_3',
         id: 'CAA20-22',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -267,7 +263,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_3',
         id: 'CAA20-23',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -278,7 +274,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_4',
         id: 'CAA20-24',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -289,7 +285,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_4',
         id: 'CAA20-25',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -300,7 +296,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_4',
         id: 'CAA20-26',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -311,7 +307,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_5',
         id: 'CAA20-27',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -322,8 +318,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_1',
         id: 'CAA20-28',
         imgUrl: 'DFBi3Mo.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -334,7 +329,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_3',
         id: 'CAA20-29',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -345,7 +340,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_6',
         id: 'CAA20-30',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 75,
@@ -356,7 +351,7 @@ export const Var5: SankeyLink[] = [
         process: 'CAA20_7',
         id: 'CAA20-31',
         imgUrl: 'DFBi3Mo.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 101,
@@ -367,7 +362,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_1',
         id: 'CGK21-0',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 101,
@@ -378,7 +373,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_1',
         id: 'CGK21-1',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 101,
@@ -389,7 +384,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_2',
         id: 'CGK21-2',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 101,
@@ -400,7 +395,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_2',
         id: 'CGK21-3',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 101,
@@ -411,9 +406,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_3',
         id: 'CGK21-4',
         imgUrl: 'Q201xEJ.jpg',
-        netnode: 'var',
-        color: 'targetLinkTwoColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 101,
@@ -424,7 +417,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_4',
         id: 'CGK21-5',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 101,
@@ -435,7 +428,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_5',
         id: 'CGK21-6',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 101,
@@ -446,7 +439,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_6',
         id: 'CGK21-7',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 101,
@@ -457,7 +450,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_7',
         id: 'CGK21-8',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 101,
@@ -468,7 +461,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_8',
         id: 'CGK21-9',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 5,
@@ -479,7 +472,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_1',
         id: 'CGK21-10',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 5,
@@ -490,7 +483,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_2',
         id: 'CGK21-11',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 6,
@@ -501,7 +494,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_1',
         id: 'CGK21-12',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 6,
@@ -512,7 +505,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_2',
         id: 'CGK21-13',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -523,8 +516,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_3',
         id: 'CGK21-14',
         imgUrl: 'Q201xEJ.jpg',
-        netnode: 'var',
-        color: 'intOneLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -535,7 +527,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_4',
         id: 'CGK21-15',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -546,7 +538,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_5',
         id: 'CGK21-16',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -557,7 +549,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_6',
         id: 'CGK21-17',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -568,7 +560,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_7',
         id: 'CGK21-18',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -579,7 +571,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_8',
         id: 'CGK21-19',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 32,
@@ -590,7 +582,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_1',
         id: 'CGK21-20',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 32,
@@ -601,7 +593,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_2',
         id: 'CGK21-21',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 32,
@@ -612,8 +604,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_3',
         id: 'CGK21-22',
         imgUrl: 'Q201xEJ.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 41,
@@ -624,7 +615,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_4',
         id: 'CGK21-23',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 41,
@@ -635,7 +626,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_6',
         id: 'CGK21-24',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 41,
@@ -646,7 +637,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_7',
         id: 'CGK21-25',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -657,7 +648,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_5',
         id: 'CGK21-26',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -668,7 +659,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_8',
         id: 'CGK21-27',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -679,7 +670,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_1',
         id: 'CGK21-28',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -690,7 +681,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_4',
         id: 'CGK21-29',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -701,7 +692,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_6',
         id: 'CGK21-30',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -712,7 +703,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_8',
         id: 'CGK21-31',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -723,7 +714,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_2',
         id: 'CGK21-32',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -734,7 +725,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_3',
         id: 'CGK21-33',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -745,7 +736,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_1',
         id: 'CGK21-34',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -756,7 +747,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_4',
         id: 'CGK21-35',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -767,7 +758,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_6',
         id: 'CGK21-36',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -778,7 +769,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_8',
         id: 'CGK21-37',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -789,7 +780,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_2',
         id: 'CGK21-38',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -800,7 +791,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_3',
         id: 'CGK21-39',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -811,7 +802,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_3',
         id: 'CGK21-40',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -822,7 +813,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_7',
         id: 'CGK21-41',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -833,8 +824,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_3',
         id: 'CGK21-42',
         imgUrl: 'Q201xEJ.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -845,7 +835,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_4',
         id: 'CGK21-43',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -856,7 +846,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_6',
         id: 'CGK21-44',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -867,7 +857,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_3',
         id: 'CGK21-45',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -878,7 +868,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_3',
         id: 'CGK21-46',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -889,7 +879,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_7',
         id: 'CGK21-47',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -900,7 +890,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_5',
         id: 'CGK21-48',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -911,7 +901,7 @@ export const Var5: SankeyLink[] = [
         process: 'CGK21_8',
         id: 'CGK21-49',
         imgUrl: 'Q201xEJ.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 102,
@@ -922,7 +912,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_1',
         id: 'CSL12-0',
         imgUrl: 'a3kehFc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 102,
@@ -933,9 +923,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_2',
         id: 'CSL12-1',
         imgUrl: 'a3kehFc.jpg',
-        netnode: 'var',
-        color: 'targetLinkTwoColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 102,
@@ -946,7 +934,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_1',
         id: 'CSL12-2',
         imgUrl: 'a3kehFc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 102,
@@ -957,9 +945,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_2',
         id: 'CSL12-3',
         imgUrl: 'a3kehFc.jpg',
-        netnode: 'var',
-        color: 'targetLinkTwoColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 102,
@@ -970,7 +956,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_3',
         id: 'CSL12-4',
         imgUrl: 'a3kehFc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 102,
@@ -981,7 +967,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_3',
         id: 'CSL12-5',
         imgUrl: 'a3kehFc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 102,
@@ -992,7 +978,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_3',
         id: 'CSL12-6',
         imgUrl: 'a3kehFc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 102,
@@ -1003,9 +989,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_4',
         id: 'CSL12-7',
         imgUrl: 'a3kehFc.jpg',
-        netnode: 'var',
-        color: 'targetLinkThreeColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 102,
@@ -1016,9 +1000,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_4',
         id: 'CSL12-8',
         imgUrl: 'a3kehFc.jpg',
-        netnode: 'var',
-        color: 'targetLinkThreeColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 102,
@@ -1029,9 +1011,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_4',
         id: 'CSL12-9',
         imgUrl: 'a3kehFc.jpg',
-        netnode: 'var',
-        color: 'targetLinkThreeColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 102,
@@ -1042,9 +1022,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_5',
         id: 'CSL12-10',
         imgUrl: 'a3kehFc.jpg',
-        netnode: 'var',
-        color: 'targetLinkFourColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 102,
@@ -1055,7 +1033,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_6',
         id: 'CSL12-11',
         imgUrl: 'a3kehFc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 102,
@@ -1066,9 +1044,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_7',
         id: 'CSL12-12',
         imgUrl: 'a3kehFc.jpg',
-        netnode: 'var',
-        color: 'targetLinkFourColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -1079,7 +1055,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_1',
         id: 'CSL12-13',
         imgUrl: 'a3kehFc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -1090,7 +1066,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_1',
         id: 'CSL12-14',
         imgUrl: 'a3kehFc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -1101,8 +1077,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_2',
         id: 'CSL12-15',
         imgUrl: 'a3kehFc.jpg',
-        netnode: 'var',
-        color: 'intFiveLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -1113,8 +1088,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_2',
         id: 'CSL12-16',
         imgUrl: 'a3kehFc.jpg',
-        netnode: 'var',
-        color: 'intFiveLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 17,
@@ -1125,7 +1099,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_3',
         id: 'CSL12-17',
         imgUrl: 'a3kehFc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 18,
@@ -1136,7 +1110,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_3',
         id: 'CSL12-18',
         imgUrl: 'a3kehFc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 19,
@@ -1147,7 +1121,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_3',
         id: 'CSL12-19',
         imgUrl: 'a3kehFc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 17,
@@ -1158,8 +1132,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_4',
         id: 'CSL12-20',
         imgUrl: 'a3kehFc.jpg',
-        netnode: 'var',
-        color: 'intFiveLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 18,
@@ -1170,8 +1143,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_4',
         id: 'CSL12-21',
         imgUrl: 'a3kehFc.jpg',
-        netnode: 'var',
-        color: 'intFiveLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 19,
@@ -1182,8 +1154,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_4',
         id: 'CSL12-22',
         imgUrl: 'a3kehFc.jpg',
-        netnode: 'var',
-        color: 'intFiveLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 21,
@@ -1194,8 +1165,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_5',
         id: 'CSL12-23',
         imgUrl: 'a3kehFc.jpg',
-        netnode: 'var',
-        color: 'intFiveLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 21,
@@ -1206,7 +1176,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_6',
         id: 'CSL12-24',
         imgUrl: 'a3kehFc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 22,
@@ -1217,8 +1187,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_7',
         id: 'CSL12-25',
         imgUrl: 'a3kehFc.jpg',
-        netnode: 'var',
-        color: 'intFiveLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -1229,7 +1198,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_1',
         id: 'CSL12-26',
         imgUrl: 'a3kehFc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -1240,8 +1209,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_5',
         id: 'CSL12-27',
         imgUrl: 'a3kehFc.jpg',
-        netnode: 'var',
-        color: 'intFiveLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -1252,7 +1220,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_3',
         id: 'CSL12-28',
         imgUrl: 'a3kehFc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -1263,8 +1231,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_4',
         id: 'CSL12-29',
         imgUrl: 'a3kehFc.jpg',
-        netnode: 'var',
-        color: 'intFiveLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -1275,8 +1242,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_2',
         id: 'CSL12-30',
         imgUrl: 'a3kehFc.jpg',
-        netnode: 'var',
-        color: 'intFiveLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -1287,8 +1253,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_7',
         id: 'CSL12-31',
         imgUrl: 'a3kehFc.jpg',
-        netnode: 'var',
-        color: 'intFiveLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -1299,7 +1264,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_6',
         id: 'CSL12-32',
         imgUrl: 'a3kehFc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -1310,7 +1275,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_1',
         id: 'CSL12-33',
         imgUrl: 'a3kehFc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -1321,7 +1286,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_2',
         id: 'CSL12-34',
         imgUrl: 'a3kehFc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -1332,7 +1297,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_2',
         id: 'CSL12-35',
         imgUrl: 'a3kehFc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -1343,7 +1308,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_3',
         id: 'CSL12-36',
         imgUrl: 'a3kehFc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -1354,8 +1319,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_5',
         id: 'CSL12-37',
         imgUrl: 'a3kehFc.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -1366,8 +1330,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_7',
         id: 'CSL12-38',
         imgUrl: 'a3kehFc.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -1378,8 +1341,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_2',
         id: 'CSL12-39',
         imgUrl: 'a3kehFc.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -1390,8 +1352,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_4',
         id: 'CSL12-40',
         imgUrl: 'a3kehFc.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -1402,7 +1363,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_6',
         id: 'CSL12-41',
         imgUrl: 'a3kehFc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -1413,7 +1374,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL12_4',
         id: 'CSL12-42',
         imgUrl: 'a3kehFc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 103,
@@ -1424,7 +1385,7 @@ export const Var5: SankeyLink[] = [
         process: 'DMC09_1',
         id: 'DMC09-0',
         imgUrl: 'KTkfwLw.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 103,
@@ -1435,7 +1396,7 @@ export const Var5: SankeyLink[] = [
         process: 'DMC09_2',
         id: 'DMC09-1',
         imgUrl: 'KTkfwLw.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 9,
@@ -1446,7 +1407,7 @@ export const Var5: SankeyLink[] = [
         process: 'DMC09_1',
         id: 'DMC09-2',
         imgUrl: 'KTkfwLw.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -1457,7 +1418,7 @@ export const Var5: SankeyLink[] = [
         process: 'DMC09_2',
         id: 'DMC09-3',
         imgUrl: 'KTkfwLw.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 36,
@@ -1468,7 +1429,7 @@ export const Var5: SankeyLink[] = [
         process: 'DMC09_1',
         id: 'DMC09-4',
         imgUrl: 'KTkfwLw.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 42,
@@ -1479,7 +1440,7 @@ export const Var5: SankeyLink[] = [
         process: 'DMC09_2',
         id: 'DMC09-5',
         imgUrl: 'KTkfwLw.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 58,
@@ -1490,7 +1451,7 @@ export const Var5: SankeyLink[] = [
         process: 'DMC09_1',
         id: 'DMC09-6',
         imgUrl: 'KTkfwLw.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 58,
@@ -1501,7 +1462,7 @@ export const Var5: SankeyLink[] = [
         process: 'DMC09_2',
         id: 'DMC09-7',
         imgUrl: 'KTkfwLw.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 58,
@@ -1512,7 +1473,7 @@ export const Var5: SankeyLink[] = [
         process: 'DMC09_1',
         id: 'DMC09-8',
         imgUrl: 'KTkfwLw.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 58,
@@ -1523,7 +1484,7 @@ export const Var5: SankeyLink[] = [
         process: 'DMC09_2',
         id: 'DMC09-9',
         imgUrl: 'KTkfwLw.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 58,
@@ -1534,7 +1495,7 @@ export const Var5: SankeyLink[] = [
         process: 'DMC09_1',
         id: 'DMC09-10',
         imgUrl: 'KTkfwLw.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 58,
@@ -1545,7 +1506,7 @@ export const Var5: SankeyLink[] = [
         process: 'DMC09_1',
         id: 'DMC09-11',
         imgUrl: 'KTkfwLw.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 104,
@@ -1556,7 +1517,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_1',
         id: 'EAIA17-0',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 104,
@@ -1567,7 +1528,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_2',
         id: 'EAIA17-1',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 104,
@@ -1578,7 +1539,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_3',
         id: 'EAIA17-2',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 104,
@@ -1589,7 +1550,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_4',
         id: 'EAIA17-3',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -1600,7 +1561,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_1',
         id: 'EAIA17-4',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -1611,7 +1572,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_1',
         id: 'EAIA17-5',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -1622,7 +1583,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_1',
         id: 'EAIA17-6',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -1633,7 +1594,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_2',
         id: 'EAIA17-7',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 18,
@@ -1644,7 +1605,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_3',
         id: 'EAIA17-8',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 18,
@@ -1655,7 +1616,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_3',
         id: 'EAIA17-9',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 18,
@@ -1666,7 +1627,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_3',
         id: 'EAIA17-10',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 21,
@@ -1677,7 +1638,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_4',
         id: 'EAIA17-11',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 41,
@@ -1688,7 +1649,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_1',
         id: 'EAIA17-12',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 41,
@@ -1699,7 +1660,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_3',
         id: 'EAIA17-13',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 42,
@@ -1710,7 +1671,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_1',
         id: 'EAIA17-14',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 42,
@@ -1721,7 +1682,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_3',
         id: 'EAIA17-15',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 43,
@@ -1732,7 +1693,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_1',
         id: 'EAIA17-16',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 43,
@@ -1743,7 +1704,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_3',
         id: 'EAIA17-17',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -1754,7 +1715,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_2',
         id: 'EAIA17-18',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -1765,7 +1726,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_4',
         id: 'EAIA17-19',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 52,
@@ -1776,7 +1737,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_1',
         id: 'EAIA17-20',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 52,
@@ -1787,7 +1748,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_2',
         id: 'EAIA17-21',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 52,
@@ -1798,7 +1759,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_1',
         id: 'EAIA17-22',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 52,
@@ -1809,7 +1770,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_3',
         id: 'EAIA17-23',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 52,
@@ -1820,7 +1781,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_1',
         id: 'EAIA17-24',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 52,
@@ -1831,7 +1792,7 @@ export const Var5: SankeyLink[] = [
         process: 'EAIA17_4',
         id: 'EAIA17-25',
         imgUrl: 'TFuj7MS.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 105,
@@ -1842,7 +1803,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_1',
         id: 'EYG15-0',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 105,
@@ -1853,7 +1814,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_2',
         id: 'EYG15-1',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 105,
@@ -1864,7 +1825,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_3',
         id: 'EYG15-2',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 105,
@@ -1875,7 +1836,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_4',
         id: 'EYG15-3',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 105,
@@ -1886,7 +1847,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_5',
         id: 'EYG15-4',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 105,
@@ -1897,7 +1858,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_6',
         id: 'EYG15-5',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 105,
@@ -1908,7 +1869,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_6',
         id: 'EYG15-6',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 5,
@@ -1919,7 +1880,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_1',
         id: 'EYG15-7',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 7,
@@ -1930,7 +1891,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_2',
         id: 'EYG15-8',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -1941,7 +1902,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_1',
         id: 'EYG15-9',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -1952,7 +1913,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_3',
         id: 'EYG15-10',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -1963,7 +1924,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_2',
         id: 'EYG15-11',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -1974,7 +1935,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_3',
         id: 'EYG15-12',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -1985,7 +1946,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_4',
         id: 'EYG15-13',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -1996,7 +1957,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_1',
         id: 'EYG15-14',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -2007,7 +1968,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_3',
         id: 'EYG15-15',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -2018,7 +1979,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_2',
         id: 'EYG15-16',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -2029,7 +1990,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_4',
         id: 'EYG15-17',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -2040,7 +2001,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_3',
         id: 'EYG15-18',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -2051,7 +2012,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_4',
         id: 'EYG15-19',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -2062,7 +2023,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_5',
         id: 'EYG15-20',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -2073,7 +2034,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_1',
         id: 'EYG15-21',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -2084,7 +2045,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_2',
         id: 'EYG15-22',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -2095,7 +2056,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_3',
         id: 'EYG15-23',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -2106,7 +2067,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_4',
         id: 'EYG15-24',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -2117,7 +2078,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_5',
         id: 'EYG15-25',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -2128,7 +2089,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_3',
         id: 'EYG15-26',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -2139,7 +2100,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_5',
         id: 'EYG15-27',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 21,
@@ -2150,7 +2111,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_6',
         id: 'EYG15-28',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 22,
@@ -2161,7 +2122,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_6',
         id: 'EYG15-29',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -2172,7 +2133,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_6',
         id: 'EYG15-30',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 75,
@@ -2183,7 +2144,7 @@ export const Var5: SankeyLink[] = [
         process: 'EYG15_6',
         id: 'EYG15-31',
         imgUrl: '9p9Vu7Y.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 106,
@@ -2194,7 +2155,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_1',
         id: 'FCF09-0',
         imgUrl: 'FfzA9S4.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 106,
@@ -2205,7 +2166,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_1',
         id: 'FCF09-1',
         imgUrl: 'FfzA9S4.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 106,
@@ -2216,7 +2177,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_1',
         id: 'FCF09-2',
         imgUrl: 'FfzA9S4.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 106,
@@ -2227,9 +2188,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_2',
         id: 'FCF09-3',
         imgUrl: 'FfzA9S4.png',
-        netnode: 'var',
-        color: 'targetLinkColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 106,
@@ -2240,9 +2199,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_2',
         id: 'FCF09-4',
         imgUrl: 'FfzA9S4.png',
-        netnode: 'var',
-        color: 'targetLinkThreeColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 106,
@@ -2253,9 +2210,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_2',
         id: 'FCF09-5',
         imgUrl: 'FfzA9S4.png',
-        netnode: 'var',
-        color: 'targetLinkThreeColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 106,
@@ -2266,9 +2221,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_3',
         id: 'FCF09-6',
         imgUrl: 'FfzA9S4.png',
-        netnode: 'var',
-        color: 'targetLinkColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 106,
@@ -2279,9 +2232,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_3',
         id: 'FCF09-7',
         imgUrl: 'FfzA9S4.png',
-        netnode: 'var',
-        color: 'targetLinkThreeColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 106,
@@ -2292,9 +2243,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_3',
         id: 'FCF09-8',
         imgUrl: 'FfzA9S4.png',
-        netnode: 'var',
-        color: 'targetLinkThreeColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 106,
@@ -2304,7 +2253,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_4',
         id: 'FCF09-9',
         imgUrl: 'FfzA9S4.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 5,
@@ -2315,7 +2264,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_1',
         id: 'FCF09-10',
         imgUrl: 'FfzA9S4.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 5,
@@ -2326,8 +2275,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_2',
         id: 'FCF09-11',
         imgUrl: 'FfzA9S4.png',
-        netnode: 'var',
-        color: 'intThreeLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 5,
@@ -2338,8 +2286,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_3',
         id: 'FCF09-12',
         imgUrl: 'FfzA9S4.png',
-        netnode: 'var',
-        color: 'intFourLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 17,
@@ -2350,7 +2297,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_1',
         id: 'FCF09-13',
         imgUrl: 'FfzA9S4.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 17,
@@ -2361,8 +2308,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_2',
         id: 'FCF09-14',
         imgUrl: 'FfzA9S4.png',
-        netnode: 'var',
-        color: 'intThreeLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 17,
@@ -2373,8 +2319,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_3',
         id: 'FCF09-15',
         imgUrl: 'FfzA9S4.png',
-        netnode: 'var',
-        color: 'intFourLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 18,
@@ -2385,7 +2330,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_1',
         id: 'FCF09-16',
         imgUrl: 'FfzA9S4.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 18,
@@ -2396,8 +2341,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_2',
         id: 'FCF09-17',
         imgUrl: 'FfzA9S4.png',
-        netnode: 'var',
-        color: 'intThreeLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 18,
@@ -2408,8 +2352,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_3',
         id: 'FCF09-18',
         imgUrl: 'FfzA9S4.png',
-        netnode: 'var',
-        color: 'intFourLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 24,
@@ -2419,7 +2362,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_4',
         id: 'FCF09-19',
         imgUrl: 'FfzA9S4.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 40,
@@ -2430,7 +2373,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_1',
         id: 'FCF09-20',
         imgUrl: 'FfzA9S4.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 42,
@@ -2441,8 +2384,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_2',
         id: 'FCF09-21',
         imgUrl: 'FfzA9S4.png',
-        netnode: 'var',
-        color: 'intThreeLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -2453,8 +2395,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_3',
         id: 'FCF09-22',
         imgUrl: 'FfzA9S4.png',
-        netnode: 'var',
-        color: 'intFourLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -2464,7 +2405,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_4',
         id: 'FCF09-23',
         imgUrl: 'FfzA9S4.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -2475,7 +2416,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_1',
         id: 'FCF09-24',
         imgUrl: 'FfzA9S4.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -2486,7 +2427,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_2',
         id: 'FCF09-25',
         imgUrl: 'FfzA9S4.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -2497,7 +2438,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_3',
         id: 'FCF09-26',
         imgUrl: 'FfzA9S4.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -2508,7 +2449,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_1',
         id: 'FCF09-27',
         imgUrl: 'FfzA9S4.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -2519,7 +2460,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_3',
         id: 'FCF09-28',
         imgUrl: 'FfzA9S4.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -2530,8 +2471,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_2',
         id: 'FCF09-29',
         imgUrl: 'FfzA9S4.png',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -2542,8 +2482,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_3',
         id: 'FCF09-30',
         imgUrl: 'FfzA9S4.png',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 75,
@@ -2553,7 +2492,7 @@ export const Var5: SankeyLink[] = [
         process: 'FCF09_4',
         id: 'FCF09-31',
         imgUrl: 'FfzA9S4.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 107,
@@ -2564,7 +2503,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12MT_1',
         id: 'GGS12MT-0',
         imgUrl: 'wVHfoIB.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 107,
@@ -2575,7 +2514,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12MT_1',
         id: 'GGS12MT-1',
         imgUrl: 'wVHfoIB.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 107,
@@ -2586,7 +2525,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12MT_2',
         id: 'GGS12MT-2',
         imgUrl: 'wVHfoIB.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 107,
@@ -2597,7 +2536,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12MT_3',
         id: 'GGS12MT-3',
         imgUrl: 'wVHfoIB.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 107,
@@ -2608,7 +2547,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12MT_4',
         id: 'GGS12MT-4',
         imgUrl: 'wVHfoIB.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 107,
@@ -2619,7 +2558,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12MT_4',
         id: 'GGS12MT-5',
         imgUrl: 'wVHfoIB.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 3,
@@ -2630,7 +2569,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12MT_1',
         id: 'GGS12MT-6',
         imgUrl: 'wVHfoIB.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -2641,7 +2580,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12MT_2',
         id: 'GGS12MT-7',
         imgUrl: 'wVHfoIB.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -2652,7 +2591,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12MT_1',
         id: 'GGS12MT-8',
         imgUrl: 'wVHfoIB.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -2663,7 +2602,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12MT_3',
         id: 'GGS12MT-9',
         imgUrl: 'wVHfoIB.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 24,
@@ -2674,7 +2613,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12MT_4',
         id: 'GGS12MT-10',
         imgUrl: 'wVHfoIB.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 28,
@@ -2685,7 +2624,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12MT_4',
         id: 'GGS12MT-11',
         imgUrl: 'wVHfoIB.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 42,
@@ -2696,7 +2635,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12MT_2',
         id: 'GGS12MT-12',
         imgUrl: 'wVHfoIB.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 43,
@@ -2707,7 +2646,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12MT_3',
         id: 'GGS12MT-13',
         imgUrl: 'wVHfoIB.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -2718,7 +2657,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12MT_1',
         id: 'GGS12MT-14',
         imgUrl: 'wVHfoIB.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -2729,7 +2668,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12MT_4',
         id: 'GGS12MT-15',
         imgUrl: 'wVHfoIB.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -2740,7 +2679,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12MT_1',
         id: 'GGS12MT-16',
         imgUrl: 'wVHfoIB.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -2751,7 +2690,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12MT_2',
         id: 'GGS12MT-17',
         imgUrl: 'wVHfoIB.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -2762,7 +2701,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12MT_3',
         id: 'GGS12MT-18',
         imgUrl: 'wVHfoIB.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -2773,7 +2712,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12MT_4',
         id: 'GGS12MT-19',
         imgUrl: 'wVHfoIB.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 108,
@@ -2784,7 +2723,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12ST_1',
         id: 'GGS12ST-0',
         imgUrl: 'HV2lNkC.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 108,
@@ -2795,7 +2734,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12ST_2',
         id: 'GGS12ST-1',
         imgUrl: 'HV2lNkC.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 108,
@@ -2805,7 +2744,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12ST_3',
         id: 'GGS12ST-2',
         imgUrl: 'HV2lNkC.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 3,
@@ -2816,7 +2755,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12ST_1',
         id: 'GGS12ST-3',
         imgUrl: 'HV2lNkC.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -2827,7 +2766,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12ST_2',
         id: 'GGS12ST-4',
         imgUrl: 'HV2lNkC.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -2838,7 +2777,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12ST_2',
         id: 'GGS12ST-5',
         imgUrl: 'HV2lNkC.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -2849,7 +2788,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12ST_2',
         id: 'GGS12ST-6',
         imgUrl: 'HV2lNkC.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -2859,7 +2798,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12ST_3',
         id: 'GGS12ST-7',
         imgUrl: 'HV2lNkC.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 42,
@@ -2870,7 +2809,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12ST_2',
         id: 'GGS12ST-8',
         imgUrl: 'HV2lNkC.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -2881,7 +2820,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12ST_1',
         id: 'GGS12ST-9',
         imgUrl: 'HV2lNkC.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -2892,7 +2831,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12ST_2',
         id: 'GGS12ST-10',
         imgUrl: 'HV2lNkC.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -2903,7 +2842,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12ST_2',
         id: 'GGS12ST-11',
         imgUrl: 'HV2lNkC.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -2914,7 +2853,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12ST_1',
         id: 'GGS12ST-12',
         imgUrl: 'HV2lNkC.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -2925,7 +2864,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12ST_2',
         id: 'GGS12ST-13',
         imgUrl: 'HV2lNkC.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 75,
@@ -2935,7 +2874,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12ST_3',
         id: 'GGS12ST-14',
         imgUrl: 'HV2lNkC.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 109,
@@ -2946,7 +2885,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12TPS_1',
         id: 'GGS12TPS-0',
         imgUrl: 'au5KByH.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 109,
@@ -2957,7 +2896,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12TPS_2',
         id: 'GGS12TPS-1',
         imgUrl: 'au5KByH.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 109,
@@ -2967,7 +2906,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12TPS_3',
         id: 'GGS12TPS-2',
         imgUrl: 'au5KByH.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -2978,7 +2917,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12TPS_1',
         id: 'GGS12TPS-3',
         imgUrl: 'au5KByH.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -2989,7 +2928,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12TPS_2',
         id: 'GGS12TPS-4',
         imgUrl: 'au5KByH.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 24,
@@ -2999,7 +2938,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12TPS_3',
         id: 'GGS12TPS-5',
         imgUrl: 'au5KByH.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 42,
@@ -3010,7 +2949,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12TPS_1',
         id: 'GGS12TPS-6',
         imgUrl: 'au5KByH.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 43,
@@ -3021,7 +2960,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12TPS_2',
         id: 'GGS12TPS-7',
         imgUrl: 'au5KByH.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -3031,7 +2970,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12TPS_3',
         id: 'GGS12TPS-8',
         imgUrl: 'au5KByH.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 64,
@@ -3042,7 +2981,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12TPS_1',
         id: 'GGS12TPS-9',
         imgUrl: 'au5KByH.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 64,
@@ -3053,7 +2992,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12TPS_1',
         id: 'GGS12TPS-10',
         imgUrl: 'au5KByH.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 64,
@@ -3064,7 +3003,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12TPS_2',
         id: 'GGS12TPS-11',
         imgUrl: 'au5KByH.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 75,
@@ -3074,7 +3013,7 @@ export const Var5: SankeyLink[] = [
         process: 'GGS12TPS_3',
         id: 'GGS12TPS-12',
         imgUrl: 'au5KByH.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 110,
@@ -3085,9 +3024,7 @@ export const Var5: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-0',
         imgUrl: 'TIajUJa.jpg',
-        netnode: 'var',
-        color: 'targetLinkTwoColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 110,
@@ -3098,9 +3035,7 @@ export const Var5: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-1',
         imgUrl: 'TIajUJa.jpg',
-        netnode: 'var',
-        color: 'targetLinkTwoColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -3111,8 +3046,7 @@ export const Var5: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-2',
         imgUrl: 'TIajUJa.jpg',
-        netnode: 'var',
-        color: 'intOneLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -3123,8 +3057,7 @@ export const Var5: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-3',
         imgUrl: 'TIajUJa.jpg',
-        netnode: 'var',
-        color: 'intOneLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -3135,8 +3068,7 @@ export const Var5: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-4',
         imgUrl: 'TIajUJa.jpg',
-        netnode: 'var',
-        color: 'intOneLight3LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -3147,8 +3079,7 @@ export const Var5: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-5',
         imgUrl: 'TIajUJa.jpg',
-        netnode: 'var',
-        color: 'intOneLight3LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -3159,8 +3090,7 @@ export const Var5: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-6',
         imgUrl: 'TIajUJa.jpg',
-        netnode: 'var',
-        color: 'intTwoLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -3171,8 +3101,7 @@ export const Var5: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-7',
         imgUrl: 'TIajUJa.jpg',
-        netnode: 'var',
-        color: 'intTwoLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -3183,8 +3112,7 @@ export const Var5: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-8',
         imgUrl: 'TIajUJa.jpg',
-        netnode: 'var',
-        color: 'intThreeLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -3195,8 +3123,7 @@ export const Var5: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-9',
         imgUrl: 'TIajUJa.jpg',
-        netnode: 'var',
-        color: 'intThreeLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -3207,8 +3134,7 @@ export const Var5: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-10',
         imgUrl: 'TIajUJa.jpg',
-        netnode: 'var',
-        color: 'intFiveLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -3219,8 +3145,7 @@ export const Var5: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-11',
         imgUrl: 'TIajUJa.jpg',
-        netnode: 'var',
-        color: 'intFiveLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 34,
@@ -3231,8 +3156,7 @@ export const Var5: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-12',
         imgUrl: 'TIajUJa.jpg',
-        netnode: 'var',
-        color: 'intOneLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 36,
@@ -3243,8 +3167,7 @@ export const Var5: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-13',
         imgUrl: 'TIajUJa.jpg',
-        netnode: 'var',
-        color: 'intOneLight3LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 40,
@@ -3255,8 +3178,7 @@ export const Var5: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-14',
         imgUrl: 'TIajUJa.jpg',
-        netnode: 'var',
-        color: 'intTwoLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 41,
@@ -3267,8 +3189,7 @@ export const Var5: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-15',
         imgUrl: 'TIajUJa.jpg',
-        netnode: 'var',
-        color: 'intThreeLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -3279,8 +3200,7 @@ export const Var5: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-16',
         imgUrl: 'TIajUJa.jpg',
-        netnode: 'var',
-        color: 'intFiveLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -3291,8 +3211,7 @@ export const Var5: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-17',
         imgUrl: 'TIajUJa.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -3303,7 +3222,7 @@ export const Var5: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-18',
         imgUrl: 'TIajUJa.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -3314,7 +3233,7 @@ export const Var5: SankeyLink[] = [
         process: 'HYZ13_1',
         id: 'HYZ13-19',
         imgUrl: 'TIajUJa.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 111,
@@ -3325,7 +3244,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_1',
         id: 'index-0',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 111,
@@ -3336,7 +3255,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_2',
         id: 'index-1',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 111,
@@ -3347,7 +3266,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_3',
         id: 'index-2',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 111,
@@ -3358,7 +3277,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_4',
         id: 'index-3',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 111,
@@ -3369,7 +3288,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_4',
         id: 'index-4',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 111,
@@ -3380,7 +3299,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_4',
         id: 'index-5',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 111,
@@ -3391,7 +3310,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_5',
         id: 'index-6',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 111,
@@ -3402,7 +3321,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_6',
         id: 'index-7',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 5,
@@ -3413,7 +3332,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_1',
         id: 'index-8',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -3424,7 +3343,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_2',
         id: 'index-9',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -3435,7 +3354,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_3',
         id: 'index-10',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 17,
@@ -3446,7 +3365,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_4',
         id: 'index-11',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 18,
@@ -3457,7 +3376,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_4',
         id: 'index-12',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 19,
@@ -3468,7 +3387,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_4',
         id: 'index-13',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 22,
@@ -3479,7 +3398,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_5',
         id: 'index-14',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 24,
@@ -3490,7 +3409,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_6',
         id: 'index-15',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -3501,7 +3420,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_2',
         id: 'index-16',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -3512,7 +3431,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_3',
         id: 'index-17',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -3523,7 +3442,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_3',
         id: 'index-18',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -3534,7 +3453,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_2',
         id: 'index-19',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -3545,7 +3464,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_3',
         id: 'index-20',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -3556,7 +3475,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_5',
         id: 'index-21',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -3567,7 +3486,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_2',
         id: 'index-22',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -3578,7 +3497,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_3',
         id: 'index-23',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -3589,7 +3508,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_4',
         id: 'index-24',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -3600,7 +3519,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_4',
         id: 'index-25',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -3611,7 +3530,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_4',
         id: 'index-26',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -3622,7 +3541,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_6',
         id: 'index-27',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -3633,7 +3552,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_1',
         id: 'index-28',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -3644,7 +3563,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_6',
         id: 'index-29',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -3655,7 +3574,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_1',
         id: 'index-30',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -3666,7 +3585,7 @@ export const Var5: SankeyLink[] = [
         process: 'JTM11_6',
         id: 'index-31',
         imgUrl: 'AqAwugG.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 112,
@@ -3677,9 +3596,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_1',
         id: 'JSM16-0',
         imgUrl: 'n4jwcKO.jpg',
-        netnode: 'var',
-        color: 'targetLinkColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 112,
@@ -3690,7 +3607,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_1',
         id: 'JSM16-1',
         imgUrl: 'n4jwcKO.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 112,
@@ -3701,9 +3618,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-2',
         imgUrl: 'n4jwcKO.jpg',
-        netnode: 'var',
-        color: 'targetLinkTwoColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 112,
@@ -3714,9 +3629,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-3',
         imgUrl: 'n4jwcKO.jpg',
-        netnode: 'var',
-        color: 'targetLinkTwoColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 112,
@@ -3727,7 +3640,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_3',
         id: 'JSM16-4',
         imgUrl: 'n4jwcKO.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 112,
@@ -3737,7 +3650,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_4',
         id: 'JSM16-5',
         imgUrl: 'n4jwcKO.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 112,
@@ -3747,7 +3660,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_4',
         id: 'JSM16-6',
         imgUrl: 'n4jwcKO.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 0,
@@ -3758,8 +3671,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_1',
         id: 'JSM16-7',
         imgUrl: 'n4jwcKO.jpg',
-        netnode: 'var',
-        color: 'intFiveLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 5,
@@ -3770,7 +3682,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-8',
         imgUrl: 'n4jwcKO.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -3781,8 +3693,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-9',
         imgUrl: 'n4jwcKO.jpg',
-        netnode: 'var',
-        color: 'intTwoLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -3793,8 +3704,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-10',
         imgUrl: 'n4jwcKO.jpg',
-        netnode: 'var',
-        color: 'intThreeLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -3805,8 +3715,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-11',
         imgUrl: 'n4jwcKO.jpg',
-        netnode: 'var',
-        color: 'intThreeLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -3817,8 +3726,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-12',
         imgUrl: 'n4jwcKO.jpg',
-        netnode: 'var',
-        color: 'intFiveLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -3829,8 +3737,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-13',
         imgUrl: 'n4jwcKO.jpg',
-        netnode: 'var',
-        color: 'intTwoLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -3841,8 +3748,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-14',
         imgUrl: 'n4jwcKO.jpg',
-        netnode: 'var',
-        color: 'intThreeLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -3853,8 +3759,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-15',
         imgUrl: 'n4jwcKO.jpg',
-        netnode: 'var',
-        color: 'intThreeLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -3865,8 +3770,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-16',
         imgUrl: 'n4jwcKO.jpg',
-        netnode: 'var',
-        color: 'intFiveLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 22,
@@ -3877,7 +3781,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_3',
         id: 'JSM16-17',
         imgUrl: 'n4jwcKO.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 24,
@@ -3887,7 +3791,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_4',
         id: 'JSM16-18',
         imgUrl: 'n4jwcKO.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -3898,8 +3802,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-19',
         imgUrl: 'n4jwcKO.jpg',
-        netnode: 'var',
-        color: 'intTwoLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 42,
@@ -3910,8 +3813,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-20',
         imgUrl: 'n4jwcKO.jpg',
-        netnode: 'var',
-        color: 'intThreeLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 44,
@@ -3922,8 +3824,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-21',
         imgUrl: 'n4jwcKO.jpg',
-        netnode: 'var',
-        color: 'intThreeLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -3933,7 +3834,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_4',
         id: 'JSM16-22',
         imgUrl: 'n4jwcKO.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -3944,8 +3845,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_1',
         id: 'JSM16-23',
         imgUrl: 'n4jwcKO.jpg',
-        netnode: 'var',
-        color: 'intFiveLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -3956,8 +3856,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-24',
         imgUrl: 'n4jwcKO.jpg',
-        netnode: 'var',
-        color: 'intFiveLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -3968,7 +3867,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-25',
         imgUrl: 'n4jwcKO.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -3979,7 +3878,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_1',
         id: 'JSM16-26',
         imgUrl: 'n4jwcKO.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -3990,7 +3889,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-27',
         imgUrl: 'n4jwcKO.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -4001,8 +3900,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_1',
         id: 'JSM16-28',
         imgUrl: 'n4jwcKO.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -4013,8 +3911,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_2',
         id: 'JSM16-29',
         imgUrl: 'n4jwcKO.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 57,
@@ -4024,7 +3921,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_4',
         id: 'JSM16-30',
         imgUrl: 'n4jwcKO.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 57,
@@ -4034,7 +3931,7 @@ export const Var5: SankeyLink[] = [
         process: 'JSM16_4',
         id: 'JSM16-31',
         imgUrl: 'n4jwcKO.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 113,
@@ -4045,7 +3942,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_1',
         id: 'JX17-0',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 113,
@@ -4056,7 +3953,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_2',
         id: 'JX17-1',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 113,
@@ -4066,7 +3963,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_3',
         id: 'JX17-2',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 113,
@@ -4077,7 +3974,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_1',
         id: 'JX17-3',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 113,
@@ -4088,7 +3985,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_2',
         id: 'JX17-4',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 113,
@@ -4098,7 +3995,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_3',
         id: 'JX17-5',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 113,
@@ -4109,7 +4006,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_4',
         id: 'JX17-6',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 113,
@@ -4120,7 +4017,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_5',
         id: 'JX17-7',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 113,
@@ -4131,7 +4028,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_6',
         id: 'JX17-8',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 113,
@@ -4141,7 +4038,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_7',
         id: 'JX17-9',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 9,
@@ -4152,7 +4049,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_1',
         id: 'JX17-10',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 9,
@@ -4163,7 +4060,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_2',
         id: 'JX17-11',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 9,
@@ -4173,7 +4070,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_3',
         id: 'JX17-12',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 10,
@@ -4184,7 +4081,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_1',
         id: 'JX17-13',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 10,
@@ -4195,7 +4092,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_2',
         id: 'JX17-14',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 10,
@@ -4205,7 +4102,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_3',
         id: 'JX17-15',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -4216,7 +4113,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_4',
         id: 'JX17-16',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -4227,7 +4124,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_5',
         id: 'JX17-17',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -4238,7 +4135,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_6',
         id: 'JX17-18',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 21,
@@ -4248,7 +4145,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_7',
         id: 'JX17-19',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 35,
@@ -4259,7 +4156,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_4',
         id: 'JX17-20',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 36,
@@ -4270,7 +4167,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_1',
         id: 'JX17-21',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 36,
@@ -4281,7 +4178,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_2',
         id: 'JX17-22',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 36,
@@ -4291,7 +4188,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_3',
         id: 'JX17-23',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 42,
@@ -4302,7 +4199,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_5',
         id: 'JX17-24',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -4313,7 +4210,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_6',
         id: 'JX17-25',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -4323,7 +4220,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_7',
         id: 'JX17-26',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -4334,7 +4231,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_1',
         id: 'JX17-27',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -4345,7 +4242,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_1',
         id: 'JX17-28',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -4356,7 +4253,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_1',
         id: 'JX17-29',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -4367,7 +4264,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_2',
         id: 'JX17-30',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -4378,7 +4275,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_2',
         id: 'JX17-31',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 65,
@@ -4388,7 +4285,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_3',
         id: 'JX17-32',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 65,
@@ -4399,7 +4296,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_6',
         id: 'JX17-33',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -4410,7 +4307,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_4',
         id: 'JX17-34',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 65,
@@ -4421,7 +4318,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_5',
         id: 'JX17-35',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 65,
@@ -4432,7 +4329,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_6',
         id: 'JX17-36',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 65,
@@ -4443,7 +4340,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_6',
         id: 'JX17-37',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 65,
@@ -4453,7 +4350,7 @@ export const Var5: SankeyLink[] = [
         process: 'JX17_7',
         id: 'JX17-38',
         imgUrl: 'dbYhmdg.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4464,7 +4361,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-0',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4475,7 +4372,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_2',
         id: 'KSBK15-1',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4486,7 +4383,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_3',
         id: 'KSBK15-2',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4497,7 +4394,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-3',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4508,7 +4405,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_2',
         id: 'KSBK15-4',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4519,7 +4416,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_3',
         id: 'KSBK15-5',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4530,7 +4427,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-6',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4541,7 +4438,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_2',
         id: 'KSBK15-7',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4552,7 +4449,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_3',
         id: 'KSBK15-8',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4563,7 +4460,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-9',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4574,7 +4471,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_2',
         id: 'KSBK15-10',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4585,7 +4482,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_3',
         id: 'KSBK15-11',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4596,7 +4493,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-12',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4607,7 +4504,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_2',
         id: 'KSBK15-13',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4618,7 +4515,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_3',
         id: 'KSBK15-14',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4629,7 +4526,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-15',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4640,7 +4537,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_2',
         id: 'KSBK15-16',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4651,7 +4548,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_3',
         id: 'KSBK15-17',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4662,7 +4559,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-18',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4673,7 +4570,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_2',
         id: 'KSBK15-19',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4684,7 +4581,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_3',
         id: 'KSBK15-20',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4695,7 +4592,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_4',
         id: 'KSBK15-21',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4706,7 +4603,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_4',
         id: 'KSBK15-22',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4717,7 +4614,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_4',
         id: 'KSBK15-23',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4728,7 +4625,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_5',
         id: 'KSBK15-24',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4739,7 +4636,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_5',
         id: 'KSBK15-25',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4750,7 +4647,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_5',
         id: 'KSBK15-26',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4761,7 +4658,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_6',
         id: 'KSBK15-27',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4772,7 +4669,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_6',
         id: 'KSBK15-28',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4783,7 +4680,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_6',
         id: 'KSBK15-29',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 114,
@@ -4794,7 +4691,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_7',
         id: 'KSBK15-30',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 0,
@@ -4805,7 +4702,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-31',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 2,
@@ -4816,7 +4713,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-32',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 3,
@@ -4827,7 +4724,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-33',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 4,
@@ -4838,7 +4735,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-34',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 5,
@@ -4849,7 +4746,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-35',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 6,
@@ -4860,7 +4757,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-36',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 7,
@@ -4871,7 +4768,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-37',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 0,
@@ -4882,7 +4779,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-38',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 2,
@@ -4893,7 +4790,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-39',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 3,
@@ -4904,7 +4801,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-40',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 4,
@@ -4915,7 +4812,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-41',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 5,
@@ -4926,7 +4823,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-42',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 6,
@@ -4937,7 +4834,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-43',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 7,
@@ -4948,7 +4845,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-44',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 0,
@@ -4959,7 +4856,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_2',
         id: 'KSBK15-45',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 2,
@@ -4970,7 +4867,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_2',
         id: 'KSBK15-46',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 3,
@@ -4981,7 +4878,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_2',
         id: 'KSBK15-47',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 4,
@@ -4992,7 +4889,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_2',
         id: 'KSBK15-48',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 5,
@@ -5003,7 +4900,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_2',
         id: 'KSBK15-49',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 6,
@@ -5014,7 +4911,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_2',
         id: 'KSBK15-50',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 7,
@@ -5025,7 +4922,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_2',
         id: 'KSBK15-51',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 0,
@@ -5036,7 +4933,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_3',
         id: 'KSBK15-52',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 2,
@@ -5047,7 +4944,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_3',
         id: 'KSBK15-53',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 3,
@@ -5058,7 +4955,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_3',
         id: 'KSBK15-54',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 4,
@@ -5069,7 +4966,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_3',
         id: 'KSBK15-55',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 5,
@@ -5080,7 +4977,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_3',
         id: 'KSBK15-56',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 6,
@@ -5091,7 +4988,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_3',
         id: 'KSBK15-57',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 7,
@@ -5102,7 +4999,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_3',
         id: 'KSBK15-58',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -5113,7 +5010,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_4',
         id: 'KSBK15-59',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -5124,7 +5021,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_4',
         id: 'KSBK15-60',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -5135,7 +5032,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_4',
         id: 'KSBK15-61',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -5146,7 +5043,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_5',
         id: 'KSBK15-62',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -5157,7 +5054,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_5',
         id: 'KSBK15-63',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -5168,7 +5065,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_5',
         id: 'KSBK15-64',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -5179,7 +5076,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_6',
         id: 'KSBK15-65',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -5190,7 +5087,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_6',
         id: 'KSBK15-66',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -5201,7 +5098,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_6',
         id: 'KSBK15-67',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -5212,7 +5109,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_4',
         id: 'KSBK15-68',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -5223,7 +5120,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_4',
         id: 'KSBK15-69',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -5234,7 +5131,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_4',
         id: 'KSBK15-70',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -5245,7 +5142,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_6',
         id: 'KSBK15-71',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -5256,7 +5153,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_6',
         id: 'KSBK15-72',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -5267,7 +5164,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_6',
         id: 'KSBK15-73',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -5278,7 +5175,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_5',
         id: 'KSBK15-74',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -5289,7 +5186,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_5',
         id: 'KSBK15-75',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -5300,7 +5197,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_5',
         id: 'KSBK15-76',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -5311,7 +5208,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_7',
         id: 'KSBK15-77',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -5322,7 +5219,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_7',
         id: 'KSBK15-78',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 36,
@@ -5333,7 +5230,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-79',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 40,
@@ -5344,7 +5241,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-80',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 40,
@@ -5355,7 +5252,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_6',
         id: 'KSBK15-81',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -5366,7 +5263,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_2',
         id: 'KSBK15-82',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -5377,7 +5274,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_3',
         id: 'KSBK15-83',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -5388,7 +5285,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_7',
         id: 'KSBK15-84',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 41,
@@ -5399,7 +5296,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_4',
         id: 'KSBK15-85',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 41,
@@ -5410,7 +5307,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_5',
         id: 'KSBK15-86',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -5421,7 +5318,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_4',
         id: 'KSBK15-87',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -5432,7 +5329,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_5',
         id: 'KSBK15-88',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -5443,7 +5340,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_6',
         id: 'KSBK15-89',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -5454,7 +5351,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_1',
         id: 'KSBK15-90',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -5465,7 +5362,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_6',
         id: 'KSBK15-91',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -5476,7 +5373,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_2',
         id: 'KSBK15-92',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -5487,7 +5384,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_2',
         id: 'KSBK15-93',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -5498,7 +5395,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_4',
         id: 'KSBK15-94',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -5509,7 +5406,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_2',
         id: 'KSBK15-95',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -5520,7 +5417,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_4',
         id: 'KSBK15-96',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -5531,7 +5428,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_3',
         id: 'KSBK15-97',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -5542,7 +5439,7 @@ export const Var5: SankeyLink[] = [
         process: 'KSBK15_7',
         id: 'KSBK15-98',
         imgUrl: 'AY0EaHs.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 115,
@@ -5553,7 +5450,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_2',
         id: 'LGX16-0',
         imgUrl: 'WcypLMa.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 115,
@@ -5563,7 +5460,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_1',
         id: 'LGX16-1',
         imgUrl: 'WcypLMa.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 115,
@@ -5574,7 +5471,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_3',
         id: 'LGX16-2',
         imgUrl: 'WcypLMa.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 115,
@@ -5585,9 +5482,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_4',
         id: 'LGX16-3',
         imgUrl: 'WcypLMa.png',
-        netnode: 'var',
-        color: 'targetLinkTwoColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 115,
@@ -5598,9 +5493,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_4',
         id: 'LGX16-4',
         imgUrl: 'WcypLMa.png',
-        netnode: 'var',
-        color: 'targetLinkTwoColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 115,
@@ -5611,9 +5504,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_5',
         id: 'LGX16-5',
         imgUrl: 'WcypLMa.png',
-        netnode: 'var',
-        color: 'targetLinkThreeColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 115,
@@ -5624,9 +5515,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_5',
         id: 'LGX16-6',
         imgUrl: 'WcypLMa.png',
-        netnode: 'var',
-        color: 'targetLinkThreeColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 4,
@@ -5636,7 +5525,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_1',
         id: 'LGX16-7',
         imgUrl: 'WcypLMa.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 4,
@@ -5647,7 +5536,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_2',
         id: 'LGX16-8',
         imgUrl: 'WcypLMa.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 5,
@@ -5658,7 +5547,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_3',
         id: 'LGX16-9',
         imgUrl: 'WcypLMa.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -5669,8 +5558,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_4',
         id: 'LGX16-10',
         imgUrl: 'WcypLMa.png',
-        netnode: 'var',
-        color: 'intOneLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -5681,8 +5569,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_4',
         id: 'LGX16-11',
         imgUrl: 'WcypLMa.png',
-        netnode: 'var',
-        color: 'intFourLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -5693,44 +5580,40 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_4',
         id: 'LGX16-12',
         imgUrl: 'WcypLMa.png',
-        netnode: 'var',
-        color: 'intOneLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
         target: 45,
         value: 1,
-        valueid: 'repea ',
+        valueid: 'repea',
         paperName: 'LGX16',
         process: 'LGX16_4',
         id: 'LGX16-13',
         imgUrl: 'WcypLMa.png',
-        netnode: 'var',
-        color: 'intFourLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 17,
         target: 45,
         value: 1,
-        valueid: 'repg ',
+        valueid: 'repg',
         paperName: 'LGX16',
         process: 'LGX16_5',
         id: 'LGX16-14',
         imgUrl: 'WcypLMa.png',
-        netnode: 'var',
-        color: 'intFourLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 19,
         target: 45,
         value: 1,
-        valueid: 'repg ',
+        valueid: 'repg',
         paperName: 'LGX16',
         process: 'LGX16_5',
         id: 'LGX16-15',
         imgUrl: 'WcypLMa.png',
-        netnode: 'var',
-        color: 'intFourLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 40,
@@ -5740,7 +5623,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_1',
         id: 'LGX16-16',
         imgUrl: 'WcypLMa.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 40,
@@ -5751,7 +5634,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_2',
         id: 'LGX16-17',
         imgUrl: 'WcypLMa.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 40,
@@ -5762,7 +5645,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_3',
         id: 'LGX16-18',
         imgUrl: 'WcypLMa.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 33,
@@ -5773,8 +5656,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_4',
         id: 'LGX16-19',
         imgUrl: 'WcypLMa.png',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -5785,8 +5667,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_4',
         id: 'LGX16-20',
         imgUrl: 'WcypLMa.png',
-        netnode: 'var',
-        color: 'intFourLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -5797,8 +5678,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_5',
         id: 'LGX16-21',
         imgUrl: 'WcypLMa.png',
-        netnode: 'var',
-        color: 'intFourLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -5808,7 +5688,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_1',
         id: 'LGX16-22',
         imgUrl: 'WcypLMa.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -5819,7 +5699,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_2',
         id: 'LGX16-23',
         imgUrl: 'WcypLMa.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -5830,7 +5710,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_2',
         id: 'LGX16-24',
         imgUrl: 'WcypLMa.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -5841,7 +5721,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_3',
         id: 'LGX16-25',
         imgUrl: 'WcypLMa.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -5851,7 +5731,7 @@ export const Var5: SankeyLink[] = [
         paperName: 'LGX16',
         id: 'LGX16-26',
         imgUrl: 'WcypLMa.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -5862,7 +5742,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_3',
         id: 'LGX16-27',
         imgUrl: 'WcypLMa.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -5873,7 +5753,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_4',
         id: 'LGX16-28',
         imgUrl: 'WcypLMa.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -5884,7 +5764,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_4',
         id: 'LGX16-29',
         imgUrl: 'WcypLMa.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -5895,8 +5775,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_4',
         id: 'LGX16-30',
         imgUrl: 'WcypLMa.png',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 68,
@@ -5907,8 +5786,7 @@ export const Var5: SankeyLink[] = [
         process: 'LGX16_5',
         id: 'LGX16-31',
         imgUrl: 'WcypLMa.png',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 116,
@@ -5919,7 +5797,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_1',
         id: 'LJC18-0',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 116,
@@ -5930,7 +5808,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_4',
         id: 'LJC18-1',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 116,
@@ -5941,7 +5819,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_2',
         id: 'LJC18-2',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 116,
@@ -5952,7 +5830,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_3',
         id: 'LJC18-3',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 116,
@@ -5963,7 +5841,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_5',
         id: 'LJC18-4',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 116,
@@ -5974,7 +5852,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_6',
         id: 'LJC18-5',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 116,
@@ -5985,7 +5863,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_8',
         id: 'LJC18-6',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 116,
@@ -5996,7 +5874,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_7',
         id: 'LJC18-7',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 116,
@@ -6007,7 +5885,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_9',
         id: 'LJC18-8',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 116,
@@ -6018,7 +5896,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_10',
         id: 'LJC18-9',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 3,
@@ -6029,7 +5907,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_2',
         id: 'LJC18-10',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -6040,7 +5918,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_5',
         id: 'LJC18-11',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -6051,7 +5929,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_6',
         id: 'LJC18-12',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 3,
@@ -6062,7 +5940,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_3',
         id: 'LJC18-13',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 3,
@@ -6073,7 +5951,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_1',
         id: 'LJC18-14',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 3,
@@ -6084,7 +5962,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_4',
         id: 'LJC18-15',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -6095,7 +5973,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_7',
         id: 'LJC18-16',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -6106,7 +5984,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_8',
         id: 'LJC18-17',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -6117,7 +5995,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_10',
         id: 'LJC18-18',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -6128,7 +6006,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_9',
         id: 'LJC18-19',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -6139,7 +6017,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_5',
         id: 'LJC18-20',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -6150,7 +6028,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_2',
         id: 'LJC18-21',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -6161,7 +6039,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_6',
         id: 'LJC18-22',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -6172,7 +6050,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_3',
         id: 'LJC18-23',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -6183,7 +6061,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_7',
         id: 'LJC18-24',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -6194,7 +6072,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_4',
         id: 'LJC18-25',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -6205,7 +6083,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_1',
         id: 'LJC18-26',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -6216,7 +6094,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_8',
         id: 'LJC18-27',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -6227,7 +6105,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_10',
         id: 'LJC18-28',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -6238,7 +6116,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_2',
         id: 'LJC18-29',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -6249,7 +6127,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_5',
         id: 'LJC18-30',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -6260,7 +6138,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_6',
         id: 'LJC18-31',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -6271,7 +6149,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_4',
         id: 'LJC18-32',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -6282,7 +6160,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_1',
         id: 'LJC18-33',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -6293,7 +6171,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_10',
         id: 'LJC18-34',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -6304,7 +6182,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_2',
         id: 'LJC18-35',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -6315,7 +6193,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_5',
         id: 'LJC18-36',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -6326,7 +6204,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_6',
         id: 'LJC18-37',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -6337,7 +6215,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_2',
         id: 'LJC18-38',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -6348,7 +6226,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_9',
         id: 'LJC18-39',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -6359,7 +6237,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_3',
         id: 'LJC18-40',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -6370,7 +6248,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_7',
         id: 'LJC18-41',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -6381,7 +6259,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_4',
         id: 'LJC18-42',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -6392,7 +6270,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_1',
         id: 'LJC18-43',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -6403,7 +6281,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_8',
         id: 'LJC18-44',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -6414,7 +6292,7 @@ export const Var5: SankeyLink[] = [
         process: 'LJC18_10',
         id: 'LJC18-45',
         imgUrl: 'bYdgkcY.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 117,
@@ -6425,7 +6303,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_1',
         id: 'LLN14-0',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 117,
@@ -6436,7 +6314,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_2',
         id: 'LLN14-1',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 117,
@@ -6447,7 +6325,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_2',
         id: 'LLN14-2',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 117,
@@ -6458,7 +6336,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_3',
         id: 'LLN14-3',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 117,
@@ -6469,7 +6347,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_4',
         id: 'LLN14-4',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 117,
@@ -6480,7 +6358,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_5',
         id: 'LLN14-5',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 7,
@@ -6491,7 +6369,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_1',
         id: 'LLN14-6',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 34,
@@ -6502,7 +6380,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_1',
         id: 'LLN14-7',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -6513,7 +6391,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_1',
         id: 'LLN14-8',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -6524,7 +6402,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_1',
         id: 'LLN14-9',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -6535,7 +6413,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_1',
         id: 'LLN14-10',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -6546,7 +6424,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_2',
         id: 'LLN14-11',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -6557,7 +6435,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_2',
         id: 'LLN14-12',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 34,
@@ -6568,7 +6446,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_2',
         id: 'LLN14-13',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -6579,7 +6457,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_2',
         id: 'LLN14-14',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -6590,7 +6468,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_2',
         id: 'LLN14-15',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -6601,7 +6479,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_2',
         id: 'LLN14-16',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 18,
@@ -6612,7 +6490,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_3',
         id: 'LLN14-17',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -6623,7 +6501,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_3',
         id: 'LLN14-18',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -6634,7 +6512,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_3',
         id: 'LLN14-19',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -6645,7 +6523,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_3',
         id: 'LLN14-20',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 24,
@@ -6656,7 +6534,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_4',
         id: 'LLN14-21',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -6667,7 +6545,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_4',
         id: 'LLN14-22',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -6678,7 +6556,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_4',
         id: 'LLN14-23',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -6689,7 +6567,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_4',
         id: 'LLN14-24',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 24,
@@ -6700,7 +6578,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_5',
         id: 'LLN14-25',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -6711,7 +6589,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_5',
         id: 'LLN14-26',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -6722,7 +6600,7 @@ export const Var5: SankeyLink[] = [
         process: 'LLN14_5',
         id: 'LLN14-27',
         imgUrl: 'xWQU5gc.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 118,
@@ -6733,9 +6611,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_1',
         id: 'LWW13-0',
         imgUrl: 'iaVFFGl.jpg',
-        netnode: 'var',
-        color: 'targetLinkOneColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 118,
@@ -6746,7 +6622,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_2',
         id: 'LWW13-1',
         imgUrl: 'iaVFFGl.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 118,
@@ -6757,9 +6633,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_3',
         id: 'LWW13-2',
         imgUrl: 'iaVFFGl.jpg',
-        netnode: 'var',
-        color: 'targetLinkTwoColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 118,
@@ -6770,7 +6644,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_2',
         id: 'LWW13-3',
         imgUrl: 'iaVFFGl.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 118,
@@ -6781,7 +6655,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_4',
         id: 'LWW13-4',
         imgUrl: 'iaVFFGl.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 118,
@@ -6792,7 +6666,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_4',
         id: 'LWW13-5',
         imgUrl: 'iaVFFGl.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 118,
@@ -6803,7 +6677,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_4',
         id: 'LWW13-6',
         imgUrl: 'iaVFFGl.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 118,
@@ -6814,7 +6688,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_5',
         id: 'LWW13-7',
         imgUrl: 'iaVFFGl.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 9,
@@ -6825,8 +6699,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_1',
         id: 'LWW13-8',
         imgUrl: 'iaVFFGl.jpg',
-        netnode: 'var',
-        color: 'intOneLight3LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 9,
@@ -6837,8 +6710,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_1',
         id: 'LWW13-9',
         imgUrl: 'iaVFFGl.jpg',
-        netnode: 'var',
-        color: 'intTwoLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 40,
@@ -6849,8 +6721,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_1',
         id: 'LWW13-10',
         imgUrl: 'iaVFFGl.jpg',
-        netnode: 'var',
-        color: 'intTwoLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -6861,7 +6732,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_2',
         id: 'LWW13-11',
         imgUrl: 'iaVFFGl.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -6872,7 +6743,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_2',
         id: 'LWW13-12',
         imgUrl: 'iaVFFGl.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -6883,8 +6754,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_3',
         id: 'LWW13-13',
         imgUrl: 'iaVFFGl.jpg',
-        netnode: 'var',
-        color: 'intFiveLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -6895,7 +6765,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_4',
         id: 'LWW13-14',
         imgUrl: 'iaVFFGl.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 17,
@@ -6906,7 +6776,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_4',
         id: 'LWW13-15',
         imgUrl: 'iaVFFGl.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 18,
@@ -6917,7 +6787,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_4',
         id: 'LWW13-16',
         imgUrl: 'iaVFFGl.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 35,
@@ -6928,7 +6798,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_2',
         id: 'LWW13-17',
         imgUrl: 'iaVFFGl.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 36,
@@ -6939,8 +6809,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_1',
         id: 'LWW13-18',
         imgUrl: 'iaVFFGl.jpg',
-        netnode: 'var',
-        color: 'intOneLight3LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -6951,8 +6820,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_3',
         id: 'LWW13-19',
         imgUrl: 'iaVFFGl.jpg',
-        netnode: 'var',
-        color: 'intFiveLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -6963,7 +6831,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_4',
         id: 'LWW13-20',
         imgUrl: 'iaVFFGl.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -6974,7 +6842,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_5',
         id: 'LWW13-21',
         imgUrl: 'iaVFFGl.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -6985,7 +6853,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_2',
         id: 'LWW13-22',
         imgUrl: 'iaVFFGl.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -6996,7 +6864,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_4',
         id: 'LWW13-23',
         imgUrl: 'iaVFFGl.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -7007,7 +6875,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_3',
         id: 'LWW13-24',
         imgUrl: 'iaVFFGl.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -7018,7 +6886,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_1',
         id: 'LWW13-25',
         imgUrl: 'iaVFFGl.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -7029,7 +6897,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_2',
         id: 'LWW13-26',
         imgUrl: 'iaVFFGl.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -7040,7 +6908,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_3',
         id: 'LWW13-27',
         imgUrl: 'iaVFFGl.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -7051,8 +6919,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_1',
         id: 'LWW13-28',
         imgUrl: 'iaVFFGl.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -7063,8 +6930,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_3',
         id: 'LWW13-29',
         imgUrl: 'iaVFFGl.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 75,
@@ -7075,7 +6941,7 @@ export const Var5: SankeyLink[] = [
         process: 'LWW13_5',
         id: 'LWW13-30',
         imgUrl: 'iaVFFGl.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 119,
@@ -7086,7 +6952,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_1',
         id: 'MA16-0',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 119,
@@ -7097,7 +6963,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_2',
         id: 'MA16-1',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 119,
@@ -7108,7 +6974,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_3',
         id: 'MA16-2',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 119,
@@ -7119,7 +6985,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_4',
         id: 'MA16-3',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 119,
@@ -7130,7 +6996,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_4',
         id: 'MA16-4',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 119,
@@ -7140,7 +7006,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_5',
         id: 'MA16-5',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -7151,7 +7017,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_1',
         id: 'MA16-6',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -7162,7 +7028,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_2',
         id: 'MA16-7',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -7173,7 +7039,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_3',
         id: 'MA16-8',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 21,
@@ -7184,7 +7050,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_4',
         id: 'MA16-9',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 27,
@@ -7195,7 +7061,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_4',
         id: 'MA16-10',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 30,
@@ -7205,7 +7071,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_5',
         id: 'MA16-11',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -7216,7 +7082,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_1',
         id: 'MA16-12',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -7227,7 +7093,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_2',
         id: 'MA16-13',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -7238,7 +7104,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_3',
         id: 'MA16-14',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -7248,7 +7114,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_5',
         id: 'MA16-15',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -7259,7 +7125,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_4',
         id: 'MA16-16',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -7269,7 +7135,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_5',
         id: 'MA16-17',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 68,
@@ -7280,7 +7146,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_2',
         id: 'MA16-18',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 68,
@@ -7291,7 +7157,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_4',
         id: 'MA16-19',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 67,
@@ -7302,7 +7168,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_1',
         id: 'MA16-20',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 67,
@@ -7313,7 +7179,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_1',
         id: 'MA16-21',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 67,
@@ -7324,7 +7190,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_3',
         id: 'MA16-22',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 74,
@@ -7334,7 +7200,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_5',
         id: 'MA16-23',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 66,
@@ -7344,7 +7210,7 @@ export const Var5: SankeyLink[] = [
         process: 'MA16_5',
         id: 'MA16-24',
         imgUrl: '69BWuDV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 120,
@@ -7355,7 +7221,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_1',
         id: 'MDD10-0',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 120,
@@ -7366,7 +7232,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_2',
         id: 'MDD10-1',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 120,
@@ -7377,7 +7243,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_3',
         id: 'MDD10-2',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 120,
@@ -7388,7 +7254,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_4',
         id: 'MDD10-3',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 120,
@@ -7399,7 +7265,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_5',
         id: 'MDD10-4',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 120,
@@ -7410,7 +7276,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_6',
         id: 'MDD10-5',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 120,
@@ -7421,7 +7287,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_7',
         id: 'MDD10-6',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 7,
@@ -7432,7 +7298,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_1',
         id: 'MDD10-7',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -7443,7 +7309,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_3',
         id: 'MDD10-8',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 7,
@@ -7454,7 +7320,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_1',
         id: 'MDD10-9',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -7465,7 +7331,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_2',
         id: 'MDD10-10',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -7476,7 +7342,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_2',
         id: 'MDD10-11',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -7487,7 +7353,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_4',
         id: 'MDD10-12',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -7498,7 +7364,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_1',
         id: 'MDD10-13',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -7509,7 +7375,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_2',
         id: 'MDD10-14',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 40,
@@ -7520,7 +7386,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_2',
         id: 'MDD10-15',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 40,
@@ -7531,7 +7397,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_4',
         id: 'MDD10-16',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -7542,7 +7408,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_1',
         id: 'MDD10-17',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -7553,7 +7419,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_2',
         id: 'MDD10-18',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -7564,7 +7430,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_1',
         id: 'MDD10-19',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -7575,7 +7441,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_2',
         id: 'MDD10-20',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -7586,7 +7452,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_4',
         id: 'MDD10-21',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -7597,7 +7463,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_1',
         id: 'MDD10-22',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -7608,7 +7474,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_2',
         id: 'MDD10-23',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -7619,7 +7485,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_4',
         id: 'MDD10-24',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -7630,7 +7496,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_5',
         id: 'MDD10-25',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -7641,7 +7507,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_5',
         id: 'MDD10-26',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 22,
@@ -7652,7 +7518,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_7',
         id: 'MDD10-27',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 22,
@@ -7663,7 +7529,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_6',
         id: 'MDD10-28',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 22,
@@ -7674,7 +7540,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_6',
         id: 'MDD10-29',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -7685,7 +7551,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_6',
         id: 'MDD10-30',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -7696,7 +7562,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_3',
         id: 'MDD10-31',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -7707,7 +7573,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_7',
         id: 'MDD10-32',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -7718,7 +7584,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_1',
         id: 'MDD10-33',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -7729,7 +7595,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_6',
         id: 'MDD10-34',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -7740,7 +7606,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_6',
         id: 'MDD10-35',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -7751,7 +7617,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_3',
         id: 'MDD10-36',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -7762,7 +7628,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDD10_5',
         id: 'MDD10-37',
         imgUrl: 'AA3ZOvl.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 121,
@@ -7773,7 +7639,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_1',
         id: 'MEV16-0',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 121,
@@ -7784,7 +7650,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_2',
         id: 'MEV16-1',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 121,
@@ -7795,7 +7661,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_2',
         id: 'MEV16-2',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 121,
@@ -7806,7 +7672,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_3',
         id: 'MEV16-3',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 121,
@@ -7817,7 +7683,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_3',
         id: 'MEV16-4',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 121,
@@ -7828,7 +7694,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_4',
         id: 'MEV16-5',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 121,
@@ -7839,7 +7705,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_4',
         id: 'MEV16-6',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 121,
@@ -7850,7 +7716,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_5',
         id: 'MEV16-7',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 121,
@@ -7861,7 +7727,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_5',
         id: 'MEV16-8',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 121,
@@ -7872,7 +7738,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_6',
         id: 'MEV16-9',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 9,
@@ -7883,7 +7749,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_1',
         id: 'MEV16-10',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 36,
@@ -7894,7 +7760,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_1',
         id: 'MEV16-11',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -7905,7 +7771,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_1',
         id: 'MEV16-12',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -7916,7 +7782,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_2',
         id: 'MEV16-13',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -7927,7 +7793,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_2',
         id: 'MEV16-14',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -7938,7 +7804,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_2',
         id: 'MEV16-15',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -7949,7 +7815,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_2',
         id: 'MEV16-16',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 35,
@@ -7960,7 +7826,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_2',
         id: 'MEV16-17',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -7971,7 +7837,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_2',
         id: 'MEV16-18',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -7982,7 +7848,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_2',
         id: 'MEV16-19',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -7993,7 +7859,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_3',
         id: 'MEV16-20',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -8004,7 +7870,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_3',
         id: 'MEV16-21',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -8015,7 +7881,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_3',
         id: 'MEV16-22',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -8026,7 +7892,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_3',
         id: 'MEV16-23',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 35,
@@ -8037,7 +7903,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_3',
         id: 'MEV16-24',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -8048,7 +7914,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_3',
         id: 'MEV16-25',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -8059,7 +7925,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_3',
         id: 'MEV16-26',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 18,
@@ -8070,7 +7936,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_4',
         id: 'MEV16-27',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 19,
@@ -8081,7 +7947,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_4',
         id: 'MEV16-28',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -8092,7 +7958,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_4',
         id: 'MEV16-29',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -8103,7 +7969,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_4',
         id: 'MEV16-30',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 18,
@@ -8114,7 +7980,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_5',
         id: 'MEV16-31',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 19,
@@ -8125,7 +7991,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_5',
         id: 'MEV16-32',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -8136,7 +8002,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_5',
         id: 'MEV16-33',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -8147,7 +8013,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_5',
         id: 'MEV16-34',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 24,
@@ -8158,7 +8024,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_6',
         id: 'MEV16-35',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -8169,7 +8035,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_6',
         id: 'MEV16-36',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -8180,7 +8046,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEV16_6',
         id: 'MEV16-37',
         imgUrl: 'FpTZ8Nt.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 122,
@@ -8191,9 +8057,7 @@ export const Var5: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-0',
         imgUrl: 'Ak8KSur.jpg',
-        netnode: 'var',
-        color: 'targetLinkTwoColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 122,
@@ -8204,9 +8068,7 @@ export const Var5: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-1',
         imgUrl: 'Ak8KSur.jpg',
-        netnode: 'var',
-        color: 'targetLinkTwoColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -8217,8 +8079,7 @@ export const Var5: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-2',
         imgUrl: 'Ak8KSur.jpg',
-        netnode: 'var',
-        color: 'intTwoLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -8229,8 +8090,7 @@ export const Var5: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-3',
         imgUrl: 'Ak8KSur.jpg',
-        netnode: 'var',
-        color: 'intTwoLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -8241,8 +8101,7 @@ export const Var5: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-4',
         imgUrl: 'Ak8KSur.jpg',
-        netnode: 'var',
-        color: 'intFourLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -8253,8 +8112,7 @@ export const Var5: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-5',
         imgUrl: 'Ak8KSur.jpg',
-        netnode: 'var',
-        color: 'intFourLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -8265,8 +8123,7 @@ export const Var5: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-6',
         imgUrl: 'Ak8KSur.jpg',
-        netnode: 'var',
-        color: 'intFiveLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -8277,8 +8134,7 @@ export const Var5: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-7',
         imgUrl: 'Ak8KSur.jpg',
-        netnode: 'var',
-        color: 'intFiveLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -8289,8 +8145,7 @@ export const Var5: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-8',
         imgUrl: 'Ak8KSur.jpg',
-        netnode: 'var',
-        color: 'intTwoLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -8301,8 +8156,7 @@ export const Var5: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-9',
         imgUrl: 'Ak8KSur.jpg',
-        netnode: 'var',
-        color: 'intFourLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -8313,8 +8167,7 @@ export const Var5: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-10',
         imgUrl: 'Ak8KSur.jpg',
-        netnode: 'var',
-        color: 'intFiveLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -8325,7 +8178,7 @@ export const Var5: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-11',
         imgUrl: 'Ak8KSur.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -8336,7 +8189,7 @@ export const Var5: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-12',
         imgUrl: 'Ak8KSur.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -8347,7 +8200,7 @@ export const Var5: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-13',
         imgUrl: 'Ak8KSur.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -8358,8 +8211,7 @@ export const Var5: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-14',
         imgUrl: 'Ak8KSur.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -8370,7 +8222,7 @@ export const Var5: SankeyLink[] = [
         process: 'MHK16_1',
         id: 'MHK16-15',
         imgUrl: 'Ak8KSur.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 123,
@@ -8381,7 +8233,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_1',
         id: 'MVM17-0',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 123,
@@ -8392,7 +8244,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_1',
         id: 'MVM17-1',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 123,
@@ -8403,7 +8255,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_1',
         id: 'MVM17-2',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 123,
@@ -8414,7 +8266,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_2',
         id: 'MVM17-3',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 123,
@@ -8425,7 +8277,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_2',
         id: 'MVM17-4',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 123,
@@ -8436,7 +8288,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_3',
         id: 'MVM17-5',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 123,
@@ -8447,7 +8299,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_3',
         id: 'MVM17-6',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 123,
@@ -8458,7 +8310,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_3',
         id: 'MVM17-7',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 2,
@@ -8469,7 +8321,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_1',
         id: 'MVM17-8',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 4,
@@ -8480,7 +8332,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_1',
         id: 'MVM17-9',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 7,
@@ -8491,7 +8343,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_1',
         id: 'MVM17-10',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 2,
@@ -8502,7 +8354,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_1',
         id: 'MVM17-11',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 4,
@@ -8513,7 +8365,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_1',
         id: 'MVM17-12',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 7,
@@ -8524,7 +8376,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_1',
         id: 'MVM17-13',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 17,
@@ -8535,7 +8387,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_2',
         id: 'MVM17-14',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 17,
@@ -8546,7 +8398,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_2',
         id: 'MVM17-15',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 19,
@@ -8557,7 +8409,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_2',
         id: 'MVM17-16',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 19,
@@ -8568,7 +8420,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_2',
         id: 'MVM17-17',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 21,
@@ -8579,7 +8431,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_3',
         id: 'MVM17-18',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 22,
@@ -8590,7 +8442,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_3',
         id: 'MVM17-19',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -8601,7 +8453,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_3',
         id: 'MVM17-20',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -8612,7 +8464,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_1',
         id: 'MVM17-21',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -8623,7 +8475,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_3',
         id: 'MVM17-22',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -8634,7 +8486,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_1',
         id: 'MVM17-23',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -8645,7 +8497,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_2',
         id: 'MVM17-24',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -8656,7 +8508,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_2',
         id: 'MVM17-25',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -8667,7 +8519,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_3',
         id: 'MVM17-26',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -8678,7 +8530,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_1',
         id: 'MVM17-27',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -8689,7 +8541,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_2',
         id: 'MVM17-28',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -8700,7 +8552,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_2',
         id: 'MVM17-29',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -8711,7 +8563,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_2',
         id: 'MVM17-30',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -8722,7 +8574,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_1',
         id: 'MVM17-31',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -8733,7 +8585,7 @@ export const Var5: SankeyLink[] = [
         process: 'MVM17_3',
         id: 'MVM17-32',
         imgUrl: 'U35x588.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 124,
@@ -8743,7 +8595,7 @@ export const Var5: SankeyLink[] = [
         process: 'MWSO08_1',
         id: 'MWSO08-0',
         imgUrl: 'ZplNAXx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 124,
@@ -8754,7 +8606,7 @@ export const Var5: SankeyLink[] = [
         process: 'MWSO08_2',
         id: 'MWSO08-1',
         imgUrl: 'ZplNAXx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 124,
@@ -8765,7 +8617,7 @@ export const Var5: SankeyLink[] = [
         process: 'MWSO08_3',
         id: 'MWSO08-2',
         imgUrl: 'ZplNAXx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 124,
@@ -8775,7 +8627,7 @@ export const Var5: SankeyLink[] = [
         process: 'MWSO08_4',
         id: 'MWSO08-3',
         imgUrl: 'ZplNAXx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -8785,7 +8637,7 @@ export const Var5: SankeyLink[] = [
         process: 'MWSO08_1',
         id: 'MWSO08-4',
         imgUrl: 'ZplNAXx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -8795,7 +8647,7 @@ export const Var5: SankeyLink[] = [
         process: 'MWSO08_1',
         id: 'MWSO08-5',
         imgUrl: 'ZplNAXx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -8806,7 +8658,7 @@ export const Var5: SankeyLink[] = [
         process: 'MWSO08_2',
         id: 'MWSO08-6',
         imgUrl: 'ZplNAXx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -8816,7 +8668,7 @@ export const Var5: SankeyLink[] = [
         process: 'MWSO08_4',
         id: 'MWSO08-7',
         imgUrl: 'ZplNAXx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -8827,7 +8679,7 @@ export const Var5: SankeyLink[] = [
         process: 'MWSO08_3',
         id: 'MWSO08-8',
         imgUrl: 'ZplNAXx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 41,
@@ -8837,7 +8689,7 @@ export const Var5: SankeyLink[] = [
         process: 'MWSO08_1',
         id: 'MWSO08-9',
         imgUrl: 'ZplNAXx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -8847,7 +8699,7 @@ export const Var5: SankeyLink[] = [
         process: 'MWSO08_1',
         id: 'MWSO08-10',
         imgUrl: 'ZplNAXx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -8857,7 +8709,7 @@ export const Var5: SankeyLink[] = [
         process: 'MWSO08_4',
         id: 'MWSO08-11',
         imgUrl: 'ZplNAXx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -8868,7 +8720,7 @@ export const Var5: SankeyLink[] = [
         process: 'MWSO08_3',
         id: 'MWSO08-12',
         imgUrl: 'ZplNAXx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 43,
@@ -8879,7 +8731,7 @@ export const Var5: SankeyLink[] = [
         process: 'MWSO08_2',
         id: 'MWSO08-13',
         imgUrl: 'ZplNAXx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 68,
@@ -8890,7 +8742,7 @@ export const Var5: SankeyLink[] = [
         process: 'MWSO08_2',
         id: 'MWSO08-14',
         imgUrl: 'ZplNAXx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 68,
@@ -8901,7 +8753,7 @@ export const Var5: SankeyLink[] = [
         process: 'MWSO08_3',
         id: 'MWSO08-15',
         imgUrl: 'ZplNAXx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -8911,7 +8763,7 @@ export const Var5: SankeyLink[] = [
         process: 'MWSO08_4',
         id: 'MWSO08-16',
         imgUrl: 'ZplNAXx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -8921,7 +8773,7 @@ export const Var5: SankeyLink[] = [
         process: 'MWSO08_1',
         id: 'MWSO08-17',
         imgUrl: 'ZplNAXx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 125,
@@ -8932,7 +8784,7 @@ export const Var5: SankeyLink[] = [
         process: 'PC15PV_1',
         id: 'PC15PV-0',
         imgUrl: 'C2IpSkW.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 125,
@@ -8943,7 +8795,7 @@ export const Var5: SankeyLink[] = [
         process: 'PC15PV_2',
         id: 'PC15PV-1',
         imgUrl: 'C2IpSkW.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 125,
@@ -8954,7 +8806,7 @@ export const Var5: SankeyLink[] = [
         process: 'PC15PV_3',
         id: 'PC15PV-2',
         imgUrl: 'C2IpSkW.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 125,
@@ -8965,7 +8817,7 @@ export const Var5: SankeyLink[] = [
         process: 'PC15PV_4',
         id: 'PC15PV-3',
         imgUrl: 'C2IpSkW.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 125,
@@ -8975,7 +8827,7 @@ export const Var5: SankeyLink[] = [
         process: 'PC15PV_5',
         id: 'PC15PV-4',
         imgUrl: 'C2IpSkW.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 125,
@@ -8985,7 +8837,7 @@ export const Var5: SankeyLink[] = [
         process: 'PC15PV_5',
         id: 'PC15PV-5',
         imgUrl: 'C2IpSkW.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 0,
@@ -8996,7 +8848,7 @@ export const Var5: SankeyLink[] = [
         process: 'PC15PV_1',
         id: 'PC15PV-6',
         imgUrl: 'C2IpSkW.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 3,
@@ -9007,7 +8859,7 @@ export const Var5: SankeyLink[] = [
         process: 'PC15PV_2',
         id: 'PC15PV-7',
         imgUrl: 'C2IpSkW.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 3,
@@ -9018,7 +8870,7 @@ export const Var5: SankeyLink[] = [
         process: 'PC15PV_2',
         id: 'PC15PV-8',
         imgUrl: 'C2IpSkW.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -9029,7 +8881,7 @@ export const Var5: SankeyLink[] = [
         process: 'PC15PV_4',
         id: 'PC15PV-9',
         imgUrl: 'C2IpSkW.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 21,
@@ -9039,7 +8891,7 @@ export const Var5: SankeyLink[] = [
         process: 'PC15PV_5',
         id: 'PC15PV-10',
         imgUrl: 'C2IpSkW.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 24,
@@ -9049,7 +8901,7 @@ export const Var5: SankeyLink[] = [
         process: 'PC15PV_5',
         id: 'PC15PV-11',
         imgUrl: 'C2IpSkW.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -9060,7 +8912,7 @@ export const Var5: SankeyLink[] = [
         process: 'PC15PV_1',
         id: 'PC15PV-12',
         imgUrl: 'C2IpSkW.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -9071,7 +8923,7 @@ export const Var5: SankeyLink[] = [
         process: 'PC15PV_4',
         id: 'PC15PV-13',
         imgUrl: 'C2IpSkW.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -9082,7 +8934,7 @@ export const Var5: SankeyLink[] = [
         process: 'PC15PV_2',
         id: 'PC15PV-14',
         imgUrl: 'C2IpSkW.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -9093,7 +8945,7 @@ export const Var5: SankeyLink[] = [
         process: 'PC15PV_3',
         id: 'PC15PV-15',
         imgUrl: 'C2IpSkW.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -9103,7 +8955,7 @@ export const Var5: SankeyLink[] = [
         process: 'PC15PV_5',
         id: 'PC15PV-16',
         imgUrl: 'C2IpSkW.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 52,
@@ -9114,7 +8966,7 @@ export const Var5: SankeyLink[] = [
         process: 'PC15PV_1',
         id: 'PC15PV-17',
         imgUrl: 'C2IpSkW.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 52,
@@ -9125,7 +8977,7 @@ export const Var5: SankeyLink[] = [
         process: 'PC15PV_4',
         id: 'PC15PV-18',
         imgUrl: 'C2IpSkW.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 52,
@@ -9136,7 +8988,7 @@ export const Var5: SankeyLink[] = [
         process: 'PC15PV_1',
         id: 'PC15PV-19',
         imgUrl: 'C2IpSkW.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 52,
@@ -9147,7 +8999,7 @@ export const Var5: SankeyLink[] = [
         process: 'PC15PV_4',
         id: 'PC15PV-20',
         imgUrl: 'C2IpSkW.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -9158,7 +9010,7 @@ export const Var5: SankeyLink[] = [
         process: 'PC15PV_2',
         id: 'PC15PV-21',
         imgUrl: 'C2IpSkW.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -9169,7 +9021,7 @@ export const Var5: SankeyLink[] = [
         process: 'PC15PV_3',
         id: 'PC15PV-22',
         imgUrl: 'C2IpSkW.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 71,
@@ -9179,7 +9031,7 @@ export const Var5: SankeyLink[] = [
         process: 'PC15PV_5',
         id: 'PC15PV-23',
         imgUrl: 'C2IpSkW.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 126,
@@ -9190,9 +9042,7 @@ export const Var5: SankeyLink[] = [
         process: 'REP15_1',
         id: 'REP15-0',
         imgUrl: 'y8mGv81.jpg',
-        netnode: 'var',
-        color: 'targetLinkColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 126,
@@ -9203,9 +9053,7 @@ export const Var5: SankeyLink[] = [
         process: 'REP15_2',
         id: 'REP15-1',
         imgUrl: 'y8mGv81.jpg',
-        netnode: 'var',
-        color: 'targetLinkOneColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 126,
@@ -9216,9 +9064,7 @@ export const Var5: SankeyLink[] = [
         process: 'REP15_3',
         id: 'REP15-2',
         imgUrl: 'y8mGv81.jpg',
-        netnode: 'var',
-        color: 'targetLinkTwoColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 0,
@@ -9229,8 +9075,7 @@ export const Var5: SankeyLink[] = [
         process: 'REP15_1',
         id: 'REP15-3',
         imgUrl: 'y8mGv81.jpg',
-        netnode: 'var',
-        color: 'intTwoLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 9,
@@ -9241,8 +9086,7 @@ export const Var5: SankeyLink[] = [
         process: 'REP15_2',
         id: 'REP15-4',
         imgUrl: 'y8mGv81.jpg',
-        netnode: 'var',
-        color: 'intOneLight3LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -9253,8 +9097,7 @@ export const Var5: SankeyLink[] = [
         process: 'REP15_3',
         id: 'REP15-5',
         imgUrl: 'y8mGv81.jpg',
-        netnode: 'var',
-        color: 'intFourLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 36,
@@ -9265,8 +9108,7 @@ export const Var5: SankeyLink[] = [
         process: 'REP15_2',
         id: 'REP15-6',
         imgUrl: 'y8mGv81.jpg',
-        netnode: 'var',
-        color: 'intOneLight3LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 40,
@@ -9277,8 +9119,7 @@ export const Var5: SankeyLink[] = [
         process: 'REP15_1',
         id: 'REP15-7',
         imgUrl: 'y8mGv81.jpg',
-        netnode: 'var',
-        color: 'intTwoLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -9289,8 +9130,7 @@ export const Var5: SankeyLink[] = [
         process: 'REP15_3',
         id: 'REP15-8',
         imgUrl: 'y8mGv81.jpg',
-        netnode: 'var',
-        color: 'intFourLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 50,
@@ -9301,7 +9141,7 @@ export const Var5: SankeyLink[] = [
         process: 'REP15_3',
         id: 'REP15-9',
         imgUrl: 'y8mGv81.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 50,
@@ -9312,7 +9152,7 @@ export const Var5: SankeyLink[] = [
         process: 'REP15_1',
         id: 'REP15-10',
         imgUrl: 'y8mGv81.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 50,
@@ -9323,7 +9163,7 @@ export const Var5: SankeyLink[] = [
         process: 'REP15_2',
         id: 'REP15-11',
         imgUrl: 'y8mGv81.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 50,
@@ -9334,7 +9174,7 @@ export const Var5: SankeyLink[] = [
         process: 'REP15_3',
         id: 'REP15-12',
         imgUrl: 'y8mGv81.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 50,
@@ -9345,8 +9185,7 @@ export const Var5: SankeyLink[] = [
         process: 'REP15_1',
         id: 'REP15-13',
         imgUrl: 'y8mGv81.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 50,
@@ -9357,8 +9196,7 @@ export const Var5: SankeyLink[] = [
         process: 'REP15_2',
         id: 'REP15-14',
         imgUrl: 'y8mGv81.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 50,
@@ -9369,8 +9207,7 @@ export const Var5: SankeyLink[] = [
         process: 'REP15_3',
         id: 'REP15-15',
         imgUrl: 'y8mGv81.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 127,
@@ -9381,7 +9218,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_1',
         id: 'SCS16-0',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 127,
@@ -9392,7 +9229,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_2',
         id: 'SCS16-1',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 127,
@@ -9403,7 +9240,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_3',
         id: 'SCS16-2',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 127,
@@ -9414,7 +9251,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_4',
         id: 'SCS16-3',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 127,
@@ -9425,7 +9262,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_4',
         id: 'SCS16-4',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 127,
@@ -9436,7 +9273,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_4',
         id: 'SCS16-5',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 14,
@@ -9447,7 +9284,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_1',
         id: 'SCS16-6',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 14,
@@ -9458,7 +9295,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_1',
         id: 'SCS16-7',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 14,
@@ -9469,7 +9306,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_1',
         id: 'SCS16-8',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 44,
@@ -9480,7 +9317,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_1',
         id: 'SCS16-9',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -9491,7 +9328,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_1',
         id: 'SCS16-10',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -9502,7 +9339,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_1',
         id: 'SCS16-11',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -9513,7 +9350,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_1',
         id: 'SCS16-12',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -9524,7 +9361,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_1',
         id: 'SCS16-13',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -9535,7 +9372,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_2',
         id: 'SCS16-14',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -9546,7 +9383,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_2',
         id: 'SCS16-15',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -9557,7 +9394,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_2',
         id: 'SCS16-16',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 44,
@@ -9568,7 +9405,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_2',
         id: 'SCS16-17',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -9579,7 +9416,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_2',
         id: 'SCS16-18',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -9590,7 +9427,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_2',
         id: 'SCS16-19',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -9601,7 +9438,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_2',
         id: 'SCS16-20',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -9612,7 +9449,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_2',
         id: 'SCS16-21',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -9623,7 +9460,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_2',
         id: 'SCS16-22',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -9634,7 +9471,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_3',
         id: 'SCS16-23',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -9645,7 +9482,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_3',
         id: 'SCS16-24',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -9656,7 +9493,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_3',
         id: 'SCS16-25',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 44,
@@ -9667,7 +9504,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_3',
         id: 'SCS16-26',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -9678,7 +9515,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_3',
         id: 'SCS16-27',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -9689,7 +9526,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_3',
         id: 'SCS16-28',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -9700,7 +9537,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_3',
         id: 'SCS16-29',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -9711,7 +9548,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_3',
         id: 'SCS16-30',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -9722,7 +9559,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_3',
         id: 'SCS16-31',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 21,
@@ -9733,7 +9570,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_4',
         id: 'SCS16-32',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -9744,7 +9581,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_4',
         id: 'SCS16-33',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 27,
@@ -9755,7 +9592,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_4',
         id: 'SCS16-34',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -9766,7 +9603,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_4',
         id: 'SCS16-35',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 75,
@@ -9777,7 +9614,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS16_4',
         id: 'SCS16-36',
         imgUrl: 'ELyzRJL.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 128,
@@ -9788,9 +9625,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_1',
         id: 'SCS17-0',
         imgUrl: 'h29usSh.jpg',
-        netnode: 'var',
-        color: 'targetLinkColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 128,
@@ -9801,9 +9636,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_2',
         id: 'SCS17-1',
         imgUrl: 'h29usSh.jpg',
-        netnode: 'var',
-        color: 'targetLinkTwoColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 128,
@@ -9814,7 +9647,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_3',
         id: 'SCS17-2',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 128,
@@ -9825,7 +9658,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_4',
         id: 'SCS17-3',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 128,
@@ -9836,7 +9669,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_4',
         id: 'SCS17-4',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 128,
@@ -9847,7 +9680,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_4',
         id: 'SCS17-5',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 128,
@@ -9858,7 +9691,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_5',
         id: 'SCS17-6',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 7,
@@ -9869,8 +9702,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_1',
         id: 'SCS17-7',
         imgUrl: 'h29usSh.jpg',
-        netnode: 'var',
-        color: 'intThreeLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 44,
@@ -9881,8 +9713,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_1',
         id: 'SCS17-8',
         imgUrl: 'h29usSh.jpg',
-        netnode: 'var',
-        color: 'intThreeLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -9893,7 +9724,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_1',
         id: 'SCS17-9',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -9904,7 +9735,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_1',
         id: 'SCS17-10',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -9915,8 +9746,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_1',
         id: 'SCS17-11',
         imgUrl: 'h29usSh.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -9927,7 +9757,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_1',
         id: 'SCS17-12',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -9938,7 +9768,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_1',
         id: 'SCS17-13',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -9949,8 +9779,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_2',
         id: 'SCS17-14',
         imgUrl: 'h29usSh.jpg',
-        netnode: 'var',
-        color: 'intOneLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -9961,8 +9790,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_2',
         id: 'SCS17-15',
         imgUrl: 'h29usSh.jpg',
-        netnode: 'var',
-        color: 'intThreeLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -9973,8 +9801,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_2',
         id: 'SCS17-16',
         imgUrl: 'h29usSh.jpg',
-        netnode: 'var',
-        color: 'intFiveLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 34,
@@ -9985,8 +9812,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_2',
         id: 'SCS17-17',
         imgUrl: 'h29usSh.jpg',
-        netnode: 'var',
-        color: 'intOneLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 44,
@@ -9997,8 +9823,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_2',
         id: 'SCS17-18',
         imgUrl: 'h29usSh.jpg',
-        netnode: 'var',
-        color: 'intThreeLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -10009,8 +9834,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_2',
         id: 'SCS17-19',
         imgUrl: 'h29usSh.jpg',
-        netnode: 'var',
-        color: 'intFiveLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -10021,7 +9845,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_2',
         id: 'SCS17-20',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -10032,7 +9856,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_2',
         id: 'SCS17-21',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -10043,8 +9867,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_2',
         id: 'SCS17-22',
         imgUrl: 'h29usSh.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -10055,7 +9878,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_2',
         id: 'SCS17-23',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -10066,7 +9889,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_3',
         id: 'SCS17-24',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 41,
@@ -10077,7 +9900,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_3',
         id: 'SCS17-25',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -10088,7 +9911,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_3',
         id: 'SCS17-26',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -10099,7 +9922,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_3',
         id: 'SCS17-27',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 21,
@@ -10110,7 +9933,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_4',
         id: 'SCS17-28',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 22,
@@ -10121,7 +9944,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_4',
         id: 'SCS17-29',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -10132,7 +9955,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_4',
         id: 'SCS17-30',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 34,
@@ -10143,7 +9966,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_4',
         id: 'SCS17-31',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -10154,7 +9977,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_4',
         id: 'SCS17-32',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -10165,7 +9988,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_4',
         id: 'SCS17-33',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -10176,7 +9999,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_5',
         id: 'SCS17-34',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -10187,7 +10010,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_5',
         id: 'SCS17-35',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -10198,7 +10021,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS17_5',
         id: 'SCS17-36',
         imgUrl: 'h29usSh.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 129,
@@ -10209,7 +10032,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_1',
         id: 'SCS19-0',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 129,
@@ -10220,7 +10043,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_1',
         id: 'SCS19-1',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 129,
@@ -10231,7 +10054,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_2',
         id: 'SCS19-2',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 129,
@@ -10242,7 +10065,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_3',
         id: 'SCS19-3',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 129,
@@ -10253,7 +10076,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_4',
         id: 'SCS19-4',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 129,
@@ -10264,7 +10087,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_5',
         id: 'SCS19-5',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 129,
@@ -10275,7 +10098,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_6',
         id: 'SCS19-6',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 129,
@@ -10286,7 +10109,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_6',
         id: 'SCS19-7',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 129,
@@ -10297,7 +10120,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_7',
         id: 'SCS19-8',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 129,
@@ -10308,7 +10131,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_8',
         id: 'SCS19-9',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 129,
@@ -10319,7 +10142,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_9',
         id: 'SCS19-10',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 129,
@@ -10330,7 +10153,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_10',
         id: 'SCS19-11',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 129,
@@ -10341,7 +10164,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_10',
         id: 'SCS19-12',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 129,
@@ -10352,7 +10175,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_10',
         id: 'SCS19-13',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 2,
@@ -10363,7 +10186,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_1',
         id: 'SCS19-14',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 4,
@@ -10374,7 +10197,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_1',
         id: 'SCS19-15',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -10385,7 +10208,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_1',
         id: 'SCS19-16',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -10396,7 +10219,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_1',
         id: 'SCS19-17',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -10407,7 +10230,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_2',
         id: 'SCS19-18',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 44,
@@ -10418,7 +10241,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_2',
         id: 'SCS19-19',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -10429,7 +10252,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_2',
         id: 'SCS19-20',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -10440,7 +10263,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_2',
         id: 'SCS19-21',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -10451,7 +10274,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_2',
         id: 'SCS19-22',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -10462,7 +10285,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_3',
         id: 'SCS19-23',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -10473,7 +10296,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_3',
         id: 'SCS19-24',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -10484,7 +10307,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_3',
         id: 'SCS19-25',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -10495,7 +10318,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_4',
         id: 'SCS19-26',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -10506,7 +10329,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_4',
         id: 'SCS19-27',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -10517,7 +10340,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_4',
         id: 'SCS19-28',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -10528,7 +10351,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_5',
         id: 'SCS19-29',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 44,
@@ -10539,7 +10362,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_5',
         id: 'SCS19-30',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 63,
@@ -10550,7 +10373,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_5',
         id: 'SCS19-31',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -10561,7 +10384,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_6',
         id: 'SCS19-32',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 18,
@@ -10572,7 +10395,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_6',
         id: 'SCS19-33',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -10583,7 +10406,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_6',
         id: 'SCS19-34',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 73,
@@ -10594,7 +10417,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_6',
         id: 'SCS19-35',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 18,
@@ -10605,7 +10428,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_7',
         id: 'SCS19-36',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -10616,7 +10439,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_7',
         id: 'SCS19-37',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -10627,7 +10450,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_7',
         id: 'SCS19-38',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 18,
@@ -10638,7 +10461,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_8',
         id: 'SCS19-39',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -10649,7 +10472,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_8',
         id: 'SCS19-40',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -10660,7 +10483,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_8',
         id: 'SCS19-41',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 18,
@@ -10671,7 +10494,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_9',
         id: 'SCS19-42',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -10682,7 +10505,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_9',
         id: 'SCS19-43',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -10693,7 +10516,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_9',
         id: 'SCS19-44',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 22,
@@ -10704,7 +10527,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_10',
         id: 'SCS19-45',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 24,
@@ -10715,7 +10538,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_10',
         id: 'SCS19-46',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 27,
@@ -10726,7 +10549,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_10',
         id: 'SCS19-47',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -10737,7 +10560,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_10',
         id: 'SCS19-48',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 73,
@@ -10748,7 +10571,7 @@ export const Var5: SankeyLink[] = [
         process: 'SCS19_10',
         id: 'SCS19-49',
         imgUrl: 'kl0Dozw.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 130,
@@ -10759,7 +10582,7 @@ export const Var5: SankeyLink[] = [
         process: 'SSK12_1',
         id: 'SSK12-0',
         imgUrl: 'chAdr4B.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 130,
@@ -10770,7 +10593,7 @@ export const Var5: SankeyLink[] = [
         process: 'SSK12_1',
         id: 'SSK12-1',
         imgUrl: 'chAdr4B.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 130,
@@ -10781,7 +10604,7 @@ export const Var5: SankeyLink[] = [
         process: 'SSK12_1',
         id: 'SSK12-2',
         imgUrl: 'chAdr4B.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 130,
@@ -10792,7 +10615,7 @@ export const Var5: SankeyLink[] = [
         process: 'SSK12_1',
         id: 'SSK12-3',
         imgUrl: 'chAdr4B.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 130,
@@ -10803,9 +10626,7 @@ export const Var5: SankeyLink[] = [
         process: 'SSK12_2',
         id: 'SSK12-4',
         imgUrl: 'chAdr4B.png',
-        netnode: 'var',
-        color: 'targetLinkFourColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 130,
@@ -10816,7 +10637,7 @@ export const Var5: SankeyLink[] = [
         process: 'SSK12_3',
         id: 'SSK12-5',
         imgUrl: 'chAdr4B.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 1,
@@ -10827,7 +10648,7 @@ export const Var5: SankeyLink[] = [
         process: 'SSK12_1',
         id: 'SSK12-6',
         imgUrl: 'chAdr4B.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 3,
@@ -10838,7 +10659,7 @@ export const Var5: SankeyLink[] = [
         process: 'SSK12_1',
         id: 'SSK12-7',
         imgUrl: 'chAdr4B.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -10849,7 +10670,7 @@ export const Var5: SankeyLink[] = [
         process: 'SSK12_1',
         id: 'SSK12-8',
         imgUrl: 'chAdr4B.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -10860,7 +10681,7 @@ export const Var5: SankeyLink[] = [
         process: 'SSK12_1',
         id: 'SSK12-9',
         imgUrl: 'chAdr4B.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -10871,7 +10692,7 @@ export const Var5: SankeyLink[] = [
         process: 'SSK12_1',
         id: 'SSK12-10',
         imgUrl: 'chAdr4B.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -10882,7 +10703,7 @@ export const Var5: SankeyLink[] = [
         process: 'SSK12_1',
         id: 'SSK12-11',
         imgUrl: 'chAdr4B.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -10893,7 +10714,7 @@ export const Var5: SankeyLink[] = [
         process: 'SSK12_1',
         id: 'SSK12-12',
         imgUrl: 'chAdr4B.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -10904,8 +10725,7 @@ export const Var5: SankeyLink[] = [
         process: 'SSK12_2',
         id: 'SSK12-13',
         imgUrl: 'chAdr4B.png',
-        netnode: 'var',
-        color: 'intFiveLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -10916,8 +10736,7 @@ export const Var5: SankeyLink[] = [
         process: 'SSK12_2',
         id: 'SSK12-14',
         imgUrl: 'chAdr4B.png',
-        netnode: 'var',
-        color: 'intFiveLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -10928,7 +10747,7 @@ export const Var5: SankeyLink[] = [
         process: 'SSK12_2',
         id: 'SSK12-15',
         imgUrl: 'chAdr4B.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -10939,8 +10758,7 @@ export const Var5: SankeyLink[] = [
         process: 'SSK12_2',
         id: 'SSK12-16',
         imgUrl: 'chAdr4B.png',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -10951,7 +10769,7 @@ export const Var5: SankeyLink[] = [
         process: 'SSK12_2',
         id: 'SSK12-17',
         imgUrl: 'chAdr4B.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 24,
@@ -10962,7 +10780,7 @@ export const Var5: SankeyLink[] = [
         process: 'SSK12_3',
         id: 'SSK12-18',
         imgUrl: 'chAdr4B.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -10973,7 +10791,7 @@ export const Var5: SankeyLink[] = [
         process: 'SSK12_3',
         id: 'SSK12-19',
         imgUrl: 'chAdr4B.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 68,
@@ -10984,7 +10802,7 @@ export const Var5: SankeyLink[] = [
         process: 'SSK12_3',
         id: 'SSK12-20',
         imgUrl: 'chAdr4B.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 131,
@@ -10995,7 +10813,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-0',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 131,
@@ -11006,7 +10824,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-1',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 131,
@@ -11017,7 +10835,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-2',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 131,
@@ -11028,7 +10846,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-3',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 131,
@@ -11039,7 +10857,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_2',
         id: 'VWH13-4',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 131,
@@ -11050,7 +10868,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-5',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 131,
@@ -11061,7 +10879,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-6',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 131,
@@ -11072,7 +10890,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_4',
         id: 'VWH13-7',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 131,
@@ -11083,7 +10901,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_4',
         id: 'VWH13-8',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -11094,7 +10912,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-9',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -11105,7 +10923,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-10',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 14,
@@ -11116,7 +10934,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-11',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -11127,7 +10945,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-12',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -11138,7 +10956,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-13',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -11149,7 +10967,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-14',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 14,
@@ -11160,7 +10978,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-15',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -11171,7 +10989,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-16',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 44,
@@ -11182,7 +11000,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-17',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -11193,7 +11011,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-18',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -11204,7 +11022,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_1',
         id: 'VWH13-19',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -11215,7 +11033,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_2',
         id: 'VWH13-20',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -11226,7 +11044,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_2',
         id: 'VWH13-21',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 66,
@@ -11237,7 +11055,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_2',
         id: 'VWH13-22',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 66,
@@ -11248,7 +11066,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_2',
         id: 'VWH13-23',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 66,
@@ -11259,7 +11077,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_2',
         id: 'VWH13-24',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 21,
@@ -11270,7 +11088,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-25',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 21,
@@ -11281,7 +11099,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-26',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 21,
@@ -11292,7 +11110,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-27',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -11303,7 +11121,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-28',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -11314,7 +11132,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-29',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -11325,7 +11143,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-30',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -11336,7 +11154,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-31',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -11347,7 +11165,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-32',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -11358,7 +11176,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-33',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -11369,7 +11187,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-34',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -11380,7 +11198,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_3',
         id: 'VWH13-35',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 21,
@@ -11391,7 +11209,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_4',
         id: 'VWH13-36',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -11402,7 +11220,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_4',
         id: 'VWH13-37',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 21,
@@ -11413,7 +11231,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_4',
         id: 'VWH13-38',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -11424,7 +11242,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_4',
         id: 'VWH13-39',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 21,
@@ -11435,7 +11253,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_4',
         id: 'VWH13-40',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -11446,7 +11264,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_4',
         id: 'VWH13-41',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -11457,7 +11275,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_4',
         id: 'VWH13-42',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -11468,7 +11286,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_4',
         id: 'VWH13-43',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -11479,7 +11297,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_4',
         id: 'VWH13-44',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -11490,7 +11308,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_4',
         id: 'VWH13-45',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -11501,7 +11319,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_4',
         id: 'VWH13-46',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -11512,7 +11330,7 @@ export const Var5: SankeyLink[] = [
         process: 'VWH13_4',
         id: 'VWH13-47',
         imgUrl: 'TO07ZUT.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 132,
@@ -11523,7 +11341,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_1',
         id: 'XD99-0',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 132,
@@ -11534,7 +11352,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_2',
         id: 'XD99-1',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 132,
@@ -11545,7 +11363,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_3',
         id: 'XD99-2',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 132,
@@ -11556,7 +11374,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_4',
         id: 'XD99-3',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 132,
@@ -11567,7 +11385,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_5',
         id: 'XD99-4',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 132,
@@ -11578,7 +11396,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_6',
         id: 'XD99-5',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -11589,7 +11407,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_1',
         id: 'XD99-6',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -11600,7 +11418,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_2',
         id: 'XD99-7',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 22,
@@ -11611,7 +11429,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_4',
         id: 'XD99-8',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 22,
@@ -11622,7 +11440,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_5',
         id: 'XD99-9',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -11633,7 +11451,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_6',
         id: 'XD99-10',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -11644,7 +11462,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_3',
         id: 'XD99-11',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -11655,7 +11473,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_1',
         id: 'XD99-12',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 43,
@@ -11666,7 +11484,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_2',
         id: 'XD99-13',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -11677,7 +11495,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_2',
         id: 'XD99-14',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -11688,7 +11506,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_2',
         id: 'XD99-15',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -11699,7 +11517,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_5',
         id: 'XD99-16',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -11710,7 +11528,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_3',
         id: 'XD99-17',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -11721,7 +11539,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_4',
         id: 'XD99-18',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -11732,7 +11550,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_6',
         id: 'XD99-19',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -11743,7 +11561,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_1',
         id: 'XD99-20',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -11754,7 +11572,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_3',
         id: 'XD99-21',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -11765,7 +11583,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_4',
         id: 'XD99-22',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -11776,7 +11594,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_5',
         id: 'XD99-23',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -11787,7 +11605,7 @@ export const Var5: SankeyLink[] = [
         process: ' XD99_6',
         id: 'XD99-24',
         imgUrl: 'CaBMwKE.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 133,
@@ -11798,7 +11616,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWL17_1',
         id: 'XWL17-0',
         imgUrl: 'VqSzaXU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 133,
@@ -11809,7 +11627,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWL17_4',
         id: 'XWL17-1',
         imgUrl: 'VqSzaXU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 133,
@@ -11820,7 +11638,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWL17_2',
         id: 'XWL17-2',
         imgUrl: 'VqSzaXU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 133,
@@ -11831,7 +11649,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWL17_3',
         id: 'XWL17-3',
         imgUrl: 'VqSzaXU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 133,
@@ -11842,7 +11660,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWL17_4',
         id: 'XWL17-4',
         imgUrl: 'VqSzaXU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 6,
@@ -11853,7 +11671,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWL17_1',
         id: 'XWL17-5',
         imgUrl: 'VqSzaXU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 6,
@@ -11864,7 +11682,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWL17_4',
         id: 'XWL17-6',
         imgUrl: 'VqSzaXU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -11875,7 +11693,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWL17_3',
         id: 'XWL17-7',
         imgUrl: 'VqSzaXU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -11886,7 +11704,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWL17_4',
         id: 'XWL17-8',
         imgUrl: 'VqSzaXU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -11897,7 +11715,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWL17_2',
         id: 'XWL17-9',
         imgUrl: 'VqSzaXU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 41,
@@ -11908,7 +11726,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWL17_3',
         id: 'XWL17-10',
         imgUrl: 'VqSzaXU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -11919,7 +11737,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWL17_1',
         id: 'XWL17-11',
         imgUrl: 'VqSzaXU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -11930,7 +11748,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWL17_2',
         id: 'XWL17-12',
         imgUrl: 'VqSzaXU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -11941,7 +11759,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWL17_1',
         id: 'XWL17-13',
         imgUrl: 'VqSzaXU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -11952,7 +11770,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWL17_2',
         id: 'XWL17-14',
         imgUrl: 'VqSzaXU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -11963,7 +11781,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWL17_2',
         id: 'XWL17-15',
         imgUrl: 'VqSzaXU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -11974,7 +11792,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWL17_3',
         id: 'XWL17-16',
         imgUrl: 'VqSzaXU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -11985,7 +11803,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWL17_4',
         id: 'XWL17-17',
         imgUrl: 'VqSzaXU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -11996,7 +11814,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWL17_4',
         id: 'XWL17-18',
         imgUrl: 'VqSzaXU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 134,
@@ -12007,7 +11825,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_3',
         id: 'XWS16-0',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 134,
@@ -12018,7 +11836,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_4',
         id: 'XWS16-1',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 134,
@@ -12029,7 +11847,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_1',
         id: 'XWS16-2',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 134,
@@ -12040,7 +11858,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_2',
         id: 'XWS16-3',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 134,
@@ -12051,7 +11869,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_5',
         id: 'XWS16-4',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 134,
@@ -12062,7 +11880,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_6',
         id: 'XWS16-5',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 134,
@@ -12073,7 +11891,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_7',
         id: 'XWS16-6',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 134,
@@ -12084,7 +11902,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_7',
         id: 'XWS16-7',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -12095,7 +11913,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_1',
         id: 'XWS16-8',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -12106,7 +11924,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_3',
         id: 'XWS16-9',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -12117,7 +11935,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_2',
         id: 'XWS16-10',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -12128,7 +11946,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_4',
         id: 'XWS16-11',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -12139,7 +11957,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_5',
         id: 'XWS16-12',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -12150,7 +11968,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_6',
         id: 'XWS16-13',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 21,
@@ -12161,7 +11979,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_7',
         id: 'XWS16-14',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -12172,7 +11990,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_7',
         id: 'XWS16-15',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -12183,7 +12001,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_1',
         id: 'XWS16-16',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -12194,7 +12012,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_3',
         id: 'XWS16-17',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -12205,7 +12023,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_5',
         id: 'XWS16-18',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -12216,7 +12034,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_4',
         id: 'XWS16-19',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -12227,7 +12045,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_2',
         id: 'XWS16-20',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -12238,7 +12056,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_6',
         id: 'XWS16-21',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -12249,7 +12067,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_5',
         id: 'XWS16-22',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -12260,7 +12078,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_3',
         id: 'XWS16-23',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -12271,7 +12089,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_4',
         id: 'XWS16-24',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -12282,7 +12100,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_2',
         id: 'XWS16-25',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -12293,7 +12111,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_3',
         id: 'XWS16-26',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -12304,7 +12122,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_3',
         id: 'XWS16-27',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -12315,7 +12133,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_4',
         id: 'XWS16-28',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -12326,7 +12144,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_2',
         id: 'XWS16-29',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -12337,7 +12155,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_4',
         id: 'XWS16-30',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -12348,7 +12166,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_1',
         id: 'XWS16-31',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -12359,7 +12177,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_2',
         id: 'XWS16-32',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -12370,7 +12188,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_6',
         id: 'XWS16-33',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -12381,7 +12199,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_2',
         id: 'XWS16-34',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -12392,7 +12210,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_1',
         id: 'XWS16-35',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -12403,7 +12221,7 @@ export const Var5: SankeyLink[] = [
         process: 'XWS16_6',
         id: 'XWS16-36',
         imgUrl: 'xn5MqwV.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 135,
@@ -12414,7 +12232,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_1',
         id: 'YFS10-0',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -12425,7 +12243,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_1',
         id: 'YFS10-1',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -12436,7 +12254,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_1',
         id: 'YFS10-2',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 34,
@@ -12447,7 +12265,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_1',
         id: 'YFS10-3',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -12458,7 +12276,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_1',
         id: 'YFS10-4',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -12469,7 +12287,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_1',
         id: 'YFS10-5',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -12480,7 +12298,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_1',
         id: 'YFS10-6',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -12491,7 +12309,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_1',
         id: 'YFS10-7',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 135,
@@ -12502,7 +12320,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_2',
         id: 'YFS10-8',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -12513,7 +12331,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_2',
         id: 'YFS10-9',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -12524,7 +12342,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_2',
         id: 'YFS10-10',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 34,
@@ -12535,7 +12353,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_2',
         id: 'YFS10-11',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -12546,7 +12364,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_2',
         id: 'YFS10-12',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -12557,7 +12375,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_2',
         id: 'YFS10-13',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -12568,7 +12386,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_2',
         id: 'YFS10-14',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -12579,7 +12397,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_2',
         id: 'YFS10-15',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 135,
@@ -12590,7 +12408,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_3',
         id: 'YFS10-16',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -12601,7 +12419,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_3',
         id: 'YFS10-17',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -12612,7 +12430,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_3',
         id: 'YFS10-18',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -12623,7 +12441,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_3',
         id: 'YFS10-19',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -12634,7 +12452,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_3',
         id: 'YFS10-20',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -12645,7 +12463,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_3',
         id: 'YFS10-21',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 135,
@@ -12656,7 +12474,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_4',
         id: 'YFS10-22',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -12667,7 +12485,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_4',
         id: 'YFS10-23',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -12678,7 +12496,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_4',
         id: 'YFS10-24',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -12689,7 +12507,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_4',
         id: 'YFS10-25',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 135,
@@ -12700,7 +12518,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_5',
         id: 'YFS10-26',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 24,
@@ -12711,7 +12529,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_5',
         id: 'YFS10-27',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -12722,7 +12540,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_5',
         id: 'YFS10-28',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -12733,7 +12551,7 @@ export const Var5: SankeyLink[] = [
         process: 'YFS10_5',
         id: 'YFS10-29',
         imgUrl: 'A14dGOk.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 136,
@@ -12743,7 +12561,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-0',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 136,
@@ -12754,7 +12572,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_2',
         id: 'ZGWZ14-1',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 136,
@@ -12764,7 +12582,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_3',
         id: 'ZGWZ14-2',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -12774,7 +12592,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-3',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -12785,7 +12603,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_2',
         id: 'ZGWZ14-4',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -12795,7 +12613,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-5',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -12805,7 +12623,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-6',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -12816,7 +12634,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_2',
         id: 'ZGWZ14-7',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -12826,7 +12644,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-8',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -12837,7 +12655,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_2',
         id: 'ZGWZ14-9',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 22,
@@ -12847,7 +12665,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_3',
         id: 'ZGWZ14-10',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 34,
@@ -12857,7 +12675,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-11',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 40,
@@ -12867,7 +12685,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-12',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 43,
@@ -12877,7 +12695,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-13',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -12887,7 +12705,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-14',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -12897,7 +12715,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_3',
         id: 'ZGWZ14-15',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -12907,7 +12725,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-16',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 34,
@@ -12918,7 +12736,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_2',
         id: 'ZGWZ14-17',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 43,
@@ -12929,7 +12747,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_2',
         id: 'ZGWZ14-18',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -12940,7 +12758,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_2',
         id: 'ZGWZ14-19',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 64,
@@ -12950,7 +12768,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-20',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 64,
@@ -12960,7 +12778,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-21',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 64,
@@ -12970,7 +12788,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-22',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 64,
@@ -12980,7 +12798,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-23',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 64,
@@ -12990,7 +12808,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_3',
         id: 'ZGWZ14-24',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -13001,7 +12819,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_2',
         id: 'ZGWZ14-25',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -13012,7 +12830,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZGWZ14_2',
         id: 'ZGWZ14-26',
         imgUrl: 'R9fi5QW.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 137,
@@ -13023,9 +12841,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZLW13_1',
         id: 'ZLW13-0',
         imgUrl: 'KvCmzam.png',
-        netnode: 'var',
-        color: 'targetLinkColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 137,
@@ -13036,9 +12852,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZLW13_1',
         id: 'ZLW13-1',
         imgUrl: 'KvCmzam.png',
-        netnode: 'var',
-        color: 'targetLinkTwoColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 137,
@@ -13048,7 +12862,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZLW13_2',
         id: 'ZLW13-2',
         imgUrl: 'KvCmzam.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 7,
@@ -13059,8 +12873,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZLW13_1',
         id: 'ZLW13-3',
         imgUrl: 'KvCmzam.png',
-        netnode: 'var',
-        color: 'intThreeLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -13071,8 +12884,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZLW13_1',
         id: 'ZLW13-4',
         imgUrl: 'KvCmzam.png',
-        netnode: 'var',
-        color: 'intThreeLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 42,
@@ -13083,8 +12895,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZLW13_1',
         id: 'ZLW13-5',
         imgUrl: 'KvCmzam.png',
-        netnode: 'var',
-        color: 'intThreeLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -13094,7 +12905,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZLW13_2',
         id: 'ZLW13-6',
         imgUrl: 'KvCmzam.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -13105,7 +12916,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZLW13_1',
         id: 'ZLW13-7',
         imgUrl: 'KvCmzam.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -13116,8 +12927,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZLW13_1',
         id: 'ZLW13-8',
         imgUrl: 'KvCmzam.png',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 71,
@@ -13127,7 +12937,7 @@ export const Var5: SankeyLink[] = [
         process: 'ZLW13_2',
         id: 'ZLW13-9',
         imgUrl: 'KvCmzam.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 138,
@@ -13138,7 +12948,7 @@ export const Var5: SankeyLink[] = [
         process: 'SRJ13_1',
         id: 'SRJ13-0',
         imgUrl: 'kgWl7nV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 138,
@@ -13149,7 +12959,7 @@ export const Var5: SankeyLink[] = [
         process: 'SRJ13_2',
         id: 'SRJ13-1',
         imgUrl: 'kgWl7nV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 138,
@@ -13160,7 +12970,7 @@ export const Var5: SankeyLink[] = [
         process: 'SRJ13_2',
         id: 'SRJ13-2',
         imgUrl: 'kgWl7nV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 138,
@@ -13170,7 +12980,7 @@ export const Var5: SankeyLink[] = [
         process: 'SRJ13_3',
         id: 'SRJ13-3',
         imgUrl: 'kgWl7nV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -13181,7 +12991,7 @@ export const Var5: SankeyLink[] = [
         process: 'SRJ13_1',
         id: 'SRJ13-4',
         imgUrl: 'kgWl7nV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -13192,7 +13002,7 @@ export const Var5: SankeyLink[] = [
         process: 'SRJ13_2',
         id: 'SRJ13-5',
         imgUrl: 'kgWl7nV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -13203,7 +13013,7 @@ export const Var5: SankeyLink[] = [
         process: 'SRJ13_2',
         id: 'SRJ13-6',
         imgUrl: 'kgWl7nV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 24,
@@ -13213,7 +13023,7 @@ export const Var5: SankeyLink[] = [
         process: 'SRJ13_3',
         id: 'SRJ13-7',
         imgUrl: 'kgWl7nV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -13224,7 +13034,7 @@ export const Var5: SankeyLink[] = [
         process: 'SRJ13_1',
         id: 'SRJ13-8',
         imgUrl: 'kgWl7nV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -13235,7 +13045,7 @@ export const Var5: SankeyLink[] = [
         process: 'SRJ13_2',
         id: 'SRJ13-9',
         imgUrl: 'kgWl7nV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -13245,7 +13055,7 @@ export const Var5: SankeyLink[] = [
         process: 'SRJ13_3',
         id: 'SRJ13-10',
         imgUrl: 'kgWl7nV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -13256,7 +13066,7 @@ export const Var5: SankeyLink[] = [
         process: 'SRJ13_1',
         id: 'SRJ13-11',
         imgUrl: 'kgWl7nV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -13267,7 +13077,7 @@ export const Var5: SankeyLink[] = [
         process: 'SRJ13_2',
         id: 'SRJ13-12',
         imgUrl: 'kgWl7nV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -13277,7 +13087,7 @@ export const Var5: SankeyLink[] = [
         process: 'SRJ13_3',
         id: 'SRJ13-13',
         imgUrl: 'kgWl7nV.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 139,
@@ -13288,7 +13098,7 @@ export const Var5: SankeyLink[] = [
         process: 'RSRY12_1',
         id: 'RSRY12-0',
         imgUrl: 'ivVW2HN.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 139,
@@ -13299,7 +13109,7 @@ export const Var5: SankeyLink[] = [
         process: 'RSRY12_2',
         id: 'RSRY12-1',
         imgUrl: 'ivVW2HN.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 139,
@@ -13310,7 +13120,7 @@ export const Var5: SankeyLink[] = [
         process: 'RSRY12_3',
         id: 'RSRY12-2',
         imgUrl: 'ivVW2HN.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 139,
@@ -13321,7 +13131,7 @@ export const Var5: SankeyLink[] = [
         process: 'RSRY12_2',
         id: 'RSRY12-3',
         imgUrl: 'ivVW2HN.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -13332,7 +13142,7 @@ export const Var5: SankeyLink[] = [
         process: 'RSRY12_1',
         id: 'RSRY12-4',
         imgUrl: 'ivVW2HN.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -13343,7 +13153,7 @@ export const Var5: SankeyLink[] = [
         process: 'RSRY12_2',
         id: 'RSRY12-5',
         imgUrl: 'ivVW2HN.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -13354,7 +13164,7 @@ export const Var5: SankeyLink[] = [
         process: 'RSRY12_3',
         id: 'RSRY12-6',
         imgUrl: 'ivVW2HN.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 24,
@@ -13365,7 +13175,7 @@ export const Var5: SankeyLink[] = [
         process: 'RSRY12_3',
         id: 'RSRY12-7',
         imgUrl: 'ivVW2HN.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -13376,7 +13186,7 @@ export const Var5: SankeyLink[] = [
         process: 'RSRY12_1',
         id: 'RSRY12-8',
         imgUrl: 'ivVW2HN.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -13387,7 +13197,7 @@ export const Var5: SankeyLink[] = [
         process: 'RSRY12_3',
         id: 'RSRY12-9',
         imgUrl: 'ivVW2HN.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -13398,7 +13208,7 @@ export const Var5: SankeyLink[] = [
         process: 'RSRY12_2',
         id: 'RSRY12-10',
         imgUrl: 'ivVW2HN.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -13409,7 +13219,7 @@ export const Var5: SankeyLink[] = [
         process: 'RSRY12_1',
         id: 'RSRY12-11',
         imgUrl: 'ivVW2HN.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -13420,7 +13230,7 @@ export const Var5: SankeyLink[] = [
         process: 'RSRY12_1',
         id: 'RSRY12-12',
         imgUrl: 'ivVW2HN.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -13431,7 +13241,7 @@ export const Var5: SankeyLink[] = [
         process: 'RSRY12_3',
         id: 'RSRY12-13',
         imgUrl: 'ivVW2HN.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -13442,7 +13252,7 @@ export const Var5: SankeyLink[] = [
         process: 'RSRY12_3',
         id: 'RSRY12-14',
         imgUrl: 'ivVW2HN.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -13453,7 +13263,7 @@ export const Var5: SankeyLink[] = [
         process: 'RSRY12_1',
         id: 'RSRY12-15',
         imgUrl: 'ivVW2HN.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -13464,7 +13274,7 @@ export const Var5: SankeyLink[] = [
         process: 'RSRY12_2',
         id: 'RSRY12-16',
         imgUrl: 'ivVW2HN.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 140,
@@ -13475,7 +13285,7 @@ export const Var5: SankeyLink[] = [
         process: 'FAKM15_1',
         id: 'FAKM15-0',
         imgUrl: 'u2sWSNe.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -13486,7 +13296,7 @@ export const Var5: SankeyLink[] = [
         process: 'FAKM15_1',
         id: 'FAKM15-1',
         imgUrl: 'u2sWSNe.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -13497,7 +13307,7 @@ export const Var5: SankeyLink[] = [
         process: 'FAKM15_1',
         id: 'FAKM15-2',
         imgUrl: 'u2sWSNe.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 42,
@@ -13508,7 +13318,7 @@ export const Var5: SankeyLink[] = [
         process: 'FAKM15_1',
         id: 'FAKM15-3',
         imgUrl: 'u2sWSNe.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -13519,7 +13329,7 @@ export const Var5: SankeyLink[] = [
         process: 'FAKM15_1',
         id: 'FAKM15-4',
         imgUrl: 'u2sWSNe.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -13530,7 +13340,7 @@ export const Var5: SankeyLink[] = [
         process: 'FAKM15_1',
         id: 'FAKM15-5',
         imgUrl: 'u2sWSNe.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -13541,7 +13351,7 @@ export const Var5: SankeyLink[] = [
         process: 'FAKM15_1',
         id: 'FAKM15-6',
         imgUrl: 'u2sWSNe.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 140,
@@ -13552,9 +13362,7 @@ export const Var5: SankeyLink[] = [
         process: 'FAKM15_2',
         id: 'FAKM15-7',
         imgUrl: 'u2sWSNe.jpg',
-        netnode: 'var',
-        color: 'targetLinkTwoColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -13565,8 +13373,7 @@ export const Var5: SankeyLink[] = [
         process: 'FAKM15_2',
         id: 'FAKM15-8',
         imgUrl: 'u2sWSNe.jpg',
-        netnode: 'var',
-        color: 'intFiveLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -13577,8 +13384,7 @@ export const Var5: SankeyLink[] = [
         process: 'FAKM15_2',
         id: 'FAKM15-9',
         imgUrl: 'u2sWSNe.jpg',
-        netnode: 'var',
-        color: 'intFiveLight2LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -13589,7 +13395,7 @@ export const Var5: SankeyLink[] = [
         process: 'FAKM15_2',
         id: 'FAKM15-10',
         imgUrl: 'u2sWSNe.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -13600,8 +13406,7 @@ export const Var5: SankeyLink[] = [
         process: 'FAKM15_2',
         id: 'FAKM15-11',
         imgUrl: 'u2sWSNe.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -13612,7 +13417,7 @@ export const Var5: SankeyLink[] = [
         process: 'FAKM15_2',
         id: 'FAKM15-12',
         imgUrl: 'u2sWSNe.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 140,
@@ -13623,7 +13428,7 @@ export const Var5: SankeyLink[] = [
         process: 'FAKM15_3',
         id: 'FAKM15-13',
         imgUrl: 'u2sWSNe.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 24,
@@ -13634,7 +13439,7 @@ export const Var5: SankeyLink[] = [
         process: 'FAKM15_3',
         id: 'FAKM15-14',
         imgUrl: 'u2sWSNe.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 24,
@@ -13645,7 +13450,7 @@ export const Var5: SankeyLink[] = [
         process: 'FAKM15_3',
         id: 'FAKM15-15',
         imgUrl: 'u2sWSNe.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -13656,7 +13461,7 @@ export const Var5: SankeyLink[] = [
         process: 'FAKM15_3',
         id: 'FAKM15-16',
         imgUrl: 'u2sWSNe.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -13667,7 +13472,7 @@ export const Var5: SankeyLink[] = [
         process: 'FAKM15_3',
         id: 'FAKM15-17',
         imgUrl: 'u2sWSNe.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 75,
@@ -13678,7 +13483,7 @@ export const Var5: SankeyLink[] = [
         process: 'FAKM15_3',
         id: 'FAKM15-18',
         imgUrl: 'u2sWSNe.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 75,
@@ -13689,7 +13494,7 @@ export const Var5: SankeyLink[] = [
         process: 'FAKM15_3',
         id: 'FAKM15-19',
         imgUrl: 'u2sWSNe.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 141,
@@ -13700,7 +13505,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_2',
         id: 'YSK14-0',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 141,
@@ -13711,7 +13516,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_1',
         id: 'YSK14-1',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 141,
@@ -13722,7 +13527,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_3',
         id: 'YSK14-2',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 141,
@@ -13733,7 +13538,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_4',
         id: 'YSK14-3',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 141,
@@ -13744,7 +13549,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_6',
         id: 'YSK14-4',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 141,
@@ -13755,7 +13560,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_5',
         id: 'YSK14-5',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 141,
@@ -13766,7 +13571,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_7',
         id: 'YSK14-6',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -13777,7 +13582,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_2',
         id: 'YSK14-7',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -13788,7 +13593,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_1',
         id: 'YSK14-8',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -13799,7 +13604,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_3',
         id: 'YSK14-9',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -13810,7 +13615,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_4',
         id: 'YSK14-10',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 24,
@@ -13821,7 +13626,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_5',
         id: 'YSK14-11',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 24,
@@ -13832,7 +13637,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_7',
         id: 'YSK14-12',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 22,
@@ -13843,7 +13648,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_6',
         id: 'YSK14-13',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -13854,7 +13659,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_1',
         id: 'YSK14-14',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -13865,7 +13670,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_2',
         id: 'YSK14-15',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -13876,7 +13681,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_5',
         id: 'YSK14-16',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -13887,7 +13692,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_6',
         id: 'YSK14-17',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -13898,7 +13703,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_7',
         id: 'YSK14-18',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -13909,7 +13714,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_3',
         id: 'YSK14-19',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -13920,7 +13725,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_4',
         id: 'YSK14-20',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -13931,7 +13736,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_1',
         id: 'YSK14-21',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -13942,7 +13747,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_5',
         id: 'YSK14-22',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -13953,7 +13758,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_4',
         id: 'YSK14-23',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -13964,7 +13769,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_6',
         id: 'YSK14-24',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -13975,7 +13780,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_4',
         id: 'YSK14-25',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -13986,7 +13791,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_2',
         id: 'YSK14-26',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -13997,7 +13802,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_1',
         id: 'YSK14-27',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -14008,7 +13813,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_3',
         id: 'YSK14-28',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -14019,7 +13824,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_5',
         id: 'YSK14-29',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -14030,7 +13835,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_6',
         id: 'YSK14-30',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -14041,7 +13846,7 @@ export const Var5: SankeyLink[] = [
         process: 'YSK14_7',
         id: 'YSK14-31',
         imgUrl: 'sBwMjs9.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 142,
@@ -14052,7 +13857,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_1',
         id: 'CSL16-0',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 142,
@@ -14063,7 +13868,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_2',
         id: 'CSL16-1',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 142,
@@ -14074,7 +13879,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_3',
         id: 'CSL16-2',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 142,
@@ -14085,7 +13890,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_3',
         id: 'CSL16-3',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 142,
@@ -14096,7 +13901,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_4',
         id: 'CSL16-4',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 142,
@@ -14107,7 +13912,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_4',
         id: 'CSL16-5',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 142,
@@ -14118,9 +13923,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_5',
         id: 'CSL16-6',
         imgUrl: 'mt871Nx.png',
-        netnode: 'var',
-        color: 'targetLinkThreeColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 142,
@@ -14131,7 +13934,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_6',
         id: 'CSL16-7',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 142,
@@ -14142,7 +13945,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_6',
         id: 'CSL16-8',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -14153,7 +13956,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_1',
         id: 'CSL16-9',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -14164,7 +13967,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_1',
         id: 'CSL16-10',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -14175,7 +13978,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_1',
         id: 'CSL16-11',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -14186,7 +13989,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_1',
         id: 'CSL16-12',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -14197,7 +14000,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_2',
         id: 'CSL16-13',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -14208,7 +14011,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_2',
         id: 'CSL16-14',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -14219,7 +14022,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_2',
         id: 'CSL16-15',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -14230,7 +14033,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_2',
         id: 'CSL16-16',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -14241,7 +14044,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_3',
         id: 'CSL16-17',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -14252,7 +14055,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_3',
         id: 'CSL16-18',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -14263,7 +14066,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_3',
         id: 'CSL16-19',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -14274,7 +14077,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_3',
         id: 'CSL16-20',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -14285,7 +14088,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_4',
         id: 'CSL16-21',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -14296,7 +14099,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_4',
         id: 'CSL16-22',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -14307,7 +14110,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_4',
         id: 'CSL16-23',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -14318,7 +14121,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_4',
         id: 'CSL16-24',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -14329,8 +14132,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_5',
         id: 'CSL16-25',
         imgUrl: 'mt871Nx.png',
-        netnode: 'var',
-        color: 'intThreeLight1LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 43,
@@ -14341,8 +14143,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_5',
         id: 'CSL16-26',
         imgUrl: 'mt871Nx.png',
-        netnode: 'var',
-        color: 'intThreeLight1LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -14353,8 +14154,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_5',
         id: 'CSL16-27',
         imgUrl: 'mt871Nx.png',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -14365,7 +14165,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_5',
         id: 'CSL16-28',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -14376,7 +14176,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_6',
         id: 'CSL16-29',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 28,
@@ -14387,7 +14187,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_6',
         id: 'CSL16-30',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -14398,7 +14198,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_6',
         id: 'CSL16-31',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -14409,7 +14209,7 @@ export const Var5: SankeyLink[] = [
         process: 'CSL16_6',
         id: 'CSL16-32',
         imgUrl: 'mt871Nx.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 143,
@@ -14420,7 +14220,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_1',
         id: 'RRR19-0',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 143,
@@ -14431,7 +14231,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_1',
         id: 'RRR19-1',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 143,
@@ -14442,7 +14242,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_1',
         id: 'RRR19-2',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 143,
@@ -14453,7 +14253,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_2',
         id: 'RRR19-3',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 143,
@@ -14464,7 +14264,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_2',
         id: 'RRR19-4',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 143,
@@ -14475,7 +14275,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_2',
         id: 'RRR19-5',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 143,
@@ -14486,7 +14286,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_3',
         id: 'RRR19-6',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 143,
@@ -14497,7 +14297,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_4',
         id: 'RRR19-7',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 143,
@@ -14508,7 +14308,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_5',
         id: 'RRR19-8',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 143,
@@ -14519,7 +14319,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_5',
         id: 'RRR19-9',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 143,
@@ -14530,7 +14330,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_5',
         id: 'RRR19-10',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -14541,7 +14341,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_1',
         id: 'RRR19-11',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 14,
@@ -14552,7 +14352,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_1',
         id: 'RRR19-12',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -14563,7 +14363,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_1',
         id: 'RRR19-13',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 41,
@@ -14574,7 +14374,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_1',
         id: 'RRR19-14',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -14585,7 +14385,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_1',
         id: 'RRR19-15',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -14596,7 +14396,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_1',
         id: 'RRR19-16',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -14607,7 +14407,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_1',
         id: 'RRR19-17',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -14618,7 +14418,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_2',
         id: 'RRR19-18',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 14,
@@ -14629,7 +14429,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_2',
         id: 'RRR19-19',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -14640,7 +14440,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_2',
         id: 'RRR19-20',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 42,
@@ -14651,7 +14451,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_2',
         id: 'RRR19-21',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -14662,7 +14462,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_2',
         id: 'RRR19-22',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 19,
@@ -14673,7 +14473,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_3',
         id: 'RRR19-23',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 43,
@@ -14684,7 +14484,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_3',
         id: 'RRR19-24',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -14695,7 +14495,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_3',
         id: 'RRR19-25',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -14706,7 +14506,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_3',
         id: 'RRR19-26',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 21,
@@ -14717,7 +14517,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_4',
         id: 'RRR19-27',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -14728,7 +14528,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_4',
         id: 'RRR19-28',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 75,
@@ -14739,7 +14539,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_4',
         id: 'RRR19-29',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 75,
@@ -14750,7 +14550,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_4',
         id: 'RRR19-30',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -14761,7 +14561,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_5',
         id: 'RRR19-31',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 14,
@@ -14772,7 +14572,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_5',
         id: 'RRR19-32',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -14783,7 +14583,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_5',
         id: 'RRR19-33',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -14794,7 +14594,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_5',
         id: 'RRR19-34',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -14805,7 +14605,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_5',
         id: 'RRR19-35',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -14816,7 +14616,7 @@ export const Var5: SankeyLink[] = [
         process: 'RRR19_5',
         id: 'RRR19-36',
         imgUrl: 'yya8s2u.png',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 144,
@@ -14827,7 +14627,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_1',
         id: 'YCC20-0',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 144,
@@ -14838,7 +14638,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_2',
         id: 'YCC20-1',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 144,
@@ -14849,7 +14649,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_1',
         id: 'YCC20-2',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 144,
@@ -14860,7 +14660,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-3',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 144,
@@ -14871,7 +14671,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_3',
         id: 'YCC20-4',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 7,
@@ -14882,7 +14682,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_1',
         id: 'YCC20-5',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 7,
@@ -14893,7 +14693,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_2',
         id: 'YCC20-6',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 7,
@@ -14904,7 +14704,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_2',
         id: 'YCC20-7',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 9,
@@ -14915,7 +14715,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_3',
         id: 'YCC20-8',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -14926,7 +14726,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-9',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -14937,7 +14737,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_1',
         id: 'YCC20-10',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -14948,7 +14748,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-11',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -14959,7 +14759,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-12',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -14970,7 +14770,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-13',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 34,
@@ -14981,7 +14781,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_1',
         id: 'YCC20-14',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -14992,7 +14792,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_2',
         id: 'YCC20-15',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -15003,7 +14803,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_2',
         id: 'YCC20-16',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -15014,7 +14814,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-17',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 36,
@@ -15025,7 +14825,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_3',
         id: 'YCC20-18',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 32,
@@ -15036,7 +14836,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-19',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 42,
@@ -15047,7 +14847,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-20',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -15058,7 +14858,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-21',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -15069,7 +14869,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-22',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -15080,7 +14880,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-23',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -15091,7 +14891,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-24',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -15102,7 +14902,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-25',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -15113,7 +14913,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_1',
         id: 'YCC20-26',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -15124,7 +14924,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_2',
         id: 'YCC20-27',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -15135,7 +14935,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_4',
         id: 'YCC20-28',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -15146,7 +14946,7 @@ export const Var5: SankeyLink[] = [
         process: 'YCC20_1',
         id: 'YCC20-29',
         imgUrl: 'RYq4EGR.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 145,
@@ -15157,7 +14957,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_1',
         id: 'MDDD16-0',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 145,
@@ -15168,7 +14968,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_2',
         id: 'MDDD16-1',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 145,
@@ -15179,7 +14979,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_1',
         id: 'MDDD16-2',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 145,
@@ -15190,7 +14990,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_2',
         id: 'MDDD16-3',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 145,
@@ -15201,7 +15001,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_3',
         id: 'MDDD16-4',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 145,
@@ -15212,7 +15012,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_4',
         id: 'MDDD16-5',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 145,
@@ -15223,7 +15023,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_5',
         id: 'MDDD16-6',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 5,
@@ -15234,7 +15034,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_1',
         id: 'MDDD16-7',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 5,
@@ -15245,7 +15045,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_2',
         id: 'MDDD16-8',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -15256,7 +15056,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_3',
         id: 'MDDD16-9',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -15267,7 +15067,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_4',
         id: 'MDDD16-10',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -15278,7 +15078,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_1',
         id: 'MDDD16-11',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -15289,7 +15089,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_2',
         id: 'MDDD16-12',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -15300,7 +15100,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_5',
         id: 'MDDD16-13',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 37,
@@ -15311,7 +15111,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_3',
         id: 'MDDD16-14',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 37,
@@ -15322,7 +15122,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_4',
         id: 'MDDD16-15',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -15333,7 +15133,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_1',
         id: 'MDDD16-16',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -15344,7 +15144,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_2',
         id: 'MDDD16-17',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -15355,7 +15155,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_1',
         id: 'MDDD16-18',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -15366,7 +15166,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_3',
         id: 'MDDD16-19',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -15377,7 +15177,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_1',
         id: 'MDDD16-20',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -15388,7 +15188,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_3',
         id: 'MDDD16-21',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -15399,7 +15199,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_2',
         id: 'MDDD16-22',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -15410,7 +15210,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_4',
         id: 'MDDD16-23',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -15421,7 +15221,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDDD16_5',
         id: 'MDDD16-24',
         imgUrl: '4teJby0.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 146,
@@ -15432,7 +15232,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_1',
         id: 'GYS14-0',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 146,
@@ -15443,7 +15243,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_1',
         id: 'GYS14-1',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 146,
@@ -15454,9 +15254,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_2',
         id: 'GYS14-2',
         imgUrl: 'r9tEkOr.jpg',
-        netnode: 'var',
-        color: 'targetLinkTwoColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 146,
@@ -15467,7 +15265,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_3',
         id: 'GYS14-3',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 146,
@@ -15478,9 +15276,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_4',
         id: 'GYS14-4',
         imgUrl: 'r9tEkOr.jpg',
-        netnode: 'var',
-        color: 'targetLinkTwoColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 146,
@@ -15491,9 +15287,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_6',
         id: 'GYS14-5',
         imgUrl: 'r9tEkOr.jpg',
-        netnode: 'var',
-        color: 'targetLinkThreeColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 146,
@@ -15504,7 +15298,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_7',
         id: 'GYS14-6',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 146,
@@ -15515,9 +15309,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_5',
         id: 'GYS14-7',
         imgUrl: 'r9tEkOr.jpg',
-        netnode: 'var',
-        color: 'targetLinkThreeColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 146,
@@ -15528,7 +15320,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_8',
         id: 'GYS14-8',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 7,
@@ -15539,7 +15331,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_1',
         id: 'GYS14-9',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -15550,7 +15342,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_1',
         id: 'GYS14-10',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -15561,8 +15353,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_4',
         id: 'GYS14-11',
         imgUrl: 'r9tEkOr.jpg',
-        netnode: 'var',
-        color: 'intFourLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -15573,8 +15364,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_2',
         id: 'GYS14-12',
         imgUrl: 'r9tEkOr.jpg',
-        netnode: 'var',
-        color: 'intFiveLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -15585,7 +15375,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_3',
         id: 'GYS14-13',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 18,
@@ -15596,8 +15386,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_5',
         id: 'GYS14-14',
         imgUrl: 'r9tEkOr.jpg',
-        netnode: 'var',
-        color: 'intFourLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 18,
@@ -15608,8 +15397,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_6',
         id: 'GYS14-15',
         imgUrl: 'r9tEkOr.jpg',
-        netnode: 'var',
-        color: 'intFiveLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 18,
@@ -15620,7 +15408,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_7',
         id: 'GYS14-16',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -15631,7 +15419,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_1',
         id: 'GYS14-17',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -15642,8 +15430,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_4',
         id: 'GYS14-18',
         imgUrl: 'r9tEkOr.jpg',
-        netnode: 'var',
-        color: 'intFourLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -15654,8 +15441,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_5',
         id: 'GYS14-19',
         imgUrl: 'r9tEkOr.jpg',
-        netnode: 'var',
-        color: 'intFourLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -15666,7 +15452,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_8',
         id: 'GYS14-20',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 47,
@@ -15677,8 +15463,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_2',
         id: 'GYS14-21',
         imgUrl: 'r9tEkOr.jpg',
-        netnode: 'var',
-        color: 'intFiveLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 47,
@@ -15689,8 +15474,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_6',
         id: 'GYS14-22',
         imgUrl: 'r9tEkOr.jpg',
-        netnode: 'var',
-        color: 'intFiveLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 47,
@@ -15701,7 +15485,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_2',
         id: 'GYS14-23',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 47,
@@ -15712,7 +15496,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_6',
         id: 'GYS14-24',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -15723,7 +15507,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_2',
         id: 'GYS14-25',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -15734,7 +15518,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_4',
         id: 'GYS14-26',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -15745,7 +15529,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_6',
         id: 'GYS14-27',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -15756,7 +15540,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_5',
         id: 'GYS14-28',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -15767,7 +15551,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_2',
         id: 'GYS14-29',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -15778,7 +15562,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_4',
         id: 'GYS14-30',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -15789,7 +15573,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_6',
         id: 'GYS14-31',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -15800,7 +15584,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_5',
         id: 'GYS14-32',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -15811,7 +15595,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_4',
         id: 'GYS14-33',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -15822,7 +15606,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_5',
         id: 'GYS14-34',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -15833,8 +15617,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_2',
         id: 'GYS14-35',
         imgUrl: 'r9tEkOr.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -15845,8 +15628,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_4',
         id: 'GYS14-36',
         imgUrl: 'r9tEkOr.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -15857,8 +15639,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_6',
         id: 'GYS14-37',
         imgUrl: 'r9tEkOr.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -15869,8 +15650,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_5',
         id: 'GYS14-38',
         imgUrl: 'r9tEkOr.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -15881,7 +15661,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_2',
         id: 'GYS14-39',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -15892,7 +15672,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_4',
         id: 'GYS14-40',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -15903,7 +15683,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_6',
         id: 'GYS14-41',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -15914,7 +15694,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_1',
         id: 'GYS14-42',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -15925,7 +15705,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_5',
         id: 'GYS14-43',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -15936,7 +15716,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_3',
         id: 'GYS14-44',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -15947,7 +15727,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_7',
         id: 'GYS14-45',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -15958,7 +15738,7 @@ export const Var5: SankeyLink[] = [
         process: 'GYS14_8',
         id: 'GYS14-46',
         imgUrl: 'r9tEkOr.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 147,
@@ -15969,7 +15749,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_1',
         id: 'MDJW07-0',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 147,
@@ -15980,7 +15760,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_2',
         id: 'MDJW07-1',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 147,
@@ -15991,7 +15771,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_3',
         id: 'MDJW07-2',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 147,
@@ -16002,7 +15782,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_4',
         id: 'MDJW07-3',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 147,
@@ -16013,7 +15793,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_5',
         id: 'MDJW07-4',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 147,
@@ -16024,7 +15804,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_6',
         id: 'MDJW07-5',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 147,
@@ -16035,7 +15815,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_3',
         id: 'MDJW07-6',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 147,
@@ -16046,7 +15826,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_7',
         id: 'MDJW07-7',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 147,
@@ -16057,7 +15837,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_8',
         id: 'MDJW07-8',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 147,
@@ -16068,7 +15848,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_9',
         id: 'MDJW07-9',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 147,
@@ -16079,7 +15859,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_10',
         id: 'MDJW07-10',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 5,
@@ -16090,7 +15870,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_1',
         id: 'MDJW07-11',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 5,
@@ -16101,7 +15881,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_2',
         id: 'MDJW07-12',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -16112,7 +15892,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_3',
         id: 'MDJW07-13',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -16123,7 +15903,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_4',
         id: 'MDJW07-14',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -16134,7 +15914,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_5',
         id: 'MDJW07-15',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -16145,7 +15925,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_6',
         id: 'MDJW07-16',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 14,
@@ -16156,7 +15936,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_3',
         id: 'MDJW07-17',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 14,
@@ -16167,7 +15947,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_7',
         id: 'MDJW07-18',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 14,
@@ -16178,7 +15958,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_8',
         id: 'MDJW07-19',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -16189,7 +15969,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_9',
         id: 'MDJW07-20',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -16200,7 +15980,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_10',
         id: 'MDJW07-21',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 34,
@@ -16211,7 +15991,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_1',
         id: 'MDJW07-22',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 34,
@@ -16222,7 +16002,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_3',
         id: 'MDJW07-23',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -16233,7 +16013,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_2',
         id: 'MDJW07-24',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -16244,7 +16024,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_4',
         id: 'MDJW07-25',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -16255,7 +16035,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_7',
         id: 'MDJW07-26',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -16266,7 +16046,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_5',
         id: 'MDJW07-27',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -16277,7 +16057,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_4',
         id: 'MDJW07-28',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -16288,7 +16068,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_3',
         id: 'MDJW07-29',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -16299,7 +16079,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_4',
         id: 'MDJW07-30',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -16310,7 +16090,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_7',
         id: 'MDJW07-31',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -16321,7 +16101,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_3',
         id: 'MDJW07-32',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -16332,7 +16112,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_4',
         id: 'MDJW07-33',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -16343,7 +16123,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_5',
         id: 'MDJW07-34',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -16354,7 +16134,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_8',
         id: 'MDJW07-35',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -16365,7 +16145,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_5',
         id: 'MDJW07-36',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -16376,7 +16156,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_1',
         id: 'MDJW07-37',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -16387,7 +16167,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_4',
         id: 'MDJW07-38',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -16398,7 +16178,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_7',
         id: 'MDJW07-39',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -16409,7 +16189,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_4',
         id: 'MDJW07-40',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 68,
@@ -16420,7 +16200,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_2',
         id: 'MDJW07-41',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 68,
@@ -16431,7 +16211,7 @@ export const Var5: SankeyLink[] = [
         process: 'MDJW07_6',
         id: 'MDJW07-42',
         imgUrl: 'E21AFdm.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 148,
@@ -16442,9 +16222,7 @@ export const Var5: SankeyLink[] = [
         process: 'KWL09_1',
         id: 'KWL09-0',
         imgUrl: 'ukgueox.jpg',
-        netnode: 'var',
-        color: 'targetLinkOneColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 148,
@@ -16455,7 +16233,7 @@ export const Var5: SankeyLink[] = [
         process: 'KWL09_2',
         id: 'KWL09-1',
         imgUrl: 'ukgueox.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 9,
@@ -16466,8 +16244,7 @@ export const Var5: SankeyLink[] = [
         process: 'KWL09_1',
         id: 'KWL09-2',
         imgUrl: 'ukgueox.jpg',
-        netnode: 'var',
-        color: 'intOneLight3LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 36,
@@ -16478,8 +16255,7 @@ export const Var5: SankeyLink[] = [
         process: 'KWL09_1',
         id: 'KWL09-3',
         imgUrl: 'ukgueox.jpg',
-        netnode: 'var',
-        color: 'intOneLight3LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -16490,7 +16266,7 @@ export const Var5: SankeyLink[] = [
         process: 'KWL09_1',
         id: 'KWL09-4',
         imgUrl: 'ukgueox.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -16501,7 +16277,7 @@ export const Var5: SankeyLink[] = [
         process: 'KWL09_1',
         id: 'KWL09-5',
         imgUrl: 'ukgueox.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -16512,8 +16288,7 @@ export const Var5: SankeyLink[] = [
         process: 'KWL09_1',
         id: 'KWL09-6',
         imgUrl: 'ukgueox.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -16524,7 +16299,7 @@ export const Var5: SankeyLink[] = [
         process: 'KWL09_1',
         id: 'KWL09-7',
         imgUrl: 'ukgueox.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -16535,7 +16310,7 @@ export const Var5: SankeyLink[] = [
         process: 'KWL09_2',
         id: 'KWL09-8',
         imgUrl: 'ukgueox.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 43,
@@ -16546,7 +16321,7 @@ export const Var5: SankeyLink[] = [
         process: 'KWL09_2',
         id: 'KWL09-9',
         imgUrl: 'ukgueox.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -16557,7 +16332,7 @@ export const Var5: SankeyLink[] = [
         process: 'KWL09_2',
         id: 'KWL09-10',
         imgUrl: 'ukgueox.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 149,
@@ -16568,7 +16343,7 @@ export const Var5: SankeyLink[] = [
         process: 'BN11B_1',
         id: 'BN11B-0',
         imgUrl: 'PfZa19T.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 149,
@@ -16579,7 +16354,7 @@ export const Var5: SankeyLink[] = [
         process: 'BN11B_2',
         id: 'BN11B-1',
         imgUrl: 'PfZa19T.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 149,
@@ -16590,7 +16365,7 @@ export const Var5: SankeyLink[] = [
         process: 'BN11B_2',
         id: 'BN11B-2',
         imgUrl: 'PfZa19T.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 149,
@@ -16601,7 +16376,7 @@ export const Var5: SankeyLink[] = [
         process: 'BN11B_3',
         id: 'BN11B-3',
         imgUrl: 'PfZa19T.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -16612,7 +16387,7 @@ export const Var5: SankeyLink[] = [
         process: 'BN11B_1',
         id: 'BN11B-4',
         imgUrl: 'PfZa19T.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 40,
@@ -16623,7 +16398,7 @@ export const Var5: SankeyLink[] = [
         process: 'BN11B_1',
         id: 'BN11B-5',
         imgUrl: 'PfZa19T.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -16634,7 +16409,7 @@ export const Var5: SankeyLink[] = [
         process: 'BN11B_1',
         id: 'BN11B-6',
         imgUrl: 'PfZa19T.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -16645,7 +16420,7 @@ export const Var5: SankeyLink[] = [
         process: 'BN11B_2',
         id: 'BN11B-7',
         imgUrl: 'PfZa19T.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 24,
@@ -16656,7 +16431,7 @@ export const Var5: SankeyLink[] = [
         process: 'BN11B_2',
         id: 'BN11B-8',
         imgUrl: 'PfZa19T.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -16667,7 +16442,7 @@ export const Var5: SankeyLink[] = [
         process: 'BN11B_2',
         id: 'BN11B-9',
         imgUrl: 'PfZa19T.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 75,
@@ -16678,7 +16453,7 @@ export const Var5: SankeyLink[] = [
         process: 'BN11B_2',
         id: 'BN11B-10',
         imgUrl: 'PfZa19T.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 20,
@@ -16689,7 +16464,7 @@ export const Var5: SankeyLink[] = [
         process: 'BN11B_3',
         id: 'BN11B-11',
         imgUrl: 'PfZa19T.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 20,
@@ -16700,7 +16475,7 @@ export const Var5: SankeyLink[] = [
         process: 'BN11B_3',
         id: 'BN11B-12',
         imgUrl: 'PfZa19T.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 40,
@@ -16711,7 +16486,7 @@ export const Var5: SankeyLink[] = [
         process: 'BN11B_3',
         id: 'BN11B-13',
         imgUrl: 'PfZa19T.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -16722,7 +16497,7 @@ export const Var5: SankeyLink[] = [
         process: 'BN11B_3',
         id: 'BN11B-14',
         imgUrl: 'PfZa19T.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -16733,7 +16508,7 @@ export const Var5: SankeyLink[] = [
         process: 'BN11B_3',
         id: 'BN11B-15',
         imgUrl: 'PfZa19T.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 150,
@@ -16744,7 +16519,7 @@ export const Var5: SankeyLink[] = [
         process: 'MLG06_1',
         id: 'MLG06-0',
         imgUrl: 'qXOBST8.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 150,
@@ -16755,7 +16530,7 @@ export const Var5: SankeyLink[] = [
         process: 'MLG06_2',
         id: 'MLG06-1',
         imgUrl: 'qXOBST8.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 6,
@@ -16766,7 +16541,7 @@ export const Var5: SankeyLink[] = [
         process: 'MLG06_1',
         id: 'MLG06-2',
         imgUrl: 'qXOBST8.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -16777,7 +16552,7 @@ export const Var5: SankeyLink[] = [
         process: 'MLG06_2',
         id: 'MLG06-3',
         imgUrl: 'qXOBST8.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -16788,7 +16563,7 @@ export const Var5: SankeyLink[] = [
         process: 'MLG06_2',
         id: 'MLG06-4',
         imgUrl: 'qXOBST8.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -16799,7 +16574,7 @@ export const Var5: SankeyLink[] = [
         process: 'MLG06_2',
         id: 'MLG06-5',
         imgUrl: 'qXOBST8.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -16810,7 +16585,7 @@ export const Var5: SankeyLink[] = [
         process: 'MLG06_1',
         id: 'MLG06-6',
         imgUrl: 'qXOBST8.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -16821,7 +16596,7 @@ export const Var5: SankeyLink[] = [
         process: 'MLG06_2',
         id: 'MLG06-7',
         imgUrl: 'qXOBST8.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 42,
@@ -16832,7 +16607,7 @@ export const Var5: SankeyLink[] = [
         process: 'MLG06_1',
         id: 'MLG06-8',
         imgUrl: 'qXOBST8.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -16843,7 +16618,7 @@ export const Var5: SankeyLink[] = [
         process: 'MLG06_2',
         id: 'MLG06-9',
         imgUrl: 'qXOBST8.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -16854,7 +16629,7 @@ export const Var5: SankeyLink[] = [
         process: 'MLG06_1',
         id: 'MLG06-10',
         imgUrl: 'qXOBST8.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -16865,7 +16640,7 @@ export const Var5: SankeyLink[] = [
         process: 'MLG06_2',
         id: 'MLG06-11',
         imgUrl: 'qXOBST8.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -16876,7 +16651,7 @@ export const Var5: SankeyLink[] = [
         process: 'MLG06_1',
         id: 'MLG06-12',
         imgUrl: 'qXOBST8.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -16887,7 +16662,7 @@ export const Var5: SankeyLink[] = [
         process: 'MLG06_2',
         id: 'MLG06-13',
         imgUrl: 'qXOBST8.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -16898,7 +16673,7 @@ export const Var5: SankeyLink[] = [
         process: 'MLG06_1',
         id: 'MLG06-14',
         imgUrl: 'qXOBST8.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -16909,7 +16684,7 @@ export const Var5: SankeyLink[] = [
         process: 'MLG06_2',
         id: 'MLG06-15',
         imgUrl: 'qXOBST8.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -16920,7 +16695,7 @@ export const Var5: SankeyLink[] = [
         process: 'MLG06_1',
         id: 'MLG06-16',
         imgUrl: 'qXOBST8.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -16931,7 +16706,7 @@ export const Var5: SankeyLink[] = [
         process: 'MLG06_2',
         id: 'MLG06-17',
         imgUrl: 'qXOBST8.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 53,
@@ -16942,7 +16717,7 @@ export const Var5: SankeyLink[] = [
         process: 'MLG06_1',
         id: 'MLG06-18',
         imgUrl: 'qXOBST8.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 151,
@@ -16953,7 +16728,7 @@ export const Var5: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-0',
         imgUrl: '2VPQbry.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 151,
@@ -16964,7 +16739,7 @@ export const Var5: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-1',
         imgUrl: '2VPQbry.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 151,
@@ -16975,7 +16750,7 @@ export const Var5: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-2',
         imgUrl: '2VPQbry.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 151,
@@ -16986,7 +16761,7 @@ export const Var5: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-3',
         imgUrl: '2VPQbry.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 151,
@@ -16997,7 +16772,7 @@ export const Var5: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-4',
         imgUrl: '2VPQbry.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 151,
@@ -17008,7 +16783,7 @@ export const Var5: SankeyLink[] = [
         process: 'FA20_2',
         id: 'FA20-5',
         imgUrl: '2VPQbry.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -17019,7 +16794,7 @@ export const Var5: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-6',
         imgUrl: '2VPQbry.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -17030,7 +16805,7 @@ export const Var5: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-7',
         imgUrl: '2VPQbry.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -17041,7 +16816,7 @@ export const Var5: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-8',
         imgUrl: '2VPQbry.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 14,
@@ -17052,7 +16827,7 @@ export const Var5: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-9',
         imgUrl: '2VPQbry.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -17063,7 +16838,7 @@ export const Var5: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-10',
         imgUrl: '2VPQbry.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -17074,7 +16849,7 @@ export const Var5: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-11',
         imgUrl: '2VPQbry.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -17085,7 +16860,7 @@ export const Var5: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-12',
         imgUrl: '2VPQbry.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -17096,7 +16871,7 @@ export const Var5: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-13',
         imgUrl: '2VPQbry.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 14,
@@ -17107,7 +16882,7 @@ export const Var5: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-14',
         imgUrl: '2VPQbry.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -17118,7 +16893,7 @@ export const Var5: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-15',
         imgUrl: '2VPQbry.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -17129,7 +16904,7 @@ export const Var5: SankeyLink[] = [
         process: 'FA20_2',
         id: 'FA20-16',
         imgUrl: '2VPQbry.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 41,
@@ -17140,7 +16915,7 @@ export const Var5: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-17',
         imgUrl: '2VPQbry.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 41,
@@ -17151,7 +16926,7 @@ export const Var5: SankeyLink[] = [
         process: 'FA20_2',
         id: 'FA20-18',
         imgUrl: '2VPQbry.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -17162,7 +16937,7 @@ export const Var5: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-19',
         imgUrl: '2VPQbry.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -17173,7 +16948,7 @@ export const Var5: SankeyLink[] = [
         process: 'FA20_1',
         id: 'FA20-20',
         imgUrl: '2VPQbry.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -17184,7 +16959,7 @@ export const Var5: SankeyLink[] = [
         process: 'FA20_2',
         id: 'FA20-21',
         imgUrl: '2VPQbry.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 152,
@@ -17195,7 +16970,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-0',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 152,
@@ -17206,7 +16981,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-1',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 152,
@@ -17217,7 +16992,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-2',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 152,
@@ -17228,7 +17003,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-3',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 152,
@@ -17239,7 +17014,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-4',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 152,
@@ -17250,7 +17025,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-5',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 152,
@@ -17261,7 +17036,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_3',
         id: 'WHWS12-6',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 152,
@@ -17272,7 +17047,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_3',
         id: 'WHWS12-7',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 152,
@@ -17283,7 +17058,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_3',
         id: 'WHWS12-8',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 152,
@@ -17294,7 +17069,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_4',
         id: 'WHWS12-9',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 152,
@@ -17305,7 +17080,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_4',
         id: 'WHWS12-10',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 152,
@@ -17316,7 +17091,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_4',
         id: 'WHWS12-11',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 152,
@@ -17327,7 +17102,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_5',
         id: 'WHWS12-12',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 152,
@@ -17338,9 +17113,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_6',
         id: 'WHWS12-13',
         imgUrl: 'sp1TtaX.jpg',
-        netnode: 'var',
-        color: 'targetLinkTwoColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 0,
@@ -17351,7 +17124,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-14',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 0,
@@ -17362,7 +17135,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-15',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 0,
@@ -17373,7 +17146,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-16',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 3,
@@ -17384,7 +17157,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-17',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 3,
@@ -17395,7 +17168,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-18',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 3,
@@ -17406,7 +17179,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-19',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 6,
@@ -17417,7 +17190,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-20',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 6,
@@ -17428,7 +17201,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-21',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 6,
@@ -17439,7 +17212,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-22',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -17450,7 +17223,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-23',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 41,
@@ -17461,7 +17234,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-24',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 42,
@@ -17472,7 +17245,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-25',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -17483,7 +17256,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-26',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -17494,7 +17267,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_1',
         id: 'WHWS12-27',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 0,
@@ -17505,7 +17278,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-28',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 3,
@@ -17516,7 +17289,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-29',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 6,
@@ -17527,7 +17300,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-30',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 0,
@@ -17538,7 +17311,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-31',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 3,
@@ -17549,7 +17322,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-32',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 6,
@@ -17560,7 +17333,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-33',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 0,
@@ -17571,7 +17344,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-34',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 3,
@@ -17582,7 +17355,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-35',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 6,
@@ -17593,7 +17366,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-36',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -17604,7 +17377,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-37',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 41,
@@ -17615,7 +17388,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-38',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 42,
@@ -17626,7 +17399,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-39',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 68,
@@ -17637,7 +17410,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-40',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 68,
@@ -17648,7 +17421,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-41',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 68,
@@ -17659,7 +17432,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_2',
         id: 'WHWS12-42',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 0,
@@ -17670,7 +17443,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_3',
         id: 'WHWS12-43',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 3,
@@ -17681,7 +17454,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_3',
         id: 'WHWS12-44',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 6,
@@ -17692,7 +17465,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_3',
         id: 'WHWS12-45',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -17703,7 +17476,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_3',
         id: 'WHWS12-46',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -17714,7 +17487,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_3',
         id: 'WHWS12-47',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -17725,7 +17498,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_3',
         id: 'WHWS12-48',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -17736,7 +17509,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_3',
         id: 'WHWS12-49',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 0,
@@ -17747,7 +17520,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_4',
         id: 'WHWS12-50',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 3,
@@ -17758,7 +17531,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_4',
         id: 'WHWS12-51',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 6,
@@ -17769,7 +17542,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_4',
         id: 'WHWS12-52',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -17780,7 +17553,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_4',
         id: 'WHWS12-53',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 68,
@@ -17791,7 +17564,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_4',
         id: 'WHWS12-54',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 68,
@@ -17802,7 +17575,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_4',
         id: 'WHWS12-55',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 68,
@@ -17813,7 +17586,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_4',
         id: 'WHWS12-56',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -17824,7 +17597,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_5',
         id: 'WHWS12-57',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -17835,7 +17608,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_5',
         id: 'WHWS12-58',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -17846,7 +17619,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_5',
         id: 'WHWS12-59',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -17857,7 +17630,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_5',
         id: 'WHWS12-60',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -17868,7 +17641,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_5',
         id: 'WHWS12-61',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 41,
@@ -17879,7 +17652,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_5',
         id: 'WHWS12-62',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 42,
@@ -17890,7 +17663,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_5',
         id: 'WHWS12-63',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -17901,7 +17674,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_5',
         id: 'WHWS12-64',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 68,
@@ -17912,7 +17685,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_5',
         id: 'WHWS12-65',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 68,
@@ -17923,7 +17696,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_5',
         id: 'WHWS12-66',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 68,
@@ -17934,7 +17707,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_5',
         id: 'WHWS12-67',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -17945,8 +17718,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_6',
         id: 'WHWS12-68',
         imgUrl: 'sp1TtaX.jpg',
-        netnode: 'var',
-        color: 'intTwoLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -17957,8 +17729,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_6',
         id: 'WHWS12-69',
         imgUrl: 'sp1TtaX.jpg',
-        netnode: 'var',
-        color: 'intThreeLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -17969,8 +17740,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_6',
         id: 'WHWS12-70',
         imgUrl: 'sp1TtaX.jpg',
-        netnode: 'var',
-        color: 'intThreeLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -17981,8 +17751,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_6',
         id: 'WHWS12-71',
         imgUrl: 'sp1TtaX.jpg',
-        netnode: 'var',
-        color: 'intTwoLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 41,
@@ -17993,8 +17762,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_6',
         id: 'WHWS12-72',
         imgUrl: 'sp1TtaX.jpg',
-        netnode: 'var',
-        color: 'intThreeLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 42,
@@ -18005,8 +17773,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_6',
         id: 'WHWS12-73',
         imgUrl: 'sp1TtaX.jpg',
-        netnode: 'var',
-        color: 'intThreeLightLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -18017,7 +17784,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_6',
         id: 'WHWS12-74',
         imgUrl: 'sp1TtaX.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -18028,8 +17795,7 @@ export const Var5: SankeyLink[] = [
         process: 'WHWS12_6',
         id: 'WHWS12-75',
         imgUrl: 'sp1TtaX.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 153,
@@ -18040,7 +17806,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_2',
         id: 'FZC18-0',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 153,
@@ -18051,7 +17817,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_3',
         id: 'FZC18-1',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 153,
@@ -18062,7 +17828,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_1',
         id: 'FZC18-2',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 153,
@@ -18073,7 +17839,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_2',
         id: 'FZC18-3',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 153,
@@ -18084,7 +17850,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_3',
         id: 'FZC18-4',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 153,
@@ -18095,7 +17861,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_1',
         id: 'FZC18-5',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 153,
@@ -18105,7 +17871,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_5',
         id: 'FZC18-6',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 153,
@@ -18116,7 +17882,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_4',
         id: 'FZC18-7',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 153,
@@ -18127,7 +17893,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_7',
         id: 'FZC18-8',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 153,
@@ -18137,7 +17903,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_6',
         id: 'FZC18-9',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 153,
@@ -18147,7 +17913,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_8',
         id: 'FZC18-10',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 153,
@@ -18157,7 +17923,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_6',
         id: 'FZC18-11',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -18168,7 +17934,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_3',
         id: 'FZC18-12',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -18179,7 +17945,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_3',
         id: 'FZC18-13',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 40,
@@ -18190,7 +17956,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_3',
         id: 'FZC18-14',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 68,
@@ -18201,7 +17967,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_3',
         id: 'FZC18-15',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -18212,7 +17978,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_1',
         id: 'FZC18-16',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -18223,7 +17989,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_2',
         id: 'FZC18-17',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -18234,7 +18000,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_1',
         id: 'FZC18-18',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -18245,7 +18011,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_2',
         id: 'FZC18-19',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -18256,7 +18022,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_1',
         id: 'FZC18-20',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -18267,7 +18033,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_2',
         id: 'FZC18-21',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 68,
@@ -18278,7 +18044,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_2',
         id: 'FZC18-22',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 20,
@@ -18289,7 +18055,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_4',
         id: 'FZC18-23',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -18300,7 +18066,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_1',
         id: 'FZC18-24',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -18311,7 +18077,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_4',
         id: 'FZC18-25',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 20,
@@ -18321,7 +18087,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_5',
         id: 'FZC18-26',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -18331,7 +18097,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_5',
         id: 'FZC18-27',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -18341,7 +18107,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_8',
         id: 'FZC18-28',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 73,
@@ -18351,7 +18117,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_5',
         id: 'FZC18-29',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -18361,7 +18127,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_6',
         id: 'FZC18-30',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 73,
@@ -18371,7 +18137,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_6',
         id: 'FZC18-31',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 73,
@@ -18381,7 +18147,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_8',
         id: 'FZC18-32',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -18392,7 +18158,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_7',
         id: 'FZC18-33',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -18403,7 +18169,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_7',
         id: 'FZC18-34',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -18414,7 +18180,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_7',
         id: 'FZC18-35',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -18424,7 +18190,7 @@ export const Var5: SankeyLink[] = [
         process: 'FZC18_8',
         id: 'FZC18-36',
         imgUrl: 'zz8t6eU.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 154,
@@ -18435,7 +18201,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_2',
         id: 'ASTC06-0',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 154,
@@ -18446,7 +18212,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_1',
         id: 'ASTC06-1',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 154,
@@ -18456,7 +18222,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_3',
         id: 'ASTC06-2',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 154,
@@ -18466,7 +18232,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_4',
         id: 'ASTC06-3',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 154,
@@ -18477,7 +18243,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_2',
         id: 'ASTC06-4',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 154,
@@ -18488,7 +18254,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_1',
         id: 'ASTC06-5',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 154,
@@ -18498,7 +18264,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_3',
         id: 'ASTC06-6',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 154,
@@ -18508,7 +18274,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_4',
         id: 'ASTC06-7',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 154,
@@ -18519,7 +18285,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_5',
         id: 'ASTC06-8',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 154,
@@ -18529,7 +18295,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_6',
         id: 'ASTC06-9',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 154,
@@ -18539,7 +18305,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_7',
         id: 'ASTC06-10',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 14,
@@ -18550,7 +18316,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_1',
         id: 'ASTC06-11',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -18561,7 +18327,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_1',
         id: 'ASTC06-12',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 43,
@@ -18572,7 +18338,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_1',
         id: 'ASTC06-13',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -18583,7 +18349,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_1',
         id: 'ASTC06-14',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -18594,7 +18360,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_1',
         id: 'ASTC06-15',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 14,
@@ -18605,7 +18371,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_2',
         id: 'ASTC06-16',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -18616,7 +18382,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_2',
         id: 'ASTC06-17',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 43,
@@ -18627,7 +18393,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_2',
         id: 'ASTC06-18',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -18638,7 +18404,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_2',
         id: 'ASTC06-19',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -18649,7 +18415,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_2',
         id: 'ASTC06-20',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 14,
@@ -18659,7 +18425,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_3',
         id: 'ASTC06-21',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -18669,7 +18435,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_3',
         id: 'ASTC06-22',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -18679,7 +18445,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_3',
         id: 'ASTC06-23',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -18689,7 +18455,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_3',
         id: 'ASTC06-24',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -18699,7 +18465,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_3',
         id: 'ASTC06-25',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -18709,7 +18475,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_3',
         id: 'ASTC06-26',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 14,
@@ -18719,7 +18485,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_4',
         id: 'ASTC06-27',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -18729,7 +18495,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_4',
         id: 'ASTC06-28',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -18739,7 +18505,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_4',
         id: 'ASTC06-29',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 56,
@@ -18749,7 +18515,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_4',
         id: 'ASTC06-30',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 56,
@@ -18759,7 +18525,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_4',
         id: 'ASTC06-31',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 56,
@@ -18769,7 +18535,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_4',
         id: 'ASTC06-32',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -18780,7 +18546,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_5',
         id: 'ASTC06-33',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 43,
@@ -18791,7 +18557,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_5',
         id: 'ASTC06-34',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -18802,7 +18568,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_5',
         id: 'ASTC06-35',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 60,
@@ -18813,7 +18579,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_5',
         id: 'ASTC06-36',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 24,
@@ -18823,7 +18589,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_6',
         id: 'ASTC06-37',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -18833,7 +18599,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_6',
         id: 'ASTC06-38',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -18843,7 +18609,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_6',
         id: 'ASTC06-39',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -18853,7 +18619,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_6',
         id: 'ASTC06-40',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -18863,7 +18629,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_6',
         id: 'ASTC06-41',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 24,
@@ -18873,7 +18639,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_7',
         id: 'ASTC06-42',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -18883,7 +18649,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_7',
         id: 'ASTC06-43',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 56,
@@ -18893,7 +18659,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_7',
         id: 'ASTC06-44',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 56,
@@ -18903,7 +18669,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_7',
         id: 'ASTC06-45',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 56,
@@ -18913,7 +18679,7 @@ export const Var5: SankeyLink[] = [
         process: 'ATSC06_7',
         id: 'ASTC06-46',
         imgUrl: '1mwkKcH.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 155,
@@ -18924,7 +18690,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_1',
         id: 'DJM12-0',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 155,
@@ -18935,7 +18701,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_2',
         id: 'DJM12-1',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 155,
@@ -18946,7 +18712,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_3',
         id: 'DJM12-2',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 155,
@@ -18957,9 +18723,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_4',
         id: 'DJM12-3',
         imgUrl: 'nNNbNas.jpg',
-        netnode: 'var',
-        color: 'targetLinkOneColor',
-        status: 'selected',
+        color:'grayLinkColor',
     },
     {
         source: 155,
@@ -18970,7 +18734,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_5',
         id: 'DJM12-4',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 155,
@@ -18981,7 +18745,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_6',
         id: 'DJM12-5',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 155,
@@ -18992,7 +18756,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_7',
         id: 'DJM12-6',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 155,
@@ -19003,7 +18767,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_8',
         id: 'DJM12-7',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 155,
@@ -19014,7 +18778,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_9',
         id: 'DJM12-8',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 7,
@@ -19025,7 +18789,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_1',
         id: 'DJM12-9',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 7,
@@ -19036,7 +18800,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_2',
         id: 'DJM12-10',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 9,
@@ -19047,7 +18811,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_3',
         id: 'DJM12-11',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 9,
@@ -19058,8 +18822,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_4',
         id: 'DJM12-12',
         imgUrl: 'nNNbNas.jpg',
-        netnode: 'var',
-        color: 'intOneLight3LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 9,
@@ -19070,7 +18833,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_5',
         id: 'DJM12-13',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -19081,7 +18844,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_6',
         id: 'DJM12-14',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -19092,7 +18855,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_7',
         id: 'DJM12-15',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 22,
@@ -19103,7 +18866,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_8',
         id: 'DJM12-16',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 23,
@@ -19114,7 +18877,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_9',
         id: 'DJM12-17',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 34,
@@ -19125,7 +18888,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_1',
         id: 'DJM12-18',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 34,
@@ -19136,7 +18899,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_6',
         id: 'DJM12-19',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -19147,7 +18910,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_2',
         id: 'DJM12-20',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 36,
@@ -19158,7 +18921,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_3',
         id: 'DJM12-21',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 36,
@@ -19169,8 +18932,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_4',
         id: 'DJM12-22',
         imgUrl: 'nNNbNas.jpg',
-        netnode: 'var',
-        color: 'intOneLight3LinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 36,
@@ -19181,7 +18943,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_5',
         id: 'DJM12-23',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -19192,7 +18954,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_6',
         id: 'DJM12-24',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -19203,7 +18965,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_7',
         id: 'DJM12-25',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 34,
@@ -19214,7 +18976,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_8',
         id: 'DJM12-26',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -19225,7 +18987,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_1',
         id: 'DJM12-27',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -19236,7 +18998,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_5',
         id: 'DJM12-28',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 62,
@@ -19247,7 +19009,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_6',
         id: 'DJM12-29',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -19258,7 +19020,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_3',
         id: 'DJM12-30',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -19269,7 +19031,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_6',
         id: 'DJM12-31',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -19280,7 +19042,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_3',
         id: 'DJM12-32',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -19291,8 +19053,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_4',
         id: 'DJM12-33',
         imgUrl: 'nNNbNas.jpg',
-        netnode: 'var',
-        color: 'repVisVarColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -19303,7 +19064,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_7',
         id: 'DJM12-34',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -19314,7 +19075,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_7',
         id: 'DJM12-35',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -19325,7 +19086,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_8',
         id: 'DJM12-36',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -19336,7 +19097,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_8',
         id: 'DJM12-37',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 70,
@@ -19347,7 +19108,7 @@ export const Var5: SankeyLink[] = [
         process: 'DJM12_9',
         id: 'DJM12-38',
         imgUrl: 'nNNbNas.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 156,
@@ -19358,7 +19119,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_1',
         id: 'MEA17-0',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 156,
@@ -19369,7 +19130,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_2',
         id: 'MEA17-1',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 156,
@@ -19380,7 +19141,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_2',
         id: 'MEA17-2',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 156,
@@ -19391,7 +19152,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_2',
         id: 'MEA17-3',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 156,
@@ -19401,7 +19162,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_3',
         id: 'MEA17-4',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 156,
@@ -19412,7 +19173,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_4',
         id: 'MEA17-5',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 156,
@@ -19423,7 +19184,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_4',
         id: 'MEA17-6',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 156,
@@ -19434,7 +19195,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_4',
         id: 'MEA17-7',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 156,
@@ -19445,7 +19206,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_5',
         id: 'MEA17-8',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 156,
@@ -19456,7 +19217,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_5',
         id: 'MEA17-9',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 156,
@@ -19467,7 +19228,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_5',
         id: 'MEA17-10',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -19478,7 +19239,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_1',
         id: 'MEA17-11',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 34,
@@ -19489,7 +19250,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_1',
         id: 'MEA17-12',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -19500,7 +19261,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_1',
         id: 'MEA17-13',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -19511,7 +19272,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_2',
         id: 'MEA17-14',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -19522,7 +19283,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_2',
         id: 'MEA17-15',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 14,
@@ -19533,7 +19294,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_2',
         id: 'MEA17-16',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 35,
@@ -19544,7 +19305,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_2',
         id: 'MEA17-17',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -19555,7 +19316,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_2',
         id: 'MEA17-18',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -19566,7 +19327,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_2',
         id: 'MEA17-19',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 22,
@@ -19576,7 +19337,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_3',
         id: 'MEA17-20',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -19586,7 +19347,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_3',
         id: 'MEA17-21',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -19596,7 +19357,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_3',
         id: 'MEA17-22',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -19606,7 +19367,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_3',
         id: 'MEA17-23',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -19617,7 +19378,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_4',
         id: 'MEA17-24',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -19628,7 +19389,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_4',
         id: 'MEA17-25',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 18,
@@ -19639,7 +19400,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_4',
         id: 'MEA17-26',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 47,
@@ -19650,7 +19411,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_4',
         id: 'MEA17-27',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -19661,7 +19422,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_4',
         id: 'MEA17-28',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -19672,7 +19433,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_4',
         id: 'MEA17-29',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -19683,7 +19444,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_5',
         id: 'MEA17-30',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -19694,7 +19455,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_5',
         id: 'MEA17-31',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 18,
@@ -19705,7 +19466,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_5',
         id: 'MEA17-32',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 48,
@@ -19716,7 +19477,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_5',
         id: 'MEA17-33',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -19727,7 +19488,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_5',
         id: 'MEA17-34',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -19738,7 +19499,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_5',
         id: 'MEA17-35',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -19749,7 +19510,7 @@ export const Var5: SankeyLink[] = [
         process: 'MEA17_5',
         id: 'MEA17-36',
         imgUrl: 'ce97Hw7.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 157,
@@ -19760,7 +19521,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_1',
         id: 'SFJ16-0',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 157,
@@ -19771,7 +19532,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_1',
         id: 'SFJ16-1',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 157,
@@ -19782,7 +19543,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_1',
         id: 'SFJ16-2',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 157,
@@ -19793,7 +19554,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_1',
         id: 'SFJ16-3',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 157,
@@ -19804,7 +19565,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_2',
         id: 'SFJ16-4',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 157,
@@ -19815,7 +19576,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_2',
         id: 'SFJ16-5',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 157,
@@ -19826,7 +19587,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_3',
         id: 'SFJ16-6',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 157,
@@ -19837,7 +19598,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_3',
         id: 'SFJ16-7',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 157,
@@ -19848,7 +19609,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_3',
         id: 'SFJ16-8',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 5,
@@ -19859,7 +19620,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_1',
         id: 'SFJ16-9',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -19870,7 +19631,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_1',
         id: 'SFJ16-10',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -19881,7 +19642,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_1',
         id: 'SFJ16-11',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 22,
@@ -19892,7 +19653,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_1',
         id: 'SFJ16-12',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 40,
@@ -19903,7 +19664,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_1',
         id: 'SFJ16-13',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -19914,7 +19675,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_1',
         id: 'SFJ16-14',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -19925,7 +19686,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_1',
         id: 'SFJ16-15',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 5,
@@ -19936,7 +19697,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_2',
         id: 'SFJ16-16',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 22,
@@ -19947,7 +19708,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_2',
         id: 'SFJ16-17',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 46,
@@ -19958,7 +19719,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_2',
         id: 'SFJ16-18',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -19969,7 +19730,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_2',
         id: 'SFJ16-19',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -19980,7 +19741,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_2',
         id: 'SFJ16-20',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -19991,7 +19752,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_2',
         id: 'SFJ16-21',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 54,
@@ -20002,7 +19763,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_2',
         id: 'SFJ16-22',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 11,
@@ -20013,7 +19774,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_3',
         id: 'SFJ16-23',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -20024,7 +19785,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_3',
         id: 'SFJ16-24',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 16,
@@ -20035,7 +19796,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_3',
         id: 'SFJ16-25',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -20046,7 +19807,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_3',
         id: 'SFJ16-26',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -20057,7 +19818,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_3',
         id: 'SFJ16-27',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 55,
@@ -20068,7 +19829,7 @@ export const Var5: SankeyLink[] = [
         process: 'SFJ16_3',
         id: 'SFJ16-28',
         imgUrl: 'e3PRKTM.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 158,
@@ -20078,7 +19839,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_1',
         id: 'XJX21-0',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 158,
@@ -20088,7 +19849,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_1',
         id: 'XJX21-1',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 158,
@@ -20098,7 +19859,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_2',
         id: 'XJX21-2',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 158,
@@ -20108,7 +19869,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_2',
         id: 'XJX21-3',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 158,
@@ -20118,7 +19879,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_2',
         id: 'XJX21-4',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 158,
@@ -20129,7 +19890,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_3',
         id: 'XJX21-5',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 158,
@@ -20140,7 +19901,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_3',
         id: 'XJX21-6',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 5,
@@ -20150,7 +19911,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_1',
         id: 'XJX21-7',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 7,
@@ -20160,7 +19921,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_1',
         id: 'XJX21-8',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 34,
@@ -20170,7 +19931,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_1',
         id: 'XJX21-9',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 34,
@@ -20180,7 +19941,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_1',
         id: 'XJX21-10',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 34,
@@ -20190,7 +19951,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_1',
         id: 'XJX21-11',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -20200,7 +19961,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_1',
         id: 'XJX21-12',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -20210,7 +19971,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_1',
         id: 'XJX21-13',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -20220,7 +19981,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_1',
         id: 'XJX21-14',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 69,
@@ -20230,7 +19991,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_1',
         id: 'XJX21-15',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 69,
@@ -20240,7 +20001,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_1',
         id: 'XJX21-16',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 69,
@@ -20250,7 +20011,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_1',
         id: 'XJX21-17',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 71,
@@ -20260,7 +20021,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_1',
         id: 'XJX21-18',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 71,
@@ -20270,7 +20031,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_1',
         id: 'XJX21-19',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 71,
@@ -20280,7 +20041,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_1',
         id: 'XJX21-20',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 1,
@@ -20290,7 +20051,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_2',
         id: 'XJX21-21',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 5,
@@ -20300,7 +20061,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_2',
         id: 'XJX21-22',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 7,
@@ -20310,7 +20071,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_2',
         id: 'XJX21-23',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -20320,7 +20081,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_2',
         id: 'XJX21-24',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -20330,7 +20091,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_2',
         id: 'XJX21-25',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 49,
@@ -20340,7 +20101,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_2',
         id: 'XJX21-26',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -20350,7 +20111,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_2',
         id: 'XJX21-27',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -20360,7 +20121,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_2',
         id: 'XJX21-28',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 61,
@@ -20370,7 +20131,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_2',
         id: 'XJX21-29',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 69,
@@ -20380,7 +20141,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_2',
         id: 'XJX21-30',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 69,
@@ -20390,7 +20151,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_2',
         id: 'XJX21-31',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 69,
@@ -20400,7 +20161,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_2',
         id: 'XJX21-32',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 71,
@@ -20410,7 +20171,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_2',
         id: 'XJX21-33',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 71,
@@ -20420,7 +20181,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_2',
         id: 'XJX21-34',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 71,
@@ -20430,7 +20191,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_2',
         id: 'XJX21-35',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 5,
@@ -20441,7 +20202,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_3',
         id: 'XJX21-36',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 5,
@@ -20452,7 +20213,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_3',
         id: 'XJX21-37',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -20463,7 +20224,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_3',
         id: 'XJX21-38',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 12,
@@ -20474,7 +20235,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_3',
         id: 'XJX21-39',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -20485,7 +20246,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_3',
         id: 'XJX21-40',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 39,
@@ -20496,7 +20257,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_3',
         id: 'XJX21-41',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 69,
@@ -20507,7 +20268,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_3',
         id: 'XJX21-42',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 69,
@@ -20518,7 +20279,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_3',
         id: 'XJX21-43',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 69,
@@ -20529,7 +20290,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_3',
         id: 'XJX21-44',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 71,
@@ -20540,7 +20301,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_3',
         id: 'XJX21-45',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 71,
@@ -20551,7 +20312,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_3',
         id: 'XJX21-46',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 71,
@@ -20562,7 +20323,7 @@ export const Var5: SankeyLink[] = [
         process: 'XJX21_3',
         id: 'XJX21-47',
         imgUrl: 'fv9Lvcx.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 159,
@@ -20573,7 +20334,7 @@ export const Var5: SankeyLink[] = [
         process: 'ASG21_1',
         id: 'ASG21-0',
         imgUrl: 'JY2gfvN.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 159,
@@ -20584,7 +20345,7 @@ export const Var5: SankeyLink[] = [
         process: 'ASG21_2',
         id: 'ASG21-1',
         imgUrl: 'JY2gfvN.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 159,
@@ -20595,7 +20356,7 @@ export const Var5: SankeyLink[] = [
         process: 'ASG21_2',
         id: 'ASG21-2',
         imgUrl: 'JY2gfvN.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 159,
@@ -20606,7 +20367,7 @@ export const Var5: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-3',
         imgUrl: 'JY2gfvN.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 159,
@@ -20617,7 +20378,7 @@ export const Var5: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-4',
         imgUrl: 'JY2gfvN.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -20628,7 +20389,7 @@ export const Var5: SankeyLink[] = [
         process: 'ASG21_1',
         id: 'ASG21-5',
         imgUrl: 'JY2gfvN.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 41,
@@ -20639,7 +20400,7 @@ export const Var5: SankeyLink[] = [
         process: 'ASG21_1',
         id: 'ASG21-6',
         imgUrl: 'JY2gfvN.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -20650,7 +20411,7 @@ export const Var5: SankeyLink[] = [
         process: 'ASG21_1',
         id: 'ASG21-7',
         imgUrl: 'JY2gfvN.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -20661,7 +20422,7 @@ export const Var5: SankeyLink[] = [
         process: 'ASG21_1',
         id: 'ASG21-8',
         imgUrl: 'JY2gfvN.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 5,
@@ -20672,7 +20433,7 @@ export const Var5: SankeyLink[] = [
         process: 'ASG21_2',
         id: 'ASG21-9',
         imgUrl: 'JY2gfvN.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 15,
@@ -20683,7 +20444,7 @@ export const Var5: SankeyLink[] = [
         process: 'ASG21_2',
         id: 'ASG21-10',
         imgUrl: 'JY2gfvN.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -20694,7 +20455,7 @@ export const Var5: SankeyLink[] = [
         process: 'ASG21_2',
         id: 'ASG21-11',
         imgUrl: 'JY2gfvN.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -20705,7 +20466,7 @@ export const Var5: SankeyLink[] = [
         process: 'ASG21_2',
         id: 'ASG21-12',
         imgUrl: 'JY2gfvN.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -20716,7 +20477,7 @@ export const Var5: SankeyLink[] = [
         process: 'ASG21_2',
         id: 'ASG21-13',
         imgUrl: 'JY2gfvN.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -20727,7 +20488,7 @@ export const Var5: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-14',
         imgUrl: 'JY2gfvN.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 18,
@@ -20738,7 +20499,7 @@ export const Var5: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-15',
         imgUrl: 'JY2gfvN.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 13,
@@ -20749,7 +20510,7 @@ export const Var5: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-16',
         imgUrl: 'JY2gfvN.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 18,
@@ -20760,7 +20521,7 @@ export const Var5: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-17',
         imgUrl: 'JY2gfvN.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 45,
@@ -20771,7 +20532,7 @@ export const Var5: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-18',
         imgUrl: 'JY2gfvN.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 47,
@@ -20782,7 +20543,7 @@ export const Var5: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-19',
         imgUrl: 'JY2gfvN.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -20793,7 +20554,7 @@ export const Var5: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-20',
         imgUrl: 'JY2gfvN.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -20804,7 +20565,7 @@ export const Var5: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-21',
         imgUrl: 'JY2gfvN.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
     {
         source: 59,
@@ -20815,6 +20576,6 @@ export const Var5: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-22',
         imgUrl: 'JY2gfvN.jpg',
-        color: 'grayLinkColor',
+        color:'grayLinkColor',
     },
 ];

@@ -104,6 +104,55 @@ import { Rep21 } from './netrepNode/Rep21';
 import { Rep22 } from './netrepNode/Rep22';
 import { Rep23 } from './netrepNode/Rep23';
 import { Rep24 } from './netrepNode/Rep24';
+import { Tec1 } from './nettecNode/Tec1';
+import { Tec2 } from './nettecNode/Tec2';
+import { Tec3 } from './nettecNode/Tec3';
+import { Tec4 } from './nettecNode/Tec4';
+import { Tec5 } from './nettecNode/Tec5';
+import { Tec6 } from './nettecNode/Tec6';
+import { Tec7 } from './nettecNode/Tec7';
+import { Tec8 } from './nettecNode/Tec8';
+import { Tec9 } from './nettecNode/Tec9';
+import { Tec10 } from './nettecNode/Tec10';
+import { Tec11 } from './nettecNode/Tec11';
+import { Tec12 } from './nettecNode/Tec12';
+import { Tec13 } from './nettecNode/Tec13';
+import { Tec14 } from './nettecNode/Tec14';
+import { Tec15 } from './nettecNode/Tec15';
+import { Var1 } from './netvarNode/Var1';
+import { Var2 } from './netvarNode/Var2';
+import { Var3 } from './netvarNode/Var3';
+import { Var4 } from './netvarNode/Var4';
+import { Var5 } from './netvarNode/Var5';
+import { Var6 } from './netvarNode/Var6';
+import { Var7 } from './netvarNode/Var7';
+import { Tar1 } from './nettarNode/Tar1';
+import { Tar2 } from './nettarNode/Tar2';
+import { Tar3 } from './nettarNode/Tar3';
+import { Tar4 } from './nettarNode/Tar4';
+import { Tar5 } from './nettarNode/Tar5';
+import { Tar6 } from './nettarNode/Tar6';
+import { Tar7 } from './nettarNode/Tar7';
+import { Tar8 } from './nettarNode/Tar8';
+import { Tar9 } from './nettarNode/Tar9';
+import { Tar10 } from './nettarNode/Tar10';
+import { Tar11 } from './nettarNode/Tar11';
+import { Tar12 } from './nettarNode/Tar12';
+import { Tar13 } from './nettarNode/Tar13';
+import { Tar14 } from './nettarNode/Tar14';
+import { Tar15 } from './nettarNode/Tar15';
+import { Tar16 } from './nettarNode/Tar16';
+import { Tar17 } from './nettarNode/Tar17';
+import { Tar18 } from './nettarNode/Tar18';
+import { Tar19 } from './nettarNode/Tar19';
+import { Tar20 } from './nettarNode/Tar20';
+import { Tar21 } from './nettarNode/Tar21';
+import { Tar22 } from './nettarNode/Tar22';
+import { Tar23 } from './nettarNode/Tar23';
+import { Tar24 } from './nettarNode/Tar24';
+import { Tar25 } from './nettarNode/Tar25';
+import { Tar26 } from './nettarNode/Tar26';
+import { Tar27 } from './nettarNode/Tar27';
 
 const ClusteroneLinkData = [ClusterOne];
 const ClustertwoLinkData = [ClusterTwo];
@@ -149,6 +198,55 @@ const Rep21Data = [Rep21];
 const Rep22Data = [Rep22];
 const Rep23Data = [Rep23];
 const Rep24Data = [Rep24];
+const Var1Data = [Var1];
+const Var2Data = [Var2];
+const Var3Data = [Var3];
+const Var4Data = [Var4];
+const Var5Data = [Var5];
+const Var6Data = [Var6];
+const Var7Data = [Var7];
+const Tec1Data = [Tec1];
+const Tec2Data = [Tec2];
+const Tec3Data = [Tec3];
+const Tec4Data = [Tec4];
+const Tec5Data = [Tec5];
+const Tec6Data = [Tec6];
+const Tec7Data = [Tec7];
+const Tec8Data = [Tec8];
+const Tec9Data = [Tec9];
+const Tec10Data = [Tec10];
+const Tec11Data = [Tec11];
+const Tec12Data = [Tec12];
+const Tec13Data = [Tec13];
+const Tec14Data = [Tec14];
+const Tec15Data = [Tec15];
+const Tar1Data = [Tar1];
+const Tar2Data = [Tar2];
+const Tar3Data = [Tar3];
+const Tar4Data = [Tar4];
+const Tar5Data = [Tar5];
+const Tar6Data = [Tar6];
+const Tar7Data = [Tar7];
+const Tar8Data = [Tar8];
+const Tar9Data = [Tar9];
+const Tar10Data = [Tar10];
+const Tar11Data = [Tar11];
+const Tar12Data = [Tar12];
+const Tar13Data = [Tar13];
+const Tar14Data = [Tar14];
+const Tar15Data = [Tar15];
+const Tar16Data = [Tar16];
+const Tar17Data = [Tar17];
+const Tar18Data = [Tar18];
+const Tar19Data = [Tar19];
+const Tar20Data = [Tar20];
+const Tar21Data = [Tar21];
+const Tar22Data = [Tar22];
+const Tar23Data = [Tar23];
+const Tar24Data = [Tar24];
+const Tar25Data = [Tar25];
+const Tar26Data = [Tar26];
+const Tar27Data = [Tar27];
 
 //@ts-ignore
 const a = [];
@@ -1956,9 +2054,1283 @@ const Rep24s = ([].concat.apply([], Rep24Data) as SankeyLink[]).reduce<SankeyLin
     return Rep24s;
 }, []);
 
+//@ts-ignore
+const Var1s = ([].concat.apply([], Var1Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Var1s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Var1s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Var1s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Var1s;
+}, []);
+
+//@ts-ignore
+const Var2s = ([].concat.apply([], Var2Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Var2s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Var2s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Var2s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Var2s;
+}, []);
+
+//@ts-ignore
+const Var3s = ([].concat.apply([], Var3Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Var3s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Var1s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Var3s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Var3s;
+}, []);
+
+//@ts-ignore
+const Var4s = ([].concat.apply([], Var4Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Var4s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Var4s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Var4s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Var4s;
+}, []);
+
+//@ts-ignore
+const Var5s = ([].concat.apply([], Var5Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Var5s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Var5s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Var5s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Var5s;
+}, []);
+
+//@ts-ignore
+const Var6s = ([].concat.apply([], Var6Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Var6s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Var6s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Var6s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Var6s;
+}, []);
+
+//@ts-ignore
+const Var7s = ([].concat.apply([], Var7Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Var7s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Var7s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Var7s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Var7s;
+}, []);
+
+//@ts-ignore
+const Tec1s = ([].concat.apply([], Tec1Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tec1s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tec1s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tec1s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tec1s;
+}, []);
+
+//@ts-ignore
+const Tec2s = ([].concat.apply([], Tec2Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tec2s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tec2s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tec2s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tec2s;
+}, []);
+
+//@ts-ignore
+const Tec3s = ([].concat.apply([], Tec3Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tec3s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tec3s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tec3s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tec3s;
+}, []);
+
+//@ts-ignore
+const Tec4s = ([].concat.apply([], Tec4Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tec4s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tec4s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tec4s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tec4s;
+}, []);
+
+//@ts-ignore
+const Tec5s = ([].concat.apply([], Tec5Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tec5s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tec5s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tec5s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tec5s;
+}, []);
+
+//@ts-ignore
+const Tec6s = ([].concat.apply([], Tec6Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tec6s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tec6s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tec6s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tec6s;
+}, []);
+
+//@ts-ignore
+const Tec7s = ([].concat.apply([], Tec7Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tec7s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tec7s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tec7s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tec7s;
+}, []);
+
+//@ts-ignore
+const Tec8s = ([].concat.apply([], Tec8Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tec8s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tec8s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tec8s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tec8s;
+}, []);
+
+//@ts-ignore
+const Tec9s = ([].concat.apply([], Tec9Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tec9s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tec9s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tec9s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tec9s;
+}, []);
+
+//@ts-ignore
+const Tec10s = ([].concat.apply([], Tec10Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tec10s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tec10s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tec10s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tec10s;
+}, []);
+
+//@ts-ignore
+const Tec11s = ([].concat.apply([], Tec11Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tec11s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tec11s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tec11s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tec11s;
+}, []);
+
+//@ts-ignore
+const Tec12s = ([].concat.apply([], Tec12Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tec12s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tec12s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tec12s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tec12s;
+}, []);
+
+//@ts-ignore
+const Tec13s = ([].concat.apply([], Tec13Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tec13s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tec13s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tec13s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tec13s;
+}, []);
+
+//@ts-ignore
+const Tec14s = ([].concat.apply([], Tec14Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tec14s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tec14s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tec14s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tec14s;
+}, []);
+
+//@ts-ignore
+const Tec15s = ([].concat.apply([], Tec15Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tec15s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tec15s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tec15s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tec15s;
+}, []);
+
 const statusImgSet = PaperStatus.reduce(function (acc, cur) {
     return acc.concat(cur);
 });
+
+//@ts-ignore
+const Tar1s = ([].concat.apply([], Tar1Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar1s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar1s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar1s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar1s;
+}, []);
+
+//@ts-ignore
+const Tar2s = ([].concat.apply([], Tar2Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar2s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar2s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar2s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar2s;
+}, []);
+
+//@ts-ignore
+const Tar3s = ([].concat.apply([], Tar3Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar3s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar3s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar3s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar3s;
+}, []);
+
+//@ts-ignore
+const Tar4s = ([].concat.apply([], Tar4Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar4s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar4s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar4s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar4s;
+}, []);
+
+//@ts-ignore
+const Tar5s = ([].concat.apply([], Tar5Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar5s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar5s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar5s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar5s;
+}, []);
+
+//@ts-ignore
+const Tar6s = ([].concat.apply([], Tar6Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar6s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar6s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar6s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar6s;
+}, []);
+
+//@ts-ignore
+const Tar7s = ([].concat.apply([], Tar7Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar7s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar7s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar7s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar7s;
+}, []);
+
+//@ts-ignore
+const Tar8s = ([].concat.apply([], Tar8Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar8s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar8s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar8s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar8s;
+}, []);
+
+//@ts-ignore
+const Tar9s = ([].concat.apply([], Tar9Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar9s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar9s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar9s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar9s;
+}, []);
+
+//@ts-ignore
+const Tar10s = ([].concat.apply([], Tar10Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar10s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar10s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar10s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar10s;
+}, []);
+
+//@ts-ignore
+const Tar11s = ([].concat.apply([], Tar11Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar11s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar11s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar11s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar11s;
+}, []);
+
+//@ts-ignore
+const Tar12s = ([].concat.apply([], Tar12Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar12s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar12s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar12s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar12s;
+}, []);
+
+//@ts-ignore
+const Tar13s = ([].concat.apply([], Tar13Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar13s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar13s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar13s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar13s;
+}, []);
+
+//@ts-ignore
+const Tar14s = ([].concat.apply([], Tar14Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar14s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar14s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar14s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar14s;
+}, []);
+
+//@ts-ignore
+const Tar15s = ([].concat.apply([], Tar15Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar15s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar15s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar15s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar15s;
+}, []);
+
+//@ts-ignore
+const Tar16s = ([].concat.apply([], Tar16Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar16s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar16s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar16s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar16s;
+}, []);
+
+//@ts-ignore
+const Tar17s = ([].concat.apply([], Tar17Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar17s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar17s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar17s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar17s;
+}, []);
+
+//@ts-ignore
+const Tar18s = ([].concat.apply([], Tar18Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar18s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar18s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar18s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar18s;
+}, []);
+
+//@ts-ignore
+const Tar19s = ([].concat.apply([], Tar19Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar19s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar19s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar19s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar19s;
+}, []);
+
+//@ts-ignore
+const Tar20s = ([].concat.apply([], Tar20Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar20s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar20s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar20s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar20s;
+}, []);
+
+//@ts-ignore
+const Tar21s = ([].concat.apply([], Tar21Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar21s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar21s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar21s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar21s;
+}, []);
+
+//@ts-ignore
+const Tar22s = ([].concat.apply([], Tar22Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar22s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar22s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar22s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar22s;
+}, []);
+
+//@ts-ignore
+const Tar23s = ([].concat.apply([], Tar23Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar23s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar23s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar23s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar23s;
+}, []);
+
+//@ts-ignore
+const Tar24s = ([].concat.apply([], Tar24Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar24s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar24s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar24s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar24s;
+}, []);
+
+//@ts-ignore
+const Tar25s = ([].concat.apply([], Tar25Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar25s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar25s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar25s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar25s;
+}, []);
+
+//@ts-ignore
+const Tar26s = ([].concat.apply([], Tar26Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar26s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar26s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar26s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar26s;
+}, []);
+
+//@ts-ignore
+const Tar27s = ([].concat.apply([], Tar27Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Tar27s, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Tar27s.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Tar27s.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Tar27s;
+}, []);
 
 //@ts-ignore
 const Node = CAA20.nodes;
@@ -2030,4 +3402,53 @@ export {
     Rep22s,
     Rep23s,
     Rep24s,
+    Var1s,
+    Var2s,
+    Var3s,
+    Var4s,
+    Var5s,
+    Var6s,
+    Var7s,
+    Tec1s,
+    Tec2s,
+    Tec3s,
+    Tec4s,
+    Tec5s,
+    Tec6s,
+    Tec7s,
+    Tec8s,
+    Tec9s,
+    Tec10s,
+    Tec11s,
+    Tec12s,
+    Tec13s,
+    Tec14s,
+    Tec15s,
+    Tar1s,
+    Tar2s,
+    Tar3s,
+    Tar4s,
+    Tar5s,
+    Tar6s,
+    Tar7s,
+    Tar8s,
+    Tar9s,
+    Tar10s,
+    Tar11s,
+    Tar12s,
+    Tar13s,
+    Tar14s,
+    Tar15s,
+    Tar16s,
+    Tar17s,
+    Tar18s,
+    Tar19s,
+    Tar20s,
+    Tar21s,
+    Tar22s,
+    Tar23s,
+    Tar24s,
+    Tar25s,
+    Tar26s,
+    Tar27s,
 };

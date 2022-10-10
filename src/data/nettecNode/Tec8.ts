@@ -20367,6 +20367,7 @@ export const Tec8: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-3',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'tec',
         color: 'targetLinkTwoColor',
         status: 'selected',
     },
@@ -20379,6 +20380,7 @@ export const Tec8: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-4',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'tec',
         color: 'targetLinkThreeColor',
         status: 'selected',
     },
@@ -20490,6 +20492,7 @@ export const Tec8: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-14',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'tec',
         color: 'intFourLinkColor',
     },
     {
@@ -20501,6 +20504,7 @@ export const Tec8: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-15',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'tec',
         color: 'intFourLinkColor',
     },
     {
@@ -20512,6 +20516,7 @@ export const Tec8: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-16',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'tec',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -20523,6 +20528,7 @@ export const Tec8: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-17',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'tec',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -20534,6 +20540,7 @@ export const Tec8: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-18',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'tec',
         color: 'intFourLinkColor',
     },
     {
@@ -20545,6 +20552,7 @@ export const Tec8: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-19',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'tec',
         color: 'intFiveLightLinkColor',
     },
     {
@@ -20578,6 +20586,7 @@ export const Tec8: SankeyLink[] = [
         process: 'ASG21_3',
         id: 'ASG21-22',
         imgUrl: 'JY2gfvN.jpg',
+        netnode: 'tec',
         color: 'repVisTechColor',
     },
 ];

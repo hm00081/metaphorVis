@@ -3942,6 +3942,7 @@ export const Tec9: SankeyLink[] = [
         process: 'JX17_1',
         id: 'JX17-0',
         imgUrl: 'dbYhmdg.jpg',
+        netnode: 'tec',
         color: 'targetLinkOneColor',
         status: 'selected',
     },
@@ -3975,6 +3976,7 @@ export const Tec9: SankeyLink[] = [
         process: 'JX17_1',
         id: 'JX17-3',
         imgUrl: 'dbYhmdg.jpg',
+        netnode: 'tec',
         color: 'targetLinkOneColor',
         status: 'selected',
     },
@@ -4051,6 +4053,7 @@ export const Tec9: SankeyLink[] = [
         process: 'JX17_1',
         id: 'JX17-10',
         imgUrl: 'dbYhmdg.jpg',
+        netnode: 'tec',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -4083,6 +4086,7 @@ export const Tec9: SankeyLink[] = [
         process: 'JX17_1',
         id: 'JX17-13',
         imgUrl: 'dbYhmdg.jpg',
+        netnode: 'tec',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -4169,6 +4173,7 @@ export const Tec9: SankeyLink[] = [
         process: 'JX17_1',
         id: 'JX17-21',
         imgUrl: 'dbYhmdg.jpg',
+        netnode: 'tec',
         color: 'intOneLight3LinkColor',
     },
     {
@@ -4255,6 +4260,7 @@ export const Tec9: SankeyLink[] = [
         process: 'JX17_1',
         id: 'JX17-29',
         imgUrl: 'dbYhmdg.jpg',
+        netnode: 'tec',
         color: 'repVisTechColor',
     },
     {
