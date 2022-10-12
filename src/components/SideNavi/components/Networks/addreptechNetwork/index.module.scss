@@ -1,8 +1,7 @@
-$intermediationNodeColor: #ff00ff;
-$repreentationNodeColor: #0280ff;
+$representationNode: #0280ff;
+$visualtechniquesNodeColor: #f7960b;
 $lineColor: #c0c0c0;
 $lineOpacity: 0.5;
-// $nodeOpacity: 0.3;
 
 .networksContainer {
     border-bottom: 1px solid black;
@@ -30,64 +29,67 @@ $lineOpacity: 0.5;
     stroke-miterlimit: 10;
 }
 @mixin node {
-    // opacity: $nodeOpacity;
     stroke: none;
 }
 .st0 {
     @include line;
-    stroke-width: 7.6405;
+    stroke-width: 4.5843;
 }
 .st1 {
     @include line;
-    stroke-width: 15.281;
+    stroke-width: 2.2922;
 }
 .st2 {
     @include line;
-    stroke-width: 1.9101;
+    stroke-width: 10.3148;
 }
 .st3 {
     @include line;
-    stroke-width: 4.2023;
+    stroke-width: 16.0452;
 }
 .st4 {
     @include line;
-    stroke-width: 4.9663;
+    stroke-width: 17.1912;
 }
 .st5 {
     @include line;
-    stroke-width: 11.4607;
+    stroke-width: 5.7304;
 }
 .st6 {
     @include line;
-    stroke-width: 3.8202;
+    stroke-width: 3.4383;
 }
 .st7 {
     @include line;
-    stroke-width: 2.2921;
+    stroke-width: 14.8991;
 }
 .st8 {
     @include line;
-    stroke-width: 3.0562;
+    stroke-width: 11.4608;
 }
 .st9 {
     @include line;
-    stroke-width: 4.5843;
+    stroke-width: 9.1687;
 }
 .st10 {
     @include line;
-    stroke-width: 3.4382;
+    stroke-width: 8.0226;
 }
 .st11 {
     @include line;
-    stroke-width: 2.6742;
+    stroke-width: 13.753;
 }
 .st12 {
     @include line;
-    stroke-width: 1.1461;
+    stroke-width: 18.3373;
 }
 .st13 {
     @include line;
-    stroke-width: 0.764;
+    stroke-width: 6.8765;
+}
+.st14 {
+    @include line;
+    stroke-width: 12.6069;
 }
 
 .nodeText {
@@ -96,62 +98,52 @@ $lineOpacity: 0.5;
     display: block;
     white-space: wrap;
 }
-.st15 {
-    fill: #808080;
-    font-size: 14px;
-}
 
-.st16 {
-    font-family: 'Helvetica75-Bold';
-}
-//ellipse
-
-.area17 {
+.area1 {
     opacity: 0.2;
-    fill: #64c5eb;
+    fill: #7cc2e5;
     cursor: pointer;
-}
-.area17:hover {
+} // box plot, tag cloud
+.area1:hover {
     opacity: 0.5;
 }
-.area18 {
+.area2 {
     opacity: 0.2;
-    fill: #e84d8a;
+    fill: #d75789;
     cursor: pointer;
-}
-.area18:hover {
+} // node link diagram, bubble chart, spatial based visualization, area chart
+.area2:hover {
     opacity: 0.5;
 }
-.area19 {
+.area3 {
     opacity: 0.2;
-    fill: #feb326;
+    fill: #795baa;
     cursor: pointer;
-}
-.area19:hover {
+} // radar chart, mds map
+.area3:hover {
     opacity: 0.5;
 }
-.area20 {
-    fill: #7f58af;
+.area4 {
     opacity: 0.2;
+    fill: #f1b749;
     cursor: pointer;
-}
-
-.area20:hover {
+} // pie chart, scatter plot, line plot
+.area4:hover {
     opacity: 0.5;
 }
-
-// rect opacity 전역 나중에 고칠 수 있으면 고치기.
-.repreentationNode {
+.area5 {
+    opacity: 0.2;
+    fill: #00d12c;
+    cursor: pointer;
+} // time oriented vis 1개
+.area5:hover {
+    opacity: 0.5;
+}
+.representationNode {
     fill: $repreentationNodeColor;
     @include node;
 }
-
-// .repreentationNode:hover {
-//     opacity: 1;
-// }
-
-.intermediationNode {
-    fill: $intermediationNodeColor;
-    opacity: 0.7;
+.visualtechniquesNode {
+    fill: $visualtechniquesNodeColor;
     @include node;
 }

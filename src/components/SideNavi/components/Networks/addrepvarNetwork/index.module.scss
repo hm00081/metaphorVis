@@ -1,5 +1,5 @@
-$intermediationNodeColor: #ff00ff;
-$repreentationNodeColor: #0280ff;
+$representationNode: #0280ff;
+$visualvariablesNodeColor: #e5df00;
 $lineColor: #c0c0c0;
 $lineOpacity: 0.5;
 
@@ -39,26 +39,6 @@ $lineOpacity: 0.5;
     @include line;
     stroke-width: 4;
 }
-// .st2 {
-//     @include line;
-//     stroke-width: 1.9101;
-// }
-// .st3 {
-//     @include line;
-//     stroke-width: 4.2023;
-// }
-// .st4 {
-//     @include line;
-//     stroke-width: 4.9663;
-// }
-// .st5 {
-//     @include line;
-//     stroke-width: 11.4607;
-// }
-// .st6 {
-//     @include line;
-//     stroke-width: 3.8202;
-// }
 .st7 {
     @include line;
     // stroke-width: 2.2921;
@@ -114,70 +94,36 @@ $lineOpacity: 0.5;
     display: block;
     white-space: wrap;
 }
-// .st15 {
-//     fill: #808080;
-//     font-size: 14px;
-// }
-
-// .st16 {
-//     font-family: 'Helvetica75-Bold';
-// }
-//ellipse
 
 .area1 {
-    opacity: 0.15;
-    fill: #00d12c;
+    opacity: 0.2;
+    fill: #7cc2e5;
     cursor: pointer;
-}
+} // position, value, shape
 .area1:hover {
     opacity: 0.5;
 }
 .area2 {
     opacity: 0.2;
-    fill: #f1b749;
+    fill: #d75789;
     cursor: pointer;
-}
+} // distance, orientation
 .area2:hover {
     opacity: 0.5;
 }
 .area3 {
     opacity: 0.2;
-    fill: #d75789;
+    fill: #795baa;
     cursor: pointer;
-}
+} // color, dimension
 .area3:hover {
     opacity: 0.5;
 }
-.area4 {
-    fill: #eae41f;
-    opacity: 0.22;
-    cursor: pointer;
-}
-
-.area4:hover {
-    opacity: 0.5;
-}
-.area5 {
-    opacity: 0.33;
-    fill: #56bae2;
-    cursor: pointer;
-}
-.area5:hover {
-    opacity: 0.5;
-}
-.area6 {
-    fill: #795baa;
-    opacity: 0.2;
-    cursor: pointer;
-}
-.area6:hover {
-    opacity: 0.5;
-}
-.targetNode {
+.representationNode {
     fill: $repreentationNodeColor;
     @include node;
 }
 .intermediationNode {
-    fill: $intermediationNodeColor;
+    fill: $visualvariablesNodeColor;
     @include node;
 }

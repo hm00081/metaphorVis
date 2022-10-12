@@ -1,5 +1,5 @@
-$intermediationNodeColor: #ff00ff;
-$repreentationNodeColor: #0280ff;
+$intermediationNodeColor: #00d12c;
+$repreentationNodeColor: #fb28fb;
 $lineColor: #c0c0c0;
 $lineOpacity: 0.5;
 
@@ -128,7 +128,7 @@ $lineOpacity: 0.5;
     opacity: 0.15;
     fill: #00d12c;
     cursor: pointer;
-}
+} // timeline analysis
 .area1:hover {
     opacity: 0.5;
 }
@@ -136,7 +136,7 @@ $lineOpacity: 0.5;
     opacity: 0.2;
     fill: #f1b749;
     cursor: pointer;
-}
+} // analysis of debates ~, argument expression == Cluster 4와 동일.
 .area2:hover {
     opacity: 0.5;
 }
@@ -144,7 +144,7 @@ $lineOpacity: 0.5;
     opacity: 0.2;
     fill: #d75789;
     cursor: pointer;
-}
+} // emotion detection, opinion summarization, polarity classification
 .area3:hover {
     opacity: 0.5;
 }
@@ -152,7 +152,7 @@ $lineOpacity: 0.5;
     fill: #eae41f;
     opacity: 0.22;
     cursor: pointer;
-}
+} // finding significant, easy exploration of senitment information, comparison of different sentiments
 
 .area4:hover {
     opacity: 0.5;
@@ -161,7 +161,7 @@ $lineOpacity: 0.5;
     opacity: 0.33;
     fill: #56bae2;
     cursor: pointer;
-}
+} // identifying the intent of sentiment information, detection of evidence ~, emotion cause detection
 .area5:hover {
     opacity: 0.5;
 }
@@ -169,7 +169,7 @@ $lineOpacity: 0.5;
     fill: #795baa;
     opacity: 0.2;
     cursor: pointer;
-}
+} // sentiment information ~, aspect based sentiment
 .area6:hover {
     opacity: 0.5;
 }

@@ -56,7 +56,7 @@ interface Props {
     setClickedCluster: React.Dispatch<React.SetStateAction<SankeyData | undefined>>;
 }
 
-export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }: Props) => {
+export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }: Props) => {
     return (
         <div className={style.networksContainer}>
             <div className={style.title}>Network View</div>
