@@ -1,6 +1,55 @@
 import style from './index.module.scss';
 import { SankeyData } from '../../../../../types';
-import { tic3, tic4, tic5, tic6, clusterfour, int13 } from '../../../../../Data';
+import {
+    tic3,
+    tic4,
+    tic5,
+    tic6,
+    clusterfour,
+    tar1,
+    tar2,
+    tar3,
+    tar4,
+    tar5,
+    tar6,
+    tar7,
+    tar8,
+    tar9,
+    tar10,
+    tar11,
+    tar12,
+    tar13,
+    tar14,
+    tar15,
+    tar16,
+    tar17,
+    tar18,
+    tar19,
+    tar20,
+    tar21,
+    tar22,
+    tar23,
+    tar24,
+    tar25,
+    tar26,
+    tar27,
+    int1,
+    int2,
+    int3,
+    int4,
+    int5,
+    int6,
+    int7,
+    int8,
+    int9,
+    int10,
+    int11,
+    int12,
+    int13,
+    int14,
+    int15,
+    int16,
+} from '../../../../../Data';
 
 interface Props {
     originData: SankeyData;
@@ -483,7 +532,16 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             ry="72.8"
                         />
                         //TODO rect 변형하기
-                        <rect x="533.7" y="20.1" className={style.targetNode} width="21.7" height="21.7" />
+                        <rect
+                            x="533.7"
+                            y="20.1"
+                            onClick={() => {
+                                // setOriginData();
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        />
                         <rect x="442.7" y="82.8" className={style.targetNode} width="21.7" height="21.7" />
                         <rect x="533.7" y="120.7" className={style.intermediationNode} width="21.7" height="21.7" />
                         <rect x="503.6" y="172.9" className={style.intermediationNode} width="21.7" height="21.7" />

@@ -1,53 +1,49 @@
 import style from './index.module.scss';
 import { SankeyData } from '../../../../../types';
 import {
-    clusterone,
-    clustertwo,
-    clusterthree,
-    clusterfour,
-    int1,
-    int2,
-    int3,
-    int4,
-    int5,
-    int6,
-    int7,
-    int8,
-    int9,
-    int10,
-    int11,
-    int12,
-    int13,
-    int14,
-    int15,
-    int16,
-    tar1,
-    tar2,
-    tar3,
-    tar4,
-    tar5,
-    tar6,
-    tar7,
-    tar8,
-    tar9,
-    tar10,
-    tar11,
-    tar12,
-    tar13,
-    tar14,
-    tar15,
-    tar16,
-    tar17,
-    tar18,
-    tar19,
-    tar20,
-    tar21,
-    tar22,
-    tar23,
-    tar24,
-    tar25,
-    tar26,
-    tar27,
+    rtc1,
+    rtc2,
+    rtc3,
+    rtc4,
+    rep1,
+    rep2,
+    rep3,
+    rep4,
+    rep5,
+    rep6,
+    rep7,
+    rep8,
+    rep9,
+    rep10,
+    rep11,
+    rep12,
+    rep13,
+    rep14,
+    rep15,
+    rep16,
+    rep17,
+    rep18,
+    rep19,
+    rep20,
+    rep21,
+    rep22,
+    rep23,
+    rep24,
+    tec1,
+    tec2,
+    tec3,
+    tec4,
+    tec5,
+    tec6,
+    tec7,
+    tec8,
+    tec9,
+    tec10,
+    tec11,
+    tec12,
+    tec13,
+    tec14,
+    tec15,
 } from '../../../../../Data';
 
 interface Props {
@@ -167,11 +163,56 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                         //TODO text 정리
                         {/* Clockwise */}
                         //TODO {/* 사용할 ellipse  */}
-                        <ellipse className={style.area1} cx="593.5" cy="507.5" rx="189" ry="103.9" />
-                        <ellipse className={style.area2} cx="1021.9" cy="313" rx="259.8" ry="149.2" />
-                        <ellipse className={style.area3} cx="175" cy="546.2" rx="147.8" ry="128.5" />
-                        <ellipse className={style.area4} cx="1088.5" cy="598.5" rx="215.6" ry="101.1" />
-                        <ellipse className={style.area5} cx="1132.5" cy="801.4" rx="164.9" ry="59.4" />
+                        <ellipse
+                            className={style.area1}
+                            onClick={() => {
+                                setOriginData(rtc1);
+                            }}
+                            cx="593.5"
+                            cy="507.5"
+                            rx="189"
+                            ry="103.9"
+                        />
+                        <ellipse
+                            className={style.area2}
+                            onClick={() => {
+                                setOriginData(rtc2);
+                            }}
+                            cx="1021.9"
+                            cy="313"
+                            rx="259.8"
+                            ry="149.2"
+                        />
+                        <ellipse
+                            className={style.area3}
+                            onClick={() => {
+                                setOriginData(rtc3);
+                            }}
+                            cx="175"
+                            cy="546.2"
+                            rx="147.8"
+                            ry="128.5"
+                        />
+                        <ellipse
+                            className={style.area4}
+                            onClick={() => {
+                                setOriginData(rtc4);
+                            }}
+                            cx="1088.5"
+                            cy="598.5"
+                            rx="215.6"
+                            ry="101.1"
+                        />
+                        <ellipse
+                            className={style.area5}
+                            onClick={() => {
+                                setOriginData(tec14);
+                            }}
+                            cx="1132.5"
+                            cy="801.4"
+                            rx="164.9"
+                            ry="59.4"
+                        />
                         //TODO rect 변형하기
                         <g>
                             <text transform="matrix(1 0 0 1 715.7818 993.4391)" className={style.nodeText}>

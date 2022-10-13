@@ -78,11 +78,11 @@ import { RVC3Gray } from './RVC3Gray';
 import { RTC1 } from './RTC1';
 import { RTC2 } from './RTC2';
 import { RTC3 } from './RTC3';
-import { RTC4 } from './RVC4';
+import { RTC4 } from './RTC4';
 import { RTC1Gray } from './RTC1Gray';
 import { RTC2Gray } from './RTC2Gray';
-import { RVC3Gray } from './RTC3Gray';
-import { RTC4Gray } from './RTC3Gray';
+import { RTC3Gray } from './RTC3Gray';
+import { RTC4Gray } from './RTC4Gray';
 import { Int1 } from './netIntNode/Int1';
 import { Int2 } from './netIntNode/Int2';
 import { Int3 } from './netIntNode/Int3';
@@ -184,6 +184,10 @@ const TIC6LinkData = [TIC6];
 const RVC1LinkData = [RVC1, RVC1Gray];
 const RVC2LinkData = [RVC2, RVC2Gray];
 const RVC3LinkData = [RVC3, RVC3Gray];
+const RTC1LinkData = [RTC1, RTC1Gray];
+const RTC2LinkData = [RTC2, RTC2Gray];
+const RTC3LinkData = [RTC3, RTC3Gray];
+const RTC4LinkData = [RTC4, RTC4Gray];
 const Int1Data = [Int1];
 const Int2Data = [Int2];
 const Int3Data = [Int3];
@@ -1197,7 +1201,7 @@ const RVC2Cluster = ([].concat.apply([], RVC2LinkData) as SankeyLink[]).reduce<S
 }, []);
 
 //@ts-ignore
-const RVC3Cluster = ([].concat.apply([], RVC2LinkData) as SankeyLink[]).reduce<SankeyLinkExtended[]>((RVC3Cluster, onePaper) => {
+const RVC3Cluster = ([].concat.apply([], RVC3LinkData) as SankeyLink[]).reduce<SankeyLinkExtended[]>((RVC3Cluster, onePaper) => {
     //@ts-ignore
     const clusterFourPaper = RVC3Cluster.find(
         (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
@@ -1220,6 +1224,110 @@ const RVC3Cluster = ([].concat.apply([], RVC2LinkData) as SankeyLink[]).reduce<S
         clusterFourPaper.value += 1;
     }
     return RVC3Cluster;
+}, []);
+
+//@ts-ignore
+const RTC1Cluster = ([].concat.apply([], RTC1LinkData) as SankeyLink[]).reduce<SankeyLinkExtended[]>((RTC1Cluster, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = RTC1Cluster.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        RTC1Cluster.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            cluster: onePaper.cluster,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return RTC1Cluster;
+}, []);
+
+//@ts-ignore
+const RTC2Cluster = ([].concat.apply([], RTC2LinkData) as SankeyLink[]).reduce<SankeyLinkExtended[]>((RTC2Cluster, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = RTC2Cluster.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        RTC2Cluster.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            cluster: onePaper.cluster,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return RTC2Cluster;
+}, []);
+
+//@ts-ignore
+const RTC3Cluster = ([].concat.apply([], RTC3LinkData) as SankeyLink[]).reduce<SankeyLinkExtended[]>((RTC3Cluster, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = RTC3Cluster.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        RTC3Cluster.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            cluster: onePaper.cluster,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return RTC3Cluster;
+}, []);
+
+//@ts-ignore
+const RTC4Cluster = ([].concat.apply([], RTC4LinkData) as SankeyLink[]).reduce<SankeyLinkExtended[]>((RTC4Cluster, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = RTC4Cluster.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        RTC4Cluster.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            cluster: onePaper.cluster,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return RTC4Cluster;
 }, []);
 
 //@ts-ignore
@@ -3666,4 +3774,8 @@ export {
     RVC1Cluster,
     RVC2Cluster,
     RVC3Cluster,
+    RTC1Cluster,
+    RTC2Cluster,
+    RTC3Cluster,
+    RTC4Cluster,
 };

@@ -1,6 +1,6 @@
 import { SankeyLink } from '../types/sankey';
 
-export const RVC1: SankeyLink[] = [
+export const RTC1: SankeyLink[] = [
     {
         source: 101,
         target: 15,
