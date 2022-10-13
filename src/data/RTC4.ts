@@ -1,4 +1,6 @@
-[
+import { SankeyLink } from '../types/sankey';
+
+export const RTC4: SankeyLink[] = [
     { source: 114, target: 16, value: 1, valueid: 'repf', paperName: 'KSBK15', process: 'KSBK15_7', id: 'KSBK15-30', imgUrl: 'AY0EaHs.png', color: 'targetLinkThreeColor', status: 'selected' },
     { source: 16, target: 46, value: 1, valueid: 'repf', paperName: 'KSBK15', process: 'KSBK15_7', id: 'KSBK15-78', imgUrl: 'AY0EaHs.png', color: 'intFiveLinkColor' },
     { source: 46, target: 60, value: 1, valueid: 'repf', paperName: 'KSBK15', process: 'KSBK15_7', id: 'KSBK15-84', imgUrl: 'AY0EaHs.png', color: 'intFiveLinkColor' },

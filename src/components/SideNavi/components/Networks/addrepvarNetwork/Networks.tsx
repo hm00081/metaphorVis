@@ -1,54 +1,6 @@
 import style from './index.module.scss';
 import { SankeyData } from '../../../../../types';
-import {
-    clusterone,
-    clustertwo,
-    clusterthree,
-    clusterfour,
-    int1,
-    int2,
-    int3,
-    int4,
-    int5,
-    int6,
-    int7,
-    int8,
-    int9,
-    int10,
-    int11,
-    int12,
-    int13,
-    int14,
-    int15,
-    int16,
-    tar1,
-    tar2,
-    tar3,
-    tar4,
-    tar5,
-    tar6,
-    tar7,
-    tar8,
-    tar9,
-    tar10,
-    tar11,
-    tar12,
-    tar13,
-    tar14,
-    tar15,
-    tar16,
-    tar17,
-    tar18,
-    tar19,
-    tar20,
-    tar21,
-    tar22,
-    tar23,
-    tar24,
-    tar25,
-    tar26,
-    tar27,
-} from '../../../../../Data';
+import { rvc1, rvc2, rvc3 } from '../../../../../Data';
 
 interface Props {
     originData: SankeyData;
@@ -177,9 +129,36 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                         //TODO text 정리
                         {/* Clockwise */}
                         //TODO {/* 사용할 ellipse  */}
-                        <ellipse className={style.area1} cx="1007.2" cy="274.3" rx="238.3" ry="131" />
-                        <ellipse className={style.area2} cx="1173.2" cy="730.6" rx="158.5" ry="101.1" />
-                        <ellipse className={style.area3} cx="440.8" cy="422.4" rx="199.5" ry="173.4" />
+                        <ellipse
+                            className={style.area1}
+                            onClick={() => {
+                                setOriginData(rvc1);
+                            }}
+                            cx="1007.2"
+                            cy="274.3"
+                            rx="238.3"
+                            ry="131"
+                        />
+                        <ellipse
+                            className={style.area2}
+                            onClick={() => {
+                                setOriginData(rvc2);
+                            }}
+                            cx="1173.2"
+                            cy="730.6"
+                            rx="158.5"
+                            ry="101.1"
+                        />
+                        <ellipse
+                            className={style.area3}
+                            onClick={() => {
+                                setOriginData(rvc3);
+                            }}
+                            cx="440.8"
+                            cy="422.4"
+                            rx="199.5"
+                            ry="173.4"
+                        />
                         //TODO rect 변형하기
                         <g>
                             <text transform="matrix(1 0 0 1 226.4432 689.75)" className={style.nodeText}>
@@ -309,7 +288,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                         <rect x="619.3" y="93.6" className={style.representationNode} width="21.7" height="21.7" />
                         <g>
                             <text transform="matrix(1 0 0 1 390.2047 504.5934)" className={style.nodeText}>
-                                dimension
+                                size(not dimension)
                             </text>
                         </g>
                         <rect x="362.4" y="488.3" className={style.intermediationNode} width="21.7" height="21.7" />

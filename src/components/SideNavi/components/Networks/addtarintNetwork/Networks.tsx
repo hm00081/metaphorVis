@@ -1,54 +1,6 @@
 import style from './index.module.scss';
 import { SankeyData } from '../../../../../types';
-import {
-    clusterone,
-    clustertwo,
-    clusterthree,
-    clusterfour,
-    int1,
-    int2,
-    int3,
-    int4,
-    int5,
-    int6,
-    int7,
-    int8,
-    int9,
-    int10,
-    int11,
-    int12,
-    int13,
-    int14,
-    int15,
-    int16,
-    tar1,
-    tar2,
-    tar3,
-    tar4,
-    tar5,
-    tar6,
-    tar7,
-    tar8,
-    tar9,
-    tar10,
-    tar11,
-    tar12,
-    tar13,
-    tar14,
-    tar15,
-    tar16,
-    tar17,
-    tar18,
-    tar19,
-    tar20,
-    tar21,
-    tar22,
-    tar23,
-    tar24,
-    tar25,
-    tar26,
-    tar27,
-} from '../../../../../Data';
+import { tic3, tic4, tic5, tic6, clusterfour, int13 } from '../../../../../Data';
 
 interface Props {
     originData: SankeyData;
@@ -470,12 +422,66 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                         </g>
                         {/* Clockwise */}
                         //TODO {/* 사용할 ellipse  */}
-                        <ellipse className={style.area1} cx="1191.4" cy="375.5" rx="152.5" ry="94.9" />
-                        <ellipse className={style.area2} cx="548.5" cy="137.1" rx="122.8" ry="74.5" />
-                        <ellipse className={style.area3} cx="305.7" cy="274.1" rx="129.6" ry="106.7" />
-                        <ellipse className={style.area4} cx="955.8" cy="541.4" rx="140.6" ry="108.4" />
-                        <ellipse className={style.area5} cx="407.1" cy="532.9" rx="122" ry="74.7" />
-                        <ellipse className={style.area6} cx="210.5" cy="635.3" rx="120.3" ry="72.8" />
+                        <ellipse
+                            className={style.area1}
+                            onClick={() => {
+                                setOriginData(int13);
+                            }}
+                            cx="1191.4"
+                            cy="375.5"
+                            rx="152.5"
+                            ry="94.9"
+                        />
+                        <ellipse
+                            className={style.area2}
+                            onClick={() => {
+                                setOriginData(clusterfour);
+                            }}
+                            cx="548.5"
+                            cy="137.1"
+                            rx="122.8"
+                            ry="74.5"
+                        />
+                        <ellipse
+                            className={style.area3}
+                            onClick={() => {
+                                setOriginData(tic3);
+                            }}
+                            cx="305.7"
+                            cy="274.1"
+                            rx="129.6"
+                            ry="106.7"
+                        />
+                        <ellipse
+                            className={style.area4}
+                            onClick={() => {
+                                setOriginData(tic4);
+                            }}
+                            cx="955.8"
+                            cy="541.4"
+                            rx="140.6"
+                            ry="108.4"
+                        />
+                        <ellipse
+                            className={style.area5}
+                            onClick={() => {
+                                setOriginData(tic5);
+                            }}
+                            cx="407.1"
+                            cy="532.9"
+                            rx="122"
+                            ry="74.7"
+                        />
+                        <ellipse
+                            className={style.area6}
+                            onClick={() => {
+                                setOriginData(tic6);
+                            }}
+                            cx="210.5"
+                            cy="635.3"
+                            rx="120.3"
+                            ry="72.8"
+                        />
                         //TODO rect 변형하기
                         <rect x="533.7" y="20.1" className={style.targetNode} width="21.7" height="21.7" />
                         <rect x="442.7" y="82.8" className={style.targetNode} width="21.7" height="21.7" />
