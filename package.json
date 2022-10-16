@@ -48,6 +48,7 @@
         "d3-shape": "^3.1.0",
         "d3-time-format": "^4.1.0",
         "d3-transition": "^3.0.1",
+        "eslint": "^8.22.0",
         "framer-motion": "^6.2.8",
         "lodash": "^4.17.21",
         "node-sass": "^7.0.1",

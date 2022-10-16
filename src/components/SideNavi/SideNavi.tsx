@@ -1,4 +1,7 @@
 import { Networks } from './components/Networks/Networks';
+import { TarIntNetworks } from './components/Networks/addtarintNetwork/Networks';
+import { RepTechNetworks } from './components/Networks/addreptechNetwork/Networks';
+import { RepVarNetworks } from './components/Networks/addrepvarNetwork/Networks';
 import { PaperView } from './components/PaperView/PaperView';
 import style from './index.module.scss';
 import { SankeyData, SankeyLink, SankeyLinkExtended } from '../../types/sankey';
@@ -16,7 +19,8 @@ interface Props {
 export function SideNavi({ clickedNodeLinks, clickedLink, clickedButton, clickedCluster, setClickedCluster, originData, setOriginData }: Props) {
     return (
         <div className={style.sideNavi}>
-            <Networks originData={originData} setOriginData={setOriginData} setClickedCluster={setClickedCluster} />
+            {/* <Networks originData={originData} setOriginData={setOriginData} setClickedCluster={setClickedCluster} /> */}
+            <RepTechNetworks originData={originData} setOriginData={setOriginData} setClickedCluster={setClickedCluster} />
             <PaperView
                 originData={originData}
                 setOriginData={setOriginData}

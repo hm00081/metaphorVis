@@ -2,6 +2,7 @@ $intermediationNodeColor: #ff00ff;
 $repreentationNodeColor: #0280ff;
 $lineColor: #c0c0c0;
 $lineOpacity: 0.5;
+// $nodeOpacity: 0.3;
 
 .networksContainer {
     border-bottom: 1px solid black;
@@ -29,6 +30,7 @@ $lineOpacity: 0.5;
     stroke-miterlimit: 10;
 }
 @mixin node {
+    // opacity: $nodeOpacity;
     stroke: none;
 }
 .st0 {
@@ -138,11 +140,18 @@ $lineOpacity: 0.5;
     opacity: 0.5;
 }
 
+// rect opacity 전역 나중에 고칠 수 있으면 고치기.
 .repreentationNode {
     fill: $repreentationNodeColor;
     @include node;
 }
+
+// .repreentationNode:hover {
+//     opacity: 1;
+// }
+
 .intermediationNode {
     fill: $intermediationNodeColor;
+    opacity: 0.7;
     @include node;
 }

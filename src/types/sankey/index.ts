@@ -50,6 +50,7 @@ export type SankeyLink = SankeyLinkMinimal &
         id?: string;
         imgUrl?: string;
         cluster?: string;
+        netnode?: string;
     };
 
 export type LinkColor =

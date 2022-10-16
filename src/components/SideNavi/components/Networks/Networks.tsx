@@ -1,6 +1,52 @@
 import style from './index.module.scss';
 import { SankeyData } from '../../../../types';
-import { clusterone, clustertwo, clusterthree, clusterfour } from '../../../../Data';
+import {
+    clusterone,
+    clustertwo,
+    clusterthree,
+    clusterfour,
+    int1,
+    int2,
+    int3,
+    int4,
+    int5,
+    int6,
+    int7,
+    int8,
+    int9,
+    int10,
+    int11,
+    int12,
+    int13,
+    int14,
+    int15,
+    int16,
+    rep1,
+    rep2,
+    rep3,
+    rep4,
+    rep5,
+    rep6,
+    rep7,
+    rep8,
+    rep9,
+    rep10,
+    rep11,
+    rep12,
+    rep13,
+    rep14,
+    rep15,
+    rep16,
+    rep17,
+    rep18,
+    rep19,
+    rep20,
+    rep21,
+    rep22,
+    rep23,
+    rep24,
+} from '../../../../Data';
+//TODO 1. 노드데이터 불러오기, Network Prop에 link useState 사용해서 정보 타고타고 넘어가서 넣기.
 
 interface Props {
     originData: SankeyData;
@@ -49,7 +95,6 @@ export const Networks = ({ originData, setOriginData, setClickedCluster }: Props
                     <foreignObject requiredExtensions="&ns_ai;" x={0} y={0} width={1} height={1}>
                         {/* <iPgfref xlinkHref="#adobe_illustrator_pgf"></iPgfref> */}
                     </foreignObject>
-
                     <g>
                         <line className={style.st0} x1="613.2" y1="545.6" x2="494.7" y2="698.8" />
                         <line className={style.st0} x1="335" y1="466.7" x2="494.7" y2="704.4" />
@@ -419,124 +464,484 @@ export const Networks = ({ originData, setOriginData, setClickedCluster }: Props
                             <title>Cluster 1</title>
                         </ellipse>
 
-                        <rect x="963.2" y="339.4" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(rep2);
+                            }}
+                            x="963.2"
+                            y="339.4"
+                            className={style.repreentationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>animal</title>
                         </rect>
-                        <rect x="1042.7" y="288.3" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(rep11);
+                            }}
+                            x="1042.7"
+                            y="288.3"
+                            className={style.repreentationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>picture</title>
                         </rect>
-                        <rect x="1146.3" y="274.6" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(rep14);
+                            }}
+                            x="1146.3"
+                            y="274.6"
+                            className={style.repreentationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>fiber</title>
                         </rect>
-                        <rect x="780.1" y="65.7" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(rep8);
+                            }}
+                            x="780.1"
+                            y="65.7"
+                            className={style.repreentationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>cell</title>
                         </rect>
-                        <rect x="648.7" y="14.6" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(rep15);
+                            }}
+                            x="648.7"
+                            y="14.6"
+                            className={style.repreentationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>food</title>
                         </rect>
-                        <rect x="483.6" y="43.4" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(rep1);
+                            }}
+                            x="483.6"
+                            y="43.4"
+                            className={style.repreentationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>celestial</title>
                         </rect>
-                        <rect x="307.8" y="220.8" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(rep21);
+                            }}
+                            x="307.8"
+                            y="220.8"
+                            className={style.repreentationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>behavior</title>
                         </rect>
-                        <rect x="185.9" y="267" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(rep23);
+                            }}
+                            x="185.9"
+                            y="267"
+                            className={style.repreentationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>machine&software work</title>
                         </rect>
-                        <rect x="136.5" y="322.7" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(rep24);
+                            }}
+                            x="136.5"
+                            y="322.7"
+                            className={style.repreentationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>creation and destruction</title>
                         </rect>
-                        <rect x="67.3" y="371.3" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(rep7);
+                            }}
+                            x="67.3"
+                            y="371.3"
+                            className={style.repreentationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>nonmetal</title>
                         </rect>
-                        <rect x="44.9" y="429.7" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(rep22);
+                            }}
+                            x="44.9"
+                            y="429.7"
+                            className={style.repreentationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>space time movement</title>
                         </rect>
-                        <rect x="112.5" y="468.4" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(rep20);
+                            }}
+                            x="112.5"
+                            y="468.4"
+                            className={style.repreentationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>natural phenomena</title>
                         </rect>
-                        <rect x="146.7" y="535.1" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(rep3);
+                            }}
+                            x="146.7"
+                            y="535.1"
+                            className={style.repreentationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>plant</title>
                         </rect>
-                        <rect x="202.1" y="563.5" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(rep4);
+                            }}
+                            x="202.1"
+                            y="563.5"
+                            className={style.repreentationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>landscape</title>
                         </rect>
-                        <rect x="351.7" y="551.5" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(rep10);
+                            }}
+                            x="351.7"
+                            y="551.5"
+                            className={style.repreentationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>geometry</title>
                         </rect>
-                        <rect x="358.7" y="676" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(rep13);
+                            }}
+                            x="358.7"
+                            y="676"
+                            className={style.repreentationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>map</title>
                         </rect>
-                        <rect x="480.9" y="689.6" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(rep19);
+                            }}
+                            x="480.9"
+                            y="689.6"
+                            className={style.repreentationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>letter</title>
                         </rect>
-                        <rect x="166.3" y="898.7" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(rep16);
+                            }}
+                            x="166.3"
+                            y="898.7"
+                            className={style.repreentationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>toy&instrument</title>
                         </rect>
-                        <rect x="456.7" y="1054.8" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(rep17);
+                            }}
+                            x="456.7"
+                            y="1054.8"
+                            className={style.repreentationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>software</title>
                         </rect>
-                        <rect x="351.3" y="1000.6" className={style.intermediationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(int15);
+                            }}
+                            x="351.3"
+                            y="1000.6"
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>finding significant person/opinions/fact/stance/attitude</title>
                         </rect>
-                        <rect x="412.6" y="896.9" className={style.intermediationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(int6);
+                            }}
+                            x="412.6"
+                            y="896.9"
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>opinion summarization</title>
                         </rect>
-                        <rect x="677.4" y="774" className={style.intermediationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(int14);
+                            }}
+                            x="677.4"
+                            y="774"
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>analysis of debates comments and argumentation</title>
                         </rect>
-                        <rect x="758.3" y="731.6" className={style.intermediationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(int4);
+                            }}
+                            x="758.3"
+                            y="731.6"
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>argument expression detection</title>
                         </rect>
-                        <rect x="656.2" y="572.2" className={style.intermediationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(int2);
+                            }}
+                            x="656.2"
+                            y="572.2"
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>identifying the intent of sentiment information</title>
                         </rect>
-                        <rect x="599.2" y="534.7" className={style.intermediationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(int3);
+                            }}
+                            x="599.2"
+                            y="534.7"
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>detection of evidence event that causes sentiment patterns</title>
                         </rect>
-                        <rect x="687.7" y="316.8" className={style.intermediationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(int9);
+                            }}
+                            x="687.7"
+                            y="316.8"
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>polarity classification</title>
                         </rect>
-                        <rect x="539.7" y="199.5" className={style.intermediationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(int7);
+                            }}
+                            x="539.7"
+                            y="199.5"
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>sentiment information description a multi-aspect</title>
                         </rect>
-                        <rect x="620.1" y="112.2" className={style.intermediationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(int5);
+                            }}
+                            x="620.1"
+                            y="112.2"
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>aspect based sentiment analysis</title>
                         </rect>
-                        <rect x="1046.9" y="384.4" className={style.intermediationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(int8);
+                            }}
+                            x="1046.9"
+                            y="384.4"
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>emotion detection and classification</title>
                         </rect>
-                        <rect x="1116.2" y="334.7" className={style.intermediationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(int10);
+                            }}
+                            x="1116.2"
+                            y="334.7"
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>personalized sentiment analysis</title>
                         </rect>
-                        <rect x="417.3" y="617.5" className={style.intermediationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(int12);
+                            }}
+                            x="417.3"
+                            y="617.5"
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>comparison of different sentiments</title>
                         </rect>
-                        <rect x="327.1" y="455.1" className={style.intermediationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(int16);
+                            }}
+                            x="327.1"
+                            y="455.1"
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>easy exploration of sentiment information</title>
                         </rect>
-                        <rect x="224.9" y="401" className={style.intermediationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(int13);
+                            }}
+                            x="224.9"
+                            y="401"
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>timeline analysis</title>
                         </rect>
-                        <rect x="179.8" y="764.5" className={style.intermediationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(int11);
+                            }}
+                            x="179.8"
+                            y="764.5"
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>multilingual/crosslingual sentiment analysis</title>
                         </rect>
-                        <rect x="8.4" y="617.3" className={style.intermediationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(int1);
+                            }}
+                            x="8.4"
+                            y="617.3"
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>emotion cause detection</title>
                         </rect>
-                        <rect x="572.4" y="722.8" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(rep5);
+                            }}
+                            x="572.4"
+                            y="722.8"
+                            className={style.repreentationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>compound</title>
                         </rect>
-                        <rect x="712.1" y="688.1" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(rep9);
+                            }}
+                            x="712.1"
+                            y="688.1"
+                            className={style.repreentationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>building&structure</title>
                         </rect>
-                        <rect x="479" y="506.2" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(rep12);
+                            }}
+                            x="479"
+                            y="506.2"
+                            className={style.repreentationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>pattern</title>
                         </rect>
-                        <rect x="447.7" y="385.9" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(rep18);
+                            }}
+                            x="447.7"
+                            y="385.9"
+                            className={style.repreentationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>machine</title>
                         </rect>
-                        <rect x="351" y="340.9" className={style.repreentationNode} width="21.7" height="21.7">
+                        <rect
+                            onClick={() => {
+                                setOriginData(rep6);
+                            }}
+                            x="351"
+                            y="340.9"
+                            className={style.repreentationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
                             <title>metal</title>
                         </rect>
                     </g>

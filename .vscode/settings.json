@@ -1,4 +1,57 @@
-{
-    "python.pythonPath": "C:\\Users\\hm000\\AppData\\Local\\Programs\\Python\\Python36\\python.exe",
-    "liveServer.settings.port": 5501
-}
+    {
+        "workbench.iconTheme": "material-icon-theme",
+        "workbench.colorTheme": "Material Theme Darker",
+        "[html]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[javascript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "eslint.validate": ["javascript", "javascriptreact"],
+        "eslint.autoFixOnSave": true,
+        "eslint.alwaysShowStatus": true,
+        "liveServer.settings.donotShowInfoMsg": true,
+        "[json]": {
+            "editor.quickSuggestions": {
+                "strings": true
+            },
+            "editor.suggest.insertMode": "replace"
+        },
+        "json.schemas": [],
+        "launch": {
+            "configurations": [],
+            "compounds": []
+        },
+        "eslint.validate": [{ "language": "javascript" }, { "language": "typecript" }, { "language": "html" }],
+        "prettier.printWidth": 200,
+        "prettier.tabWidth": 4,
+        "prettier.singleQuote": true,
+        "prettier.trailingComma": "es5",
+        "php.validate.enable": false,
+        "php.validate.executablePath": "C:/php-8.0.9-Win32-vs16-x64",
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "files.associations": {
+            "*.rmd": "markdown"
+        },
+        "python.pythonPath": "C:\\Users\\hm000\\anaconda3\\envs\\pr_tensorflow2",
+        "terminal.integrated.automationShell.windows": "",
+        "vetur.validation.template": false,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        },
+        "terminal.integrated.defaultProfile.windows": "Command Prompt",
+        "workbench.editorAssociations": {
+            "*.pyc": "default"
+        },
+        "update.mode": "none",
+        "jupyter.askForKernelRestart": false,
+        "files.trimTrailingWhitespace": true,
+        "tabnine.experimentalAutoImports": true,
+        "svelte.enable-ts-plugin": true,
+        "[python]": {
+            "editor.defaultFormatter": "ms-python.python"
+        },
+        "liveshare.presence": true
+    }
+

@@ -85,7 +85,7 @@ const MDJW07: SankeyData = {
             source: 5,
             target: 34,
             value: 1,
-            valueid: ['targetbb', 'repd'],
+            valueid: ['targetbb', 'repb'],
             process: 'MDJW07_1',
         },
         {
