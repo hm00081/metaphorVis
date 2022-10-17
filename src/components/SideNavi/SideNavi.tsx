@@ -1,13 +1,14 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-import { Networks } from './components/Networks/Networks';
-import { TarIntNetworks } from './components/Networks/addtarintNetwork/Networks';
-import { RepTechNetworks } from './components/Networks/addreptechNetwork/Networks';
-import { RepVarNetworks } from './components/Networks/addrepvarNetwork/Networks';
+import { IntRepNetwork } from './components/Networks/IntRepNetwork/Networks';
+import { TarIntNetworks } from './components/Networks/TarIntNetwork/Networks';
+import { RepTechNetworks } from './components/Networks/RepTechNetwork/Networks';
+import { RepVarNetworks } from './components/Networks/RepVarNetwork/Networks';
 import { PaperView } from './components/PaperView/PaperView';
 import style from './index.module.scss';
 import { SankeyData, SankeyLink, SankeyLinkExtended } from '../../types/sankey';
 import { ReactElement, ReactNode, useState } from 'react';
 import { FormControl, MenuItem, Select } from '@mui/material';
+import { LinkBlackColor } from '../Sankey/SankeyColor';
 
 interface Props {
     clickedNodeLinks: SankeyLinkExtended[] | undefined;
@@ -25,10 +26,10 @@ export function SideNavi({ clickedNodeLinks, clickedLink, clickedButton, clicked
         race: ReactElement;
     }
     const characters: Character[] = [
-        { name: 'TarIntNetworks', race: <TarIntNetworks originData={originData} setOriginData={setOriginData} setClickedCluster={setClickedCluster} /> },
-        { name: 'IntRepNetworks', race: <Networks originData={originData} setOriginData={setOriginData} setClickedCluster={setClickedCluster} /> },
-        { name: 'RepTechNetworks', race: <RepTechNetworks originData={originData} setOriginData={setOriginData} setClickedCluster={setClickedCluster} /> },
-        { name: 'RepVarNetworks', race: <RepVarNetworks originData={originData} setOriginData={setOriginData} setClickedCluster={setClickedCluster} /> },
+        { name: 'Tar-Int Network', race: <TarIntNetworks originData={originData} setOriginData={setOriginData} setClickedCluster={setClickedCluster} /> },
+        { name: 'Int-Rep Network', race: <IntRepNetwork originData={originData} setOriginData={setOriginData} setClickedCluster={setClickedCluster} /> },
+        { name: 'Rep-Tech Network', race: <RepTechNetworks originData={originData} setOriginData={setOriginData} setClickedCluster={setClickedCluster} /> },
+        { name: 'Rep-Var Network', race: <RepVarNetworks originData={originData} setOriginData={setOriginData} setClickedCluster={setClickedCluster} /> },
     ];
 
     const [characterm, setCharacter] = useState<ReactNode>(characters[0].race);
@@ -40,13 +41,16 @@ export function SideNavi({ clickedNodeLinks, clickedLink, clickedButton, clicked
             <FormControl style={{ marginLeft: '15px' }} sx={(theme) => ({ m: 1, mb: 0, width: 180, mt: 0, color: theme.palette.secondary.main })} size="small">
                 <Select
                     sx={(theme) => ({
+                        border: 1,
+                        borderColor: theme.palette.secondary.main,
                         color: theme.palette.secondary.main,
                         fontSize: 10,
                         fontWeight: 'bold',
                         mb: 0,
+                        '.MuiOutlinedInput-notchedOutline': { border: 0 },
                     })}
                     multiple={false}
-                    defaultValue={'TarIntNetworks'}
+                    defaultValue={'Tar-Int Network'}
                     renderValue={(selected) => {
                         return selected;
                     }}
@@ -60,9 +64,18 @@ export function SideNavi({ clickedNodeLinks, clickedLink, clickedButton, clicked
                     {characters.map((c) => (
                         <MenuItem
                             sx={(theme) => ({
-                                ...theme.typography.body1,
                                 color: theme.palette.secondary.main,
                                 fontSize: 7.5,
+                                '&:hover': {
+                                    color: 'common.black',
+                                    backgroundColor: '#E8DAEF',
+                                },
+
+                                '&.Mui-selected': {
+                                    color: '#FDFEFE',
+                                    backgroundColor: '#A569BD',
+                                    '&:hover': { backgroundColor: '#E8DAEF' },
+                                },
                             })}
                             key={c.name}
                             value={c.name}>
