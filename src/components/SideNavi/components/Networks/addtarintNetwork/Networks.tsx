@@ -61,7 +61,7 @@ interface Props {
 export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }: Props) => {
     return (
         <div className={style.networksContainer}>
-            <div className={style.title}>Network View</div>
+            {/* <div className={style.title}>Network View</div> */}
             <div className={style.categoryWrapper}>
                 <svg width="25" height="25" style={{ marginLeft: '3px' }}>
                     <rect width="13" height="13" style={{ fill: '#00d12c', paddingRight: '2px' }}></rect>
