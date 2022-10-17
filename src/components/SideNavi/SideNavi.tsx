@@ -7,7 +7,7 @@ import { PaperView } from './components/PaperView/PaperView';
 import style from './index.module.scss';
 import { SankeyData, SankeyLink, SankeyLinkExtended } from '../../types/sankey';
 import { ReactElement, ReactNode, useState } from 'react';
-import { FormControl, InputLabel, MenuItem, Select } from '@mui/material';
+import { FormControl, MenuItem, Select } from '@mui/material';
 
 interface Props {
     clickedNodeLinks: SankeyLinkExtended[] | undefined;
@@ -25,8 +25,8 @@ export function SideNavi({ clickedNodeLinks, clickedLink, clickedButton, clicked
         race: ReactElement;
     }
     const characters: Character[] = [
-        { name: 'Networks', race: <Networks originData={originData} setOriginData={setOriginData} setClickedCluster={setClickedCluster} /> },
         { name: 'TarIntNetworks', race: <TarIntNetworks originData={originData} setOriginData={setOriginData} setClickedCluster={setClickedCluster} /> },
+        { name: 'IntRepNetworks', race: <Networks originData={originData} setOriginData={setOriginData} setClickedCluster={setClickedCluster} /> },
         { name: 'RepTechNetworks', race: <RepTechNetworks originData={originData} setOriginData={setOriginData} setClickedCluster={setClickedCluster} /> },
         { name: 'RepVarNetworks', race: <RepVarNetworks originData={originData} setOriginData={setOriginData} setClickedCluster={setClickedCluster} /> },
     ];
@@ -36,16 +36,17 @@ export function SideNavi({ clickedNodeLinks, clickedLink, clickedButton, clicked
     return (
         <div className={style.sideNavi}>
             <div className={style.title}>Network View</div>
-            <FormControl sx={(theme) => ({ m: 1, mb: 0, width: 180, mt: 0, color: theme.palette.secondary.main })} size="small">
+
+            <FormControl style={{ marginLeft: '15px' }} sx={(theme) => ({ m: 1, mb: 0, width: 180, mt: 0, color: theme.palette.secondary.main })} size="small">
                 <Select
                     sx={(theme) => ({
                         color: theme.palette.secondary.main,
-                        fontSize: 11,
+                        fontSize: 10,
                         fontWeight: 'bold',
                         mb: 0,
                     })}
                     multiple={false}
-                    defaultValue={'Networks'}
+                    defaultValue={'TarIntNetworks'}
                     renderValue={(selected) => {
                         return selected;
                     }}

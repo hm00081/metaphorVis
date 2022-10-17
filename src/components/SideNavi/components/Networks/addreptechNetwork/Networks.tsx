@@ -73,7 +73,7 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                 <svg width="25" height="25" style={{ marginLeft: '10px' }}>
                     <rect width="13" height="13" style={{ fill: '#f7960b', paddingRight: '20px' }}></rect>
                 </svg>
-                <div style={{ fontSize: '11px', fontWeight: '630', marginTop: '-5px' }}>Visualize Techniques</div>
+                <div style={{ fontSize: '11px', fontWeight: '630', marginTop: '-5px' }}>Visual Techniques</div>
             </div>
             <svg
                 className={style.networkArea}
