@@ -46,7 +46,6 @@ interface Props {
 export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }: Props) => {
     return (
         <div className={style.networksContainer}>
-            <div className={style.title}>Network View</div>
             <div className={style.categoryWrapper}>
                 <svg width="25" height="25" style={{ marginLeft: '3px' }}>
                     <rect width="13" height="13" style={{ fill: '#0280ff', paddingRight: '2px' }}></rect>
@@ -58,8 +57,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                         marginRight: '20px',
                         marginBottom: '5px',
                         marginTop: '-5px',
-                    }}
-                >
+                    }}>
                     Representation
                 </div>
 
@@ -78,8 +76,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                 y="0px"
                 width="100%"
                 viewBox="0 0 1525 1150"
-                xmlSpace="preserve"
-            >
+                xmlSpace="preserve">
                 <switch>
                     <foreignObject requiredExtensions="&ns_ai;" x={0} y={0} width={1} height={1}>
                         {/* <iPgfref xlinkHref="#adobe_illustrator_pgf"></iPgfref> */}
@@ -208,8 +205,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>letter</title>
                         </rect>
                         <g>
@@ -225,8 +221,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>picture</title>
                         </rect>
                         <g>
@@ -242,8 +237,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>toys &amp; instrument</title>
                         </rect>
                         <g>
@@ -259,8 +253,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>behavior</title>
                         </rect>
                         <g>
@@ -284,8 +277,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>food</title>
                         </rect>
                         <g>
@@ -301,8 +293,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>metal</title>
                         </rect>
                         <g>
@@ -318,8 +309,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>cell</title>
                         </rect>
                         <g>
@@ -335,8 +325,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>fiber</title>
                         </rect>
                         <g>
@@ -352,8 +341,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>map</title>
                         </rect>
                         <g>
@@ -369,8 +357,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>compound</title>
                         </rect>
                         <g>
@@ -386,8 +373,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>machine</title>
                         </rect>
                         <g>
@@ -403,8 +389,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>plant</title>
                         </rect>
                         <g>
@@ -420,8 +405,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>geometry</title>
                         </rect>
                         <g>
@@ -437,8 +421,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>landscape</title>
                         </rect>
                         <g>
@@ -454,8 +437,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>building&amp;structure</title>
                         </rect>
                         <g>
@@ -471,8 +453,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>nonmetal</title>
                         </rect>
                         <g>
@@ -488,8 +469,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>celestial</title>
                         </rect>
                         <g>
@@ -505,8 +485,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>pattern</title>
                         </rect>
                         <g>
@@ -522,8 +501,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>animal</title>
                         </rect>
                         <g>
@@ -539,8 +517,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>natural phenomena</title>
                         </rect>
                         <g>
@@ -556,8 +533,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>size</title>
                         </rect>
                         <g>
@@ -573,8 +549,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>color</title>
                         </rect>
                         <g>
@@ -590,8 +565,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>shape</title>
                         </rect>
                         <g>
@@ -607,8 +581,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>value</title>
                         </rect>
                         <g>
@@ -624,8 +597,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>position</title>
                         </rect>
                         <g>
@@ -641,8 +613,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>distance</title>
                         </rect>
                         <g>
@@ -658,8 +629,7 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7"
-                        >
+                            height="21.7">
                             <title>orientation</title>
                         </rect>
                     </g>
