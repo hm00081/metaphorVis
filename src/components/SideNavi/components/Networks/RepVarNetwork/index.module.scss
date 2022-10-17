@@ -18,8 +18,7 @@ $lineOpacity: 0.5;
     padding-left: 13px;
 }
 .networkArea {
-    padding: 10px 10px 0px 10px;
-    // margin-left: 15px;
+    padding: 0 10px;
 }
 
 @mixin line {
@@ -30,18 +29,20 @@ $lineOpacity: 0.5;
 }
 @mixin node {
     stroke: none;
+    width: 21.7px;
+    height: 21.7px;
 }
-// .st0 {
-//     @include line;
-//     stroke-width: 7.6405;
-// }
+.st0 {
+    @include line;
+    stroke-width: 7.6405;
+}
 .st1 {
     @include line;
     stroke-width: 4;
 }
 .st7 {
     @include line;
-    // stroke-width: 2.2921;
+    stroke-width: 2.2921;
 }
 .st8 {
     @include line;

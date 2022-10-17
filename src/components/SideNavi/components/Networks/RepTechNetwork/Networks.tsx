@@ -84,12 +84,10 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                 x="0px"
                 y="0px"
                 width="100%"
-                viewBox="0 0 1525 1150"
+                viewBox="0 0 1550 1100"
                 xmlSpace="preserve">
                 <switch>
-                    <foreignObject requiredExtensions="&ns_ai;" x={0} y={0} width={1} height={1}>
-                        {/* <iPgfref xlinkHref="#adobe_illustrator_pgf"></iPgfref> */}
-                    </foreignObject>
+                    <foreignObject requiredExtensions="&ns_ai;" x={0} y={0} width={1} height={1}></foreignObject>
                     <g>
                         <line className={style.st0} x1="484.7" y1="471.7" x2="541.2" y2="798.3" />
                         <line className={style.st1} x1="1129.2" y1="800.5" x2="541.2" y2="798.3" />
@@ -157,9 +155,6 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                         <line className={style.st10} x1="646.6" y1="521.6" x2="881.9" y2="693.2" />
                         <line className={style.st13} x1="1129.2" y1="800.5" x2="1385.3" y2="641.6" />
                         <line className={style.st9} x1="881.9" y1="693.2" x2="1080.1" y2="649.3" />
-                        //TODO text 정리
-                        {/* Clockwise */}
-                        //TODO {/* 사용할 ellipse  */}
                         <ellipse
                             className={style.area1}
                             onClick={() => {
@@ -210,7 +205,6 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             rx="164.9"
                             ry="59.4"
                         />
-                        //TODO rect 변형하기
                         <g>
                             <text transform="matrix(1 0 0 1 715.7818 993.4391)" className={style.nodeText}>
                                 metal
@@ -325,7 +319,10 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                         </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 1405.3893 649.3151)" className={style.nodeText}>
-                                space tim.
+                                space time
+                            </text>
+                            <text transform="matrix(1 0 0 1 1405.3893 675)" className={style.nodeText}>
+                                movement
                             </text>
                         </g>
                         <rect
@@ -336,9 +333,7 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7">
-                            <title>space time movement</title>
-                        </rect>
+                            height="21.7"></rect>
                         <g>
                             <text transform="matrix(1 0 0 1 629.5425 739.9928)" className={style.nodeText}>
                                 creation and destruction
