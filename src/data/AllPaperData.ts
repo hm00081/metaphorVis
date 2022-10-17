@@ -65,6 +65,7 @@ import { ClusterThree } from './ClusterThree';
 import { ClusterFour } from './ClusterFour';
 import { ClusterFourr } from './ClusterFours';
 import { TIC3 } from './TIC3';
+import { TIC3Gray } from './TIC3Gray';
 import { TIC4 } from './TIC4';
 import { TIC4Gray } from './TIC4Gray';
 import { TIC5 } from './TIC5';
@@ -88,6 +89,7 @@ import { Int2 } from './netIntNode/Int2';
 import { Int3 } from './netIntNode/Int3';
 import { Int4 } from './netIntNode/Int4';
 import { Int5 } from './netIntNode/Int5';
+import { Int5a } from './netIntNode/Int5a';
 import { Int6 } from './netIntNode/Int6';
 import { Int7 } from './netIntNode/Int7';
 import { Int8 } from './netIntNode/Int8';
@@ -177,7 +179,7 @@ const ClusteroneLinkData = [ClusterOne];
 const ClustertwoLinkData = [ClusterTwo];
 const ClusterthreeLinkData = [ClusterThree];
 const ClusterfourLinkData = [ClusterFour, ClusterFourr];
-const TIC3LinkData = [TIC3];
+const TIC3LinkData = [TIC3, TIC3Gray];
 const TIC4LinkData = [TIC4, TIC4Gray];
 const TIC5LinkData = [TIC5];
 const TIC6LinkData = [TIC6];
@@ -193,6 +195,7 @@ const Int2Data = [Int2];
 const Int3Data = [Int3];
 const Int4Data = [Int4];
 const Int5Data = [Int5];
+const Int5aData = [Int5a];
 const Int6Data = [Int6];
 const Int7Data = [Int7];
 const Int8Data = [Int8];
@@ -1461,6 +1464,32 @@ const Int5s = ([].concat.apply([], Int5Data) as SankeyLink[]).reduce<SankeyLinkE
 }, []);
 
 //@ts-ignore
+const Int5as = ([].concat.apply([], Int5aData) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Int5as, onePaper) => {
+    //@ts-ignore
+    const clusterFourPaper = Int5as.find(
+        (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
+    );
+
+    if (!clusterFourPaper) {
+        //@ts-ignore
+        Int5as.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            imgUrl: onePaper.imgUrl,
+            id: onePaper.id,
+            netnode: onePaper.netnode,
+        });
+    } else {
+        clusterFourPaper.value += 1;
+    }
+    return Int5as;
+}, []);
+
+//@ts-ignore
 const Int6s = ([].concat.apply([], Int6Data) as SankeyLink[]).reduce<SankeyLinkExtended[]>((Int6s, onePaper) => {
     //@ts-ignore
     const clusterFourPaper = Int6s.find(
@@ -2391,7 +2420,7 @@ const Var1s = ([].concat.apply([], Var1Data) as SankeyLink[]).reduce<SankeyLinkE
             netnode: onePaper.netnode,
         });
     } else {
-        clusterFourPaper.value += 1;
+        clusterFourPaper.value += 0;
     }
     return Var1s;
 }, []);
@@ -3683,6 +3712,7 @@ export {
     Int3s,
     Int4s,
     Int5s,
+    Int5as,
     Int6s,
     Int7s,
     Int8s,

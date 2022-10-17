@@ -58,7 +58,7 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
             <div className={style.title}>Network View</div>
             <div className={style.categoryWrapper}>
                 <svg width="25" height="25" style={{ marginLeft: '3px' }}>
-                    <rect width="13" height="13" style={{ fill: '#ff00ff', paddingRight: '2px' }}></rect>
+                    <rect width="13" height="13" style={{ fill: '#0280ff', paddingRight: '2px' }}></rect>
                 </svg>
                 <div
                     style={{
@@ -73,9 +73,9 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                 </div>
 
                 <svg width="25" height="25" style={{ marginLeft: '10px' }}>
-                    <rect width="13" height="13" style={{ fill: '#0280ff', paddingRight: '20px' }}></rect>
+                    <rect width="13" height="13" style={{ fill: '#f7960b', paddingRight: '20px' }}></rect>
                 </svg>
-                <div style={{ fontSize: '11px', fontWeight: '630', marginTop: '-5px' }}>Visual Variables</div>
+                <div style={{ fontSize: '11px', fontWeight: '630', marginTop: '-5px' }}>Visualize Techniques</div>
             </div>
             <svg
                 className={style.networkArea}
@@ -219,217 +219,613 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                                 metal
                             </text>
                         </g>
-                        <rect x="681.8" y="971.9" className={style.representationNode} width="27.8" height="27.8" />
+                        <rect
+                            x="681.8"
+                            y="971.9"
+                            onClick={() => {
+                                setOriginData(rep6);
+                            }}
+                            className={style.representationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>metal</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 775.0245 899.7008)" className={style.nodeText}>
                                 food
                             </text>
                         </g>
-                        <rect x="741" y="878.1" className={style.representationNode} width="27.8" height="27.8" />
+                        <rect
+                            x="741"
+                            y="878.1"
+                            onClick={() => {
+                                setOriginData(rep15);
+                            }}
+                            className={style.representationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>food</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 999.2466 955.152)" className={style.nodeText}>
                                 behavior
                             </text>
                         </g>
-                        <rect x="965.2" y="933.6" className={style.representationNode} width="27.8" height="27.8" />
+                        <rect
+                            x="965.2"
+                            y="933.6"
+                            onClick={() => {
+                                setOriginData(rep21);
+                            }}
+                            className={style.representationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>behavior</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 1166.4762 988.402)" className={style.nodeText}>
                                 machine software work
                             </text>
                         </g>
-                        <rect x="1132.5" y="966.8" className={style.representationNode} width="27.8" height="27.8" />
+                        <rect
+                            x="1132.5"
+                            y="966.8"
+                            onClick={() => {
+                                setOriginData(rep23);
+                            }}
+                            className={style.representationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>machine software work</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 1267.7135 938.5406)" className={style.nodeText}>
                                 machine
                             </text>
                         </g>
-                        <rect x="1233.7" y="917" className={style.representationNode} width="27.8" height="27.8" />
+                        <rect
+                            x="1233.7"
+                            y="917"
+                            onClick={() => {
+                                setOriginData(rep18);
+                            }}
+                            className={style.representationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>machine</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 1330.7057 858.3004)" className={style.nodeText}>
                                 nonmetal
                             </text>
                         </g>
-                        <rect x="1296.7" y="836.7" className={style.representationNode} width="27.8" height="27.8" />
+                        <rect
+                            x="1296.7"
+                            y="836.7"
+                            onClick={() => {
+                                setOriginData(rep7);
+                            }}
+                            className={style.representationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>nonmetal</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 1216.7203 714.8199)" className={style.nodeText}>
                                 picture
                             </text>
                         </g>
-                        <rect x="1182.7" y="693.2" className={style.representationNode} width="27.8" height="27.8" />
+                        <rect
+                            x="1182.7"
+                            y="693.2"
+                            onClick={() => {
+                                setOriginData(rep11);
+                            }}
+                            className={style.representationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>picture</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 1405.3893 649.3151)" className={style.nodeText}>
                                 space time movement
                             </text>
                         </g>
-                        <rect x="1371.4" y="627.7" className={style.representationNode} width="27.8" height="27.8" />
+                        <rect
+                            x="1371.4"
+                            y="627.7"
+                            onClick={() => {
+                                setOriginData(rep22);
+                            }}
+                            className={style.representationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>space time movement</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 629.5425 739.9928)" className={style.nodeText}>
                                 creation and destruction
                             </text>
                         </g>
-                        <rect x="595.5" y="718.4" className={style.representationNode} width="27.8" height="27.8" />
+                        <rect
+                            x="595.5"
+                            y="718.4"
+                            onClick={() => {
+                                setOriginData(rep24);
+                            }}
+                            className={style.representationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>creation and destruction</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 561.3008 808.234)" className={style.nodeText}>
                                 natural phenomena
                             </text>
                         </g>
-                        <rect x="527.3" y="786.7" className={style.representationNode} width="27.8" height="27.8" />
+                        <rect
+                            x="527.3"
+                            y="786.7"
+                            onClick={() => {
+                                setOriginData(rep20);
+                            }}
+                            className={style.representationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>natural phenomena</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 261.5172 790.6588)" className={style.nodeText}>
                                 software
                             </text>
                         </g>
-                        <rect x="227.5" y="769.1" className={style.representationNode} width="27.8" height="27.8" />
+                        <rect
+                            x="227.5"
+                            y="769.1"
+                            onClick={() => {
+                                setOriginData(rep17);
+                            }}
+                            className={style.representationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>software</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 341.7569 621.5475)" className={style.nodeText}>
                                 building&amp;structure
                             </text>
                         </g>
-                        <rect x="307.7" y="600" className={style.representationNode} width="27.8" height="27.8" />
+                        <rect
+                            x="307.7"
+                            y="600"
+                            onClick={() => {
+                                setOriginData(rep9);
+                            }}
+                            className={style.representationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>building&amp;structure</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 629.5425 631.1276)" className={style.nodeText}>
                                 letter
                             </text>
                         </g>
-                        <rect x="595.5" y="609.5" className={style.representationNode} width="27.8" height="27.8" />
+                        <rect
+                            x="595.5"
+                            y="609.5"
+                            onClick={() => {
+                                setOriginData(rep19);
+                            }}
+                            className={style.representationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>letter</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 902.0362 700.9362)" className={style.nodeText}>
                                 landscape
                             </text>
                         </g>
-                        <rect x="868" y="679.4" className={style.representationNode} width="27.8" height="27.8" />
+                        <rect
+                            x="868"
+                            y="679.4"
+                            onClick={() => {
+                                setOriginData(rep4);
+                            }}
+                            className={style.representationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>landscape</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 802.7911 574.9479)" className={style.nodeText}>
                                 toys&amp;instrument
                             </text>
                         </g>
-                        <rect x="768.8" y="553.4" className={style.representationNode} width="27.8" height="27.8" />
+                        <rect
+                            x="768.8"
+                            y="553.4"
+                            onClick={() => {
+                                setOriginData(rep16);
+                            }}
+                            className={style.representationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>toys&amp;instrument</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 940.774 486.4586)" className={style.nodeText}>
                                 geometry
                             </text>
                         </g>
-                        <rect x="906.8" y="464.9" className={style.representationNode} width="27.8" height="27.8" />
+                        <rect
+                            x="906.8"
+                            y="464.9"
+                            onClick={() => {
+                                setOriginData(rep10);
+                            }}
+                            className={style.representationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>geometry </title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 782.6612 444.8981)" className={style.nodeText}>
                                 pattern
                             </text>
                         </g>
-                        <rect x="748.6" y="423.3" className={style.representationNode} width="27.8" height="27.8" />
+                        <rect
+                            x="748.6"
+                            y="423.3"
+                            onClick={() => {
+                                setOriginData(rep12);
+                            }}
+                            className={style.representationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>pattern</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 673.1749 417.131)" className={style.nodeText}>
                                 map
                             </text>
                         </g>
-                        <rect x="639.2" y="395.5" className={style.representationNode} width="27.8" height="27.8" />
+                        <rect
+                            x="639.2"
+                            y="395.5"
+                            onClick={() => {
+                                setOriginData(rep13);
+                            }}
+                            className={style.representationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>map</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 718.919 264.9001)" className={style.nodeText}>
                                 compound
                             </text>
                         </g>
-                        <rect x="684.9" y="243.3" className={style.representationNode} width="27.8" height="27.8" />
+                        <rect
+                            x="684.9"
+                            y="243.3"
+                            onClick={() => {
+                                setOriginData(rep5);
+                            }}
+                            className={style.representationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>1</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 1281.6764 337.9855)" className={style.nodeText}>
                                 cell
                             </text>
                         </g>
-                        <rect x="1247.7" y="316.4" className={style.representationNode} width="27.8" height="27.8" />
+                        <rect
+                            x="1247.7"
+                            y="316.4"
+                            onClick={() => {
+                                setOriginData(rep8);
+                            }}
+                            className={style.representationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>cell</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 629.5421 165.526)" className={style.nodeText}>
                                 plant
                             </text>
                         </g>
-                        <rect x="595.5" y="143.9" className={style.representationNode} width="27.8" height="27.8" />
+                        <rect
+                            x="595.5"
+                            y="143.9"
+                            onClick={() => {
+                                setOriginData(rep3);
+                            }}
+                            className={style.representationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>plant</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 1066.4967 422.2355)" className={style.nodeText}>
                                 area chart
                             </text>
                         </g>
-                        <rect x="1034.4" y="402.4" className={style.visualtechniquesNode} width="27.2" height="27.2" />
+                        <rect
+                            x="1034.4"
+                            y="402.4"
+                            onClick={() => {
+                                setOriginData(tec4);
+                            }}
+                            className={style.visualtechniquesNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>area chart</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 1075.5289 566.0475)" className={style.nodeText}>
                                 scatter plot
                             </text>
                         </g>
-                        <rect x="1043.4" y="546.2" className={style.visualtechniquesNode} width="27.2" height="27.2" />
+                        <rect
+                            x="1043.4"
+                            y="546.2"
+                            onClick={() => {
+                                setOriginData(tec12);
+                            }}
+                            className={style.visualtechniquesNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>scatter plot</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 978.9498 618.2584)" className={style.nodeText}>
                                 pie chart
                             </text>
                         </g>
-                        <rect x="946.8" y="598.5" className={style.visualtechniquesNode} width="27.2" height="27.2" />
+                        <rect
+                            x="946.8"
+                            y="598.5"
+                            onClick={() => {
+                                setOriginData(tec7);
+                            }}
+                            className={style.visualtechniquesNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>pie chart</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 1098.6383 657.024)" className={style.nodeText}>
                                 line plot
                             </text>
                         </g>
-                        <rect x="1066.5" y="637.2" className={style.visualtechniquesNode} width="27.2" height="27.2" />
+                        <rect
+                            x="1066.5"
+                            y="637.2"
+                            onClick={() => {
+                                setOriginData(tec5);
+                            }}
+                            className={style.visualtechniquesNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>line plot</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 1147.0416 805.9987)" className={style.nodeText}>
                                 time oriented visualization
                             </text>
                         </g>
-                        <rect x="1114.9" y="786.2" className={style.visualtechniquesNode} width="27.2" height="27.2" />
+                        <rect
+                            x="1114.9"
+                            y="786.2"
+                            onClick={() => {
+                                setOriginData(tec14);
+                            }}
+                            className={style.visualtechniquesNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>?</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 439.8839 941.8561)" className={style.nodeText}>
                                 3d visualization
                             </text>
                         </g>
-                        <rect x="407.7" y="922.1" className={style.visualtechniquesNode} width="27.2" height="27.2" />
+                        <rect
+                            x="407.7"
+                            y="922.1"
+                            onClick={() => {
+                                setOriginData(tec1);
+                            }}
+                            className={style.visualtechniquesNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>3d visualization</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 157.6959 492.6784)" className={style.nodeText}>
                                 radar chart
                             </text>
                         </g>
-                        <rect x="125.6" y="472.9" className={style.visualtechniquesNode} width="27.2" height="27.2" />
+                        <rect
+                            x="125.6"
+                            y="472.9"
+                            onClick={() => {
+                                setOriginData(tec8);
+                            }}
+                            className={style.visualtechniquesNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>radar chart</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 503.2979 477.9508)" className={style.nodeText}>
                                 box plot
                             </text>
                         </g>
-                        <rect x="471.2" y="458.2" className={style.visualtechniquesNode} width="27.2" height="27.2" />
+                        <rect
+                            x="471.2"
+                            y="458.2"
+                            onClick={() => {
+                                setOriginData(tec6);
+                            }}
+                            className={style.visualtechniquesNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>box plot</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 553.0005 43.7975)" className={style.nodeText}>
                                 treemap
                             </text>
                         </g>
-                        <rect x="520.9" y="24" className={style.visualtechniquesNode} width="27.2" height="27.2" />
+                        <rect
+                            x="520.9"
+                            y="24"
+                            onClick={() => {
+                                setOriginData(tec9);
+                            }}
+                            className={style.visualtechniquesNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>treemap</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 666.9288 527.2623)" className={style.nodeText}>
                                 tag cloud
                             </text>
                         </g>
-                        <rect x="634.8" y="507.5" className={style.visualtechniquesNode} width="27.2" height="27.2" />
+                        <rect
+                            x="634.8"
+                            y="507.5"
+                            onClick={() => {
+                                setOriginData(tec10);
+                            }}
+                            className={style.visualtechniquesNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>tag cloud</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 142.5738 620.067)" className={style.nodeText}>
                                 mds map
                             </text>
                         </g>
-                        <rect x="110.4" y="600.3" className={style.visualtechniquesNode} width="27.2" height="27.2" />
+                        <rect
+                            x="110.4"
+                            y="600.3"
+                            onClick={() => {
+                                setOriginData(tec13);
+                            }}
+                            className={style.visualtechniquesNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>mds map</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 924.0894 390.1325)" className={style.nodeText}>
                                 spatial based visualization
                             </text>
                         </g>
-                        <rect x="891.9" y="370.3" className={style.visualtechniquesNode} width="27.2" height="27.2" />
+                        <rect
+                            x="891.9"
+                            y="370.3"
+                            onClick={() => {
+                                setOriginData(tec15);
+                            }}
+                            className={style.visualtechniquesNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>1</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 828.6588 344.2052)" className={style.nodeText}>
                                 bubble chart
                             </text>
                         </g>
-                        <rect x="796.5" y="324.4" className={style.visualtechniquesNode} width="27.2" height="27.2" />
+                        <rect
+                            x="796.5"
+                            y="324.4"
+                            onClick={() => {
+                                setOriginData(tec3);
+                            }}
+                            className={style.visualtechniquesNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>bubble chart</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 1044.8737 246.3336)" className={style.nodeText}>
                                 node link diagram
                             </text>
                         </g>
-                        <rect x="1012.7" y="226.5" className={style.visualtechniquesNode} width="27.2" height="27.2" />
+                        <rect
+                            x="1012.7"
+                            y="226.5"
+                            onClick={() => {
+                                setOriginData(tec2);
+                            }}
+                            className={style.visualtechniquesNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>node link diagram</title>
+                        </rect>
                         <g>
                             <text transform="matrix(1 0 0 1 1399.6764 454.8385)" className={style.nodeText}>
                                 heatmap
                             </text>
                         </g>
-                        <rect x="1367.5" y="435" className={style.visualtechniquesNode} width="27.2" height="27.2" />
+                        <rect
+                            x="1367.5"
+                            y="435"
+                            onClick={() => {
+                                setOriginData(tec11);
+                            }}
+                            className={style.visualtechniquesNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>heatmap</title>
+                        </rect>
                     </g>
                 </switch>
             </svg>

@@ -38,6 +38,7 @@ import {
     int3,
     int4,
     int5,
+    int5a,
     int6,
     int7,
     int8,
@@ -63,7 +64,7 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
             <div className={style.title}>Network View</div>
             <div className={style.categoryWrapper}>
                 <svg width="25" height="25" style={{ marginLeft: '3px' }}>
-                    <rect width="13" height="13" style={{ fill: '#ff00ff', paddingRight: '2px' }}></rect>
+                    <rect width="13" height="13" style={{ fill: '#00d12c', paddingRight: '2px' }}></rect>
                 </svg>
                 <div
                     style={{
@@ -78,7 +79,7 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                 </div>
 
                 <svg width="25" height="25" style={{ marginLeft: '10px' }}>
-                    <rect width="13" height="13" style={{ fill: '#0280ff', paddingRight: '20px' }}></rect>
+                    <rect width="13" height="13" style={{ fill: '#fb28fb', paddingRight: '20px' }}></rect>
                 </svg>
                 <div style={{ fontSize: '11px', fontWeight: '630', marginTop: '-5px' }}>Intermediation</div>
             </div>
@@ -289,7 +290,7 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                         </g>
                         <g>
                             <text transform="matrix(1 0 0 1 272.1501 478.4856)" className={style.nodeText}>
-                                produce
+                                product
                             </text>
                         </g>
                         <g>
@@ -343,7 +344,7 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             </text>
                             <g>
                                 <text transform="matrix(1 0 0 1 1114.9998 370.0851)" className={style.nodeText}>
-                                    growth constraction
+                                    growth contraction
                                 </text>
                                 <g>
                                     <text transform="matrix(1 0 0 1 1124.5671 456.3352)" className={style.nodeText}>
@@ -531,60 +532,534 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             rx="120.3"
                             ry="72.8"
                         />
-                        //TODO rect 변형하기
                         <rect
                             x="533.7"
                             y="20.1"
                             onClick={() => {
-                                // setOriginData();
+                                setOriginData(tar17);
                             }}
                             className={style.targetNode}
                             width="21.7"
                             height="21.7"
-                        />
-                        <rect x="442.7" y="82.8" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="533.7" y="120.7" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="503.6" y="172.9" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="652.7" y="234.3" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="820.6" y="239.1" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="929.7" y="171.4" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="917.2" y="365.5" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="565.5" y="315.4" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="661.8" y="387.4" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="612.6" y="447.5" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="523" y="352" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="945.4" y="471.7" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="1093.3" y="437.3" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="1170.5" y="387.2" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="1172.4" y="298" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="1280.8" y="334.9" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="1283.7" y="413.3" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="1253.5" y="446.1" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="1085" y="348.8" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="1066.4" y="274.5" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="1156.3" y="478.5" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="986.7" y="525.5" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="922.4" y="591.6" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="822.1" y="716.4" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="490.1" y="407.8" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="380.7" y="148.4" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="187" y="231.1" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="283.5" y="275.1" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="280.7" y="353.7" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="380.7" y="285.9" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="323.2" y="426" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="242" y="463.7" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="161.9" y="432.6" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="332.6" y="497.1" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="393.9" y="534.7" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="664.5" y="582" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="616.2" y="708.7" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="528.2" y="667.8" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="368.5" y="571.1" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="221.8" y="664.8" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="164" y="777.1" className={style.targetNode} width="21.7" height="21.7" />
-                        <rect x="174.4" y="614.8" className={style.intermediationNode} width="21.7" height="21.7" />
-                        <rect x="15.2" y="616.8" className={style.targetNode} width="21.7" height="21.7" />
+                        >
+                            <title>organization</title>
+                        </rect>
+                        <rect
+                            x="442.7"
+                            y="82.8"
+                            onClick={() => {
+                                setOriginData(tar3);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>psychology</title>
+                        </rect>
+                        <rect
+                            x="533.7"
+                            y="120.7"
+                            onClick={() => {
+                                setOriginData(int14);
+                            }}
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>analysis of debates comments and argumentation</title>
+                        </rect>
+                        <rect
+                            x="503.6"
+                            y="172.9"
+                            onClick={() => {
+                                setOriginData(int4);
+                            }}
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>argument expression detection</title>
+                        </rect>
+                        <rect
+                            x="652.7"
+                            y="234.3"
+                            onClick={() => {
+                                setOriginData(tar18);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>key player</title>
+                        </rect>
+                        <rect
+                            x="820.6"
+                            y="239.1"
+                            onClick={() => {
+                                setOriginData(int10);
+                            }}
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>personalized sentiment analysis</title>
+                        </rect>
+                        <rect
+                            x="929.7"
+                            y="171.4"
+                            onClick={() => {
+                                setOriginData(tar19);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>public</title>
+                        </rect>
+                        <rect
+                            x="917.2"
+                            y="365.5"
+                            onClick={() => {
+                                setOriginData(tar14);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>attitude</title>
+                        </rect>
+                        <rect
+                            x="565.5"
+                            y="315.4"
+                            onClick={() => {
+                                setOriginData(int5a);
+                            }}
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>8</title>
+                        </rect>
+                        <rect
+                            x="661.8"
+                            y="387.4"
+                            onClick={() => {
+                                setOriginData(tar6);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>service</title>
+                        </rect>
+                        <rect
+                            x="612.6"
+                            y="447.5"
+                            onClick={() => {
+                                setOriginData(tar2);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>behavior</title>
+                        </rect>
+                        <rect
+                            x="523"
+                            y="352"
+                            onClick={() => {
+                                setOriginData(tar1);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>person</title>
+                        </rect>
+                        <rect
+                            x="945.4"
+                            y="471.7"
+                            onClick={() => {
+                                setOriginData(int15);
+                            }}
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>finding significant</title>
+                        </rect>
+                        <rect
+                            x="1093.3"
+                            y="437.3"
+                            onClick={() => {
+                                setOriginData(tar24);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>accumulation</title>
+                        </rect>
+                        <rect
+                            x="1170.5"
+                            y="387.2"
+                            onClick={() => {
+                                setOriginData(int13);
+                            }}
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>14</title>
+                        </rect>
+                        <rect
+                            x="1172.4"
+                            y="298"
+                            onClick={() => {
+                                setOriginData(tar23);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>continuity</title>
+                        </rect>
+                        <rect
+                            x="1280.8"
+                            y="334.9"
+                            onClick={() => {
+                                setOriginData(tar21);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>birth death</title>
+                        </rect>
+                        <rect
+                            x="1283.7"
+                            y="413.3"
+                            onClick={() => {
+                                setOriginData(tar27);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>acceleration</title>
+                        </rect>
+                        <rect
+                            x="1253.5"
+                            y="446.1"
+                            onClick={() => {
+                                setOriginData(tar25);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>repeat</title>
+                        </rect>
+                        <rect
+                            x="1085"
+                            y="348.8"
+                            onClick={() => {
+                                setOriginData(tar22);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>growth contraction</title>
+                        </rect>
+                        <rect
+                            x="1066.4"
+                            y="274.5"
+                            onClick={() => {
+                                setOriginData(tar16);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>writer</title>
+                        </rect>
+                        <rect
+                            x="1156.3"
+                            y="478.5"
+                            onClick={() => {
+                                setOriginData(tar26);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>peak valley</title>
+                        </rect>
+                        <rect
+                            x="986.7"
+                            y="525.5"
+                            onClick={() => {
+                                setOriginData(int16);
+                            }}
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>easy exploration of sentiment information</title>
+                        </rect>
+                        <rect
+                            x="922.4"
+                            y="591.6"
+                            onClick={() => {
+                                setOriginData(int12);
+                            }}
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>comparison of different sentiments</title>
+                        </rect>
+                        <rect
+                            x="822.1"
+                            y="716.4"
+                            onClick={() => {
+                                setOriginData(tar5);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>thought</title>
+                        </rect>
+                        <rect
+                            x="490.1"
+                            y="407.8"
+                            onClick={() => {
+                                setOriginData(tar11);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>opinion</title>
+                        </rect>
+                        <rect
+                            x="380.7"
+                            y="148.4"
+                            onClick={() => {
+                                setOriginData(tar13);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>stance</title>
+                        </rect>
+                        <rect
+                            x="187"
+                            y="231.1"
+                            onClick={() => {
+                                setOriginData(int8);
+                            }}
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>emotion detection and classification</title>
+                        </rect>
+                        <rect
+                            x="283.5"
+                            y="275.1"
+                            onClick={() => {
+                                setOriginData(tar15);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>emotion</title>
+                        </rect>
+                        <rect
+                            x="280.7"
+                            y="353.7"
+                            onClick={() => {
+                                setOriginData(int9);
+                            }}
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>polarity classification</title>
+                        </rect>
+                        <rect
+                            x="380.7"
+                            y="285.9"
+                            onClick={() => {
+                                setOriginData(int6);
+                            }}
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>opinion summarization</title>
+                        </rect>
+                        <rect
+                            x="323.2"
+                            y="426"
+                            onClick={() => {
+                                setOriginData(tar12);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>appraisal</title>
+                        </rect>
+                        <rect
+                            x="242"
+                            y="463.7"
+                            onClick={() => {
+                                setOriginData(tar7);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>product</title>
+                        </rect>
+                        <rect
+                            x="161.9"
+                            y="432.6"
+                            onClick={() => {
+                                setOriginData(tar4);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>place</title>
+                        </rect>
+                        <rect
+                            x="332.6"
+                            y="497.1"
+                            onClick={() => {
+                                setOriginData(int2);
+                            }}
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>identifying the intent of sentiment information</title>
+                        </rect>
+                        <rect
+                            x="393.9"
+                            y="534.7"
+                            onClick={() => {
+                                setOriginData(int3);
+                            }}
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>detection of evidence event that causes sentiment patterns</title>
+                        </rect>
+                        <rect
+                            x="664.5"
+                            y="582"
+                            onClick={() => {
+                                setOriginData(tar20);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>community</title>
+                        </rect>
+                        <rect
+                            x="616.2"
+                            y="708.7"
+                            onClick={() => {
+                                setOriginData(tar8);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>event</title>
+                        </rect>
+                        <rect
+                            x="528.2"
+                            y="667.8"
+                            onClick={() => {
+                                setOriginData(int11);
+                            }}
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>multilingual / crosslingual sentiment analysis</title>
+                        </rect>
+                        <rect
+                            x="368.5"
+                            y="571.1"
+                            onClick={() => {
+                                setOriginData(int1);
+                            }}
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>emotion cause detection</title>
+                        </rect>
+                        <rect
+                            x="221.8"
+                            y="664.8"
+                            onClick={() => {
+                                setOriginData(int5);
+                            }}
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>aspect based sentiment analysis</title>
+                        </rect>
+                        <rect
+                            x="164"
+                            y="777.1"
+                            onClick={() => {
+                                setOriginData(tar10);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>derived</title>
+                        </rect>
+                        <rect
+                            x="174.4"
+                            y="614.8"
+                            onClick={() => {
+                                setOriginData(int7);
+                            }}
+                            className={style.intermediationNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>sentiment information description a multi aspect</title>
+                        </rect>
+                        <rect
+                            x="15.2"
+                            y="616.8"
+                            onClick={() => {
+                                setOriginData(tar9);
+                            }}
+                            className={style.targetNode}
+                            width="21.7"
+                            height="21.7"
+                        >
+                            <title>composite</title>
+                        </rect>
                     </g>
                 </switch>
             </svg>

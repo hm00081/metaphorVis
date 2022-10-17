@@ -1,4 +1,4 @@
-$representationNode: #0280ff;
+$representationNodeColor: #0280ff;
 $visualvariablesNodeColor: #e5df00;
 $lineColor: #c0c0c0;
 $lineOpacity: 0.5;
@@ -120,7 +120,7 @@ $lineOpacity: 0.5;
     opacity: 0.5;
 }
 .representationNode {
-    fill: $repreentationNodeColor;
+    fill: $representationNodeColor;
     @include node;
 }
 .intermediationNode {
