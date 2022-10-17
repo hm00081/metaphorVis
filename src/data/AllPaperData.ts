@@ -65,6 +65,7 @@ import { ClusterThree } from './ClusterThree';
 import { ClusterFour } from './ClusterFour';
 import { ClusterFourr } from './ClusterFours';
 import { TIC3 } from './TIC3';
+import { TIC3Gray } from './TIC3Gray';
 import { TIC4 } from './TIC4';
 import { TIC4Gray } from './TIC4Gray';
 import { TIC5 } from './TIC5';
@@ -178,7 +179,7 @@ const ClusteroneLinkData = [ClusterOne];
 const ClustertwoLinkData = [ClusterTwo];
 const ClusterthreeLinkData = [ClusterThree];
 const ClusterfourLinkData = [ClusterFour, ClusterFourr];
-const TIC3LinkData = [TIC3];
+const TIC3LinkData = [TIC3, TIC3Gray];
 const TIC4LinkData = [TIC4, TIC4Gray];
 const TIC5LinkData = [TIC5];
 const TIC6LinkData = [TIC6];
@@ -2419,7 +2420,7 @@ const Var1s = ([].concat.apply([], Var1Data) as SankeyLink[]).reduce<SankeyLinkE
             netnode: onePaper.netnode,
         });
     } else {
-        clusterFourPaper.value += 1;
+        clusterFourPaper.value += 0;
     }
     return Var1s;
 }, []);
