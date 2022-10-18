@@ -2472,7 +2472,7 @@ const Var3s = ([].concat.apply([], Var3Data) as SankeyLink[]).reduce<SankeyLinkE
             netnode: onePaper.netnode,
         });
     } else {
-        clusterFourPaper.value += 2;
+        clusterFourPaper.value += 1;
     }
     return Var3s;
 }, []);

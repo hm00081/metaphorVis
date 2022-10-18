@@ -6199,7 +6199,7 @@ const var1: SankeyData = {
     positionStatus: 'init',
 };
 
-console.log(var1);
+// console.log(var1);
 
 const var2: SankeyData = {
     nodes: PaperNode.nodes.map((node) => {
