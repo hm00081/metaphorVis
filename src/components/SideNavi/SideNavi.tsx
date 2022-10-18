@@ -31,8 +31,8 @@ export function SideNavi({ clickedNodeLinks, clickedLink, clickedButton, clicked
     const characters: Character[] = [
         { name: 'Tar-Int Network', race: <TarIntNetworks originData={originData} setOriginData={setOriginData} setClickedCluster={setClickedCluster} /> },
         { name: 'Int-Rep Network', race: <IntRepNetwork originData={originData} setOriginData={setOriginData} setClickedCluster={setClickedCluster} /> },
-        { name: 'Rep-Tech Network', race: <RepTechNetworks originData={originData} setOriginData={setOriginData} setClickedCluster={setClickedCluster} /> },
         { name: 'Rep-Var Network', race: <RepVarNetworks originData={originData} setOriginData={setOriginData} setClickedCluster={setClickedCluster} /> },
+        { name: 'Rep-Tech Network', race: <RepTechNetworks originData={originData} setOriginData={setOriginData} setClickedCluster={setClickedCluster} /> },
     ];
 
     const [characterm, setCharacter] = useState<ReactNode>(characters[0].race);
