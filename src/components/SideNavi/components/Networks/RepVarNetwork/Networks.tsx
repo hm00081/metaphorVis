@@ -57,7 +57,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                         marginRight: '20px',
                         marginBottom: '5px',
                         marginTop: '-5px',
-                    }}>
+                    }}
+                >
                     Representation
                 </div>
 
@@ -76,7 +77,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                 y="0px"
                 width="100%"
                 viewBox="0 0 1525 1150"
-                xmlSpace="preserve">
+                xmlSpace="preserve"
+            >
                 <switch>
                     <foreignObject requiredExtensions="&ns_ai;" x={0} y={0} width={1} height={1}>
                         {/* <iPgfref xlinkHref="#adobe_illustrator_pgf"></iPgfref> */}
@@ -200,7 +202,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(rep19);
                             }}
-                            className={style.representationNode}></rect>
+                            className={style.representationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 141.7979 701.0267)" className={style.nodeText}>
                                 picture
@@ -212,7 +215,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(rep11);
                             }}
-                            className={style.representationNode}></rect>
+                            className={style.representationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 68.9381 586.9677)" className={style.nodeText}>
                                 toys &amp; instrument
@@ -224,7 +228,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(rep16);
                             }}
-                            className={style.representationNode}></rect>
+                            className={style.representationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 68.9381 455.2352)" className={style.nodeText}>
                                 behavior
@@ -236,7 +241,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(rep21);
                             }}
-                            className={style.representationNode}></rect>
+                            className={style.representationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 91.3248 348.9344)" className={style.nodeText}>
                                 creation and destruction
@@ -254,7 +260,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(rep15);
                             }}
-                            className={style.representationNode}></rect>
+                            className={style.representationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 274.8585 160.2547)" className={style.nodeText}>
                                 metal
@@ -266,7 +273,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(rep6);
                             }}
-                            className={style.representationNode}></rect>
+                            className={style.representationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 441.3394 148.3402)" className={style.nodeText}>
                                 cell
@@ -278,7 +286,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(rep8);
                             }}
-                            className={style.representationNode}></rect>
+                            className={style.representationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 670.7321 314.4686)" className={style.nodeText}>
                                 fiber
@@ -290,7 +299,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(rep14);
                             }}
-                            className={style.representationNode}></rect>
+                            className={style.representationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 730.9718 428.6844)" className={style.nodeText}>
                                 map
@@ -302,7 +312,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(rep13);
                             }}
-                            className={style.representationNode}></rect>
+                            className={style.representationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 766.006 586.6522)" className={style.nodeText}>
                                 compound
@@ -314,7 +325,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(rep5);
                             }}
-                            className={style.representationNode}></rect>
+                            className={style.representationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 787.1359 834.7304)" className={style.nodeText}>
                                 machine
@@ -326,7 +338,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(rep18);
                             }}
-                            className={style.representationNode}></rect>
+                            className={style.representationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 805.8844 945.5751)" className={style.nodeText}>
                                 plant
@@ -338,7 +351,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(rep3);
                             }}
-                            className={style.representationNode}></rect>
+                            className={style.representationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 1099.3302 845.5468)" className={style.nodeText}>
                                 geometry
@@ -350,7 +364,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(rep10);
                             }}
-                            className={style.representationNode}></rect>
+                            className={style.representationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 1172.089 750.0453)" className={style.nodeText}>
                                 landscape
@@ -362,7 +377,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(rep4);
                             }}
-                            className={style.representationNode}></rect>
+                            className={style.representationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 1264.5638 518.1071)" className={style.nodeText}>
                                 building&amp;structure
@@ -374,7 +390,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(rep9);
                             }}
-                            className={style.representationNode}></rect>
+                            className={style.representationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 1274.796 335.9344)" className={style.nodeText}>
                                 nonmetal
@@ -386,7 +403,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(rep7);
                             }}
-                            className={style.representationNode}></rect>
+                            className={style.representationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 1247.3726 158.1973)" className={style.nodeText}>
                                 celestial
@@ -398,7 +416,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(rep1);
                             }}
-                            className={style.representationNode}></rect>
+                            className={style.representationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 1044.4723 150.0535)" className={style.nodeText}>
                                 pattern
@@ -410,7 +429,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(rep12);
                             }}
-                            className={style.representationNode}></rect>
+                            className={style.representationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 535.2238 959.4726)" className={style.nodeText}>
                                 animal
@@ -422,7 +442,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(rep2);
                             }}
-                            className={style.representationNode}></rect>
+                            className={style.representationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 648.3453 199.0536)" className={style.nodeText}>
                                 natural phenomena
@@ -434,7 +455,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(rep20);
                             }}
-                            className={style.representationNode}></rect>
+                            className={style.representationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 384.5694 631.8534)" className={style.nodeText}>
                                 size
@@ -446,7 +468,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(var3);
                             }}
-                            className={style.intermediationNode}></rect>
+                            className={style.intermediationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 422.0934 460.5409)" className={style.nodeText}>
                                 color
@@ -458,7 +481,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(var2);
                             }}
-                            className={style.intermediationNode}></rect>
+                            className={style.intermediationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 1040.8312 446.4315)" className={style.nodeText}>
                                 shape
@@ -470,7 +494,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(var4);
                             }}
-                            className={style.intermediationNode}></rect>
+                            className={style.intermediationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 937.65 357.7401)" className={style.nodeText}>
                                 value
@@ -482,7 +507,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(var1);
                             }}
-                            className={style.intermediationNode}></rect>
+                            className={style.intermediationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 1076.2081 312.5546)" className={style.nodeText}>
                                 position
@@ -494,7 +520,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(var5);
                             }}
-                            className={style.intermediationNode}></rect>
+                            className={style.intermediationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 1283.3839 944.9257)" className={style.nodeText}>
                                 distance
@@ -506,7 +533,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(var7);
                             }}
-                            className={style.intermediationNode}></rect>
+                            className={style.intermediationNode}
+                        ></rect>
                         <g>
                             <text transform="matrix(0.9395 0 0 1 1128.0607 1040.4608)" className={style.nodeText}>
                                 orientation
@@ -518,7 +546,8 @@ export const RepVarNetworks = ({ originData, setOriginData, setClickedCluster }:
                             onClick={() => {
                                 setOriginData(var6);
                             }}
-                            className={style.intermediationNode}></rect>
+                            className={style.intermediationNode}
+                        ></rect>
                     </g>
                 </switch>
             </svg>

@@ -2229,7 +2229,6 @@ export const TIC4: SankeyLink[] = [
         imgUrl: 'RYq4EGR.jpg',
         color: 'intFiveLight2LinkColor',
     },
-
     {
         source: 147,
         target: 13,

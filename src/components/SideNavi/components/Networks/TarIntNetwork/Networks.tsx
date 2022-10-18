@@ -72,11 +72,12 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                         marginRight: '20px',
                         marginBottom: '5px',
                         marginTop: '-5px',
-                    }}>
+                    }}
+                >
                     Target
                 </div>
 
-                <svg width="25" height="25" style={{ marginLeft: '10px' }}>
+                <svg width="25" height="25" style={{ marginLeft: '15px' }}>
                     <rect width="13" height="13" style={{ fill: '#fb28fb', paddingRight: '20px' }}></rect>
                 </svg>
                 <div style={{ fontSize: '11px', fontWeight: '630', marginTop: '-5px' }}>Intermediation</div>
@@ -91,7 +92,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                 y="0px"
                 width="100%"
                 viewBox="0 0 1350 990"
-                xmlSpace="preserve">
+                xmlSpace="preserve"
+            >
                 <switch>
                     <foreignObject requiredExtensions="&ns_ai;" x={0} y={0} width={1} height={1}></foreignObject>
                     <g>
@@ -533,7 +535,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             organization
                         </rect>
                         <rect
@@ -544,7 +547,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             psychology
                         </rect>
                         <rect
@@ -555,7 +559,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             analysis of debates comments and argumentation
                         </rect>
                         <rect
@@ -566,7 +571,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             argument expression detection
                         </rect>
                         <rect
@@ -577,7 +583,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             key player
                         </rect>
                         <rect
@@ -588,7 +595,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             personalized sentiment analysis
                         </rect>
                         <rect
@@ -599,7 +607,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             public
                         </rect>
                         <rect
@@ -610,7 +619,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             attitude
                         </rect>
                         <rect
@@ -621,7 +631,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             8
                         </rect>
                         <rect
@@ -632,7 +643,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             service
                         </rect>
                         <rect
@@ -643,7 +655,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             behavior
                         </rect>
                         <rect
@@ -654,7 +667,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             person
                         </rect>
                         <rect
@@ -665,7 +679,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             finding significant
                         </rect>
                         <rect
@@ -676,7 +691,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             accumulation
                         </rect>
                         <rect
@@ -687,7 +703,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             14
                         </rect>
                         <rect
@@ -698,7 +715,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             continuity
                         </rect>
                         <rect
@@ -709,7 +727,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             birth death
                         </rect>
                         <rect
@@ -720,7 +739,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             acceleration
                         </rect>
                         <rect
@@ -731,7 +751,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             repeat
                         </rect>
                         <rect
@@ -742,7 +763,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             growth contraction
                         </rect>
                         <rect
@@ -753,7 +775,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             writer
                         </rect>
                         <rect
@@ -764,7 +787,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             peak valley
                         </rect>
                         <rect
@@ -775,7 +799,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             easy exploration of sentiment information
                         </rect>
                         <rect
@@ -786,7 +811,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             comparison of different sentiments
                         </rect>
                         <rect
@@ -797,7 +823,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             thought
                         </rect>
                         <rect
@@ -808,7 +835,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             opinion
                         </rect>
                         <rect
@@ -819,7 +847,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             stance
                         </rect>
                         <rect
@@ -830,7 +859,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             emotion detection and classNameification
                         </rect>
                         <rect
@@ -841,7 +871,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             emotion
                         </rect>
                         <rect
@@ -852,7 +883,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             polarity classNameification
                         </rect>
                         <rect
@@ -863,7 +895,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             opinion summarization
                         </rect>
                         <rect
@@ -874,7 +907,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             appraisal
                         </rect>
                         <rect
@@ -885,7 +919,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             product
                         </rect>
                         <rect
@@ -896,7 +931,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             place
                         </rect>
                         <rect
@@ -907,7 +943,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             identifying the intent of sentiment information
                         </rect>
                         <rect
@@ -918,7 +955,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             detection of evidence event that causes sentiment patterns
                         </rect>
                         <rect
@@ -929,7 +967,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             community
                         </rect>
                         <rect
@@ -940,7 +979,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             event
                         </rect>
                         <rect
@@ -951,7 +991,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             multilingual / crosslingual sentiment analysis
                         </rect>
                         <rect
@@ -962,7 +1003,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             emotion cause detection
                         </rect>
                         <rect
@@ -973,7 +1015,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             aspect based sentiment analysis
                         </rect>
                         <rect
@@ -984,7 +1027,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             derived
                         </rect>
                         <rect
@@ -995,7 +1039,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             sentiment information description a multi aspect
                         </rect>
                         <rect
@@ -1006,7 +1051,8 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             }}
                             className={style.targetNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             composite
                         </rect>
                     </g>

@@ -2420,7 +2420,7 @@ const Var1s = ([].concat.apply([], Var1Data) as SankeyLink[]).reduce<SankeyLinkE
             netnode: onePaper.netnode,
         });
     } else {
-        clusterFourPaper.value += 0;
+        clusterFourPaper.value += 1;
     }
     return Var1s;
 }, []);
@@ -2472,7 +2472,7 @@ const Var3s = ([].concat.apply([], Var3Data) as SankeyLink[]).reduce<SankeyLinkE
             netnode: onePaper.netnode,
         });
     } else {
-        clusterFourPaper.value += 1;
+        clusterFourPaper.value += 2;
     }
     return Var3s;
 }, []);

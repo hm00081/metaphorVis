@@ -4,7 +4,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 100,
         target: 9,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetaa'],
         paperName: 'CAA20',
         process: 'CAA20_1',
@@ -15,7 +15,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 100,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetaa'],
         paperName: 'CAA20',
         process: 'CAA20_2',
@@ -26,7 +26,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 100,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetaa'],
         paperName: 'CAA20',
         process: 'CAA20_3',
@@ -39,7 +39,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 100,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetaa'],
         paperName: 'CAA20',
         process: 'CAA20_4',
@@ -52,7 +52,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 100,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetaa'],
         paperName: 'CAA20',
         process: 'CAA20_5',
@@ -63,7 +63,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 100,
         target: 24,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'CAA20',
         process: 'CAA20_6',
@@ -74,7 +74,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 100,
         target: 24,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'CAA20',
         process: 'CAA20_7',
@@ -85,7 +85,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 9,
         target: 36,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetaa'],
         paperName: 'CAA20',
         process: 'CAA20_1',
@@ -96,7 +96,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 35,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetaa'],
         paperName: 'CAA20',
         process: 'CAA20_2',
@@ -107,7 +107,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetaa'],
         paperName: 'CAA20',
         process: 'CAA20_3',
@@ -119,7 +119,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetaa'],
         paperName: 'CAA20',
         process: 'CAA20_4',
@@ -131,7 +131,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetaa'],
         paperName: 'CAA20',
         process: 'CAA20_5',
@@ -142,7 +142,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 24,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'CAA20',
         process: 'CAA20_6',
@@ -153,7 +153,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 24,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'CAA20',
         process: 'CAA20_7',
@@ -164,7 +164,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 35,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetaa'],
         paperName: 'CAA20',
         process: 'CAA20_2',
@@ -175,7 +175,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 36,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetaa'],
         paperName: 'CAA20',
         process: 'CAA20_1',
@@ -186,7 +186,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetaa'],
         paperName: 'CAA20',
         process: 'CAA20_3',
@@ -198,7 +198,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetaa'],
         paperName: 'CAA20',
         process: 'CAA20_4',
@@ -210,7 +210,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetaa'],
         paperName: 'CAA20',
         process: 'CAA20_5',
@@ -221,7 +221,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 70,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'CAA20',
         process: 'CAA20_6',
@@ -232,7 +232,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 75,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'CAA20',
         process: 'CAA20_7',
@@ -243,7 +243,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetaa'],
         paperName: 'CAA20',
         process: 'CAA20_2',
@@ -254,7 +254,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetaa'],
         paperName: 'CAA20',
         process: 'CAA20_3',
@@ -265,7 +265,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetaa'],
         paperName: 'CAA20',
         process: 'CAA20_3',
@@ -277,7 +277,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetaa'],
         paperName: 'CAA20',
         process: 'CAA20_4',
@@ -288,7 +288,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetaa'],
         paperName: 'CAA20',
         process: 'CAA20_4',
@@ -300,7 +300,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetaa'],
         paperName: 'CAA20',
         process: 'CAA20_4',
@@ -311,7 +311,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetaa'],
         paperName: 'CAA20',
         process: 'CAA20_5',
@@ -322,7 +322,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetaa'],
         paperName: 'CAA20',
         process: 'CAA20_1',
@@ -333,7 +333,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetaa'],
         paperName: 'CAA20',
         process: 'CAA20_3',
@@ -344,7 +344,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'CAA20',
         process: 'CAA20_6',
@@ -355,7 +355,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 75,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'CAA20',
         process: 'CAA20_7',
@@ -366,7 +366,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 101,
         target: 5,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_1',
@@ -379,7 +379,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 101,
         target: 6,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_1',
@@ -392,7 +392,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 101,
         target: 5,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_2',
@@ -405,7 +405,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 101,
         target: 6,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_2',
@@ -418,7 +418,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 101,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_3',
@@ -431,7 +431,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 101,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_4',
@@ -444,7 +444,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 101,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_5',
@@ -455,7 +455,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 101,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_6',
@@ -468,7 +468,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 101,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_7',
@@ -479,7 +479,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 101,
         target: 23,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'CGK21',
         process: 'CGK21_8',
@@ -492,7 +492,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 5,
         target: 32,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_1',
@@ -504,7 +504,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 5,
         target: 32,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_2',
@@ -516,7 +516,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 6,
         target: 32,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_1',
@@ -528,7 +528,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 6,
         target: 32,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_2',
@@ -540,7 +540,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 32,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_3',
@@ -552,7 +552,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_4',
@@ -564,7 +564,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_5',
@@ -575,7 +575,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_6',
@@ -587,7 +587,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_7',
@@ -598,7 +598,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'CGK21',
         process: 'CGK21_8',
@@ -610,7 +610,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 32,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_1',
@@ -622,7 +622,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 32,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_2',
@@ -634,7 +634,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 32,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_3',
@@ -646,7 +646,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 41,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_4',
@@ -658,7 +658,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 41,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_6',
@@ -670,7 +670,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 41,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_7',
@@ -681,7 +681,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_5',
@@ -692,7 +692,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'CGK21',
         process: 'CGK21_8',
@@ -704,7 +704,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_1',
@@ -715,7 +715,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_4',
@@ -726,7 +726,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_6',
@@ -737,7 +737,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'CGK21',
         process: 'CGK21_8',
@@ -748,7 +748,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_2',
@@ -759,7 +759,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_3',
@@ -770,7 +770,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_1',
@@ -782,7 +782,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_4',
@@ -794,7 +794,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_6',
@@ -806,7 +806,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'CGK21',
         process: 'CGK21_8',
@@ -818,7 +818,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_2',
@@ -830,7 +830,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_3',
@@ -842,7 +842,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_3',
@@ -853,7 +853,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_7',
@@ -864,7 +864,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_3',
@@ -875,7 +875,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 87,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_4',
@@ -886,7 +886,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 87,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_6',
@@ -897,7 +897,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 88,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_3',
@@ -908,7 +908,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 95,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_3',
@@ -919,7 +919,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 95,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_7',
@@ -930,7 +930,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['repb', 'targetbb'],
         paperName: 'CGK21',
         process: 'CGK21_5',
@@ -941,7 +941,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'CGK21',
         process: 'CGK21_8',
@@ -952,7 +952,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 102,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'targetca', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_1',
@@ -963,7 +963,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 102,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'targetca', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_2',
@@ -974,7 +974,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 102,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'targetca', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_1',
@@ -985,7 +985,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 102,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'targetca', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_2',
@@ -996,7 +996,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 102,
         target: 17,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_3',
@@ -1007,7 +1007,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 102,
         target: 18,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_3',
@@ -1018,7 +1018,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 102,
         target: 19,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_3',
@@ -1029,7 +1029,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 102,
         target: 17,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'reph'],
         paperName: 'CSL12',
         process: 'CSL12_4',
@@ -1040,7 +1040,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 102,
         target: 18,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'reph'],
         paperName: 'CSL12',
         process: 'CSL12_4',
@@ -1051,7 +1051,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 102,
         target: 19,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'reph'],
         paperName: 'CSL12',
         process: 'CSL12_4',
@@ -1062,7 +1062,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 102,
         target: 21,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_5',
@@ -1073,7 +1073,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 102,
         target: 21,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_6',
@@ -1084,7 +1084,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 102,
         target: 22,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_7',
@@ -1095,7 +1095,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'targetca', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_1',
@@ -1106,7 +1106,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'targetca', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_1',
@@ -1117,7 +1117,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'targetca', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_2',
@@ -1128,7 +1128,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'targetca', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_2',
@@ -1139,7 +1139,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 17,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_3',
@@ -1150,7 +1150,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 18,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_3',
@@ -1161,7 +1161,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 19,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_3',
@@ -1172,7 +1172,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 17,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'reph'],
         paperName: 'CSL12',
         process: 'CSL12_4',
@@ -1183,7 +1183,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 18,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'reph'],
         paperName: 'CSL12',
         process: 'CSL12_4',
@@ -1194,7 +1194,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 19,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'reph'],
         paperName: 'CSL12',
         process: 'CSL12_4',
@@ -1205,7 +1205,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 21,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_5',
@@ -1216,7 +1216,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 21,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_6',
@@ -1227,7 +1227,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 22,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_7',
@@ -1238,7 +1238,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'targetca', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_1',
@@ -1249,7 +1249,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_5',
@@ -1260,7 +1260,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_3',
@@ -1271,7 +1271,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 62,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'reph'],
         paperName: 'CSL12',
         process: 'CSL12_4',
@@ -1282,7 +1282,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'targetca', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_2',
@@ -1293,7 +1293,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_7',
@@ -1304,7 +1304,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 70,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_6',
@@ -1315,7 +1315,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'targetca', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_1',
@@ -1326,7 +1326,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'targetca', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_2',
@@ -1337,7 +1337,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'targetca', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_2',
@@ -1348,7 +1348,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_3',
@@ -1359,7 +1359,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_5',
@@ -1370,7 +1370,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_7',
@@ -1381,7 +1381,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'targetca', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_2',
@@ -1392,7 +1392,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'reph'],
         paperName: 'CSL12',
         process: 'CSL12_4',
@@ -1403,7 +1403,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'CSL12',
         process: 'CSL12_6',
@@ -1414,7 +1414,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 99,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'reph'],
         paperName: 'CSL12',
         process: 'CSL12_4',
@@ -1425,7 +1425,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 103,
         target: 9,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'DMC09',
         process: 'DMC09_1',
@@ -1436,7 +1436,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 103,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'DMC09',
         process: 'DMC09_2',
@@ -1447,7 +1447,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 9,
         target: 36,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'DMC09',
         process: 'DMC09_1',
@@ -1458,7 +1458,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'DMC09',
         process: 'DMC09_2',
@@ -1469,7 +1469,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 36,
         target: 58,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'DMC09',
         process: 'DMC09_1',
@@ -1480,7 +1480,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 42,
         target: 58,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'DMC09',
         process: 'DMC09_2',
@@ -1491,7 +1491,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 58,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'DMC09',
         process: 'DMC09_1',
@@ -1502,7 +1502,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 58,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'DMC09',
         process: 'DMC09_2',
@@ -1513,7 +1513,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 58,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'DMC09',
         process: 'DMC09_1',
@@ -1524,7 +1524,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 58,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'DMC09',
         process: 'DMC09_2',
@@ -1535,7 +1535,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 58,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'DMC09',
         process: 'DMC09_1',
@@ -1546,7 +1546,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 58,
         target: 93,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'DMC09',
         process: 'DMC09_1',
@@ -1557,7 +1557,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 104,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'targetaa'],
         paperName: 'EAIA17',
         process: 'EAIA17_1',
@@ -1568,7 +1568,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 104,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'targetaa'],
         paperName: 'EAIA17',
         process: 'EAIA17_2',
@@ -1581,7 +1581,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 104,
         target: 18,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'targetaa'],
         paperName: 'EAIA17',
         process: 'EAIA17_3',
@@ -1592,7 +1592,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 104,
         target: 21,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetcb',
         paperName: 'EAIA17',
         process: 'EAIA17_4',
@@ -1603,7 +1603,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'targetaa'],
         paperName: 'EAIA17',
         process: 'EAIA17_1',
@@ -1614,7 +1614,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'targetaa'],
         paperName: 'EAIA17',
         process: 'EAIA17_1',
@@ -1625,7 +1625,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 43,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'targetaa'],
         paperName: 'EAIA17',
         process: 'EAIA17_1',
@@ -1636,7 +1636,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'targetaa'],
         paperName: 'EAIA17',
         process: 'EAIA17_2',
@@ -1648,7 +1648,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 18,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'targetaa'],
         paperName: 'EAIA17',
         process: 'EAIA17_3',
@@ -1659,7 +1659,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 18,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'targetaa'],
         paperName: 'EAIA17',
         process: 'EAIA17_3',
@@ -1670,7 +1670,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 18,
         target: 43,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'targetaa'],
         paperName: 'EAIA17',
         process: 'EAIA17_3',
@@ -1681,7 +1681,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 21,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetcb',
         paperName: 'EAIA17',
         process: 'EAIA17_4',
@@ -1692,7 +1692,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 41,
         target: 52,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'targetaa'],
         paperName: 'EAIA17',
         process: 'EAIA17_1',
@@ -1703,7 +1703,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 41,
         target: 52,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'targetaa'],
         paperName: 'EAIA17',
         process: 'EAIA17_3',
@@ -1714,7 +1714,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 42,
         target: 52,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'targetaa'],
         paperName: 'EAIA17',
         process: 'EAIA17_1',
@@ -1725,7 +1725,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 42,
         target: 52,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'targetaa'],
         paperName: 'EAIA17',
         process: 'EAIA17_3',
@@ -1736,7 +1736,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 43,
         target: 52,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'targetaa'],
         paperName: 'EAIA17',
         process: 'EAIA17_1',
@@ -1747,7 +1747,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 43,
         target: 52,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'targetaa'],
         paperName: 'EAIA17',
         process: 'EAIA17_3',
@@ -1758,7 +1758,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 52,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'targetaa'],
         paperName: 'EAIA17',
         process: 'EAIA17_2',
@@ -1770,7 +1770,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 52,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetcb',
         paperName: 'EAIA17',
         process: 'EAIA17_4',
@@ -1781,7 +1781,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 52,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'targetaa'],
         paperName: 'EAIA17',
         process: 'EAIA17_1',
@@ -1792,7 +1792,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 52,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'targetaa'],
         paperName: 'EAIA17',
         process: 'EAIA17_2',
@@ -1804,7 +1804,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 52,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'targetaa'],
         paperName: 'EAIA17',
         process: 'EAIA17_1',
@@ -1815,7 +1815,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 52,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'targetaa'],
         paperName: 'EAIA17',
         process: 'EAIA17_3',
@@ -1826,7 +1826,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 52,
         target: 81,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'targetaa'],
         paperName: 'EAIA17',
         process: 'EAIA17_1',
@@ -1837,7 +1837,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 52,
         target: 81,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetcb',
         paperName: 'EAIA17',
         process: 'EAIA17_4',
@@ -1848,7 +1848,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 105,
         target: 5,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_1',
@@ -1859,7 +1859,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 105,
         target: 7,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_2',
@@ -1872,7 +1872,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 105,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_3',
@@ -1885,7 +1885,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 105,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_4',
@@ -1896,7 +1896,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 105,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_5',
@@ -1907,7 +1907,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 105,
         target: 21,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_6',
@@ -1918,7 +1918,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 105,
         target: 22,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_6',
@@ -1929,7 +1929,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 5,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_1',
@@ -1940,7 +1940,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 7,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_2',
@@ -1952,7 +1952,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 63,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_1',
@@ -1963,7 +1963,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 63,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_3',
@@ -1975,7 +1975,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 63,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_2',
@@ -1987,7 +1987,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_3',
@@ -1998,7 +1998,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_4',
@@ -2009,7 +2009,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_1',
@@ -2020,7 +2020,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_3',
@@ -2032,7 +2032,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_2',
@@ -2044,7 +2044,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_4',
@@ -2055,7 +2055,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_3',
@@ -2067,7 +2067,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 63,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_4',
@@ -2078,7 +2078,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 63,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_5',
@@ -2089,7 +2089,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_1',
@@ -2100,7 +2100,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_2',
@@ -2111,7 +2111,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_3',
@@ -2122,7 +2122,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_4',
@@ -2133,7 +2133,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_5',
@@ -2144,7 +2144,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_3',
@@ -2155,7 +2155,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_5',
@@ -2166,7 +2166,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 21,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_6',
@@ -2177,7 +2177,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 22,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_6',
@@ -2188,7 +2188,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 75,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_6',
@@ -2199,7 +2199,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 75,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'EYG15',
         process: 'EYG15_6',
@@ -2210,7 +2210,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 106,
         target: 5,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_1',
@@ -2221,7 +2221,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 106,
         target: 17,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_1',
@@ -2232,7 +2232,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 106,
         target: 18,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_1',
@@ -2243,7 +2243,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 106,
         target: 5,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_2',
@@ -2254,7 +2254,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 106,
         target: 17,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_2',
@@ -2265,7 +2265,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 106,
         target: 18,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_2',
@@ -2276,7 +2276,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 106,
         target: 5,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_3',
@@ -2287,7 +2287,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 106,
         target: 17,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_3',
@@ -2298,7 +2298,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 106,
         target: 18,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_3',
@@ -2309,7 +2309,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 106,
         target: 24,
-        value: 1,
+        value: 1.0001,
         paperName: 'FCF09',
         process: 'FCF09_4',
         id: 'FCF09-9',
@@ -2319,7 +2319,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 5,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_1',
@@ -2330,7 +2330,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 5,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_2',
@@ -2341,7 +2341,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 5,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_3',
@@ -2352,7 +2352,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 17,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_1',
@@ -2363,7 +2363,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 17,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_2',
@@ -2374,7 +2374,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 17,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_3',
@@ -2385,7 +2385,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 18,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_1',
@@ -2396,7 +2396,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 18,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_2',
@@ -2407,7 +2407,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 18,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_3',
@@ -2418,7 +2418,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 24,
         target: 46,
-        value: 1,
+        value: 1.0001,
         paperName: 'FCF09',
         process: 'FCF09_4',
         id: 'FCF09-19',
@@ -2428,7 +2428,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 40,
         target: 62,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_1',
@@ -2439,7 +2439,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 42,
         target: 62,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_2',
@@ -2450,7 +2450,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 62,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_3',
@@ -2461,7 +2461,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 75,
-        value: 1,
+        value: 1.0001,
         paperName: 'FCF09',
         process: 'FCF09_4',
         id: 'FCF09-23',
@@ -2471,7 +2471,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_1',
@@ -2482,7 +2482,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_2',
@@ -2493,7 +2493,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_3',
@@ -2504,7 +2504,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_1',
@@ -2515,7 +2515,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_3',
@@ -2526,7 +2526,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_2',
@@ -2537,7 +2537,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'reph'],
         paperName: 'FCF09',
         process: 'FCF09_3',
@@ -2548,7 +2548,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 75,
         target: 98,
-        value: 1,
+        value: 1.0001,
         paperName: 'FCF09',
         process: 'FCF09_4',
         id: 'FCF09-31',
@@ -2558,7 +2558,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 107,
         target: 3,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'GGS12MT',
         process: 'GGS12MT_1',
@@ -2569,7 +2569,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 107,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'GGS12MT',
         process: 'GGS12MT_1',
@@ -2580,7 +2580,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 107,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'GGS12MT',
         process: 'GGS12MT_2',
@@ -2591,7 +2591,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 107,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'GGS12MT',
         process: 'GGS12MT_3',
@@ -2602,7 +2602,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 107,
         target: 24,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'GGS12MT',
         process: 'GGS12MT_4',
@@ -2613,7 +2613,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 107,
         target: 28,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'GGS12MT',
         process: 'GGS12MT_4',
@@ -2624,7 +2624,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 3,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'GGS12MT',
         process: 'GGS12MT_1',
@@ -2635,7 +2635,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'GGS12MT',
         process: 'GGS12MT_2',
@@ -2646,7 +2646,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'GGS12MT',
         process: 'GGS12MT_1',
@@ -2657,7 +2657,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 43,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'GGS12MT',
         process: 'GGS12MT_3',
@@ -2668,7 +2668,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 24,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'GGS12MT',
         process: 'GGS12MT_4',
@@ -2679,7 +2679,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 28,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'GGS12MT',
         process: 'GGS12MT_4',
@@ -2690,7 +2690,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 42,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'GGS12MT',
         process: 'GGS12MT_2',
@@ -2701,7 +2701,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 43,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'GGS12MT',
         process: 'GGS12MT_3',
@@ -2712,7 +2712,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'GGS12MT',
         process: 'GGS12MT_1',
@@ -2723,7 +2723,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 70,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'GGS12MT',
         process: 'GGS12MT_4',
@@ -2734,7 +2734,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'GGS12MT',
         process: 'GGS12MT_1',
@@ -2745,7 +2745,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'GGS12MT',
         process: 'GGS12MT_2',
@@ -2756,7 +2756,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'GGS12MT',
         process: 'GGS12MT_3',
@@ -2767,7 +2767,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'GGS12MT',
         process: 'GGS12MT_4',
@@ -2778,7 +2778,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 108,
         target: 3,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetbb'],
         paperName: 'GGS12ST',
         process: 'GGS12ST_1',
@@ -2789,7 +2789,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 108,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'GGS12ST',
         process: 'GGS12ST_2',
@@ -2800,7 +2800,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 108,
         target: 23,
-        value: 1,
+        value: 1.0001,
         paperName: 'GGS12ST',
         process: 'GGS12ST_3',
         id: 'GGS12ST-2',
@@ -2810,7 +2810,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 3,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetbb'],
         paperName: 'GGS12ST',
         process: 'GGS12ST_1',
@@ -2821,7 +2821,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'GGS12ST',
         process: 'GGS12ST_2',
@@ -2832,7 +2832,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'GGS12ST',
         process: 'GGS12ST_2',
@@ -2843,7 +2843,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'GGS12ST',
         process: 'GGS12ST_2',
@@ -2854,7 +2854,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 46,
-        value: 1,
+        value: 1.0001,
         paperName: 'GGS12ST',
         process: 'GGS12ST_3',
         id: 'GGS12ST-7',
@@ -2864,7 +2864,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 42,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'GGS12ST',
         process: 'GGS12ST_2',
@@ -2875,7 +2875,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetbb'],
         paperName: 'GGS12ST',
         process: 'GGS12ST_1',
@@ -2886,7 +2886,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'GGS12ST',
         process: 'GGS12ST_2',
@@ -2897,7 +2897,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'GGS12ST',
         process: 'GGS12ST_2',
@@ -2908,7 +2908,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetbb'],
         paperName: 'GGS12ST',
         process: 'GGS12ST_1',
@@ -2919,7 +2919,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['repeb', 'targetbb'],
         paperName: 'GGS12ST',
         process: 'GGS12ST_2',
@@ -2930,7 +2930,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 75,
         target: 77,
-        value: 1,
+        value: 1.0001,
         paperName: 'GGS12ST',
         process: 'GGS12ST_3',
         id: 'GGS12ST-14',
@@ -2940,7 +2940,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 109,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'GGS12TPS',
         process: 'GGS12TPS_1',
@@ -2951,7 +2951,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 109,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'GGS12TPS',
         process: 'GGS12TPS_2',
@@ -2962,7 +2962,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 109,
         target: 24,
-        value: 1,
+        value: 1.0001,
         paperName: 'GGS12TPS',
         process: 'GGS12TPS_3',
         id: 'GGS12TPS-2',
@@ -2972,7 +2972,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'GGS12TPS',
         process: 'GGS12TPS_1',
@@ -2983,7 +2983,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 43,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'GGS12TPS',
         process: 'GGS12TPS_2',
@@ -2994,7 +2994,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 24,
         target: 46,
-        value: 1,
+        value: 1.0001,
         paperName: 'GGS12TPS',
         process: 'GGS12TPS_3',
         id: 'GGS12TPS-5',
@@ -3004,7 +3004,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 42,
         target: 64,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'GGS12TPS',
         process: 'GGS12TPS_1',
@@ -3015,7 +3015,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 43,
         target: 64,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'GGS12TPS',
         process: 'GGS12TPS_2',
@@ -3026,7 +3026,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 75,
-        value: 1,
+        value: 1.0001,
         paperName: 'GGS12TPS',
         process: 'GGS12TPS_3',
         id: 'GGS12TPS-8',
@@ -3036,7 +3036,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 64,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'GGS12TPS',
         process: 'GGS12TPS_1',
@@ -3047,7 +3047,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 64,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'GGS12TPS',
         process: 'GGS12TPS_1',
@@ -3058,7 +3058,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 64,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'GGS12TPS',
         process: 'GGS12TPS_2',
@@ -3069,7 +3069,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 75,
         target: 98,
-        value: 1,
+        value: 1.0001,
         paperName: 'GGS12TPS',
         process: 'GGS12TPS_3',
         id: 'GGS12TPS-12',
@@ -3079,7 +3079,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 110,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb', 'targetba'],
         paperName: 'HYZ13',
         process: 'HYZ13_1',
@@ -3090,7 +3090,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 110,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb', 'targetba'],
         paperName: 'HYZ13',
         process: 'HYZ13_1',
@@ -3101,7 +3101,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 34,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb', 'targetba'],
         paperName: 'HYZ13',
         process: 'HYZ13_1',
@@ -3112,7 +3112,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 34,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb', 'targetba'],
         paperName: 'HYZ13',
         process: 'HYZ13_1',
@@ -3123,7 +3123,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 36,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb', 'targetba'],
         paperName: 'HYZ13',
         process: 'HYZ13_1',
@@ -3134,7 +3134,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 36,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb', 'targetba'],
         paperName: 'HYZ13',
         process: 'HYZ13_1',
@@ -3145,7 +3145,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb', 'targetba'],
         paperName: 'HYZ13',
         process: 'HYZ13_1',
@@ -3156,7 +3156,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb', 'targetba'],
         paperName: 'HYZ13',
         process: 'HYZ13_1',
@@ -3167,7 +3167,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb', 'targetba'],
         paperName: 'HYZ13',
         process: 'HYZ13_1',
@@ -3178,7 +3178,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb', 'targetba'],
         paperName: 'HYZ13',
         process: 'HYZ13_1',
@@ -3189,7 +3189,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb', 'targetba'],
         paperName: 'HYZ13',
         process: 'HYZ13_1',
@@ -3200,7 +3200,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb', 'targetba'],
         paperName: 'HYZ13',
         process: 'HYZ13_1',
@@ -3211,7 +3211,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 34,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb', 'targetba'],
         paperName: 'HYZ13',
         process: 'HYZ13_1',
@@ -3222,7 +3222,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 36,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb', 'targetba'],
         paperName: 'HYZ13',
         process: 'HYZ13_1',
@@ -3233,7 +3233,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 40,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb', 'targetba'],
         paperName: 'HYZ13',
         process: 'HYZ13_1',
@@ -3244,7 +3244,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 41,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb', 'targetba'],
         paperName: 'HYZ13',
         process: 'HYZ13_1',
@@ -3255,7 +3255,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb', 'targetba'],
         paperName: 'HYZ13',
         process: 'HYZ13_1',
@@ -3266,7 +3266,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb', 'targetba'],
         paperName: 'HYZ13',
         process: 'HYZ13_1',
@@ -3277,7 +3277,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb', 'targetba'],
         paperName: 'HYZ13',
         process: 'HYZ13_1',
@@ -3288,7 +3288,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb', 'targetba'],
         paperName: 'HYZ13',
         process: 'HYZ13_1',
@@ -3299,7 +3299,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 111,
         target: 5,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'JTM11',
         process: 'JTM11_1',
@@ -3310,7 +3310,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 111,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'targetcb', 'repb'],
         paperName: 'JTM11',
         process: 'JTM11_2',
@@ -3323,7 +3323,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 111,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'targetcb', 'repb'],
         paperName: 'JTM11',
         process: 'JTM11_3',
@@ -3334,7 +3334,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 111,
         target: 17,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'JTM11',
         process: 'JTM11_4',
@@ -3345,7 +3345,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 111,
         target: 18,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'JTM11',
         process: 'JTM11_4',
@@ -3356,7 +3356,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 111,
         target: 19,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'JTM11',
         process: 'JTM11_4',
@@ -3367,7 +3367,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 111,
         target: 22,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'JTM11',
         process: 'JTM11_5',
@@ -3378,7 +3378,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 111,
         target: 24,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'JTM11',
         process: 'JTM11_6',
@@ -3391,7 +3391,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 5,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'JTM11',
         process: 'JTM11_1',
@@ -3402,7 +3402,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'targetcb', 'repb'],
         paperName: 'JTM11',
         process: 'JTM11_2',
@@ -3414,7 +3414,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'targetcb', 'repb'],
         paperName: 'JTM11',
         process: 'JTM11_3',
@@ -3425,7 +3425,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 17,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'JTM11',
         process: 'JTM11_4',
@@ -3436,7 +3436,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 18,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'JTM11',
         process: 'JTM11_4',
@@ -3447,7 +3447,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 19,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'JTM11',
         process: 'JTM11_4',
@@ -3458,7 +3458,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 22,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'JTM11',
         process: 'JTM11_5',
@@ -3469,7 +3469,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 24,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'JTM11',
         process: 'JTM11_6',
@@ -3481,7 +3481,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'targetcb', 'repb'],
         paperName: 'JTM11',
         process: 'JTM11_2',
@@ -3493,7 +3493,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'targetcb', 'repb'],
         paperName: 'JTM11',
         process: 'JTM11_3',
@@ -3504,7 +3504,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'JTM11',
         process: 'JTM11_3',
@@ -3515,7 +3515,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 83,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'targetcb', 'repb'],
         paperName: 'JTM11',
         process: 'JTM11_2',
@@ -3526,7 +3526,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 83,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'targetcb', 'repb'],
         paperName: 'JTM11',
         process: 'JTM11_3',
@@ -3537,7 +3537,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 83,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'JTM11',
         process: 'JTM11_5',
@@ -3548,7 +3548,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'targetcb', 'repb'],
         paperName: 'JTM11',
         process: 'JTM11_2',
@@ -3560,7 +3560,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'targetcb', 'repb'],
         paperName: 'JTM11',
         process: 'JTM11_3',
@@ -3571,7 +3571,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'JTM11',
         process: 'JTM11_4',
@@ -3582,7 +3582,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'JTM11',
         process: 'JTM11_4',
@@ -3593,7 +3593,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'JTM11',
         process: 'JTM11_4',
@@ -3604,7 +3604,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 70,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'JTM11',
         process: 'JTM11_6',
@@ -3616,7 +3616,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 70,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'JTM11',
         process: 'JTM11_1',
@@ -3627,7 +3627,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'JTM11',
         process: 'JTM11_6',
@@ -3639,7 +3639,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'JTM11',
         process: 'JTM11_1',
@@ -3650,7 +3650,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'JTM11',
         process: 'JTM11_6',
@@ -3661,7 +3661,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 112,
         target: 0,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'JSM16',
         process: 'JSM16_1',
@@ -3674,7 +3674,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 112,
         target: 5,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'JSM16',
         process: 'JSM16_1',
@@ -3685,7 +3685,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 112,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'JSM16',
         process: 'JSM16_2',
@@ -3698,7 +3698,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 112,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'JSM16',
         process: 'JSM16_2',
@@ -3711,7 +3711,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 112,
         target: 22,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'JSM16',
         process: 'JSM16_3',
@@ -3722,7 +3722,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 112,
         target: 23,
-        value: 1,
+        value: 1.0001,
         paperName: 'JSM16',
         process: 'JSM16_4',
         id: 'JSM16-5',
@@ -3732,7 +3732,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 112,
         target: 24,
-        value: 1,
+        value: 1.0001,
         paperName: 'JSM16',
         process: 'JSM16_4',
         id: 'JSM16-6',
@@ -3742,7 +3742,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 0,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'JSM16',
         process: 'JSM16_1',
@@ -3754,7 +3754,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 5,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'JSM16',
         process: 'JSM16_2',
@@ -3765,7 +3765,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'JSM16',
         process: 'JSM16_2',
@@ -3777,7 +3777,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'JSM16',
         process: 'JSM16_2',
@@ -3789,7 +3789,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 44,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'JSM16',
         process: 'JSM16_2',
@@ -3801,7 +3801,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'JSM16',
         process: 'JSM16_2',
@@ -3813,7 +3813,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'JSM16',
         process: 'JSM16_2',
@@ -3825,7 +3825,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'JSM16',
         process: 'JSM16_2',
@@ -3837,7 +3837,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 44,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'JSM16',
         process: 'JSM16_2',
@@ -3849,7 +3849,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'JSM16',
         process: 'JSM16_2',
@@ -3861,7 +3861,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 22,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'JSM16',
         process: 'JSM16_3',
@@ -3872,7 +3872,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 24,
         target: 46,
-        value: 1,
+        value: 1.0001,
         paperName: 'JSM16',
         process: 'JSM16_4',
         id: 'JSM16-18',
@@ -3882,7 +3882,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'JSM16',
         process: 'JSM16_2',
@@ -3894,7 +3894,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 42,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'JSM16',
         process: 'JSM16_2',
@@ -3906,7 +3906,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 44,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'JSM16',
         process: 'JSM16_2',
@@ -3918,7 +3918,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 57,
-        value: 1,
+        value: 1.0001,
         paperName: 'JSM16',
         process: 'JSM16_4',
         id: 'JSM16-22',
@@ -3928,7 +3928,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'JSM16',
         process: 'JSM16_1',
@@ -3940,7 +3940,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'JSM16',
         process: 'JSM16_2',
@@ -3952,7 +3952,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'JSM16',
         process: 'JSM16_2',
@@ -3963,7 +3963,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'JSM16',
         process: 'JSM16_1',
@@ -3975,7 +3975,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'JSM16',
         process: 'JSM16_2',
@@ -3987,7 +3987,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'JSM16',
         process: 'JSM16_1',
@@ -3998,7 +3998,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repc'],
         paperName: 'JSM16',
         process: 'JSM16_2',
@@ -4009,7 +4009,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 57,
         target: 80,
-        value: 1,
+        value: 1.0001,
         paperName: 'JSM16',
         process: 'JSM16_4',
         id: 'JSM16-30',
@@ -4019,7 +4019,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 57,
         target: 98,
-        value: 1,
+        value: 1.0001,
         paperName: 'JSM16',
         process: 'JSM16_4',
         id: 'JSM16-31',
@@ -4029,7 +4029,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 113,
         target: 9,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'JX17',
         process: 'JX17_1',
@@ -4040,7 +4040,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 113,
         target: 9,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'JX17',
         process: 'JX17_2',
@@ -4053,7 +4053,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 113,
         target: 9,
-        value: 1,
+        value: 1.0001,
         paperName: 'JX17',
         process: 'JX17_3',
         id: 'JX17-2',
@@ -4063,7 +4063,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 113,
         target: 10,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'JX17',
         process: 'JX17_1',
@@ -4074,7 +4074,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 113,
         target: 10,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'JX17',
         process: 'JX17_2',
@@ -4087,7 +4087,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 113,
         target: 10,
-        value: 1,
+        value: 1.0001,
         paperName: 'JX17',
         process: 'JX17_3',
         id: 'JX17-5',
@@ -4097,7 +4097,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 113,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetba', 'targetbb'],
         paperName: 'JX17',
         process: 'JX17_4',
@@ -4108,7 +4108,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 113,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'targetbb'],
         paperName: 'JX17',
         process: 'JX17_5',
@@ -4119,7 +4119,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 113,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'targetbb'],
         paperName: 'JX17',
         process: 'JX17_6',
@@ -4132,7 +4132,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 113,
         target: 21,
-        value: 1,
+        value: 1.0001,
         paperName: 'JX17',
         process: 'JX17_7',
         id: 'JX17-9',
@@ -4142,7 +4142,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 9,
         target: 36,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'JX17',
         process: 'JX17_1',
@@ -4153,7 +4153,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 9,
         target: 36,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'JX17',
         process: 'JX17_2',
@@ -4165,7 +4165,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 9,
         target: 36,
-        value: 1,
+        value: 1.0001,
         paperName: 'JX17',
         process: 'JX17_3',
         id: 'JX17-12',
@@ -4175,7 +4175,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 10,
         target: 36,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'JX17',
         process: 'JX17_1',
@@ -4186,7 +4186,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 10,
         target: 36,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'JX17',
         process: 'JX17_2',
@@ -4198,7 +4198,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 10,
         target: 36,
-        value: 1,
+        value: 1.0001,
         paperName: 'JX17',
         process: 'JX17_3',
         id: 'JX17-15',
@@ -4208,7 +4208,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 35,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetba', 'targetbb'],
         paperName: 'JX17',
         process: 'JX17_4',
@@ -4219,7 +4219,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'targetbb'],
         paperName: 'JX17',
         process: 'JX17_5',
@@ -4230,7 +4230,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'targetbb'],
         paperName: 'JX17',
         process: 'JX17_6',
@@ -4242,7 +4242,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 21,
         target: 46,
-        value: 1,
+        value: 1.0001,
         paperName: 'JX17',
         process: 'JX17_7',
         id: 'JX17-19',
@@ -4252,7 +4252,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 35,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetba', 'targetbb'],
         paperName: 'JX17',
         process: 'JX17_4',
@@ -4263,7 +4263,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 36,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'JX17',
         process: 'JX17_1',
@@ -4274,7 +4274,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 36,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'JX17',
         process: 'JX17_2',
@@ -4286,7 +4286,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 36,
         target: 65,
-        value: 1,
+        value: 1.0001,
         paperName: 'JX17',
         process: 'JX17_3',
         id: 'JX17-23',
@@ -4296,7 +4296,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 42,
         target: 65,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'targetbb'],
         paperName: 'JX17',
         process: 'JX17_5',
@@ -4307,7 +4307,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 65,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'targetbb'],
         paperName: 'JX17',
         process: 'JX17_6',
@@ -4319,7 +4319,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 65,
-        value: 1,
+        value: 1.0001,
         paperName: 'JX17',
         process: 'JX17_7',
         id: 'JX17-26',
@@ -4329,7 +4329,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'JX17',
         process: 'JX17_1',
@@ -4340,7 +4340,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'JX17',
         process: 'JX17_1',
@@ -4351,7 +4351,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 91,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'JX17',
         process: 'JX17_1',
@@ -4362,7 +4362,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'JX17',
         process: 'JX17_2',
@@ -4374,7 +4374,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 85,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'JX17',
         process: 'JX17_2',
@@ -4385,7 +4385,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 65,
         target: 92,
-        value: 1,
+        value: 1.0001,
         paperName: 'JX17',
         process: 'JX17_3',
         id: 'JX17-32',
@@ -4395,7 +4395,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 65,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'targetbb'],
         paperName: 'JX17',
         process: 'JX17_6',
@@ -4406,7 +4406,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetba', 'targetbb'],
         paperName: 'JX17',
         process: 'JX17_4',
@@ -4417,7 +4417,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 65,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'targetbb'],
         paperName: 'JX17',
         process: 'JX17_5',
@@ -4428,7 +4428,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 65,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'targetbb'],
         paperName: 'JX17',
         process: 'JX17_6',
@@ -4439,7 +4439,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 65,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'targetbb'],
         paperName: 'JX17',
         process: 'JX17_6',
@@ -4451,7 +4451,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 65,
         target: 98,
-        value: 1,
+        value: 1.0001,
         paperName: 'JX17',
         process: 'JX17_7',
         id: 'JX17-38',
@@ -4461,7 +4461,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 0,
-        value: 1,
+        value: 1.0001,
         valueid: ['reph', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_1',
@@ -4472,7 +4472,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 0,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_2',
@@ -4485,7 +4485,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 0,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_3',
@@ -4498,7 +4498,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 2,
-        value: 1,
+        value: 1.0001,
         valueid: ['reph', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_1',
@@ -4509,7 +4509,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 2,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_2',
@@ -4522,7 +4522,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 2,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_3',
@@ -4535,7 +4535,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 3,
-        value: 1,
+        value: 1.0001,
         valueid: ['reph', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_1',
@@ -4546,7 +4546,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 3,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_2',
@@ -4559,7 +4559,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 3,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_3',
@@ -4572,7 +4572,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 4,
-        value: 1,
+        value: 1.0001,
         valueid: ['reph', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_1',
@@ -4583,7 +4583,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 4,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_2',
@@ -4596,7 +4596,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 4,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_3',
@@ -4609,7 +4609,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 5,
-        value: 1,
+        value: 1.0001,
         valueid: ['reph', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_1',
@@ -4620,7 +4620,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 5,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_2',
@@ -4633,7 +4633,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 5,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_3',
@@ -4646,7 +4646,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 6,
-        value: 1,
+        value: 1.0001,
         valueid: ['reph', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_1',
@@ -4657,7 +4657,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 6,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_2',
@@ -4670,7 +4670,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 6,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_3',
@@ -4683,7 +4683,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 7,
-        value: 1,
+        value: 1.0001,
         valueid: ['reph', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_1',
@@ -4694,7 +4694,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 7,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_2',
@@ -4707,7 +4707,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 7,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_3',
@@ -4720,7 +4720,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'KSBK15',
         process: 'KSBK15_4',
@@ -4731,7 +4731,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 13,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'KSBK15',
         process: 'KSBK15_4',
@@ -4742,7 +4742,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'KSBK15',
         process: 'KSBK15_4',
@@ -4753,7 +4753,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'KSBK15',
         process: 'KSBK15_5',
@@ -4764,7 +4764,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 13,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'KSBK15',
         process: 'KSBK15_5',
@@ -4775,7 +4775,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'KSBK15',
         process: 'KSBK15_5',
@@ -4786,7 +4786,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'KSBK15',
         process: 'KSBK15_6',
@@ -4797,7 +4797,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 13,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'KSBK15',
         process: 'KSBK15_6',
@@ -4808,7 +4808,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'KSBK15',
         process: 'KSBK15_6',
@@ -4819,7 +4819,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 114,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'KSBK15',
         process: 'KSBK15_7',
@@ -4830,7 +4830,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 0,
         target: 36,
-        value: 1,
+        value: 1.0001,
         valueid: ['reph', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_1',
@@ -4841,7 +4841,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 2,
         target: 36,
-        value: 1,
+        value: 1.0001,
         valueid: ['reph', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_1',
@@ -4852,7 +4852,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 3,
         target: 36,
-        value: 1,
+        value: 1.0001,
         valueid: ['reph', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_1',
@@ -4863,7 +4863,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 4,
         target: 36,
-        value: 1,
+        value: 1.0001,
         valueid: ['reph', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_1',
@@ -4874,7 +4874,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 5,
         target: 36,
-        value: 1,
+        value: 1.0001,
         valueid: ['reph', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_1',
@@ -4885,7 +4885,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 6,
         target: 36,
-        value: 1,
+        value: 1.0001,
         valueid: ['reph', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_1',
@@ -4896,7 +4896,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 7,
         target: 36,
-        value: 1,
+        value: 1.0001,
         valueid: ['reph', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_1',
@@ -4907,7 +4907,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 0,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: ['reph', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_1',
@@ -4918,7 +4918,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 2,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: ['reph', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_1',
@@ -4929,7 +4929,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 3,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: ['reph', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_1',
@@ -4940,7 +4940,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 4,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: ['reph', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_1',
@@ -4951,7 +4951,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 5,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: ['reph', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_1',
@@ -4962,7 +4962,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 6,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: ['reph', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_1',
@@ -4973,7 +4973,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 7,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: ['reph', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_1',
@@ -4984,7 +4984,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 0,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_2',
@@ -4996,7 +4996,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 2,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_2',
@@ -5008,7 +5008,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 3,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_2',
@@ -5020,7 +5020,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 4,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_2',
@@ -5032,7 +5032,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 5,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_2',
@@ -5044,7 +5044,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 6,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_2',
@@ -5056,7 +5056,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 7,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_2',
@@ -5068,7 +5068,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 0,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_3',
@@ -5080,7 +5080,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 2,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_3',
@@ -5092,7 +5092,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 3,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_3',
@@ -5104,7 +5104,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 4,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_3',
@@ -5116,7 +5116,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 5,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_3',
@@ -5128,7 +5128,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 6,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_3',
@@ -5140,7 +5140,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 7,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_3',
@@ -5152,7 +5152,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'KSBK15',
         process: 'KSBK15_4',
@@ -5163,7 +5163,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'KSBK15',
         process: 'KSBK15_4',
@@ -5174,7 +5174,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'KSBK15',
         process: 'KSBK15_4',
@@ -5185,7 +5185,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'KSBK15',
         process: 'KSBK15_5',
@@ -5196,7 +5196,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'KSBK15',
         process: 'KSBK15_5',
@@ -5207,7 +5207,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'KSBK15',
         process: 'KSBK15_5',
@@ -5218,7 +5218,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'KSBK15',
         process: 'KSBK15_6',
@@ -5229,7 +5229,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'KSBK15',
         process: 'KSBK15_6',
@@ -5240,7 +5240,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'KSBK15',
         process: 'KSBK15_6',
@@ -5251,7 +5251,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'KSBK15',
         process: 'KSBK15_4',
@@ -5262,7 +5262,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'KSBK15',
         process: 'KSBK15_4',
@@ -5273,7 +5273,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'KSBK15',
         process: 'KSBK15_4',
@@ -5284,7 +5284,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'KSBK15',
         process: 'KSBK15_6',
@@ -5295,7 +5295,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'KSBK15',
         process: 'KSBK15_6',
@@ -5306,7 +5306,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'KSBK15',
         process: 'KSBK15_6',
@@ -5317,7 +5317,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'KSBK15',
         process: 'KSBK15_5',
@@ -5328,7 +5328,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'KSBK15',
         process: 'KSBK15_5',
@@ -5339,7 +5339,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'KSBK15',
         process: 'KSBK15_5',
@@ -5350,7 +5350,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'KSBK15',
         process: 'KSBK15_7',
@@ -5361,7 +5361,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'KSBK15',
         process: 'KSBK15_7',
@@ -5372,7 +5372,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 36,
         target: 62,
-        value: 1,
+        value: 1.0001,
         valueid: ['reph', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_1',
@@ -5383,7 +5383,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 40,
         target: 62,
-        value: 1,
+        value: 1.0001,
         valueid: ['reph', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_1',
@@ -5394,7 +5394,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 40,
         target: 62,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'KSBK15',
         process: 'KSBK15_6',
@@ -5405,7 +5405,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_2',
@@ -5417,7 +5417,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_3',
@@ -5429,7 +5429,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'KSBK15',
         process: 'KSBK15_7',
@@ -5440,7 +5440,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 41,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'KSBK15',
         process: 'KSBK15_4',
@@ -5451,7 +5451,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 41,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'KSBK15',
         process: 'KSBK15_5',
@@ -5462,7 +5462,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'KSBK15',
         process: 'KSBK15_4',
@@ -5473,7 +5473,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'KSBK15',
         process: 'KSBK15_5',
@@ -5484,7 +5484,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 62,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'KSBK15',
         process: 'KSBK15_6',
@@ -5495,7 +5495,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['reph', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_1',
@@ -5506,7 +5506,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'KSBK15',
         process: 'KSBK15_6',
@@ -5517,7 +5517,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_2',
@@ -5529,7 +5529,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_2',
@@ -5540,7 +5540,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'KSBK15',
         process: 'KSBK15_4',
@@ -5551,7 +5551,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 85,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_2',
@@ -5562,7 +5562,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 85,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'KSBK15',
         process: 'KSBK15_4',
@@ -5573,7 +5573,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba', 'targetbb'],
         paperName: 'KSBK15',
         process: 'KSBK15_3',
@@ -5585,7 +5585,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 89,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'KSBK15',
         process: 'KSBK15_7',
@@ -5596,7 +5596,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 115,
         target: 4,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf ',
         paperName: 'LGX16',
         process: 'LGX16_2',
@@ -5609,7 +5609,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 115,
         target: 4,
-        value: 1,
+        value: 1.0001,
         paperName: 'LGX16',
         process: 'LGX16_1',
         id: 'LGX16-1',
@@ -5619,7 +5619,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 115,
         target: 5,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd ', 'targetbb'],
         paperName: 'LGX16',
         process: 'LGX16_3',
@@ -5630,7 +5630,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 115,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: 'repea ',
         paperName: 'LGX16',
         process: 'LGX16_4',
@@ -5641,7 +5641,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 115,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: 'repea ',
         paperName: 'LGX16',
         process: 'LGX16_4',
@@ -5652,7 +5652,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 115,
         target: 17,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg ',
         paperName: 'LGX16',
         process: 'LGX16_5',
@@ -5663,7 +5663,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 115,
         target: 19,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg ',
         paperName: 'LGX16',
         process: 'LGX16_5',
@@ -5674,7 +5674,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 4,
         target: 40,
-        value: 1,
+        value: 1.0001,
         paperName: 'LGX16',
         process: 'LGX16_1',
         id: 'LGX16-7',
@@ -5684,7 +5684,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 4,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf ',
         paperName: 'LGX16',
         process: 'LGX16_2',
@@ -5696,7 +5696,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 5,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd ', 'targetbb'],
         paperName: 'LGX16',
         process: 'LGX16_3',
@@ -5707,7 +5707,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 33,
-        value: 1,
+        value: 1.0001,
         valueid: 'repea ',
         paperName: 'LGX16',
         process: 'LGX16_4',
@@ -5718,7 +5718,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: 'repea ',
         paperName: 'LGX16',
         process: 'LGX16_4',
@@ -5729,7 +5729,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 33,
-        value: 1,
+        value: 1.0001,
         valueid: 'repea ',
         paperName: 'LGX16',
         process: 'LGX16_4',
@@ -5740,7 +5740,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: 'repea',
         paperName: 'LGX16',
         process: 'LGX16_4',
@@ -5751,7 +5751,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 17,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'LGX16',
         process: 'LGX16_5',
@@ -5762,7 +5762,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 19,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'LGX16',
         process: 'LGX16_5',
@@ -5773,7 +5773,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 40,
         target: 70,
-        value: 1,
+        value: 1.0001,
         paperName: 'LGX16',
         process: 'LGX16_1',
         id: 'LGX16-16',
@@ -5783,7 +5783,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 40,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf ',
         paperName: 'LGX16',
         process: 'LGX16_2',
@@ -5795,7 +5795,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 40,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd ', 'targetbb'],
         paperName: 'LGX16',
         process: 'LGX16_3',
@@ -5806,7 +5806,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 33,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: 'repea ',
         paperName: 'LGX16',
         process: 'LGX16_4',
@@ -5817,7 +5817,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: 'repea ',
         paperName: 'LGX16',
         process: 'LGX16_4',
@@ -5828,7 +5828,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 68,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg ',
         paperName: 'LGX16',
         process: 'LGX16_5',
@@ -5839,7 +5839,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 80,
-        value: 1,
+        value: 1.0001,
         paperName: 'LGX16',
         process: 'LGX16_1',
         id: 'LGX16-22',
@@ -5849,7 +5849,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf ',
         paperName: 'LGX16',
         process: 'LGX16_2',
@@ -5860,7 +5860,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf ',
         paperName: 'LGX16',
         process: 'LGX16_2',
@@ -5872,7 +5872,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd ', 'targetbb'],
         paperName: 'LGX16',
         process: 'LGX16_3',
@@ -5883,7 +5883,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd ', 'targetbb'],
         paperName: 'LGX16',
         id: 'LGX16-26',
@@ -5894,7 +5894,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 85,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd ', 'targetbb'],
         paperName: 'LGX16',
         process: 'LGX16_3',
@@ -5905,7 +5905,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: 'repea ',
         paperName: 'LGX16',
         process: 'LGX16_4',
@@ -5916,7 +5916,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'repea ',
         paperName: 'LGX16',
         process: 'LGX16_4',
@@ -5927,7 +5927,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: 'repea ',
         paperName: 'LGX16',
         process: 'LGX16_4',
@@ -5938,7 +5938,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 68,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg ',
         paperName: 'LGX16',
         process: 'LGX16_5',
@@ -5949,7 +5949,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 116,
         target: 3,
-        value: 1,
+        value: 1.0001,
         valueid: 'repa',
         paperName: 'LJC18',
         process: 'LJC18_1',
@@ -5960,7 +5960,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 116,
         target: 3,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'LJC18',
         process: 'LJC18_4',
@@ -5971,7 +5971,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 116,
         target: 3,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'LJC18',
         process: 'LJC18_2',
@@ -5982,7 +5982,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 116,
         target: 3,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'LJC18',
         process: 'LJC18_3',
@@ -5993,7 +5993,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 116,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'LJC18',
         process: 'LJC18_5',
@@ -6004,7 +6004,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 116,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'LJC18',
         process: 'LJC18_6',
@@ -6015,7 +6015,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 116,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: 'repa',
         paperName: 'LJC18',
         process: 'LJC18_8',
@@ -6026,7 +6026,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 116,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'LJC18',
         process: 'LJC18_7',
@@ -6037,7 +6037,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 116,
         target: 23,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'LJC18',
         process: 'LJC18_9',
@@ -6048,7 +6048,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 116,
         target: 23,
-        value: 1,
+        value: 1.0001,
         valueid: 'repa',
         paperName: 'LJC18',
         process: 'LJC18_10',
@@ -6059,7 +6059,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 3,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'LJC18',
         process: 'LJC18_2',
@@ -6070,7 +6070,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'LJC18',
         process: 'LJC18_5',
@@ -6081,7 +6081,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'LJC18',
         process: 'LJC18_6',
@@ -6092,7 +6092,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 3,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'LJC18',
         process: 'LJC18_3',
@@ -6103,7 +6103,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 3,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'repa',
         paperName: 'LJC18',
         process: 'LJC18_1',
@@ -6114,7 +6114,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 3,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'LJC18',
         process: 'LJC18_4',
@@ -6125,7 +6125,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'LJC18',
         process: 'LJC18_7',
@@ -6136,7 +6136,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'repa',
         paperName: 'LJC18',
         process: 'LJC18_8',
@@ -6147,7 +6147,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'repa',
         paperName: 'LJC18',
         process: 'LJC18_10',
@@ -6158,7 +6158,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'LJC18',
         process: 'LJC18_9',
@@ -6169,7 +6169,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'LJC18',
         process: 'LJC18_5',
@@ -6180,7 +6180,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'LJC18',
         process: 'LJC18_2',
@@ -6191,7 +6191,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'LJC18',
         process: 'LJC18_6',
@@ -6202,7 +6202,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'LJC18',
         process: 'LJC18_3',
@@ -6213,7 +6213,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'LJC18',
         process: 'LJC18_7',
@@ -6224,7 +6224,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 62,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'LJC18',
         process: 'LJC18_4',
@@ -6235,7 +6235,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 63,
-        value: 1,
+        value: 1.0001,
         valueid: 'repa',
         paperName: 'LJC18',
         process: 'LJC18_1',
@@ -6246,7 +6246,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 63,
-        value: 1,
+        value: 1.0001,
         valueid: 'repa',
         paperName: 'LJC18',
         process: 'LJC18_8',
@@ -6257,7 +6257,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 63,
-        value: 1,
+        value: 1.0001,
         valueid: 'repa',
         paperName: 'LJC18',
         process: 'LJC18_10',
@@ -6268,7 +6268,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'LJC18',
         process: 'LJC18_2',
@@ -6279,7 +6279,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'LJC18',
         process: 'LJC18_5',
@@ -6290,7 +6290,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'LJC18',
         process: 'LJC18_6',
@@ -6301,7 +6301,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 88,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'LJC18',
         process: 'LJC18_4',
@@ -6312,7 +6312,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 88,
-        value: 1,
+        value: 1.0001,
         valueid: 'repa',
         paperName: 'LJC18',
         process: 'LJC18_1',
@@ -6323,7 +6323,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 88,
-        value: 1,
+        value: 1.0001,
         valueid: 'repa',
         paperName: 'LJC18',
         process: 'LJC18_10',
@@ -6334,7 +6334,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'LJC18',
         process: 'LJC18_2',
@@ -6345,7 +6345,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'LJC18',
         process: 'LJC18_5',
@@ -6356,7 +6356,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'LJC18',
         process: 'LJC18_6',
@@ -6367,7 +6367,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'LJC18',
         process: 'LJC18_2',
@@ -6378,7 +6378,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'LJC18',
         process: 'LJC18_9',
@@ -6389,7 +6389,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 99,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'LJC18',
         process: 'LJC18_3',
@@ -6400,7 +6400,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 99,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'LJC18',
         process: 'LJC18_7',
@@ -6411,7 +6411,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 99,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'LJC18',
         process: 'LJC18_4',
@@ -6422,7 +6422,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 99,
-        value: 1,
+        value: 1.0001,
         valueid: 'repa',
         paperName: 'LJC18',
         process: 'LJC18_1',
@@ -6433,7 +6433,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 99,
-        value: 1,
+        value: 1.0001,
         valueid: 'repa',
         paperName: 'LJC18',
         process: 'LJC18_8',
@@ -6444,7 +6444,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 99,
-        value: 1,
+        value: 1.0001,
         valueid: 'repa',
         paperName: 'LJC18',
         process: 'LJC18_10',
@@ -6455,7 +6455,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 117,
         target: 7,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetab'],
         paperName: 'LLN14',
         process: 'LLN14_1',
@@ -6468,7 +6468,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 117,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'LLN14',
         process: 'LLN14_2',
@@ -6481,7 +6481,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 117,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'LLN14',
         process: 'LLN14_2',
@@ -6494,7 +6494,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 117,
         target: 18,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'LLN14',
         process: 'LLN14_3',
@@ -6507,7 +6507,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 117,
         target: 24,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'LLN14',
         process: 'LLN14_4',
@@ -6518,7 +6518,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 117,
         target: 24,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'LLN14',
         process: 'LLN14_5',
@@ -6529,7 +6529,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 7,
         target: 34,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetab'],
         paperName: 'LLN14',
         process: 'LLN14_1',
@@ -6541,7 +6541,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 34,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetab'],
         paperName: 'LLN14',
         process: 'LLN14_1',
@@ -6553,7 +6553,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetab'],
         paperName: 'LLN14',
         process: 'LLN14_1',
@@ -6564,7 +6564,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetab'],
         paperName: 'LLN14',
         process: 'LLN14_1',
@@ -6576,7 +6576,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 88,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetab'],
         paperName: 'LLN14',
         process: 'LLN14_1',
@@ -6587,7 +6587,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 34,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'LLN14',
         process: 'LLN14_2',
@@ -6599,7 +6599,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 34,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'LLN14',
         process: 'LLN14_2',
@@ -6611,7 +6611,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 34,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'LLN14',
         process: 'LLN14_2',
@@ -6623,7 +6623,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'LLN14',
         process: 'LLN14_2',
@@ -6634,7 +6634,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'LLN14',
         process: 'LLN14_2',
@@ -6646,7 +6646,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'LLN14',
         process: 'LLN14_2',
@@ -6657,7 +6657,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 18,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'LLN14',
         process: 'LLN14_3',
@@ -6669,7 +6669,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'LLN14',
         process: 'LLN14_3',
@@ -6681,7 +6681,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'LLN14',
         process: 'LLN14_3',
@@ -6693,7 +6693,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 85,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'LLN14',
         process: 'LLN14_3',
@@ -6704,7 +6704,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 24,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'LLN14',
         process: 'LLN14_4',
@@ -6715,7 +6715,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'LLN14',
         process: 'LLN14_4',
@@ -6726,7 +6726,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'LLN14',
         process: 'LLN14_4',
@@ -6737,7 +6737,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 82,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'LLN14',
         process: 'LLN14_4',
@@ -6748,7 +6748,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 24,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'LLN14',
         process: 'LLN14_5',
@@ -6759,7 +6759,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 70,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'LLN14',
         process: 'LLN14_5',
@@ -6770,7 +6770,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'LLN14',
         process: 'LLN14_5',
@@ -6781,7 +6781,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 118,
         target: 9,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_1',
@@ -6792,7 +6792,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 118,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_2',
@@ -6803,7 +6803,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 118,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_3',
@@ -6816,7 +6816,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 118,
         target: 13,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_2',
@@ -6827,7 +6827,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 118,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_4',
@@ -6838,7 +6838,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 118,
         target: 17,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_4',
@@ -6849,7 +6849,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 118,
         target: 18,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_4',
@@ -6860,7 +6860,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 118,
         target: 22,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'LWW13',
         process: 'LWW13_5',
@@ -6871,7 +6871,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 9,
         target: 36,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_1',
@@ -6882,7 +6882,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 9,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_1',
@@ -6893,7 +6893,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 40,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_1',
@@ -6904,7 +6904,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 35,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_2',
@@ -6915,7 +6915,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 35,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_2',
@@ -6926,7 +6926,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_3',
@@ -6938,7 +6938,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_4',
@@ -6949,7 +6949,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 17,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_4',
@@ -6960,7 +6960,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 18,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_4',
@@ -6971,7 +6971,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 35,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_2',
@@ -6982,7 +6982,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 36,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_1',
@@ -6993,7 +6993,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_3',
@@ -7005,7 +7005,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_4',
@@ -7016,7 +7016,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 75,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'LWW13',
         process: 'LWW13_5',
@@ -7027,7 +7027,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_2',
@@ -7038,7 +7038,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_4',
@@ -7049,7 +7049,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_3',
@@ -7061,7 +7061,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_1',
@@ -7072,7 +7072,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_2',
@@ -7083,7 +7083,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_3',
@@ -7094,7 +7094,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_1',
@@ -7105,7 +7105,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repeb'],
         paperName: 'LWW13',
         process: 'LWW13_3',
@@ -7116,7 +7116,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 75,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'LWW13',
         process: 'LWW13_5',
@@ -7127,7 +7127,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 119,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MA16',
         process: 'MA16_1',
@@ -7138,7 +7138,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 119,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repg'],
         paperName: 'MA16',
         process: 'MA16_2',
@@ -7149,7 +7149,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 119,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MA16',
         process: 'MA16_3',
@@ -7160,7 +7160,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 119,
         target: 21,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'MA16',
         process: 'MA16_4',
@@ -7171,7 +7171,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 119,
         target: 27,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'MA16',
         process: 'MA16_4',
@@ -7182,7 +7182,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 119,
         target: 30,
-        value: 1,
+        value: 1.0001,
         paperName: 'MA16',
         process: 'MA16_5',
         id: 'MA16-5',
@@ -7192,7 +7192,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MA16',
         process: 'MA16_1',
@@ -7203,7 +7203,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repg'],
         paperName: 'MA16',
         process: 'MA16_2',
@@ -7214,7 +7214,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MA16',
         process: 'MA16_3',
@@ -7225,7 +7225,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 21,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'MA16',
         process: 'MA16_4',
@@ -7236,7 +7236,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 27,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'MA16',
         process: 'MA16_4',
@@ -7247,7 +7247,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 30,
         target: 46,
-        value: 1,
+        value: 1.0001,
         paperName: 'MA16',
         process: 'MA16_5',
         id: 'MA16-11',
@@ -7257,7 +7257,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 67,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MA16',
         process: 'MA16_1',
@@ -7268,7 +7268,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 68,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repg'],
         paperName: 'MA16',
         process: 'MA16_2',
@@ -7279,7 +7279,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 67,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MA16',
         process: 'MA16_3',
@@ -7290,7 +7290,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 66,
-        value: 1,
+        value: 1.0001,
         paperName: 'MA16',
         process: 'MA16_5',
         id: 'MA16-15',
@@ -7300,7 +7300,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 68,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'MA16',
         process: 'MA16_4',
@@ -7311,7 +7311,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 74,
-        value: 1,
+        value: 1.0001,
         paperName: 'MA16',
         process: 'MA16_5',
         id: 'MA16-17',
@@ -7321,7 +7321,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 68,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repg'],
         paperName: 'MA16',
         process: 'MA16_2',
@@ -7332,7 +7332,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 68,
         target: 82,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'MA16',
         process: 'MA16_4',
@@ -7343,7 +7343,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 67,
         target: 83,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MA16',
         process: 'MA16_1',
@@ -7354,7 +7354,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 67,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MA16',
         process: 'MA16_1',
@@ -7365,7 +7365,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 67,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MA16',
         process: 'MA16_3',
@@ -7376,7 +7376,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 74,
         target: 98,
-        value: 1,
+        value: 1.0001,
         paperName: 'MA16',
         process: 'MA16_5',
         id: 'MA16-23',
@@ -7386,7 +7386,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 66,
         target: 98,
-        value: 1,
+        value: 1.0001,
         paperName: 'MA16',
         process: 'MA16_5',
         id: 'MA16-24',
@@ -7396,7 +7396,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 120,
         target: 7,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'MDD10',
         process: 'MDD10_1',
@@ -7409,7 +7409,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 120,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'MDD10',
         process: 'MDD10_2',
@@ -7422,7 +7422,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 120,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repf'],
         paperName: 'MDD10',
         process: 'MDD10_3',
@@ -7433,7 +7433,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 120,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'MDD10',
         process: 'MDD10_4',
@@ -7446,7 +7446,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 120,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repf'],
         paperName: 'MDD10',
         process: 'MDD10_5',
@@ -7457,7 +7457,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 120,
         target: 22,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'MDD10',
         process: 'MDD10_6',
@@ -7468,7 +7468,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 120,
         target: 22,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'MDD10',
         process: 'MDD10_7',
@@ -7479,7 +7479,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 7,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'MDD10',
         process: 'MDD10_1',
@@ -7491,7 +7491,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repf'],
         paperName: 'MDD10',
         process: 'MDD10_3',
@@ -7502,7 +7502,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 7,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'MDD10',
         process: 'MDD10_1',
@@ -7514,7 +7514,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'MDD10',
         process: 'MDD10_2',
@@ -7526,7 +7526,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'MDD10',
         process: 'MDD10_2',
@@ -7538,7 +7538,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'MDD10',
         process: 'MDD10_4',
@@ -7550,7 +7550,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'MDD10',
         process: 'MDD10_1',
@@ -7562,7 +7562,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'MDD10',
         process: 'MDD10_2',
@@ -7574,7 +7574,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 40,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'MDD10',
         process: 'MDD10_2',
@@ -7586,7 +7586,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 40,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'MDD10',
         process: 'MDD10_4',
@@ -7598,7 +7598,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'MDD10',
         process: 'MDD10_1',
@@ -7609,7 +7609,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'MDD10',
         process: 'MDD10_2',
@@ -7620,7 +7620,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'MDD10',
         process: 'MDD10_1',
@@ -7632,7 +7632,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'MDD10',
         process: 'MDD10_2',
@@ -7644,7 +7644,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'MDD10',
         process: 'MDD10_4',
@@ -7656,7 +7656,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 86,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'MDD10',
         process: 'MDD10_1',
@@ -7667,7 +7667,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 86,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'MDD10',
         process: 'MDD10_2',
@@ -7678,7 +7678,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 86,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'MDD10',
         process: 'MDD10_4',
@@ -7689,7 +7689,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repf'],
         paperName: 'MDD10',
         process: 'MDD10_5',
@@ -7700,7 +7700,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repf'],
         paperName: 'MDD10',
         process: 'MDD10_5',
@@ -7711,7 +7711,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 22,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'MDD10',
         process: 'MDD10_7',
@@ -7722,7 +7722,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 22,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'MDD10',
         process: 'MDD10_6',
@@ -7733,7 +7733,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 22,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'MDD10',
         process: 'MDD10_6',
@@ -7744,7 +7744,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'MDD10',
         process: 'MDD10_6',
@@ -7755,7 +7755,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repf'],
         paperName: 'MDD10',
         process: 'MDD10_3',
@@ -7766,7 +7766,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'MDD10',
         process: 'MDD10_7',
@@ -7777,7 +7777,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'MDD10',
         process: 'MDD10_1',
@@ -7789,7 +7789,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'MDD10',
         process: 'MDD10_6',
@@ -7800,7 +7800,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'MDD10',
         process: 'MDD10_6',
@@ -7811,7 +7811,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repf'],
         paperName: 'MDD10',
         process: 'MDD10_3',
@@ -7822,7 +7822,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repf'],
         paperName: 'MDD10',
         process: 'MDD10_5',
@@ -7833,7 +7833,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 121,
         target: 9,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repeb'],
         paperName: 'MEV16',
         process: 'MEV16_1',
@@ -7846,7 +7846,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 121,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repd'],
         paperName: 'MEV16',
         process: 'MEV16_2',
@@ -7857,7 +7857,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 121,
         target: 13,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repd'],
         paperName: 'MEV16',
         process: 'MEV16_2',
@@ -7868,7 +7868,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 121,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repf'],
         paperName: 'MEV16',
         process: 'MEV16_3',
@@ -7879,7 +7879,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 121,
         target: 13,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repf'],
         paperName: 'MEV16',
         process: 'MEV16_3',
@@ -7890,7 +7890,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 121,
         target: 18,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repd'],
         paperName: 'MEV16',
         process: 'MEV16_4',
@@ -7901,7 +7901,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 121,
         target: 19,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repd'],
         paperName: 'MEV16',
         process: 'MEV16_4',
@@ -7912,7 +7912,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 121,
         target: 18,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repf'],
         paperName: 'MEV16',
         process: 'MEV16_5',
@@ -7923,7 +7923,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 121,
         target: 19,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repf'],
         paperName: 'MEV16',
         process: 'MEV16_5',
@@ -7934,7 +7934,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 121,
         target: 24,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetaa',
         paperName: 'MEV16',
         process: 'MEV16_6',
@@ -7945,7 +7945,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 9,
         target: 36,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repeb'],
         paperName: 'MEV16',
         process: 'MEV16_1',
@@ -7957,7 +7957,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 36,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repeb'],
         paperName: 'MEV16',
         process: 'MEV16_1',
@@ -7969,7 +7969,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repeb'],
         paperName: 'MEV16',
         process: 'MEV16_1',
@@ -7981,7 +7981,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 35,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repd'],
         paperName: 'MEV16',
         process: 'MEV16_2',
@@ -7992,7 +7992,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repd'],
         paperName: 'MEV16',
         process: 'MEV16_2',
@@ -8003,7 +8003,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 35,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repd'],
         paperName: 'MEV16',
         process: 'MEV16_2',
@@ -8014,7 +8014,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repd'],
         paperName: 'MEV16',
         process: 'MEV16_2',
@@ -8025,7 +8025,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 35,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repd'],
         paperName: 'MEV16',
         process: 'MEV16_2',
@@ -8036,7 +8036,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repd'],
         paperName: 'MEV16',
         process: 'MEV16_2',
@@ -8047,7 +8047,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 85,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repd'],
         paperName: 'MEV16',
         process: 'MEV16_2',
@@ -8058,7 +8058,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 35,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repf'],
         paperName: 'MEV16',
         process: 'MEV16_3',
@@ -8069,7 +8069,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repf'],
         paperName: 'MEV16',
         process: 'MEV16_3',
@@ -8080,7 +8080,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 35,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repf'],
         paperName: 'MEV16',
         process: 'MEV16_3',
@@ -8091,7 +8091,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repf'],
         paperName: 'MEV16',
         process: 'MEV16_3',
@@ -8102,7 +8102,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 35,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repf'],
         paperName: 'MEV16',
         process: 'MEV16_3',
@@ -8113,7 +8113,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repf'],
         paperName: 'MEV16',
         process: 'MEV16_3',
@@ -8124,7 +8124,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 85,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repf'],
         paperName: 'MEV16',
         process: 'MEV16_3',
@@ -8135,7 +8135,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 18,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repd'],
         paperName: 'MEV16',
         process: 'MEV16_4',
@@ -8146,7 +8146,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 19,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repd'],
         paperName: 'MEV16',
         process: 'MEV16_4',
@@ -8157,7 +8157,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repd'],
         paperName: 'MEV16',
         process: 'MEV16_4',
@@ -8168,7 +8168,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repd'],
         paperName: 'MEV16',
         process: 'MEV16_4',
@@ -8179,7 +8179,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 18,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repf'],
         paperName: 'MEV16',
         process: 'MEV16_5',
@@ -8190,7 +8190,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 19,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repf'],
         paperName: 'MEV16',
         process: 'MEV16_5',
@@ -8201,7 +8201,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repf'],
         paperName: 'MEV16',
         process: 'MEV16_5',
@@ -8212,7 +8212,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repf'],
         paperName: 'MEV16',
         process: 'MEV16_5',
@@ -8223,7 +8223,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 24,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetaa',
         paperName: 'MEV16',
         process: 'MEV16_6',
@@ -8234,7 +8234,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 70,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetaa',
         paperName: 'MEV16',
         process: 'MEV16_6',
@@ -8245,7 +8245,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetaa',
         paperName: 'MEV16',
         process: 'MEV16_6',
@@ -8256,7 +8256,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 122,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'MHK16',
         process: 'MHK16_1',
@@ -8269,7 +8269,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 122,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'MHK16',
         process: 'MHK16_1',
@@ -8282,7 +8282,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'MHK16',
         process: 'MHK16_1',
@@ -8294,7 +8294,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'MHK16',
         process: 'MHK16_1',
@@ -8306,7 +8306,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'MHK16',
         process: 'MHK16_1',
@@ -8318,7 +8318,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'MHK16',
         process: 'MHK16_1',
@@ -8330,7 +8330,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'MHK16',
         process: 'MHK16_1',
@@ -8342,7 +8342,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'MHK16',
         process: 'MHK16_1',
@@ -8354,7 +8354,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'MHK16',
         process: 'MHK16_1',
@@ -8366,7 +8366,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'MHK16',
         process: 'MHK16_1',
@@ -8378,7 +8378,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'MHK16',
         process: 'MHK16_1',
@@ -8390,7 +8390,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'MHK16',
         process: 'MHK16_1',
@@ -8401,7 +8401,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'MHK16',
         process: 'MHK16_1',
@@ -8412,7 +8412,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'MHK16',
         process: 'MHK16_1',
@@ -8424,7 +8424,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'MHK16',
         process: 'MHK16_1',
@@ -8435,7 +8435,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'MHK16',
         process: 'MHK16_1',
@@ -8446,7 +8446,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 123,
         target: 2,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MVM17',
         process: 'MVM17_1',
@@ -8459,7 +8459,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 123,
         target: 4,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MVM17',
         process: 'MVM17_1',
@@ -8472,7 +8472,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 123,
         target: 7,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MVM17',
         process: 'MVM17_1',
@@ -8485,7 +8485,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 123,
         target: 17,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetca'],
         paperName: 'MVM17',
         process: 'MVM17_2',
@@ -8498,7 +8498,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 123,
         target: 19,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetca'],
         paperName: 'MVM17',
         process: 'MVM17_2',
@@ -8511,7 +8511,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 123,
         target: 21,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MVM17',
         process: 'MVM17_3',
@@ -8522,7 +8522,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 123,
         target: 22,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MVM17',
         process: 'MVM17_3',
@@ -8533,7 +8533,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 123,
         target: 23,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MVM17',
         process: 'MVM17_3',
@@ -8544,7 +8544,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 2,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MVM17',
         process: 'MVM17_1',
@@ -8556,7 +8556,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 4,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MVM17',
         process: 'MVM17_1',
@@ -8568,7 +8568,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 7,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MVM17',
         process: 'MVM17_1',
@@ -8580,7 +8580,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 2,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MVM17',
         process: 'MVM17_1',
@@ -8592,7 +8592,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 4,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MVM17',
         process: 'MVM17_1',
@@ -8604,7 +8604,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 7,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MVM17',
         process: 'MVM17_1',
@@ -8616,7 +8616,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 17,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetca'],
         paperName: 'MVM17',
         process: 'MVM17_2',
@@ -8628,7 +8628,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 17,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetca'],
         paperName: 'MVM17',
         process: 'MVM17_2',
@@ -8640,7 +8640,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 19,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetca'],
         paperName: 'MVM17',
         process: 'MVM17_2',
@@ -8652,7 +8652,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 19,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetca'],
         paperName: 'MVM17',
         process: 'MVM17_2',
@@ -8664,7 +8664,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 21,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MVM17',
         process: 'MVM17_3',
@@ -8675,7 +8675,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 22,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MVM17',
         process: 'MVM17_3',
@@ -8686,7 +8686,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MVM17',
         process: 'MVM17_3',
@@ -8697,7 +8697,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MVM17',
         process: 'MVM17_1',
@@ -8709,7 +8709,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MVM17',
         process: 'MVM17_3',
@@ -8720,7 +8720,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MVM17',
         process: 'MVM17_1',
@@ -8732,7 +8732,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetca'],
         paperName: 'MVM17',
         process: 'MVM17_2',
@@ -8744,7 +8744,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetca'],
         paperName: 'MVM17',
         process: 'MVM17_2',
@@ -8756,7 +8756,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MVM17',
         process: 'MVM17_3',
@@ -8767,7 +8767,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MVM17',
         process: 'MVM17_1',
@@ -8779,7 +8779,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetca'],
         paperName: 'MVM17',
         process: 'MVM17_2',
@@ -8790,7 +8790,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetca'],
         paperName: 'MVM17',
         process: 'MVM17_2',
@@ -8802,7 +8802,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 85,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd', 'targetca'],
         paperName: 'MVM17',
         process: 'MVM17_2',
@@ -8813,7 +8813,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MVM17',
         process: 'MVM17_1',
@@ -8824,7 +8824,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'MVM17',
         process: 'MVM17_3',
@@ -8835,7 +8835,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 124,
         target: 15,
-        value: 1,
+        value: 1.0001,
         paperName: 'MWSO08',
         process: 'MWSO08_1',
         id: 'MWSO08-0',
@@ -8845,7 +8845,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 124,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'MWSO08',
         process: 'MWSO08_2',
@@ -8856,7 +8856,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 124,
         target: 23,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'MWSO08',
         process: 'MWSO08_3',
@@ -8867,7 +8867,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 124,
         target: 23,
-        value: 1,
+        value: 1.0001,
         paperName: 'MWSO08',
         process: 'MWSO08_4',
         id: 'MWSO08-3',
@@ -8877,7 +8877,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 41,
-        value: 1,
+        value: 1.0001,
         paperName: 'MWSO08',
         process: 'MWSO08_1',
         id: 'MWSO08-4',
@@ -8887,7 +8887,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 48,
-        value: 1,
+        value: 1.0001,
         paperName: 'MWSO08',
         process: 'MWSO08_1',
         id: 'MWSO08-5',
@@ -8897,7 +8897,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 43,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'MWSO08',
         process: 'MWSO08_2',
@@ -8908,7 +8908,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 46,
-        value: 1,
+        value: 1.0001,
         paperName: 'MWSO08',
         process: 'MWSO08_4',
         id: 'MWSO08-7',
@@ -8918,7 +8918,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'MWSO08',
         process: 'MWSO08_3',
@@ -8929,7 +8929,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 41,
         target: 55,
-        value: 1,
+        value: 1.0001,
         paperName: 'MWSO08',
         process: 'MWSO08_1',
         id: 'MWSO08-9',
@@ -8939,7 +8939,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 55,
-        value: 1,
+        value: 1.0001,
         paperName: 'MWSO08',
         process: 'MWSO08_1',
         id: 'MWSO08-10',
@@ -8949,7 +8949,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 61,
-        value: 1,
+        value: 1.0001,
         paperName: 'MWSO08',
         process: 'MWSO08_4',
         id: 'MWSO08-11',
@@ -8959,7 +8959,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 68,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'MWSO08',
         process: 'MWSO08_3',
@@ -8970,7 +8970,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 43,
         target: 68,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'MWSO08',
         process: 'MWSO08_2',
@@ -8981,7 +8981,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 68,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'MWSO08',
         process: 'MWSO08_2',
@@ -8992,7 +8992,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 68,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'MWSO08',
         process: 'MWSO08_3',
@@ -9003,7 +9003,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 87,
-        value: 1,
+        value: 1.0001,
         paperName: 'MWSO08',
         process: 'MWSO08_4',
         id: 'MWSO08-16',
@@ -9013,7 +9013,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 92,
-        value: 1,
+        value: 1.0001,
         paperName: 'MWSO08',
         process: 'MWSO08_1',
         id: 'MWSO08-17',
@@ -9023,7 +9023,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 125,
         target: 0,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'PC15PV',
         process: 'PC15PV_1',
@@ -9034,7 +9034,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 125,
         target: 3,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'PC15PV',
         process: 'PC15PV_2',
@@ -9047,7 +9047,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 125,
         target: 3,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'PC15PV',
         process: 'PC15PV_3',
@@ -9058,7 +9058,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 125,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'PC15PV',
         process: 'PC15PV_4',
@@ -9069,7 +9069,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 125,
         target: 21,
-        value: 1,
+        value: 1.0001,
         paperName: 'PC15PV',
         process: 'PC15PV_5',
         id: 'PC15PV-4',
@@ -9079,7 +9079,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 125,
         target: 24,
-        value: 1,
+        value: 1.0001,
         paperName: 'PC15PV',
         process: 'PC15PV_5',
         id: 'PC15PV-5',
@@ -9089,7 +9089,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 0,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'PC15PV',
         process: 'PC15PV_1',
@@ -9100,7 +9100,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 3,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'PC15PV',
         process: 'PC15PV_2',
@@ -9112,7 +9112,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 3,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'PC15PV',
         process: 'PC15PV_2',
@@ -9123,7 +9123,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'PC15PV',
         process: 'PC15PV_4',
@@ -9134,7 +9134,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 21,
         target: 46,
-        value: 1,
+        value: 1.0001,
         paperName: 'PC15PV',
         process: 'PC15PV_5',
         id: 'PC15PV-10',
@@ -9144,7 +9144,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 24,
         target: 46,
-        value: 1,
+        value: 1.0001,
         paperName: 'PC15PV',
         process: 'PC15PV_5',
         id: 'PC15PV-11',
@@ -9154,7 +9154,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 52,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'PC15PV',
         process: 'PC15PV_1',
@@ -9165,7 +9165,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 52,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'PC15PV',
         process: 'PC15PV_4',
@@ -9176,7 +9176,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'PC15PV',
         process: 'PC15PV_2',
@@ -9188,7 +9188,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'PC15PV',
         process: 'PC15PV_3',
@@ -9199,7 +9199,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 71,
-        value: 1,
+        value: 1.0001,
         paperName: 'PC15PV',
         process: 'PC15PV_5',
         id: 'PC15PV-16',
@@ -9209,7 +9209,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 52,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'PC15PV',
         process: 'PC15PV_1',
@@ -9220,7 +9220,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 52,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'PC15PV',
         process: 'PC15PV_4',
@@ -9231,7 +9231,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 52,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'PC15PV',
         process: 'PC15PV_1',
@@ -9242,7 +9242,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 52,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'PC15PV',
         process: 'PC15PV_4',
@@ -9253,7 +9253,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'PC15PV',
         process: 'PC15PV_2',
@@ -9265,7 +9265,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 85,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'PC15PV',
         process: 'PC15PV_3',
@@ -9276,7 +9276,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 71,
         target: 98,
-        value: 1,
+        value: 1.0001,
         paperName: 'PC15PV',
         process: 'PC15PV_5',
         id: 'PC15PV-23',
@@ -9286,7 +9286,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 126,
         target: 0,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'REP15',
         process: 'REP15_1',
@@ -9297,7 +9297,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 126,
         target: 9,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'REP15',
         process: 'REP15_2',
@@ -9308,7 +9308,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 126,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'REP15',
         process: 'REP15_3',
@@ -9319,7 +9319,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 0,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'REP15',
         process: 'REP15_1',
@@ -9330,7 +9330,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 9,
         target: 36,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'REP15',
         process: 'REP15_2',
@@ -9341,7 +9341,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'REP15',
         process: 'REP15_3',
@@ -9352,7 +9352,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 36,
         target: 50,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'REP15',
         process: 'REP15_2',
@@ -9363,7 +9363,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 40,
         target: 50,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'REP15',
         process: 'REP15_1',
@@ -9374,7 +9374,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 50,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'REP15',
         process: 'REP15_3',
@@ -9385,7 +9385,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 50,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'REP15',
         process: 'REP15_3',
@@ -9396,7 +9396,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 50,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'REP15',
         process: 'REP15_1',
@@ -9407,7 +9407,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 50,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'REP15',
         process: 'REP15_2',
@@ -9418,7 +9418,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 50,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'REP15',
         process: 'REP15_3',
@@ -9429,7 +9429,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 50,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'REP15',
         process: 'REP15_1',
@@ -9440,7 +9440,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 50,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'REP15',
         process: 'REP15_2',
@@ -9451,7 +9451,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 50,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetab',
         paperName: 'REP15',
         process: 'REP15_3',
@@ -9462,7 +9462,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 127,
         target: 14,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'SCS16',
         process: 'SCS16_1',
@@ -9475,7 +9475,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 127,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'SCS16',
         process: 'SCS16_2',
@@ -9488,7 +9488,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 127,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS16',
         process: 'SCS16_3',
@@ -9501,7 +9501,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 127,
         target: 21,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'SCS16',
         process: 'SCS16_4',
@@ -9512,7 +9512,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 127,
         target: 23,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'SCS16',
         process: 'SCS16_4',
@@ -9523,7 +9523,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 127,
         target: 27,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'SCS16',
         process: 'SCS16_4',
@@ -9534,7 +9534,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 14,
         target: 44,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'SCS16',
         process: 'SCS16_1',
@@ -9546,7 +9546,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 14,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'SCS16',
         process: 'SCS16_1',
@@ -9558,7 +9558,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 14,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'SCS16',
         process: 'SCS16_1',
@@ -9570,7 +9570,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 44,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'SCS16',
         process: 'SCS16_1',
@@ -9582,7 +9582,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'SCS16',
         process: 'SCS16_1',
@@ -9594,7 +9594,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'SCS16',
         process: 'SCS16_1',
@@ -9606,7 +9606,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'SCS16',
         process: 'SCS16_1',
@@ -9618,7 +9618,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'SCS16',
         process: 'SCS16_1',
@@ -9629,7 +9629,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 44,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'SCS16',
         process: 'SCS16_2',
@@ -9641,7 +9641,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'SCS16',
         process: 'SCS16_2',
@@ -9653,7 +9653,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'SCS16',
         process: 'SCS16_2',
@@ -9665,7 +9665,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 44,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'SCS16',
         process: 'SCS16_2',
@@ -9677,7 +9677,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'SCS16',
         process: 'SCS16_2',
@@ -9689,7 +9689,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'SCS16',
         process: 'SCS16_2',
@@ -9701,7 +9701,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'SCS16',
         process: 'SCS16_2',
@@ -9712,7 +9712,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'SCS16',
         process: 'SCS16_2',
@@ -9724,7 +9724,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'SCS16',
         process: 'SCS16_2',
@@ -9735,7 +9735,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 44,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS16',
         process: 'SCS16_3',
@@ -9747,7 +9747,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS16',
         process: 'SCS16_3',
@@ -9759,7 +9759,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS16',
         process: 'SCS16_3',
@@ -9771,7 +9771,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 44,
         target: 63,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS16',
         process: 'SCS16_3',
@@ -9783,7 +9783,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 63,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS16',
         process: 'SCS16_3',
@@ -9795,7 +9795,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 63,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS16',
         process: 'SCS16_3',
@@ -9807,7 +9807,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS16',
         process: 'SCS16_3',
@@ -9818,7 +9818,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS16',
         process: 'SCS16_3',
@@ -9830,7 +9830,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS16',
         process: 'SCS16_3',
@@ -9841,7 +9841,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 21,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS16',
         process: 'SCS16_4',
@@ -9852,7 +9852,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS16',
         process: 'SCS16_4',
@@ -9863,7 +9863,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 27,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS16',
         process: 'SCS16_4',
@@ -9874,7 +9874,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 75,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS16',
         process: 'SCS16_4',
@@ -9885,7 +9885,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 75,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS16',
         process: 'SCS16_4',
@@ -9896,7 +9896,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 128,
         target: 7,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_1',
@@ -9909,7 +9909,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 128,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_2',
@@ -9922,7 +9922,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 128,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repb'],
         paperName: 'SCS17',
         process: 'SCS17_3',
@@ -9933,7 +9933,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 128,
         target: 21,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_4',
@@ -9944,7 +9944,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 128,
         target: 22,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_4',
@@ -9955,7 +9955,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 128,
         target: 23,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_4',
@@ -9966,7 +9966,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 128,
         target: 23,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_5',
@@ -9977,7 +9977,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 7,
         target: 44,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_1',
@@ -9989,7 +9989,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 44,
         target: 63,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_1',
@@ -10001,7 +10001,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_1',
@@ -10013,7 +10013,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_1',
@@ -10024,7 +10024,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_1',
@@ -10035,7 +10035,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 82,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_1',
@@ -10046,7 +10046,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_1',
@@ -10057,7 +10057,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 34,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_2',
@@ -10069,7 +10069,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 44,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_2',
@@ -10081,7 +10081,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_2',
@@ -10093,7 +10093,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 34,
         target: 63,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_2',
@@ -10105,7 +10105,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 44,
         target: 63,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_2',
@@ -10117,7 +10117,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 63,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_2',
@@ -10129,7 +10129,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_2',
@@ -10141,7 +10141,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_2',
@@ -10152,7 +10152,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_2',
@@ -10163,7 +10163,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 82,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_2',
@@ -10174,7 +10174,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repb'],
         paperName: 'SCS17',
         process: 'SCS17_3',
@@ -10185,7 +10185,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 41,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repb'],
         paperName: 'SCS17',
         process: 'SCS17_3',
@@ -10196,7 +10196,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 81,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repb'],
         paperName: 'SCS17',
         process: 'SCS17_3',
@@ -10207,7 +10207,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetcb', 'repb'],
         paperName: 'SCS17',
         process: 'SCS17_3',
@@ -10218,7 +10218,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 21,
         target: 34,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_4',
@@ -10229,7 +10229,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 22,
         target: 34,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_4',
@@ -10240,7 +10240,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 34,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_4',
@@ -10251,7 +10251,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 34,
         target: 63,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_4',
@@ -10262,7 +10262,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_4',
@@ -10273,7 +10273,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_4',
@@ -10284,7 +10284,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_5',
@@ -10295,7 +10295,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 63,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_5',
@@ -10306,7 +10306,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS17',
         process: 'SCS17_5',
@@ -10317,7 +10317,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 129,
         target: 2,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'SCS19',
         process: 'SCS19_1',
@@ -10330,7 +10330,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 129,
         target: 4,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'SCS19',
         process: 'SCS19_1',
@@ -10343,7 +10343,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 129,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS19',
         process: 'SCS19_2',
@@ -10356,7 +10356,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 129,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'SCS19',
         process: 'SCS19_3',
@@ -10369,7 +10369,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 129,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS19',
         process: 'SCS19_4',
@@ -10382,7 +10382,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 129,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: 'repa',
         paperName: 'SCS19',
         process: 'SCS19_5',
@@ -10393,7 +10393,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 129,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS19',
         process: 'SCS19_6',
@@ -10404,7 +10404,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 129,
         target: 18,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS19',
         process: 'SCS19_6',
@@ -10415,7 +10415,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 129,
         target: 18,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'SCS19',
         process: 'SCS19_7',
@@ -10428,7 +10428,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 129,
         target: 18,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repeb'],
         paperName: 'SCS19',
         process: 'SCS19_8',
@@ -10441,7 +10441,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 129,
         target: 18,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'SCS19',
         process: 'SCS19_9',
@@ -10454,7 +10454,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 129,
         target: 22,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS19',
         process: 'SCS19_10',
@@ -10465,7 +10465,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 129,
         target: 24,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS19',
         process: 'SCS19_10',
@@ -10476,7 +10476,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 129,
         target: 27,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS19',
         process: 'SCS19_10',
@@ -10487,7 +10487,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 2,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'SCS19',
         process: 'SCS19_1',
@@ -10499,7 +10499,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 4,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'SCS19',
         process: 'SCS19_1',
@@ -10511,7 +10511,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'SCS19',
         process: 'SCS19_1',
@@ -10523,7 +10523,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'SCS19',
         process: 'SCS19_1',
@@ -10535,7 +10535,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 44,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS19',
         process: 'SCS19_2',
@@ -10547,7 +10547,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 44,
         target: 63,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS19',
         process: 'SCS19_2',
@@ -10559,7 +10559,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS19',
         process: 'SCS19_2',
@@ -10570,7 +10570,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS19',
         process: 'SCS19_2',
@@ -10582,7 +10582,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS19',
         process: 'SCS19_2',
@@ -10593,7 +10593,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'SCS19',
         process: 'SCS19_3',
@@ -10605,7 +10605,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'SCS19',
         process: 'SCS19_3',
@@ -10617,7 +10617,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'SCS19',
         process: 'SCS19_3',
@@ -10629,7 +10629,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS19',
         process: 'SCS19_4',
@@ -10641,7 +10641,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 63,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS19',
         process: 'SCS19_4',
@@ -10653,7 +10653,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS19',
         process: 'SCS19_4',
@@ -10665,7 +10665,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 44,
-        value: 1,
+        value: 1.0001,
         valueid: 'repa',
         paperName: 'SCS19',
         process: 'SCS19_5',
@@ -10676,7 +10676,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 44,
         target: 63,
-        value: 1,
+        value: 1.0001,
         valueid: 'repa',
         paperName: 'SCS19',
         process: 'SCS19_5',
@@ -10687,7 +10687,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 63,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: 'repa',
         paperName: 'SCS19',
         process: 'SCS19_5',
@@ -10698,7 +10698,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS19',
         process: 'SCS19_6',
@@ -10709,7 +10709,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 18,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS19',
         process: 'SCS19_6',
@@ -10720,7 +10720,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 73,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS19',
         process: 'SCS19_6',
@@ -10731,7 +10731,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 73,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS19',
         process: 'SCS19_6',
@@ -10742,7 +10742,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 18,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'SCS19',
         process: 'SCS19_7',
@@ -10754,7 +10754,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'SCS19',
         process: 'SCS19_7',
@@ -10766,7 +10766,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'SCS19',
         process: 'SCS19_7',
@@ -10778,7 +10778,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 18,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repeb'],
         paperName: 'SCS19',
         process: 'SCS19_8',
@@ -10790,7 +10790,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repeb'],
         paperName: 'SCS19',
         process: 'SCS19_8',
@@ -10802,7 +10802,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repeb'],
         paperName: 'SCS19',
         process: 'SCS19_8',
@@ -10814,7 +10814,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 18,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'SCS19',
         process: 'SCS19_9',
@@ -10826,7 +10826,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'SCS19',
         process: 'SCS19_9',
@@ -10838,7 +10838,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'SCS19',
         process: 'SCS19_9',
@@ -10850,7 +10850,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 22,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS19',
         process: 'SCS19_10',
@@ -10861,7 +10861,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 24,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS19',
         process: 'SCS19_10',
@@ -10872,7 +10872,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 27,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS19',
         process: 'SCS19_10',
@@ -10883,7 +10883,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 73,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS19',
         process: 'SCS19_10',
@@ -10894,7 +10894,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 73,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repa'],
         paperName: 'SCS19',
         process: 'SCS19_10',
@@ -10905,7 +10905,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 130,
         target: 1,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'SSK12',
         process: 'SSK12_1',
@@ -10918,7 +10918,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 130,
         target: 3,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'SSK12',
         process: 'SSK12_1',
@@ -10931,7 +10931,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 130,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'SSK12',
         process: 'SSK12_1',
@@ -10944,7 +10944,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 130,
         target: 13,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'SSK12',
         process: 'SSK12_1',
@@ -10957,7 +10957,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 130,
         target: 23,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'SSK12',
         process: 'SSK12_2',
@@ -10968,7 +10968,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 130,
         target: 24,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'SSK12',
         process: 'SSK12_3',
@@ -10979,7 +10979,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 1,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'SSK12',
         process: 'SSK12_1',
@@ -10991,7 +10991,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 3,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'SSK12',
         process: 'SSK12_1',
@@ -11003,7 +11003,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'SSK12',
         process: 'SSK12_1',
@@ -11015,7 +11015,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'SSK12',
         process: 'SSK12_1',
@@ -11027,7 +11027,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'SSK12',
         process: 'SSK12_1',
@@ -11039,7 +11039,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'SSK12',
         process: 'SSK12_1',
@@ -11051,7 +11051,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 85,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'SSK12',
         process: 'SSK12_1',
@@ -11062,7 +11062,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'SSK12',
         process: 'SSK12_2',
@@ -11073,7 +11073,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'SSK12',
         process: 'SSK12_2',
@@ -11084,7 +11084,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'SSK12',
         process: 'SSK12_2',
@@ -11095,7 +11095,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'SSK12',
         process: 'SSK12_2',
@@ -11106,7 +11106,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 81,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'SSK12',
         process: 'SSK12_2',
@@ -11117,7 +11117,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 24,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'SSK12',
         process: 'SSK12_3',
@@ -11128,7 +11128,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 68,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'SSK12',
         process: 'SSK12_3',
@@ -11139,7 +11139,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 68,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'SSK12',
         process: 'SSK12_3',
@@ -11150,7 +11150,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 131,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_1',
@@ -11161,7 +11161,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 131,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_1',
@@ -11172,7 +11172,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 131,
         target: 14,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_1',
@@ -11183,7 +11183,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 131,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_1',
@@ -11194,7 +11194,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 131,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetcb',
         paperName: 'VWH13',
         process: 'VWH13_2',
@@ -11207,7 +11207,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 131,
         target: 21,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_3',
@@ -11220,7 +11220,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 131,
         target: 23,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_3',
@@ -11233,7 +11233,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 131,
         target: 21,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'VWH13',
         process: 'VWH13_4',
@@ -11244,7 +11244,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 131,
         target: 23,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'VWH13',
         process: 'VWH13_4',
@@ -11255,7 +11255,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 44,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_1',
@@ -11266,7 +11266,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 44,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_1',
@@ -11277,7 +11277,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 14,
         target: 44,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_1',
@@ -11288,7 +11288,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 44,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_1',
@@ -11299,7 +11299,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_1',
@@ -11310,7 +11310,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_1',
@@ -11321,7 +11321,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 14,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_1',
@@ -11332,7 +11332,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_1',
@@ -11343,7 +11343,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 44,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_1',
@@ -11354,7 +11354,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_1',
@@ -11365,7 +11365,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_1',
@@ -11376,7 +11376,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetcb',
         paperName: 'VWH13',
         process: 'VWH13_2',
@@ -11388,7 +11388,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 66,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetcb',
         paperName: 'VWH13',
         process: 'VWH13_2',
@@ -11400,7 +11400,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 66,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetcb',
         paperName: 'VWH13',
         process: 'VWH13_2',
@@ -11411,7 +11411,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 66,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetcb',
         paperName: 'VWH13',
         process: 'VWH13_2',
@@ -11423,7 +11423,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 66,
         target: 85,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetcb',
         paperName: 'VWH13',
         process: 'VWH13_2',
@@ -11434,7 +11434,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 21,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_3',
@@ -11446,7 +11446,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 21,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_3',
@@ -11458,7 +11458,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 21,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_3',
@@ -11470,7 +11470,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_3',
@@ -11482,7 +11482,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_3',
@@ -11494,7 +11494,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_3',
@@ -11506,7 +11506,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_3',
@@ -11518,7 +11518,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_3',
@@ -11530,7 +11530,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_3',
@@ -11542,7 +11542,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_3',
@@ -11553,7 +11553,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'VWH13',
         process: 'VWH13_3',
@@ -11565,7 +11565,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 21,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'VWH13',
         process: 'VWH13_4',
@@ -11576,7 +11576,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'VWH13',
         process: 'VWH13_4',
@@ -11587,7 +11587,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 21,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'VWH13',
         process: 'VWH13_4',
@@ -11598,7 +11598,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'VWH13',
         process: 'VWH13_4',
@@ -11609,7 +11609,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 21,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'VWH13',
         process: 'VWH13_4',
@@ -11620,7 +11620,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'VWH13',
         process: 'VWH13_4',
@@ -11631,7 +11631,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'VWH13',
         process: 'VWH13_4',
@@ -11642,7 +11642,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'VWH13',
         process: 'VWH13_4',
@@ -11653,7 +11653,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'VWH13',
         process: 'VWH13_4',
@@ -11664,7 +11664,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 81,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'VWH13',
         process: 'VWH13_4',
@@ -11675,7 +11675,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'VWH13',
         process: 'VWH13_4',
@@ -11686,7 +11686,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repf'],
         paperName: 'VWH13',
         process: 'VWH13_4',
@@ -11697,7 +11697,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 132,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'XD99',
         process: ' XD99_1',
@@ -11708,7 +11708,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 132,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'XD99',
         process: ' XD99_2',
@@ -11719,7 +11719,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 132,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'XD99',
         process: ' XD99_3',
@@ -11732,7 +11732,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 132,
         target: 22,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'XD99',
         process: ' XD99_4',
@@ -11745,7 +11745,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 132,
         target: 22,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'XD99',
         process: ' XD99_5',
@@ -11756,7 +11756,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 132,
         target: 23,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'XD99',
         process: ' XD99_6',
@@ -11767,7 +11767,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'XD99',
         process: ' XD99_1',
@@ -11778,7 +11778,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 43,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'XD99',
         process: ' XD99_2',
@@ -11789,7 +11789,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 22,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'XD99',
         process: ' XD99_4',
@@ -11801,7 +11801,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 22,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'XD99',
         process: ' XD99_5',
@@ -11812,7 +11812,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'XD99',
         process: ' XD99_6',
@@ -11823,7 +11823,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'XD99',
         process: ' XD99_3',
@@ -11835,7 +11835,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'XD99',
         process: ' XD99_1',
@@ -11846,7 +11846,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 43,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'XD99',
         process: ' XD99_2',
@@ -11857,7 +11857,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'XD99',
         process: ' XD99_2',
@@ -11868,7 +11868,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'XD99',
         process: ' XD99_2',
@@ -11879,7 +11879,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'XD99',
         process: ' XD99_5',
@@ -11890,7 +11890,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'XD99',
         process: ' XD99_3',
@@ -11902,7 +11902,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 70,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'XD99',
         process: ' XD99_4',
@@ -11914,7 +11914,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 70,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'XD99',
         process: ' XD99_6',
@@ -11925,7 +11925,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'XD99',
         process: ' XD99_1',
@@ -11936,7 +11936,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'XD99',
         process: ' XD99_3',
@@ -11948,7 +11948,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'XD99',
         process: ' XD99_4',
@@ -11960,7 +11960,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'XD99',
         process: ' XD99_5',
@@ -11971,7 +11971,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repc'],
         paperName: 'XD99',
         process: ' XD99_6',
@@ -11982,7 +11982,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 133,
         target: 6,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'XWL17',
         process: 'XWL17_1',
@@ -11993,7 +11993,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 133,
         target: 6,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'XWL17',
         process: 'XWL17_4',
@@ -12004,7 +12004,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 133,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'XWL17',
         process: 'XWL17_2',
@@ -12015,7 +12015,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 133,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'XWL17',
         process: 'XWL17_3',
@@ -12026,7 +12026,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 133,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'XWL17',
         process: 'XWL17_4',
@@ -12037,7 +12037,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 6,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'XWL17',
         process: 'XWL17_1',
@@ -12048,7 +12048,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 6,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'XWL17',
         process: 'XWL17_4',
@@ -12059,7 +12059,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'XWL17',
         process: 'XWL17_3',
@@ -12070,7 +12070,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'XWL17',
         process: 'XWL17_4',
@@ -12081,7 +12081,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'XWL17',
         process: 'XWL17_2',
@@ -12092,7 +12092,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 41,
         target: 61,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'XWL17',
         process: 'XWL17_3',
@@ -12103,7 +12103,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 61,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'XWL17',
         process: 'XWL17_1',
@@ -12114,7 +12114,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 61,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'XWL17',
         process: 'XWL17_2',
@@ -12125,7 +12125,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'XWL17',
         process: 'XWL17_1',
@@ -12136,7 +12136,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'XWL17',
         process: 'XWL17_2',
@@ -12147,7 +12147,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'XWL17',
         process: 'XWL17_2',
@@ -12158,7 +12158,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'XWL17',
         process: 'XWL17_3',
@@ -12169,7 +12169,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 61,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'XWL17',
         process: 'XWL17_4',
@@ -12180,7 +12180,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetba',
         paperName: 'XWL17',
         process: 'XWL17_4',
@@ -12191,7 +12191,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 134,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repc'],
         paperName: 'XWS16',
         process: 'XWS16_3',
@@ -12204,7 +12204,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 134,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repc'],
         paperName: 'XWS16',
         process: 'XWS16_4',
@@ -12215,7 +12215,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 134,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'XWS16',
         process: 'XWS16_1',
@@ -12226,7 +12226,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 134,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'XWS16',
         process: 'XWS16_2',
@@ -12239,7 +12239,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 134,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repc'],
         paperName: 'XWS16',
         process: 'XWS16_5',
@@ -12250,7 +12250,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 134,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'XWS16',
         process: 'XWS16_6',
@@ -12261,7 +12261,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 134,
         target: 21,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'XWS16',
         process: 'XWS16_7',
@@ -12272,7 +12272,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 134,
         target: 23,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'XWS16',
         process: 'XWS16_7',
@@ -12283,7 +12283,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'XWS16',
         process: 'XWS16_1',
@@ -12294,7 +12294,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repc'],
         paperName: 'XWS16',
         process: 'XWS16_3',
@@ -12306,7 +12306,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'XWS16',
         process: 'XWS16_2',
@@ -12318,7 +12318,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repc'],
         paperName: 'XWS16',
         process: 'XWS16_4',
@@ -12329,7 +12329,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repc'],
         paperName: 'XWS16',
         process: 'XWS16_5',
@@ -12340,7 +12340,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'XWS16',
         process: 'XWS16_6',
@@ -12351,7 +12351,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 21,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'XWS16',
         process: 'XWS16_7',
@@ -12362,7 +12362,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'repc',
         paperName: 'XWS16',
         process: 'XWS16_7',
@@ -12373,7 +12373,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'XWS16',
         process: 'XWS16_1',
@@ -12384,7 +12384,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repc'],
         paperName: 'XWS16',
         process: 'XWS16_3',
@@ -12396,7 +12396,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repc'],
         paperName: 'XWS16',
         process: 'XWS16_5',
@@ -12407,7 +12407,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repc'],
         paperName: 'XWS16',
         process: 'XWS16_4',
@@ -12418,7 +12418,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'XWS16',
         process: 'XWS16_2',
@@ -12430,7 +12430,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'XWS16',
         process: 'XWS16_6',
@@ -12441,7 +12441,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repc'],
         paperName: 'XWS16',
         process: 'XWS16_5',
@@ -12452,7 +12452,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repc'],
         paperName: 'XWS16',
         process: 'XWS16_3',
@@ -12463,7 +12463,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repc'],
         paperName: 'XWS16',
         process: 'XWS16_4',
@@ -12474,7 +12474,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'XWS16',
         process: 'XWS16_2',
@@ -12485,7 +12485,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repc'],
         paperName: 'XWS16',
         process: 'XWS16_3',
@@ -12497,7 +12497,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repc'],
         paperName: 'XWS16',
         process: 'XWS16_3',
@@ -12508,7 +12508,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repc'],
         paperName: 'XWS16',
         process: 'XWS16_4',
@@ -12519,7 +12519,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'XWS16',
         process: 'XWS16_2',
@@ -12531,7 +12531,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 81,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repc'],
         paperName: 'XWS16',
         process: 'XWS16_4',
@@ -12542,7 +12542,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 85,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'XWS16',
         process: 'XWS16_1',
@@ -12553,7 +12553,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 85,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'XWS16',
         process: 'XWS16_2',
@@ -12564,7 +12564,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 85,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'XWS16',
         process: 'XWS16_6',
@@ -12575,7 +12575,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 88,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'XWS16',
         process: 'XWS16_2',
@@ -12586,7 +12586,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'XWS16',
         process: 'XWS16_1',
@@ -12597,7 +12597,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repd'],
         paperName: 'XWS16',
         process: 'XWS16_6',
@@ -12608,7 +12608,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 135,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_1',
@@ -12621,7 +12621,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 34,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_1',
@@ -12633,7 +12633,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_1',
@@ -12645,7 +12645,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 34,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_1',
@@ -12657,7 +12657,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_1',
@@ -12669,7 +12669,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_1',
@@ -12680,7 +12680,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_1',
@@ -12692,7 +12692,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_1',
@@ -12703,7 +12703,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 135,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_2',
@@ -12716,7 +12716,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 34,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_2',
@@ -12728,7 +12728,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_2',
@@ -12740,7 +12740,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 34,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_2',
@@ -12752,7 +12752,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_2',
@@ -12764,7 +12764,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_2',
@@ -12775,7 +12775,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_2',
@@ -12787,7 +12787,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_2',
@@ -12798,7 +12798,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 135,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_3',
@@ -12809,7 +12809,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_3',
@@ -12820,7 +12820,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_3',
@@ -12831,7 +12831,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_3',
@@ -12842,7 +12842,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 86,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_3',
@@ -12853,7 +12853,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 94,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_3',
@@ -12864,7 +12864,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 135,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_4',
@@ -12875,7 +12875,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_4',
@@ -12886,7 +12886,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_4',
@@ -12897,7 +12897,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetbb'],
         paperName: 'YFS10',
         process: 'YFS10_4',
@@ -12908,7 +12908,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 135,
         target: 24,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'YFS10',
         process: 'YFS10_5',
@@ -12919,7 +12919,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 24,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'YFS10',
         process: 'YFS10_5',
@@ -12930,7 +12930,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'YFS10',
         process: 'YFS10_5',
@@ -12941,7 +12941,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'YFS10',
         process: 'YFS10_5',
@@ -12952,7 +12952,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 136,
         target: 15,
-        value: 1,
+        value: 1.0001,
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-0',
@@ -12962,7 +12962,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 136,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_2',
@@ -12973,7 +12973,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 136,
         target: 22,
-        value: 1,
+        value: 1.0001,
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_3',
         id: 'ZGWZ14-2',
@@ -12983,7 +12983,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 34,
-        value: 1,
+        value: 1.0001,
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-3',
@@ -12993,7 +12993,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 34,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_2',
@@ -13004,7 +13004,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 40,
-        value: 1,
+        value: 1.0001,
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-5',
@@ -13014,7 +13014,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 43,
-        value: 1,
+        value: 1.0001,
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-6',
@@ -13024,7 +13024,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 43,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_2',
@@ -13035,7 +13035,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 46,
-        value: 1,
+        value: 1.0001,
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-8',
@@ -13045,7 +13045,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_2',
@@ -13056,7 +13056,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 22,
         target: 46,
-        value: 1,
+        value: 1.0001,
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_3',
         id: 'ZGWZ14-10',
@@ -13066,7 +13066,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 34,
         target: 64,
-        value: 1,
+        value: 1.0001,
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-11',
@@ -13076,7 +13076,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 40,
         target: 64,
-        value: 1,
+        value: 1.0001,
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-12',
@@ -13086,7 +13086,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 43,
         target: 64,
-        value: 1,
+        value: 1.0001,
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-13',
@@ -13096,7 +13096,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 64,
-        value: 1,
+        value: 1.0001,
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-14',
@@ -13106,7 +13106,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 64,
-        value: 1,
+        value: 1.0001,
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_3',
         id: 'ZGWZ14-15',
@@ -13116,7 +13116,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 64,
-        value: 1,
+        value: 1.0001,
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-16',
@@ -13126,7 +13126,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 34,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_2',
@@ -13137,7 +13137,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 43,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_2',
@@ -13148,7 +13148,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_2',
@@ -13159,7 +13159,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 64,
         target: 76,
-        value: 1,
+        value: 1.0001,
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-20',
@@ -13169,7 +13169,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 64,
         target: 77,
-        value: 1,
+        value: 1.0001,
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-21',
@@ -13179,7 +13179,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 64,
         target: 79,
-        value: 1,
+        value: 1.0001,
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-22',
@@ -13189,7 +13189,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 64,
         target: 80,
-        value: 1,
+        value: 1.0001,
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_1',
         id: 'ZGWZ14-23',
@@ -13199,7 +13199,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 64,
         target: 80,
-        value: 1,
+        value: 1.0001,
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_3',
         id: 'ZGWZ14-24',
@@ -13209,7 +13209,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_2',
@@ -13220,7 +13220,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 81,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'ZGWZ14',
         process: 'ZGWZ14_2',
@@ -13231,7 +13231,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 137,
         target: 7,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'ZLW13',
         process: 'ZLW13_1',
@@ -13242,7 +13242,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 137,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'ZLW13',
         process: 'ZLW13_1',
@@ -13253,7 +13253,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 137,
         target: 23,
-        value: 1,
+        value: 1.0001,
         paperName: 'ZLW13',
         process: 'ZLW13_2',
         id: 'ZLW13-2',
@@ -13263,7 +13263,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 7,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'ZLW13',
         process: 'ZLW13_1',
@@ -13274,7 +13274,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'ZLW13',
         process: 'ZLW13_1',
@@ -13285,7 +13285,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 42,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'ZLW13',
         process: 'ZLW13_1',
@@ -13296,7 +13296,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 71,
-        value: 1,
+        value: 1.0001,
         paperName: 'ZLW13',
         process: 'ZLW13_2',
         id: 'ZLW13-6',
@@ -13306,7 +13306,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'ZLW13',
         process: 'ZLW13_1',
@@ -13317,7 +13317,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'ZLW13',
         process: 'ZLW13_1',
@@ -13328,7 +13328,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 71,
         target: 98,
-        value: 1,
+        value: 1.0001,
         paperName: 'ZLW13',
         process: 'ZLW13_2',
         id: 'ZLW13-9',
@@ -13338,7 +13338,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 138,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd ', 'targetca'],
         paperName: 'SRJ13',
         process: 'SRJ13_1',
@@ -13349,7 +13349,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 138,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd ', 'targetca'],
         paperName: 'SRJ13',
         process: 'SRJ13_2',
@@ -13360,7 +13360,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 138,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd ', 'targetca'],
         paperName: 'SRJ13',
         process: 'SRJ13_2',
@@ -13371,7 +13371,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 138,
         target: 24,
-        value: 1,
+        value: 1.0001,
         paperName: 'SRJ13',
         process: 'SRJ13_3',
         id: 'SRJ13-3',
@@ -13381,7 +13381,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd ', 'targetca'],
         paperName: 'SRJ13',
         process: 'SRJ13_1',
@@ -13392,7 +13392,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd ', 'targetca'],
         paperName: 'SRJ13',
         process: 'SRJ13_2',
@@ -13403,7 +13403,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd ', 'targetca'],
         paperName: 'SRJ13',
         process: 'SRJ13_2',
@@ -13414,7 +13414,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 24,
         target: 49,
-        value: 1,
+        value: 1.0001,
         paperName: 'SRJ13',
         process: 'SRJ13_3',
         id: 'SRJ13-7',
@@ -13424,7 +13424,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd ', 'targetca'],
         paperName: 'SRJ13',
         process: 'SRJ13_1',
@@ -13435,7 +13435,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd ', 'targetca'],
         paperName: 'SRJ13',
         process: 'SRJ13_2',
@@ -13446,7 +13446,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 70,
-        value: 1,
+        value: 1.0001,
         paperName: 'SRJ13',
         process: 'SRJ13_3',
         id: 'SRJ13-10',
@@ -13456,7 +13456,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd ', 'targetca'],
         paperName: 'SRJ13',
         process: 'SRJ13_1',
@@ -13467,7 +13467,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd ', 'targetca'],
         paperName: 'SRJ13',
         process: 'SRJ13_2',
@@ -13478,7 +13478,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 88,
-        value: 1,
+        value: 1.0001,
         paperName: 'SRJ13',
         process: 'SRJ13_3',
         id: 'SRJ13-13',
@@ -13488,7 +13488,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 139,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd ', 'targetbb'],
         paperName: 'RSRY12',
         process: 'RSRY12_1',
@@ -13501,7 +13501,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 139,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RSRY12',
         process: 'RSRY12_2',
@@ -13512,7 +13512,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 139,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'RSRY12',
         process: 'RSRY12_3',
@@ -13525,7 +13525,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 139,
         target: 24,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RSRY12',
         process: 'RSRY12_2',
@@ -13536,7 +13536,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd ', 'targetbb'],
         paperName: 'RSRY12',
         process: 'RSRY12_1',
@@ -13548,7 +13548,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RSRY12',
         process: 'RSRY12_2',
@@ -13559,7 +13559,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd ',
         paperName: 'RSRY12',
         process: 'RSRY12_3',
@@ -13571,7 +13571,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 24,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RSRY12',
         process: 'RSRY12_3',
@@ -13582,7 +13582,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd ', 'targetbb'],
         paperName: 'RSRY12',
         process: 'RSRY12_1',
@@ -13594,7 +13594,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd ',
         paperName: 'RSRY12',
         process: 'RSRY12_3',
@@ -13606,7 +13606,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 70,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RSRY12',
         process: 'RSRY12_2',
@@ -13617,7 +13617,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd ', 'targetbb'],
         paperName: 'RSRY12',
         process: 'RSRY12_1',
@@ -13628,7 +13628,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd ', 'targetbb'],
         paperName: 'RSRY12',
         process: 'RSRY12_1',
@@ -13640,7 +13640,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd ',
         paperName: 'RSRY12',
         process: 'RSRY12_3',
@@ -13652,7 +13652,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 85,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd ',
         paperName: 'RSRY12',
         process: 'RSRY12_3',
@@ -13663,7 +13663,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 86,
-        value: 1,
+        value: 1.0001,
         valueid: ['repd ', 'targetbb'],
         paperName: 'RSRY12',
         process: 'RSRY12_1',
@@ -13674,7 +13674,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 88,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RSRY12',
         process: 'RSRY12_2',
@@ -13685,7 +13685,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 140,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', ' targetca'],
         paperName: 'FAKM15',
         process: 'FAKM15_1',
@@ -13696,7 +13696,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', ' targetca'],
         paperName: 'FAKM15',
         process: 'FAKM15_1',
@@ -13707,7 +13707,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', ' targetca'],
         paperName: 'FAKM15',
         process: 'FAKM15_1',
@@ -13718,7 +13718,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 42,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', ' targetca'],
         paperName: 'FAKM15',
         process: 'FAKM15_1',
@@ -13729,7 +13729,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', ' targetca'],
         paperName: 'FAKM15',
         process: 'FAKM15_1',
@@ -13740,7 +13740,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', ' targetca'],
         paperName: 'FAKM15',
         process: 'FAKM15_1',
@@ -13751,7 +13751,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', ' targetca'],
         paperName: 'FAKM15',
         process: 'FAKM15_1',
@@ -13762,7 +13762,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 140,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', ' targetca'],
         paperName: 'FAKM15',
         process: 'FAKM15_2',
@@ -13775,7 +13775,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', ' targetca'],
         paperName: 'FAKM15',
         process: 'FAKM15_2',
@@ -13787,7 +13787,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', ' targetca'],
         paperName: 'FAKM15',
         process: 'FAKM15_2',
@@ -13799,7 +13799,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', ' targetca'],
         paperName: 'FAKM15',
         process: 'FAKM15_2',
@@ -13811,7 +13811,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', ' targetca'],
         paperName: 'FAKM15',
         process: 'FAKM15_2',
@@ -13822,7 +13822,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 88,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', ' targetca'],
         paperName: 'FAKM15',
         process: 'FAKM15_2',
@@ -13833,7 +13833,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 140,
         target: 24,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'FAKM15',
         process: 'FAKM15_3',
@@ -13844,7 +13844,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 24,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'FAKM15',
         process: 'FAKM15_3',
@@ -13855,7 +13855,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 24,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'FAKM15',
         process: 'FAKM15_3',
@@ -13866,7 +13866,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 75,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'FAKM15',
         process: 'FAKM15_3',
@@ -13877,7 +13877,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 75,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'FAKM15',
         process: 'FAKM15_3',
@@ -13888,7 +13888,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 75,
         target: 88,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'FAKM15',
         process: 'FAKM15_3',
@@ -13899,7 +13899,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 75,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetca',
         paperName: 'FAKM15',
         process: 'FAKM15_3',
@@ -13910,7 +13910,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 141,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'targetbb', 'reph'],
         paperName: 'YSK14',
         process: 'YSK14_2',
@@ -13921,7 +13921,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 141,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'targetbb', 'repb'],
         paperName: 'YSK14',
         process: 'YSK14_1',
@@ -13934,7 +13934,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 141,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'YSK14',
         process: 'YSK14_3',
@@ -13945,7 +13945,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 141,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'YSK14',
         process: 'YSK14_4',
@@ -13956,7 +13956,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 141,
         target: 22,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'reph'],
         paperName: 'YSK14',
         process: 'YSK14_6',
@@ -13967,7 +13967,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 141,
         target: 22,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'YSK14',
         process: 'YSK14_5',
@@ -13978,7 +13978,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 141,
         target: 22,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'YSK14',
         process: 'YSK14_7',
@@ -13989,7 +13989,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'targetbb', 'reph'],
         paperName: 'YSK14',
         process: 'YSK14_2',
@@ -14000,7 +14000,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'targetbb', 'repb'],
         paperName: 'YSK14',
         process: 'YSK14_1',
@@ -14012,7 +14012,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'YSK14',
         process: 'YSK14_3',
@@ -14023,7 +14023,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'YSK14',
         process: 'YSK14_4',
@@ -14034,7 +14034,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 24,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'YSK14',
         process: 'YSK14_5',
@@ -14046,7 +14046,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 24,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'YSK14',
         process: 'YSK14_7',
@@ -14057,7 +14057,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 22,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'reph'],
         paperName: 'YSK14',
         process: 'YSK14_6',
@@ -14068,7 +14068,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'targetbb', 'repb'],
         paperName: 'YSK14',
         process: 'YSK14_1',
@@ -14080,7 +14080,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 62,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'targetbb', 'reph'],
         paperName: 'YSK14',
         process: 'YSK14_2',
@@ -14091,7 +14091,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'YSK14',
         process: 'YSK14_5',
@@ -14103,7 +14103,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 62,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'reph'],
         paperName: 'YSK14',
         process: 'YSK14_6',
@@ -14114,7 +14114,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 70,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'YSK14',
         process: 'YSK14_7',
@@ -14125,7 +14125,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'YSK14',
         process: 'YSK14_3',
@@ -14136,7 +14136,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 62,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'YSK14',
         process: 'YSK14_4',
@@ -14147,7 +14147,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'targetbb', 'repb'],
         paperName: 'YSK14',
         process: 'YSK14_1',
@@ -14159,7 +14159,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'YSK14',
         process: 'YSK14_5',
@@ -14171,7 +14171,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'YSK14',
         process: 'YSK14_4',
@@ -14182,7 +14182,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'reph'],
         paperName: 'YSK14',
         process: 'YSK14_6',
@@ -14193,7 +14193,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'YSK14',
         process: 'YSK14_4',
@@ -14204,7 +14204,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'targetbb', 'reph'],
         paperName: 'YSK14',
         process: 'YSK14_2',
@@ -14215,7 +14215,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'targetbb', 'repb'],
         paperName: 'YSK14',
         process: 'YSK14_1',
@@ -14226,7 +14226,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 86,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'YSK14',
         process: 'YSK14_3',
@@ -14237,7 +14237,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'YSK14',
         process: 'YSK14_5',
@@ -14248,7 +14248,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'reph'],
         paperName: 'YSK14',
         process: 'YSK14_6',
@@ -14259,7 +14259,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetcb', 'repb'],
         paperName: 'YSK14',
         process: 'YSK14_7',
@@ -14270,7 +14270,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 142,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'CSL16',
         process: 'CSL16_1',
@@ -14281,7 +14281,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 142,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'CSL16',
         process: 'CSL16_2',
@@ -14292,7 +14292,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 142,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'CSL16',
         process: 'CSL16_3',
@@ -14303,7 +14303,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 142,
         target: 13,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'CSL16',
         process: 'CSL16_3',
@@ -14314,7 +14314,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 142,
         target: 13,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'CSL16',
         process: 'CSL16_4',
@@ -14325,7 +14325,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 142,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'CSL16',
         process: 'CSL16_4',
@@ -14336,7 +14336,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 142,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'CSL16',
         process: 'CSL16_5',
@@ -14347,7 +14347,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 142,
         target: 23,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'CSL16',
         process: 'CSL16_6',
@@ -14358,7 +14358,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 142,
         target: 28,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'CSL16',
         process: 'CSL16_6',
@@ -14369,7 +14369,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'CSL16',
         process: 'CSL16_1',
@@ -14380,7 +14380,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'CSL16',
         process: 'CSL16_1',
@@ -14391,7 +14391,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'CSL16',
         process: 'CSL16_1',
@@ -14402,7 +14402,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 85,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'CSL16',
         process: 'CSL16_1',
@@ -14413,7 +14413,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'CSL16',
         process: 'CSL16_2',
@@ -14424,7 +14424,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 62,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'CSL16',
         process: 'CSL16_2',
@@ -14435,7 +14435,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'CSL16',
         process: 'CSL16_2',
@@ -14446,7 +14446,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 88,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'CSL16',
         process: 'CSL16_2',
@@ -14457,7 +14457,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'CSL16',
         process: 'CSL16_3',
@@ -14468,7 +14468,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'CSL16',
         process: 'CSL16_3',
@@ -14479,7 +14479,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'CSL16',
         process: 'CSL16_3',
@@ -14490,7 +14490,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'CSL16',
         process: 'CSL16_3',
@@ -14501,7 +14501,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'CSL16',
         process: 'CSL16_4',
@@ -14512,7 +14512,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'CSL16',
         process: 'CSL16_4',
@@ -14523,7 +14523,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 62,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'CSL16',
         process: 'CSL16_4',
@@ -14534,7 +14534,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'CSL16',
         process: 'CSL16_4',
@@ -14545,7 +14545,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 43,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'CSL16',
         process: 'CSL16_5',
@@ -14556,7 +14556,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 43,
         target: 62,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'CSL16',
         process: 'CSL16_5',
@@ -14567,7 +14567,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'CSL16',
         process: 'CSL16_5',
@@ -14578,7 +14578,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: 'reph',
         paperName: 'CSL16',
         process: 'CSL16_5',
@@ -14589,7 +14589,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'CSL16',
         process: 'CSL16_6',
@@ -14600,7 +14600,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 28,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'CSL16',
         process: 'CSL16_6',
@@ -14611,7 +14611,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 70,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'CSL16',
         process: 'CSL16_6',
@@ -14622,7 +14622,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: 'repd',
         paperName: 'CSL16',
         process: 'CSL16_6',
@@ -14633,7 +14633,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 143,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RRR19',
         process: 'RRR19_1',
@@ -14644,7 +14644,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 143,
         target: 14,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RRR19',
         process: 'RRR19_1',
@@ -14655,7 +14655,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 143,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RRR19',
         process: 'RRR19_1',
@@ -14666,7 +14666,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 143,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RRR19',
         process: 'RRR19_2',
@@ -14677,7 +14677,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 143,
         target: 14,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RRR19',
         process: 'RRR19_2',
@@ -14688,7 +14688,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 143,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RRR19',
         process: 'RRR19_2',
@@ -14699,7 +14699,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 143,
         target: 19,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RRR19',
         process: 'RRR19_3',
@@ -14710,7 +14710,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 143,
         target: 21,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'RRR19',
         process: 'RRR19_4',
@@ -14721,7 +14721,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 143,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'RRR19',
         process: 'RRR19_5',
@@ -14732,7 +14732,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 143,
         target: 14,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'RRR19',
         process: 'RRR19_5',
@@ -14743,7 +14743,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 143,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'RRR19',
         process: 'RRR19_5',
@@ -14754,7 +14754,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RRR19',
         process: 'RRR19_1',
@@ -14765,7 +14765,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 14,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RRR19',
         process: 'RRR19_1',
@@ -14776,7 +14776,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RRR19',
         process: 'RRR19_1',
@@ -14787,7 +14787,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 41,
         target: 61,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RRR19',
         process: 'RRR19_1',
@@ -14798,7 +14798,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RRR19',
         process: 'RRR19_1',
@@ -14809,7 +14809,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 86,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RRR19',
         process: 'RRR19_1',
@@ -14820,7 +14820,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RRR19',
         process: 'RRR19_1',
@@ -14831,7 +14831,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RRR19',
         process: 'RRR19_2',
@@ -14842,7 +14842,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 14,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RRR19',
         process: 'RRR19_2',
@@ -14853,7 +14853,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RRR19',
         process: 'RRR19_2',
@@ -14864,7 +14864,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 42,
         target: 61,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RRR19',
         process: 'RRR19_2',
@@ -14875,7 +14875,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RRR19',
         process: 'RRR19_2',
@@ -14886,7 +14886,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 19,
         target: 43,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RRR19',
         process: 'RRR19_3',
@@ -14897,7 +14897,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 43,
         target: 61,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RRR19',
         process: 'RRR19_3',
@@ -14908,7 +14908,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RRR19',
         process: 'RRR19_3',
@@ -14919,7 +14919,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 94,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'RRR19',
         process: 'RRR19_3',
@@ -14930,7 +14930,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 21,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'RRR19',
         process: 'RRR19_4',
@@ -14941,7 +14941,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 75,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'RRR19',
         process: 'RRR19_4',
@@ -14952,7 +14952,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 75,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'RRR19',
         process: 'RRR19_4',
@@ -14963,7 +14963,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 75,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'RRR19',
         process: 'RRR19_4',
@@ -14974,7 +14974,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'RRR19',
         process: 'RRR19_5',
@@ -14985,7 +14985,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 14,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'RRR19',
         process: 'RRR19_5',
@@ -14996,7 +14996,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'RRR19',
         process: 'RRR19_5',
@@ -15007,7 +15007,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'RRR19',
         process: 'RRR19_5',
@@ -15018,7 +15018,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'RRR19',
         process: 'RRR19_5',
@@ -15029,7 +15029,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'RRR19',
         process: 'RRR19_5',
@@ -15040,7 +15040,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 144,
         target: 7,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_1',
@@ -15051,7 +15051,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 144,
         target: 7,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_2',
@@ -15062,7 +15062,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 144,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_1',
@@ -15073,7 +15073,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 144,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_4',
@@ -15086,7 +15086,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 144,
         target: 9,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_3',
@@ -15097,7 +15097,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 7,
         target: 34,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_1',
@@ -15108,7 +15108,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 7,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_2',
@@ -15119,7 +15119,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 7,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_2',
@@ -15130,7 +15130,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 9,
         target: 36,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_3',
@@ -15141,7 +15141,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 32,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_4',
@@ -15153,7 +15153,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 34,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_1',
@@ -15164,7 +15164,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_4',
@@ -15176,7 +15176,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_4',
@@ -15188,7 +15188,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_4',
@@ -15200,7 +15200,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 34,
         target: 70,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_1',
@@ -15211,7 +15211,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_2',
@@ -15222,7 +15222,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_2',
@@ -15233,7 +15233,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_4',
@@ -15245,7 +15245,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 36,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_3',
@@ -15256,7 +15256,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 32,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_4',
@@ -15268,7 +15268,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 42,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_4',
@@ -15280,7 +15280,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_4',
@@ -15292,7 +15292,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_4',
@@ -15304,7 +15304,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_4',
@@ -15315,7 +15315,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_4',
@@ -15327,7 +15327,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_4',
@@ -15338,7 +15338,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 81,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_1',
@@ -15349,7 +15349,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_2',
@@ -15360,7 +15360,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_4',
@@ -15371,7 +15371,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 81,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repc'],
         paperName: 'YCC20',
         process: 'YCC20_1',
@@ -15382,7 +15382,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 145,
         target: 5,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDDD16',
         process: 'MDDD16_1',
@@ -15395,7 +15395,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 145,
         target: 5,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDDD16',
         process: 'MDDD16_2',
@@ -15406,7 +15406,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 145,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDDD16',
         process: 'MDDD16_1',
@@ -15419,7 +15419,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 145,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDDD16',
         process: 'MDDD16_2',
@@ -15430,7 +15430,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 145,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDDD16',
         process: 'MDDD16_3',
@@ -15441,7 +15441,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 145,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDDD16',
         process: 'MDDD16_4',
@@ -15452,7 +15452,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 145,
         target: 23,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'MDDD16',
         process: 'MDDD16_5',
@@ -15463,7 +15463,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 5,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDDD16',
         process: 'MDDD16_1',
@@ -15475,7 +15475,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 5,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDDD16',
         process: 'MDDD16_2',
@@ -15486,7 +15486,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 37,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDDD16',
         process: 'MDDD16_3',
@@ -15497,7 +15497,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 37,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDDD16',
         process: 'MDDD16_4',
@@ -15508,7 +15508,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDDD16',
         process: 'MDDD16_1',
@@ -15520,7 +15520,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDDD16',
         process: 'MDDD16_2',
@@ -15531,7 +15531,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'MDDD16',
         process: 'MDDD16_5',
@@ -15542,7 +15542,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 37,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDDD16',
         process: 'MDDD16_3',
@@ -15553,7 +15553,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 37,
         target: 70,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDDD16',
         process: 'MDDD16_4',
@@ -15564,7 +15564,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDDD16',
         process: 'MDDD16_1',
@@ -15576,7 +15576,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 70,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDDD16',
         process: 'MDDD16_2',
@@ -15587,7 +15587,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDDD16',
         process: 'MDDD16_1',
@@ -15598,7 +15598,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDDD16',
         process: 'MDDD16_3',
@@ -15609,7 +15609,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDDD16',
         process: 'MDDD16_1',
@@ -15621,7 +15621,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDDD16',
         process: 'MDDD16_3',
@@ -15632,7 +15632,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDDD16',
         process: 'MDDD16_2',
@@ -15643,7 +15643,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDDD16',
         process: 'MDDD16_4',
@@ -15654,7 +15654,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDDD16',
         process: 'MDDD16_5',
@@ -15665,7 +15665,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 146,
         target: 7,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_1',
@@ -15676,7 +15676,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 146,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_1',
@@ -15687,7 +15687,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 146,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_2',
@@ -15698,7 +15698,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 146,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_3',
@@ -15709,7 +15709,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 146,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_4',
@@ -15722,7 +15722,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 146,
         target: 18,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_6',
@@ -15733,7 +15733,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 146,
         target: 18,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_7',
@@ -15744,7 +15744,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 146,
         target: 18,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'GYS14',
         process: 'GYS14_5',
@@ -15757,7 +15757,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 146,
         target: 23,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'GYS14',
         process: 'GYS14_8',
@@ -15768,7 +15768,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 7,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_1',
@@ -15779,7 +15779,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_1',
@@ -15790,7 +15790,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_4',
@@ -15802,7 +15802,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 47,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_2',
@@ -15813,7 +15813,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 47,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_3',
@@ -15824,7 +15824,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 18,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'GYS14',
         process: 'GYS14_5',
@@ -15836,7 +15836,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 18,
         target: 47,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_6',
@@ -15847,7 +15847,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 18,
         target: 47,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_7',
@@ -15858,7 +15858,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_1',
@@ -15869,7 +15869,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_4',
@@ -15881,7 +15881,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'GYS14',
         process: 'GYS14_5',
@@ -15893,7 +15893,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 70,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'GYS14',
         process: 'GYS14_8',
@@ -15904,7 +15904,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 47,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_2',
@@ -15915,7 +15915,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 47,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_6',
@@ -15926,7 +15926,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 47,
         target: 70,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_2',
@@ -15937,7 +15937,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 47,
         target: 70,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_6',
@@ -15948,7 +15948,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_2',
@@ -15959,7 +15959,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_4',
@@ -15970,7 +15970,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_6',
@@ -15981,7 +15981,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'GYS14',
         process: 'GYS14_5',
@@ -15992,7 +15992,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_2',
@@ -16003,7 +16003,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_4',
@@ -16014,7 +16014,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_6',
@@ -16025,7 +16025,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'GYS14',
         process: 'GYS14_5',
@@ -16036,7 +16036,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_4',
@@ -16048,7 +16048,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'GYS14',
         process: 'GYS14_5',
@@ -16060,7 +16060,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_2',
@@ -16071,7 +16071,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_4',
@@ -16082,7 +16082,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_6',
@@ -16093,7 +16093,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'GYS14',
         process: 'GYS14_5',
@@ -16104,7 +16104,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_2',
@@ -16115,7 +16115,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_4',
@@ -16126,7 +16126,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_6',
@@ -16137,7 +16137,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_1',
@@ -16148,7 +16148,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'GYS14',
         process: 'GYS14_5',
@@ -16159,7 +16159,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_3',
@@ -16170,7 +16170,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetab', 'repb'],
         paperName: 'GYS14',
         process: 'GYS14_7',
@@ -16181,7 +16181,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'GYS14',
         process: 'GYS14_8',
@@ -16192,7 +16192,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 147,
         target: 5,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDJW07',
         process: 'MDJW07_1',
@@ -16203,7 +16203,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 147,
         target: 5,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repg'],
         paperName: 'MDJW07',
         process: 'MDJW07_2',
@@ -16214,7 +16214,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 147,
         target: 13,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDJW07',
         process: 'MDJW07_3',
@@ -16227,7 +16227,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 147,
         target: 13,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDJW07',
         process: 'MDJW07_4',
@@ -16240,7 +16240,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 147,
         target: 13,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'ref'],
         paperName: 'MDJW07',
         process: 'MDJW07_5',
@@ -16251,7 +16251,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 147,
         target: 13,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repg'],
         paperName: 'MDJW07',
         process: 'MDJW07_6',
@@ -16262,7 +16262,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 147,
         target: 14,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDJW07',
         process: 'MDJW07_3',
@@ -16275,7 +16275,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 147,
         target: 14,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDJW07',
         process: 'MDJW07_7',
@@ -16286,7 +16286,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 147,
         target: 14,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'MDJW07',
         process: 'MDJW07_8',
@@ -16297,7 +16297,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 147,
         target: 23,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'MDJW07',
         process: 'MDJW07_9',
@@ -16308,7 +16308,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 147,
         target: 23,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'MDJW07',
         process: 'MDJW07_10',
@@ -16319,7 +16319,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 5,
         target: 34,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDJW07',
         process: 'MDJW07_1',
@@ -16330,7 +16330,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 5,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repg'],
         paperName: 'MDJW07',
         process: 'MDJW07_2',
@@ -16341,7 +16341,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 34,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDJW07',
         process: 'MDJW07_3',
@@ -16353,7 +16353,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDJW07',
         process: 'MDJW07_4',
@@ -16365,7 +16365,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'MDJW07',
         process: 'MDJW07_5',
@@ -16376,7 +16376,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repg'],
         paperName: 'MDJW07',
         process: 'MDJW07_6',
@@ -16387,7 +16387,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 14,
         target: 34,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDJW07',
         process: 'MDJW07_3',
@@ -16399,7 +16399,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 14,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDJW07',
         process: 'MDJW07_7',
@@ -16410,7 +16410,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 14,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'MDJW07',
         process: 'MDJW07_8',
@@ -16421,7 +16421,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'MDJW07',
         process: 'MDJW07_9',
@@ -16432,7 +16432,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'MDJW07',
         process: 'MDJW07_10',
@@ -16443,7 +16443,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 34,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDJW07',
         process: 'MDJW07_1',
@@ -16454,7 +16454,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 34,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDJW07',
         process: 'MDJW07_3',
@@ -16466,7 +16466,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 68,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repg'],
         paperName: 'MDJW07',
         process: 'MDJW07_2',
@@ -16477,7 +16477,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDJW07',
         process: 'MDJW07_4',
@@ -16489,7 +16489,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDJW07',
         process: 'MDJW07_7',
@@ -16500,7 +16500,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'MDJW07',
         process: 'MDJW07_5',
@@ -16511,7 +16511,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 68,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repg'],
         paperName: 'MDJW07',
         process: 'MDJW07_4',
@@ -16522,7 +16522,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDJW07',
         process: 'MDJW07_3',
@@ -16533,7 +16533,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDJW07',
         process: 'MDJW07_4',
@@ -16544,7 +16544,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDJW07',
         process: 'MDJW07_7',
@@ -16555,7 +16555,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDJW07',
         process: 'MDJW07_3',
@@ -16567,7 +16567,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDJW07',
         process: 'MDJW07_4',
@@ -16579,7 +16579,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'MDJW07',
         process: 'MDJW07_5',
@@ -16590,7 +16590,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'MDJW07',
         process: 'MDJW07_8',
@@ -16601,7 +16601,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 81,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repf'],
         paperName: 'MDJW07',
         process: 'MDJW07_5',
@@ -16612,7 +16612,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 86,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDJW07',
         process: 'MDJW07_1',
@@ -16623,7 +16623,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 86,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDJW07',
         process: 'MDJW07_4',
@@ -16634,7 +16634,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 86,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDJW07',
         process: 'MDJW07_7',
@@ -16645,7 +16645,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repb'],
         paperName: 'MDJW07',
         process: 'MDJW07_4',
@@ -16656,7 +16656,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 68,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repg'],
         paperName: 'MDJW07',
         process: 'MDJW07_2',
@@ -16667,7 +16667,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 68,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repg'],
         paperName: 'MDJW07',
         process: 'MDJW07_6',
@@ -16678,7 +16678,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 148,
         target: 9,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'KWL09',
         process: 'KWL09_1',
@@ -16689,7 +16689,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 148,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'KWL09',
         process: 'KWL09_2',
@@ -16700,7 +16700,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 9,
         target: 36,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'KWL09',
         process: 'KWL09_1',
@@ -16711,7 +16711,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 36,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'KWL09',
         process: 'KWL09_1',
@@ -16722,7 +16722,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'KWL09',
         process: 'KWL09_1',
@@ -16733,7 +16733,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'KWL09',
         process: 'KWL09_1',
@@ -16744,7 +16744,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'KWL09',
         process: 'KWL09_1',
@@ -16755,7 +16755,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 95,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'KWL09',
         process: 'KWL09_1',
@@ -16766,7 +16766,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 43,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'KWL09',
         process: 'KWL09_2',
@@ -16777,7 +16777,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 43,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'KWL09',
         process: 'KWL09_2',
@@ -16788,7 +16788,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'KWL09',
         process: 'KWL09_2',
@@ -16799,7 +16799,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 149,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'BN11B',
         process: 'BN11B_1',
@@ -16810,7 +16810,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 149,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'BN11B',
         process: 'BN11B_2',
@@ -16821,7 +16821,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 149,
         target: 24,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'BN11B',
         process: 'BN11B_2',
@@ -16832,7 +16832,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 149,
         target: 20,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'BN11B',
         process: 'BN11B_3',
@@ -16843,7 +16843,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'BN11B',
         process: 'BN11B_1',
@@ -16854,7 +16854,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 40,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'BN11B',
         process: 'BN11B_1',
@@ -16865,7 +16865,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 81,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'BN11B',
         process: 'BN11B_1',
@@ -16876,7 +16876,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'BN11B',
         process: 'BN11B_2',
@@ -16887,7 +16887,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 24,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'BN11B',
         process: 'BN11B_2',
@@ -16898,7 +16898,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 75,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'BN11B',
         process: 'BN11B_2',
@@ -16909,7 +16909,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 75,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'BN11B',
         process: 'BN11B_2',
@@ -16920,7 +16920,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 20,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'BN11B',
         process: 'BN11B_3',
@@ -16931,7 +16931,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 20,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'BN11B',
         process: 'BN11B_3',
@@ -16942,7 +16942,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 40,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'BN11B',
         process: 'BN11B_3',
@@ -16953,7 +16953,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'BN11B',
         process: 'BN11B_3',
@@ -16964,7 +16964,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'BN11B',
         process: 'BN11B_3',
@@ -16975,7 +16975,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 150,
         target: 6,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'repc'],
         paperName: 'MLG06',
         process: 'MLG06_1',
@@ -16988,7 +16988,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 150,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'repc'],
         paperName: 'MLG06',
         process: 'MLG06_2',
@@ -17001,7 +17001,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 6,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'repc'],
         paperName: 'MLG06',
         process: 'MLG06_1',
@@ -17013,7 +17013,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'repc'],
         paperName: 'MLG06',
         process: 'MLG06_2',
@@ -17025,7 +17025,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'repc'],
         paperName: 'MLG06',
         process: 'MLG06_2',
@@ -17036,7 +17036,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'repc'],
         paperName: 'MLG06',
         process: 'MLG06_2',
@@ -17048,7 +17048,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'repc'],
         paperName: 'MLG06',
         process: 'MLG06_1',
@@ -17060,7 +17060,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'repc'],
         paperName: 'MLG06',
         process: 'MLG06_2',
@@ -17072,7 +17072,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 42,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'repc'],
         paperName: 'MLG06',
         process: 'MLG06_1',
@@ -17084,7 +17084,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 53,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'repc'],
         paperName: 'MLG06',
         process: 'MLG06_2',
@@ -17096,7 +17096,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'repc'],
         paperName: 'MLG06',
         process: 'MLG06_1',
@@ -17107,7 +17107,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'repc'],
         paperName: 'MLG06',
         process: 'MLG06_2',
@@ -17118,7 +17118,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'repc'],
         paperName: 'MLG06',
         process: 'MLG06_1',
@@ -17129,7 +17129,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'repc'],
         paperName: 'MLG06',
         process: 'MLG06_2',
@@ -17140,7 +17140,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'repc'],
         paperName: 'MLG06',
         process: 'MLG06_1',
@@ -17152,7 +17152,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'repc'],
         paperName: 'MLG06',
         process: 'MLG06_2',
@@ -17164,7 +17164,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 82,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'repc'],
         paperName: 'MLG06',
         process: 'MLG06_1',
@@ -17175,7 +17175,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 82,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'repc'],
         paperName: 'MLG06',
         process: 'MLG06_2',
@@ -17186,7 +17186,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 53,
         target: 88,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetba', 'repc'],
         paperName: 'MLG06',
         process: 'MLG06_1',
@@ -17197,7 +17197,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 151,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba', 'targetbb'],
         paperName: 'FA20',
         process: 'FA20_1',
@@ -17208,7 +17208,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 151,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba', 'targetbb'],
         paperName: 'FA20',
         process: 'FA20_1',
@@ -17219,7 +17219,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 151,
         target: 13,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba', 'targetbb'],
         paperName: 'FA20',
         process: 'FA20_1',
@@ -17230,7 +17230,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 151,
         target: 14,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba', 'targetbb'],
         paperName: 'FA20',
         process: 'FA20_1',
@@ -17241,7 +17241,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 151,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba', 'targetbb'],
         paperName: 'FA20',
         process: 'FA20_1',
@@ -17252,7 +17252,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 151,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba', 'targetbb'],
         paperName: 'FA20',
         process: 'FA20_2',
@@ -17263,7 +17263,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba', 'targetbb'],
         paperName: 'FA20',
         process: 'FA20_1',
@@ -17274,7 +17274,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba', 'targetbb'],
         paperName: 'FA20',
         process: 'FA20_1',
@@ -17285,7 +17285,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba', 'targetbb'],
         paperName: 'FA20',
         process: 'FA20_1',
@@ -17296,7 +17296,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 14,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba', 'targetbb'],
         paperName: 'FA20',
         process: 'FA20_1',
@@ -17307,7 +17307,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba', 'targetbb'],
         paperName: 'FA20',
         process: 'FA20_1',
@@ -17318,7 +17318,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba', 'targetbb'],
         paperName: 'FA20',
         process: 'FA20_1',
@@ -17329,7 +17329,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba', 'targetbb'],
         paperName: 'FA20',
         process: 'FA20_1',
@@ -17340,7 +17340,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba', 'targetbb'],
         paperName: 'FA20',
         process: 'FA20_1',
@@ -17351,7 +17351,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 14,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba', 'targetbb'],
         paperName: 'FA20',
         process: 'FA20_1',
@@ -17362,7 +17362,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba', 'targetbb'],
         paperName: 'FA20',
         process: 'FA20_1',
@@ -17373,7 +17373,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba', 'targetbb'],
         paperName: 'FA20',
         process: 'FA20_2',
@@ -17384,7 +17384,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 41,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba', 'targetbb'],
         paperName: 'FA20',
         process: 'FA20_1',
@@ -17395,7 +17395,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 41,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba', 'targetbb'],
         paperName: 'FA20',
         process: 'FA20_2',
@@ -17406,7 +17406,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba', 'targetbb'],
         paperName: 'FA20',
         process: 'FA20_1',
@@ -17417,7 +17417,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba', 'targetbb'],
         paperName: 'FA20',
         process: 'FA20_1',
@@ -17428,7 +17428,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba', 'targetbb'],
         paperName: 'FA20',
         process: 'FA20_2',
@@ -17439,7 +17439,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 152,
         target: 0,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_1',
@@ -17452,7 +17452,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 152,
         target: 3,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_1',
@@ -17465,7 +17465,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 152,
         target: 6,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_1',
@@ -17478,7 +17478,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 152,
         target: 0,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_2',
@@ -17491,7 +17491,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 152,
         target: 3,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_2',
@@ -17504,7 +17504,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 152,
         target: 6,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_2',
@@ -17517,7 +17517,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 152,
         target: 0,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_3',
@@ -17530,7 +17530,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 152,
         target: 3,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_3',
@@ -17543,7 +17543,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 152,
         target: 6,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_3',
@@ -17556,7 +17556,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 152,
         target: 0,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_4',
@@ -17569,7 +17569,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 152,
         target: 3,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_4',
@@ -17582,7 +17582,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 152,
         target: 6,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_4',
@@ -17595,7 +17595,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 152,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_5',
@@ -17608,7 +17608,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 152,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_6',
@@ -17621,7 +17621,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 0,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_1',
@@ -17633,7 +17633,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 0,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_1',
@@ -17645,7 +17645,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 0,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_1',
@@ -17657,7 +17657,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 3,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_1',
@@ -17669,7 +17669,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 3,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_1',
@@ -17681,7 +17681,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 3,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_1',
@@ -17693,7 +17693,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 6,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_1',
@@ -17705,7 +17705,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 6,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_1',
@@ -17717,7 +17717,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 6,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_1',
@@ -17729,7 +17729,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_1',
@@ -17741,7 +17741,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 41,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_1',
@@ -17753,7 +17753,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 42,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_1',
@@ -17765,7 +17765,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_1',
@@ -17776,7 +17776,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_1',
@@ -17788,7 +17788,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 0,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_2',
@@ -17800,7 +17800,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 3,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_2',
@@ -17812,7 +17812,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 6,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_2',
@@ -17824,7 +17824,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 0,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_2',
@@ -17836,7 +17836,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 3,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_2',
@@ -17848,7 +17848,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 6,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_2',
@@ -17860,7 +17860,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 0,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_2',
@@ -17872,7 +17872,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 3,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_2',
@@ -17884,7 +17884,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 6,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_2',
@@ -17896,7 +17896,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 68,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_2',
@@ -17908,7 +17908,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 41,
         target: 68,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_2',
@@ -17920,7 +17920,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 42,
         target: 68,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_2',
@@ -17932,7 +17932,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 68,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_2',
@@ -17943,7 +17943,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 68,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_2',
@@ -17954,7 +17954,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 68,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_2',
@@ -17966,7 +17966,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 0,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_3',
@@ -17978,7 +17978,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 3,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_3',
@@ -17990,7 +17990,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 6,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_3',
@@ -18002,7 +18002,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_3',
@@ -18014,7 +18014,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_3',
@@ -18025,7 +18025,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_3',
@@ -18036,7 +18036,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['repf', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_3',
@@ -18048,7 +18048,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 0,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_4',
@@ -18060,7 +18060,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 3,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_4',
@@ -18072,7 +18072,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 6,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_4',
@@ -18084,7 +18084,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 68,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_4',
@@ -18096,7 +18096,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 68,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_4',
@@ -18107,7 +18107,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 68,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_4',
@@ -18118,7 +18118,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 68,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_4',
@@ -18130,7 +18130,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_5',
@@ -18142,7 +18142,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_5',
@@ -18154,7 +18154,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_5',
@@ -18166,7 +18166,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_5',
@@ -18178,7 +18178,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 68,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_5',
@@ -18190,7 +18190,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 41,
         target: 68,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_5',
@@ -18202,7 +18202,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 42,
         target: 68,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_5',
@@ -18214,7 +18214,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 68,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_5',
@@ -18226,7 +18226,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 68,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_5',
@@ -18237,7 +18237,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 68,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_5',
@@ -18248,7 +18248,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 68,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['repg', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_5',
@@ -18260,7 +18260,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_6',
@@ -18272,7 +18272,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_6',
@@ -18284,7 +18284,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 42,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_6',
@@ -18296,7 +18296,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_6',
@@ -18308,7 +18308,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 41,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_6',
@@ -18320,7 +18320,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 42,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_6',
@@ -18332,7 +18332,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_6',
@@ -18344,7 +18344,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: ['repea', 'targetba'],
         paperName: 'WHWS12',
         process: 'WHWS12_6',
@@ -18355,7 +18355,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 153,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'FZC18',
         process: 'FZC18_2',
@@ -18366,7 +18366,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 153,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'FZC18',
         process: 'FZC18_3',
@@ -18377,7 +18377,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 153,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'FZC18',
         process: 'FZC18_1',
@@ -18388,7 +18388,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 153,
         target: 13,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'FZC18',
         process: 'FZC18_2',
@@ -18399,7 +18399,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 153,
         target: 13,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'FZC18',
         process: 'FZC18_3',
@@ -18410,7 +18410,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 153,
         target: 13,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'FZC18',
         process: 'FZC18_1',
@@ -18421,7 +18421,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 153,
         target: 20,
-        value: 1,
+        value: 1.0001,
         paperName: 'FZC18',
         process: 'FZC18_5',
         id: 'FZC18-6',
@@ -18431,7 +18431,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 153,
         target: 20,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'FZC18',
         process: 'FZC18_4',
@@ -18442,7 +18442,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 153,
         target: 23,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'FZC18',
         process: 'FZC18_7',
@@ -18453,7 +18453,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 153,
         target: 23,
-        value: 1,
+        value: 1.0001,
         paperName: 'FZC18',
         process: 'FZC18_6',
         id: 'FZC18-9',
@@ -18463,7 +18463,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 153,
         target: 23,
-        value: 1,
+        value: 1.0001,
         paperName: 'FZC18',
         process: 'FZC18_8',
         id: 'FZC18-10',
@@ -18473,7 +18473,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 153,
         target: 24,
-        value: 1,
+        value: 1.0001,
         paperName: 'FZC18',
         process: 'FZC18_6',
         id: 'FZC18-11',
@@ -18483,7 +18483,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'FZC18',
         process: 'FZC18_3',
@@ -18494,7 +18494,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'FZC18',
         process: 'FZC18_3',
@@ -18505,7 +18505,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 40,
         target: 68,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'FZC18',
         process: 'FZC18_3',
@@ -18516,7 +18516,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 68,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'FZC18',
         process: 'FZC18_3',
@@ -18527,7 +18527,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'FZC18',
         process: 'FZC18_1',
@@ -18538,7 +18538,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'FZC18',
         process: 'FZC18_2',
@@ -18549,7 +18549,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'FZC18',
         process: 'FZC18_1',
@@ -18560,7 +18560,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'FZC18',
         process: 'FZC18_2',
@@ -18571,7 +18571,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'FZC18',
         process: 'FZC18_1',
@@ -18582,7 +18582,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 68,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'FZC18',
         process: 'FZC18_2',
@@ -18593,7 +18593,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 68,
         target: 81,
-        value: 1,
+        value: 1.0001,
         valueid: 'repg',
         paperName: 'FZC18',
         process: 'FZC18_2',
@@ -18604,7 +18604,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 20,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'FZC18',
         process: 'FZC18_4',
@@ -18615,7 +18615,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'FZC18',
         process: 'FZC18_1',
@@ -18626,7 +18626,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'FZC18',
         process: 'FZC18_4',
@@ -18637,7 +18637,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 20,
         target: 49,
-        value: 1,
+        value: 1.0001,
         paperName: 'FZC18',
         process: 'FZC18_5',
         id: 'FZC18-26',
@@ -18647,7 +18647,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 73,
-        value: 1,
+        value: 1.0001,
         paperName: 'FZC18',
         process: 'FZC18_5',
         id: 'FZC18-27',
@@ -18657,7 +18657,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 73,
-        value: 1,
+        value: 1.0001,
         paperName: 'FZC18',
         process: 'FZC18_8',
         id: 'FZC18-28',
@@ -18667,7 +18667,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 73,
         target: 93,
-        value: 1,
+        value: 1.0001,
         paperName: 'FZC18',
         process: 'FZC18_5',
         id: 'FZC18-29',
@@ -18677,7 +18677,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 73,
-        value: 1,
+        value: 1.0001,
         paperName: 'FZC18',
         process: 'FZC18_6',
         id: 'FZC18-30',
@@ -18687,7 +18687,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 73,
         target: 98,
-        value: 1,
+        value: 1.0001,
         paperName: 'FZC18',
         process: 'FZC18_6',
         id: 'FZC18-31',
@@ -18697,7 +18697,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 73,
         target: 98,
-        value: 1,
+        value: 1.0001,
         paperName: 'FZC18',
         process: 'FZC18_8',
         id: 'FZC18-32',
@@ -18707,7 +18707,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'FZC18',
         process: 'FZC18_7',
@@ -18718,7 +18718,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'FZC18',
         process: 'FZC18_7',
@@ -18729,7 +18729,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'FZC18',
         process: 'FZC18_7',
@@ -18740,7 +18740,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 49,
-        value: 1,
+        value: 1.0001,
         paperName: 'FZC18',
         process: 'FZC18_8',
         id: 'FZC18-36',
@@ -18750,7 +18750,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 154,
         target: 14,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'ATSC06',
         process: 'ATSC06_2',
@@ -18761,7 +18761,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 154,
         target: 14,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'ATSC06',
         process: 'ATSC06_1',
@@ -18772,7 +18772,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 154,
         target: 14,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_3',
         id: 'ASTC06-2',
@@ -18782,7 +18782,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 154,
         target: 14,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_4',
         id: 'ASTC06-3',
@@ -18792,7 +18792,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 154,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'ATSC06',
         process: 'ATSC06_2',
@@ -18803,7 +18803,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 154,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'ATSC06',
         process: 'ATSC06_1',
@@ -18814,7 +18814,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 154,
         target: 15,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_3',
         id: 'ASTC06-6',
@@ -18824,7 +18824,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 154,
         target: 15,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_4',
         id: 'ASTC06-7',
@@ -18834,7 +18834,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 154,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'ATSC06',
         process: 'ATSC06_5',
@@ -18845,7 +18845,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 154,
         target: 24,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_6',
         id: 'ASTC06-9',
@@ -18855,7 +18855,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 154,
         target: 24,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_7',
         id: 'ASTC06-10',
@@ -18865,7 +18865,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 14,
         target: 43,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'ATSC06',
         process: 'ATSC06_1',
@@ -18876,7 +18876,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 43,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'ATSC06',
         process: 'ATSC06_1',
@@ -18887,7 +18887,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 43,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'ATSC06',
         process: 'ATSC06_1',
@@ -18898,7 +18898,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'ATSC06',
         process: 'ATSC06_1',
@@ -18909,7 +18909,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 83,
-        value: 1,
+        value: 1.0001,
         valueid: 'repeb',
         paperName: 'ATSC06',
         process: 'ATSC06_1',
@@ -18920,7 +18920,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 14,
         target: 43,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'ATSC06',
         process: 'ATSC06_2',
@@ -18931,7 +18931,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 43,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'ATSC06',
         process: 'ATSC06_2',
@@ -18942,7 +18942,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 43,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'ATSC06',
         process: 'ATSC06_2',
@@ -18953,7 +18953,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'ATSC06',
         process: 'ATSC06_2',
@@ -18964,7 +18964,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'ATSC06',
         process: 'ATSC06_2',
@@ -18975,7 +18975,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 14,
         target: 49,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_3',
         id: 'ASTC06-21',
@@ -18985,7 +18985,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 49,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_3',
         id: 'ASTC06-22',
@@ -18995,7 +18995,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 70,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_3',
         id: 'ASTC06-23',
@@ -19005,7 +19005,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 77,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_3',
         id: 'ASTC06-24',
@@ -19015,7 +19015,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 83,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_3',
         id: 'ASTC06-25',
@@ -19025,7 +19025,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 98,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_3',
         id: 'ASTC06-26',
@@ -19035,7 +19035,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 14,
         target: 49,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_4',
         id: 'ASTC06-27',
@@ -19045,7 +19045,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 49,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_4',
         id: 'ASTC06-28',
@@ -19055,7 +19055,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 56,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_4',
         id: 'ASTC06-29',
@@ -19065,7 +19065,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 56,
         target: 77,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_4',
         id: 'ASTC06-30',
@@ -19075,7 +19075,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 56,
         target: 83,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_4',
         id: 'ASTC06-31',
@@ -19085,7 +19085,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 56,
         target: 98,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_4',
         id: 'ASTC06-32',
@@ -19095,7 +19095,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 43,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'ATSC06',
         process: 'ATSC06_5',
@@ -19106,7 +19106,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 43,
         target: 60,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'ATSC06',
         process: 'ATSC06_5',
@@ -19117,7 +19117,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'ATSC06',
         process: 'ATSC06_5',
@@ -19128,7 +19128,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 60,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'repf',
         paperName: 'ATSC06',
         process: 'ATSC06_5',
@@ -19139,7 +19139,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 24,
         target: 46,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_6',
         id: 'ASTC06-37',
@@ -19149,7 +19149,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 70,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_6',
         id: 'ASTC06-38',
@@ -19159,7 +19159,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 77,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_6',
         id: 'ASTC06-39',
@@ -19169,7 +19169,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 83,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_6',
         id: 'ASTC06-40',
@@ -19179,7 +19179,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 98,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_6',
         id: 'ASTC06-41',
@@ -19189,7 +19189,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 24,
         target: 46,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_7',
         id: 'ASTC06-42',
@@ -19199,7 +19199,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 56,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_7',
         id: 'ASTC06-43',
@@ -19209,7 +19209,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 56,
         target: 77,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_7',
         id: 'ASTC06-44',
@@ -19219,7 +19219,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 56,
         target: 83,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_7',
         id: 'ASTC06-45',
@@ -19229,7 +19229,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 56,
         target: 98,
-        value: 1,
+        value: 1.0001,
         paperName: 'ATSC06',
         process: 'ATSC06_7',
         id: 'ASTC06-46',
@@ -19239,7 +19239,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 155,
         target: 7,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'reph'],
         paperName: 'DJM12',
         process: 'DJM12_1',
@@ -19250,7 +19250,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 155,
         target: 7,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'DJM12',
         process: 'DJM12_2',
@@ -19261,7 +19261,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 155,
         target: 9,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'DJM12',
         process: 'DJM12_3',
@@ -19274,7 +19274,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 155,
         target: 9,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repd'],
         paperName: 'DJM12',
         process: 'DJM12_4',
@@ -19285,7 +19285,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 155,
         target: 9,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'reph'],
         paperName: 'DJM12',
         process: 'DJM12_5',
@@ -19296,7 +19296,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 155,
         target: 13,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'reph'],
         paperName: 'DJM12',
         process: 'DJM12_6',
@@ -19307,7 +19307,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 155,
         target: 13,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repd'],
         paperName: 'DJM12',
         process: 'DJM12_7',
@@ -19320,7 +19320,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 155,
         target: 22,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'DJM12',
         process: 'DJM12_8',
@@ -19333,7 +19333,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 155,
         target: 23,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'DJM12',
         process: 'DJM12_9',
@@ -19344,7 +19344,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 7,
         target: 34,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'reph'],
         paperName: 'DJM12',
         process: 'DJM12_1',
@@ -19355,7 +19355,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 7,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'DJM12',
         process: 'DJM12_2',
@@ -19366,7 +19366,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 9,
         target: 36,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'DJM12',
         process: 'DJM12_3',
@@ -19378,7 +19378,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 9,
         target: 36,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repd'],
         paperName: 'DJM12',
         process: 'DJM12_4',
@@ -19389,7 +19389,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 9,
         target: 36,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'reph'],
         paperName: 'DJM12',
         process: 'DJM12_5',
@@ -19400,7 +19400,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 34,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'reph'],
         paperName: 'DJM12',
         process: 'DJM12_6',
@@ -19411,7 +19411,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repd'],
         paperName: 'DJM12',
         process: 'DJM12_7',
@@ -19423,7 +19423,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 22,
         target: 34,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'DJM12',
         process: 'DJM12_8',
@@ -19435,7 +19435,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 23,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'DJM12',
         process: 'DJM12_9',
@@ -19446,7 +19446,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 34,
         target: 62,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'reph'],
         paperName: 'DJM12',
         process: 'DJM12_1',
@@ -19457,7 +19457,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 34,
         target: 62,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'reph'],
         paperName: 'DJM12',
         process: 'DJM12_6',
@@ -19468,7 +19468,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'DJM12',
         process: 'DJM12_2',
@@ -19479,7 +19479,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 36,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'DJM12',
         process: 'DJM12_3',
@@ -19491,7 +19491,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 36,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repd'],
         paperName: 'DJM12',
         process: 'DJM12_4',
@@ -19502,7 +19502,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 36,
         target: 62,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'reph'],
         paperName: 'DJM12',
         process: 'DJM12_5',
@@ -19513,7 +19513,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 62,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'reph'],
         paperName: 'DJM12',
         process: 'DJM12_6',
@@ -19524,7 +19524,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repd'],
         paperName: 'DJM12',
         process: 'DJM12_7',
@@ -19536,7 +19536,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 34,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'DJM12',
         process: 'DJM12_8',
@@ -19548,7 +19548,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'reph'],
         paperName: 'DJM12',
         process: 'DJM12_1',
@@ -19559,7 +19559,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'reph'],
         paperName: 'DJM12',
         process: 'DJM12_5',
@@ -19570,7 +19570,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 62,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'reph'],
         paperName: 'DJM12',
         process: 'DJM12_6',
@@ -19581,7 +19581,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'DJM12',
         process: 'DJM12_3',
@@ -19593,7 +19593,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'DJM12',
         process: 'DJM12_6',
@@ -19605,7 +19605,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repb'],
         paperName: 'DJM12',
         process: 'DJM12_3',
@@ -19616,7 +19616,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 80,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repd'],
         paperName: 'DJM12',
         process: 'DJM12_4',
@@ -19627,7 +19627,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repd'],
         paperName: 'DJM12',
         process: 'DJM12_7',
@@ -19638,7 +19638,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetca', 'repd'],
         paperName: 'DJM12',
         process: 'DJM12_7',
@@ -19650,7 +19650,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'DJM12',
         process: 'DJM12_8',
@@ -19661,7 +19661,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'DJM12',
         process: 'DJM12_8',
@@ -19673,7 +19673,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 70,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: 'repb',
         paperName: 'DJM12',
         process: 'DJM12_9',
@@ -19684,7 +19684,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 156,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_1',
@@ -19695,7 +19695,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 156,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_2',
@@ -19706,7 +19706,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 156,
         target: 13,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_2',
@@ -19717,7 +19717,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 156,
         target: 14,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_2',
@@ -19728,7 +19728,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 156,
         target: 22,
-        value: 1,
+        value: 1.0001,
         paperName: 'MEA17',
         process: 'MEA17_3',
         id: 'MEA17-4',
@@ -19738,7 +19738,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 156,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_4',
@@ -19749,7 +19749,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 156,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_4',
@@ -19760,7 +19760,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 156,
         target: 18,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_4',
@@ -19771,7 +19771,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 156,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_5',
@@ -19784,7 +19784,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 156,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_5',
@@ -19797,7 +19797,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 156,
         target: 18,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_5',
@@ -19810,7 +19810,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 34,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_1',
@@ -19821,7 +19821,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 34,
         target: 61,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_1',
@@ -19832,7 +19832,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_1',
@@ -19843,7 +19843,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 35,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_2',
@@ -19854,7 +19854,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 35,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_2',
@@ -19865,7 +19865,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 14,
         target: 35,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_2',
@@ -19876,7 +19876,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 35,
         target: 61,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_2',
@@ -19887,7 +19887,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_2',
@@ -19898,7 +19898,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_2',
@@ -19909,7 +19909,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 22,
         target: 46,
-        value: 1,
+        value: 1.0001,
         paperName: 'MEA17',
         process: 'MEA17_3',
         id: 'MEA17-20',
@@ -19919,7 +19919,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 61,
-        value: 1,
+        value: 1.0001,
         paperName: 'MEA17',
         process: 'MEA17_3',
         id: 'MEA17-21',
@@ -19929,7 +19929,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 84,
-        value: 1,
+        value: 1.0001,
         paperName: 'MEA17',
         process: 'MEA17_3',
         id: 'MEA17-22',
@@ -19939,7 +19939,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 98,
-        value: 1,
+        value: 1.0001,
         paperName: 'MEA17',
         process: 'MEA17_3',
         id: 'MEA17-23',
@@ -19949,7 +19949,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 47,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_4',
@@ -19960,7 +19960,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 47,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_4',
@@ -19971,7 +19971,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 18,
         target: 47,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_4',
@@ -19982,7 +19982,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 47,
         target: 61,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_4',
@@ -19993,7 +19993,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_4',
@@ -20004,7 +20004,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_4',
@@ -20015,7 +20015,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_5',
@@ -20027,7 +20027,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_5',
@@ -20039,7 +20039,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 18,
         target: 48,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_5',
@@ -20051,7 +20051,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 48,
         target: 61,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_5',
@@ -20063,7 +20063,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_5',
@@ -20074,7 +20074,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_5',
@@ -20086,7 +20086,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa'],
         paperName: 'MEA17',
         process: 'MEA17_5',
@@ -20097,7 +20097,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 157,
         target: 5,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repb'],
         paperName: 'SFJ16',
         process: 'SFJ16_1',
@@ -20108,7 +20108,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 157,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repb'],
         paperName: 'SFJ16',
         process: 'SFJ16_1',
@@ -20119,7 +20119,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 157,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repb'],
         paperName: 'SFJ16',
         process: 'SFJ16_1',
@@ -20130,7 +20130,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 157,
         target: 22,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repb'],
         paperName: 'SFJ16',
         process: 'SFJ16_1',
@@ -20141,7 +20141,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 157,
         target: 5,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repb'],
         paperName: 'SFJ16',
         process: 'SFJ16_2',
@@ -20152,7 +20152,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 157,
         target: 22,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repb'],
         paperName: 'SFJ16',
         process: 'SFJ16_2',
@@ -20163,7 +20163,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 157,
         target: 11,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repd'],
         paperName: 'SFJ16',
         process: 'SFJ16_3',
@@ -20174,7 +20174,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 157,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repd'],
         paperName: 'SFJ16',
         process: 'SFJ16_3',
@@ -20185,7 +20185,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 157,
         target: 16,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repd'],
         paperName: 'SFJ16',
         process: 'SFJ16_3',
@@ -20196,7 +20196,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 5,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repb'],
         paperName: 'SFJ16',
         process: 'SFJ16_1',
@@ -20207,7 +20207,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repb'],
         paperName: 'SFJ16',
         process: 'SFJ16_1',
@@ -20218,7 +20218,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repb'],
         paperName: 'SFJ16',
         process: 'SFJ16_1',
@@ -20229,7 +20229,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 22,
         target: 40,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repb'],
         paperName: 'SFJ16',
         process: 'SFJ16_1',
@@ -20240,7 +20240,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 40,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repb'],
         paperName: 'SFJ16',
         process: 'SFJ16_1',
@@ -20251,7 +20251,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 89,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repb'],
         paperName: 'SFJ16',
         process: 'SFJ16_1',
@@ -20262,7 +20262,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repb'],
         paperName: 'SFJ16',
         process: 'SFJ16_1',
@@ -20273,7 +20273,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 5,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repb'],
         paperName: 'SFJ16',
         process: 'SFJ16_2',
@@ -20284,7 +20284,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 22,
         target: 46,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repb'],
         paperName: 'SFJ16',
         process: 'SFJ16_2',
@@ -20295,7 +20295,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 46,
         target: 54,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repb'],
         paperName: 'SFJ16',
         process: 'SFJ16_2',
@@ -20306,7 +20306,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 76,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repb'],
         paperName: 'SFJ16',
         process: 'SFJ16_2',
@@ -20317,7 +20317,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repb'],
         paperName: 'SFJ16',
         process: 'SFJ16_2',
@@ -20328,7 +20328,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 79,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repb'],
         paperName: 'SFJ16',
         process: 'SFJ16_2',
@@ -20339,7 +20339,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 54,
         target: 98,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repb'],
         paperName: 'SFJ16',
         process: 'SFJ16_2',
@@ -20350,7 +20350,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 11,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repd'],
         paperName: 'SFJ16',
         process: 'SFJ16_3',
@@ -20361,7 +20361,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repd'],
         paperName: 'SFJ16',
         process: 'SFJ16_3',
@@ -20372,7 +20372,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 16,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repd'],
         paperName: 'SFJ16',
         process: 'SFJ16_3',
@@ -20383,7 +20383,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 55,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repd'],
         paperName: 'SFJ16',
         process: 'SFJ16_3',
@@ -20394,7 +20394,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 84,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repd'],
         paperName: 'SFJ16',
         process: 'SFJ16_3',
@@ -20405,7 +20405,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 55,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repd'],
         paperName: 'SFJ16',
         process: 'SFJ16_3',
@@ -20416,7 +20416,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 158,
         target: 5,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_1',
         id: 'XJX21-0',
@@ -20426,7 +20426,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 158,
         target: 7,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_1',
         id: 'XJX21-1',
@@ -20436,7 +20436,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 158,
         target: 1,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_2',
         id: 'XJX21-2',
@@ -20446,7 +20446,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 158,
         target: 5,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_2',
         id: 'XJX21-3',
@@ -20456,7 +20456,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 158,
         target: 7,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_2',
         id: 'XJX21-4',
@@ -20466,7 +20466,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 158,
         target: 5,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'XJX21',
         process: 'XJX21_3',
@@ -20479,7 +20479,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 158,
         target: 12,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'XJX21',
         process: 'XJX21_3',
@@ -20492,7 +20492,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 5,
         target: 34,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_1',
         id: 'XJX21-7',
@@ -20502,7 +20502,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 7,
         target: 34,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_1',
         id: 'XJX21-8',
@@ -20512,7 +20512,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 34,
         target: 61,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_1',
         id: 'XJX21-9',
@@ -20522,7 +20522,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 34,
         target: 69,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_1',
         id: 'XJX21-10',
@@ -20532,7 +20532,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 34,
         target: 71,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_1',
         id: 'XJX21-11',
@@ -20542,7 +20542,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 77,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_1',
         id: 'XJX21-12',
@@ -20552,7 +20552,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 78,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_1',
         id: 'XJX21-13',
@@ -20562,7 +20562,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 92,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_1',
         id: 'XJX21-14',
@@ -20572,7 +20572,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 69,
         target: 77,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_1',
         id: 'XJX21-15',
@@ -20582,7 +20582,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 69,
         target: 78,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_1',
         id: 'XJX21-16',
@@ -20592,7 +20592,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 69,
         target: 92,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_1',
         id: 'XJX21-17',
@@ -20602,7 +20602,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 71,
         target: 77,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_1',
         id: 'XJX21-18',
@@ -20612,7 +20612,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 71,
         target: 78,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_1',
         id: 'XJX21-19',
@@ -20622,7 +20622,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 71,
         target: 92,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_1',
         id: 'XJX21-20',
@@ -20632,7 +20632,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 1,
         target: 49,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_2',
         id: 'XJX21-21',
@@ -20642,7 +20642,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 5,
         target: 49,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_2',
         id: 'XJX21-22',
@@ -20652,7 +20652,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 7,
         target: 49,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_2',
         id: 'XJX21-23',
@@ -20662,7 +20662,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 61,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_2',
         id: 'XJX21-24',
@@ -20672,7 +20672,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 69,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_2',
         id: 'XJX21-25',
@@ -20682,7 +20682,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 49,
         target: 71,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_2',
         id: 'XJX21-26',
@@ -20692,7 +20692,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 77,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_2',
         id: 'XJX21-27',
@@ -20702,7 +20702,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 78,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_2',
         id: 'XJX21-28',
@@ -20712,7 +20712,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 61,
         target: 92,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_2',
         id: 'XJX21-29',
@@ -20722,7 +20722,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 69,
         target: 77,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_2',
         id: 'XJX21-30',
@@ -20732,7 +20732,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 69,
         target: 78,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_2',
         id: 'XJX21-31',
@@ -20742,7 +20742,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 69,
         target: 92,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_2',
         id: 'XJX21-32',
@@ -20752,7 +20752,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 71,
         target: 77,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_2',
         id: 'XJX21-33',
@@ -20762,7 +20762,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 71,
         target: 78,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_2',
         id: 'XJX21-34',
@@ -20772,7 +20772,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 71,
         target: 92,
-        value: 1,
+        value: 1.0001,
         paperName: 'XJX21',
         process: 'XJX21_2',
         id: 'XJX21-35',
@@ -20782,7 +20782,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 5,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'XJX21',
         process: 'XJX21_3',
@@ -20794,7 +20794,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 5,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'XJX21',
         process: 'XJX21_3',
@@ -20805,7 +20805,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 39,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'XJX21',
         process: 'XJX21_3',
@@ -20817,7 +20817,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 12,
         target: 49,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'XJX21',
         process: 'XJX21_3',
@@ -20828,7 +20828,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 69,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'XJX21',
         process: 'XJX21_3',
@@ -20840,7 +20840,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 39,
         target: 71,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'XJX21',
         process: 'XJX21_3',
@@ -20852,7 +20852,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 69,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'XJX21',
         process: 'XJX21_3',
@@ -20863,7 +20863,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 69,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'XJX21',
         process: 'XJX21_3',
@@ -20875,7 +20875,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 69,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'XJX21',
         process: 'XJX21_3',
@@ -20886,7 +20886,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 71,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'XJX21',
         process: 'XJX21_3',
@@ -20897,7 +20897,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 71,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'XJX21',
         process: 'XJX21_3',
@@ -20909,7 +20909,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 71,
         target: 92,
-        value: 1,
+        value: 1.0001,
         valueid: 'targetbb',
         paperName: 'XJX21',
         process: 'XJX21_3',
@@ -20920,7 +20920,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 159,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: 'repea',
         paperName: 'ASG21',
         process: 'ASG21_1',
@@ -20933,7 +20933,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 159,
         target: 5,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repea'],
         paperName: 'ASG21',
         process: 'ASG21_2',
@@ -20946,7 +20946,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 159,
         target: 15,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repea'],
         paperName: 'ASG21',
         process: 'ASG21_2',
@@ -20959,7 +20959,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 159,
         target: 13,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repea'],
         paperName: 'ASG21',
         process: 'ASG21_3',
@@ -20972,7 +20972,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 159,
         target: 18,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repea'],
         paperName: 'ASG21',
         process: 'ASG21_3',
@@ -20985,7 +20985,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 41,
-        value: 1,
+        value: 1.0001,
         valueid: 'repea',
         paperName: 'ASG21',
         process: 'ASG21_1',
@@ -20997,7 +20997,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 41,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: 'repea',
         paperName: 'ASG21',
         process: 'ASG21_1',
@@ -21009,7 +21009,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: 'repea',
         paperName: 'ASG21',
         process: 'ASG21_1',
@@ -21020,7 +21020,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: 'repea',
         paperName: 'ASG21',
         process: 'ASG21_1',
@@ -21032,7 +21032,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 5,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repea'],
         paperName: 'ASG21',
         process: 'ASG21_2',
@@ -21044,7 +21044,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 15,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repea'],
         paperName: 'ASG21',
         process: 'ASG21_2',
@@ -21056,7 +21056,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repea'],
         paperName: 'ASG21',
         process: 'ASG21_2',
@@ -21068,7 +21068,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repea'],
         paperName: 'ASG21',
         process: 'ASG21_2',
@@ -21079,7 +21079,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetbb', 'repea'],
         paperName: 'ASG21',
         process: 'ASG21_2',
@@ -21091,7 +21091,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repea'],
         paperName: 'ASG21',
         process: 'ASG21_3',
@@ -21103,7 +21103,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 18,
         target: 45,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repea'],
         paperName: 'ASG21',
         process: 'ASG21_3',
@@ -21115,7 +21115,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 13,
         target: 47,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repea'],
         paperName: 'ASG21',
         process: 'ASG21_3',
@@ -21127,7 +21127,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 18,
         target: 47,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repea'],
         paperName: 'ASG21',
         process: 'ASG21_3',
@@ -21139,7 +21139,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 45,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repea'],
         paperName: 'ASG21',
         process: 'ASG21_3',
@@ -21151,7 +21151,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 47,
         target: 59,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repea'],
         paperName: 'ASG21',
         process: 'ASG21_3',
@@ -21163,7 +21163,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 77,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repea'],
         paperName: 'ASG21',
         process: 'ASG21_3',
@@ -21174,7 +21174,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 78,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repea'],
         paperName: 'ASG21',
         process: 'ASG21_3',
@@ -21186,7 +21186,7 @@ export const Var3: SankeyLink[] = [
     {
         source: 59,
         target: 90,
-        value: 1,
+        value: 1.0001,
         valueid: ['targetaa', 'repea'],
         paperName: 'ASG21',
         process: 'ASG21_3',

@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
 import { IntRepNetwork } from './components/Networks/IntRepNetwork/Networks';
 import { TarIntNetworks } from './components/Networks/TarIntNetwork/Networks';
 import { RepTechNetworks } from './components/Networks/RepTechNetwork/Networks';
@@ -7,8 +6,7 @@ import { PaperView } from './components/PaperView/PaperView';
 import style from './index.module.scss';
 import { SankeyData, SankeyLink, SankeyLinkExtended } from '../../types/sankey';
 import { ReactElement, ReactNode, useState } from 'react';
-import { FormControl, MenuItem, Select } from '@mui/material';
-import { LinkBlackColor } from '../Sankey/SankeyColor';
+import { FormControl, InputLabel, MenuItem, Select } from '@mui/material';
 
 interface Props {
     clickedNodeLinks: SankeyLinkExtended[] | undefined;
@@ -18,6 +16,11 @@ interface Props {
     setClickedCluster: React.Dispatch<React.SetStateAction<SankeyData | undefined>>;
     originData: SankeyData;
     setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
+}
+
+interface Character {
+    name: string;
+    race: ReactElement;
 }
 
 export function SideNavi({ clickedNodeLinks, clickedLink, clickedButton, clickedCluster, setClickedCluster, originData, setOriginData }: Props) {
@@ -60,7 +63,8 @@ export function SideNavi({ clickedNodeLinks, clickedLink, clickedButton, clicked
                         });
 
                         return setCharacter(newCharacter?.race);
-                    }}>
+                    }}
+                >
                     {characters.map((c) => (
                         <MenuItem
                             sx={(theme) => ({
@@ -78,7 +82,8 @@ export function SideNavi({ clickedNodeLinks, clickedLink, clickedButton, clicked
                                 },
                             })}
                             key={c.name}
-                            value={c.name}>
+                            value={c.name}
+                        >
                             {c.name}
                         </MenuItem>
                     ))}
