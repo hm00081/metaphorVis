@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/metaphorViz/static/css/main.f9e5a322.css",
-    "main.js": "/metaphorViz/static/js/main.efd412c4.js",
+    "main.css": "/metaphorViz/static/css/main.2affd084.css",
+    "main.js": "/metaphorViz/static/js/main.a80a3e98.js",
     "index.html": "/metaphorViz/index.html",
-    "main.f9e5a322.css.map": "/metaphorViz/static/css/main.f9e5a322.css.map",
-    "main.efd412c4.js.map": "/metaphorViz/static/js/main.efd412c4.js.map"
+    "main.2affd084.css.map": "/metaphorViz/static/css/main.2affd084.css.map",
+    "main.a80a3e98.js.map": "/metaphorViz/static/js/main.a80a3e98.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9e5a322.css",
-    "static/js/main.efd412c4.js"
+    "static/css/main.2affd084.css",
+    "static/js/main.a80a3e98.js"
   ]
 }
