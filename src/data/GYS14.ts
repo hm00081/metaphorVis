@@ -124,6 +124,13 @@ const GYS14: SankeyData = {
             process: 'GYS14_7',
         },
         {
+            source: 23,
+            target: 46,
+            value: 1,
+            valueid: ['targetab', 'repb'],
+            process: 'GYS14_8',
+        },
+        {
             source: 39,
             target: 54,
             value: 1,
