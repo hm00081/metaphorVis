@@ -66,14 +66,15 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                         marginRight: '20px',
                         marginBottom: '5px',
                         marginTop: '-5px',
-                    }}>
+                    }}
+                >
                     Representation
                 </div>
 
                 <svg width="25" height="25" style={{ marginLeft: '10px' }}>
                     <rect width="13" height="13" style={{ fill: '#f7960b', paddingRight: '20px' }}></rect>
                 </svg>
-                <div style={{ fontSize: '11px', fontWeight: '630', marginTop: '-5px' }}>Visual Techniques</div>
+                <div style={{ fontSize: '11px', fontWeight: '630', marginTop: '-5px' }}>Visualization Techniques</div>
             </div>
             <svg
                 className={style.networkArea}
@@ -85,7 +86,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                 y="0px"
                 width="100%"
                 viewBox="0 0 1550 1100"
-                xmlSpace="preserve">
+                xmlSpace="preserve"
+            >
                 <switch>
                     <foreignObject requiredExtensions="&ns_ai;" x={0} y={0} width={1} height={1}></foreignObject>
                     <g>
@@ -218,7 +220,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>metal</title>
                         </rect>
                         <g>
@@ -234,7 +237,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>food</title>
                         </rect>
                         <g>
@@ -250,7 +254,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>behavior</title>
                         </rect>
                         <g>
@@ -266,7 +271,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>machine software work</title>
                         </rect>
                         <g>
@@ -282,7 +288,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>machine</title>
                         </rect>
                         <g>
@@ -298,7 +305,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>nonmetal</title>
                         </rect>
                         <g>
@@ -314,7 +322,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>picture</title>
                         </rect>
                         <g>
@@ -333,7 +342,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7"></rect>
+                            height="21.7"
+                        ></rect>
                         <g>
                             <text transform="matrix(1 0 0 1 629.5425 739.9928)" className={style.nodeText}>
                                 creation and destruction
@@ -347,7 +357,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>creation and destruction</title>
                         </rect>
                         <g>
@@ -363,7 +374,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>natural phenomena</title>
                         </rect>
                         <g>
@@ -379,7 +391,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>software</title>
                         </rect>
                         <g>
@@ -395,7 +408,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>building&amp;structure</title>
                         </rect>
                         <g>
@@ -411,7 +425,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>letter</title>
                         </rect>
                         <g>
@@ -427,7 +442,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>landscape</title>
                         </rect>
                         <g>
@@ -443,7 +459,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>toys&amp;instrument</title>
                         </rect>
                         <g>
@@ -459,7 +476,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>geometry </title>
                         </rect>
                         <g>
@@ -475,7 +493,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>pattern</title>
                         </rect>
                         <g>
@@ -491,7 +510,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>map</title>
                         </rect>
                         <g>
@@ -507,7 +527,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>1</title>
                         </rect>
                         <g>
@@ -523,7 +544,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>cell</title>
                         </rect>
                         <g>
@@ -539,7 +561,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.representationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>plant</title>
                         </rect>
                         <g>
@@ -555,7 +578,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.visualtechniquesNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>area chart</title>
                         </rect>
                         <g>
@@ -571,7 +595,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.visualtechniquesNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>scatter plot</title>
                         </rect>
                         <g>
@@ -587,7 +612,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.visualtechniquesNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>pie chart</title>
                         </rect>
                         <g>
@@ -603,7 +629,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.visualtechniquesNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>line plot</title>
                         </rect>
                         <g>
@@ -619,7 +646,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.visualtechniquesNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>?</title>
                         </rect>
                         <g>
@@ -635,7 +663,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.visualtechniquesNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>3d visualization</title>
                         </rect>
                         <g>
@@ -651,7 +680,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.visualtechniquesNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>radar chart</title>
                         </rect>
                         <g>
@@ -667,7 +697,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.visualtechniquesNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>box plot</title>
                         </rect>
                         <g>
@@ -683,7 +714,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.visualtechniquesNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>treemap</title>
                         </rect>
                         <g>
@@ -699,7 +731,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.visualtechniquesNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>tag cloud</title>
                         </rect>
                         <g>
@@ -715,7 +748,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.visualtechniquesNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>mds map</title>
                         </rect>
                         <g>
@@ -731,7 +765,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.visualtechniquesNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>1</title>
                         </rect>
                         <g>
@@ -747,7 +782,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.visualtechniquesNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>bubble chart</title>
                         </rect>
                         <g>
@@ -763,7 +799,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.visualtechniquesNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>node link diagram</title>
                         </rect>
                         <g>
@@ -779,7 +816,8 @@ export const RepTechNetworks = ({ originData, setOriginData, setClickedCluster }
                             }}
                             className={style.visualtechniquesNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>heatmap</title>
                         </rect>
                     </g>
