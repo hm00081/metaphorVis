@@ -1,0 +1,30 @@
+.wrapper {
+    display: block;
+    position: fixed;
+    z-index: 1000;
+
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.615);
+}
+
+.content {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.videoWrap {
+    display: flex;
+}
+.video {
+    width: 1120px;
+    height: 630px;
+    background-color: whitesmoke;
+    margin-right: 5px;
+}
+.closeBtn {
+    width: 30px;
+    height: 30px;
+}

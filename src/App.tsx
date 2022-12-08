@@ -4,8 +4,9 @@ import './styles.scss';
 import style from './rootStyle.module.scss';
 import { SideNavi } from './components/SideNavi/SideNavi';
 import { fullData } from './Data';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { SankeyData, SankeyLink, SankeyLinkExtended } from './types';
+import { PopUp } from './components/PopUp/PopUp';
 
 // viewProt 수정 필요
 export default function App() {
@@ -15,9 +16,17 @@ export default function App() {
     const [clickedButton, setClickedButton] = useState<SankeyLink[]>();
     const [clickedCluster, setClickedCluster] = useState<SankeyData>();
 
+    const [isPopUp, setPopUp] = useState<Boolean>(false);
+    const onclick = () => {
+        (() => {
+            setPopUp(!isPopUp);
+        })();
+    };
+
     return (
         <div className={style.root}>
-            <Header />
+            {isPopUp && PopUp(onclick)}
+            {Header(onclick)}
             <div className={style.mainContainer}>
                 <SideNavi
                     clickedNodeLinks={clickedNodeLinks}
