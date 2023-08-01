@@ -272,6 +272,7 @@ MEA17.links.map((link, index) => {
     link.category = 'RepB';
     link.imgUrl = 'ce97Hw7.jpg';
     link.id = `MEA17-${index}`;
+    link.cluster = 'debatelist';
 });
 
 export { MEA17 };

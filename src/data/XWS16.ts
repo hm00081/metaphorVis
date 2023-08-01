@@ -277,6 +277,7 @@ XWS16.links.forEach((link, index) => {
     link.paperName = 'XWS16';
     link.imgUrl = 'xn5MqwV.jpg';
     link.id = `XWS16-${index}`;
+    link.cluster = 'debatelist';
 });
 
 export { XWS16 };

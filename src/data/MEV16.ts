@@ -284,6 +284,7 @@ MEV16.links.forEach((link, index) => {
     link.paperName = 'MEV16';
     link.imgUrl = 'FpTZ8Nt.jpg';
     link.id = `MEV16-${index}`;
+    link.cluster = 'debatelist';
 });
 
 export { MEV16 };

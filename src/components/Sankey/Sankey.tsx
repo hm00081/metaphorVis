@@ -81,7 +81,7 @@ export const Sankey = ({
     minLinkBreadth,
     maxLinkBreadth,
     setOriginData,
-    setClickedNodeLinks: setClickedNodeLinks,
+    setClickedNodeLinks,
     setClickedLink,
     clickedCluster,
 }: Props) => {

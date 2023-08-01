@@ -140,7 +140,7 @@ export const calcSankeyNodes = (
             if (node.type === 'Vis var&tech' && node.subtype === '0') extendedNode.y = currYPos - 180;
             if (node.type === 'Vis var&tech' && node.subtype === '1') extendedNode.y = currYPos + 50;
             if (node.type === 'Vis var&tech') extendedNode.x = 1800;
-            if (node.type === 'Paper') extendedNode.y = currYPos + y0Pos * 8.5;
+            if (node.type === 'Paper') extendedNode.y = currYPos + y0Pos * 8.5; // 시작 구간
             if (node.type === 'Paper') extendedNode.x = 0;
 
             // Filter Nodes with no output that or not end nodes

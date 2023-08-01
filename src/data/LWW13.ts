@@ -235,6 +235,7 @@ LWW13.links.forEach((link, index) => {
     link.paperName = 'LWW13';
     link.imgUrl = 'iaVFFGl.jpg';
     link.id = `LWW13-${index}`;
+    link.cluster = 'debatelist';
 });
 
 export { LWW13 };

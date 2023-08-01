@@ -244,6 +244,7 @@ CAA20.links.forEach((link, index) => {
     link.category = 'RepB';
     link.imgUrl = 'DFBi3Mo.jpg';
     link.id = `CAA20-${index}`;
+    link.cluster = 'debatelist';
 });
 
 export { CAA20 };

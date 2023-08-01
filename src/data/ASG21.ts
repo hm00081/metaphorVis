@@ -179,6 +179,7 @@ ASG21.links.forEach((link, index) => {
     link.paperName = 'ASG21';
     link.imgUrl = 'JY2gfvN.jpg';
     link.id = `ASG21-${index}`;
+    link.cluster = 'debatelist';
 });
 
 export { ASG21 };

@@ -179,6 +179,7 @@ PC15PV.links.forEach((link, index) => {
     link.paperName = 'PC15PV';
     link.id = `PC15PV-${index}`;
     link.imgUrl = 'C2IpSkW.jpg';
+    link.cluster = 'debatelist';
 });
 
 export { PC15PV };

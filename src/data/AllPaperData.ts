@@ -58,6 +58,12 @@ import { MEA17 } from './MEA17';
 import { SFJ16 } from './SFJ16';
 import { XJX21 } from './XJX21';
 import { ASG21 } from './ASG21';
+import { VIR21 } from './VIR21';
+import { DEV20 } from './DEV20';
+import { NYT19 } from './NYT19';
+import { LEP15 } from './LEP15';
+import { UDT19 } from './UDT19';
+import { BCE12 } from './BCE12';
 import { SankeyLink, SankeyLinkExtended } from '../types';
 import { ClusterOne } from './ClusterOne';
 import { ClusterTwo } from './ClusterTwo';
@@ -355,6 +361,12 @@ const PaperString = [
     SFJ16.links,
     XJX21.links,
     ASG21.links,
+    //VIR21.links,
+    //DEV20.links,
+    //NYT19.links,
+    //LEP15.links,
+    //UDT19.links,
+    //BCE12.links,
 ];
 
 // console.log(PaperString.length);
@@ -420,6 +432,12 @@ const Papers = [
     SFJ16,
     XJX21,
     ASG21,
+    //VIR21,
+    //DEV20,
+    // NYT19,
+    // LEP15,
+    //UDT19,
+    //BCE12,
 ];
 
 //@ts-ignore
@@ -483,8 +501,18 @@ const PaperStatus = [
     MEA17.status,
     SFJ16.status,
     XJX21.status,
-    ASG21.status,
+    //ASG21.status,
+    //VIR21.status,
+    //DEV20.status,
+    //NYT19.status,
+    //LEP15.status,
+    //UDT19.status,
+    //BCE12.status,
 ];
+
+// const DebateList = [ MEV16, MEA17, VIR21, DEV20, NYT19, LEP15, UDT19, CAA20, LWW13, GYS14, ASG21, EAIA17, PC15PV];
+// const DebateList = [ MEV16.links, MEA17.links,  CAA20.links, LWW13.links, GYS14.links, ASG21.links, EAIA17.links, PC15PV.links, VIR21.links, DEV20.links, NYT19.links, LEP15.links, UDT19.links];
+// const DebateList = [MEV16.links, MEA17.links, CAA20.links, LWW13.links, GYS14.links, ASG21.links, EAIA17.links, PC15PV.links, VIR21.links, DEV20.links, NYT19.links, LEP15.links, UDT19.links];
 
 //TODO 유형 추가시 계속 변수 생성하기.
 // console.log(PaperString);
@@ -513,6 +541,36 @@ const Emptys = [].concat.apply([], Empty).reduce((result, value) => {
     //@ts-ignore
     else target.value += 1;
     return result;
+}, []);
+
+//@ts-ignore
+const DebateLists = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<SankeyLinkExtended[]>((DebateLists, onePaper) => {
+    //@ts-ignore
+    const allOnePaper = DebateLists.find(
+        (r) =>
+            r.source === onePaper.source &&
+            r.target === onePaper.target &&
+            r.value === onePaper.value &&
+            r.valueid === onePaper.valueid &&
+            r.process === onePaper.process &&
+            r.paperName === onePaper.paperName
+    );
+    if (!allOnePaper)
+        //@ts-ignore
+        DebateLists.push({
+            source: onePaper.source,
+            target: onePaper.target,
+            value: onePaper.value,
+            valueid: onePaper.valueid,
+            paperName: onePaper.paperName,
+            process: onePaper.process,
+            id: onePaper.id,
+            imgUrl: onePaper.imgUrl,
+            cluster: onePaper.cluster,
+        });
+    //@ts-ignore
+    else allOnePaper.value += 1;
+    return DebateLists;
 }, []);
 
 //@ts-ignore
@@ -3808,4 +3866,5 @@ export {
     RTC2Cluster,
     RTC3Cluster,
     RTC4Cluster,
+    DebateLists,
 };

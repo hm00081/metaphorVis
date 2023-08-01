@@ -354,6 +354,7 @@ GYS14.links.map((link, index) => {
     link.category = 'RepB';
     link.imgUrl = 'r9tEkOr.jpg';
     link.id = `GYS14-${index}`;
+    link.cluster = 'debatelist';
 });
 
 export { GYS14 };

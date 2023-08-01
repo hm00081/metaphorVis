@@ -199,6 +199,7 @@ EAIA17.links.forEach((link, index) => {
     link.paperName = 'EAIA17';
     link.imgUrl = 'TFuj7MS.jpg';
     link.id = `EAIA17-${index}`;
+    link.cluster = 'debatelist';
 });
 
 export { EAIA17 };
