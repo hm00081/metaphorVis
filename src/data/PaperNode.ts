@@ -54,7 +54,7 @@ export const PaperNode: SankeyData = {
         { name: 'easy exploration of sentiment information', type: 'Intermediation', subtype: '4', number: 49 },
         { name: 'celestial', type: 'Representation', subtype: '0', number: 50 },
         { name: 'human', type: 'Representation', subtype: '0', number: 51 },
-        { name: 'animal', type: 'Representation', subtyㅌpe: '0', number: 52 },
+        { name: 'animal', type: 'Representation', subtype: '0', number: 52 },
         { name: 'plant', type: 'Representation', subtype: '0', number: 53 },
         { name: 'landscape', type: 'Representation', subtype: '0', number: 54 },
         { name: 'compound', type: 'Representation', subtype: '0', number: 55 },
