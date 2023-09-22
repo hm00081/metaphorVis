@@ -404,7 +404,7 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             opinion summarization
                         </text>
                         <text transform="matrix(0.9123 0 0 1 306.1523 450.511)" className={style.nodeText}>
-                            polarity classNameification
+                            polarity classification
                         </text>
                         <text transform="matrix(0.9123 0 0 1 921.2051 619.8361)" className={style.nodeText}>
                             finding significant{' '}
@@ -424,7 +424,7 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                         </g>
                         <g>
                             <text transform="matrix(0.9123 0 0 1 213.7939 318.0495)" className={style.nodeText}>
-                                emotion detection and classNameification
+                                emotion detection and classification
                             </text>
                         </g>
                         <g>
@@ -861,7 +861,7 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             width="21.7"
                             height="21.7"
                         >
-                            emotion detection and classNameification
+                            emotion detection and classification
                         </rect>
                         <rect
                             x="283.5"
@@ -885,7 +885,7 @@ export const TarIntNetworks = ({ originData, setOriginData, setClickedCluster }:
                             width="21.7"
                             height="21.7"
                         >
-                            polarity classNameification
+                            polarity classification
                         </rect>
                         <rect
                             x="380.7"
