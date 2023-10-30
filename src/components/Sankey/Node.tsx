@@ -47,6 +47,22 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
     if (node.value === 0) {
         node.value = 2;
     }
+    const countNonGrayLinks = (nodeNumber: number) => {
+        const connectedToSource = links.filter((link) => link.source === nodeNumber && link.color !== 'grayLinkColor').length;
+        const connectedToTarget = links.filter((link) => link.target === nodeNumber && link.color !== 'grayLinkColor').length;
+        return connectedToSource + connectedToTarget;
+    };
+
+    //@ts-ignore
+    const nonGrayLinksCountForThisNode = countNonGrayLinks(node.number);
+    const getNodeTextInfo = (nodeNumber: number) => {
+        const connectedAsSource = links.filter((link) => link.source === nodeNumber && link.color !== 'grayLinkColor').length;
+        const connectedAsTarget = links.filter((link) => link.target === nodeNumber && link.color !== 'grayLinkColor').length;
+
+        if (connectedAsSource + connectedAsTarget === 0) return ''; // 해당 노드에 연결된 링크가 없을 경우
+
+        return `Source Link: ${connectedAsSource}, Target Link: ${connectedAsTarget}`;
+    };
 
     const onClickFunction = (links: SankeyLinkExtended[]) => {
         const renderingData: SankeyData = { ...originData };
@@ -160,7 +176,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
             } else setOriginData(renderingData);
         }
         // console.log('selectedLinkParts', originData);
-        console.log(renderingData.links);
+        //console.log(renderingData.links);
     };
     return (
         <NodePos>
@@ -172,12 +188,13 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
                 height={node.value}
                 fill={node.color}
                 onClick={(event) => {
-                    // console.log('node clicked');
+                    console.log('node clicked');
                     onClickFunction(links);
                     event.stopPropagation();
                 }}
             >
-                <title>{`${node.name}, value: ${node.value}`}</title>
+                {/* @ts-ignore */}
+                <title>{`${node.name}, nodeValue: ${node.value}, ${getNodeTextInfo(node.number)}`}</title>
             </rect>
             <g transform={`translate(${textXPosition} ${textYPosition})`}>
                 <NodeName style={{ fontWeight: 550 }} textAnchor={textAnchor}>

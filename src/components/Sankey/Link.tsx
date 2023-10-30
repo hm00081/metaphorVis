@@ -49,7 +49,8 @@ export const Link = ({ nodes, node, link, links, originData, sourceTargetIdLinks
             return { ...link };
         });
         const selectedLinkPart = sourceTargetIdLinksDict[`${link.source}-${link.target}-${link.valueid}-${link.paperName}`];
-        console.log(selectedLinkPart);
+        //console.log(selectedLinkPart);
+        //console.log(link.value);
         // link 클릭시 해당 링크 색상 부여함.
         renderingData.links.forEach((renderingLink) => {
             renderingLink.color = 'grayLinkColor';

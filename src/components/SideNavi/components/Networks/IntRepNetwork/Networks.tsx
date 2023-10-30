@@ -69,7 +69,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                         marginRight: '20px',
                         marginBottom: '5px',
                         marginTop: '-5px',
-                    }}>
+                    }}
+                >
                     Intermediation
                 </div>
 
@@ -88,7 +89,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                 y="0px"
                 width="100%"
                 viewBox="0 0 1525 1150"
-                xmlSpace="preserve">
+                xmlSpace="preserve"
+            >
                 <switch>
                     <foreignObject requiredExtensions="&ns_ai;" x={0} y={0} width={1} height={1}>
                         {/* <iPgfref xlinkHref="#adobe_illustrator_pgf"></iPgfref> */}
@@ -415,7 +417,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             cx="656.1"
                             cy="130.6"
                             rx="238.3"
-                            ry="131">
+                            ry="131"
+                        >
                             <title>Cluster 2</title>
                         </ellipse>
                         <ellipse
@@ -428,7 +431,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             cx="1093.3"
                             cy="332.7"
                             rx="158.5"
-                            ry="101.1">
+                            ry="101.1"
+                        >
                             <title>Cluster 3</title>
                         </ellipse>
                         <ellipse
@@ -441,7 +445,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             cx="909.1"
                             cy="745.1"
                             rx="378.2"
-                            ry="101.1">
+                            ry="101.1"
+                        >
                             <title>Cluster 4</title>
                         </ellipse>
                         <ellipse
@@ -454,7 +459,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             cx="310.2"
                             cy="452.9"
                             rx="300.4"
-                            ry="261.2">
+                            ry="261.2"
+                        >
                             <title>Cluster 1</title>
                         </ellipse>
 
@@ -466,7 +472,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="339.4"
                             className={style.repreentationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>animal</title>
                         </rect>
                         <rect
@@ -477,7 +484,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="288.3"
                             className={style.repreentationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>picture</title>
                         </rect>
                         <rect
@@ -488,7 +496,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="274.6"
                             className={style.repreentationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>fiber</title>
                         </rect>
                         <rect
@@ -499,7 +508,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="65.7"
                             className={style.repreentationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>cell</title>
                         </rect>
                         <rect
@@ -510,7 +520,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="14.6"
                             className={style.repreentationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>food</title>
                         </rect>
                         <rect
@@ -521,7 +532,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="43.4"
                             className={style.repreentationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>celestial</title>
                         </rect>
                         <rect
@@ -532,7 +544,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="220.8"
                             className={style.repreentationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>behavior</title>
                         </rect>
                         <rect
@@ -543,7 +556,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="267"
                             className={style.repreentationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>machine&software work</title>
                         </rect>
                         <rect
@@ -554,7 +568,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="322.7"
                             className={style.repreentationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>creation and destruction</title>
                         </rect>
                         <rect
@@ -565,7 +580,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="371.3"
                             className={style.repreentationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>nonmetal</title>
                         </rect>
                         <rect
@@ -576,7 +592,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="429.7"
                             className={style.repreentationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>space time movement</title>
                         </rect>
                         <rect
@@ -587,7 +604,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="468.4"
                             className={style.repreentationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>natural phenomena</title>
                         </rect>
                         <rect
@@ -598,7 +616,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="535.1"
                             className={style.repreentationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>plant</title>
                         </rect>
                         <rect
@@ -609,7 +628,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="563.5"
                             className={style.repreentationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>landscape</title>
                         </rect>
                         <rect
@@ -620,7 +640,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="551.5"
                             className={style.repreentationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>geometry</title>
                         </rect>
                         <rect
@@ -631,7 +652,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="676"
                             className={style.repreentationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>map</title>
                         </rect>
                         <rect
@@ -642,7 +664,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="689.6"
                             className={style.repreentationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>letter</title>
                         </rect>
                         <rect
@@ -653,7 +676,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="898.7"
                             className={style.repreentationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>toy&instrument</title>
                         </rect>
                         <rect
@@ -664,7 +688,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="1054.8"
                             className={style.repreentationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>software</title>
                         </rect>
                         <rect
@@ -675,7 +700,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="1000.6"
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>finding significant person/opinions/fact/stance/attitude</title>
                         </rect>
                         <rect
@@ -686,7 +712,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="896.9"
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>opinion summarization</title>
                         </rect>
                         <rect
@@ -697,7 +724,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="774"
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>analysis of debates comments and argumentation</title>
                         </rect>
                         <rect
@@ -708,7 +736,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="731.6"
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>argument expression detection</title>
                         </rect>
                         <rect
@@ -719,7 +748,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="572.2"
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>identifying the intent of sentiment information</title>
                         </rect>
                         <rect
@@ -730,7 +760,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="534.7"
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>detection of evidence event that causes sentiment patterns</title>
                         </rect>
                         <rect
@@ -741,7 +772,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="316.8"
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>polarity classification</title>
                         </rect>
                         <rect
@@ -752,7 +784,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="199.5"
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>sentiment information description a multi-aspect</title>
                         </rect>
                         <rect
@@ -763,7 +796,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="112.2"
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>aspect based sentiment analysis</title>
                         </rect>
                         <rect
@@ -774,7 +808,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="384.4"
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>emotion detection and classification</title>
                         </rect>
                         <rect
@@ -785,7 +820,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="334.7"
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>personalized sentiment analysis</title>
                         </rect>
                         <rect
@@ -796,7 +832,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="617.5"
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>comparison of different sentiments</title>
                         </rect>
                         <rect
@@ -807,7 +844,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="455.1"
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>easy exploration of sentiment information</title>
                         </rect>
                         <rect
@@ -818,7 +856,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="401"
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>timeline analysis</title>
                         </rect>
                         <rect
@@ -829,7 +868,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="764.5"
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>multilingual/crosslingual sentiment analysis</title>
                         </rect>
                         <rect
@@ -840,7 +880,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="617.3"
                             className={style.intermediationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>emotion cause detection</title>
                         </rect>
                         <rect
@@ -851,7 +892,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="722.8"
                             className={style.repreentationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>compound</title>
                         </rect>
                         <rect
@@ -862,7 +904,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="688.1"
                             className={style.repreentationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>building&structure</title>
                         </rect>
                         <rect
@@ -873,7 +916,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="506.2"
                             className={style.repreentationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>pattern</title>
                         </rect>
                         <rect
@@ -884,7 +928,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="385.9"
                             className={style.repreentationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>machine</title>
                         </rect>
                         <rect
@@ -895,7 +940,8 @@ export const IntRepNetwork = ({ originData, setOriginData, setClickedCluster }: 
                             y="340.9"
                             className={style.repreentationNode}
                             width="21.7"
-                            height="21.7">
+                            height="21.7"
+                        >
                             <title>metal</title>
                         </rect>
                     </g>
