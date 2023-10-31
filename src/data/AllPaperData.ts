@@ -501,7 +501,7 @@ const PaperStatus = [
     MEA17.status,
     SFJ16.status,
     XJX21.status,
-    //ASG21.status,
+    ASG21.status,
     //VIR21.status,
     //DEV20.status,
     //NYT19.status,
