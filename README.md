@@ -45,6 +45,16 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/). -->
 
+# Abstract
+
+In the field of data visualization, there has been a recent trend of using a complex type of visualization with a multidimensional structure or using several visualizations in parallel when summarizing the results of sentiment analysis. Although this trend may be useful for sophisticated sentiment analysis, such analysis is difficult for the general public and novice researchers. To address this issue, there has recently been a trend of visualizing sentiments using visual metaphors. To facilitate the understanding of related cases, it is necessary to have a systematic means of grasping the sentiment target, the purpose and motivation of research, and the representations used as substitutes for visual metaphors. Therefore, the objective of the present study was to develop an exploration system that can analyze the visual metaphors used in the case of sentiment visualization. For this study, 1) sentiment visualization cases in which visual metaphors are used were collected. 2) After a taxonomy composed of the categories of “target, intermediation, representation, visual variable, and visualization technique” was constructed, it was used to analyze sentences of visual metaphors appearing in sentiment visualization cases. 3) An exploration system capable of grasping the semantic relationships of sub-elements within the five categories of the taxonomy and intuitively interpreting visual metaphors was developed so that appropriate cases can be recommended to sentiment visualization researchers. 4) The approach and usefulness of the exploration system were explained using user scenarios. 5) A case study was conducted to show that the provided system can be analyzed from various perspectives. 6) The usability of the exploration system was demonstrated through a verification targeting experts. The proposed system allows researchers and analysts to intuitively grasp “what types of visual metaphor method and idea should be equipped to visualize sentiment data in an easier way to understand.”
+
+## Keywords
+
+Sentiment analysis, Sentiment visualization, Visual metaphor, Taxonomy, Exploration system
+
+# Sankey Diagram Node, Link Data Structure
+
 The structure of Sankey diagram data is largely composed of node properties and link properties. An example organization of the properties of a node into data is presented below.
 
 ## Node defining the sub-elements that constitute the taxonomy
