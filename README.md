@@ -45,6 +45,16 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/). -->
 
+# Visualization Overview
+
+![Main(alt text)](https://github.com/hm00081/metaphorVis/blob/main/images/Main.jpg)
+
+## MetaphorVis
+
+(a) Network View,
+(b) Sankey Diagram View,
+(c) Paper View
+
 # Abstract
 
 In the field of data visualization, there has been a recent trend of using a complex type of visualization with a multidimensional structure or using several visualizations in parallel when summarizing the results of sentiment analysis. Although this trend may be useful for sophisticated sentiment analysis, such analysis is difficult for the general public and novice researchers. To address this issue, there has recently been a trend of visualizing sentiments using visual metaphors. To facilitate the understanding of related cases, it is necessary to have a systematic means of grasping the sentiment target, the purpose and motivation of research, and the representations used as substitutes for visual metaphors. Therefore, the objective of the present study was to develop an exploration system that can analyze the visual metaphors used in the case of sentiment visualization. For this study, 1) sentiment visualization cases in which visual metaphors are used were collected. 2) After a taxonomy composed of the categories of “target, intermediation, representation, visual variable, and visualization technique” was constructed, it was used to analyze sentences of visual metaphors appearing in sentiment visualization cases. 3) An exploration system capable of grasping the semantic relationships of sub-elements within the five categories of the taxonomy and intuitively interpreting visual metaphors was developed so that appropriate cases can be recommended to sentiment visualization researchers. 4) The approach and usefulness of the exploration system were explained using user scenarios. 5) A case study was conducted to show that the provided system can be analyzed from various perspectives. 6) The usability of the exploration system was demonstrated through a verification targeting experts. The proposed system allows researchers and analysts to intuitively grasp “what types of visual metaphor method and idea should be equipped to visualize sentiment data in an easier way to understand.”
@@ -102,17 +112,17 @@ Related functions are presented in Algorithms B and C.
 Figure 14 shows how all the links in the visual metaphor related to the clicked link are colored when one link is clicked in a certain section. The same filtering interaction is applied when a node in the Sankey diagram is clicked. Applying the two methods shown in Figures 13 and 14 allows for the entire data flow to be traced, even in a Sankey diagram with multiple axes.
 In the link object information introduced in Algorithms A–C, along with the source and target connecting nodes as well as the value that determines the thickness, the linkId values for finding the same metaphor theme, the variable process that shares the same link, etc. are stored. It is possible to extract conditional information from corresponding object variables and create a recursive function that tracks related links. The principle of each algorithm is described below.
 
-![Algorithm A(alt text)](https://github.com/hm00081/metaphorVis/blob/main/images/AlgorithmA.jpg)
-
 ## Working principle of Algorithm A:
 
 This algorithm conducts its exploration through the linkGroup, which is the entire link set, and it searches colorGroup as coloredLinkGroup to find a value that satisfies the condition. In the for-loop statement, this algorithm determines whether links having the same linkId values as the linkId of the wantLink link exist in the linkGroup to which the color is assigned, and this information is pushed to the empty
 array coloredLinkGroup. Conversely, for the part that is not assigned a color, the link information is managed via pushing to the uncoloredLinkGroup. The sorting of the two link arrays is performed once more through the presence or absence of color as well as in the order of link index numbers. The CSS property z-index is used for color presence determination and position alignment.
 
-![Algorithm B(alt text)](https://github.com/hm00081/metaphorVis/blob/main/images/AlgorithmB.jpg)
-![Algorithm C(alt text)](https://github.com/hm00081/metaphorVis/blob/main/images/AlgorithmC.jpg)
+![Algorithm A(alt text)](https://github.com/hm00081/metaphorVis/blob/main/images/AlgorithmA.jpg)
 
 ## Working principles of Algorithms B and C:
 
 When an interaction event between Sankey diagram elements occurs, Algorithm B—which tracks nodes and links that have the same metaphor—is triggered. Algorithm C is a recursive function that traces the same metaphor on each axis (study case, target, intermediation, representation, visual variable, visualization technique) in the Sankey diagram when Algorithm B operates.
 In Algorithm C, if the front axis exists for the source of the selected link. the findFrontLink condition determines whether the target attribute of the link and the source part of the selected link match. If there is a back axis for the target of the selected link, the findBackLink condition determines whether the source attribute of the link and the target part of the selected link match. This serves to find the same metaphors as the links to which the interaction is applied. By applying this function to Algorithm B, the entire link information can be tracked across multiple axes.
+
+![Algorithm B(alt text)](https://github.com/hm00081/metaphorVis/blob/main/images/AlgorithmB.jpg)
+![Algorithm C(alt text)](https://github.com/hm00081/metaphorVis/blob/main/images/AlgorithmC.jpg)
