@@ -87,6 +87,7 @@ The attributes of a node constitute data items with sub-elements constituting a 
 “subtype” denotes the middle classification and sub-elements in the form of an index, and “number” is set to be shared with the source and target of the link data. Numbers are assigned in the following manner: person is 0, behavior is 1, psychology is 2, etc. After 100, numbers are assigned to the collected studies.
 An example of organizing the link data of the Sankey diagram is presented below.
 
+```javascript
 links: [
 {
 source: 60,
@@ -96,6 +97,7 @@ linkId: [’Geometry’],
 process: ’KSBK15_7’
 } ...
 ]
+```
 
 Here, the starting node index number is expressed as “source” whereas the ending node index number is expressed as “target.” In the source and target parts, the sub-elements of the taxonomy given by the attribute data of the node and the number of study cases are entered. The amount of movement of each connectivity is expressed as a value. Along with data items for visualization elements, linkId—a variable for categorizing representative types of visual metaphors—is manually added to generate data. When categorizing each type, classification and organization are performed according to the characteristics of the target and the representation. In the exploration system, the corresponding types are labeled “target theme” and “representation theme,” respectively. To manage the visual metaphors appearing in each case independently of each other, process variables are added to configure the data. Each process variable is of the format “study title-number of visual metaphors appearing.”
 
