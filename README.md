@@ -104,11 +104,15 @@ In the link object information introduced in Algorithms A–C, along with the so
 
 ![Algorithm A(alt text)](https://github.com/hm00081/metaphorVis/blob/main/images/AlgorithmA.jpg)
 
-Working principle of Algorithm A: This algorithm conducts its exploration through the linkGroup, which is the entire link set, and it searches colorGroup as coloredLinkGroup to find a value that satisfies the condition. In the for-loop statement, this algorithm determines whether links having the same linkId values as the linkId of the wantLink link exist in the linkGroup to which the color is assigned, and this information is pushed to the empty
+## Working principle of Algorithm A:
+
+This algorithm conducts its exploration through the linkGroup, which is the entire link set, and it searches colorGroup as coloredLinkGroup to find a value that satisfies the condition. In the for-loop statement, this algorithm determines whether links having the same linkId values as the linkId of the wantLink link exist in the linkGroup to which the color is assigned, and this information is pushed to the empty
 array coloredLinkGroup. Conversely, for the part that is not assigned a color, the link information is managed via pushing to the uncoloredLinkGroup. The sorting of the two link arrays is performed once more through the presence or absence of color as well as in the order of link index numbers. The CSS property z-index is used for color presence determination and position alignment.
 
 ![Algorithm B(alt text)](https://github.com/hm00081/metaphorVis/blob/main/images/AlgorithmB.jpg)
 ![Algorithm C(alt text)](https://github.com/hm00081/metaphorVis/blob/main/images/AlgorithmC.jpg)
 
-Working principles of Algorithms B and C: When an interaction event between Sankey diagram elements occurs, Algorithm B—which tracks nodes and links that have the same metaphor—is triggered. Algorithm C is a recursive function that traces the same metaphor on each axis (study case, target, intermediation, representation, visual variable, visualization technique) in the Sankey diagram when Algorithm B operates.
+## Working principles of Algorithms B and C:
+
+When an interaction event between Sankey diagram elements occurs, Algorithm B—which tracks nodes and links that have the same metaphor—is triggered. Algorithm C is a recursive function that traces the same metaphor on each axis (study case, target, intermediation, representation, visual variable, visualization technique) in the Sankey diagram when Algorithm B operates.
 In Algorithm C, if the front axis exists for the source of the selected link. the findFrontLink condition determines whether the target attribute of the link and the source part of the selected link match. If there is a back axis for the target of the selected link, the findBackLink condition determines whether the source attribute of the link and the target part of the selected link match. This serves to find the same metaphors as the links to which the interaction is applied. By applying this function to Algorithm B, the entire link information can be tracked across multiple axes.
