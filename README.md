@@ -94,3 +94,5 @@ Here, the starting node index number is expressed as “source” whereas the en
 ![Algorithm A(alt text)](https://github.com/hm00081/metaphorVis/blob/main/images/AlgorithmA.jpg)
 ![Algorithm B(alt text)](https://github.com/hm00081/metaphorVis/blob/main/images/AlgorithmB.jpg)
 ![Algorithm C(alt text)](https://github.com/hm00081/metaphorVis/blob/main/images/AlgorithmC.jpg)
+![Fig13(alt text)](https://github.com/hm00081/metaphorVis/blob/main/images/Fig13.jpg)
+![Fig14(alt text)](https://github.com/hm00081/metaphorVis/blob/main/images/Fig14.jpg)
