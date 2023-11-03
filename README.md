@@ -63,19 +63,24 @@ Sentiment analysis, Sentiment visualization, Visual metaphor, Taxonomy, Explorat
 
 The structure of Sankey diagram data is largely composed of node properties and link properties. An example organization of the properties of a node into data is presented below.
 
+```javascript
 nodes: [
 // Node defining the sub-elements that constitute the taxonomy
-{name: ’person’,
+{
+name: ’person’,
 type: ’Target’,
 subtype: ’0’,
 number: 0
 },
-//Node defining the collected 60 sentiment visualization cases
-{name: ’CAA20’,
+// Node defining the collected 60 sentiment visualization cases
+{
+name: ’CAA20’,
 type: ’Paper’,
 number: 100
-} ...
+}
+...
 ]
+```
 
 The attributes of a node constitute data items with sub-elements constituting a taxonomy for study cases. Specifically, “name” denotes the name of the node, “type” denotes the five categories constituting the taxonomy,
 
