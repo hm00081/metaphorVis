@@ -49,11 +49,7 @@ To learn React, check out the [React documentation](https://reactjs.org/). -->
 
 ![Main(alt text)](https://github.com/hm00081/metaphorVis/blob/main/images/Main.jpg)
 
-## (a) Network View
-
-## (b) Sankey Diagram View
-
-## (c) Paper View
+## (a) Network View, (b) Sankey Diagram View, (c) Paper View
 
 # Abstract
 
