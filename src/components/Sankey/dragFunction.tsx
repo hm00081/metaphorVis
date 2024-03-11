@@ -1,5 +1,4 @@
 import * as d3 from 'd3';
-import { D3ZoomEvent } from 'd3';
 import { SankeyNodeExtended, SankeyLinkExtended } from '../../types/sankey';
 
 export class SvgGSelectionsMaker {
@@ -110,17 +109,3 @@ export function makeDrag() {
         return d3.drag<SVGRectElement, SankeyNodeExtended>().on('start', dragstarted).on('drag', dragged).on('end', dragended);
     };
 }
-
-// export const makePieData = d3
-//     .pie<ParticipantCount>()
-//     .sort(null)
-//     .value((d) => d.count);
-
-// export function makeArcDAttribute(d: d3.PieArcDatum<ParticipantCount>, nodeDatum: NodeDatum, nodeSizeMultiplier: number) {
-//     const arcMaker = d3
-//         .arc<d3.PieArcDatum<ParticipantCount>>()
-//         .innerRadius(0)
-//         .outerRadius(Math.sqrt(nodeDatum.count * nodeSizeMultiplier) + 3);
-
-//     return arcMaker(d);
-// }

@@ -60,10 +60,6 @@ export const calcSankeyNodes = (
 
     // Filter all columns
     const columns = nodes.map((node) => node.type).filter((type, pos, arr) => arr.indexOf(type) === pos);
-    // 각 column마다 노드의 value값에 맞게 내림, 오름차순 정렬기능 생성.
-    // const sourceNodeNameDict: {[node: string]: SankeyNodeExtended[]   }={};
-    // const extendedNodes = node.map(())
-    // Calc largest column value
     let largestColumnValue = 0;
 
     columns.forEach((column) => {

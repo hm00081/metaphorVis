@@ -180,6 +180,8 @@ import { Tar24 } from './nettarNode/Tar24';
 import { Tar25 } from './nettarNode/Tar25';
 import { Tar26 } from './nettarNode/Tar26';
 import { Tar27 } from './nettarNode/Tar27';
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import { PaperNode } from './PaperNode';
 
 const ClusteroneLinkData = [ClusterOne];
 const ClustertwoLinkData = [ClusterTwo];
@@ -3737,6 +3739,81 @@ const Tar27s = ([].concat.apply([], Tar27Data) as SankeyLink[]).reduce<SankeyLin
 
 //@ts-ignore
 const Node = CAA20.nodes;
+
+// 각 데이터 객체별로 고유한 노드를 객체 형태로 반환하는 함수
+function extractUniqueNodesByPaper() {
+    const result: { Paper: string; links: number[] }[] = [];
+
+    Papers.forEach((paper, index) => {
+        const paperName = paper.status[0].paperName; // 데이터 객체의 식별자를 생성 (예: Paper1, Paper2, ...)
+        const nodes = new Set<number>();
+
+        paper.links.forEach((link) => {
+            nodes.add(link.source);
+            nodes.add(link.target);
+        });
+
+        result.push({
+            //@ts-ignore
+            Paper: paperName,
+            links: Array.from(nodes),
+        });
+    });
+
+    return result;
+}
+
+// 결과 추출
+const uniqueNodesByPaper = extractUniqueNodesByPaper();
+//console.log(uniqueNodesByPaper);
+
+// PaperNode의 각 노드를 숫자에 따라 매핑
+const nodeMapping = PaperNode.nodes.reduce((map, node) => {
+    //@ts-ignore
+    map[node.number] = node;
+    return map;
+}, {} as { [number: number]: Node });
+
+// uniqueNodesByPaper의 링크 숫자를 PaperNode의 name으로 치환하고, type 추가
+// const transformedData = uniqueNodesByPaper.map((paperData) => {
+//     const transformedLinks = paperData.links
+//         .map((linkNumber) => {
+//             const node = nodeMapping[linkNumber];
+//             //@ts-ignore
+//             return node ? node.name : null;
+//         })
+//         .filter((name) => name !== null); // null 제거
+
+//     return {
+//         Paper: paperData.Paper,
+//         links: transformedLinks,
+//     };
+// });
+
+// console.log(transformedData);
+
+// uniqueNodesByPaper의 링크 숫자를 PaperNode의 name으로 치환하고, type 추가
+const transformedData = uniqueNodesByPaper.map((paperData) => {
+    const transformedLinks = paperData.links
+        .map((linkNumber) => {
+            const node = nodeMapping[linkNumber];
+            //@ts-ignore
+            if (node && node.number < 100) {
+                //@ts-ignore
+                return { name: node.name, type: node.type };
+            }
+            return null;
+        })
+        .filter((node) => node !== null); // null 제거
+
+    return {
+        Paper: paperData.Paper,
+        links: transformedLinks,
+    };
+});
+
+console.log(transformedData);
+
 
 export {
     Status,

@@ -431,30 +431,6 @@ function findFrontLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData }
 function findBackLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData }) {
     const { linkPart, renderingData } = arg;
     const backLinks = renderingData.links.filter((renderingLink) => {
-        // if (renderingLink.source === linkPart.target && renderingLink.id === linkPart.id) {
-        // if (renderingLink.source === linkPart.target && renderingLink.paperName === linkPart.paperName) {
-        //     if (renderingLink.source >= 50 && renderingLink.source <= 75) {
-        //         renderingLink.color = linkPart.color;
-        //     }
-        //     if (renderingLink.target >= 50 && renderingLink.target <= 75) {
-        //         renderingLink.color = linkPart.color;
-        //     }
-        //     if (renderingLink.target >= 76 && renderingLink.target < 83) {
-        //         renderingLink.color = 'repVisVarColor';
-        //         renderingLink.valueid = linkPart.valueid;
-        //         //renderingLink.status = 'selected';
-        //         renderingLink.paperName = linkPart.paperName;
-        //         // renderingLink.process = linkPart.process;
-        //     }
-        //     if (renderingLink.target > 82 && renderingLink.target < 100) {
-        //         renderingLink.color = 'repVisTechColor';
-        //         renderingLink.valueid = linkPart.valueid;
-        //         //renderingLink.status = 'selected';
-        //         renderingLink.paperName = linkPart.paperName;
-        //         // renderingLink.process = linkPart.process;
-        //     }
-        //     return true;
-        // }
         if (renderingLink.source === linkPart.target && renderingLink.process === linkPart.process) {
             if (renderingLink.target >= 31 && renderingLink.target <= 33) {
                 renderingLink.color = 'intOneLinkColor';

@@ -61,8 +61,6 @@ export const calcSankeyLinks = (
                 number
             ][];
 
-            // d3-line, curveCardinal
-
             const path = line().curve(curveCardinal.tension(0.2))(data);
 
             if (!path) return;
@@ -72,21 +70,6 @@ export const calcSankeyLinks = (
             return;
         }
     });
-
-    //node.breadth === value의 값이 높은 순으로 나열.
-    //같은 source, target에서의 값이 여러개일 경우 조건을 주기!!
-
-    // source, targetCenter는 link의 좌표를 나타냄
-    //노드 세로 길이 / 2만큼 위치를 조절??
-
-    // const linksByEachGroup =
-    //     {
-    //         node1: [link, link, link],
-    //         node2: [],
-    //         node3: []
-    //     }
-    // 딕셔너리 or 해시테이블
-    // const presourceNodeNameLinksDict: { [node: string]: SankeyLinkExtended[] } = {};
 
     // valueid가 빈 string ''이 아닌 애들을 우선순위로 두기.
     // 딕셔너리 or 해시테이블
@@ -111,33 +94,17 @@ export const calcSankeyLinks = (
         }
     });
 
-    // const targetNodeNameLinksDict: { [node: string]: SankeyLinkExtended[] } = {};
-    // extendedLinks.forEach((link) => {
-    //     // console.log(link.sourceNode.name);
-    //     if (link.targetNode.name! in sourceNodeNameLinksDict) {
-    //         targetNodeNameLinksDict[link.targetNode.name!].push(link);
-    //     } else {
-    //         targetNodeNameLinksDict[link.targetNode.name!] = [link];
-    //     }
-    // });
-
-    // sort [key, value] entries.
     for (const [nodeName, linksOfNode] of Object.entries(sourceNodeNameLinksDict)) {
-        // linksOfNode.sort((a, b) => b.value - a.value);
         // 현재는 크기가 큰 순서대로 소팅이 되고있는 상황.
         if (isSort) {
             linksOfNode.sort((a, b) => {
                 let tempNumber = 0;
-                // if (a.valueid === 'repb' || a.valueid === 'repea') {
-                //     if (b.valueid === 'repb' || b.valueid === 'repea') {
+
                 if (a.color !== 'grayLinkColor') {
                     if (b.color !== 'grayLinkColor') {
-                        // tempNumber = b.value - a.value;
-                        //@ts-ignore
                         tempNumber = a.target - b.target;
                     } else {
                         tempNumber = -1;
-                        // tempNumber = a.value - b.value;
                     }
                 } else {
                     // if (b.valueid === 'repb' || b.valueid === 'repea') {
@@ -152,10 +119,7 @@ export const calcSankeyLinks = (
                 return tempNumber;
             });
         }
-        // 밸류가 큰게아닌 타겟의 넘버가 작은 순으로 들어가게 소팅에서 변경
-        // 논문 소스노드가 작은 순으로 먼저 들어가게 오더링 변경하기.
-        // 각 링크를 분리하기 위한 forEach문.
-        // sourceNode 순(숫자가 작은 순으로 배치).
+
         let tempYPosition: number = 0;
         linksOfNode.forEach((link, orderIndex) => {
             // 같은 target에서 받은 source 에서 나오는 링크들은 같은 y축(sourceOrderIndex)에서 나오게 수정하기. (노드 양쪽에서 그렇게 나오게 해야할 듯 하다.)
@@ -204,7 +168,6 @@ export const calcSankeyLinks = (
     }
 
     extendedLinks.forEach((link) => {
-        // source, targetCenter는 link의 좌표를 나타냄
         const sourceCenter = (d: typeof extendedLinks[0]) => [d.sourceNode.x + proportionalNodeWidth, d.sourceNode.y + d.sourceNodeYPosition + d.value / 2];
         const targetCenter = (d: typeof extendedLinks[0]) => [d.targetNode.x, d.targetNode.y + d.targetNodeYPosition + d.value / 2];
 

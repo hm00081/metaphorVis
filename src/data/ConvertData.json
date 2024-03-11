@@ -1,0 +1,3946 @@
+[
+    {
+        "paper": "BN11B",
+        "info": [
+            {
+                "name": "emotion",
+                "type": "Target"
+            },
+            {
+                "name": "accumulation",
+                "type": "Target"
+            },
+            {
+                "name": "community",
+                "type": "Target"
+            },
+            {
+                "name": "sentiment information description a multi aspect",
+                "type": "Intermediation"
+            },
+            {
+                "name": "building&structure",
+                "type": "Representation"
+            },
+            {
+                "name": "orientation",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "creation and destruction",
+                "type": "Representation"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "geometry",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "CAA20",
+        "info": [
+            {
+                "name": "composite",
+                "type": "Target"
+            },
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "appraisal",
+                "type": "Target"
+            },
+            {
+                "name": "accumulation",
+                "type": "Target"
+            },
+            {
+                "name": "aspect based sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "argument expression detection",
+                "type": "Intermediation"
+            },
+            {
+                "name": "opinion summarization",
+                "type": "Intermediation"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "building&structure",
+                "type": "Representation"
+            },
+            {
+                "name": "landscape",
+                "type": "Representation"
+            },
+            {
+                "name": "natural phenomena",
+                "type": "Representation"
+            },
+            {
+                "name": "creation and destruction",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "tag cloud",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "position",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "CGK21",
+        "info": [
+            {
+                "name": "service",
+                "type": "Target"
+            },
+            {
+                "name": "product",
+                "type": "Target"
+            },
+            {
+                "name": "emotion",
+                "type": "Target"
+            },
+            {
+                "name": "writer",
+                "type": "Target"
+            },
+            {
+                "name": "continuity",
+                "type": "Target"
+            },
+            {
+                "name": "emotion cause detection",
+                "type": "Intermediation"
+            },
+            {
+                "name": "emotion detection and classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "landscape",
+                "type": "Representation"
+            },
+            {
+                "name": "building&structure",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "shape",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "position",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "line plot",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "box plot",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "mds map",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "CSL12",
+        "info": [
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "appraisal",
+                "type": "Target"
+            },
+            {
+                "name": "organization",
+                "type": "Target"
+            },
+            {
+                "name": "key player",
+                "type": "Target"
+            },
+            {
+                "name": "public",
+                "type": "Target"
+            },
+            {
+                "name": "birth death",
+                "type": "Target"
+            },
+            {
+                "name": "growth contraction",
+                "type": "Target"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "finding significant",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "plant",
+                "type": "Representation"
+            },
+            {
+                "name": "pattern",
+                "type": "Representation"
+            },
+            {
+                "name": "natural phenomena",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "shape",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "position",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "spatial based visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "CSL16",
+        "info": [
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "stance",
+                "type": "Target"
+            },
+            {
+                "name": "writer",
+                "type": "Target"
+            },
+            {
+                "name": "continuity",
+                "type": "Target"
+            },
+            {
+                "name": "peak valley",
+                "type": "Target"
+            },
+            {
+                "name": "opinion summarization",
+                "type": "Intermediation"
+            },
+            {
+                "name": "compound",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "bubble chart",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "pattern",
+                "type": "Representation"
+            },
+            {
+                "name": "shape",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "box plot",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "finding significant",
+                "type": "Intermediation"
+            },
+            {
+                "name": "personalized sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "position",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "node link diagram",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "natural phenomena",
+                "type": "Representation"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "DMC09",
+        "info": [
+            {
+                "name": "composite",
+                "type": "Target"
+            },
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "aspect based sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "polarity classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "cell",
+                "type": "Representation"
+            },
+            {
+                "name": "value",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "node link diagram",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "heatmap",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "EAIA17",
+        "info": [
+            {
+                "name": "emotion",
+                "type": "Target"
+            },
+            {
+                "name": "key player",
+                "type": "Target"
+            },
+            {
+                "name": "birth death",
+                "type": "Target"
+            },
+            {
+                "name": "emotion detection and classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "polarity classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "personalized sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "finding significant",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "animal",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "shape",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "orientation",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "EYG15",
+        "info": [
+            {
+                "name": "service",
+                "type": "Target"
+            },
+            {
+                "name": "event",
+                "type": "Target"
+            },
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "writer",
+                "type": "Target"
+            },
+            {
+                "name": "birth death",
+                "type": "Target"
+            },
+            {
+                "name": "growth contraction",
+                "type": "Target"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "map",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "opinion summarization",
+                "type": "Intermediation"
+            },
+            {
+                "name": "tag cloud",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "node link diagram",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "creation and destruction",
+                "type": "Representation"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "FA20",
+        "info": [
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "appraisal",
+                "type": "Target"
+            },
+            {
+                "name": "stance",
+                "type": "Target"
+            },
+            {
+                "name": "attitude",
+                "type": "Target"
+            },
+            {
+                "name": "emotion",
+                "type": "Target"
+            },
+            {
+                "name": "writer",
+                "type": "Target"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "emotion detection and classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "building&structure",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "FAKM15",
+        "info": [
+            {
+                "name": "emotion",
+                "type": "Target"
+            },
+            {
+                "name": "polarity classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "geometry",
+                "type": "Representation"
+            },
+            {
+                "name": "value",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "building&structure",
+                "type": "Representation"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "position",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "box plot",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "accumulation",
+                "type": "Target"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "creation and destruction",
+                "type": "Representation"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "FCF09",
+        "info": [
+            {
+                "name": "service",
+                "type": "Target"
+            },
+            {
+                "name": "organization",
+                "type": "Target"
+            },
+            {
+                "name": "key player",
+                "type": "Target"
+            },
+            {
+                "name": "accumulation",
+                "type": "Target"
+            },
+            {
+                "name": "sentiment information description a multi aspect",
+                "type": "Intermediation"
+            },
+            {
+                "name": "polarity classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "pattern",
+                "type": "Representation"
+            },
+            {
+                "name": "creation and destruction",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "shape",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "position",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "GGS12MT",
+        "info": [
+            {
+                "name": "place",
+                "type": "Target"
+            },
+            {
+                "name": "appraisal",
+                "type": "Target"
+            },
+            {
+                "name": "continuity",
+                "type": "Target"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "polarity classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "finding significant",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "building&structure",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "creation and destruction",
+                "type": "Representation"
+            }
+        ]
+    },
+    {
+        "paper": "GGS12ST",
+        "info": [
+            {
+                "name": "place",
+                "type": "Target"
+            },
+            {
+                "name": "appraisal",
+                "type": "Target"
+            },
+            {
+                "name": "writer",
+                "type": "Target"
+            },
+            {
+                "name": "accumulation",
+                "type": "Target"
+            },
+            {
+                "name": "peak valley",
+                "type": "Target"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "polarity classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "personalized sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "plant",
+                "type": "Representation"
+            },
+            {
+                "name": "natural phenomena",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "GGS12TPS",
+        "info": [
+            {
+                "name": "appraisal",
+                "type": "Target"
+            },
+            {
+                "name": "writer",
+                "type": "Target"
+            },
+            {
+                "name": "accumulation",
+                "type": "Target"
+            },
+            {
+                "name": "polarity classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "personalized sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "fiber",
+                "type": "Representation"
+            },
+            {
+                "name": "creation and destruction",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "shape",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "GYS14",
+        "info": [
+            {
+                "name": "event",
+                "type": "Target"
+            },
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "key player",
+                "type": "Target"
+            },
+            {
+                "name": "continuity",
+                "type": "Target"
+            },
+            {
+                "name": "opinion summarization",
+                "type": "Intermediation"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "analysis of debates comments and argumentation",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "landscape",
+                "type": "Representation"
+            },
+            {
+                "name": "natural phenomena",
+                "type": "Representation"
+            },
+            {
+                "name": "value",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "position",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "tag cloud",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "HYZ13",
+        "info": [
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "appraisal",
+                "type": "Target"
+            },
+            {
+                "name": "detection of evidence event that causes sentiment patterns",
+                "type": "Intermediation"
+            },
+            {
+                "name": "aspect based sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "sentiment information description a multi aspect",
+                "type": "Intermediation"
+            },
+            {
+                "name": "emotion detection and classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "geometry",
+                "type": "Representation"
+            },
+            {
+                "name": "position",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "tag cloud",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "JTM11",
+        "info": [
+            {
+                "name": "service",
+                "type": "Target"
+            },
+            {
+                "name": "appraisal",
+                "type": "Target"
+            },
+            {
+                "name": "organization",
+                "type": "Target"
+            },
+            {
+                "name": "key player",
+                "type": "Target"
+            },
+            {
+                "name": "public",
+                "type": "Target"
+            },
+            {
+                "name": "growth contraction",
+                "type": "Target"
+            },
+            {
+                "name": "accumulation",
+                "type": "Target"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "landscape",
+                "type": "Representation"
+            },
+            {
+                "name": "3d visualization",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "node link diagram",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "geometry",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "natural phenomena",
+                "type": "Representation"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "JSM16",
+        "info": [
+            {
+                "name": "person",
+                "type": "Target"
+            },
+            {
+                "name": "service",
+                "type": "Target"
+            },
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "appraisal",
+                "type": "Target"
+            },
+            {
+                "name": "growth contraction",
+                "type": "Target"
+            },
+            {
+                "name": "continuity",
+                "type": "Target"
+            },
+            {
+                "name": "accumulation",
+                "type": "Target"
+            },
+            {
+                "name": "finding significant",
+                "type": "Intermediation"
+            },
+            {
+                "name": "opinion summarization",
+                "type": "Intermediation"
+            },
+            {
+                "name": "polarity classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "multilingual and cross lingual sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "plant",
+                "type": "Representation"
+            },
+            {
+                "name": "nonmetal",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "position",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "JX17",
+        "info": [
+            {
+                "name": "composite",
+                "type": "Target"
+            },
+            {
+                "name": "derived",
+                "type": "Target"
+            },
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "birth death",
+                "type": "Target"
+            },
+            {
+                "name": "aspect based sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "argument expression detection",
+                "type": "Intermediation"
+            },
+            {
+                "name": "polarity classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "compound",
+                "type": "Representation"
+            },
+            {
+                "name": "plant",
+                "type": "Representation"
+            },
+            {
+                "name": "food",
+                "type": "Representation"
+            },
+            {
+                "name": "value",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "tree map",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "bubble chart",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "tag cloud",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "KSBK15",
+        "info": [
+            {
+                "name": "person",
+                "type": "Target"
+            },
+            {
+                "name": "psychology",
+                "type": "Target"
+            },
+            {
+                "name": "place",
+                "type": "Target"
+            },
+            {
+                "name": "thought",
+                "type": "Target"
+            },
+            {
+                "name": "service",
+                "type": "Target"
+            },
+            {
+                "name": "product",
+                "type": "Target"
+            },
+            {
+                "name": "event",
+                "type": "Target"
+            },
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "stance",
+                "type": "Target"
+            },
+            {
+                "name": "emotion",
+                "type": "Target"
+            },
+            {
+                "name": "writer",
+                "type": "Target"
+            },
+            {
+                "name": "aspect based sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "sentiment information description a multi aspect",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "emotion detection and classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "finding significant",
+                "type": "Intermediation"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "pattern",
+                "type": "Representation"
+            },
+            {
+                "name": "compound",
+                "type": "Representation"
+            },
+            {
+                "name": "geometry",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "node link diagram",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "bubble chart",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "pie chart",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "KWL09",
+        "info": [
+            {
+                "name": "composite",
+                "type": "Target"
+            },
+            {
+                "name": "appraisal",
+                "type": "Target"
+            },
+            {
+                "name": "aspect based sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "building&structure",
+                "type": "Representation"
+            },
+            {
+                "name": "value",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "position",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "mds map",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "personalized sentiment analysis",
+                "type": "Intermediation"
+            }
+        ]
+    },
+    {
+        "paper": "LGX16",
+        "info": [
+            {
+                "name": "thought",
+                "type": "Target"
+            },
+            {
+                "name": "service",
+                "type": "Target"
+            },
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "appraisal",
+                "type": "Target"
+            },
+            {
+                "name": "organization",
+                "type": "Target"
+            },
+            {
+                "name": "public",
+                "type": "Target"
+            },
+            {
+                "name": "sentiment information description a multi aspect",
+                "type": "Intermediation"
+            },
+            {
+                "name": "identifying the intent of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "natural phenomena",
+                "type": "Representation"
+            },
+            {
+                "name": "geometry",
+                "type": "Representation"
+            },
+            {
+                "name": "compound",
+                "type": "Representation"
+            },
+            {
+                "name": "building&structure",
+                "type": "Representation"
+            },
+            {
+                "name": "machine",
+                "type": "Representation"
+            },
+            {
+                "name": "position",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "bubble chart",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "value",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "LJC18",
+        "info": [
+            {
+                "name": "place",
+                "type": "Target"
+            },
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "continuity",
+                "type": "Target"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "opinion summarization",
+                "type": "Intermediation"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "landscape",
+                "type": "Representation"
+            },
+            {
+                "name": "geometry",
+                "type": "Representation"
+            },
+            {
+                "name": "pattern",
+                "type": "Representation"
+            },
+            {
+                "name": "map",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "box plot",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "tag cloud",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "spatial based visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "LLN14",
+        "info": [
+            {
+                "name": "event",
+                "type": "Target"
+            },
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "emotion",
+                "type": "Target"
+            },
+            {
+                "name": "key player",
+                "type": "Target"
+            },
+            {
+                "name": "accumulation",
+                "type": "Target"
+            },
+            {
+                "name": "detection of evidence event that causes sentiment patterns",
+                "type": "Intermediation"
+            },
+            {
+                "name": "compound",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "box plot",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "tag cloud",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "finding significant",
+                "type": "Intermediation"
+            },
+            {
+                "name": "bubble chart",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "shape",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "distance",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "natural phenomena",
+                "type": "Representation"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "LWW13",
+        "info": [
+            {
+                "name": "composite",
+                "type": "Target"
+            },
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "stance",
+                "type": "Target"
+            },
+            {
+                "name": "writer",
+                "type": "Target"
+            },
+            {
+                "name": "organization",
+                "type": "Target"
+            },
+            {
+                "name": "key player",
+                "type": "Target"
+            },
+            {
+                "name": "growth contraction",
+                "type": "Target"
+            },
+            {
+                "name": "aspect based sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "sentiment information description a multi aspect",
+                "type": "Intermediation"
+            },
+            {
+                "name": "building&structure",
+                "type": "Representation"
+            },
+            {
+                "name": "argument expression detection",
+                "type": "Intermediation"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "creation and destruction",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "shape",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "position",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "MA16",
+        "info": [
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "writer",
+                "type": "Target"
+            },
+            {
+                "name": "birth death",
+                "type": "Target"
+            },
+            {
+                "name": "repeat",
+                "type": "Target"
+            },
+            {
+                "name": "acceleration",
+                "type": "Target"
+            },
+            {
+                "name": "opinion summarization",
+                "type": "Intermediation"
+            },
+            {
+                "name": "finding significant",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "software",
+                "type": "Representation"
+            },
+            {
+                "name": "machine",
+                "type": "Representation"
+            },
+            {
+                "name": "toys instrument",
+                "type": "Representation"
+            },
+            {
+                "name": "machine software work",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "distance",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "3d visualization",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "tag cloud",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "MDD10",
+        "info": [
+            {
+                "name": "event",
+                "type": "Target"
+            },
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "emotion",
+                "type": "Target"
+            },
+            {
+                "name": "writer",
+                "type": "Target"
+            },
+            {
+                "name": "growth contraction",
+                "type": "Target"
+            },
+            {
+                "name": "opinion summarization",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "sentiment information description a multi aspect",
+                "type": "Intermediation"
+            },
+            {
+                "name": "landscape",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "area chart",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "finding significant",
+                "type": "Intermediation"
+            },
+            {
+                "name": "geometry",
+                "type": "Representation"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "MDDD16",
+        "info": [
+            {
+                "name": "service",
+                "type": "Target"
+            },
+            {
+                "name": "appraisal",
+                "type": "Target"
+            },
+            {
+                "name": "continuity",
+                "type": "Target"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "detection of fake or deceptive sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "landscape",
+                "type": "Representation"
+            },
+            {
+                "name": "natural phenomena",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "tag cloud",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "MDJW07",
+        "info": [
+            {
+                "name": "service",
+                "type": "Target"
+            },
+            {
+                "name": "stance",
+                "type": "Target"
+            },
+            {
+                "name": "attitude",
+                "type": "Target"
+            },
+            {
+                "name": "continuity",
+                "type": "Target"
+            },
+            {
+                "name": "detection of evidence event that causes sentiment patterns",
+                "type": "Intermediation"
+            },
+            {
+                "name": "finding significant",
+                "type": "Intermediation"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "landscape",
+                "type": "Representation"
+            },
+            {
+                "name": "machine",
+                "type": "Representation"
+            },
+            {
+                "name": "geometry",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "orientation",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "area chart",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "MEV16",
+        "info": [
+            {
+                "name": "composite",
+                "type": "Target"
+            },
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "stance",
+                "type": "Target"
+            },
+            {
+                "name": "key player",
+                "type": "Target"
+            },
+            {
+                "name": "public",
+                "type": "Target"
+            },
+            {
+                "name": "accumulation",
+                "type": "Target"
+            },
+            {
+                "name": "aspect based sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "building&structure",
+                "type": "Representation"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "argument expression detection",
+                "type": "Intermediation"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "compound",
+                "type": "Representation"
+            },
+            {
+                "name": "bubble chart",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "geometry",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "natural phenomena",
+                "type": "Representation"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "MHK16",
+        "info": [
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "appraisal",
+                "type": "Target"
+            },
+            {
+                "name": "opinion summarization",
+                "type": "Intermediation"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "plant",
+                "type": "Representation"
+            },
+            {
+                "name": "value",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "position",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "node link diagram",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "MLG06",
+        "info": [
+            {
+                "name": "product",
+                "type": "Target"
+            },
+            {
+                "name": "appraisal",
+                "type": "Target"
+            },
+            {
+                "name": "opinion summarization",
+                "type": "Intermediation"
+            },
+            {
+                "name": "polarity classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "plant",
+                "type": "Representation"
+            },
+            {
+                "name": "value",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "distance",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "box plot",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "MVM17",
+        "info": [
+            {
+                "name": "psychology",
+                "type": "Target"
+            },
+            {
+                "name": "thought",
+                "type": "Target"
+            },
+            {
+                "name": "event",
+                "type": "Target"
+            },
+            {
+                "name": "organization",
+                "type": "Target"
+            },
+            {
+                "name": "public",
+                "type": "Target"
+            },
+            {
+                "name": "birth death",
+                "type": "Target"
+            },
+            {
+                "name": "growth contraction",
+                "type": "Target"
+            },
+            {
+                "name": "continuity",
+                "type": "Target"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "finding significant",
+                "type": "Intermediation"
+            },
+            {
+                "name": "geometry",
+                "type": "Representation"
+            },
+            {
+                "name": "compound",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "value",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "bubble chart",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "shape",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "MWSO08",
+        "info": [
+            {
+                "name": "emotion",
+                "type": "Target"
+            },
+            {
+                "name": "writer",
+                "type": "Target"
+            },
+            {
+                "name": "continuity",
+                "type": "Target"
+            },
+            {
+                "name": "emotion detection and classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "finding significant",
+                "type": "Intermediation"
+            },
+            {
+                "name": "personalized sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "compound",
+                "type": "Representation"
+            },
+            {
+                "name": "picture",
+                "type": "Representation"
+            },
+            {
+                "name": "machine",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "line plot",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "tag cloud",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "PC15PV",
+        "info": [
+            {
+                "name": "person",
+                "type": "Target"
+            },
+            {
+                "name": "place",
+                "type": "Target"
+            },
+            {
+                "name": "appraisal",
+                "type": "Target"
+            },
+            {
+                "name": "birth death",
+                "type": "Target"
+            },
+            {
+                "name": "accumulation",
+                "type": "Target"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "animal",
+                "type": "Representation"
+            },
+            {
+                "name": "compound",
+                "type": "Representation"
+            },
+            {
+                "name": "behavior",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "shape",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "bubble chart",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "REP15",
+        "info": [
+            {
+                "name": "person",
+                "type": "Target"
+            },
+            {
+                "name": "composite",
+                "type": "Target"
+            },
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "sentiment information description a multi aspect",
+                "type": "Intermediation"
+            },
+            {
+                "name": "aspect based sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "celestial",
+                "type": "Representation"
+            },
+            {
+                "name": "value",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "shape",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "position",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "RRR19",
+        "info": [
+            {
+                "name": "appraisal",
+                "type": "Target"
+            },
+            {
+                "name": "attitude",
+                "type": "Target"
+            },
+            {
+                "name": "emotion",
+                "type": "Target"
+            },
+            {
+                "name": "public",
+                "type": "Target"
+            },
+            {
+                "name": "birth death",
+                "type": "Target"
+            },
+            {
+                "name": "emotion detection and classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "picture",
+                "type": "Representation"
+            },
+            {
+                "name": "node link diagram",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "area chart",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "tag cloud",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "polarity classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "personalized sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "scatter plot",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "creation and destruction",
+                "type": "Representation"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "geometry",
+                "type": "Representation"
+            }
+        ]
+    },
+    {
+        "paper": "RSRY12",
+        "info": [
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "writer",
+                "type": "Target"
+            },
+            {
+                "name": "accumulation",
+                "type": "Target"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "compound",
+                "type": "Representation"
+            },
+            {
+                "name": "natural phenomena",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "bubble chart",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "area chart",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "box plot",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "SCS16",
+        "info": [
+            {
+                "name": "attitude",
+                "type": "Target"
+            },
+            {
+                "name": "writer",
+                "type": "Target"
+            },
+            {
+                "name": "birth death",
+                "type": "Target"
+            },
+            {
+                "name": "continuity",
+                "type": "Target"
+            },
+            {
+                "name": "repeat",
+                "type": "Target"
+            },
+            {
+                "name": "multilingual and cross lingual sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "finding significant",
+                "type": "Intermediation"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "geometry",
+                "type": "Representation"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "node link diagram",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "map",
+                "type": "Representation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "creation and destruction",
+                "type": "Representation"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "SCS17",
+        "info": [
+            {
+                "name": "event",
+                "type": "Target"
+            },
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "birth death",
+                "type": "Target"
+            },
+            {
+                "name": "growth contraction",
+                "type": "Target"
+            },
+            {
+                "name": "continuity",
+                "type": "Target"
+            },
+            {
+                "name": "multilingual and cross lingual sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "map",
+                "type": "Representation"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "shape",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "position",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "distance",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "detection of evidence event that causes sentiment patterns",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "emotion detection and classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "landscape",
+                "type": "Representation"
+            },
+            {
+                "name": "orientation",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "node link diagram",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "SCS19",
+        "info": [
+            {
+                "name": "psychology",
+                "type": "Target"
+            },
+            {
+                "name": "thought",
+                "type": "Target"
+            },
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "writer",
+                "type": "Target"
+            },
+            {
+                "name": "key player",
+                "type": "Target"
+            },
+            {
+                "name": "growth contraction",
+                "type": "Target"
+            },
+            {
+                "name": "accumulation",
+                "type": "Target"
+            },
+            {
+                "name": "repeat",
+                "type": "Target"
+            },
+            {
+                "name": "finding significant",
+                "type": "Intermediation"
+            },
+            {
+                "name": "landscape",
+                "type": "Representation"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "multilingual and cross lingual sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "map",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "tag cloud",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "space time movement",
+                "type": "Representation"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "building&structure",
+                "type": "Representation"
+            }
+        ]
+    },
+    {
+        "paper": "SRJ13",
+        "info": [
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "writer",
+                "type": "Target"
+            },
+            {
+                "name": "accumulation",
+                "type": "Target"
+            },
+            {
+                "name": "opinion summarization",
+                "type": "Intermediation"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "compound",
+                "type": "Representation"
+            },
+            {
+                "name": "natural phenomena",
+                "type": "Representation"
+            },
+            {
+                "name": "shape",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "box plot",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "SSK12",
+        "info": [
+            {
+                "name": "behavior",
+                "type": "Target"
+            },
+            {
+                "name": "place",
+                "type": "Target"
+            },
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "stance",
+                "type": "Target"
+            },
+            {
+                "name": "continuity",
+                "type": "Target"
+            },
+            {
+                "name": "accumulation",
+                "type": "Target"
+            },
+            {
+                "name": "opinion summarization",
+                "type": "Intermediation"
+            },
+            {
+                "name": "geometry",
+                "type": "Representation"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "bubble chart",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "position",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "orientation",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "machine",
+                "type": "Representation"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "VWH13",
+        "info": [
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "appraisal",
+                "type": "Target"
+            },
+            {
+                "name": "attitude",
+                "type": "Target"
+            },
+            {
+                "name": "emotion",
+                "type": "Target"
+            },
+            {
+                "name": "writer",
+                "type": "Target"
+            },
+            {
+                "name": "birth death",
+                "type": "Target"
+            },
+            {
+                "name": "continuity",
+                "type": "Target"
+            },
+            {
+                "name": "multilingual and cross lingual sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "plant",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "finding significant",
+                "type": "Intermediation"
+            },
+            {
+                "name": "toys instrument",
+                "type": "Representation"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "bubble chart",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "geometry",
+                "type": "Representation"
+            },
+            {
+                "name": "orientation",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "node link diagram",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "XD99",
+        "info": [
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "writer",
+                "type": "Target"
+            },
+            {
+                "name": "growth contraction",
+                "type": "Target"
+            },
+            {
+                "name": "continuity",
+                "type": "Target"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "personalized sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "finding significant",
+                "type": "Intermediation"
+            },
+            {
+                "name": "plant",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "value",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "natural phenomena",
+                "type": "Representation"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "shape",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "XWL17",
+        "info": [
+            {
+                "name": "product",
+                "type": "Target"
+            },
+            {
+                "name": "emotion",
+                "type": "Target"
+            },
+            {
+                "name": "writer",
+                "type": "Target"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "emotion detection and classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "picture",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "node link diagram",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "XWS16",
+        "info": [
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "writer",
+                "type": "Target"
+            },
+            {
+                "name": "birth death",
+                "type": "Target"
+            },
+            {
+                "name": "continuity",
+                "type": "Target"
+            },
+            {
+                "name": "opinion summarization",
+                "type": "Intermediation"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "compound",
+                "type": "Representation"
+            },
+            {
+                "name": "plant",
+                "type": "Representation"
+            },
+            {
+                "name": "value",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "shape",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "orientation",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "bubble chart",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "box plot",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "tag cloud",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "YCC20",
+        "info": [
+            {
+                "name": "event",
+                "type": "Target"
+            },
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "composite",
+                "type": "Target"
+            },
+            {
+                "name": "detection of evidence event that causes sentiment patterns",
+                "type": "Intermediation"
+            },
+            {
+                "name": "finding significant",
+                "type": "Intermediation"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "aspect based sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "emotion cause detection",
+                "type": "Intermediation"
+            },
+            {
+                "name": "polarity classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "natural phenomena",
+                "type": "Representation"
+            },
+            {
+                "name": "plant",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "value",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "orientation",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "node link diagram",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "YFS10",
+        "info": [
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "detection of evidence event that causes sentiment patterns",
+                "type": "Intermediation"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "building&structure",
+                "type": "Representation"
+            },
+            {
+                "name": "value",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "tag cloud",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "appraisal",
+                "type": "Target"
+            },
+            {
+                "name": "writer",
+                "type": "Target"
+            },
+            {
+                "name": "geometry",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "area chart",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "scatter plot",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "accumulation",
+                "type": "Target"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "YSK14",
+        "info": [
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "writer",
+                "type": "Target"
+            },
+            {
+                "name": "growth contraction",
+                "type": "Target"
+            },
+            {
+                "name": "opinion summarization",
+                "type": "Intermediation"
+            },
+            {
+                "name": "finding significant",
+                "type": "Intermediation"
+            },
+            {
+                "name": "accumulation",
+                "type": "Target"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "landscape",
+                "type": "Representation"
+            },
+            {
+                "name": "pattern",
+                "type": "Representation"
+            },
+            {
+                "name": "natural phenomena",
+                "type": "Representation"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "value",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "node link diagram",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "area chart",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "ZGWZ14",
+        "info": [
+            {
+                "name": "emotion",
+                "type": "Target"
+            },
+            {
+                "name": "growth contraction",
+                "type": "Target"
+            },
+            {
+                "name": "detection of evidence event that causes sentiment patterns",
+                "type": "Intermediation"
+            },
+            {
+                "name": "sentiment information description a multi aspect",
+                "type": "Intermediation"
+            },
+            {
+                "name": "personalized sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "fiber",
+                "type": "Representation"
+            },
+            {
+                "name": "compound",
+                "type": "Representation"
+            },
+            {
+                "name": "value",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "shape",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "position",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "orientation",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "ZLW13",
+        "info": [
+            {
+                "name": "event",
+                "type": "Target"
+            },
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "continuity",
+                "type": "Target"
+            },
+            {
+                "name": "polarity classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "compound",
+                "type": "Representation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "behavior",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "position",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "WHWS12",
+        "info": [
+            {
+                "name": "person",
+                "type": "Target"
+            },
+            {
+                "name": "place",
+                "type": "Target"
+            },
+            {
+                "name": "product",
+                "type": "Target"
+            },
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "opinion summarization",
+                "type": "Intermediation"
+            },
+            {
+                "name": "emotion detection and classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "polarity classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "geometry",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "machine",
+                "type": "Representation"
+            },
+            {
+                "name": "value",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "building&structure",
+                "type": "Representation"
+            },
+            {
+                "name": "position",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "FZC18",
+        "info": [
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "stance",
+                "type": "Target"
+            },
+            {
+                "name": "community",
+                "type": "Target"
+            },
+            {
+                "name": "continuity",
+                "type": "Target"
+            },
+            {
+                "name": "accumulation",
+                "type": "Target"
+            },
+            {
+                "name": "sentiment information description a multi aspect",
+                "type": "Intermediation"
+            },
+            {
+                "name": "machine",
+                "type": "Representation"
+            },
+            {
+                "name": "tag cloud",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "geometry",
+                "type": "Representation"
+            },
+            {
+                "name": "orientation",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "space time movement",
+                "type": "Representation"
+            },
+            {
+                "name": "heatmap",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "ATSC06",
+        "info": [
+            {
+                "name": "attitude",
+                "type": "Target"
+            },
+            {
+                "name": "emotion",
+                "type": "Target"
+            },
+            {
+                "name": "writer",
+                "type": "Target"
+            },
+            {
+                "name": "accumulation",
+                "type": "Target"
+            },
+            {
+                "name": "personalized sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "building&structure",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "3d visualization",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "geometry",
+                "type": "Representation"
+            },
+            {
+                "name": "value",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "natural phenomena",
+                "type": "Representation"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "metal",
+                "type": "Representation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            }
+        ]
+    },
+    {
+        "paper": "DJM12",
+        "info": [
+            {
+                "name": "event",
+                "type": "Target"
+            },
+            {
+                "name": "composite",
+                "type": "Target"
+            },
+            {
+                "name": "stance",
+                "type": "Target"
+            },
+            {
+                "name": "growth contraction",
+                "type": "Target"
+            },
+            {
+                "name": "continuity",
+                "type": "Target"
+            },
+            {
+                "name": "detection of evidence event that causes sentiment patterns",
+                "type": "Intermediation"
+            },
+            {
+                "name": "finding significant",
+                "type": "Intermediation"
+            },
+            {
+                "name": "aspect based sentiment analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "opinion summarization",
+                "type": "Intermediation"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "pattern",
+                "type": "Representation"
+            },
+            {
+                "name": "landscape",
+                "type": "Representation"
+            },
+            {
+                "name": "compound",
+                "type": "Representation"
+            },
+            {
+                "name": "tag cloud",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "position",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "natural phenomena",
+                "type": "Representation"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "MEA17",
+        "info": [
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "stance",
+                "type": "Target"
+            },
+            {
+                "name": "attitude",
+                "type": "Target"
+            },
+            {
+                "name": "growth contraction",
+                "type": "Target"
+            },
+            {
+                "name": "emotion",
+                "type": "Target"
+            },
+            {
+                "name": "key player",
+                "type": "Target"
+            },
+            {
+                "name": "detection of evidence event that causes sentiment patterns",
+                "type": "Intermediation"
+            },
+            {
+                "name": "picture",
+                "type": "Representation"
+            },
+            {
+                "name": "node link diagram",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "argument expression detection",
+                "type": "Intermediation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "analysis of debates comments and argumentation",
+                "type": "Intermediation"
+            },
+            {
+                "name": "finding significant",
+                "type": "Intermediation"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "SFJ16",
+        "info": [
+            {
+                "name": "service",
+                "type": "Target"
+            },
+            {
+                "name": "opinion",
+                "type": "Target"
+            },
+            {
+                "name": "appraisal",
+                "type": "Target"
+            },
+            {
+                "name": "growth contraction",
+                "type": "Target"
+            },
+            {
+                "name": "writer",
+                "type": "Target"
+            },
+            {
+                "name": "sentiment information description a multi aspect",
+                "type": "Intermediation"
+            },
+            {
+                "name": "landscape",
+                "type": "Representation"
+            },
+            {
+                "name": "pie chart",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "time oriented visualization",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "timeline analysis",
+                "type": "Intermediation"
+            },
+            {
+                "name": "value",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "shape",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "compound",
+                "type": "Representation"
+            },
+            {
+                "name": "node link diagram",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "tag cloud",
+                "type": "Vis var&tech"
+            }
+        ]
+    },
+    {
+        "paper": "XJX21",
+        "info": [
+            {
+                "name": "service",
+                "type": "Target"
+            },
+            {
+                "name": "event",
+                "type": "Target"
+            },
+            {
+                "name": "behavior",
+                "type": "Target"
+            },
+            {
+                "name": "appraisal",
+                "type": "Target"
+            },
+            {
+                "name": "detection of evidence event that causes sentiment patterns",
+                "type": "Intermediation"
+            },
+            {
+                "name": "picture",
+                "type": "Representation"
+            },
+            {
+                "name": "letter",
+                "type": "Representation"
+            },
+            {
+                "name": "behavior",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "tag cloud",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "easy exploration of sentiment information",
+                "type": "Intermediation"
+            },
+            {
+                "name": "opinion summarization",
+                "type": "Intermediation"
+            }
+        ]
+    },
+    {
+        "paper": "ASG21",
+        "info": [
+            {
+                "name": "emotion",
+                "type": "Target"
+            },
+            {
+                "name": "service",
+                "type": "Target"
+            },
+            {
+                "name": "stance",
+                "type": "Target"
+            },
+            {
+                "name": "key player",
+                "type": "Target"
+            },
+            {
+                "name": "emotion detection and classification",
+                "type": "Intermediation"
+            },
+            {
+                "name": "building&structure",
+                "type": "Representation"
+            },
+            {
+                "name": "color",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "size",
+                "type": "Vis var&tech"
+            },
+            {
+                "name": "comparison of different sentiments",
+                "type": "Intermediation"
+            },
+            {
+                "name": "analysis of debates comments and argumentation",
+                "type": "Intermediation"
+            },
+            {
+                "name": "radar chart",
+                "type": "Vis var&tech"
+            }
+        ]
+    }
+]
