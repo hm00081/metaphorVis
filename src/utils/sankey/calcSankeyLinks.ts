@@ -71,8 +71,7 @@ export const calcSankeyLinks = (
         }
     });
 
-    // valueid가 빈 string ''이 아닌 애들을 우선순위로 두기.
-    // 딕셔너리 or 해시테이블
+   // make linkDict
     const sourceNodeNameLinksDict: { [node: string]: SankeyLinkExtended[] } = {};
 
     extendedLinks.forEach((link) => {
@@ -107,12 +106,11 @@ export const calcSankeyLinks = (
                         tempNumber = -1;
                     }
                 } else {
-                    // if (b.valueid === 'repb' || b.valueid === 'repea') {
+                 
                     if (b.color !== 'grayLinkColor') {
                         tempNumber = 1;
                     } else {
-                        // tempNumber = b.value - a.value;
-                        //@ts-ignore
+                        
                         tempNumber = a.target - b.target;
                     }
                 }
@@ -121,20 +119,13 @@ export const calcSankeyLinks = (
         }
 
         let tempYPosition: number = 0;
-        linksOfNode.forEach((link, orderIndex) => {
-            // 같은 target에서 받은 source 에서 나오는 링크들은 같은 y축(sourceOrderIndex)에서 나오게 수정하기. (노드 양쪽에서 그렇게 나오게 해야할 듯 하다.)
-            // 아래와 같이 하나의 id가 있어야만 한 노드의 위치에서 link.value가 나가야함.
-            // if(link.subvalueid === 'overlap') {
-            //     link.sourceNode.sourceNodeType = link.value;
-            // } else {
-            //     link.sourceNode.sourceNodeType += link.value;
-            // }
+        linksOfNode.forEach((link) => {
+   
             link.sourceNodeYPosition = tempYPosition;
             tempYPosition += link.value;
         });
     }
-    // console.log(sourceNodeNameLinksDict);
-    // console.log(targetNodeNameLinksDict);
+
     // 각 논문축의 sourcenode & targetvalue => 논문의 targeetvalue == target의 source  === .....~~~~~ 계속 이런식으로 줄다리기.
 
     for (const [nodeName, linksOfNode] of Object.entries(targetNodeNameLinksDict)) {
@@ -144,7 +135,7 @@ export const calcSankeyLinks = (
 
                 if (a.color !== 'grayLinkColor') {
                     if (b.color !== 'grayLinkColor') {
-                        //@ts-ignore
+                     
                         tempNumber = a.source - b.source;
                     } else {
                         tempNumber = -1;
@@ -153,7 +144,7 @@ export const calcSankeyLinks = (
                     if (b.color !== 'grayLinkColor') {
                         tempNumber = 1;
                     } else {
-                        //@ts-ignore
+                  
                         tempNumber = a.source - b.source;
                     }
                 }
@@ -179,7 +170,6 @@ export const calcSankeyLinks = (
 
         link.path = path;
 
-        // path.append('svg');
     });
 
     extendedLinks.sort((link) => (link.color !== 'grayLinkColor' ? 1 : -1)); // zIndex

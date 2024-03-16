@@ -6,7 +6,7 @@ import { PaperView } from './components/PaperView/PaperView';
 import style from './index.module.scss';
 import { SankeyData, SankeyLink, SankeyLinkExtended } from '../../types/sankey';
 import { ReactElement, ReactNode, useState } from 'react';
-import { FormControl, InputLabel, MenuItem, Select } from '@mui/material';
+import { FormControl, MenuItem, Select } from '@mui/material';
 
 interface Props {
     clickedNodeLinks: SankeyLinkExtended[] | undefined;
@@ -18,10 +18,6 @@ interface Props {
     setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
 }
 
-interface Character {
-    name: string;
-    race: ReactElement;
-}
 
 export function SideNavi({ clickedNodeLinks, clickedLink, clickedButton, clickedCluster, setClickedCluster, originData, setOriginData }: Props) {
     interface Character {
@@ -57,7 +53,7 @@ export function SideNavi({ clickedNodeLinks, clickedLink, clickedButton, clicked
                     renderValue={(selected) => {
                         return selected;
                     }}
-                    onChange={(e, newvalue) => {
+                    onChange={(e) => {
                         const newCharacter: Character | undefined = characters.find((item) => {
                             return item.name === e.target.value;
                         });

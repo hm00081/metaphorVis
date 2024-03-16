@@ -614,7 +614,6 @@ AllPaperDatas.filter((want) => {
     } else trashLink.push(want);
 });
 //@ts-ignore
-console.log(wantLink);
 
 //@ts-ignore
 const TargetAAs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<SankeyLinkExtended[]>((TargetAAs, onePaper) => {
@@ -3813,7 +3812,6 @@ const transformedData = uniqueNodesByPaper.map((paperData) => {
 });
 
 console.log(transformedData);
-
 
 export {
     Status,

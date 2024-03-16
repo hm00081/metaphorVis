@@ -70,11 +70,8 @@ export const PaperView = ({ originData, setOriginData, clickedLink, clickedNodeL
                             .slice(0)
                             .slice(offset * index, offset * index + offset)
                             .filter((paper) => {
-                                //case1: node
-                                // console.log('clickedNodeLinks', clickedNodeLinks);
+                               
                                 if (clickedNodeLinks) {
-                                    // console.log('clickedNode zone');
-                                    // 노드 클릭시에만 반응하는 데이터
                                     const sameLink = clickedNodeLinks.find((link) => {
                                         // 색상되는 링크들의 배열을 나타내는 함수.
                                         if (link.color !== 'grayLinkColor' && paper.paperName === link.paperName) {
@@ -138,4 +135,3 @@ export const PaperView = ({ originData, setOriginData, clickedLink, clickedNodeL
         </>
     );
 };
-// 부모 컴포넌트에서 동일한 데이터를 쏴줘야 할 것 같아보임.

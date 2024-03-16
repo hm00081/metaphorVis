@@ -1,17 +1,16 @@
 // Libraries
 import { useMeasure } from 'react-use';
-
 // Custom Components
 import { Sankey } from './components/Sankey';
 // Global Styles
 import './styles.scss';
 import Button from '@mui/material/Button';
-// Data & Hooks
 import { useState, useEffect, useRef } from 'react';
 import { basicData, targetaa, targetab, targetba, targetbb, targetca, targetcb, repa, repb, repc, repd, repea, repeb, repf, repg, reph, fullData, debatelist } from './Data';
 import { SankeyData, SankeyLink, SankeyLinkExtended } from './types';
 import { ButtonGroup } from '@mui/material';
 import style from './button.module.scss';
+import globalStyle from './GlobalStyle.module.scss'; //?
 
 interface Props {
     setClickedNodeLinks: React.Dispatch<React.SetStateAction<SankeyLinkExtended[] | undefined>>;
@@ -28,7 +27,17 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
     const [btn, setBtn] = useState(15);
     const [selected, setSelcted] = useState<'click' | 'unclick'>('unclick');
     const isMounted = useRef(true);
-    // console.log(fullData.links);
+    const defaultButton: React.CSSProperties = {
+        fontSize: '7.5px',
+        textTransform: 'none',
+        fontWeight: '600',
+        width: 'auto',
+        padding: '1.5px',
+        maxWidth: '23px',
+    };
+    const buttonStyle: React.CSSProperties = { fontSize: '7.5px', textTransform: 'none', fontWeight: '600', width: 'auto', padding: '7.1px' };
+    const buttonStyleTwo: React.CSSProperties = { fontSize: '7.5px', textTransform: 'none', fontWeight: '600', width: 'auto', padding: '13px' };
+
     useEffect(() => {
         setTimeout(() => {
             setOriginData(basicData);
@@ -50,7 +59,6 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                         <div className={style.btnTitle}>Target Theme</div>
                         {/* 버튼높이 헤더부분에 맞추고, 버튼그룹 폭을 생키와 동일하게. */}
                         <ButtonGroup
-                            // orientation={`${matches ? 'horizontal' : 'verticcal'}`}
                             size="large"
                             aria-label="outlined primary button group"
                             color="secondary"
@@ -67,7 +75,7 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                     setBtn(9);
                                 }}
                                 variant={btn === 9 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '7.5px', textTransform: 'none', fontWeight: '600', width: 'auto', padding: '7.1px' }}
+                                style={buttonStyle}
                             >
                                 Politician's Speech
                             </Button>
@@ -79,7 +87,7 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                     setBtn(10);
                                 }}
                                 variant={btn === 10 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '7.5px', textTransform: 'none', fontWeight: '600', width: 'auto', padding: '7.1px' }}
+                                style={buttonStyle}
                             >
                                 Opinion to Politicians
                             </Button>
@@ -91,7 +99,7 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                     setBtn(11);
                                 }}
                                 variant={btn === 11 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '7.5px', textTransform: 'none', fontWeight: '600', width: 'auto', padding: '7.1px' }}
+                                style={buttonStyle}
                             >
                                 Product Appraisal
                             </Button>
@@ -103,7 +111,7 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                     setBtn(12);
                                 }}
                                 variant={btn === 12 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '7.5px', textTransform: 'none', fontWeight: '600', width: 'auto', padding: '7.1px' }}
+                                style={buttonStyle}
                             >
                                 Service Appraisal
                             </Button>
@@ -115,7 +123,7 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                     setBtn(13);
                                 }}
                                 variant={btn === 13 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '7.5px', textTransform: 'none', fontWeight: '600', width: 'auto', padding: '7.1px' }}
+                                style={buttonStyle}
                             >
                                 Opinion on a Specific Event
                             </Button>
@@ -127,7 +135,7 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                     setBtn(16);
                                 }}
                                 variant={btn === 16 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '7.5px', textTransform: 'none', fontWeight: '600', width: 'auto', padding: '7.1px' }}
+                                style={buttonStyle}
                             >
                                 Diffusion of Sentiment
                             </Button>
@@ -146,7 +154,7 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                     setBtn(1);
                                 }}
                                 variant={btn === 1 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '7.5px', textTransform: 'none', fontWeight: '600', width: 'auto', padding: '7.1px' }}
+                                style={buttonStyle}
                             >
                                 Map
                             </Button>
@@ -158,7 +166,7 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                     setBtn(2);
                                 }}
                                 variant={btn === 2 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '7.5px', textTransform: 'none', fontWeight: '600', width: 'auto', padding: '7.1px' }}
+                                style={buttonStyle}
                             >
                                 River
                             </Button>
@@ -170,7 +178,7 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                     setBtn(3);
                                 }}
                                 variant={btn === 3 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '7.5px', textTransform: 'none', fontWeight: '600', width: 'auto', padding: '7.1px' }}
+                                style={buttonStyle}
                             >
                                 Plant
                             </Button>
@@ -182,7 +190,7 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                     setBtn(4);
                                 }}
                                 variant={btn === 4 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '7.5px', textTransform: 'none', fontWeight: '600', width: 'auto', padding: '7.1px' }}
+                                style={buttonStyle}
                             >
                                 Bubble
                             </Button>
@@ -194,7 +202,7 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                     setBtn(5);
                                 }}
                                 variant={btn === 5 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '7.5px', textTransform: 'none', fontWeight: '600', width: 'auto', padding: '7.1px' }}
+                                style={buttonStyle}
                             >
                                 Wheel
                             </Button>
@@ -206,7 +214,7 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                     setBtn(6);
                                 }}
                                 variant={btn === 6 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '7.5px', textTransform: 'none', fontWeight: '600', width: 'auto', padding: '7.1px' }}
+                                style={buttonStyle}
                             >
                                 Building & Structure
                             </Button>
@@ -218,7 +226,7 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                     setBtn(7);
                                 }}
                                 variant={btn === 7 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '7.5px', textTransform: 'none', fontWeight: '600', width: 'auto', padding: '13px' }}
+                                style={buttonStyleTwo}
                             >
                                 Geometry
                             </Button>
@@ -230,7 +238,7 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                     setBtn(8);
                                 }}
                                 variant={btn === 8 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '7.5px', textTransform: 'none', fontWeight: '600', width: 'auto', padding: '13px' }}
+                                style={buttonStyleTwo}
                             >
                                 Machine
                             </Button>
@@ -242,13 +250,12 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                     setBtn(14);
                                 }}
                                 variant={btn === 14 ? 'contained' : 'outlined'}
-                                style={{ fontSize: '7.5px', textTransform: 'none', fontWeight: '600', width: 'auto', padding: '7.1px' }}
+                                style={buttonStyle}
                             >
                                 Decorative Pattern
                             </Button>
                         </ButtonGroup>
                     </div>
-
                     <div className={style.btn}>
                         <div className={style.btnTitle} style={{ paddingLeft: '7px' }}>
                             <ButtonGroup size="medium" aria-label="outlined primary button group" color="secondary" variant="outlined" className={style.themebtnGroup}>
@@ -259,14 +266,7 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                         setBtn(0);
                                     }}
                                     variant={btn === 0 ? 'contained' : 'outlined'}
-                                    style={{
-                                        fontSize: '7.5px',
-                                        textTransform: 'none',
-                                        fontWeight: '600',
-                                        width: 'auto',
-                                        padding: '1.5px',
-                                        maxWidth: '23px',
-                                    }}
+                                    style={defaultButton}
                                 >
                                     Show Empty
                                 </Button>
@@ -277,44 +277,13 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                                         setBtn(15);
                                     }}
                                     variant={btn === 15 ? 'contained' : 'outlined'}
-                                    style={{
-                                        fontSize: '7.5px',
-                                        textTransform: 'none',
-                                        fontWeight: '600',
-                                        width: 'auto',
-                                        padding: '1.5px',
-                                        maxWidth: '23px',
-                                    }}
+                                    style={defaultButton}
                                 >
                                     Show Full
                                 </Button>
                             </ButtonGroup>
                         </div>
                     </div>
-                    {/* <div className={style.btn}>
-                        <div className={style.btnTitle} style={{ paddingLeft: '7px' }}>
-                            <ButtonGroup size="medium" aria-label="outlined primary button group" color="secondary" variant="outlined" className={style.themebtnGroup}>
-                                <Button
-                                    onClick={() => {
-                                        setOriginData(debatelist);
-                                        setSelcted('click');
-                                        setBtn(16);
-                                    }}
-                                    variant={btn === 16 ? 'contained' : 'outlined'}
-                                    style={{
-                                        fontSize: '7.5px',
-                                        textTransform: 'none',
-                                        fontWeight: '600',
-                                        width: 'auto',
-                                        padding: '1.5px',
-                                        maxWidth: '23px',
-                                    }}
-                                >
-                                    Show Debate
-                                </Button>
-                            </ButtonGroup>
-                        </div>
-                    </div> */}
                 </div>
                 <div ref={ref}>
                     <Sankey
