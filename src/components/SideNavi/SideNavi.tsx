@@ -70,7 +70,6 @@ export function SideNavi({ clickedNodeLinks, clickedLink, clickedButton, clicked
                                     color: 'common.black',
                                     backgroundColor: '#E8DAEF',
                                 },
-
                                 '&.Mui-selected': {
                                     color: '#FDFEFE',
                                     backgroundColor: '#A569BD',
@@ -86,7 +85,6 @@ export function SideNavi({ clickedNodeLinks, clickedLink, clickedButton, clicked
                 </Select>
             </FormControl>
             {characterm}
-
             <PaperView
                 originData={originData}
                 setOriginData={setOriginData}

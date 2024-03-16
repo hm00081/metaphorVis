@@ -133,6 +133,51 @@ import {
 } from './data/AllPaperData';
 
 //@ts-ignore
+function getColorForLink(link) {
+    if (link.target >= 0 && link.target <= 7) {
+        return  'targetLinkColor';
+    } else if (link.target >= 8 && link.target <= 10) {
+        return  'targetLinkOneColor';
+    } else if (link.target >= 11 && link.target <= 15) {
+        return  'targetLinkTwoColor';
+    } else if (link.target >= 16 && link.target <= 20) {
+        return  'targetLinkThreeColor';
+    } else if (link.target >= 21 && link.target <= 30) {
+        return  'targetLinkFourColor';
+    } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
+        return  'intOneLinkColor';
+    } else if (link.target === 34 || link.source === 34) {
+        return  'intOneLightLinkColor';
+    } else if (link.target === 35 || link.source === 35) {
+        return  'intOneLight2LinkColor';
+    } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
+        return  'intOneLight3LinkColor';
+    } else if (link.target === 39 || link.source === 39) {
+        return  'intTwoLinkColor';
+    } else if (link.target === 40 || link.source === 40) {
+        return  'intTwoLightLinkColor';
+    } else if (link.target === 41 || link.source === 41) {
+        return  'intThreeLinkColor';
+    } else if (link.target === 42 || link.source === 42) {
+        return  'intThreeLightLinkColor';
+    } else if (link.target === 43 || link.source === 43) {
+        return  'intThreeLight1LinkColor';
+    } else if (link.target === 44 || link.source === 44) {
+        return  'intThreeLight2LinkColor';
+    } else if (link.target === 45 || link.source === 45) {
+        return  'intFourLinkColor';
+    } else if (link.target === 46 || link.source === 46) {
+        return  'intFiveLinkColor';
+    } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
+        return  'intFiveLightLinkColor';
+    } else if (link.target === 49 || link.source === 49) {
+        return  'intFiveLight2LinkColor';
+    } else if (link.target >= 76 && link.target < 83) {
+        return  'repVisVarColor';
+    } else if (link.target > 82 && link.target < 100) {
+        return  'repVisTechColor';
+    }
+}
 
 //TODO 모든 색이 색칠
 const fullData: SankeyData = {
@@ -146,58 +191,8 @@ const fullData: SankeyData = {
         let color: LinkColor = 'grayLinkColor';
         //@ts-ignore
         if (hasLinkInGroup(link, AllPaperDatas)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
-            // if (link.source < 50) {
-            //     color = 'blueLinkColor';
-            // } else if (link.target >= 76 && link.target < 83) {
-            //     color = 'orangeLinkColor';
-            // } else if (link.target > 82 && link.target < 100) {
-            //     color = 'rubyLinkColor';
-            // } else {
-            //     color = 'greenLinkColor';
-            // }
+            //@ts-ignore
+            color = getColorForLink(link)
         } else {
             if (link.category === 'TargetAAs') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -283,58 +278,9 @@ const targetaa: SankeyData = {
         let color: LinkColor = 'grayLinkColor';
         //@ts-ignore
         if (hasLinkInGroup(link, TargetAAs)) {
-            // if (link.source < 50) {
-            //     color = 'blueLinkColor';
-            // } else if (link.target >= 76 && link.target < 83) {
-            //     color = 'orangeLinkColor';
-            // } else if (link.target > 82 && link.target < 100) {
-            //     color = 'rubyLinkColor';
-            // } else {
-            //     color = 'greenLinkColor';
-            // }
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
             if (link.category === 'TargetAAs') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -384,58 +330,9 @@ const targetab: SankeyData = {
         let color: LinkColor = 'grayLinkColor';
         //@ts-ignore
         if (hasLinkInGroup(link, TargetABs)) {
-            // if (link.source < 50) {
-            //     color = 'blueLinkColor';
-            // } else if (link.target >= 76 && link.target < 83) {
-            //     color = 'orangeLinkColor';
-            // } else if (link.target > 82 && link.target < 100) {
-            //     color = 'rubyLinkColor';
-            // } else {
-            //     color = 'greenLinkColor';
-            // }
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
             if (link.category === 'TargetABs') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -483,58 +380,9 @@ const targetba: SankeyData = {
         let color: LinkColor = 'grayLinkColor';
         //@ts-ignore
         if (hasLinkInGroup(link, TargetBAs)) {
-            // if (link.source < 50) {
-            //     color = 'blueLinkColor';
-            // } else if (link.target >= 76 && link.target < 83) {
-            //     color = 'orangeLinkColor';
-            // } else if (link.target > 82 && link.target < 100) {
-            //     color = 'rubyLinkColor';
-            // } else {
-            //     color = 'greenLinkColor';
-            // }
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
             if (link.category === 'TargetBA') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -582,58 +430,9 @@ const targetbb: SankeyData = {
         let color: LinkColor = 'grayLinkColor';
         //@ts-ignore
         if (hasLinkInGroup(link, TargetBBs)) {
-            // if (link.source < 50) {
-            //     color = 'blueLinkColor';
-            // } else if (link.target >= 76 && link.target < 83) {
-            //     color = 'orangeLinkColor';
-            // } else if (link.target > 82 && link.target < 100) {
-            //     color = 'rubyLinkColor';
-            // } else {
-            //     color = 'greenLinkColor';
-            // }
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
             if (link.category === 'TargetBB') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -681,58 +480,9 @@ const targetca: SankeyData = {
         let color: LinkColor = 'grayLinkColor';
         //@ts-ignore
         if (hasLinkInGroup(link, TargetCAs)) {
-            // if (link.source < 50) {
-            //     color = 'blueLinkColor';
-            // } else if (link.target >= 76 && link.target < 83) {
-            //     color = 'orangeLinkColor';
-            // } else if (link.target > 82 && link.target < 100) {
-            //     color = 'rubyLinkColor';
-            // } else {
-            //     color = 'greenLinkColor';
-            // }
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
             if (link.category === 'TargetCAs') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -780,58 +530,9 @@ const targetcb: SankeyData = {
         let color: LinkColor = 'grayLinkColor';
         //@ts-ignore
         if (hasLinkInGroup(link, TargetCBs)) {
-            // if (link.source < 50) {
-            //     color = 'blueLinkColor';
-            // } else if (link.target >= 76 && link.target < 83) {
-            //     color = 'orangeLinkColor';
-            // } else if (link.target > 82 && link.target < 100) {
-            //     color = 'rubyLinkColor';
-            // } else {
-            //     color = 'greenLinkColor';
-            // }
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
             if (link.category === 'TargetCB') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -880,58 +581,9 @@ const repa: SankeyData = {
         // let status: string = '';
         //@ts-ignore
         if (hasLinkInGroup(link, RepAs)) {
-            // if (link.source < 50) {
-            //     color = 'blueLinkColor';
-            // } else if (link.target >= 76 && link.target < 83) {
-            //     color = 'orangeLinkColor';
-            // } else if (link.target > 82 && link.target < 100) {
-            //     color = 'rubyLinkColor';
-            // } else {
-            //     color = 'greenLinkColor';
-            // }
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
             if (link.category === 'RepA') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -990,58 +642,9 @@ const repb: SankeyData = {
         // let status: string = '';
         //@ts-ignore
         if (hasLinkInGroup(link, RepBs)) {
-            // if (link.source < 50) {
-            //     color = 'blueLinkColor';
-            // } else if (link.target >= 76 && link.target < 83) {
-            //     color = 'orangeLinkColor';
-            // } else if (link.target > 82 && link.target < 100) {
-            //     color = 'rubyLinkColor';
-            // } else {
-            //     color = 'greenLinkColor';
-            // }
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
             if (link.category === 'RepB') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -1107,58 +710,9 @@ const repc: SankeyData = {
         // let status: string = '';
         //@ts-ignore
         if (hasLinkInGroup(link, RepCs)) {
-            // if (link.source < 50) {
-            //     color = 'blueLinkColor';
-            // } else if (link.target >= 76 && link.target < 83) {
-            //     color = 'orangeLinkColor';
-            // } else if (link.target > 82 && link.target < 100) {
-            //     color = 'rubyLinkColor';
-            // } else {
-            //     color = 'greenLinkColor';
-            // }
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
             if (link.category === 'RepC') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -1216,58 +770,9 @@ const repd: SankeyData = {
         // let status: string = '';
         //@ts-ignore
         if (hasLinkInGroup(link, RepDs)) {
-            // if (link.source < 50) {
-            //     color = 'blueLinkColor';
-            // } else if (link.target >= 76 && link.target < 83) {
-            //     color = 'orangeLinkColor';
-            // } else if (link.target > 82 && link.target < 100) {
-            //     color = 'rubyLinkColor';
-            // } else {
-            //     color = 'greenLinkColor';
-            // }
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
             if (link.category === 'RepD') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -1325,58 +830,9 @@ const repea: SankeyData = {
         // let status: string = '';
         //@ts-ignore
         if (hasLinkInGroup(link, RepEAs)) {
-            // if (link.source < 50) {
-            //     color = 'blueLinkColor';
-            // } else if (link.target >= 76 && link.target < 83) {
-            //     color = 'orangeLinkColor';
-            // } else if (link.target > 82 && link.target < 100) {
-            //     color = 'rubyLinkColor';
-            // } else {
-            //     color = 'greenLinkColor';
-            // }
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
             if (link.category === 'RepEA') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -1434,58 +890,9 @@ const repeb: SankeyData = {
         // let status: string = '';
         //@ts-ignore
         if (hasLinkInGroup(link, RepEBs)) {
-            // if (link.source < 50) {
-            //     color = 'blueLinkColor';
-            // } else if (link.target >= 76 && link.target < 83) {
-            //     color = 'orangeLinkColor';
-            // } else if (link.target > 82 && link.target < 100) {
-            //     color = 'rubyLinkColor';
-            // } else {
-            //     color = 'greenLinkColor';
-            // }
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
             if (link.category === 'RepEB') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -1543,49 +950,8 @@ const repf: SankeyData = {
         // let status: string = '';
         //@ts-ignore
         if (hasLinkInGroup(link, RepFs)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
             if (link.category === 'RepF') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -1634,49 +1000,8 @@ const repg: SankeyData = {
         // let status: string = '';
         //@ts-ignore
         if (hasLinkInGroup(link, RepGs)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
             if (link.category === 'RepG') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -1732,49 +1057,8 @@ const reph: SankeyData = {
     links: RepHs.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, RepHs)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
             if (link.category === 'RepH') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -1821,49 +1105,8 @@ const clusterone: SankeyData = {
     links: ClusterOnes.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, ClusterOnes)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -1898,49 +1141,8 @@ const clustertwo: SankeyData = {
     links: ClusterTwos.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, ClusterTwos)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -1975,49 +1177,8 @@ const clusterthree: SankeyData = {
     links: ClusterThrees.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, ClusterThrees)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -2052,49 +1213,8 @@ const clusterfour: SankeyData = {
     links: ClusterFours.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, ClusterFours)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -2129,49 +1249,8 @@ const debatelist: SankeyData = {
     links: DebateLists.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, DebateLists)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -2206,49 +1285,8 @@ const tic3: SankeyData = {
     links: TIC3Cluster.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, TIC3Cluster)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -2283,49 +1321,8 @@ const tic4: SankeyData = {
     links: TIC4Cluster.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, TIC4Cluster)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -2360,49 +1357,8 @@ const tic5: SankeyData = {
     links: TIC5Cluster.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, TIC5Cluster)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -2437,49 +1393,8 @@ const tic6: SankeyData = {
     links: TIC6Cluster.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, TIC6Cluster)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -2514,49 +1429,8 @@ const rvc1: SankeyData = {
     links: RVC1Cluster.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, RVC1Cluster)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -2591,49 +1465,8 @@ const rvc2: SankeyData = {
     links: RVC2Cluster.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, RVC2Cluster)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -2668,49 +1501,8 @@ const rvc3: SankeyData = {
     links: RVC3Cluster.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, RVC3Cluster)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -2745,49 +1537,8 @@ const rtc1: SankeyData = {
     links: RTC1Cluster.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, RTC1Cluster)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -2822,49 +1573,8 @@ const rtc2: SankeyData = {
     links: RTC2Cluster.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, RTC2Cluster)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -2899,49 +1609,8 @@ const rtc3: SankeyData = {
     links: RTC3Cluster.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, RTC3Cluster)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -2976,49 +1645,8 @@ const rtc4: SankeyData = {
     links: RTC4Cluster.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, RTC4Cluster)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -3053,49 +1681,8 @@ const int1: SankeyData = {
     links: Int1s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int1s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -3130,49 +1717,8 @@ const int2: SankeyData = {
     links: Int2s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int2s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -3207,49 +1753,8 @@ const int3: SankeyData = {
     links: Int3s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int3s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -3284,49 +1789,8 @@ const int4: SankeyData = {
     links: Int4s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int4s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -3361,49 +1825,8 @@ const int5: SankeyData = {
     links: Int5s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int5s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -3438,49 +1861,8 @@ const int5a: SankeyData = {
     links: Int5as.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int5as)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -3515,49 +1897,8 @@ const int6: SankeyData = {
     links: Int6s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int6s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -3592,49 +1933,8 @@ const int7: SankeyData = {
     links: Int7s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int7s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -3669,49 +1969,8 @@ const int8: SankeyData = {
     links: Int8s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int8s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -3746,49 +2005,8 @@ const int9: SankeyData = {
     links: Int9s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int9s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -3823,49 +2041,8 @@ const int10: SankeyData = {
     links: Int10s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int10s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -3900,49 +2077,8 @@ const int11: SankeyData = {
     links: Int11s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int11s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -3977,49 +2113,8 @@ const int12: SankeyData = {
     links: Int12s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int12s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -4054,49 +2149,8 @@ const int13: SankeyData = {
     links: Int13s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int13s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -4131,49 +2185,8 @@ const int14: SankeyData = {
     links: Int14s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int14s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -4208,49 +2221,8 @@ const int15: SankeyData = {
     links: Int15s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int15s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -4285,49 +2257,8 @@ const int16: SankeyData = {
     links: Int16s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int16s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -4362,49 +2293,8 @@ const rep1: SankeyData = {
     links: Rep1s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep1s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -4439,49 +2329,8 @@ const rep2: SankeyData = {
     links: Rep2s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep2s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -4516,49 +2365,8 @@ const rep3: SankeyData = {
     links: Rep3s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep3s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -4593,49 +2401,8 @@ const rep4: SankeyData = {
     links: Rep4s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep4s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -4670,49 +2437,8 @@ const rep5: SankeyData = {
     links: Rep5s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep5s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -4747,49 +2473,8 @@ const rep6: SankeyData = {
     links: Rep6s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep6s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -4824,49 +2509,8 @@ const rep7: SankeyData = {
     links: Rep7s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep7s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -4901,49 +2545,8 @@ const rep8: SankeyData = {
     links: Rep8s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep8s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -4978,49 +2581,8 @@ const rep9: SankeyData = {
     links: Rep9s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep9s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -5055,49 +2617,8 @@ const rep10: SankeyData = {
     links: Rep10s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep10s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -5132,49 +2653,8 @@ const rep11: SankeyData = {
     links: Rep11s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep11s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -5209,49 +2689,8 @@ const rep12: SankeyData = {
     links: Rep12s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep12s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -5286,49 +2725,8 @@ const rep13: SankeyData = {
     links: Rep13s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep13s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -5363,49 +2761,8 @@ const rep14: SankeyData = {
     links: Rep14s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep14s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -5440,49 +2797,8 @@ const rep15: SankeyData = {
     links: Rep15s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep15s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -5517,49 +2833,8 @@ const rep16: SankeyData = {
     links: Rep16s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep16s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -5594,49 +2869,8 @@ const rep17: SankeyData = {
     links: Rep17s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep17s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -5671,49 +2905,8 @@ const rep18: SankeyData = {
     links: Rep18s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep18s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -5748,49 +2941,8 @@ const rep19: SankeyData = {
     links: Rep19s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep19s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -5825,49 +2977,8 @@ const rep20: SankeyData = {
     links: Rep20s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep20s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -5902,49 +3013,8 @@ const rep21: SankeyData = {
     links: Rep21s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep21s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -5979,49 +3049,8 @@ const rep22: SankeyData = {
     links: Rep22s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep22s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -6056,49 +3085,8 @@ const rep23: SankeyData = {
     links: Rep23s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep23s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -6133,49 +3121,8 @@ const rep24: SankeyData = {
     links: Rep24s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep24s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -6210,49 +3157,8 @@ const var1: SankeyData = {
     links: Var1s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Var1s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -6289,49 +3195,8 @@ const var2: SankeyData = {
     links: Var2s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Var2s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -6366,49 +3231,8 @@ const var3: SankeyData = {
     links: Var3s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Var3s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -6443,49 +3267,8 @@ const var4: SankeyData = {
     links: Var4s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Var4s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -6520,49 +3303,8 @@ const var5: SankeyData = {
     links: Var5s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Var5s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -6597,49 +3339,8 @@ const var6: SankeyData = {
     links: Var6s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Var6s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -6674,49 +3375,8 @@ const var7: SankeyData = {
     links: Var7s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Var7s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -6751,49 +3411,8 @@ const tec1: SankeyData = {
     links: Tec1s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec1s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -6828,49 +3447,8 @@ const tec2: SankeyData = {
     links: Tec2s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec2s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -6905,49 +3483,8 @@ const tec3: SankeyData = {
     links: Tec3s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec3s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -6982,49 +3519,8 @@ const tec4: SankeyData = {
     links: Tec4s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec4s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -7059,49 +3555,8 @@ const tec5: SankeyData = {
     links: Tec5s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec5s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -7136,49 +3591,8 @@ const tec6: SankeyData = {
     links: Tec6s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec6s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -7213,49 +3627,8 @@ const tec7: SankeyData = {
     links: Tec7s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec7s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -7290,49 +3663,8 @@ const tec8: SankeyData = {
     links: Tec8s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec8s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -7367,49 +3699,8 @@ const tec9: SankeyData = {
     links: Tec9s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec9s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -7444,49 +3735,8 @@ const tec10: SankeyData = {
     links: Tec10s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec10s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -7521,49 +3771,8 @@ const tec11: SankeyData = {
     links: Tec11s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec11s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -7598,49 +3807,8 @@ const tec12: SankeyData = {
     links: Tec12s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec12s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -7675,49 +3843,8 @@ const tec13: SankeyData = {
     links: Tec13s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec13s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -7752,49 +3879,8 @@ const tec14: SankeyData = {
     links: Tec14s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec14s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -7829,49 +3915,8 @@ const tec15: SankeyData = {
     links: Tec15s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec15s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -7906,49 +3951,8 @@ const tar11: SankeyData = {
     links: Tar11s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar11s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -7983,49 +3987,8 @@ const tar12: SankeyData = {
     links: Tar12s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar12s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -8060,49 +4023,8 @@ const tar13: SankeyData = {
     links: Tar13s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar13s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -8137,49 +4059,8 @@ const tar14: SankeyData = {
     links: Tar14s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar14s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -8214,49 +4095,8 @@ const tar15: SankeyData = {
     links: Tar15s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar15s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -8291,49 +4131,8 @@ const tar16: SankeyData = {
     links: Tar16s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar16s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -8368,49 +4167,8 @@ const tar17: SankeyData = {
     links: Tar17s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar17s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -8445,49 +4203,8 @@ const tar18: SankeyData = {
     links: Tar18s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar18s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -8522,49 +4239,8 @@ const tar19: SankeyData = {
     links: Tar19s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar19s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -8599,49 +4275,8 @@ const tar20: SankeyData = {
     links: Tar20s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar20s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -8676,49 +4311,8 @@ const tar1: SankeyData = {
     links: Tar1s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar1s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -8753,49 +4347,8 @@ const tar2: SankeyData = {
     links: Tar2s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar2s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -8830,49 +4383,8 @@ const tar3: SankeyData = {
     links: Tar3s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar3s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -8907,49 +4419,8 @@ const tar4: SankeyData = {
     links: Tar4s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar4s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -8984,49 +4455,8 @@ const tar5: SankeyData = {
     links: Tar5s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar5s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -9061,49 +4491,8 @@ const tar6: SankeyData = {
     links: Tar6s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar6s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -9138,49 +4527,8 @@ const tar7: SankeyData = {
     links: Tar7s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar7s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -9215,49 +4563,8 @@ const tar8: SankeyData = {
     links: Tar8s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar8s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -9292,49 +4599,8 @@ const tar9: SankeyData = {
     links: Tar9s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar9s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -9369,49 +4635,8 @@ const tar10: SankeyData = {
     links: Tar10s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar10s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -9446,49 +4671,8 @@ const tar21: SankeyData = {
     links: Tar21s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar21s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -9523,49 +4707,8 @@ const tar22: SankeyData = {
     links: Tar22s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar22s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -9594,55 +4737,13 @@ const tar23: SankeyData = {
     nodes: PaperNode.nodes.map((node) => {
         let color: string = '';
         color = `hsl(0, 0%, 30%)`;
-
         return { ...node, color };
     }),
     links: Tar23s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar23s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -9677,49 +4778,8 @@ const tar24: SankeyData = {
     links: Tar24s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar24s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -9754,49 +4814,8 @@ const tar25: SankeyData = {
     links: Tar25s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar25s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -9831,49 +4850,8 @@ const tar26: SankeyData = {
     links: Tar26s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar26s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {
@@ -9908,49 +4886,8 @@ const tar27: SankeyData = {
     links: Tar27s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar27s)) {
-            if (link.target >= 0 && link.target <= 7) {
-                color = 'targetLinkColor';
-            } else if (link.target >= 8 && link.target <= 10) {
-                color = 'targetLinkOneColor';
-            } else if (link.target >= 11 && link.target <= 15) {
-                color = 'targetLinkTwoColor';
-            } else if (link.target >= 16 && link.target <= 20) {
-                color = 'targetLinkThreeColor';
-            } else if (link.target >= 21 && link.target <= 30) {
-                color = 'targetLinkFourColor';
-            } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-                color = 'intOneLinkColor';
-            } else if (link.target === 34 || link.source === 34) {
-                color = 'intOneLightLinkColor';
-            } else if (link.target === 35 || link.source === 35) {
-                color = 'intOneLight2LinkColor';
-            } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-                color = 'intOneLight3LinkColor';
-            } else if (link.target === 39 || link.source === 39) {
-                color = 'intTwoLinkColor';
-            } else if (link.target === 40 || link.source === 40) {
-                color = 'intTwoLightLinkColor';
-            } else if (link.target === 41 || link.source === 41) {
-                color = 'intThreeLinkColor';
-            } else if (link.target === 42 || link.source === 42) {
-                color = 'intThreeLightLinkColor';
-            } else if (link.target === 43 || link.source === 43) {
-                color = 'intThreeLight1LinkColor';
-            } else if (link.target === 44 || link.source === 44) {
-                color = 'intThreeLight2LinkColor';
-            } else if (link.target === 45 || link.source === 45) {
-                color = 'intFourLinkColor';
-            } else if (link.target === 46 || link.source === 46) {
-                color = 'intFiveLinkColor';
-            } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-                color = 'intFiveLightLinkColor';
-            } else if (link.target === 49 || link.source === 49) {
-                color = 'intFiveLight2LinkColor';
-            } else if (link.target >= 76 && link.target < 83) {
-                color = 'repVisVarColor';
-            } else if (link.target > 82 && link.target < 100) {
-                color = 'repVisTechColor';
-            }
+                    //@ts-ignore
+            color = getColorForLink(link)
         } else {
         }
         return {

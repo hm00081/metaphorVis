@@ -46,7 +46,6 @@ import {
     rep23,
     rep24,
 } from '../../../../../Data';
-//TODO 1. 노드데이터 불러오기, Network Prop에 link useState 사용해서 정보 타고타고 넘어가서 넣기.
 
 interface Props {
     originData: SankeyData;

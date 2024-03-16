@@ -70,10 +70,9 @@ export const PaperView = ({ originData, setOriginData, clickedLink, clickedNodeL
                             .slice(0)
                             .slice(offset * index, offset * index + offset)
                             .filter((paper) => {
-                               
+
                                 if (clickedNodeLinks) {
                                     const sameLink = clickedNodeLinks.find((link) => {
-                                        // 색상되는 링크들의 배열을 나타내는 함수.
                                         if (link.color !== 'grayLinkColor' && paper.paperName === link.paperName) {
                                             // console.log(link.paperName); // 논문들 잘 찾아냈음
                                             return true;
@@ -83,20 +82,14 @@ export const PaperView = ({ originData, setOriginData, clickedLink, clickedNodeL
                                     });
                                     return sameLink ? true : false;
                                 }
-                                // console.log('clickedLink', clickedLink);
-                                //case2: link
                                 if (clickedLink) {
-                                    // console.log('clickedLink zone');
-                                    // 링크 클릭시에만 반응하는 데이터
 
                                     if (paper.paperName === clickedLink.paperName) {
-                                        // console.log(clickedLink.paperName);
                                         return true;
                                     } else {
                                         return false;
                                     }
 
-                                    // return sameLink ? true : false;
                                 }
                                 //Button, Network Cluster
                                 if (originData) {

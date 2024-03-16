@@ -58,12 +58,6 @@ import { MEA17 } from './MEA17';
 import { SFJ16 } from './SFJ16';
 import { XJX21 } from './XJX21';
 import { ASG21 } from './ASG21';
-import { VIR21 } from './VIR21';
-import { DEV20 } from './DEV20';
-import { NYT19 } from './NYT19';
-import { LEP15 } from './LEP15';
-import { UDT19 } from './UDT19';
-import { BCE12 } from './BCE12';
 import { SankeyLink, SankeyLinkExtended } from '../types';
 import { ClusterOne } from './ClusterOne';
 import { ClusterTwo } from './ClusterTwo';
@@ -180,7 +174,6 @@ import { Tar24 } from './nettarNode/Tar24';
 import { Tar25 } from './nettarNode/Tar25';
 import { Tar26 } from './nettarNode/Tar26';
 import { Tar27 } from './nettarNode/Tar27';
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { PaperNode } from './PaperNode';
 
 const ClusteroneLinkData = [ClusterOne];
@@ -290,18 +283,6 @@ const Tar26Data = [Tar26];
 const Tar27Data = [Tar27];
 
 //@ts-ignore
-const a = [];
-ClusterTwo.filter((want) => {
-    if (want.target) {
-        a.push(want.id);
-    }
-});
-//@ts-ignore
-// console.log(a);
-
-//@ts-ignore
-const Empty = [];
-//@ts-ignore
 const PaperString = [
     CAA20.links,
     CGK21.links,
@@ -363,15 +344,7 @@ const PaperString = [
     SFJ16.links,
     XJX21.links,
     ASG21.links,
-    //VIR21.links,
-    //DEV20.links,
-    //NYT19.links,
-    //LEP15.links,
-    //UDT19.links,
-    //BCE12.links,
 ];
-
-// console.log(PaperString.length);
 
 const Papers = [
     BN11B,
@@ -434,12 +407,6 @@ const Papers = [
     SFJ16,
     XJX21,
     ASG21,
-    //VIR21,
-    //DEV20,
-    // NYT19,
-    // LEP15,
-    //UDT19,
-    //BCE12,
 ];
 
 //@ts-ignore
@@ -504,35 +471,7 @@ const PaperStatus = [
     SFJ16.status,
     XJX21.status,
     ASG21.status,
-    //VIR21.status,
-    //DEV20.status,
-    //NYT19.status,
-    //LEP15.status,
-    //UDT19.status,
-    //BCE12.status,
 ];
-
-// const DebateList = [ MEV16, MEA17, VIR21, DEV20, NYT19, LEP15, UDT19, CAA20, LWW13, GYS14, ASG21, EAIA17, PC15PV];
-// const DebateList = [ MEV16.links, MEA17.links,  CAA20.links, LWW13.links, GYS14.links, ASG21.links, EAIA17.links, PC15PV.links, VIR21.links, DEV20.links, NYT19.links, LEP15.links, UDT19.links];
-// const DebateList = [MEV16.links, MEA17.links, CAA20.links, LWW13.links, GYS14.links, ASG21.links, EAIA17.links, PC15PV.links, VIR21.links, DEV20.links, NYT19.links, LEP15.links, UDT19.links];
-
-//TODO 유형 추가시 계속 변수 생성하기.
-// console.log(PaperString);
-//@ts-ignore
-const test = () => {
-    //@ts-ignore
-    const paper = PaperStatus.map((data) => data);
-    return paper;
-};
-const Status = test();
-
-const check = () => {
-    const a = PaperString;
-    // console.log(a.reduce((acc, curr) => (acc += curr.length), 0));
-    return a;
-};
-
-check();
 
 //@ts-ignore
 const Emptys = [].concat.apply([], Empty).reduce((result, value) => {
@@ -1024,8 +963,6 @@ const ClusterOnes = ([].concat.apply([], ClusteroneLinkData) as SankeyLink[]).re
     }
     return ClusterOnes;
 }, []);
-
-console.log(ClusterOnes);
 
 //@ts-ignore
 const ClusterTwos = ([].concat.apply([], ClustertwoLinkData) as SankeyLink[]).reduce<SankeyLinkExtended[]>((ClusterTwos, onePaper) => {
@@ -3773,25 +3710,6 @@ const nodeMapping = PaperNode.nodes.reduce((map, node) => {
     return map;
 }, {} as { [number: number]: Node });
 
-// uniqueNodesByPaper의 링크 숫자를 PaperNode의 name으로 치환하고, type 추가
-// const transformedData = uniqueNodesByPaper.map((paperData) => {
-//     const transformedLinks = paperData.links
-//         .map((linkNumber) => {
-//             const node = nodeMapping[linkNumber];
-//             //@ts-ignore
-//             return node ? node.name : null;
-//         })
-//         .filter((name) => name !== null); // null 제거
-
-//     return {
-//         Paper: paperData.Paper,
-//         links: transformedLinks,
-//     };
-// });
-
-// console.log(transformedData);
-
-// uniqueNodesByPaper의 링크 숫자를 PaperNode의 name으로 치환하고, type 추가
 const transformedData = uniqueNodesByPaper.map((paperData) => {
     const transformedLinks = paperData.links
         .map((linkNumber) => {
@@ -3811,10 +3729,7 @@ const transformedData = uniqueNodesByPaper.map((paperData) => {
     };
 });
 
-console.log(transformedData);
-
 export {
-    Status,
     Node,
     Papers,
     PaperStatus,

@@ -1,8 +1,6 @@
 // Libraries
 import { useMeasure } from 'react-use';
-// Custom Components
 import { Sankey } from './components/Sankey';
-// Global Styles
 import './styles.scss';
 import Button from '@mui/material/Button';
 import { useState, useEffect, useRef } from 'react';
@@ -10,7 +8,6 @@ import { basicData, targetaa, targetab, targetba, targetbb, targetca, targetcb, 
 import { SankeyData, SankeyLink, SankeyLinkExtended } from './types';
 import { ButtonGroup } from '@mui/material';
 import style from './button.module.scss';
-import globalStyle from './GlobalStyle.module.scss'; //?
 
 interface Props {
     setClickedNodeLinks: React.Dispatch<React.SetStateAction<SankeyLinkExtended[] | undefined>>;
@@ -65,7 +62,6 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                             variant="outlined"
                             className={style.btnGroup}
                             style={{ maxWidth: '450px' }}
-                            // orientation={matches ? 'horizontal' : 'vertical'}
                         >
                             <Button
                                 onClick={(event) => {
