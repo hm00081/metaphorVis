@@ -474,6 +474,8 @@ const PaperStatus = [
 ];
 
 //@ts-ignore
+const Empty = [];
+//@ts-ignore
 const Emptys = [].concat.apply([], Empty).reduce((result, value) => {
     //@ts-ignore
     const target = result.find((r) => r.source === value.source && r.target === value.target);
@@ -738,10 +740,6 @@ const RepBs = ([].concat.apply([], PaperString) as SankeyLink[]).reduce<SankeyLi
     const repbOnePaper = RepBs.find(
         (r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && r.valueid === onePaper.valueid && r.process === onePaper.process
     );
-    // const repbOnePaper = RepBs.find((r) => r.source === onePaper.source && r.target === onePaper.target && r.value === onePaper.value && (r.valueid === onePaper.valueid) === 'repb');
-    // const repb = result.find((r) => r.source === value.source && r.target === value.target && r.valueid === 'repb'); //흐름 보이는데 이건 절대아님.
-    //@ts-ignore
-    // if (repb) result.push({ source: value.source, target: value.target, value: value.value, valueid: value.valueid });
 
     if (!repbOnePaper) {
         // console.log('onePaper.paperName', onePaper.paperName);

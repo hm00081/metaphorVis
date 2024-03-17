@@ -1,5 +1,5 @@
 // Types
-import { SankeyData, SankeyNode, SankeyLink, SankeyNodeExtended, SankeyLinkExtended } from '../../types/sankey';
+import { SankeyData, SankeyLink, SankeyNodeExtended, SankeyLinkExtended } from '../../types/sankey';
 import { useState, useEffect } from 'react';
 // Components
 // Libraries
@@ -38,12 +38,8 @@ import {
 import { Link } from './Link';
 import { Node } from './Node';
 import './Sankey.scss';
-// Utils
 import { calcSankeyNodes, calcSankeyLinks } from '../../utils/';
-
-// styled
 import styled from 'styled-components';
-
 const BigBox = styled.g``;
 
 // Props
@@ -67,7 +63,6 @@ interface Props {
 export interface SourceTargetIdLinksDict {
     [sourceTargetId: string]: SankeyLinkExtended[];
 }
-
 // Component
 export const Sankey = ({
     width,
@@ -111,13 +106,12 @@ export const Sankey = ({
             });
         });
 
-        //TODO mergedLinks는 폐기해도 될듯.
         const mergedLinks = [] as SankeyLink[];
         for (const [sourceTargetId, sameSourceTargetLinks] of Object.entries(sourceTargetIdLinksDict)) {
             const mergedLink = sameSourceTargetLinks.reduce<SankeyLink>(
                 (mergedLink, partLink) => {
                     mergedLink.value += partLink.value;
-                    // mergedLink.valueid = partLink.valueid;
+
                     return mergedLink;
                 },
                 { ...sameSourceTargetLinks[0], value: 0 }
@@ -127,7 +121,7 @@ export const Sankey = ({
 
         originData.nodes.forEach((node) => {});
 
-        const renderingData: SankeyData = { ...originData }; // 확인
+        const renderingData: SankeyData = { ...originData };
 
         setSourceTargetIdLinksDict(sourceTargetIdLinksDict);
 
@@ -143,7 +137,7 @@ export const Sankey = ({
 
     return (
         <svg
-            onClick={(event) => {
+            onClick={() => {
                 setClickedLink(undefined);
                 setClickedNodeLinks(undefined);
             }}
@@ -181,8 +175,6 @@ export const Sankey = ({
             <LinkRepVisVarColor />
             <LinkRepVisTechColor />
             {columnss.map((column, i) => (
-                // <Text>{column}</Text>
-
                 <BigBox>
                     <text key={`column-${i}`} style={{ fontSize: '16px', fontWeight: '650' }} className="coltext" x={450 * i - 428.5} y={(height as number) * 0.02} textAnchor="middle">
                         {`${column}`}

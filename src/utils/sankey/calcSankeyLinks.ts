@@ -71,7 +71,7 @@ export const calcSankeyLinks = (
         }
     });
 
-   // make linkDict
+    // make linkDict
     const sourceNodeNameLinksDict: { [node: string]: SankeyLinkExtended[] } = {};
 
     extendedLinks.forEach((link) => {
@@ -106,11 +106,9 @@ export const calcSankeyLinks = (
                         tempNumber = -1;
                     }
                 } else {
-                 
                     if (b.color !== 'grayLinkColor') {
                         tempNumber = 1;
                     } else {
-                        
                         tempNumber = a.target - b.target;
                     }
                 }
@@ -120,13 +118,10 @@ export const calcSankeyLinks = (
 
         let tempYPosition: number = 0;
         linksOfNode.forEach((link) => {
-   
             link.sourceNodeYPosition = tempYPosition;
             tempYPosition += link.value;
         });
     }
-
-    // 각 논문축의 sourcenode & targetvalue => 논문의 targeetvalue == target의 source  === .....~~~~~ 계속 이런식으로 줄다리기.
 
     for (const [nodeName, linksOfNode] of Object.entries(targetNodeNameLinksDict)) {
         if (isSort) {
@@ -135,7 +130,6 @@ export const calcSankeyLinks = (
 
                 if (a.color !== 'grayLinkColor') {
                     if (b.color !== 'grayLinkColor') {
-                     
                         tempNumber = a.source - b.source;
                     } else {
                         tempNumber = -1;
@@ -144,7 +138,6 @@ export const calcSankeyLinks = (
                     if (b.color !== 'grayLinkColor') {
                         tempNumber = 1;
                     } else {
-                  
                         tempNumber = a.source - b.source;
                     }
                 }
@@ -161,15 +154,12 @@ export const calcSankeyLinks = (
     extendedLinks.forEach((link) => {
         const sourceCenter = (d: typeof extendedLinks[0]) => [d.sourceNode.x + proportionalNodeWidth, d.sourceNode.y + d.sourceNodeYPosition + d.value / 2];
         const targetCenter = (d: typeof extendedLinks[0]) => [d.targetNode.x, d.targetNode.y + d.targetNodeYPosition + d.value / 2];
-
         // d3-linkHorizontal
         let path = linkHorizontal<typeof extendedLinks[0], {}>().source(sourceCenter).target(targetCenter)(link);
-
         // if(link.source.length === n);
         if (!path) return null;
 
         link.path = path;
-
     });
 
     extendedLinks.sort((link) => (link.color !== 'grayLinkColor' ? 1 : -1)); // zIndex

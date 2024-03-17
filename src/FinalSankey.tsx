@@ -4,7 +4,7 @@ import { Sankey } from './components/Sankey';
 import './styles.scss';
 import Button from '@mui/material/Button';
 import { useState, useEffect, useRef } from 'react';
-import { basicData, targetaa, targetab, targetba, targetbb, targetca, targetcb, repa, repb, repc, repd, repea, repeb, repf, repg, reph, fullData, debatelist } from './Data';
+import { basicData, targetaa, targetab, targetba, targetbb, targetca, targetcb, repa, repb, repc, repd, repea, repeb, repf, repg, reph, fullData } from './Data';
 import { SankeyData, SankeyLink, SankeyLinkExtended } from './types';
 import { ButtonGroup } from '@mui/material';
 import style from './button.module.scss';
@@ -55,14 +55,7 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                     <div className={style.btn}>
                         <div className={style.btnTitle}>Target Theme</div>
                         {/* 버튼높이 헤더부분에 맞추고, 버튼그룹 폭을 생키와 동일하게. */}
-                        <ButtonGroup
-                            size="large"
-                            aria-label="outlined primary button group"
-                            color="secondary"
-                            variant="outlined"
-                            className={style.btnGroup}
-                            style={{ maxWidth: '450px' }}
-                        >
+                        <ButtonGroup size="large" aria-label="outlined primary button group" color="secondary" variant="outlined" className={style.btnGroup} style={{ maxWidth: '450px' }}>
                             <Button
                                 onClick={(event) => {
                                     event.stopPropagation();
@@ -141,7 +134,6 @@ export default function FinalSankey({ originData, setOriginData, setClickedNodeL
                     <div className={style.btn}>
                         <div className={style.btnTitle}>Representation Theme</div>
                         <ButtonGroup size="medium" aria-label="outlined primary button group" color="secondary" variant="outlined" className={style.btnGroup} style={{ maxWidth: '450px' }}>
-                            {/* <ThemeProvider theme={theme}></ThemeProvider> */}
                             <Button
                                 onClick={(event) => {
                                     event.stopPropagation();

@@ -18,7 +18,6 @@ interface Props {
     setOriginData: React.Dispatch<React.SetStateAction<SankeyData>>;
 }
 
-
 export function SideNavi({ clickedNodeLinks, clickedLink, clickedButton, clickedCluster, setClickedCluster, originData, setOriginData }: Props) {
     interface Character {
         name: string;

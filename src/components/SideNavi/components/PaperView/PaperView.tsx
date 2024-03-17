@@ -54,23 +54,20 @@ const paperVariants = {
 
 export const PaperView = ({ originData, setOriginData, clickedLink, clickedNodeLinks, clickedButton, clickedCluster }: Props) => {
     const [index, setIndex] = useState(0);
-    const renderingData: SankeyData = { ...originData }; // 정적인 데이터같아보임
+    const renderingData: SankeyData = { ...originData };
     const [leaving, setLeaving] = useState(false);
     const offset = 60;
     const toggleLeaving = () => setLeaving((prev) => !prev);
     return (
         <>
             <div className={style.paperView}>
-                {/* <div className={style.paperTitle}> */}
                 <div className={style.title}>Paper View</div>
                 <AnimatePresence initial={false} onExitComplete={toggleLeaving}>
-                    {/*페이퍼뷰에서 이미지들 필터링하여 불러주는 곳*/}
                     <Row variants={rowVariants} initial="initial" animate="visible" exit="exit" transition={{ type: 'tween', duration: 1 }} key={index}>
                         {renderingData.status
                             .slice(0)
                             .slice(offset * index, offset * index + offset)
                             .filter((paper) => {
-
                                 if (clickedNodeLinks) {
                                     const sameLink = clickedNodeLinks.find((link) => {
                                         if (link.color !== 'grayLinkColor' && paper.paperName === link.paperName) {
@@ -83,13 +80,11 @@ export const PaperView = ({ originData, setOriginData, clickedLink, clickedNodeL
                                     return sameLink ? true : false;
                                 }
                                 if (clickedLink) {
-
                                     if (paper.paperName === clickedLink.paperName) {
                                         return true;
                                     } else {
                                         return false;
                                     }
-
                                 }
                                 //Button, Network Cluster
                                 if (originData) {

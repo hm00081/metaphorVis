@@ -4,7 +4,7 @@ import './styles.scss';
 import style from './rootStyle.module.scss';
 import { SideNavi } from './components/SideNavi/SideNavi';
 import { fullData } from './Data';
-import { useEffect, useState } from 'react';
+import React, { StrictMode, useState } from 'react';
 import { SankeyData, SankeyLink, SankeyLinkExtended } from './types';
 import { PopUp } from './components/PopUp/PopUp';
 
@@ -15,7 +15,6 @@ export default function App() {
     const [clickedNodeLinks, setClickedNodeLinks] = useState<SankeyLinkExtended[]>();
     const [clickedButton, setClickedButton] = useState<SankeyLink[]>();
     const [clickedCluster, setClickedCluster] = useState<SankeyData>();
-
     const [isPopUp, setPopUp] = useState<Boolean>(false);
     const onclick = () => {
         (() => {

@@ -47,13 +47,7 @@ export const Node = ({ node, width, height, originData, sourceTargetIdLinksDict,
     if (node.value === 0) {
         node.value = 2;
     }
-    const countNonGrayLinks = (nodeNumber: number) => {
-        const connectedToSource = links.filter((link) => link.source === nodeNumber && link.color !== 'grayLinkColor').length;
-        const connectedToTarget = links.filter((link) => link.target === nodeNumber && link.color !== 'grayLinkColor').length;
-        return connectedToSource + connectedToTarget;
-    };
     //@ts-ignore
-    const nonGrayLinksCountForThisNode = countNonGrayLinks(node.number);
     const getNodeTextInfo = (nodeNumber: number) => {
         const connectedAsSource = links.filter((link) => link.source === nodeNumber && link.color !== 'grayLinkColor').length;
         const connectedAsTarget = links.filter((link) => link.target === nodeNumber && link.color !== 'grayLinkColor').length;
@@ -235,163 +229,136 @@ function findFrontLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData }
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.target === 34) {
                 renderingLink.color = 'intOneLightLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.source === 34) {
                 renderingLink.color = 'intOneLightLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.target === 35) {
                 renderingLink.color = 'intOneLight2LinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.source === 35) {
                 renderingLink.color = 'intOneLight2LinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.target >= 36 && renderingLink.target <= 38) {
                 renderingLink.color = 'intOneLight3LinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.source >= 36 && renderingLink.source <= 38) {
                 renderingLink.color = 'intOneLight3LinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.target === 39) {
                 renderingLink.color = 'intTwoLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.source === 39) {
                 renderingLink.color = 'intTwoLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.target === 40) {
                 renderingLink.color = 'intTwoLightLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.source === 40) {
                 renderingLink.color = 'intTwoLightLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.target === 41) {
                 renderingLink.color = 'intThreeLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.source === 41) {
                 renderingLink.color = 'intThreeLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.target === 42) {
                 renderingLink.color = 'intThreeLightLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.source === 42) {
                 renderingLink.color = 'intThreeLightLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.target === 43) {
                 renderingLink.color = 'intThreeLight1LinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.source === 43) {
                 renderingLink.color = 'intThreeLight1LinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.target === 44) {
                 renderingLink.color = 'intThreeLight2LinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.source === 44) {
                 renderingLink.color = 'intThreeLight2LinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.target === 45) {
                 renderingLink.color = 'intFourLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.source === 45) {
                 renderingLink.color = 'intFourLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.target === 46) {
                 renderingLink.color = 'intFiveLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.source === 46) {
                 renderingLink.color = 'intFiveLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.target >= 47 && renderingLink.target <= 48) {
                 renderingLink.color = 'intFiveLightLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.source >= 47 && renderingLink.source <= 48) {
                 renderingLink.color = 'intFiveLightLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.target === 49) {
                 renderingLink.color = 'intFiveLight2LinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.source === 49) {
                 renderingLink.color = 'intFiveLight2LinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             } else if (renderingLink.source >= 50 && renderingLink.source <= 75) {
                 renderingLink.color = linkPart.color;
             } else if (renderingLink.target >= 50 && renderingLink.target <= 75) {
@@ -402,19 +369,12 @@ function findFrontLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData }
             return false;
         }
     });
-
-    // console.log(frontLinks);
-
     frontLinks.forEach((linkPart) => {
         findFrontLinks({
             linkPart,
             renderingData,
         }); //recursive forward calculate function
     });
-
-    // result.push (itself, othhers)
-
-    // result.,foreahc
 }
 
 function findBackLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData }) {
@@ -426,189 +386,162 @@ function findBackLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData })
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.target === 34) {
                 renderingLink.color = 'intOneLightLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.source === 34) {
                 renderingLink.color = 'intOneLightLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.target === 35) {
                 renderingLink.color = 'intOneLight2LinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.source === 35) {
                 renderingLink.color = 'intOneLight2LinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.target >= 36 && renderingLink.target <= 38) {
                 renderingLink.color = 'intOneLight3LinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.source >= 36 && renderingLink.source <= 38) {
                 renderingLink.color = 'intOneLight3LinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.target === 39) {
                 renderingLink.color = 'intTwoLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.source === 39) {
                 renderingLink.color = 'intTwoLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.target === 40) {
                 renderingLink.color = 'intTwoLightLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.source === 40) {
                 renderingLink.color = 'intTwoLightLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.target === 41) {
                 renderingLink.color = 'intThreeLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.source === 41) {
                 renderingLink.color = 'intThreeLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.target === 42) {
                 renderingLink.color = 'intThreeLightLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.source === 42) {
                 renderingLink.color = 'intThreeLightLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.target === 43) {
                 renderingLink.color = 'intThreeLight1LinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.source === 43) {
                 renderingLink.color = 'intThreeLight1LinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.target === 44) {
                 renderingLink.color = 'intThreeLight2LinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.source === 44) {
                 renderingLink.color = 'intThreeLight2LinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.target === 45) {
                 renderingLink.color = 'intFourLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.source === 45) {
                 renderingLink.color = 'intFourLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.target === 46) {
                 renderingLink.color = 'intFiveLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.source === 46) {
                 renderingLink.color = 'intFiveLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.target >= 47 && renderingLink.target <= 48) {
                 renderingLink.color = 'intFiveLightLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.source >= 47 && renderingLink.source <= 48) {
                 renderingLink.color = 'intFiveLightLinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.target === 49) {
                 renderingLink.color = 'intFiveLight2LinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.source === 49) {
                 renderingLink.color = 'intFiveLight2LinkColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.source >= 50 && renderingLink.source <= 75) {
                 renderingLink.color = linkPart.color;
@@ -621,14 +554,12 @@ function findBackLinks(arg: { linkPart: SankeyLink; renderingData: SankeyData })
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
             if (renderingLink.target > 82 && renderingLink.target < 100) {
                 renderingLink.color = 'repVisTechColor';
                 renderingLink.valueid = linkPart.valueid;
 
                 renderingLink.paperName = linkPart.paperName;
-
             }
 
             return true;

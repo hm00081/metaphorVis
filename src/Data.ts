@@ -23,7 +23,6 @@ import {
     RepFs,
     RepGs,
     RepHs,
-    Emptys,
     ClusterOnes,
     ClusterTwos,
     ClusterThrees,
@@ -135,47 +134,47 @@ import {
 //@ts-ignore
 function getColorForLink(link) {
     if (link.target >= 0 && link.target <= 7) {
-        return  'targetLinkColor';
+        return 'targetLinkColor';
     } else if (link.target >= 8 && link.target <= 10) {
-        return  'targetLinkOneColor';
+        return 'targetLinkOneColor';
     } else if (link.target >= 11 && link.target <= 15) {
-        return  'targetLinkTwoColor';
+        return 'targetLinkTwoColor';
     } else if (link.target >= 16 && link.target <= 20) {
-        return  'targetLinkThreeColor';
+        return 'targetLinkThreeColor';
     } else if (link.target >= 21 && link.target <= 30) {
-        return  'targetLinkFourColor';
+        return 'targetLinkFourColor';
     } else if ((link.target >= 31 && link.target <= 33) || (link.source >= 31 && link.source <= 33)) {
-        return  'intOneLinkColor';
+        return 'intOneLinkColor';
     } else if (link.target === 34 || link.source === 34) {
-        return  'intOneLightLinkColor';
+        return 'intOneLightLinkColor';
     } else if (link.target === 35 || link.source === 35) {
-        return  'intOneLight2LinkColor';
+        return 'intOneLight2LinkColor';
     } else if ((link.target >= 36 && link.target <= 38) || (link.source >= 36 && link.source <= 38)) {
-        return  'intOneLight3LinkColor';
+        return 'intOneLight3LinkColor';
     } else if (link.target === 39 || link.source === 39) {
-        return  'intTwoLinkColor';
+        return 'intTwoLinkColor';
     } else if (link.target === 40 || link.source === 40) {
-        return  'intTwoLightLinkColor';
+        return 'intTwoLightLinkColor';
     } else if (link.target === 41 || link.source === 41) {
-        return  'intThreeLinkColor';
+        return 'intThreeLinkColor';
     } else if (link.target === 42 || link.source === 42) {
-        return  'intThreeLightLinkColor';
+        return 'intThreeLightLinkColor';
     } else if (link.target === 43 || link.source === 43) {
-        return  'intThreeLight1LinkColor';
+        return 'intThreeLight1LinkColor';
     } else if (link.target === 44 || link.source === 44) {
-        return  'intThreeLight2LinkColor';
+        return 'intThreeLight2LinkColor';
     } else if (link.target === 45 || link.source === 45) {
-        return  'intFourLinkColor';
+        return 'intFourLinkColor';
     } else if (link.target === 46 || link.source === 46) {
-        return  'intFiveLinkColor';
+        return 'intFiveLinkColor';
     } else if ((link.target >= 47 && link.target <= 48) || (link.source >= 47 && link.source <= 48)) {
-        return  'intFiveLightLinkColor';
+        return 'intFiveLightLinkColor';
     } else if (link.target === 49 || link.source === 49) {
-        return  'intFiveLight2LinkColor';
+        return 'intFiveLight2LinkColor';
     } else if (link.target >= 76 && link.target < 83) {
-        return  'repVisVarColor';
+        return 'repVisVarColor';
     } else if (link.target > 82 && link.target < 100) {
-        return  'repVisTechColor';
+        return 'repVisTechColor';
     }
 }
 
@@ -192,7 +191,7 @@ const fullData: SankeyData = {
         //@ts-ignore
         if (hasLinkInGroup(link, AllPaperDatas)) {
             //@ts-ignore
-            color = getColorForLink(link)
+            color = getColorForLink(link);
         } else {
             if (link.category === 'TargetAAs') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -221,14 +220,12 @@ const fullData: SankeyData = {
             }
             return hasLink;
         }
-    }), // 나중에 수정
+    }),
 
     //@ts-ignore
     status: statusImgSet,
-
     positionStatus: 'init',
 };
-// console.log(fullData);
 
 const basicData: SankeyData = {
     nodes: PaperNode.nodes.map((node) => {
@@ -239,31 +236,27 @@ const basicData: SankeyData = {
     }),
     links: AllPaperDatas.map((link) => {
         let color: LinkColor = 'grayLinkColor';
-        // let status: string = '';
         //@ts-ignore
         if (hasLinkInGroup(link, AllPaperDatas)) {
             color = 'grayLinkColor';
-            // console.log('blue');
         } else {
             color = 'grayLinkColor';
-            // console.log('gray');
         }
         return { ...link, color };
         function hasLinkInGroup(wantedLink: SankeyLink, linkGroup: SankeyLink[]) {
             let hasLink: boolean = false;
 
             for (let i = 0; i < linkGroup.length; i++) {
-                if (wantedLink.valueid === wantedLink.valueid) {
+                if (wantedLink.valueid) {
                     hasLink = true;
                 } else hasLink = false;
             }
             return hasLink;
         }
-    }), // 나중에 수정
+    }),
 
     //@ts-ignore
     status: statusImgSet,
-
     positionStatus: 'init',
 };
 
@@ -278,9 +271,8 @@ const targetaa: SankeyData = {
         let color: LinkColor = 'grayLinkColor';
         //@ts-ignore
         if (hasLinkInGroup(link, TargetAAs)) {
-
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
             if (link.category === 'TargetAAs') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -298,7 +290,6 @@ const targetaa: SankeyData = {
 
         function hasLinkInGroup(wantedLink: SankeyLinkExtended, linkGroup: SankeyLinkExtended[]) {
             let hasLink: boolean = false;
-            let color: string = '';
             for (let i = 0; i < linkGroup.length; i++) {
                 if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition) {
                     //TODO valueid의 타입, 개수 고려하여 분간하기. => data process 추가?
@@ -315,7 +306,6 @@ const targetaa: SankeyData = {
     }),
     //@ts-ignore
     status: statusImgSet,
-
     positionStatus: 'init',
 };
 
@@ -330,9 +320,8 @@ const targetab: SankeyData = {
         let color: LinkColor = 'grayLinkColor';
         //@ts-ignore
         if (hasLinkInGroup(link, TargetABs)) {
-
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
             if (link.category === 'TargetABs') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -350,7 +339,6 @@ const targetab: SankeyData = {
 
         function hasLinkInGroup(wantedLink: SankeyLinkExtended, linkGroup: SankeyLinkExtended[]) {
             let hasLink: boolean = false;
-            let color: string = '';
             for (let i = 0; i < linkGroup.length; i++) {
                 if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition) {
                     if (wantedLink.process === linkGroup[i].process)
@@ -380,9 +368,8 @@ const targetba: SankeyData = {
         let color: LinkColor = 'grayLinkColor';
         //@ts-ignore
         if (hasLinkInGroup(link, TargetBAs)) {
-
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
             if (link.category === 'TargetBA') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -400,7 +387,6 @@ const targetba: SankeyData = {
 
         function hasLinkInGroup(wantedLink: SankeyLinkExtended, linkGroup: SankeyLinkExtended[]) {
             let hasLink: boolean = false;
-            let color: string = '';
             for (let i = 0; i < linkGroup.length; i++) {
                 if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition) {
                     if (wantedLink.process === linkGroup[i].process)
@@ -430,9 +416,8 @@ const targetbb: SankeyData = {
         let color: LinkColor = 'grayLinkColor';
         //@ts-ignore
         if (hasLinkInGroup(link, TargetBBs)) {
-
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
             if (link.category === 'TargetBB') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -450,7 +435,6 @@ const targetbb: SankeyData = {
 
         function hasLinkInGroup(wantedLink: SankeyLinkExtended, linkGroup: SankeyLinkExtended[]) {
             let hasLink: boolean = false;
-            let color: string = '';
             for (let i = 0; i < linkGroup.length; i++) {
                 if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition) {
                     if (wantedLink.process === linkGroup[i].process)
@@ -480,9 +464,8 @@ const targetca: SankeyData = {
         let color: LinkColor = 'grayLinkColor';
         //@ts-ignore
         if (hasLinkInGroup(link, TargetCAs)) {
-
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
             if (link.category === 'TargetCAs') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -500,7 +483,6 @@ const targetca: SankeyData = {
 
         function hasLinkInGroup(wantedLink: SankeyLinkExtended, linkGroup: SankeyLinkExtended[]) {
             let hasLink: boolean = false;
-            let color: string = '';
             for (let i = 0; i < linkGroup.length; i++) {
                 if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition) {
                     if (wantedLink.process === linkGroup[i].process)
@@ -530,9 +512,8 @@ const targetcb: SankeyData = {
         let color: LinkColor = 'grayLinkColor';
         //@ts-ignore
         if (hasLinkInGroup(link, TargetCBs)) {
-
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
             if (link.category === 'TargetCB') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -550,7 +531,6 @@ const targetcb: SankeyData = {
 
         function hasLinkInGroup(wantedLink: SankeyLinkExtended, linkGroup: SankeyLinkExtended[]) {
             let hasLink: boolean = false;
-            let color: string = '';
             for (let i = 0; i < linkGroup.length; i++) {
                 if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition) {
                     if (wantedLink.process === linkGroup[i].process)
@@ -581,9 +561,8 @@ const repa: SankeyData = {
         // let status: string = '';
         //@ts-ignore
         if (hasLinkInGroup(link, RepAs)) {
-
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
             if (link.category === 'RepA') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -602,7 +581,6 @@ const repa: SankeyData = {
         function hasLinkInGroup(wantedLink: SankeyLinkExtended, linkGroup: SankeyLinkExtended[]) {
             // const [state, setState] = useState();
             let hasLink: boolean = false;
-            let color: string = '';
             for (let i = 0; i < linkGroup.length; i++) {
                 // if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition && wantedLink.valueid === 'repb') {
                 // 현재 전체 페이퍼에서 작동하는 중.
@@ -625,7 +603,6 @@ const repa: SankeyData = {
     }),
     //@ts-ignore
     status: statusImgSet,
-
     positionStatus: 'init',
 };
 
@@ -642,9 +619,8 @@ const repb: SankeyData = {
         // let status: string = '';
         //@ts-ignore
         if (hasLinkInGroup(link, RepBs)) {
-
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
             if (link.category === 'RepB') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -670,7 +646,6 @@ const repb: SankeyData = {
         function hasLinkInGroup(wantedLink: SankeyLinkExtended, linkGroup: SankeyLinkExtended[]) {
             // const [state, setState] = useState();
             let hasLink: boolean = false;
-            let color: string = '';
             for (let i = 0; i < linkGroup.length; i++) {
                 // if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition && wantedLink.valueid === 'repb') {
                 // 현재 전체 페이퍼에서 작동하는 중.
@@ -694,7 +669,6 @@ const repb: SankeyData = {
 
     //@ts-ignore
     status: statusImgSet,
-
     positionStatus: 'init',
 };
 
@@ -710,9 +684,8 @@ const repc: SankeyData = {
         // let status: string = '';
         //@ts-ignore
         if (hasLinkInGroup(link, RepCs)) {
-
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
             if (link.category === 'RepC') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -731,7 +704,6 @@ const repc: SankeyData = {
         function hasLinkInGroup(wantedLink: SankeyLinkExtended, linkGroup: SankeyLinkExtended[]) {
             // const [state, setState] = useState();
             let hasLink: boolean = false;
-            let color: string = '';
             for (let i = 0; i < linkGroup.length; i++) {
                 // if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition && wantedLink.valueid === 'repb') {
                 // 현재 전체 페이퍼에서 작동하는 중.
@@ -754,7 +726,6 @@ const repc: SankeyData = {
     }),
     //@ts-ignore
     status: statusImgSet,
-
     positionStatus: 'init',
 };
 
@@ -770,9 +741,8 @@ const repd: SankeyData = {
         // let status: string = '';
         //@ts-ignore
         if (hasLinkInGroup(link, RepDs)) {
-
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
             if (link.category === 'RepD') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -791,7 +761,6 @@ const repd: SankeyData = {
         function hasLinkInGroup(wantedLink: SankeyLinkExtended, linkGroup: SankeyLinkExtended[]) {
             // const [state, setState] = useState();
             let hasLink: boolean = false;
-            let color: string = '';
             for (let i = 0; i < linkGroup.length; i++) {
                 // if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition && wantedLink.valueid === 'repb') {
                 // 현재 전체 페이퍼에서 작동하는 중.
@@ -814,7 +783,6 @@ const repd: SankeyData = {
     }),
     //@ts-ignore
     status: statusImgSet,
-
     positionStatus: 'init',
 };
 
@@ -830,9 +798,8 @@ const repea: SankeyData = {
         // let status: string = '';
         //@ts-ignore
         if (hasLinkInGroup(link, RepEAs)) {
-
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
             if (link.category === 'RepEA') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -851,7 +818,6 @@ const repea: SankeyData = {
         function hasLinkInGroup(wantedLink: SankeyLinkExtended, linkGroup: SankeyLinkExtended[]) {
             // const [state, setState] = useState();
             let hasLink: boolean = false;
-            let color: string = '';
             for (let i = 0; i < linkGroup.length; i++) {
                 // if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition && wantedLink.valueid === 'repb') {
                 // 현재 전체 페이퍼에서 작동하는 중.
@@ -874,7 +840,6 @@ const repea: SankeyData = {
     }),
     //@ts-ignore
     status: statusImgSet,
-
     positionStatus: 'init',
 };
 
@@ -890,9 +855,8 @@ const repeb: SankeyData = {
         // let status: string = '';
         //@ts-ignore
         if (hasLinkInGroup(link, RepEBs)) {
-
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
             if (link.category === 'RepEB') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -911,7 +875,6 @@ const repeb: SankeyData = {
         function hasLinkInGroup(wantedLink: SankeyLinkExtended, linkGroup: SankeyLinkExtended[]) {
             // const [state, setState] = useState();
             let hasLink: boolean = false;
-            let color: string = '';
             for (let i = 0; i < linkGroup.length; i++) {
                 // if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition && wantedLink.valueid === 'repb') {
                 // 현재 전체 페이퍼에서 작동하는 중.
@@ -934,7 +897,6 @@ const repeb: SankeyData = {
     }),
     //@ts-ignore
     status: statusImgSet,
-
     positionStatus: 'init',
 };
 
@@ -950,8 +912,8 @@ const repf: SankeyData = {
         // let status: string = '';
         //@ts-ignore
         if (hasLinkInGroup(link, RepFs)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
             if (link.category === 'RepF') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -984,7 +946,6 @@ const repf: SankeyData = {
     }),
     //@ts-ignore
     status: statusImgSet,
-
     positionStatus: 'init',
 };
 
@@ -1000,8 +961,8 @@ const repg: SankeyData = {
         // let status: string = '';
         //@ts-ignore
         if (hasLinkInGroup(link, RepGs)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
             if (link.category === 'RepG') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -1020,7 +981,6 @@ const repg: SankeyData = {
         function hasLinkInGroup(wantedLink: SankeyLinkExtended, linkGroup: SankeyLinkExtended[]) {
             // const [state, setState] = useState();
             let hasLink: boolean = false;
-            let color: string = '';
             for (let i = 0; i < linkGroup.length; i++) {
                 // if (wantedLink.sourceNodeYPosition === linkGroup[i].sourceNodeYPosition && wantedLink.valueid === 'repb') {
                 // 현재 전체 페이퍼에서 작동하는 중.
@@ -1043,7 +1003,6 @@ const repg: SankeyData = {
     }),
     //@ts-ignore
     status: statusImgSet,
-
     positionStatus: 'init',
 };
 
@@ -1057,8 +1016,8 @@ const reph: SankeyData = {
     links: RepHs.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, RepHs)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
             if (link.category === 'RepH') {
                 // category는 현재 아무런 기능이 필요하지 않아보임.
@@ -1105,8 +1064,8 @@ const clusterone: SankeyData = {
     links: ClusterOnes.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, ClusterOnes)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -1141,8 +1100,8 @@ const clustertwo: SankeyData = {
     links: ClusterTwos.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, ClusterTwos)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -1177,8 +1136,8 @@ const clusterthree: SankeyData = {
     links: ClusterThrees.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, ClusterThrees)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -1213,8 +1172,8 @@ const clusterfour: SankeyData = {
     links: ClusterFours.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, ClusterFours)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -1249,8 +1208,8 @@ const debatelist: SankeyData = {
     links: DebateLists.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, DebateLists)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -1285,8 +1244,8 @@ const tic3: SankeyData = {
     links: TIC3Cluster.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, TIC3Cluster)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -1321,8 +1280,8 @@ const tic4: SankeyData = {
     links: TIC4Cluster.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, TIC4Cluster)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -1357,8 +1316,8 @@ const tic5: SankeyData = {
     links: TIC5Cluster.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, TIC5Cluster)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -1393,8 +1352,8 @@ const tic6: SankeyData = {
     links: TIC6Cluster.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, TIC6Cluster)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -1429,8 +1388,8 @@ const rvc1: SankeyData = {
     links: RVC1Cluster.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, RVC1Cluster)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -1465,8 +1424,8 @@ const rvc2: SankeyData = {
     links: RVC2Cluster.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, RVC2Cluster)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -1501,8 +1460,8 @@ const rvc3: SankeyData = {
     links: RVC3Cluster.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, RVC3Cluster)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -1537,8 +1496,8 @@ const rtc1: SankeyData = {
     links: RTC1Cluster.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, RTC1Cluster)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -1573,8 +1532,8 @@ const rtc2: SankeyData = {
     links: RTC2Cluster.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, RTC2Cluster)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -1609,8 +1568,8 @@ const rtc3: SankeyData = {
     links: RTC3Cluster.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, RTC3Cluster)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -1645,8 +1604,8 @@ const rtc4: SankeyData = {
     links: RTC4Cluster.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, RTC4Cluster)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -1681,8 +1640,8 @@ const int1: SankeyData = {
     links: Int1s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int1s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -1717,8 +1676,8 @@ const int2: SankeyData = {
     links: Int2s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int2s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -1753,8 +1712,8 @@ const int3: SankeyData = {
     links: Int3s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int3s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -1789,8 +1748,8 @@ const int4: SankeyData = {
     links: Int4s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int4s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -1825,8 +1784,8 @@ const int5: SankeyData = {
     links: Int5s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int5s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -1861,8 +1820,8 @@ const int5a: SankeyData = {
     links: Int5as.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int5as)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -1897,8 +1856,8 @@ const int6: SankeyData = {
     links: Int6s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int6s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -1933,8 +1892,8 @@ const int7: SankeyData = {
     links: Int7s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int7s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -1969,8 +1928,8 @@ const int8: SankeyData = {
     links: Int8s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int8s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2005,8 +1964,8 @@ const int9: SankeyData = {
     links: Int9s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int9s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2041,8 +2000,8 @@ const int10: SankeyData = {
     links: Int10s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int10s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2077,8 +2036,8 @@ const int11: SankeyData = {
     links: Int11s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int11s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2113,8 +2072,8 @@ const int12: SankeyData = {
     links: Int12s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int12s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2149,8 +2108,8 @@ const int13: SankeyData = {
     links: Int13s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int13s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2185,8 +2144,8 @@ const int14: SankeyData = {
     links: Int14s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int14s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2221,8 +2180,8 @@ const int15: SankeyData = {
     links: Int15s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int15s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2257,8 +2216,8 @@ const int16: SankeyData = {
     links: Int16s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Int16s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2293,8 +2252,8 @@ const rep1: SankeyData = {
     links: Rep1s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep1s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2329,8 +2288,8 @@ const rep2: SankeyData = {
     links: Rep2s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep2s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2365,8 +2324,8 @@ const rep3: SankeyData = {
     links: Rep3s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep3s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2401,8 +2360,8 @@ const rep4: SankeyData = {
     links: Rep4s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep4s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2437,8 +2396,8 @@ const rep5: SankeyData = {
     links: Rep5s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep5s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2473,8 +2432,8 @@ const rep6: SankeyData = {
     links: Rep6s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep6s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2509,8 +2468,8 @@ const rep7: SankeyData = {
     links: Rep7s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep7s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2545,8 +2504,8 @@ const rep8: SankeyData = {
     links: Rep8s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep8s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2581,8 +2540,8 @@ const rep9: SankeyData = {
     links: Rep9s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep9s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2617,8 +2576,8 @@ const rep10: SankeyData = {
     links: Rep10s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep10s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2653,8 +2612,8 @@ const rep11: SankeyData = {
     links: Rep11s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep11s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2689,8 +2648,8 @@ const rep12: SankeyData = {
     links: Rep12s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep12s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2725,8 +2684,8 @@ const rep13: SankeyData = {
     links: Rep13s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep13s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2761,8 +2720,8 @@ const rep14: SankeyData = {
     links: Rep14s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep14s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2797,8 +2756,8 @@ const rep15: SankeyData = {
     links: Rep15s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep15s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2833,8 +2792,8 @@ const rep16: SankeyData = {
     links: Rep16s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep16s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2869,8 +2828,8 @@ const rep17: SankeyData = {
     links: Rep17s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep17s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2905,8 +2864,8 @@ const rep18: SankeyData = {
     links: Rep18s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep18s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2941,8 +2900,8 @@ const rep19: SankeyData = {
     links: Rep19s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep19s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -2977,8 +2936,8 @@ const rep20: SankeyData = {
     links: Rep20s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep20s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3013,8 +2972,8 @@ const rep21: SankeyData = {
     links: Rep21s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep21s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3049,8 +3008,8 @@ const rep22: SankeyData = {
     links: Rep22s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep22s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3085,8 +3044,8 @@ const rep23: SankeyData = {
     links: Rep23s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep23s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3121,8 +3080,8 @@ const rep24: SankeyData = {
     links: Rep24s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Rep24s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3157,8 +3116,8 @@ const var1: SankeyData = {
     links: Var1s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Var1s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3195,8 +3154,8 @@ const var2: SankeyData = {
     links: Var2s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Var2s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3231,8 +3190,8 @@ const var3: SankeyData = {
     links: Var3s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Var3s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3267,8 +3226,8 @@ const var4: SankeyData = {
     links: Var4s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Var4s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3303,8 +3262,8 @@ const var5: SankeyData = {
     links: Var5s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Var5s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3339,8 +3298,8 @@ const var6: SankeyData = {
     links: Var6s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Var6s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3375,8 +3334,8 @@ const var7: SankeyData = {
     links: Var7s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Var7s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3411,8 +3370,8 @@ const tec1: SankeyData = {
     links: Tec1s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec1s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3447,8 +3406,8 @@ const tec2: SankeyData = {
     links: Tec2s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec2s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3483,8 +3442,8 @@ const tec3: SankeyData = {
     links: Tec3s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec3s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3519,8 +3478,8 @@ const tec4: SankeyData = {
     links: Tec4s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec4s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3555,8 +3514,8 @@ const tec5: SankeyData = {
     links: Tec5s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec5s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3591,8 +3550,8 @@ const tec6: SankeyData = {
     links: Tec6s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec6s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3627,8 +3586,8 @@ const tec7: SankeyData = {
     links: Tec7s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec7s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3663,8 +3622,8 @@ const tec8: SankeyData = {
     links: Tec8s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec8s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3699,8 +3658,8 @@ const tec9: SankeyData = {
     links: Tec9s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec9s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3735,8 +3694,8 @@ const tec10: SankeyData = {
     links: Tec10s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec10s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3771,8 +3730,8 @@ const tec11: SankeyData = {
     links: Tec11s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec11s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3807,8 +3766,8 @@ const tec12: SankeyData = {
     links: Tec12s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec12s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3843,8 +3802,8 @@ const tec13: SankeyData = {
     links: Tec13s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec13s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3879,8 +3838,8 @@ const tec14: SankeyData = {
     links: Tec14s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec14s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3915,8 +3874,8 @@ const tec15: SankeyData = {
     links: Tec15s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tec15s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3951,8 +3910,8 @@ const tar11: SankeyData = {
     links: Tar11s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar11s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -3987,8 +3946,8 @@ const tar12: SankeyData = {
     links: Tar12s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar12s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4023,8 +3982,8 @@ const tar13: SankeyData = {
     links: Tar13s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar13s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4059,8 +4018,8 @@ const tar14: SankeyData = {
     links: Tar14s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar14s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4095,8 +4054,8 @@ const tar15: SankeyData = {
     links: Tar15s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar15s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4131,8 +4090,8 @@ const tar16: SankeyData = {
     links: Tar16s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar16s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4167,8 +4126,8 @@ const tar17: SankeyData = {
     links: Tar17s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar17s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4203,8 +4162,8 @@ const tar18: SankeyData = {
     links: Tar18s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar18s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4239,8 +4198,8 @@ const tar19: SankeyData = {
     links: Tar19s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar19s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4275,8 +4234,8 @@ const tar20: SankeyData = {
     links: Tar20s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar20s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4311,8 +4270,8 @@ const tar1: SankeyData = {
     links: Tar1s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar1s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4347,8 +4306,8 @@ const tar2: SankeyData = {
     links: Tar2s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar2s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4383,8 +4342,8 @@ const tar3: SankeyData = {
     links: Tar3s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar3s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4419,8 +4378,8 @@ const tar4: SankeyData = {
     links: Tar4s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar4s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4455,8 +4414,8 @@ const tar5: SankeyData = {
     links: Tar5s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar5s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4491,8 +4450,8 @@ const tar6: SankeyData = {
     links: Tar6s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar6s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4527,8 +4486,8 @@ const tar7: SankeyData = {
     links: Tar7s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar7s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4563,8 +4522,8 @@ const tar8: SankeyData = {
     links: Tar8s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar8s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4599,8 +4558,8 @@ const tar9: SankeyData = {
     links: Tar9s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar9s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4635,8 +4594,8 @@ const tar10: SankeyData = {
     links: Tar10s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar10s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4671,8 +4630,8 @@ const tar21: SankeyData = {
     links: Tar21s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar21s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4707,8 +4666,8 @@ const tar22: SankeyData = {
     links: Tar22s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar22s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4742,8 +4701,8 @@ const tar23: SankeyData = {
     links: Tar23s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar23s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4778,8 +4737,8 @@ const tar24: SankeyData = {
     links: Tar24s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar24s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4814,8 +4773,8 @@ const tar25: SankeyData = {
     links: Tar25s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar25s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4850,8 +4809,8 @@ const tar26: SankeyData = {
     links: Tar26s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar26s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
@@ -4886,8 +4845,8 @@ const tar27: SankeyData = {
     links: Tar27s.map((link) => {
         let color: LinkColor = 'grayLinkColor';
         if (hasLinkInGroup(link, Tar27s)) {
-                    //@ts-ignore
-            color = getColorForLink(link)
+            //@ts-ignore
+            color = getColorForLink(link);
         } else {
         }
         return {
